@@ -1,0 +1,2 @@
+[console_scripts]
+iceberg = iceberg.cli:app
