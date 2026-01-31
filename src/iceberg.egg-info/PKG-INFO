@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: iceberg
+Version: 0.1.0
+Summary: Visualize the FLOSS iceberg effect - how dependencies make up the bulk of modern codebases
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typer>=0.12.0
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: httpx>=0.27.0
+Requires-Dist: beautifulsoup4>=4.12.0
+Dynamic: license-file
+
+# iceberg
+The code you see if just the beginning

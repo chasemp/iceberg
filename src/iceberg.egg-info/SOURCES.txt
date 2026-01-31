@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/iceberg/__init__.py
+src/iceberg.egg-info/PKG-INFO
+src/iceberg.egg-info/SOURCES.txt
+src/iceberg.egg-info/dependency_links.txt
+src/iceberg.egg-info/entry_points.txt
+src/iceberg.egg-info/requires.txt
+src/iceberg.egg-info/top_level.txt
+tests/test_smoke.py

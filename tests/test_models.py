@@ -1,0 +1,147 @@
+import pytest
+from pydantic import ValidationError
+
+
+def test_trending_repo_validates_with_valid_data() -> None:
+    from iceberg.models import TrendingRepo
+
+    repo = TrendingRepo(
+        name="example",
+        owner="owner",
+        url="https://github.com/owner/example",
+        description="A test repo",
+        language="Python",
+        stars=100,
+    )
+
+    assert repo.name == "example"
+    assert repo.owner == "owner"
+    assert repo.stars == 100
+
+
+def test_trending_repo_is_frozen() -> None:
+    from iceberg.models import TrendingRepo
+
+    repo = TrendingRepo(
+        name="example",
+        owner="owner",
+        url="https://github.com/owner/example",
+        description="A test repo",
+        language="Python",
+        stars=100,
+    )
+
+    with pytest.raises(ValidationError):
+        repo.stars = 200  # type: ignore[misc]
+
+
+def test_trending_repo_allows_none_for_optional_fields() -> None:
+    from iceberg.models import TrendingRepo
+
+    repo = TrendingRepo(
+        name="example",
+        owner="owner",
+        url="https://github.com/owner/example",
+        description=None,
+        language=None,
+        stars=0,
+    )
+
+    assert repo.description is None
+    assert repo.language is None
+
+
+def test_package_identifier_validates_with_valid_data() -> None:
+    from iceberg.models import PackageIdentifier
+
+    pkg = PackageIdentifier(
+        system="npm",
+        name="react",
+        version="18.2.0",
+    )
+
+    assert pkg.system == "npm"
+    assert pkg.name == "react"
+    assert pkg.version == "18.2.0"
+
+
+def test_package_identifier_is_frozen() -> None:
+    from iceberg.models import PackageIdentifier
+
+    pkg = PackageIdentifier(
+        system="pypi",
+        name="requests",
+        version="2.31.0",
+    )
+
+    with pytest.raises(ValidationError):
+        pkg.version = "2.32.0"  # type: ignore[misc]
+
+
+def test_package_identifier_rejects_invalid_system() -> None:
+    from iceberg.models import PackageIdentifier
+
+    with pytest.raises(ValidationError):
+        PackageIdentifier(
+            system="invalid",  # type: ignore[arg-type]
+            name="test",
+            version="1.0.0",
+        )
+
+
+def test_loc_metrics_validates_with_valid_data() -> None:
+    from iceberg.models import LocMetrics, PackageIdentifier
+
+    pkg = PackageIdentifier(
+        system="npm",
+        name="react",
+        version="18.2.0",
+    )
+
+    metrics = LocMetrics(
+        package=pkg,
+        total_lines=10000,
+        source="depsdev",
+        cached_at="2026-01-30T12:00:00Z",
+    )
+
+    assert metrics.total_lines == 10000
+    assert metrics.source == "depsdev"
+
+
+def test_loc_metrics_is_frozen() -> None:
+    from iceberg.models import LocMetrics, PackageIdentifier
+
+    pkg = PackageIdentifier(
+        system="npm",
+        name="react",
+        version="18.2.0",
+    )
+
+    metrics = LocMetrics(
+        package=pkg,
+        total_lines=10000,
+        source="depsdev",
+        cached_at="2026-01-30T12:00:00Z",
+    )
+
+    with pytest.raises(ValidationError):
+        metrics.total_lines = 20000  # type: ignore[misc]
+
+
+def test_loc_metrics_rejects_invalid_source() -> None:
+    from iceberg.models import LocMetrics, PackageIdentifier
+
+    pkg = PackageIdentifier(
+        system="npm",
+        name="react",
+        version="18.2.0",
+    )
+
+    with pytest.raises(ValidationError):
+        LocMetrics(
+            package=pkg,
+            total_lines=10000,
+            source="invalid",  # type: ignore[arg-type]
+            cached_at="2026-01-30T12:00:00Z",
+        )
