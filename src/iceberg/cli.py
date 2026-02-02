@@ -102,7 +102,10 @@ def analyze(
                 version=version,
             )
 
-        project_loc = get_project_loc(owner, name)
+        try:
+            project_loc = get_project_loc(owner, name)
+        except Exception:
+            project_loc = None
 
         try:
             total_loc = calculate_transitive_loc(pkg, cache_dir=cache_dir)
@@ -110,7 +113,7 @@ def analyze(
         except (DepsDevError, Exception):
             if not json_output:
                 typer.echo(
-                    f"⚠️  Package not found in {pkg.system}. "
+                    f"⚠️  Package not published to {pkg.system}. "
                     "Analyzing from manifest...\n"
                 )
 
