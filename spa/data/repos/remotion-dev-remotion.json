@@ -1,0 +1,24 @@
+{
+  "owner": "remotion-dev",
+  "repo": "remotion",
+  "full_name": "remotion-dev/remotion",
+  "url": "https://github.com/remotion-dev/remotion",
+  "analysis": {
+    "owner": "remotion-dev",
+    "repo": "remotion",
+    "version": "HEAD",
+    "loc": 654333,
+    "source": "github_clone",
+    "cached_at": "2026-02-02T19:14:56.587824+00:00",
+    "package": {
+      "system": "npm",
+      "name": "remotion-monorepo",
+      "version": "0.0.0"
+    },
+    "repo_url": "https://github.com/remotion-dev/remotion.git",
+    "ref": "HEAD",
+    "commit_hash": "247a924fa691e420fb4e63f69dfdda49d1757bc3",
+    "clone_duration_seconds": 42.46440505981445,
+    "count_duration_seconds": 0.6228330135345459
+  }
+}

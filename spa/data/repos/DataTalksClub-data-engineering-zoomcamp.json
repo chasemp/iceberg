@@ -1,0 +1,19 @@
+{
+  "owner": "DataTalksClub",
+  "repo": "data-engineering-zoomcamp",
+  "full_name": "DataTalksClub/data-engineering-zoomcamp",
+  "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+  "analysis": {
+    "owner": "DataTalksClub",
+    "repo": "data-engineering-zoomcamp",
+    "version": "HEAD",
+    "loc": 2721,
+    "source": "github_clone",
+    "cached_at": "2026-02-02T19:27:37.819773+00:00",
+    "repo_url": "https://github.com/DataTalksClub/data-engineering-zoomcamp.git",
+    "ref": "HEAD",
+    "commit_hash": "4287ca46be54ac37d44b6fcd4adbdb7576a7653a",
+    "clone_duration_seconds": 1.3465280532836914,
+    "count_duration_seconds": 0.019989013671875
+  }
+}

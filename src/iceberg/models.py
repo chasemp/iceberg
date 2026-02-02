@@ -23,7 +23,7 @@ TrendingRepo = DiscoveredRepo
 class PackageIdentifier(BaseModel):
     model_config = ConfigDict(frozen=True)
 
-    system: Literal["npm", "pypi", "cargo", "maven"]
+    system: Literal["npm", "pypi", "cargo", "maven", "go"]
     name: str
     version: str
 

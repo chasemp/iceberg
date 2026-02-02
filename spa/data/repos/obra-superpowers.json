@@ -1,0 +1,19 @@
+{
+  "owner": "obra",
+  "repo": "superpowers",
+  "full_name": "obra/superpowers",
+  "url": "https://github.com/obra/superpowers",
+  "analysis": {
+    "owner": "obra",
+    "repo": "superpowers",
+    "version": "HEAD",
+    "loc": 473,
+    "source": "github_clone",
+    "cached_at": "2026-02-02T19:14:09.534758+00:00",
+    "repo_url": "https://github.com/obra/superpowers.git",
+    "ref": "HEAD",
+    "commit_hash": "06b92f36820f38175b2ed6ff3f8df45157d54731",
+    "clone_duration_seconds": 0.9259560108184814,
+    "count_duration_seconds": 0.005010843276977539
+  }
+}

@@ -143,35 +143,19 @@ def fetch(
 
                 # Analyze the repo
                 try:
-                    from iceberg.cache import save_project_loc
+                    from iceberg.calculator import analyze_repository
 
-                    github_result = get_github_project_loc(repo.owner, repo.name, cache_dir=cache_dir, ref=ref_to_analyze)
+                    result = analyze_repository(
+                        owner=repo.owner,
+                        repo=repo.name,
+                        package_spec=None,  # Auto-detect
+                        cache_dir=cache_dir,
+                    )
 
-                    if github_result:
-                        # Use commit hash as cache key if analyzing HEAD
-                        commit_hash = github_result["metadata"].get("commit_hash")
-                        cache_version = version_for_cache
-                        if use_commit_hash and commit_hash:
-                            cache_version = commit_hash[:8]
-
-                        # Save to cache
-                        project_data = {
-                            "owner": repo.owner,
-                            "repo": repo.name,
-                            "version": cache_version,
-                            "loc": github_result["loc"],
-                            "source": github_result["source"],
-                            "cached_at": datetime.now(timezone.utc).isoformat(),
-                            "ref": github_result["metadata"]["ref"],
-                            "commit_hash": commit_hash,
-                            "repo_url": github_result["metadata"]["repo_url"],
-                            "clone_duration_seconds": github_result["metadata"]["clone_duration_seconds"],
-                            "count_duration_seconds": github_result["metadata"]["count_duration_seconds"],
-                        }
-                        save_project_loc(project_data, cache_dir=cache_dir)
-
-                        display_version = f"{cache_version} ({commit_hash[:8]})" if use_commit_hash and commit_hash else cache_version
-                        typer.echo(f"  ✓ {github_result['loc']:,} LoC [{display_version}]\n")
+                    if result:
+                        typer.echo(f"  ✓ Project: {result['project_loc']:,} LoC")
+                        typer.echo(f"  ✓ Dependencies: {result['total_loc']:,} LoC")
+                        typer.echo(f"  ✓ Iceberg Ratio: {result['ratio']:.1%}\n")
                     else:
                         typer.echo(f"  ✗ Could not analyze\n")
                 except Exception as ex:
@@ -436,10 +420,11 @@ def export(
         
         results = export_all(output_dir, cache_dir=cache_dir)
         
-        typer.echo(f"✓ Exported {results[\"discovery_index\"][\"dimensions_exported\"]} discovery dimensions")
-        typer.echo(f"✓ Exported {results[\"repository_details\"][\"repos_exported\"]} repository details")
-        typer.echo(f"
-Data exported to: {output_dir}")
+        typer.echo(f"✓ Exported {results['discovery_index']['dimensions_exported']} discovery dimensions")
+        typer.echo(f"✓ Exported {results['repository_details']['repos_exported']} repository details")
+        typer.echo(f"✓ Exported {results['dependency_graphs']['graphs_exported']} dependency graphs")
+        typer.echo(f"✓ Exported {results['dependency_rankings']['packages_exported']} dependency rankings")
+        typer.echo(f"\nData exported to: {output_dir}")
         
     except Exception as e:
         typer.echo(f"Error exporting data: {e}", err=True)

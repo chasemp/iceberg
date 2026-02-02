@@ -1,0 +1,13 @@
+{
+  "owner": "anthropics",
+  "repo": "claude-plugins-official",
+  "version": "HEAD",
+  "loc": 1918,
+  "source": "github_clone",
+  "cached_at": "2026-02-02T19:27:30.051766+00:00",
+  "repo_url": "https://github.com/anthropics/claude-plugins-official.git",
+  "ref": "HEAD",
+  "commit_hash": "27d2b86d72da27c64585150857cee8472ad47abb",
+  "clone_duration_seconds": 1.0709619522094727,
+  "count_duration_seconds": 0.018509864807128906
+}

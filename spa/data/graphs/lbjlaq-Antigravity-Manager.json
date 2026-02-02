@@ -1,0 +1,16 @@
+{
+  "owner": "lbjlaq",
+  "repo": "Antigravity-Manager",
+  "full_name": "lbjlaq/Antigravity-Manager",
+  "root_package": "npm:antigravity-tools:4.0.14",
+  "nodes": [
+    {
+      "id": "npm:antigravity-tools:4.0.14",
+      "system": "npm",
+      "name": "antigravity-tools",
+      "version": "4.0.14"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-02T19:27:45.674885+00:00"
+}

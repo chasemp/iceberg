@@ -110,21 +110,64 @@ def parse_maven_pom_xml(content: str) -> PackageIdentifier | None:
     return None
 
 
+def parse_go_mod(content: str, owner: str, repo: str) -> PackageIdentifier | None:
+    """Parse Go go.mod file.
+
+    Note: Go modules don't have explicit versions in go.mod.
+    Uses v0.0.0 as default version (can be improved to fetch from Git tags).
+    """
+    try:
+        module_match = re.search(r'module\s+(\S+)', content)
+
+        if module_match:
+            module_path = module_match.group(1)
+
+            return PackageIdentifier(
+                system="go",
+                name=module_path,
+                version="v0.0.0",  # Default version
+            )
+    except Exception:
+        pass
+    return None
+
+
 def detect_package(owner: str, repo: str) -> PackageIdentifier | None:
     """Detect package ecosystem and extract package identifier."""
 
-    detectors = [
-        ("package.json", parse_npm_package_json),
-        ("pyproject.toml", parse_pypi_pyproject_toml),
-        ("Cargo.toml", parse_cargo_toml),
-        ("pom.xml", parse_maven_pom_xml),
-    ]
+    # Try npm
+    content = fetch_file(owner, repo, "package.json")
+    if content:
+        pkg = parse_npm_package_json(content)
+        if pkg:
+            return pkg
 
-    for filename, parser in detectors:
-        content = fetch_file(owner, repo, filename)
-        if content:
-            pkg = parser(content)
-            if pkg:
-                return pkg
+    # Try Python
+    content = fetch_file(owner, repo, "pyproject.toml")
+    if content:
+        pkg = parse_pypi_pyproject_toml(content)
+        if pkg:
+            return pkg
+
+    # Try Rust
+    content = fetch_file(owner, repo, "Cargo.toml")
+    if content:
+        pkg = parse_cargo_toml(content)
+        if pkg:
+            return pkg
+
+    # Try Maven
+    content = fetch_file(owner, repo, "pom.xml")
+    if content:
+        pkg = parse_maven_pom_xml(content)
+        if pkg:
+            return pkg
+
+    # Try Go
+    content = fetch_file(owner, repo, "go.mod")
+    if content:
+        pkg = parse_go_mod(content, owner, repo)
+        if pkg:
+            return pkg
 
     return None

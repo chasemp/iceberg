@@ -1,0 +1,18 @@
+{
+  "owner": "karpathy",
+  "repo": "nanochat",
+  "full_name": "karpathy/nanochat",
+  "url": "https://github.com/karpathy/nanochat",
+  "analysis": {
+    "owner": "karpathy",
+    "repo": "nanochat",
+    "version": "HEAD",
+    "loc": 6174,
+    "source": "github_clone",
+    "cached_at": "2026-02-02T17:52:54.831003+00:00",
+    "ref": "HEAD",
+    "repo_url": "https://github.com/karpathy/nanochat.git",
+    "clone_duration_seconds": 0.976768970489502,
+    "count_duration_seconds": 0.004364967346191406
+  }
+}

@@ -1,0 +1,26 @@
+Iceberg - TODO List
+====================
+
+## Contributor Statistics
+- [ ] Add contributor stats tracking (unique committers over time periods)
+- [ ] Endpoint: GET /repos/{owner}/{repo}/stats/contributors
+- [ ] Track: total all-time, active last month, active last 12 months
+- [ ] Rate limit: 5,000/hour (authenticated), need graceful handling
+- [ ] Note: First API call triggers computation (may return 202), subsequent calls cached
+- [ ] Implementation:
+  - New function in github_stats.py or similar
+  - Add to analyze_repository() with verbose logging
+  - Save in project data (contributors_total, contributors_1m, contributors_12m)
+  - Display in SPA repository detail modal
+
+## SPA Improvements
+- [ ] (Add items as identified)
+
+## Other Future Ideas
+- [ ] Improve Go module version detection (fetch from Git tags instead of v0.0.0)
+- [ ] Add support for more package ecosystems (NuGet, RubyGems, etc.)
+- [ ] Add dependency graph visualization in SPA
+- [ ] Add filtering by AI tool usage in discovery browser
+- [ ] Add sorting options for repositories (by LoC, stars, ratio, etc.)
+- [ ] Add search functionality in SPA
+- [ ] Export data to CSV/JSON for external analysis
