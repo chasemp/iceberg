@@ -8,7 +8,8 @@ let state = {
         source: 'all',
         timeframe: 'all',
         language: 'all',
-        aiTools: 'all'
+        aiTools: 'all',
+        onlyWithDeps: false  // New: toggle to show only repos with dependencies
     },
     sort: 'stars-desc',
     searchQuery: '',
@@ -117,6 +118,17 @@ function setupEventListeners() {
     document.getElementById('repo-search').addEventListener('input', (e) => {
         state.searchQuery = e.target.value;
         // Re-render current dimension with new search
+        if (state.selectedDimension) {
+            const dimension = state.index.dimensions.find(d => d.id === state.selectedDimension);
+            if (dimension) {
+                renderRepositories(dimension);
+            }
+        }
+    });
+
+    document.getElementById('deps-toggle').addEventListener('change', (e) => {
+        state.filters.onlyWithDeps = e.target.checked;
+        // Re-render current dimension with new filter
         if (state.selectedDimension) {
             const dimension = state.index.dimensions.find(d => d.id === state.selectedDimension);
             if (dimension) {
@@ -468,6 +480,19 @@ async function renderRepositories(dimension) {
         });
     }
 
+    // Apply dependencies filter
+    if (state.filters.onlyWithDeps) {
+        // Filter to only show repos that have dependency analysis data
+        const reposWithDepsData = [];
+        for (const repo of repos) {
+            const hasAnalysis = await hasDepAnalysis(repo);
+            if (hasAnalysis) {
+                reposWithDepsData.push(repo);
+            }
+        }
+        repos = reposWithDepsData;
+    }
+
     // Apply sorting
     repos = sortRepositories(repos, state.sort);
 
@@ -539,6 +564,19 @@ function sortRepositories(repos, sortBy) {
     }
 
     return sorted;
+}
+
+async function hasDepAnalysis(repo) {
+    // Quick check if repo has dependency analysis data
+    const fileName = `${repo.owner}-${repo.name}.json`;
+    try {
+        const response = await fetch(`data/repos/${fileName}`);
+        if (!response.ok) return false;
+        const data = await response.json();
+        return data.analysis && data.analysis.total_loc !== null && data.analysis.total_loc !== undefined;
+    } catch (error) {
+        return false;
+    }
 }
 
 async function createRepoBar(repo) {
