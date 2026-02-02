@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iceberg - Repository Dependency Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🧊 Iceberg</h1>
+            <p class="tagline">Visualizing the hidden mass of software dependencies</p>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab-button active" data-tab="discovery">Discovery</button>
+            <button class="tab-button" data-tab="rankings">Rankings</button>
+            <button class="tab-button" data-tab="about">About</button>
+        </nav>
+
+        <!-- Discovery Tab -->
+        <div id="discovery-tab" class="tab-content active">
+            <section class="filters">
+                <h2>Filter Discovery Dimensions</h2>
+                <div class="filter-group">
+                    <label for="source-filter">Source:</label>
+                    <select id="source-filter">
+                        <option value="all">All Sources</option>
+                        <option value="trending">Trending</option>
+                        <option value="search">Search</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="timeframe-filter">Timeframe:</label>
+                    <select id="timeframe-filter">
+                        <option value="all">All Timeframes</option>
+                        <option value="daily">Daily</option>
+                        <option value="weekly">Weekly</option>
+                        <option value="monthly">Monthly</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="language-filter">Language:</label>
+                    <select id="language-filter">
+                        <option value="all">All Languages</option>
+                    </select>
+                </div>
+            </section>
+
+            <section class="dimensions">
+                <h2>Discovery Dimensions</h2>
+                <div id="dimensions-list" class="dimensions-grid">
+                    <p class="loading">Loading dimensions...</p>
+                </div>
+            </section>
+
+            <section class="repositories">
+                <h2 id="repos-title">Repositories</h2>
+                <div id="repositories-list" class="repos-grid">
+                    <p class="placeholder">Select a dimension to view repositories</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Rankings Tab -->
+        <div id="rankings-tab" class="tab-content">
+            <section class="rankings">
+                <h2>Most Popular Dependencies</h2>
+                <p class="description">Packages used most frequently across analyzed repositories</p>
+                <div id="rankings-list" class="rankings-grid">
+                    <p class="loading">Loading rankings...</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- About Tab -->
+        <div id="about-tab" class="tab-content">
+            <section class="about">
+                <h2>About Iceberg</h2>
+                <p>
+                    Iceberg analyzes repositories to reveal the "hidden mass" of dependencies beneath
+                    the visible project code. Just like an iceberg where 90% of the mass is underwater,
+                    modern software projects often have far more code in their dependencies than in the
+                    project itself.
+                </p>
+                <h3>The Iceberg Ratio</h3>
+                <p>
+                    The <strong>iceberg ratio</strong> shows what percentage of the total codebase
+                    (project + dependencies) comes from dependencies:
+                </p>
+                <ul>
+                    <li><strong>10%</strong> - Minimal dependencies, mostly original code</li>
+                    <li><strong>50%</strong> - Balanced mix of project and dependency code</li>
+                    <li><strong>90%</strong> - Heavy reliance on dependencies</li>
+                    <li><strong>99%</strong> - Tiny project built on massive dependency tree</li>
+                </ul>
+                <h3>Data Sources</h3>
+                <p>
+                    This site analyzes repositories discovered from:
+                </p>
+                <ul>
+                    <li><strong>GitHub Trending</strong> - Daily, weekly, and monthly trending repos</li>
+                    <li><strong>GitHub Search</strong> - Highly-starred repos, filtered by language</li>
+                </ul>
+                <p>
+                    Data is updated daily via GitHub Actions and hosted on GitHub Pages.
+                </p>
+                <h3>How It Works</h3>
+                <ol>
+                    <li><strong>Discover</strong> - Fetch repos from trending and search</li>
+                    <li><strong>Detect</strong> - Identify primary package (npm, PyPI, crates.io, etc.)</li>
+                    <li><strong>Analyze</strong> - Calculate lines of code for project and dependencies</li>
+                    <li><strong>Visualize</strong> - Display iceberg ratio with charts and graphs</li>
+                </ol>
+                <p>
+                    <a href="https://github.com/chasemp/iceberg" target="_blank">View on GitHub →</a>
+                </p>
+            </section>
+        </div>
+
+        <!-- Repository Detail Modal -->
+        <div id="repo-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="repo-detail">
+                    <p class="loading">Loading repository details...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            Generated by <a href="https://github.com/chasemp/iceberg" target="_blank">Iceberg</a>
+            | Data updated: <span id="last-updated">-</span>
+        </p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

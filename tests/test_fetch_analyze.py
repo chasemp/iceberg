@@ -37,9 +37,11 @@ def test_fetch_with_analyze_flag(httpx_mock: HTTPXMock, tmp_path: Path) -> None:
     )
     httpx_mock.add_response(
         url="https://raw.githubusercontent.com/owner/repo/main/pyproject.toml",
-        json={
-            "[project]": {"name": "test-pkg", "version": "1.0.0", "dependencies": []},
-        },
+        text="""
+[project]
+name = "test-pkg"
+version = "1.0.0"
+""",
     )
 
     # Mock deps.dev
@@ -56,6 +58,16 @@ def test_fetch_with_analyze_flag(httpx_mock: HTTPXMock, tmp_path: Path) -> None:
         json={"dependencies": []},
     )
 
+    # Mock AI marker checks (all 404)
+    for path in ["CLAUDE.md", ".claude/CLAUDE.md", ".clauderc", ".cursor/", ".cursorrules",
+                 ".github/copilot-instructions.md", ".aider/", ".aider.conf.yml",
+                 "AI_INSTRUCTIONS.md", "AGENTS.md", ".ai/"]:
+        for branch in ["main", "master"]:
+            httpx_mock.add_response(
+                url=f"https://api.github.com/repos/owner/repo/contents/{path}?ref={branch}",
+                status_code=404,
+            )
+
     runner = CliRunner()
     result = runner.invoke(
         app,
@@ -67,7 +79,7 @@ def test_fetch_with_analyze_flag(httpx_mock: HTTPXMock, tmp_path: Path) -> None:
     assert "Fetched" in result.stdout
     # Should show analysis
     assert "Analyzing" in result.stdout or "owner/repo" in result.stdout
-    assert "Total LoC" in result.stdout
+    assert "Dependencies" in result.stdout and "LoC" in result.stdout
 
 
 def test_fetch_analyze_skips_already_analyzed(httpx_mock: HTTPXMock, tmp_path: Path) -> None:
@@ -117,5 +129,5 @@ def test_fetch_analyze_skips_already_analyzed(httpx_mock: HTTPXMock, tmp_path: P
     )
 
     assert result.exit_code == 0
-    # Should indicate cache was used
-    assert "cached" in result.stdout.lower() or "skipping" in result.stdout.lower()
+    # Should indicate already analyzed
+    assert "already" in result.stdout.lower()

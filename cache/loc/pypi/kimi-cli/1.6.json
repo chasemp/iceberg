@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "kimi-cli",
+    "version": "1.6"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-02T19:27:41.767128+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/kimi-cli/versions/1.6",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1183938980102539,
+  "count_duration_seconds": null
+}

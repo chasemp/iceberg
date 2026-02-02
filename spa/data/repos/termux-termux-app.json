@@ -1,0 +1,18 @@
+{
+  "owner": "termux",
+  "repo": "termux-app",
+  "full_name": "termux/termux-app",
+  "url": "https://github.com/termux/termux-app",
+  "analysis": {
+    "owner": "termux",
+    "repo": "termux-app",
+    "version": "HEAD",
+    "loc": 25142,
+    "source": "github_clone",
+    "cached_at": "2026-02-02T17:46:28.350099+00:00",
+    "ref": "HEAD",
+    "repo_url": "https://github.com/termux/termux-app.git",
+    "clone_duration_seconds": 1.0710790157318115,
+    "count_duration_seconds": 0.035973310470581055
+  }
+}

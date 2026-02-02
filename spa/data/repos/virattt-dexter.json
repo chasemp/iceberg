@@ -1,0 +1,24 @@
+{
+  "owner": "virattt",
+  "repo": "dexter",
+  "full_name": "virattt/dexter",
+  "url": "https://github.com/virattt/dexter",
+  "analysis": {
+    "owner": "virattt",
+    "repo": "dexter",
+    "version": "HEAD",
+    "loc": 5131,
+    "source": "github_clone",
+    "cached_at": "2026-02-02T19:27:39.198506+00:00",
+    "package": {
+      "system": "npm",
+      "name": "dexter-ts",
+      "version": "3.1.2"
+    },
+    "repo_url": "https://github.com/virattt/dexter.git",
+    "ref": "HEAD",
+    "commit_hash": "5eed0ca1f02235637e70f1d3067a200dfe4508dd",
+    "clone_duration_seconds": 0.95302414894104,
+    "count_duration_seconds": 0.009476184844970703
+  }
+}

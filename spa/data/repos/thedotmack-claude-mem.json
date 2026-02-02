@@ -1,0 +1,18 @@
+{
+  "owner": "thedotmack",
+  "repo": "claude-mem",
+  "full_name": "thedotmack/claude-mem",
+  "url": "https://github.com/thedotmack/claude-mem",
+  "analysis": {
+    "owner": "thedotmack",
+    "repo": "claude-mem",
+    "version": "HEAD",
+    "loc": 28744,
+    "source": "github_clone",
+    "cached_at": "2026-02-02T17:36:27.013713+00:00",
+    "ref": "HEAD",
+    "repo_url": "https://github.com/thedotmack/claude-mem.git",
+    "clone_duration_seconds": 1.4411301612854004,
+    "count_duration_seconds": 0.036787986755371094
+  }
+}

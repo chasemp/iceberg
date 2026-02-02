@@ -149,6 +149,16 @@ def test_detect_package_returns_none_when_not_found(httpx_mock: HTTPXMock) -> No
         status_code=404,
     )
 
+    httpx_mock.add_response(
+        url="https://raw.githubusercontent.com/owner/repo/main/go.mod",
+        status_code=404,
+    )
+
+    httpx_mock.add_response(
+        url="https://raw.githubusercontent.com/owner/repo/master/go.mod",
+        status_code=404,
+    )
+
     pkg = detect_package("owner", "repo")
 
     assert pkg is None
@@ -276,3 +286,86 @@ def test_parse_maven_pom_xml() -> None:
     assert pkg.system == "maven"
     assert pkg.name == "spring-boot"
     assert pkg.version == "3.0.0"
+
+
+def test_parse_go_mod() -> None:
+    from iceberg.detector import parse_go_mod
+
+    go_mod = """
+    module github.com/gin-gonic/gin
+
+    go 1.20
+
+    require (
+        github.com/stretchr/testify v1.8.0
+    )
+    """
+
+    pkg = parse_go_mod(go_mod, "gin-gonic", "gin")
+
+    assert pkg is not None
+    assert pkg.system == "go"
+    assert pkg.name == "github.com/gin-gonic/gin"
+    assert pkg.version == "v0.0.0"  # Default version when not specified
+
+
+def test_detect_go_package(httpx_mock: HTTPXMock) -> None:
+    from iceberg.detector import detect_package
+
+    go_mod = """
+    module github.com/prometheus/prometheus
+
+    go 1.21
+    """
+
+    httpx_mock.add_response(
+        url="https://raw.githubusercontent.com/prometheus/prometheus/main/package.json",
+        status_code=404,
+    )
+
+    httpx_mock.add_response(
+        url="https://raw.githubusercontent.com/prometheus/prometheus/master/package.json",
+        status_code=404,
+    )
+
+    httpx_mock.add_response(
+        url="https://raw.githubusercontent.com/prometheus/prometheus/main/pyproject.toml",
+        status_code=404,
+    )
+
+    httpx_mock.add_response(
+        url="https://raw.githubusercontent.com/prometheus/prometheus/master/pyproject.toml",
+        status_code=404,
+    )
+
+    httpx_mock.add_response(
+        url="https://raw.githubusercontent.com/prometheus/prometheus/main/Cargo.toml",
+        status_code=404,
+    )
+
+    httpx_mock.add_response(
+        url="https://raw.githubusercontent.com/prometheus/prometheus/master/Cargo.toml",
+        status_code=404,
+    )
+
+    httpx_mock.add_response(
+        url="https://raw.githubusercontent.com/prometheus/prometheus/main/pom.xml",
+        status_code=404,
+    )
+
+    httpx_mock.add_response(
+        url="https://raw.githubusercontent.com/prometheus/prometheus/master/pom.xml",
+        status_code=404,
+    )
+
+    httpx_mock.add_response(
+        url="https://raw.githubusercontent.com/prometheus/prometheus/main/go.mod",
+        text=go_mod,
+    )
+
+    pkg = detect_package("prometheus", "prometheus")
+
+    assert pkg is not None
+    assert pkg.system == "go"
+    assert pkg.name == "github.com/prometheus/prometheus"
+    assert pkg.version == "v0.0.0"

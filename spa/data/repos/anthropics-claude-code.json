@@ -1,0 +1,19 @@
+{
+  "owner": "anthropics",
+  "repo": "claude-code",
+  "full_name": "anthropics/claude-code",
+  "url": "https://github.com/anthropics/claude-code",
+  "analysis": {
+    "owner": "anthropics",
+    "repo": "claude-code",
+    "version": "HEAD",
+    "loc": 2562,
+    "source": "github_clone",
+    "cached_at": "2026-02-02T19:14:59.634029+00:00",
+    "repo_url": "https://github.com/anthropics/claude-code.git",
+    "ref": "HEAD",
+    "commit_hash": "f298d940faf08deec44f7a7a4d382c673450a302",
+    "clone_duration_seconds": 1.6494898796081543,
+    "count_duration_seconds": 0.010008096694946289
+  }
+}
