@@ -8,14 +8,17 @@ This script replicates the GitHub Actions workflow for local development:
 4. Export data for SPA
 
 Usage:
-    python update_all.py           # Quiet mode
-    python update_all.py -v        # Verbose mode (shows fallback attempts)
-    python update_all.py --verbose # Verbose mode (shows fallback attempts)
+    python update_all.py              # Quiet mode
+    python update_all.py -v           # Verbose mode (shows fallback attempts)
+    python update_all.py --verbose    # Verbose mode (shows fallback attempts)
+    python update_all.py --fresh-all  # Clear all caches and start fresh
+    python update_all.py -v --fresh-all # Verbose + fresh start
 
 Run this to update all data manually without GitHub Actions.
 """
 
 import os
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -39,13 +42,32 @@ def run_command(cmd: list[str], description: str) -> bool:
 
 def main() -> int:
     """Run the complete workflow."""
-    # Check for verbose flag
+    # Check for flags
     verbose = "-v" in sys.argv or "--verbose" in sys.argv
+    fresh_all = "--fresh-all" in sys.argv
 
     print("🚀 Starting complete data update workflow")
     print("=" * 60)
     if verbose:
         print("Running in verbose mode (showing fallback attempts)")
+    if fresh_all:
+        print("Running in FRESH mode (clearing all caches)")
+
+    # Clear all caches if --fresh-all flag is set
+    if fresh_all:
+        cache_dirs = [
+            Path("cache/discovered"),
+            Path("cache/projects"),
+            Path("cache/dependencies"),
+            Path("cache/loc"),
+        ]
+
+        print("\n🗑️  Clearing caches...")
+        for cache_dir in cache_dirs:
+            if cache_dir.exists():
+                print(f"  Removing {cache_dir}/")
+                shutil.rmtree(cache_dir)
+        print("✅ All caches cleared\n")
 
     # Track success/failure
     failures = []
