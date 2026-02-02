@@ -403,6 +403,113 @@ def analyze(
         raise typer.Exit(1)
 
 
+@app.command()
+def track(
+    repo_spec: str = typer.Argument(..., help="Repository in format owner/repo"),
+    cache_dir: Path | None = typer.Option(None, help="Cache directory path"),
+) -> None:
+    """Track a repository for continuous updates.
+
+    Adds a repository to the tracking list. Tracked repositories will be
+    checked for updates when running the workflow and re-analyzed if newer
+    versions are available.
+
+    Example: iceberg track facebook/react
+    """
+    from iceberg.tracking import save_tracked_repo, is_repo_tracked
+
+    try:
+        parts = repo_spec.split("/")
+        if len(parts) != 2:
+            typer.echo("Error: Repository must be in format owner/repo", err=True)
+            raise typer.Exit(1)
+
+        owner, repo = parts
+
+        if is_repo_tracked(owner, repo, cache_dir=cache_dir):
+            typer.echo(f"✓ {owner}/{repo} is already being tracked")
+            return
+
+        save_tracked_repo(owner, repo, cache_dir=cache_dir)
+        typer.echo(f"✓ Now tracking {owner}/{repo}")
+        typer.echo(f"  Run analysis with: iceberg analyze {owner}/{repo}")
+
+    except Exception as e:
+        typer.echo(f"Error: {e}", err=True)
+        raise typer.Exit(1)
+
+
+@app.command()
+def untrack(
+    repo_spec: str = typer.Argument(..., help="Repository in format owner/repo"),
+    cache_dir: Path | None = typer.Option(None, help="Cache directory path"),
+) -> None:
+    """Stop tracking a repository.
+
+    Removes a repository from the tracking list. This does not delete
+    cached analysis data.
+
+    Example: iceberg untrack facebook/react
+    """
+    from iceberg.tracking import remove_tracked_repo, is_repo_tracked
+
+    try:
+        parts = repo_spec.split("/")
+        if len(parts) != 2:
+            typer.echo("Error: Repository must be in format owner/repo", err=True)
+            raise typer.Exit(1)
+
+        owner, repo = parts
+
+        if not is_repo_tracked(owner, repo, cache_dir=cache_dir):
+            typer.echo(f"⚠️  {owner}/{repo} is not being tracked")
+            return
+
+        remove_tracked_repo(owner, repo, cache_dir=cache_dir)
+        typer.echo(f"✓ Stopped tracking {owner}/{repo}")
+
+    except Exception as e:
+        typer.echo(f"Error: {e}", err=True)
+        raise typer.Exit(1)
+
+
+@app.command()
+def list_tracked(
+    cache_dir: Path | None = typer.Option(None, help="Cache directory path"),
+    json_output: bool = typer.Option(False, "--json", help="Output as JSON"),
+) -> None:
+    """List all tracked repositories.
+
+    Shows repositories that are being tracked for continuous updates.
+    """
+    from iceberg.tracking import load_tracked_repos
+
+    try:
+        repos = load_tracked_repos(cache_dir=cache_dir)
+
+        if json_output:
+            typer.echo(json.dumps({"repositories": repos}, indent=2))
+            return
+
+        if not repos:
+            typer.echo("No repositories are being tracked.")
+            typer.echo("\nAdd a repository with: iceberg track owner/repo")
+            return
+
+        typer.echo(f"Tracking {len(repos)} repositories:\n")
+        for repo in repos:
+            owner = repo["owner"]
+            name = repo["repo"]
+            added_at = repo.get("added_at", "unknown")
+            typer.echo(f"  - {owner}/{name}")
+            if added_at != "unknown":
+                typer.echo(f"    Added: {added_at}")
+
+    except Exception as e:
+        typer.echo(f"Error: {e}", err=True)
+        raise typer.Exit(1)
+
+
 if __name__ == "__main__":
     app()
 
