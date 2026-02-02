@@ -1,3 +1,4 @@
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -21,20 +22,30 @@ def calculate_package_loc(
         return cached_metrics.total_lines
 
     # Try deps.dev first
+    fetch_start = time.time()
     loc = get_package_loc(pkg)
+    fetch_duration = time.time() - fetch_start
+
     source = "depsdev"
     source_url = f"https://api.deps.dev/v3/systems/{pkg.system}/packages/{pkg.name}/versions/{pkg.version}"
     fetch_method = "api_call"
+    count_duration: float | None = None
 
     # If deps.dev doesn't have data, try package-specific fallbacks
     if loc is None or loc == 0:
         if pkg.system == "npm":
+            npm_start = time.time()
             npm_result = get_npm_package_loc(pkg.name, pkg.version, cache_dir=cache_dir)
+            npm_duration = time.time() - npm_start
+
             if npm_result:
                 loc = npm_result["loc"]
                 source = "npm_tarball"
                 source_url = npm_result["metadata"]["tarball_url"]
                 fetch_method = "tarball_download_and_count"
+                fetch_duration = npm_duration
+                # For npm tarball, we don't separate fetch and count since it's done internally
+                count_duration = None
 
     if loc is None:
         loc = 0
@@ -46,6 +57,8 @@ def calculate_package_loc(
         cached_at=datetime.now(timezone.utc).isoformat(),
         source_url=source_url,
         fetch_method=fetch_method,
+        fetch_duration_seconds=fetch_duration,
+        count_duration_seconds=count_duration,
     )
     save_loc_metrics(metrics, cache_dir=cache_dir)
 

@@ -145,3 +145,27 @@ def test_loc_metrics_rejects_invalid_source() -> None:
             source="invalid",  # type: ignore[arg-type]
             cached_at="2026-01-30T12:00:00Z",
         )
+
+
+def test_loc_metrics_includes_timing_data() -> None:
+    from iceberg.models import LocMetrics, PackageIdentifier
+
+    pkg = PackageIdentifier(
+        system="npm",
+        name="react",
+        version="18.2.0",
+    )
+
+    metrics = LocMetrics(
+        package=pkg,
+        total_lines=10000,
+        source="github_clone",
+        cached_at="2026-02-02T12:00:00Z",
+        source_url="https://github.com/facebook/react",
+        fetch_method="git_clone_and_count",
+        fetch_duration_seconds=2.45,
+        count_duration_seconds=1.23,
+    )
+
+    assert metrics.fetch_duration_seconds == 2.45
+    assert metrics.count_duration_seconds == 1.23
