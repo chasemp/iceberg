@@ -5,9 +5,9 @@
     "url": "https://github.com/openclaw/openclaw",
     "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e",
     "language": "TypeScript",
-    "stars": 150477,
+    "stars": 150595,
     "source": "trending-monthly",
-    "discovered_at": "2026-02-02T19:27:21.906272+00:00",
+    "discovered_at": "2026-02-02T19:55:10.322184+00:00",
     "search_query": null
   },
   {
@@ -16,9 +16,9 @@
     "url": "https://github.com/anomalyco/opencode",
     "description": "The open source coding agent.",
     "language": "TypeScript",
-    "stars": 95613,
+    "stars": 95627,
     "source": "trending-monthly",
-    "discovered_at": "2026-02-02T19:27:21.906272+00:00",
+    "discovered_at": "2026-02-02T19:55:10.322184+00:00",
     "search_query": null
   },
   {
@@ -27,9 +27,9 @@
     "url": "https://github.com/obra/superpowers",
     "description": "An agentic skills framework & software development methodology that works.",
     "language": "Shell",
-    "stars": 42530,
+    "stars": 42538,
     "source": "trending-monthly",
-    "discovered_at": "2026-02-02T19:27:21.906272+00:00",
+    "discovered_at": "2026-02-02T19:55:10.322184+00:00",
     "search_query": null
   },
   {
@@ -38,9 +38,9 @@
     "url": "https://github.com/anthropics/skills",
     "description": "Public repository for Agent Skills",
     "language": "Python",
-    "stars": 61031,
+    "stars": 61042,
     "source": "trending-monthly",
-    "discovered_at": "2026-02-02T19:27:21.906272+00:00",
+    "discovered_at": "2026-02-02T19:55:10.322184+00:00",
     "search_query": null
   },
   {
@@ -49,9 +49,9 @@
     "url": "https://github.com/anthropics/claude-plugins-official",
     "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
     "language": "Shell",
-    "stars": 6222,
+    "stars": 6224,
     "source": "trending-monthly",
-    "discovered_at": "2026-02-02T19:27:21.906272+00:00",
+    "discovered_at": "2026-02-02T19:55:10.322184+00:00",
     "search_query": null
   },
   {
@@ -60,9 +60,9 @@
     "url": "https://github.com/VectifyAI/PageIndex",
     "description": "\ud83d\udcd1 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
     "language": "Python",
-    "stars": 12403,
+    "stars": 12413,
     "source": "trending-monthly",
-    "discovered_at": "2026-02-02T19:27:21.906272+00:00",
+    "discovered_at": "2026-02-02T19:55:10.322184+00:00",
     "search_query": null
   },
   {
@@ -71,9 +71,9 @@
     "url": "https://github.com/remotion-dev/remotion",
     "description": "\ud83c\udfa5 Make videos programmatically with React",
     "language": "TypeScript",
-    "stars": 34510,
+    "stars": 34514,
     "source": "trending-monthly",
-    "discovered_at": "2026-02-02T19:27:21.906272+00:00",
+    "discovered_at": "2026-02-02T19:55:10.322184+00:00",
     "search_query": null
   },
   {
@@ -82,9 +82,9 @@
     "url": "https://github.com/anthropics/claude-code",
     "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
     "language": "Shell",
-    "stars": 63321,
+    "stars": 63327,
     "source": "trending-monthly",
-    "discovered_at": "2026-02-02T19:27:21.906272+00:00",
+    "discovered_at": "2026-02-02T19:55:10.322184+00:00",
     "search_query": null
   },
   {
@@ -93,9 +93,9 @@
     "url": "https://github.com/lbjlaq/Antigravity-Manager",
     "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).\u4e13\u4e1a\u7684 Antigravity \u8d26\u53f7\u7ba1\u7406\u4e0e\u5207\u6362\u5de5\u5177\u3002\u4e3a Antigravity \u63d0\u4f9b\u4e00\u952e\u65e0\u7f1d\u8d26\u53f7\u5207\u6362\u529f\u80fd\u3002",
     "language": "Rust",
-    "stars": 20520,
+    "stars": 20521,
     "source": "trending-monthly",
-    "discovered_at": "2026-02-02T19:27:21.906272+00:00",
+    "discovered_at": "2026-02-02T19:55:10.322184+00:00",
     "search_query": null
   },
   {
@@ -104,9 +104,9 @@
     "url": "https://github.com/asgeirtj/system_prompts_leaks",
     "description": "Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini",
     "language": "JavaScript",
-    "stars": 29632,
+    "stars": 29635,
     "source": "trending-monthly",
-    "discovered_at": "2026-02-02T19:27:21.906272+00:00",
+    "discovered_at": "2026-02-02T19:55:10.322184+00:00",
     "search_query": null
   },
   {
@@ -115,9 +115,9 @@
     "url": "https://github.com/Lissy93/web-check",
     "description": "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f All-in-one OSINT tool for analysing any website",
     "language": "TypeScript",
-    "stars": 31704,
+    "stars": 31706,
     "source": "trending-monthly",
-    "discovered_at": "2026-02-02T19:27:21.906272+00:00",
+    "discovered_at": "2026-02-02T19:55:10.322184+00:00",
     "search_query": null
   },
   {
@@ -126,9 +126,9 @@
     "url": "https://github.com/badlogic/pi-mono",
     "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
     "language": "TypeScript",
-    "stars": 5482,
+    "stars": 5492,
     "source": "trending-monthly",
-    "discovered_at": "2026-02-02T19:27:21.906272+00:00",
+    "discovered_at": "2026-02-02T19:55:10.322184+00:00",
     "search_query": null
   },
   {
@@ -139,7 +139,7 @@
     "language": "TypeScript",
     "stars": 25176,
     "source": "trending-monthly",
-    "discovered_at": "2026-02-02T19:27:21.906272+00:00",
+    "discovered_at": "2026-02-02T19:55:10.322184+00:00",
     "search_query": null
   },
   {
@@ -148,9 +148,9 @@
     "url": "https://github.com/ComposioHQ/awesome-claude-skills",
     "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
     "language": "Python",
-    "stars": 29275,
+    "stars": 29286,
     "source": "trending-monthly",
-    "discovered_at": "2026-02-02T19:27:21.906272+00:00",
+    "discovered_at": "2026-02-02T19:55:10.322184+00:00",
     "search_query": null
   },
   {
@@ -159,9 +159,9 @@
     "url": "https://github.com/steveyegge/beads",
     "description": "Beads - A memory upgrade for your coding agent",
     "language": "Go",
-    "stars": 14297,
+    "stars": 14302,
     "source": "trending-monthly",
-    "discovered_at": "2026-02-02T19:27:21.906272+00:00",
+    "discovered_at": "2026-02-02T19:55:10.322184+00:00",
     "search_query": null
   },
   {
@@ -172,7 +172,7 @@
     "language": "Jupyter Notebook",
     "stars": 37869,
     "source": "trending-monthly",
-    "discovered_at": "2026-02-02T19:27:21.906272+00:00",
+    "discovered_at": "2026-02-02T19:55:10.322184+00:00",
     "search_query": null
   },
   {
@@ -181,9 +181,9 @@
     "url": "https://github.com/virattt/dexter",
     "description": "An autonomous agent for deep financial research",
     "language": "TypeScript",
-    "stars": 9815,
+    "stars": 9818,
     "source": "trending-monthly",
-    "discovered_at": "2026-02-02T19:27:21.906272+00:00",
+    "discovered_at": "2026-02-02T19:55:10.322184+00:00",
     "search_query": null
   },
   {
@@ -192,9 +192,9 @@
     "url": "https://github.com/microsoft/BitNet",
     "description": "Official inference framework for 1-bit LLMs",
     "language": "Python",
-    "stars": 27629,
+    "stars": 27631,
     "source": "trending-monthly",
-    "discovered_at": "2026-02-02T19:27:21.906272+00:00",
+    "discovered_at": "2026-02-02T19:55:10.322184+00:00",
     "search_query": null
   }
 ]

@@ -7,7 +7,7 @@
     "language": "Rust",
     "stars": 109983,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -18,7 +18,7 @@
     "language": "Rust",
     "stars": 106780,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -27,9 +27,9 @@
     "url": "https://github.com/denoland/deno",
     "description": "A modern runtime for JavaScript and TypeScript.",
     "language": "Rust",
-    "stars": 106031,
+    "stars": 106032,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -38,9 +38,9 @@
     "url": "https://github.com/tauri-apps/tauri",
     "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
     "language": "Rust",
-    "stars": 102200,
+    "stars": 102201,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -49,9 +49,9 @@
     "url": "https://github.com/astral-sh/uv",
     "description": "An extremely fast Python package and project manager, written in Rust.",
     "language": "Rust",
-    "stars": 78349,
+    "stars": 78351,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -60,9 +60,9 @@
     "url": "https://github.com/zed-industries/zed",
     "description": "Code at the speed of thought \u2013 Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
     "language": "Rust",
-    "stars": 74558,
+    "stars": 74559,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -73,7 +73,7 @@
     "language": "Rust",
     "stars": 74360,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -82,9 +82,9 @@
     "url": "https://github.com/alacritty/alacritty",
     "description": "A cross-platform, OpenGL terminal emulator.",
     "language": "Rust",
-    "stars": 62245,
+    "stars": 62246,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -95,7 +95,7 @@
     "language": "Rust",
     "stars": 61979,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -106,7 +106,7 @@
     "language": "Rust",
     "stars": 61675,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -117,7 +117,18 @@
     "language": "Rust",
     "stars": 59470,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
+    "search_query": "stars:>3000 language:rust"
+  },
+  {
+    "name": "codex",
+    "owner": "openai",
+    "url": "https://github.com/openai/codex",
+    "description": "Lightweight coding agent that runs in your terminal",
+    "language": "Rust",
+    "stars": 58489,
+    "source": "search",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -128,18 +139,7 @@
     "language": "Rust",
     "stars": 58487,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
-    "search_query": "stars:>3000 language:rust"
-  },
-  {
-    "name": "codex",
-    "owner": "openai",
-    "url": "https://github.com/openai/codex",
-    "description": "Lightweight coding agent that runs in your terminal",
-    "language": "Rust",
-    "stars": 58482,
-    "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -150,7 +150,7 @@
     "language": "Rust",
     "stars": 57390,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -161,7 +161,7 @@
     "language": "Rust",
     "stars": 56934,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -172,7 +172,7 @@
     "language": "Rust",
     "stars": 55712,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -183,7 +183,7 @@
     "language": "Rust",
     "stars": 55377,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -192,9 +192,9 @@
     "url": "https://github.com/lencx/ChatGPT",
     "description": "\ud83d\udd2e ChatGPT Desktop Application (Mac, Windows and Linux)",
     "language": "Rust",
-    "stars": 54397,
+    "stars": 54398,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -203,9 +203,9 @@
     "url": "https://github.com/dani-garcia/vaultwarden",
     "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
     "language": "Rust",
-    "stars": 54381,
+    "stars": 54382,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -214,9 +214,9 @@
     "url": "https://github.com/starship/starship",
     "description": "\u2604\ud83c\udf0c\ufe0f  The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
     "language": "Rust",
-    "stars": 53873,
+    "stars": 53874,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -227,7 +227,7 @@
     "language": "Rust",
     "stars": 51009,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -236,9 +236,9 @@
     "url": "https://github.com/tw93/Pake",
     "description": "\ud83e\udd31\ud83c\udffb Turn any webpage into a desktop app with one command.",
     "language": "Rust",
-    "stars": 45564,
+    "stars": 45565,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -249,7 +249,7 @@
     "language": "Rust",
     "stars": 45532,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -260,7 +260,7 @@
     "language": "Rust",
     "stars": 44450,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -271,7 +271,7 @@
     "language": "Rust",
     "stars": 43451,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -280,9 +280,9 @@
     "url": "https://github.com/helix-editor/helix",
     "description": "A post-modern modal text editor.",
     "language": "Rust",
-    "stars": 42740,
+    "stars": 42741,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -293,7 +293,7 @@
     "language": "Rust",
     "stars": 41435,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -304,7 +304,7 @@
     "language": "Rust",
     "stars": 40005,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -315,7 +315,7 @@
     "language": "Rust",
     "stars": 38087,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -326,7 +326,7 @@
     "language": "Rust",
     "stars": 38002,
     "source": "search",
-    "discovered_at": "2026-02-02T19:27:26.757647+00:00",
+    "discovered_at": "2026-02-02T19:55:14.959490+00:00",
     "search_query": "stars:>3000 language:rust"
   }
 ]
