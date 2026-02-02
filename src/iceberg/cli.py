@@ -51,6 +51,9 @@ def analyze(
     auto_detect: bool = typer.Option(
         False, "--auto-detect", help="Auto-detect package from repository"
     ),
+    published: bool = typer.Option(
+        False, "--published", help="Analyze latest published version (git tag) instead of HEAD"
+    ),
     json_output: bool = typer.Option(False, "--json", help="Output as JSON"),
     cache_dir: Path | None = typer.Option(None, help="Cache directory path"),
 ) -> None:
@@ -110,19 +113,32 @@ def analyze(
 
         # If deps.dev doesn't have project LoC, try cloning and counting
         if project_loc is None:
-            from iceberg.github_loc import get_github_project_loc
+            from iceberg.github_loc import get_github_project_loc, get_latest_published_version
+
+            # Determine which ref to analyze
+            ref_to_analyze: str | None = None
+            if published:
+                if not json_output:
+                    typer.echo(f"🔍 Finding latest published version...")
+                ref_to_analyze = get_latest_published_version(owner, name)
+                if ref_to_analyze and not json_output:
+                    typer.echo(f"✓ Found version: {ref_to_analyze}")
+                elif not json_output:
+                    typer.echo(f"⚠️  No published versions found, using HEAD")
 
             if not json_output:
-                typer.echo(f"⏳ Cloning repository to count project LoC...")
+                ref_msg = f" at {ref_to_analyze}" if ref_to_analyze else ""
+                typer.echo(f"⏳ Cloning repository{ref_msg} to count project LoC...")
 
-            github_result = get_github_project_loc(owner, name, cache_dir=cache_dir)
+            github_result = get_github_project_loc(owner, name, cache_dir=cache_dir, ref=ref_to_analyze)
             if github_result:
                 project_loc = github_result["loc"]
                 if not json_output:
                     clone_time = github_result["metadata"]["clone_duration_seconds"]
                     count_time = github_result["metadata"]["count_duration_seconds"]
+                    ref = github_result["metadata"]["ref"]
                     typer.echo(
-                        f"✓ Cloned and counted in {clone_time + count_time:.2f}s\n"
+                        f"✓ Cloned and counted {ref} in {clone_time + count_time:.2f}s\n"
                     )
 
         try:
@@ -131,8 +147,7 @@ def analyze(
         except (DepsDevError, Exception):
             if not json_output:
                 typer.echo(
-                    f"⚠️  Package not published to {pkg.system}. "
-                    "Analyzing from manifest...\n"
+                    f"📦 Using manifest-based analysis (package not in {pkg.system} registry)\n"
                 )
 
             sbom_result = analyze_from_manifest(owner, name, cache_dir=cache_dir)
@@ -174,8 +189,12 @@ def analyze(
             typer.echo(f"Total LoC (with dependencies): {total_loc:,}")
 
             if project_loc is not None and project_loc > 0:
-                ratio = total_loc / project_loc
-                typer.echo(f"Dependency multiplier: {ratio:.1f}x")
+                deps_only = total_loc - project_loc
+                iceberg_ratio = deps_only / project_loc
+                project_pct = (project_loc / total_loc) * 100
+                typer.echo(f"\nIceberg effect:")
+                typer.echo(f"  Your code: {project_pct:.1f}% of total")
+                typer.echo(f"  Iceberg ratio: {iceberg_ratio:.1f}x (dependencies/project)")
 
     except Exception as e:
         typer.echo(f"Error: {e}", err=True)
