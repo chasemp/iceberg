@@ -94,7 +94,7 @@ def fetch_trending_repos(
             url = "https://github.com/trending?since=monthly"
             source = "trending-monthly"
 
-        response = httpx.get(url, timeout=10.0, follow_redirects=True)
+        response = httpx.get(url, timeout=30.0, follow_redirects=True)
         response.raise_for_status()
         repos = parse_trending_html(response.text)
 
