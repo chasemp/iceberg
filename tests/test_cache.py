@@ -4,6 +4,7 @@ from pathlib import Path
 import pytest
 
 from tests.factories import (
+    create_discovered_repo,
     create_loc_metrics,
     create_package_identifier,
     create_trending_repo,
@@ -168,3 +169,126 @@ def test_load_dependencies_returns_none_when_missing(tmp_path: Path) -> None:
     loaded_deps = load_dependencies(pkg, cache_dir=tmp_path)
 
     assert loaded_deps is None
+
+
+def test_save_discovered_repos_creates_source_directory(tmp_path: Path) -> None:
+    from iceberg.cache import save_discovered_repos
+
+    repos = [
+        create_discovered_repo(name="repo1", source="trending-daily"),
+        create_discovered_repo(name="repo2", source="trending-daily"),
+    ]
+
+    save_discovered_repos(repos, cache_dir=tmp_path)
+
+    today = datetime.now(timezone.utc).date().isoformat()
+    cache_file = tmp_path / "discovered" / "trending-daily" / f"{today}.json"
+
+    assert cache_file.exists()
+
+
+def test_save_discovered_repos_with_search_source(tmp_path: Path) -> None:
+    from iceberg.cache import save_discovered_repos
+
+    repos = [
+        create_discovered_repo(
+            name="react",
+            source="search",
+            search_query="stars:>10000 language:javascript",
+        ),
+    ]
+
+    save_discovered_repos(repos, cache_dir=tmp_path)
+
+    # Should create a hash-based filename for search queries
+    search_dir = tmp_path / "discovered" / "search"
+    assert search_dir.exists()
+
+    # Should have created a cache file
+    cache_files = list(search_dir.glob("*.json"))
+    assert len(cache_files) == 1
+
+
+def test_load_discovered_repos_by_source_and_date(tmp_path: Path) -> None:
+    from iceberg.cache import load_discovered_repos, save_discovered_repos
+
+    repos = [
+        create_discovered_repo(name="repo1", source="trending-daily", stars=1000),
+        create_discovered_repo(name="repo2", source="trending-daily", stars=2000),
+    ]
+
+    save_discovered_repos(repos, cache_dir=tmp_path)
+
+    today = datetime.now(timezone.utc).date().isoformat()
+    loaded = load_discovered_repos("trending-daily", today, cache_dir=tmp_path)
+
+    assert loaded is not None
+    assert len(loaded) == 2
+    assert loaded[0].name == "repo1"
+    assert loaded[0].source == "trending-daily"
+    assert loaded[1].stars == 2000
+
+
+def test_load_discovered_repos_with_search_query(tmp_path: Path) -> None:
+    from iceberg.cache import load_discovered_repos, save_discovered_repos
+
+    query = "stars:>10000 language:python"
+    repos = [
+        create_discovered_repo(name="requests", source="search", search_query=query),
+    ]
+
+    save_discovered_repos(repos, cache_dir=tmp_path)
+
+    # Load using query hash
+    loaded = load_discovered_repos("search", query, cache_dir=tmp_path)
+
+    assert loaded is not None
+    assert len(loaded) == 1
+    assert loaded[0].name == "requests"
+    assert loaded[0].search_query == query
+
+
+def test_load_discovered_repos_returns_none_when_missing(tmp_path: Path) -> None:
+    from iceberg.cache import load_discovered_repos
+
+    loaded = load_discovered_repos("trending-daily", "2026-01-01", cache_dir=tmp_path)
+
+    assert loaded is None
+
+
+def test_discovered_repos_cache_isolation(tmp_path: Path) -> None:
+    from iceberg.cache import load_discovered_repos, save_discovered_repos
+
+    # Save to trending-daily
+    daily_repos = [create_discovered_repo(name="repo1", source="trending-daily")]
+    save_discovered_repos(daily_repos, cache_dir=tmp_path)
+
+    # Save to trending-weekly
+    weekly_repos = [create_discovered_repo(name="repo2", source="trending-weekly")]
+    save_discovered_repos(weekly_repos, cache_dir=tmp_path)
+
+    # Verify they don't collide
+    today = datetime.now(timezone.utc).date().isoformat()
+    loaded_daily = load_discovered_repos("trending-daily", today, cache_dir=tmp_path)
+    loaded_weekly = load_discovered_repos("trending-weekly", today, cache_dir=tmp_path)
+
+    assert loaded_daily is not None
+    assert loaded_weekly is not None
+    assert loaded_daily[0].name == "repo1"
+    assert loaded_weekly[0].name == "repo2"
+
+
+def test_backward_compatibility_with_old_trending_cache(tmp_path: Path) -> None:
+    from iceberg.cache import load_discovered_repos, save_trending_repos
+
+    # Save using old function
+    repos = [create_discovered_repo(name="old-repo", source="trending-daily")]
+    save_trending_repos(repos, cache_dir=tmp_path)
+
+    # Load using new function should fall back to old cache
+    today = datetime.now(timezone.utc).date().isoformat()
+    loaded = load_discovered_repos("trending-daily", today, cache_dir=tmp_path)
+
+    assert loaded is not None
+    assert len(loaded) == 1
+    assert loaded[0].name == "old-repo"
