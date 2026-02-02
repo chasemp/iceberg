@@ -10,6 +10,8 @@ Usage:
     python analyze_all_discovered.py           # Quiet mode
     python analyze_all_discovered.py -v        # Verbose mode (shows fallbacks)
     python analyze_all_discovered.py --verbose # Verbose mode (shows fallbacks)
+    python analyze_all_discovered.py --force   # Force re-analysis (ignore cache)
+    python analyze_all_discovered.py -v --force # Verbose + force re-analysis
 """
 
 import sys
@@ -66,8 +68,9 @@ def is_repo_analyzed(owner: str, name: str, cache_dir: Path | None = None) -> bo
 
 def main() -> int:
     """Analyze all discovered repos that haven't been analyzed yet."""
-    # Check for verbose flag
+    # Check for flags
     verbose = "-v" in sys.argv or "--verbose" in sys.argv
+    force = "--force" in sys.argv
 
     cache_dir = get_default_cache_dir()
 
@@ -75,7 +78,10 @@ def main() -> int:
     repos = get_all_discovered_repos(cache_dir=cache_dir)
     print(f"Found {len(repos)} unique repositories across all sources")
     if verbose:
-        print("Running in verbose mode (showing fallback attempts)\n")
+        print("Running in verbose mode (showing fallback attempts)")
+    if force:
+        print("Running in FORCE mode (re-analyzing all repos)")
+    print()
 
     analyzed_count = 0
     skipped_count = 0
@@ -84,13 +90,16 @@ def main() -> int:
     for repo in repos:
         repo_name = f"{repo.owner}/{repo.name}"
 
-        # Skip if already analyzed
-        if is_repo_analyzed(repo.owner, repo.name, cache_dir=cache_dir):
+        # Skip if already analyzed (unless force flag is set)
+        if not force and is_repo_analyzed(repo.owner, repo.name, cache_dir=cache_dir):
             print(f"  ⏭️  {repo_name} - already analyzed")
             skipped_count += 1
             continue
 
-        print(f"  🔍 {repo_name} - analyzing...")
+        if force and is_repo_analyzed(repo.owner, repo.name, cache_dir=cache_dir):
+            print(f"  🔄 {repo_name} - re-analyzing (forced)...")
+        else:
+            print(f"  🔍 {repo_name} - analyzing...")
 
         try:
             # Analyze with auto-detect
