@@ -11,7 +11,8 @@ Usage:
     python analyze_all_discovered.py -v        # Verbose mode (shows fallbacks)
     python analyze_all_discovered.py --verbose # Verbose mode (shows fallbacks)
     python analyze_all_discovered.py --force   # Force re-analysis (ignore cache)
-    python analyze_all_discovered.py -v --force # Verbose + force re-analysis
+    python analyze_all_discovered.py --update  # Check for updates (compare HEAD)
+    python analyze_all_discovered.py -v --update # Verbose + update check
 """
 
 import sys
@@ -20,6 +21,7 @@ from pathlib import Path
 from iceberg.cache import get_default_cache_dir, load_discovered_repos
 from iceberg.calculator import analyze_repository
 from iceberg.models import DiscoveredRepo
+from iceberg.tracking import needs_update
 
 
 def get_all_discovered_repos(cache_dir: Path | None = None) -> list[DiscoveredRepo]:
@@ -71,6 +73,7 @@ def main() -> int:
     # Check for flags
     verbose = "-v" in sys.argv or "--verbose" in sys.argv
     force = "--force" in sys.argv
+    check_updates = "--update" in sys.argv
 
     cache_dir = get_default_cache_dir()
 
@@ -81,6 +84,8 @@ def main() -> int:
         print("Running in verbose mode (showing fallback attempts)")
     if force:
         print("Running in FORCE mode (re-analyzing all repos)")
+    if check_updates:
+        print("Running in UPDATE mode (checking for new commits)")
     print()
 
     analyzed_count = 0
@@ -90,13 +95,24 @@ def main() -> int:
     for repo in repos:
         repo_name = f"{repo.owner}/{repo.name}"
 
-        # Skip if already analyzed (unless force flag is set)
-        if not force and is_repo_analyzed(repo.owner, repo.name, cache_dir=cache_dir):
+        # Check if already analyzed
+        already_analyzed = is_repo_analyzed(repo.owner, repo.name, cache_dir=cache_dir)
+
+        # Skip if already analyzed (unless force or update mode)
+        if already_analyzed and not force and not check_updates:
             print(f"  ⏭️  {repo_name} - already analyzed")
             skipped_count += 1
             continue
 
-        if force and is_repo_analyzed(repo.owner, repo.name, cache_dir=cache_dir):
+        # In update mode, check if repo needs updating
+        if check_updates and already_analyzed:
+            needs_update_result, reason = needs_update(repo.owner, repo.name, cache_dir=cache_dir)
+            if not needs_update_result:
+                print(f"  ⏭️  {repo_name} - {reason}")
+                skipped_count += 1
+                continue
+            print(f"  🔄 {repo_name} - {reason}")
+        elif force and already_analyzed:
             print(f"  🔄 {repo_name} - re-analyzing (forced)...")
         else:
             print(f"  🔍 {repo_name} - analyzing...")
