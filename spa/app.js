@@ -21,8 +21,58 @@ document.addEventListener('DOMContentLoaded', async () => {
     await loadData();
     renderDimensions();
     populateLanguageFilter();
-    selectDefaultDimension();
+
+    // Handle initial URL
+    const hash = window.location.hash.slice(1); // Remove #
+    if (hash) {
+        handleHashChange(hash);
+    } else {
+        selectDefaultDimension();
+    }
 });
+
+// Handle hash changes for navigation
+window.addEventListener('hashchange', () => {
+    const hash = window.location.hash.slice(1);
+    if (hash) {
+        handleHashChange(hash);
+    }
+});
+
+function handleHashChange(hash) {
+    // Handle tab switching: #rankings or #about
+    if (hash === 'rankings' || hash === 'about') {
+        switchTab(hash, false); // false = don't update URL
+    }
+    // Handle dimension selection: #trending-monthly
+    else if (hash.startsWith('trending-') || hash.startsWith('search:')) {
+        // Make sure discovery tab is active
+        switchTab('discovery', false);
+        const dimension = state.index?.dimensions?.find(d => d.id === hash);
+        if (dimension) {
+            selectDimension(dimension, false); // false = don't update URL
+        }
+    }
+    // Handle repo detail: #repo/owner/name
+    else if (hash.startsWith('repo/')) {
+        const parts = hash.split('/');
+        if (parts.length === 3) {
+            const [_, owner, name] = parts;
+            showRepoDetailFromUrl(owner, name);
+        }
+    }
+}
+
+async function showRepoDetailFromUrl(owner, name) {
+    // Create a minimal repo object for showRepoDetail
+    const repo = {
+        owner,
+        name,
+        full_name: `${owner}/${name}`,
+        url: `https://github.com/${owner}/${name}`
+    };
+    await showRepoDetail(repo);
+}
 
 // Event Listeners
 function setupEventListeners() {
@@ -121,7 +171,7 @@ async function loadData() {
 }
 
 // Tab Switching
-function switchTab(tabName) {
+function switchTab(tabName, updateUrl = true) {
     // Update buttons
     document.querySelectorAll('.tab-button').forEach(btn => {
         btn.classList.toggle('active', btn.dataset.tab === tabName);
@@ -135,6 +185,11 @@ function switchTab(tabName) {
     // Load rankings if switching to rankings tab
     if (tabName === 'rankings' && !state.rankings) {
         renderRankings();
+    }
+
+    // Update URL for shareability (but not for discovery tab, as dimension will handle that)
+    if (updateUrl && (tabName === 'rankings' || tabName === 'about')) {
+        window.location.hash = tabName;
     }
 }
 
@@ -274,10 +329,15 @@ function formatDimensionTitle(dimension) {
     return dimension.id;
 }
 
-function selectDimension(dimension) {
+function selectDimension(dimension, updateUrl = true) {
     state.selectedDimension = dimension.id;
     renderDimensions();
     renderRepositories(dimension);
+
+    // Update URL for shareability
+    if (updateUrl) {
+        window.location.hash = dimension.id;
+    }
 }
 
 function selectDefaultDimension() {
@@ -471,6 +531,9 @@ async function showRepoDetail(repo) {
             <p class="loading-text">Loading repository details...</p>
         </div>
     `;
+
+    // Update URL for shareability
+    window.location.hash = `repo/${repo.owner}/${repo.name}`;
 
     try {
         // Try to load analysis data
@@ -678,6 +741,13 @@ function drawPieChart(projectLoc, depLoc) {
 
 function closeModal() {
     document.getElementById('repo-modal').classList.remove('active');
+
+    // Restore dimension URL when closing modal
+    if (state.selectedDimension) {
+        window.location.hash = state.selectedDimension;
+    } else {
+        window.location.hash = '';
+    }
 }
 
 // Rankings
