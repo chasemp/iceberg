@@ -154,8 +154,11 @@ def fetch(
 
                     if result:
                         typer.echo(f"  ✓ Project: {result['project_loc']:,} LoC")
-                        typer.echo(f"  ✓ Dependencies: {result['total_loc']:,} LoC")
-                        typer.echo(f"  ✓ Iceberg Ratio: {result['ratio']:.1%}\n")
+                        if 'total_loc' in result:
+                            typer.echo(f"  ✓ Dependencies: {result['total_loc']:,} LoC")
+                            typer.echo(f"  ✓ Iceberg Ratio: {result['ratio']:.1%}\n")
+                        else:
+                            typer.echo(f"  ✗ Dependencies: Could not analyze\n")
                     else:
                         typer.echo(f"  ✗ Could not analyze\n")
                 except Exception as ex:

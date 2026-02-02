@@ -1,12 +1,38 @@
 from pathlib import Path
 
+import pytest
 from pytest_httpx import HTTPXMock
 from typer.testing import CliRunner
 
 
-def test_fetch_with_analyze_flag(httpx_mock: HTTPXMock, tmp_path: Path) -> None:
+def test_fetch_with_analyze_flag(httpx_mock: HTTPXMock, tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     """Test fetch command with --analyze flag."""
     from iceberg.cli import app
+
+    # Mock cloning and LoC counting
+    def mock_clone_repository(
+        owner: str, name: str, target_dir: Path | None = None, ref: str | None = None
+    ) -> dict:
+        return {
+            "duration_seconds": 1.0,
+            "repo_url": f"https://github.com/{owner}/{name}.git",
+            "ref": ref or "HEAD",
+            "commit_hash": "abc123",
+        }
+
+    def mock_count_repo_loc(repo_dir: Path) -> dict:
+        return {
+            "loc": 5000,
+            "duration_seconds": 0.5,
+        }
+
+    # Mock osv-scanner to return None (no dependencies found)
+    def mock_run_osv_scanner(repo_path: Path) -> str | None:
+        return None
+
+    monkeypatch.setattr("iceberg.calculator.clone_repository", mock_clone_repository)
+    monkeypatch.setattr("iceberg.calculator.count_repo_loc", mock_count_repo_loc)
+    monkeypatch.setattr("iceberg.calculator.run_osv_scanner", mock_run_osv_scanner)
 
     # Mock GitHub trending page
     trending_html = """
@@ -26,7 +52,7 @@ def test_fetch_with_analyze_flag(httpx_mock: HTTPXMock, tmp_path: Path) -> None:
         text=trending_html,
     )
 
-    # Mock auto-detect
+    # Mock auto-detect (for package detection via HTTP)
     httpx_mock.add_response(
         url="https://raw.githubusercontent.com/owner/repo/main/package.json",
         status_code=404,
@@ -42,20 +68,6 @@ def test_fetch_with_analyze_flag(httpx_mock: HTTPXMock, tmp_path: Path) -> None:
 name = "test-pkg"
 version = "1.0.0"
 """,
-    )
-
-    # Mock deps.dev
-    httpx_mock.add_response(
-        url="https://api.deps.dev/v3/projects/github.com%2Fowner%2Frepo",
-        json={"lineCount": 5000},
-    )
-    httpx_mock.add_response(
-        url="https://api.deps.dev/v3/systems/pypi/packages/test-pkg/versions/1.0.0",
-        json={"lineCount": 1000},
-    )
-    httpx_mock.add_response(
-        url="https://api.deps.dev/v3/systems/pypi/packages/test-pkg/versions/1.0.0:dependencies",
-        json={"dependencies": []},
     )
 
     # Mock AI marker checks (all 404)

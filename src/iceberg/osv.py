@@ -4,7 +4,6 @@ import subprocess
 from pathlib import Path
 from typing import Any
 
-from iceberg.calculator import calculate_transitive_loc
 from iceberg.models import PackageIdentifier
 
 
@@ -78,9 +77,16 @@ def run_osv_scanner(repo_path: Path) -> str | None:
 
 def analyze_with_osv(
     repo_path: str,
+    loc_calculator: Any,
     cache_dir: Path | None = None,
 ) -> dict[str, Any] | None:
-    """Analyze dependencies using OSV-Scanner."""
+    """Analyze dependencies using OSV-Scanner.
+
+    Args:
+        repo_path: Path to repository
+        loc_calculator: Function to calculate LoC for a package (signature: (PackageIdentifier, cache_dir) -> int)
+        cache_dir: Cache directory
+    """
     path = Path(repo_path)
 
     osv_output = run_osv_scanner(path)
@@ -96,7 +102,7 @@ def analyze_with_osv(
 
     for pkg in deps:
         try:
-            dep_loc = calculate_transitive_loc(pkg, cache_dir=cache_dir)
+            dep_loc = loc_calculator(pkg, cache_dir=cache_dir)
             total_loc += dep_loc
 
             dependency_details.append({
