@@ -102,10 +102,28 @@ def analyze(
                 version=version,
             )
 
+        # Try to get project LoC from deps.dev first
         try:
             project_loc = get_project_loc(owner, name)
         except Exception:
             project_loc = None
+
+        # If deps.dev doesn't have project LoC, try cloning and counting
+        if project_loc is None:
+            from iceberg.github_loc import get_github_project_loc
+
+            if not json_output:
+                typer.echo(f"⏳ Cloning repository to count project LoC...")
+
+            github_result = get_github_project_loc(owner, name, cache_dir=cache_dir)
+            if github_result:
+                project_loc = github_result["loc"]
+                if not json_output:
+                    clone_time = github_result["metadata"]["clone_duration_seconds"]
+                    count_time = github_result["metadata"]["count_duration_seconds"]
+                    typer.echo(
+                        f"✓ Cloned and counted in {clone_time + count_time:.2f}s\n"
+                    )
 
         try:
             total_loc = calculate_transitive_loc(pkg, cache_dir=cache_dir)

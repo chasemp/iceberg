@@ -222,3 +222,24 @@ def test_calculate_transitive_loc_uses_cache(httpx_mock: HTTPXMock, tmp_path: Pa
 
     assert total_loc == 5100
     assert len(httpx_mock.get_requests()) == 0
+
+
+def test_calculate_package_loc_includes_timing_data(
+    httpx_mock: HTTPXMock, tmp_path: Path
+) -> None:
+    from iceberg.calculator import calculate_package_loc
+    from iceberg.cache import load_loc_metrics
+
+    pkg = create_package_identifier(system="npm", name="test-pkg", version="1.0.0")
+
+    httpx_mock.add_response(
+        url="https://api.deps.dev/v3/systems/npm/packages/test-pkg/versions/1.0.0",
+        json={"lineCount": 1000},
+    )
+
+    calculate_package_loc(pkg, cache_dir=tmp_path)
+
+    cached_metrics = load_loc_metrics(pkg, cache_dir=tmp_path)
+    assert cached_metrics is not None
+    assert cached_metrics.fetch_duration_seconds is not None
+    assert cached_metrics.fetch_duration_seconds >= 0
