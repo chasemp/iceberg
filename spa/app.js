@@ -566,32 +566,57 @@ async function createRepoBar(repo) {
 
     // Calculate percentages
     const projectLoc = analysis.loc;
-    const depLoc = analysis.total_loc ? (analysis.total_loc - projectLoc) : 0;
+    const hasFullAnalysis = analysis.total_loc !== null && analysis.total_loc !== undefined;
+    const depLoc = hasFullAnalysis ? analysis.total_loc : 0;
     const totalLoc = projectLoc + depLoc;
     const projectPercent = (projectLoc / totalLoc) * 100;
     const depPercent = (depLoc / totalLoc) * 100;
+
+    // Build the bar chart
+    let barContent = '';
+    let legendContent = '';
+
+    if (hasFullAnalysis) {
+        // Full analysis with deps
+        barContent = `
+            <div class="repo-bar-segment repo-bar-local"
+                 style="width: ${projectPercent}%"
+                 title="Local: ${projectLoc.toLocaleString()} LoC (${projectPercent.toFixed(1)}%)">
+            </div>
+            ${depPercent > 0 ? `
+            <div class="repo-bar-segment repo-bar-deps"
+                 style="width: ${depPercent}%"
+                 title="Dependencies: ${depLoc.toLocaleString()} LoC (${depPercent.toFixed(1)}%)">
+            </div>` : ''}
+        `;
+        legendContent = `
+            <span class="legend-local">${projectPercent.toFixed(0)}% local</span>
+            ${depPercent > 0 ? `<span class="legend-deps">${depPercent.toFixed(0)}% deps</span>` : '<span class="legend-no-deps">No dependencies</span>'}
+        `;
+    } else {
+        // Only project LoC (deps not analyzed)
+        barContent = `
+            <div class="repo-bar-segment repo-bar-local"
+                 style="width: 100%"
+                 title="Local: ${projectLoc.toLocaleString()} LoC">
+            </div>
+        `;
+        legendContent = `<span class="legend-local">${projectLoc.toLocaleString()} LoC</span><span class="legend-not-analyzed">Dependencies not analyzed</span>`;
+    }
 
     bar.innerHTML = `
         <div class="repo-bar-label">
             <span class="repo-bar-name">${repo.full_name || `${repo.owner}/${repo.name}`}</span>
             <span class="repo-bar-meta">
                 ${repo.language ? `<span class="lang-badge">${repo.language}</span>` : ''}
-                <span class="loc-badge">${totalLoc.toLocaleString()} LoC</span>
+                <span class="loc-badge">${projectLoc.toLocaleString()} LoC</span>
             </span>
         </div>
         <div class="repo-bar-chart">
-            <div class="repo-bar-segment repo-bar-local"
-                 style="width: ${projectPercent}%"
-                 title="Local: ${projectLoc.toLocaleString()} LoC (${projectPercent.toFixed(1)}%)">
-            </div>
-            <div class="repo-bar-segment repo-bar-deps"
-                 style="width: ${depPercent}%"
-                 title="Dependencies: ${depLoc.toLocaleString()} LoC (${depPercent.toFixed(1)}%)">
-            </div>
+            ${barContent}
         </div>
         <div class="repo-bar-legend">
-            <span class="legend-local">${projectPercent.toFixed(0)}% local</span>
-            ${depPercent > 0 ? `<span class="legend-deps">${depPercent.toFixed(0)}% deps</span>` : ''}
+            ${legendContent}
         </div>
     `;
 
