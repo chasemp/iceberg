@@ -39,10 +39,16 @@ def parse_npm_dependencies(content: str) -> list[tuple[str, str]]:
     """Parse dependencies from package.json."""
     try:
         data: Any = json.loads(content)
+
+        # Parse both dependencies and devDependencies
         dependencies = data.get("dependencies", {})
+        dev_dependencies = data.get("devDependencies", {})
+
+        # Combine them
+        all_deps = {**dependencies, **dev_dependencies}
 
         result = []
-        for name, version_spec in dependencies.items():
+        for name, version_spec in all_deps.items():
             version = parse_version_spec(version_spec)
             result.append((name, version))
 

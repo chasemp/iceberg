@@ -121,13 +121,20 @@ def analyze(
 
             if sbom_result is None:
                 typer.echo(
-                    "Error: Could not analyze dependencies from manifest",
+                    "Error: Could not find manifest file (package.json, pyproject.toml, etc.)",
                     err=True,
                 )
                 raise typer.Exit(1)
 
             total_loc = sbom_result["total_dependencies_loc"]
             analysis_method = "SBOM (manifest)"
+
+            if not json_output and len(sbom_result["dependencies"]) > 0:
+                typer.echo(f"Found {len(sbom_result['dependencies'])} dependencies:\n")
+                for dep in sbom_result["dependencies"][:5]:
+                    typer.echo(f"  - {dep['name']}@{dep['version']}: {dep['loc']:,} LoC")
+                if len(sbom_result["dependencies"]) > 5:
+                    typer.echo(f"  ... and {len(sbom_result['dependencies']) - 5} more\n")
 
         if json_output:
             data = {
