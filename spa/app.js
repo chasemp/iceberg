@@ -11,6 +11,7 @@ let state = {
         aiTools: 'all'
     },
     sort: 'stars-desc',
+    searchQuery: '',
     rankings: null
 };
 
@@ -54,6 +55,17 @@ function setupEventListeners() {
     document.getElementById('sort-select').addEventListener('change', (e) => {
         state.sort = e.target.value;
         // Re-render current dimension with new sort
+        if (state.selectedDimension) {
+            const dimension = state.index.dimensions.find(d => d.id === state.selectedDimension);
+            if (dimension) {
+                renderRepositories(dimension);
+            }
+        }
+    });
+
+    document.getElementById('repo-search').addEventListener('input', (e) => {
+        state.searchQuery = e.target.value;
+        // Re-render current dimension with new search
         if (state.selectedDimension) {
             const dimension = state.index.dimensions.find(d => d.id === state.selectedDimension);
             if (dimension) {
@@ -334,6 +346,22 @@ function renderRepositories(dimension) {
             // Check if the specific tool is in the list (case-insensitive)
             const toolName = state.filters.aiTools.toLowerCase();
             return r.ai_tools.some(tool => tool.toLowerCase().includes(toolName));
+        });
+    }
+
+    // Apply search filter
+    if (state.searchQuery && state.searchQuery.trim() !== '') {
+        const query = state.searchQuery.toLowerCase().trim();
+        repos = repos.filter(r => {
+            const name = (r.name || '').toLowerCase();
+            const owner = (r.owner || '').toLowerCase();
+            const fullName = (r.full_name || `${owner}/${name}`).toLowerCase();
+            const description = (r.description || '').toLowerCase();
+
+            return fullName.includes(query) ||
+                   name.includes(query) ||
+                   owner.includes(query) ||
+                   description.includes(query);
         });
     }
 
