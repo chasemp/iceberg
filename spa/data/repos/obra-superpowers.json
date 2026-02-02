@@ -9,11 +9,11 @@
     "version": "HEAD",
     "loc": 473,
     "source": "github_clone",
-    "cached_at": "2026-02-02T20:07:06.798057+00:00",
+    "cached_at": "2026-02-02T22:26:07.350552+00:00",
     "repo_url": "https://github.com/obra/superpowers.git",
     "ref": "HEAD",
     "commit_hash": "06b92f36820f38175b2ed6ff3f8df45157d54731",
-    "clone_duration_seconds": 0.9168379306793213,
-    "count_duration_seconds": 0.005756855010986328
+    "clone_duration_seconds": 0.9040048122406006,
+    "count_duration_seconds": 0.0054929256439208984
   }
 }

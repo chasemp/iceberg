@@ -9,7 +9,7 @@
     "version": "HEAD",
     "loc": 19893,
     "source": "github_clone",
-    "cached_at": "2026-02-02T20:10:24.498689+00:00",
+    "cached_at": "2026-02-02T22:28:13.021253+00:00",
     "package": {
       "system": "npm",
       "name": "@modelcontextprotocol/ext-apps",
@@ -18,7 +18,7 @@
     "repo_url": "https://github.com/modelcontextprotocol/ext-apps.git",
     "ref": "HEAD",
     "commit_hash": "ec0f2174f3d91bb458e67266d15ca3d94711b23f",
-    "clone_duration_seconds": 1.4413821697235107,
-    "count_duration_seconds": 0.025193214416503906
+    "clone_duration_seconds": 1.6480059623718262,
+    "count_duration_seconds": 0.02348613739013672
   }
 }

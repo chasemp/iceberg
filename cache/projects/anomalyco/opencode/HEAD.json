@@ -2,12 +2,12 @@
   "owner": "anomalyco",
   "repo": "opencode",
   "version": "HEAD",
-  "loc": 140879,
+  "loc": 141489,
   "source": "github_clone",
-  "cached_at": "2026-02-02T20:07:01.655480+00:00",
+  "cached_at": "2026-02-02T22:26:02.040732+00:00",
   "repo_url": "https://github.com/anomalyco/opencode.git",
   "ref": "HEAD",
-  "commit_hash": "b9aad20be651050880bf2bc3b4c857f16a970402",
-  "clone_duration_seconds": 7.487087249755859,
-  "count_duration_seconds": 0.12190508842468262
+  "commit_hash": "f86f654cdab5d9824982aa49629a7bb7330e7abd",
+  "clone_duration_seconds": 7.983902215957642,
+  "count_duration_seconds": 0.12391281127929688
 }

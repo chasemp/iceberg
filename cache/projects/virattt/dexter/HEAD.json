@@ -2,17 +2,17 @@
   "owner": "virattt",
   "repo": "dexter",
   "version": "HEAD",
-  "loc": 5131,
+  "loc": 5230,
   "source": "github_clone",
-  "cached_at": "2026-02-02T20:10:09.709633+00:00",
+  "cached_at": "2026-02-02T22:27:57.362347+00:00",
   "package": {
     "system": "npm",
     "name": "dexter-ts",
-    "version": "3.1.2"
+    "version": "3.2.0"
   },
   "repo_url": "https://github.com/virattt/dexter.git",
   "ref": "HEAD",
-  "commit_hash": "5eed0ca1f02235637e70f1d3067a200dfe4508dd",
-  "clone_duration_seconds": 0.9157462120056152,
-  "count_duration_seconds": 0.0077838897705078125
+  "commit_hash": "e4a1aea395fb5db558065d7a7771618a182d8694",
+  "clone_duration_seconds": 0.8379740715026855,
+  "count_duration_seconds": 0.009039878845214844
 }
