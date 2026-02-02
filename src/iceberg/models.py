@@ -27,5 +27,7 @@ class LocMetrics(BaseModel):
 
     package: PackageIdentifier
     total_lines: int
-    source: Literal["depsdev", "github"]
+    source: Literal["depsdev", "github", "npm_tarball", "pypi_package", "cargo_crate"]
     cached_at: str
+    source_url: str | None = None
+    fetch_method: str | None = None

@@ -72,6 +72,12 @@ def test_calculate_package_loc_returns_zero_when_missing(
         json={},
     )
 
+    # Mock npm registry fallback to also fail
+    httpx_mock.add_response(
+        url="https://registry.npmjs.org/react/18.2.0",
+        status_code=404,
+    )
+
     loc = calculate_package_loc(pkg, cache_dir=tmp_path)
 
     assert loc == 0

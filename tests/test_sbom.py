@@ -125,10 +125,12 @@ def test_parse_npm_dependencies() -> None:
 
     deps = parse_npm_dependencies(package_json)
 
-    assert len(deps) == 3
+    # Now includes devDependencies too
+    assert len(deps) == 4
     assert ("react", "18.2.0") in deps
     assert ("lodash", "4.17.21") in deps
     assert ("@types/node", "20.0.0") in deps
+    assert ("jest", "29.0.0") in deps
 
 
 def test_parse_python_dependencies() -> None:
