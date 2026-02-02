@@ -20,10 +20,17 @@ app = typer.Typer()
 @app.command()
 def fetch(
     limit: int = typer.Option(10, help="Number of trending repos to fetch"),
+    analyze_repos: bool = typer.Option(False, "--analyze", help="Analyze each repo after fetching"),
+    head: bool = typer.Option(False, "--head", help="Analyze HEAD instead of latest published version (with --analyze)"),
+    verbose: int = typer.Option(0, "-v", "--verbose", count=True, help="Verbose output"),
     json_output: bool = typer.Option(False, "--json", help="Output as JSON"),
     cache_dir: Path | None = typer.Option(None, help="Cache directory path"),
 ) -> None:
-    """Fetch trending repositories and cache results."""
+    """Fetch trending repositories and optionally analyze them.
+
+    Use --analyze to automatically analyze each fetched repository.
+    Results are cached, so re-running will skip already analyzed repos.
+    """
     try:
         if cache_dir is None:
             cache_dir = get_default_cache_dir()
@@ -38,6 +45,64 @@ def fetch(
             typer.echo(f"Fetched {len(repos)} trending repositories")
             for repo in repos:
                 typer.echo(f"  - {repo.owner}/{repo.name} ({repo.stars:,} stars)")
+
+        # Analyze repos if requested
+        if analyze_repos and not json_output:
+            from iceberg.cache import load_project_loc
+            from iceberg.github_loc import get_github_project_loc, get_latest_published_version
+
+            typer.echo(f"\nAnalyzing {len(repos)} repositories...\n")
+
+            for i, repo in enumerate(repos, 1):
+                typer.echo(f"[{i}/{len(repos)}] {repo.owner}/{repo.name}")
+
+                # Determine version to analyze
+                ref_to_analyze: str | None = None
+                version_for_cache: str = "HEAD"
+
+                if not head:
+                    ref_to_analyze = get_latest_published_version(repo.owner, repo.name)
+                    if ref_to_analyze:
+                        version_for_cache = ref_to_analyze
+                    else:
+                        version_for_cache = "HEAD"
+                else:
+                    version_for_cache = "HEAD"
+
+                # Check if already analyzed
+                cached = load_project_loc(repo.owner, repo.name, version_for_cache, cache_dir=cache_dir)
+
+                if cached:
+                    typer.echo(f"  ✓ Already analyzed ({version_for_cache}, {cached['loc']:,} LoC)\n")
+                    continue
+
+                # Analyze the repo
+                try:
+                    from iceberg.cache import save_project_loc
+
+                    github_result = get_github_project_loc(repo.owner, repo.name, cache_dir=cache_dir, ref=ref_to_analyze)
+
+                    if github_result:
+                        # Save to cache
+                        project_data = {
+                            "owner": repo.owner,
+                            "repo": repo.name,
+                            "version": version_for_cache,
+                            "loc": github_result["loc"],
+                            "source": github_result["source"],
+                            "cached_at": datetime.now(timezone.utc).isoformat(),
+                            "ref": github_result["metadata"]["ref"],
+                            "repo_url": github_result["metadata"]["repo_url"],
+                            "clone_duration_seconds": github_result["metadata"]["clone_duration_seconds"],
+                            "count_duration_seconds": github_result["metadata"]["count_duration_seconds"],
+                        }
+                        save_project_loc(project_data, cache_dir=cache_dir)
+
+                        typer.echo(f"  ✓ {github_result['loc']:,} LoC\n")
+                    else:
+                        typer.echo(f"  ✗ Could not analyze\n")
+                except Exception as ex:
+                    typer.echo(f"  ✗ Error: {ex}\n")
 
     except Exception as e:
         typer.echo(f"Error: {e}", err=True)
