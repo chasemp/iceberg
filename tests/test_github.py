@@ -3,7 +3,7 @@ from pathlib import Path
 import pytest
 from pytest_httpx import HTTPXMock
 
-from iceberg.models import TrendingRepo
+from iceberg.models import DiscoveredRepo, TrendingRepo
 
 
 def load_fixture(filename: str) -> str:
@@ -40,12 +40,12 @@ def test_parse_trending_html_extracts_single_repo() -> None:
     repos = parse_trending_html(html)
 
     assert len(repos) == 1
-    assert repos[0].name == "repo"
-    assert repos[0].owner == "owner"
-    assert str(repos[0].url) == "https://github.com/owner/repo"
-    assert repos[0].description == "A test description"
-    assert repos[0].language == "Python"
-    assert repos[0].stars == 1234
+    assert repos[0]["name"] == "repo"
+    assert repos[0]["owner"] == "owner"
+    assert repos[0]["url"] == "https://github.com/owner/repo"
+    assert repos[0]["description"] == "A test description"
+    assert repos[0]["language"] == "Python"
+    assert repos[0]["stars"] == 1234
 
 
 def test_parse_trending_html_extracts_multiple_repos() -> None:
@@ -55,12 +55,12 @@ def test_parse_trending_html_extracts_multiple_repos() -> None:
     repos = parse_trending_html(html)
 
     assert len(repos) == 2
-    assert repos[0].name == "repo1"
-    assert repos[0].owner == "owner1"
-    assert repos[0].stars == 1234
-    assert repos[1].name == "repo2"
-    assert repos[1].owner == "owner2"
-    assert repos[1].stars == 567
+    assert repos[0]["name"] == "repo1"
+    assert repos[0]["owner"] == "owner1"
+    assert repos[0]["stars"] == 1234
+    assert repos[1]["name"] == "repo2"
+    assert repos[1]["owner"] == "owner2"
+    assert repos[1]["stars"] == 567
 
 
 def test_parse_trending_html_handles_missing_description() -> None:
@@ -89,7 +89,7 @@ def test_parse_trending_html_handles_missing_description() -> None:
     repos = parse_trending_html(html)
 
     assert len(repos) == 1
-    assert repos[0].description is None
+    assert repos[0]["description"] is None
 
 
 def test_parse_trending_html_handles_missing_language() -> None:
@@ -118,7 +118,7 @@ def test_parse_trending_html_handles_missing_language() -> None:
     repos = parse_trending_html(html)
 
     assert len(repos) == 1
-    assert repos[0].language is None
+    assert repos[0]["language"] is None
 
 
 def test_parse_trending_html_handles_star_count_with_commas() -> None:
@@ -143,7 +143,7 @@ def test_parse_trending_html_handles_star_count_with_commas() -> None:
 
     repos = parse_trending_html(html)
 
-    assert repos[0].stars == 12345
+    assert repos[0]["stars"] == 12345
 
 
 def test_fetch_trending_repos_makes_http_request(httpx_mock: HTTPXMock) -> None:
@@ -157,7 +157,10 @@ def test_fetch_trending_repos_makes_http_request(httpx_mock: HTTPXMock) -> None:
     repos = fetch_trending_repos()
 
     assert len(repos) == 2
-    assert isinstance(repos[0], TrendingRepo)
+    assert isinstance(repos[0], DiscoveredRepo)
+    assert repos[0].source == "trending-daily"
+    assert repos[0].discovered_at is not None
+    assert repos[0].search_query is None
 
 
 def test_fetch_trending_repos_respects_limit(httpx_mock: HTTPXMock) -> None:
@@ -172,6 +175,7 @@ def test_fetch_trending_repos_respects_limit(httpx_mock: HTTPXMock) -> None:
 
     assert len(repos) == 1
     assert repos[0].name == "repo1"
+    assert repos[0].source == "trending-daily"
 
 
 def test_fetch_trending_repos_handles_network_error(httpx_mock: HTTPXMock) -> None:

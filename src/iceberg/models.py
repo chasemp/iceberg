@@ -3,7 +3,7 @@ from typing import Literal
 from pydantic import BaseModel, ConfigDict, HttpUrl
 
 
-class TrendingRepo(BaseModel):
+class DiscoveredRepo(BaseModel):
     model_config = ConfigDict(frozen=True)
 
     name: str
@@ -12,6 +12,12 @@ class TrendingRepo(BaseModel):
     description: str | None
     language: str | None
     stars: int
+    source: Literal["trending-daily", "trending-weekly", "trending-monthly", "search"]
+    discovered_at: str
+    search_query: str | None = None
+
+
+TrendingRepo = DiscoveredRepo
 
 
 class PackageIdentifier(BaseModel):

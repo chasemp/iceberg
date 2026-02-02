@@ -42,7 +42,10 @@ def fetch(
             data = [repo.model_dump(mode="json") for repo in repos]
             typer.echo(json.dumps(data, indent=2))
         else:
-            typer.echo(f"Fetched {len(repos)} trending repositories")
+            if len(repos) < limit:
+                typer.echo(f"Fetched {len(repos)} trending repositories (GitHub only shows ~{len(repos)} on trending page)")
+            else:
+                typer.echo(f"Fetched {len(repos)} trending repositories")
             for repo in repos:
                 typer.echo(f"  - {repo.owner}/{repo.name} ({repo.stars:,} stars)")
 
