@@ -5,9 +5,9 @@
     "url": "https://github.com/public-apis/public-apis",
     "description": "A collective list of free APIs",
     "language": "Python",
-    "stars": 394888,
+    "stars": 394896,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -16,9 +16,9 @@
     "url": "https://github.com/EbookFoundation/free-programming-books",
     "description": ":books: Freely available programming books",
     "language": "Python",
-    "stars": 381918,
+    "stars": 381922,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -27,9 +27,9 @@
     "url": "https://github.com/donnemartin/system-design-primer",
     "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
     "language": "Python",
-    "stars": 334193,
+    "stars": 334197,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -38,9 +38,9 @@
     "url": "https://github.com/vinta/awesome-python",
     "description": "An opinionated list of awesome Python frameworks, libraries, software and resources.",
     "language": "Python",
-    "stars": 281116,
+    "stars": 281128,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -49,9 +49,9 @@
     "url": "https://github.com/TheAlgorithms/Python",
     "description": "All Algorithms implemented in Python",
     "language": "Python",
-    "stars": 217431,
+    "stars": 217432,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -60,9 +60,9 @@
     "url": "https://github.com/Significant-Gravitas/AutoGPT",
     "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
     "language": "Python",
-    "stars": 181638,
+    "stars": 181641,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -73,7 +73,7 @@
     "language": "Python",
     "stars": 160388,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -82,9 +82,9 @@
     "url": "https://github.com/huggingface/transformers",
     "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
     "language": "Python",
-    "stars": 156070,
+    "stars": 156071,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -93,9 +93,9 @@
     "url": "https://github.com/yt-dlp/yt-dlp",
     "description": "A feature-rich command-line audio/video downloader",
     "language": "Python",
-    "stars": 145470,
+    "stars": 145480,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -104,9 +104,9 @@
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
     "language": "Python",
-    "stars": 144485,
+    "stars": 144486,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -115,9 +115,9 @@
     "url": "https://github.com/521xueweihan/HelloGitHub",
     "description": ":octocat: \u5206\u4eab GitHub \u4e0a\u6709\u8da3\u3001\u5165\u95e8\u7ea7\u7684\u5f00\u6e90\u9879\u76ee\u3002Share interesting, entry-level open source projects on GitHub.",
     "language": "Python",
-    "stars": 141999,
+    "stars": 142000,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -128,7 +128,7 @@
     "language": "Python",
     "stars": 139646,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -137,9 +137,9 @@
     "url": "https://github.com/langchain-ai/langchain",
     "description": "\ud83e\udd9c\ud83d\udd17 The platform for reliable agents.",
     "language": "Python",
-    "stars": 125731,
+    "stars": 125733,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -148,9 +148,9 @@
     "url": "https://github.com/open-webui/open-webui",
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
     "language": "Python",
-    "stars": 122694,
+    "stars": 122696,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -159,9 +159,9 @@
     "url": "https://github.com/Comfy-Org/ComfyUI",
     "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
     "language": "Python",
-    "stars": 102246,
+    "stars": 102250,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -172,7 +172,7 @@
     "language": "Python",
     "stars": 101418,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -181,9 +181,9 @@
     "url": "https://github.com/pytorch/pytorch",
     "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
     "language": "Python",
-    "stars": 97119,
+    "stars": 97121,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -192,9 +192,9 @@
     "url": "https://github.com/nvbn/thefuck",
     "description": "Magnificent app which corrects your previous console command.",
     "language": "Python",
-    "stars": 95381,
+    "stars": 95379,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -203,9 +203,9 @@
     "url": "https://github.com/fastapi/fastapi",
     "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
     "language": "Python",
-    "stars": 94728,
+    "stars": 94731,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -214,9 +214,9 @@
     "url": "https://github.com/openai/whisper",
     "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
     "language": "Python",
-    "stars": 94063,
+    "stars": 94065,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -225,9 +225,9 @@
     "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
     "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
     "language": "Python",
-    "stars": 91783,
+    "stars": 91788,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -236,9 +236,9 @@
     "url": "https://github.com/django/django",
     "description": "The Web framework for perfectionists with deadlines.",
     "language": "Python",
-    "stars": 86656,
+    "stars": 86658,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -247,9 +247,9 @@
     "url": "https://github.com/microsoft/markitdown",
     "description": "Python tool for converting files and office documents to Markdown.",
     "language": "Python",
-    "stars": 86245,
+    "stars": 86255,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -258,9 +258,9 @@
     "url": "https://github.com/home-assistant/core",
     "description": ":house_with_garden: Open source home automation that puts local control and privacy first.",
     "language": "Python",
-    "stars": 84539,
+    "stars": 84546,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -269,9 +269,9 @@
     "url": "https://github.com/3b1b/manim",
     "description": "Animation engine for explanatory math videos",
     "language": "Python",
-    "stars": 84242,
+    "stars": 84245,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -280,9 +280,9 @@
     "url": "https://github.com/bregman-arie/devops-exercises",
     "description": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
     "language": "Python",
-    "stars": 80839,
+    "stars": 80840,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -291,9 +291,9 @@
     "url": "https://github.com/hacksider/Deep-Live-Cam",
     "description": "real time face swap and one-click video deepfake with only a single image",
     "language": "Python",
-    "stars": 79202,
+    "stars": 79205,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -304,7 +304,7 @@
     "language": "Python",
     "stars": 78812,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -315,7 +315,7 @@
     "language": "Python",
     "stars": 77683,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   },
   {
@@ -324,9 +324,9 @@
     "url": "https://github.com/browser-use/browser-use",
     "description": "\ud83c\udf10 Make websites accessible for AI agents. Automate tasks online with ease.",
     "language": "Python",
-    "stars": 77626,
+    "stars": 77636,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:05.986127+00:00",
+    "discovered_at": "2026-02-02T22:24:12.928158+00:00",
     "search_query": "stars:>5000 language:python"
   }
 ]

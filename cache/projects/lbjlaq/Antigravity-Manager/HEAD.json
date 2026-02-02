@@ -4,7 +4,7 @@
   "version": "HEAD",
   "loc": 45561,
   "source": "github_clone",
-  "cached_at": "2026-02-02T20:08:40.593551+00:00",
+  "cached_at": "2026-02-02T22:27:17.315528+00:00",
   "package": {
     "system": "npm",
     "name": "antigravity-tools",
@@ -13,6 +13,6 @@
   "repo_url": "https://github.com/lbjlaq/Antigravity-Manager.git",
   "ref": "HEAD",
   "commit_hash": "c783796f49cede33f354cf10aa6eaf6783093fa3",
-  "clone_duration_seconds": 9.605586051940918,
-  "count_duration_seconds": 0.033144235610961914
+  "clone_duration_seconds": 1.8009669780731201,
+  "count_duration_seconds": 0.03430008888244629
 }

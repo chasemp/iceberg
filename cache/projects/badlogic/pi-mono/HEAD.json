@@ -4,7 +4,7 @@
   "version": "HEAD",
   "loc": 84499,
   "source": "github_clone",
-  "cached_at": "2026-02-02T20:06:00.843570+00:00",
+  "cached_at": "2026-02-02T22:25:11.834286+00:00",
   "package": {
     "system": "npm",
     "name": "pi-monorepo",
@@ -13,6 +13,6 @@
   "repo_url": "https://github.com/badlogic/pi-mono.git",
   "ref": "HEAD",
   "commit_hash": "1fbafd6cc7b63fe6810cd8c4a42cb3232139751c",
-  "clone_duration_seconds": 1.3293719291687012,
-  "count_duration_seconds": 0.056176185607910156
+  "clone_duration_seconds": 1.3174290657043457,
+  "count_duration_seconds": 0.05913090705871582
 }

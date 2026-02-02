@@ -5,9 +5,9 @@
     "url": "https://github.com/facebook/react",
     "description": "The library for web and native user interfaces.",
     "language": "JavaScript",
-    "stars": 242714,
+    "stars": 242716,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -16,9 +16,9 @@
     "url": "https://github.com/trekhleb/javascript-algorithms",
     "description": "\ud83d\udcdd Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
     "language": "JavaScript",
-    "stars": 195489,
+    "stars": 195488,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -29,7 +29,7 @@
     "language": "JavaScript",
     "stars": 148091,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -38,9 +38,9 @@
     "url": "https://github.com/vercel/next.js",
     "description": "The React Framework",
     "language": "JavaScript",
-    "stars": 137485,
+    "stars": 137484,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -49,9 +49,9 @@
     "url": "https://github.com/Chalarangelo/30-seconds-of-code",
     "description": "Coding articles to level up your development skills",
     "language": "JavaScript",
-    "stars": 126629,
+    "stars": 126630,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -60,9 +60,9 @@
     "url": "https://github.com/nodejs/node",
     "description": "Node.js JavaScript runtime \u2728\ud83d\udc22\ud83d\ude80\u2728",
     "language": "JavaScript",
-    "stars": 115524,
+    "stars": 115527,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -71,9 +71,9 @@
     "url": "https://github.com/mrdoob/three.js",
     "description": "JavaScript 3D Library.",
     "language": "JavaScript",
-    "stars": 110685,
+    "stars": 110687,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -84,7 +84,7 @@
     "language": "JavaScript",
     "stars": 108563,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -95,7 +95,7 @@
     "language": "JavaScript",
     "stars": 103956,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -104,9 +104,9 @@
     "url": "https://github.com/jaywcjlove/awesome-mac",
     "description": "\uf8ff Now we have become very big, Different from the original idea. Collect premium software in various categories.",
     "language": "JavaScript",
-    "stars": 98399,
+    "stars": 98402,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -117,7 +117,7 @@
     "language": "JavaScript",
     "stars": 97747,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -128,7 +128,7 @@
     "language": "JavaScript",
     "stars": 95212,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -139,7 +139,7 @@
     "language": "JavaScript",
     "stars": 94289,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -148,9 +148,9 @@
     "url": "https://github.com/sveltejs/svelte",
     "description": "web development for the rest of us",
     "language": "JavaScript",
-    "stars": 85655,
+    "stars": 85659,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -159,9 +159,9 @@
     "url": "https://github.com/louislam/uptime-kuma",
     "description": "A fancy self-hosted monitoring tool",
     "language": "JavaScript",
-    "stars": 82260,
+    "stars": 82262,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -172,7 +172,7 @@
     "language": "JavaScript",
     "stars": 78189,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -183,7 +183,7 @@
     "language": "JavaScript",
     "stars": 76287,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -194,7 +194,7 @@
     "language": "JavaScript",
     "stars": 75618,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -205,7 +205,7 @@
     "language": "JavaScript",
     "stars": 70503,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -216,7 +216,7 @@
     "language": "JavaScript",
     "stars": 68645,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -225,9 +225,9 @@
     "url": "https://github.com/chartjs/Chart.js",
     "description": "Simple HTML5 Charts using the <canvas> tag",
     "language": "JavaScript",
-    "stars": 67076,
+    "stars": 67077,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -236,9 +236,9 @@
     "url": "https://github.com/juliangarnier/anime",
     "description": "JavaScript animation engine",
     "language": "JavaScript",
-    "stars": 66320,
+    "stars": 66321,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -247,9 +247,9 @@
     "url": "https://github.com/leonardomso/33-js-concepts",
     "description": "\ud83d\udcdc 33 JavaScript concepts every developer should know.",
     "language": "JavaScript",
-    "stars": 66226,
+    "stars": 66225,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -260,7 +260,7 @@
     "language": "JavaScript",
     "stars": 65940,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -271,7 +271,7 @@
     "language": "JavaScript",
     "stars": 62790,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -280,9 +280,9 @@
     "url": "https://github.com/lodash/lodash",
     "description": "A modern JavaScript utility library delivering modularity, performance, & extras.",
     "language": "JavaScript",
-    "stars": 61600,
+    "stars": 61601,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -291,9 +291,9 @@
     "url": "https://github.com/gorhill/uBlock",
     "description": "uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.",
     "language": "JavaScript",
-    "stars": 61298,
+    "stars": 61299,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -304,7 +304,7 @@
     "language": "JavaScript",
     "stars": 61004,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -315,7 +315,7 @@
     "language": "JavaScript",
     "stars": 60127,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   },
   {
@@ -326,7 +326,7 @@
     "language": "JavaScript",
     "stars": 59830,
     "source": "search",
-    "discovered_at": "2026-02-02T20:05:07.279419+00:00",
+    "discovered_at": "2026-02-02T22:24:13.952031+00:00",
     "search_query": "stars:>5000 language:javascript"
   }
 ]

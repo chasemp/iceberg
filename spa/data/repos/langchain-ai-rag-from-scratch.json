@@ -9,11 +9,11 @@
     "version": "HEAD",
     "loc": 0,
     "source": "github_clone",
-    "cached_at": "2026-02-02T20:06:31.073432+00:00",
+    "cached_at": "2026-02-02T22:25:37.504362+00:00",
     "repo_url": "https://github.com/langchain-ai/rag-from-scratch.git",
     "ref": "HEAD",
     "commit_hash": "1fdb7d0e4f1d3e731c8397332452715512f18667",
-    "clone_duration_seconds": 1.4984641075134277,
-    "count_duration_seconds": 0.001631021499633789
+    "clone_duration_seconds": 1.3894679546356201,
+    "count_duration_seconds": 0.0016238689422607422
   }
 }
