@@ -1,3 +1,4 @@
+import tempfile
 import time
 from datetime import datetime, timezone
 from pathlib import Path
@@ -14,9 +15,10 @@ from iceberg.cache import (
 )
 from iceberg.detector import detect_package
 from iceberg.depsdev import get_dependencies, get_package_loc, get_project_loc as get_depsdev_project_loc
-from iceberg.github_loc import get_github_project_loc
+from iceberg.github_loc import clone_repository, count_repo_loc, get_github_project_loc
 from iceberg.models import LocMetrics, PackageIdentifier
 from iceberg.npm_loc import get_npm_package_loc
+from iceberg.osv import parse_osv_sbom, run_osv_scanner
 
 
 def calculate_package_loc(
@@ -111,10 +113,11 @@ def analyze_repository(
 ) -> dict[str, Any] | None:
     """Analyze a repository and calculate its iceberg ratio.
 
-    Supports partial analysis:
-    - If deps.dev doesn't have the project, falls back to GitHub cloning
-    - If package detection fails, saves project LoC anyway
-    - If dependency analysis fails, saves partial results
+    New flow (osv-scanner primary):
+    - Clone GitHub repo and count project LoC
+    - Run osv-scanner to discover dependencies from lock files
+    - Calculate transitive LoC from SBOM dependencies
+    - Use deps.dev as fallback for individual package LoC queries
 
     Args:
         owner: Repository owner
@@ -133,61 +136,7 @@ def analyze_repository(
             print(f"    [cache] Using cached analysis for {owner}/{repo}")
         return cached
 
-    # Step 1: Get project LoC (try deps.dev first, then GitHub clone)
-    project_loc: int | None = None
-    project_source = "unknown"
-    project_metadata: dict[str, Any] = {}
-
-    # Try deps.dev API first
-    try:
-        if verbose:
-            print(f"    [deps.dev] Fetching project LoC for {owner}/{repo}")
-        project_loc = get_depsdev_project_loc(owner, repo)
-        if project_loc is not None:
-            project_source = "depsdev_api"
-            if verbose:
-                print(f"    [deps.dev] ✓ Got {project_loc:,} LoC from deps.dev")
-    except Exception as e:
-        # deps.dev failed (404, network error, etc.), try GitHub clone
-        if verbose:
-            print(f"    [deps.dev] ✗ Failed ({e.__class__.__name__}), falling back to GitHub clone")
-
-    # Fallback to GitHub cloning if deps.dev didn't work
-    if project_loc is None:
-        if verbose:
-            print(f"    [github] Cloning and counting LoC for {owner}/{repo}")
-        github_result = get_github_project_loc(owner, repo, cache_dir=cache_dir)
-        if github_result:
-            project_loc = github_result["loc"]
-            project_source = github_result["source"]
-            project_metadata = github_result.get("metadata", {})
-            if verbose:
-                print(f"    [github] ✓ Cloned and counted {project_loc:,} LoC")
-        elif verbose:
-            print(f"    [github] ✗ Clone failed")
-
-    # If we can't get project LoC at all, give up
-    if project_loc is None:
-        return None
-
-    # Step 2: Detect AI markers
-    if verbose:
-        print(f"    [ai] Detecting AI tool markers")
-    try:
-        ai_markers = detect_ai_markers(owner, repo)
-        if has_any_ai_markers(ai_markers):
-            tools = get_ai_tools_list(ai_markers)
-            if verbose:
-                print(f"    [ai] ✓ Detected AI tools: {', '.join(tools)}")
-        elif verbose:
-            print(f"    [ai] ✗ No AI tool markers found")
-    except Exception:
-        # AI detection failed, not critical
-        ai_markers = {}
-        if verbose:
-            print(f"    [ai] ✗ Detection failed (continuing without AI markers)")
-
-    # Step 3: Detect or parse package
+    # Step 1: Try to detect package version before cloning (for release tag checkout)
     pkg: PackageIdentifier | None = None
     if package_spec:
         if verbose:
@@ -199,67 +148,180 @@ def analyze_repository(
                 pkg = PackageIdentifier(system=system, name=parts[1], version=parts[2])  # type: ignore[arg-type]
     else:
         if verbose:
-            print(f"    [package] Auto-detecting package manifest")
-        pkg = detect_package(owner, repo)
-        if pkg and verbose:
-            print(f"    [package] ✓ Detected {pkg.system}:{pkg.name}@{pkg.version}")
-        elif verbose:
-            print(f"    [package] ✗ No package manifest found")
-
-    # Step 4: Try to calculate dependencies (optional)
-    total_loc: int | None = None
-    ratio: float | None = None
-
-    if pkg is not None:
+            print(f"    [package] Pre-detecting package for release tag")
         try:
+            pkg = detect_package(owner, repo)
+            if pkg and verbose:
+                print(f"    [package] ✓ Detected {pkg.system}:{pkg.name}@{pkg.version}")
+        except Exception:
             if verbose:
-                print(f"    [deps] Calculating transitive dependencies for {pkg.system}:{pkg.name}")
-            total_loc = calculate_transitive_loc(pkg, cache_dir=cache_dir)
-            ratio = total_loc / (project_loc + total_loc) if (project_loc + total_loc) > 0 else 0.0
+                print(f"    [package] ✗ Pre-detection failed, will clone HEAD")
+
+    # Step 2: Clone repo and count project LoC
+    project_loc: int | None = None
+    project_source = "unknown"
+    project_metadata: dict[str, Any] = {}
+    repo_path: Path | None = None
+    ref_to_clone: str | None = None
+
+    # If we detected a version, try to clone that release tag
+    if pkg and pkg.version:
+        # Try common tag formats: v1.2.3, 1.2.3
+        for tag_format in [f"v{pkg.version}", pkg.version]:
             if verbose:
-                print(f"    [deps] ✓ Total dependencies: {total_loc:,} LoC (ratio: {ratio:.1%})")
-        except Exception as e:
-            # Dependency analysis failed, but we still have project LoC
+                print(f"    [github] Attempting to clone tag {tag_format}")
+            ref_to_clone = tag_format
+            break  # Use first format for now
+
+    try:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            temp_path = Path(temp_dir)
+
             if verbose:
-                print(f"    [deps] ✗ Dependency analysis failed ({e.__class__.__name__})")
+                if ref_to_clone:
+                    print(f"    [github] Cloning {owner}/{repo} at {ref_to_clone}")
+                else:
+                    print(f"    [github] Cloning {owner}/{repo} at HEAD")
 
-    # Step 5: Save what we have (even if partial)
-    project_data: dict[str, Any] = {
-        "owner": owner,
-        "repo": repo,
-        "version": "HEAD",
-        "loc": project_loc,
-        "source": project_source,
-        "cached_at": datetime.now(timezone.utc).isoformat(),
-    }
+            # Clone repository (with version tag if detected, otherwise HEAD)
+            clone_result = clone_repository(owner, repo, target_dir=temp_path, ref=ref_to_clone)
+            if not clone_result:
+                # If clone with tag failed, try HEAD as fallback
+                if ref_to_clone:
+                    if verbose:
+                        print(f"    [github] ✗ Clone with tag {ref_to_clone} failed, trying HEAD")
+                    clone_result = clone_repository(owner, repo, target_dir=temp_path, ref=None)
+                    if not clone_result:
+                        if verbose:
+                            print(f"    [github] ✗ Clone failed")
+                        return None
+                else:
+                    if verbose:
+                        print(f"    [github] ✗ Clone failed")
+                    return None
 
-    # Add optional fields if available
-    if pkg is not None:
-        project_data["package"] = pkg.model_dump(mode="json")
-    if total_loc is not None:
-        project_data["total_loc"] = total_loc
-    if ratio is not None:
-        project_data["ratio"] = ratio
-    if ai_markers and has_any_ai_markers(ai_markers):
-        project_data["ai_markers"] = ai_markers
-        project_data["ai_tools"] = get_ai_tools_list(ai_markers)
-    if project_metadata:
-        project_data.update(project_metadata)
+            repo_path = temp_path
 
-    save_project_loc(project_data, cache_dir=cache_dir)
+            # Count LoC
+            if verbose:
+                print(f"    [github] Counting LoC")
+            count_result = count_repo_loc(temp_path)
+            if not count_result:
+                if verbose:
+                    print(f"    [github] ✗ LoC counting failed")
+                return None
 
-    # Return result
-    result: dict[str, Any] = {
-        "owner": owner,
-        "repo": repo,
-        "project_loc": project_loc,
-    }
+            project_loc = count_result["loc"]
+            project_source = "github_clone"
+            project_metadata = {
+                "repo_url": clone_result["repo_url"],
+                "ref": clone_result["ref"],
+                "commit_hash": clone_result.get("commit_hash"),
+                "clone_duration_seconds": clone_result["duration_seconds"],
+                "count_duration_seconds": count_result["duration_seconds"],
+            }
 
-    if pkg is not None:
-        result["package"] = f"{pkg.system}:{pkg.name}:{pkg.version}"
-    if total_loc is not None:
-        result["total_loc"] = total_loc
-    if ratio is not None:
-        result["ratio"] = ratio
+            if verbose:
+                print(f"    [github] ✓ Cloned and counted {project_loc:,} LoC")
 
-    return result
+            # Step 2: Run osv-scanner to discover dependencies
+            total_loc: int | None = None
+            ratio: float | None = None
+
+            if verbose:
+                print(f"    [osv] Running osv-scanner to discover dependencies")
+
+            osv_output = run_osv_scanner(temp_path)
+            if osv_output:
+                deps = parse_osv_sbom(osv_output)
+                if deps:
+                    if verbose:
+                        print(f"    [osv] ✓ Discovered {len(deps)} dependencies")
+
+                    # Calculate LoC for each dependency
+                    dep_loc_sum = 0
+                    for dep in deps:
+                        try:
+                            dep_loc = calculate_package_loc(dep, cache_dir=cache_dir)
+                            dep_loc_sum += dep_loc
+                        except Exception:
+                            # Individual dependency calculation failed, continue with others
+                            continue
+
+                    total_loc = dep_loc_sum
+                    ratio = total_loc / (project_loc + total_loc) if (project_loc + total_loc) > 0 else 0.0
+
+                    if verbose:
+                        print(f"    [osv] ✓ Total dependencies: {total_loc:,} LoC (ratio: {ratio:.1%})")
+                else:
+                    if verbose:
+                        print(f"    [osv] ✗ No dependencies found in SBOM")
+            else:
+                if verbose:
+                    print(f"    [osv] ✗ osv-scanner not available or failed")
+
+            # Step 3: Detect AI markers
+            if verbose:
+                print(f"    [ai] Detecting AI tool markers")
+            ai_markers = {}
+            try:
+                ai_markers = detect_ai_markers(owner, repo)
+                if has_any_ai_markers(ai_markers):
+                    tools = get_ai_tools_list(ai_markers)
+                    if verbose:
+                        print(f"    [ai] ✓ Detected AI tools: {', '.join(tools)}")
+                elif verbose:
+                    print(f"    [ai] ✗ No AI tool markers found")
+            except Exception:
+                # AI detection failed, not critical
+                if verbose:
+                    print(f"    [ai] ✗ Detection failed (continuing without AI markers)")
+
+            # Step 4: Package already detected in Step 1 (before cloning)
+            # If it wasn't detected earlier, we won't try again here
+
+            # Step 5: Save results
+            project_data: dict[str, Any] = {
+                "owner": owner,
+                "repo": repo,
+                "version": "HEAD",
+                "loc": project_loc,
+                "source": project_source,
+                "cached_at": datetime.now(timezone.utc).isoformat(),
+            }
+
+            # Add optional fields if available
+            if pkg is not None:
+                project_data["package"] = pkg.model_dump(mode="json")
+            if total_loc is not None:
+                project_data["total_loc"] = total_loc
+            if ratio is not None:
+                project_data["ratio"] = ratio
+            if ai_markers and has_any_ai_markers(ai_markers):
+                project_data["ai_markers"] = ai_markers
+                project_data["ai_tools"] = get_ai_tools_list(ai_markers)
+            if project_metadata:
+                project_data.update(project_metadata)
+
+            save_project_loc(project_data, cache_dir=cache_dir)
+
+            # Return result
+            result: dict[str, Any] = {
+                "owner": owner,
+                "repo": repo,
+                "project_loc": project_loc,
+            }
+
+            if pkg is not None:
+                result["package"] = f"{pkg.system}:{pkg.name}:{pkg.version}"
+            if total_loc is not None:
+                result["total_loc"] = total_loc
+            if ratio is not None:
+                result["ratio"] = ratio
+
+            return result
+
+    except Exception as e:
+        if verbose:
+            print(f"    [error] Analysis failed: {e.__class__.__name__}")
+        return None

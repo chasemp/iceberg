@@ -157,7 +157,11 @@ def test_analyze_with_osv_scanner(tmp_path: Path) -> None:
     }
     """)
 
-    result = analyze_with_osv(str(tmp_path), cache_dir=tmp_path / "cache")
+    # Mock loc calculator
+    def mock_loc_calculator(pkg, cache_dir=None):
+        return 1000
+
+    result = analyze_with_osv(str(tmp_path), mock_loc_calculator, cache_dir=tmp_path / "cache")
 
     # OSV-Scanner may not find the package if format is wrong
     # That's okay - we're testing the integration, not osv-scanner itself

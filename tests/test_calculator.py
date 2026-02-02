@@ -243,3 +243,137 @@ def test_calculate_package_loc_includes_timing_data(
     assert cached_metrics is not None
     assert cached_metrics.fetch_duration_seconds is not None
     assert cached_metrics.fetch_duration_seconds >= 0
+
+
+def test_analyze_repository_uses_osv_scanner(
+    httpx_mock: HTTPXMock, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """Test that analyze_repository uses osv-scanner to discover dependencies."""
+    from iceberg.calculator import analyze_repository
+
+    # Mock cloning
+    def mock_clone_repository(
+        owner: str, name: str, target_dir: Path | None = None, ref: str | None = None
+    ) -> dict:
+        return {
+            "duration_seconds": 1.0,
+            "repo_url": f"https://github.com/{owner}/{name}.git",
+            "ref": ref or "HEAD",
+            "commit_hash": "abc123",
+        }
+
+    # Mock LoC counting
+    def mock_count_repo_loc(repo_dir: Path) -> dict:
+        return {
+            "loc": 10000,
+            "duration_seconds": 0.5,
+        }
+
+    # Mock osv-scanner output with dependencies
+    def mock_run_osv_scanner(repo_path: Path) -> str:
+        return """
+        {
+          "results": [
+            {
+              "packages": [
+                {
+                  "package": {
+                    "name": "react",
+                    "version": "18.2.0",
+                    "ecosystem": "npm"
+                  }
+                },
+                {
+                  "package": {
+                    "name": "lodash",
+                    "version": "4.17.21",
+                    "ecosystem": "npm"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+        """
+
+    # Mock package detection to return None (osv-scanner will be primary)
+    def mock_detect_package(owner: str, repo: str) -> None:
+        return None
+
+    # Mock AI detection
+    def mock_detect_ai_markers(owner: str, repo: str) -> dict:
+        return {}
+
+    monkeypatch.setattr("iceberg.calculator.clone_repository", mock_clone_repository)
+    monkeypatch.setattr("iceberg.calculator.count_repo_loc", mock_count_repo_loc)
+    monkeypatch.setattr("iceberg.calculator.run_osv_scanner", mock_run_osv_scanner)
+    monkeypatch.setattr("iceberg.calculator.detect_package", mock_detect_package)
+    monkeypatch.setattr("iceberg.calculator.detect_ai_markers", mock_detect_ai_markers)
+
+    # Mock deps.dev API for dependency LoC
+    # (osv-scanner gives flat list, so no :dependencies endpoints needed)
+    httpx_mock.add_response(
+        url="https://api.deps.dev/v3/systems/npm/packages/react/versions/18.2.0",
+        json={"lineCount": 5000},
+    )
+    httpx_mock.add_response(
+        url="https://api.deps.dev/v3/systems/npm/packages/lodash/versions/4.17.21",
+        json={"lineCount": 3000},
+    )
+
+    result = analyze_repository("facebook", "react", cache_dir=tmp_path, verbose=True)
+
+    assert result is not None
+    assert result["project_loc"] == 10000
+    assert result["total_loc"] == 8000  # 5000 (react) + 3000 (lodash)
+    assert result["ratio"] > 0  # Dependencies ratio should be calculated
+
+
+def test_analyze_repository_checkouts_release_tag_when_version_detected(
+    httpx_mock: HTTPXMock, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """Test that analyze_repository checks out release tag when package version is detected."""
+    from iceberg.calculator import analyze_repository
+    from iceberg.models import PackageIdentifier
+
+    checkout_ref_called_with: list[str | None] = []
+
+    # Mock cloning - track what ref is requested
+    def mock_clone_repository(
+        owner: str, name: str, target_dir: Path | None = None, ref: str | None = None
+    ) -> dict:
+        checkout_ref_called_with.append(ref)
+        return {
+            "duration_seconds": 1.0,
+            "repo_url": f"https://github.com/{owner}/{name}.git",
+            "ref": ref or "HEAD",
+            "commit_hash": "abc123",
+        }
+
+    def mock_count_repo_loc(repo_dir: Path) -> dict:
+        return {"loc": 10000, "duration_seconds": 0.5}
+
+    def mock_run_osv_scanner(repo_path: Path) -> str | None:
+        return None
+
+    # Mock package detection to return a version
+    def mock_detect_package(owner: str, repo: str) -> PackageIdentifier:
+        return PackageIdentifier(system="npm", name="test-pkg", version="1.2.3")
+
+    def mock_detect_ai_markers(owner: str, repo: str) -> dict:
+        return {}
+
+    monkeypatch.setattr("iceberg.calculator.clone_repository", mock_clone_repository)
+    monkeypatch.setattr("iceberg.calculator.count_repo_loc", mock_count_repo_loc)
+    monkeypatch.setattr("iceberg.calculator.run_osv_scanner", mock_run_osv_scanner)
+    monkeypatch.setattr("iceberg.calculator.detect_package", mock_detect_package)
+    monkeypatch.setattr("iceberg.calculator.detect_ai_markers", mock_detect_ai_markers)
+
+    result = analyze_repository("owner", "repo", cache_dir=tmp_path)
+
+    assert result is not None
+    # Should have attempted to clone with the version tag
+    assert len(checkout_ref_called_with) > 0
+    # First attempt should be with the version tag (v1.2.3 or 1.2.3)
+    first_ref = checkout_ref_called_with[0]
+    assert first_ref in ["v1.2.3", "1.2.3"]
