@@ -278,17 +278,3 @@ def test_discovered_repos_cache_isolation(tmp_path: Path) -> None:
     assert loaded_weekly[0].name == "repo2"
 
 
-def test_backward_compatibility_with_old_trending_cache(tmp_path: Path) -> None:
-    from iceberg.cache import load_discovered_repos, save_trending_repos
-
-    # Save using old function
-    repos = [create_discovered_repo(name="old-repo", source="trending-daily")]
-    save_trending_repos(repos, cache_dir=tmp_path)
-
-    # Load using new function should fall back to old cache
-    today = datetime.now(timezone.utc).date().isoformat()
-    loaded = load_discovered_repos("trending-daily", today, cache_dir=tmp_path)
-
-    assert loaded is not None
-    assert len(loaded) == 1
-    assert loaded[0].name == "old-repo"

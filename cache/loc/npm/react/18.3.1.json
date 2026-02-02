@@ -4,7 +4,9 @@
     "name": "react",
     "version": "18.3.1"
   },
-  "total_lines": 0,
-  "source": "depsdev",
-  "cached_at": "2026-02-02T16:56:34.068204+00:00"
+  "total_lines": 5872,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T17:04:43.563238+00:00",
+  "source_url": "https://registry.npmjs.org/react/-/react-18.3.1.tgz",
+  "fetch_method": "tarball_download_and_count"
 }

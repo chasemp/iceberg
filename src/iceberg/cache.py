@@ -288,22 +288,13 @@ def load_discovered_repos(
 
     Returns:
         List of discovered repos or None if not cached
-
-    Notes:
-        Falls back to old trending cache for backward compatibility
     """
     if cache_dir is None:
         cache_dir = get_default_cache_dir()
 
     # Determine cache file path
     if source.startswith("trending"):
-        # Try new structure first
         cache_file = cache_dir / "discovered" / source / f"{identifier}.json"
-
-        # Fall back to old structure for backward compatibility
-        if not cache_file.exists() and source == "trending-daily":
-            cache_file = cache_dir / "trending" / f"{identifier}.json"
-
     elif source == "search":
         # For search, identifier is the query - hash it
         query_hash = _hash_query(identifier)
