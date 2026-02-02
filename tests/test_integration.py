@@ -7,7 +7,9 @@ from typer.testing import CliRunner
 
 def test_full_workflow_fetch_and_analyze(httpx_mock: HTTPXMock, tmp_path: Path) -> None:
     """Test complete workflow: fetch trending repos, then analyze one."""
-    from iceberg.cache import load_loc_metrics, load_trending_repos
+    from datetime import datetime, timezone
+
+    from iceberg.cache import load_discovered_repos, load_loc_metrics
     from iceberg.cli import app
 
     trending_html = """
@@ -42,9 +44,10 @@ def test_full_workflow_fetch_and_analyze(httpx_mock: HTTPXMock, tmp_path: Path) 
     result = runner.invoke(app, ["fetch", "--cache-dir", str(tmp_path)])
 
     assert result.exit_code == 0
-    assert "Fetched 1 trending" in result.stdout
+    assert "Fetched 1 daily trending" in result.stdout
 
-    cached_repos = load_trending_repos(cache_dir=tmp_path)
+    today = datetime.now(timezone.utc).date().isoformat()
+    cached_repos = load_discovered_repos("trending-daily", today, cache_dir=tmp_path)
     assert cached_repos is not None
     assert len(cached_repos) == 1
     assert cached_repos[0].name == "react"
@@ -237,3 +240,212 @@ def test_json_output_integration(httpx_mock: HTTPXMock, tmp_path: Path) -> None:
     assert data["repo"] == "owner/repo"
     assert data["project_loc"] == 5000
     assert data["total_loc"] == 1000
+
+
+def test_trending_weekly_end_to_end(httpx_mock: HTTPXMock, tmp_path: Path) -> None:
+    """Test complete workflow with weekly trending."""
+    from datetime import datetime, timezone
+
+    from iceberg.cache import load_discovered_repos
+    from iceberg.cli import app
+
+    trending_html = """
+    <article class="Box-row">
+      <h2 class="h3 lh-condensed">
+        <a href="/owner/repo">repo</a>
+      </h2>
+      <div class="f6 color-fg-muted mt-2">
+        <span class="d-inline-block mr-3"><svg aria-label="star"></svg>1000</span>
+      </div>
+    </article>
+    """
+
+    httpx_mock.add_response(
+        url="https://github.com/trending?since=weekly",
+        text=trending_html,
+    )
+
+    runner = CliRunner()
+    result = runner.invoke(
+        app,
+        ["fetch", "--source", "trending", "--since", "weekly", "--cache-dir", str(tmp_path)],
+    )
+
+    assert result.exit_code == 0
+    assert "Fetched 1 weekly trending" in result.stdout
+
+    # Verify cache structure
+    today = datetime.now(timezone.utc).date().isoformat()
+    cached_repos = load_discovered_repos("trending-weekly", today, cache_dir=tmp_path)
+
+    assert cached_repos is not None
+    assert len(cached_repos) == 1
+    assert cached_repos[0].name == "repo"
+    assert cached_repos[0].source == "trending-weekly"
+
+
+def test_search_end_to_end(httpx_mock: HTTPXMock, tmp_path: Path) -> None:
+    """Test complete workflow with search."""
+    from iceberg.cache import load_discovered_repos
+    from iceberg.cli import app
+
+    httpx_mock.add_response(
+        url="https://api.github.com/search/repositories?q=stars%3A%3E10000&per_page=10&page=1",
+        json={
+            "items": [
+                {
+                    "name": "react",
+                    "owner": {"login": "facebook"},
+                    "html_url": "https://github.com/facebook/react",
+                    "description": "A JavaScript library",
+                    "language": "JavaScript",
+                    "stargazers_count": 220000,
+                }
+            ]
+        },
+    )
+
+    runner = CliRunner()
+    result = runner.invoke(
+        app,
+        ["fetch", "--source", "search", "--stars", ">10000", "--limit", "10", "--cache-dir", str(tmp_path)],
+    )
+
+    assert result.exit_code == 0
+    assert "Fetched 1 repositories from search" in result.stdout
+    assert "Query: stars:>10000" in result.stdout
+
+    # Verify cache structure
+    query = "stars:>10000"
+    cached_repos = load_discovered_repos("search", query, cache_dir=tmp_path)
+
+    assert cached_repos is not None
+    assert len(cached_repos) == 1
+    assert cached_repos[0].name == "react"
+    assert cached_repos[0].source == "search"
+    assert cached_repos[0].search_query == query
+
+
+def test_multi_source_cache_isolation(httpx_mock: HTTPXMock, tmp_path: Path) -> None:
+    """Test that different sources don't collide in cache."""
+    from datetime import datetime, timezone
+
+    from iceberg.cache import load_discovered_repos
+    from iceberg.cli import app
+
+    # Fetch trending daily
+    trending_html = """
+    <article class="Box-row">
+      <h2 class="h3 lh-condensed">
+        <a href="/owner/trending-repo">trending-repo</a>
+      </h2>
+      <div class="f6 color-fg-muted mt-2">
+        <span class="d-inline-block mr-3"><svg aria-label="star"></svg>100</span>
+      </div>
+    </article>
+    """
+
+    httpx_mock.add_response(
+        url="https://github.com/trending",
+        text=trending_html,
+    )
+
+    runner = CliRunner()
+    result1 = runner.invoke(app, ["fetch", "--cache-dir", str(tmp_path)])
+    assert result1.exit_code == 0
+
+    # Fetch from search
+    httpx_mock.add_response(
+        url="https://api.github.com/search/repositories?q=stars%3A%3E1000&per_page=10&page=1",
+        json={
+            "items": [
+                {
+                    "name": "search-repo",
+                    "owner": {"login": "owner"},
+                    "html_url": "https://github.com/owner/search-repo",
+                    "description": "Search result",
+                    "language": "Python",
+                    "stargazers_count": 5000,
+                }
+            ]
+        },
+    )
+
+    result2 = runner.invoke(
+        app,
+        ["fetch", "--source", "search", "--stars", ">1000", "--cache-dir", str(tmp_path)],
+    )
+    assert result2.exit_code == 0
+
+    # Verify both are cached separately
+    today = datetime.now(timezone.utc).date().isoformat()
+    trending_repos = load_discovered_repos("trending-daily", today, cache_dir=tmp_path)
+    search_repos = load_discovered_repos("search", "stars:>1000", cache_dir=tmp_path)
+
+    assert trending_repos is not None
+    assert search_repos is not None
+    assert len(trending_repos) == 1
+    assert len(search_repos) == 1
+    assert trending_repos[0].name == "trending-repo"
+    assert search_repos[0].name == "search-repo"
+
+
+def test_backward_compatibility_with_old_cache(tmp_path: Path) -> None:
+    """Test that old trending cache format still works."""
+    from datetime import datetime, timezone
+
+    from iceberg.cache import load_discovered_repos, save_trending_repos
+    from tests.factories import create_discovered_repo
+
+    # Save using old function
+    repos = [create_discovered_repo(name="old-format-repo", source="trending-daily")]
+    save_trending_repos(repos, cache_dir=tmp_path)
+
+    # Load using new function
+    today = datetime.now(timezone.utc).date().isoformat()
+    loaded = load_discovered_repos("trending-daily", today, cache_dir=tmp_path)
+
+    assert loaded is not None
+    assert len(loaded) == 1
+    assert loaded[0].name == "old-format-repo"
+
+
+def test_search_with_multiple_filters(httpx_mock: HTTPXMock, tmp_path: Path) -> None:
+    """Test search with multiple filter parameters."""
+    from iceberg.cli import app
+
+    httpx_mock.add_response(
+        url="https://api.github.com/search/repositories?q=stars%3A%3E5000+language%3Apython&per_page=10&page=1",
+        json={
+            "items": [
+                {
+                    "name": "requests",
+                    "owner": {"login": "psf"},
+                    "html_url": "https://github.com/psf/requests",
+                    "description": "HTTP library",
+                    "language": "Python",
+                    "stargazers_count": 50000,
+                }
+            ]
+        },
+    )
+
+    runner = CliRunner()
+    result = runner.invoke(
+        app,
+        [
+            "fetch",
+            "--source",
+            "search",
+            "--stars",
+            ">5000",
+            "--language",
+            "python",
+            "--cache-dir",
+            str(tmp_path),
+        ],
+    )
+
+    assert result.exit_code == 0
+    assert "Fetched 1 repositories from search" in result.stdout
+    assert "stars:>5000 language:python" in result.stdout
