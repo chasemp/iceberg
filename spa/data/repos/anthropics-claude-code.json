@@ -9,11 +9,11 @@
     "version": "HEAD",
     "loc": 2562,
     "source": "github_clone",
-    "cached_at": "2026-02-02T19:14:59.634029+00:00",
+    "cached_at": "2026-02-02T20:08:24.087606+00:00",
     "repo_url": "https://github.com/anthropics/claude-code.git",
     "ref": "HEAD",
-    "commit_hash": "f298d940faf08deec44f7a7a4d382c673450a302",
-    "clone_duration_seconds": 1.6494898796081543,
-    "count_duration_seconds": 0.010008096694946289
+    "commit_hash": "36d9ee2c2ee8ed06abe5d1ffe8ad6f9c40511385",
+    "clone_duration_seconds": 2.967164993286133,
+    "count_duration_seconds": 0.012098073959350586
   }
 }

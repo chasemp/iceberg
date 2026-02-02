@@ -1,0 +1,16 @@
+{
+  "owner": "thedotmack",
+  "repo": "claude-mem",
+  "full_name": "thedotmack/claude-mem",
+  "root_package": "npm:claude-mem:9.0.12",
+  "nodes": [
+    {
+      "id": "npm:claude-mem:9.0.12",
+      "system": "npm",
+      "name": "claude-mem",
+      "version": "9.0.12"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-02T20:12:04.080515+00:00"
+}

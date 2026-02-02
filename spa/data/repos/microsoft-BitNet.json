@@ -9,11 +9,11 @@
     "version": "HEAD",
     "loc": 14271,
     "source": "github_clone",
-    "cached_at": "2026-02-02T19:15:18.820773+00:00",
+    "cached_at": "2026-02-02T20:10:14.838851+00:00",
     "repo_url": "https://github.com/microsoft/BitNet.git",
     "ref": "HEAD",
     "commit_hash": "ade47a535cac7727dedde25b37b97774699e32d3",
-    "clone_duration_seconds": 1.8051190376281738,
-    "count_duration_seconds": 0.009669065475463867
+    "clone_duration_seconds": 1.366725206375122,
+    "count_duration_seconds": 0.008423805236816406
   }
 }

@@ -1,0 +1,16 @@
+{
+  "owner": "OpenBMB",
+  "repo": "ChatDev",
+  "full_name": "OpenBMB/ChatDev",
+  "root_package": "pypi:DevAll:0.1.0",
+  "nodes": [
+    {
+      "id": "pypi:DevAll:0.1.0",
+      "system": "pypi",
+      "name": "DevAll",
+      "version": "0.1.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-02T20:12:04.073040+00:00"
+}

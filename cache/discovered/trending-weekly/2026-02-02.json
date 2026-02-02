@@ -5,9 +5,9 @@
     "url": "https://github.com/openclaw/openclaw",
     "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e",
     "language": "TypeScript",
-    "stars": 150595,
+    "stars": 150616,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
+    "discovered_at": "2026-02-02T20:05:01.876391+00:00",
     "search_query": null
   },
   {
@@ -16,9 +16,9 @@
     "url": "https://github.com/asgeirtj/system_prompts_leaks",
     "description": "Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini",
     "language": "JavaScript",
-    "stars": 29635,
+    "stars": 29636,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
+    "discovered_at": "2026-02-02T20:05:01.876391+00:00",
     "search_query": null
   },
   {
@@ -29,7 +29,7 @@
     "language": "Python",
     "stars": 5746,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
+    "discovered_at": "2026-02-02T20:05:01.876391+00:00",
     "search_query": null
   },
   {
@@ -38,9 +38,9 @@
     "url": "https://github.com/badlogic/pi-mono",
     "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
     "language": "TypeScript",
-    "stars": 5492,
+    "stars": 5494,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
+    "discovered_at": "2026-02-02T20:05:01.876391+00:00",
     "search_query": null
   },
   {
@@ -51,7 +51,7 @@
     "language": "TypeScript",
     "stars": 1241,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
+    "discovered_at": "2026-02-02T20:05:01.876391+00:00",
     "search_query": null
   },
   {
@@ -60,9 +60,9 @@
     "url": "https://github.com/ThePrimeagen/99",
     "description": "Neovim AI agent done right",
     "language": "Lua",
-    "stars": 2997,
+    "stars": 2998,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
+    "discovered_at": "2026-02-02T20:05:01.876391+00:00",
     "search_query": null
   },
   {
@@ -71,9 +71,9 @@
     "url": "https://github.com/NevaMind-AI/memU",
     "description": "Memory for 24/7 proactive agents like openclaw (moltbot, clawdbot).",
     "language": "Python",
-    "stars": 7033,
+    "stars": 7034,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
+    "discovered_at": "2026-02-02T20:05:01.876391+00:00",
     "search_query": null
   },
   {
@@ -82,9 +82,9 @@
     "url": "https://github.com/microsoft/BitNet",
     "description": "Official inference framework for 1-bit LLMs",
     "language": "Python",
-    "stars": 27631,
+    "stars": 27632,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
+    "discovered_at": "2026-02-02T20:05:01.876391+00:00",
     "search_query": null
   },
   {
@@ -93,9 +93,9 @@
     "url": "https://github.com/VectifyAI/PageIndex",
     "description": "\ud83d\udcd1 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
     "language": "Python",
-    "stars": 12413,
+    "stars": 12415,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
+    "discovered_at": "2026-02-02T20:05:01.876391+00:00",
     "search_query": null
   },
   {
@@ -106,7 +106,7 @@
     "language": "Swift",
     "stars": 1740,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
+    "discovered_at": "2026-02-02T20:05:01.876391+00:00",
     "search_query": null
   },
   {
@@ -117,7 +117,7 @@
     "language": "TypeScript",
     "stars": 16157,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
+    "discovered_at": "2026-02-02T20:05:01.876391+00:00",
     "search_query": null
   },
   {
@@ -128,7 +128,7 @@
     "language": "TypeScript",
     "stars": 34514,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
+    "discovered_at": "2026-02-02T20:05:01.876391+00:00",
     "search_query": null
   },
   {
@@ -139,7 +139,7 @@
     "language": "TypeScript",
     "stars": 568,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
+    "discovered_at": "2026-02-02T20:05:01.876391+00:00",
     "search_query": null
   }
 ]

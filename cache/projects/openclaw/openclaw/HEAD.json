@@ -2,17 +2,28 @@
   "owner": "openclaw",
   "repo": "openclaw",
   "version": "HEAD",
-  "loc": 557879,
+  "loc": 557878,
   "source": "github_clone",
-  "cached_at": "2026-02-02T19:13:57.413493+00:00",
+  "cached_at": "2026-02-02T20:06:49.533807+00:00",
   "package": {
     "system": "npm",
     "name": "openclaw",
     "version": "2026.2.1"
   },
+  "ai_markers": {
+    "claude": true,
+    "cursor": false,
+    "copilot": false,
+    "aider": false,
+    "generic_ai": true
+  },
+  "ai_tools": [
+    "Claude",
+    "AI Tools"
+  ],
   "repo_url": "https://github.com/openclaw/openclaw.git",
   "ref": "HEAD",
-  "commit_hash": "7113dc21a909970098674e3b04d2c74617e9a307",
-  "clone_duration_seconds": 3.6664278507232666,
-  "count_duration_seconds": 0.41745424270629883
+  "commit_hash": "d3bb32273e1b77e13d05a8d10e97194be94e9806",
+  "clone_duration_seconds": 7.959929704666138,
+  "count_duration_seconds": 0.42101216316223145
 }

@@ -1,0 +1,16 @@
+{
+  "owner": "karpathy",
+  "repo": "nanochat",
+  "full_name": "karpathy/nanochat",
+  "root_package": "pypi:nanochat:0.1.0",
+  "nodes": [
+    {
+      "id": "pypi:nanochat:0.1.0",
+      "system": "pypi",
+      "name": "nanochat",
+      "version": "0.1.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-02T20:12:04.077278+00:00"
+}

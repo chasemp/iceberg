@@ -4,9 +4,15 @@
   "version": "HEAD",
   "loc": 28744,
   "source": "github_clone",
-  "cached_at": "2026-02-02T17:36:27.013713+00:00",
-  "ref": "HEAD",
+  "cached_at": "2026-02-02T20:05:13.098358+00:00",
+  "package": {
+    "system": "npm",
+    "name": "claude-mem",
+    "version": "9.0.12"
+  },
   "repo_url": "https://github.com/thedotmack/claude-mem.git",
-  "clone_duration_seconds": 1.4411301612854004,
-  "count_duration_seconds": 0.036787986755371094
+  "ref": "HEAD",
+  "commit_hash": "1341e93fcab15b9caf48bc947d8521b4a97515d8",
+  "clone_duration_seconds": 1.45599365234375,
+  "count_duration_seconds": 0.03864312171936035
 }
