@@ -360,7 +360,14 @@ function formatDimensionTitle(dimension) {
     if (dimension.type === 'trending') {
         return `Trending ${dimension.timeframe.charAt(0).toUpperCase() + dimension.timeframe.slice(1)}`;
     } else if (dimension.type === 'search') {
-        return `Search: ${dimension.query}`;
+        // Simplify search query display
+        let query = dimension.query;
+        // Remove "stars:" prefix and format nicely
+        query = query.replace(/stars:/gi, 'Stars ');
+        query = query.replace(/language:/gi, '');
+        // Clean up extra spaces
+        query = query.replace(/\s+/g, ' ').trim();
+        return query;
     }
     return dimension.id;
 }
@@ -409,7 +416,7 @@ function selectDefaultDimension() {
 }
 
 // Repository Rendering
-function renderRepositories(dimension) {
+async function renderRepositories(dimension) {
     const container = document.getElementById('repositories-list');
     const title = document.getElementById('repos-title');
 
@@ -477,12 +484,29 @@ function renderRepositories(dimension) {
         return;
     }
 
-    container.innerHTML = '';
+    container.innerHTML = '<div class="loading-container"><div class="spinner"></div></div>';
 
-    repos.forEach(repo => {
-        const card = createRepoCard(repo);
-        container.appendChild(card);
-    });
+    // Create bars asynchronously (need to fetch analysis data)
+    const bars = await Promise.all(repos.map(repo => createRepoBar(repo)));
+
+    // Filter out null bars (repos without LoC data)
+    const validBars = bars.filter(bar => bar !== null);
+
+    if (validBars.length === 0) {
+        container.innerHTML = `
+            <div class="empty-state">
+                <div class="empty-state-icon">📊</div>
+                <h3 class="empty-state-title">No analyzed repositories</h3>
+                <p class="empty-state-message">
+                    None of these repositories have been analyzed yet. Run analysis to see their code breakdown.
+                </p>
+            </div>
+        `;
+        return;
+    }
+
+    container.innerHTML = '';
+    validBars.forEach(bar => container.appendChild(bar));
 }
 
 function sortRepositories(repos, sortBy) {
@@ -517,42 +541,65 @@ function sortRepositories(repos, sortBy) {
     return sorted;
 }
 
-function createRepoCard(repo) {
-    const card = document.createElement('div');
-    card.className = 'repo-card';
+async function createRepoBar(repo) {
+    // Fetch analysis data for this repo
+    const fileName = `${repo.owner}-${repo.name}.json`;
+    let analysis = null;
 
-    const name = document.createElement('div');
-    name.className = 'repo-name';
-    name.textContent = repo.full_name || `${repo.owner}/${repo.name}`;
-
-    const description = document.createElement('div');
-    description.className = 'repo-description';
-    description.textContent = repo.description || 'No description';
-
-    const meta = document.createElement('div');
-    meta.className = 'repo-meta';
-
-    if (repo.language) {
-        const lang = document.createElement('span');
-        lang.textContent = `📘 ${repo.language}`;
-        meta.appendChild(lang);
+    try {
+        const response = await fetch(`data/repos/${fileName}`);
+        if (response.ok) {
+            const data = await response.json();
+            analysis = data.analysis;
+        }
+    } catch (e) {
+        // No analysis data available
     }
 
-    if (repo.stars !== undefined) {
-        const stars = document.createElement('span');
-        stars.textContent = `⭐ ${repo.stars.toLocaleString()}`;
-        meta.appendChild(stars);
+    // Skip repos without LoC data
+    if (!analysis || !analysis.loc) {
+        return null;
     }
 
-    card.appendChild(name);
-    card.appendChild(description);
-    card.appendChild(meta);
+    const bar = document.createElement('div');
+    bar.className = 'repo-bar-item';
 
-    card.addEventListener('click', async () => {
+    // Calculate percentages
+    const projectLoc = analysis.loc;
+    const depLoc = analysis.total_loc ? (analysis.total_loc - projectLoc) : 0;
+    const totalLoc = projectLoc + depLoc;
+    const projectPercent = (projectLoc / totalLoc) * 100;
+    const depPercent = (depLoc / totalLoc) * 100;
+
+    bar.innerHTML = `
+        <div class="repo-bar-label">
+            <span class="repo-bar-name">${repo.full_name || `${repo.owner}/${repo.name}`}</span>
+            <span class="repo-bar-meta">
+                ${repo.language ? `<span class="lang-badge">${repo.language}</span>` : ''}
+                <span class="loc-badge">${totalLoc.toLocaleString()} LoC</span>
+            </span>
+        </div>
+        <div class="repo-bar-chart">
+            <div class="repo-bar-segment repo-bar-local"
+                 style="width: ${projectPercent}%"
+                 title="Local: ${projectLoc.toLocaleString()} LoC (${projectPercent.toFixed(1)}%)">
+            </div>
+            <div class="repo-bar-segment repo-bar-deps"
+                 style="width: ${depPercent}%"
+                 title="Dependencies: ${depLoc.toLocaleString()} LoC (${depPercent.toFixed(1)}%)">
+            </div>
+        </div>
+        <div class="repo-bar-legend">
+            <span class="legend-local">${projectPercent.toFixed(0)}% local</span>
+            ${depPercent > 0 ? `<span class="legend-deps">${depPercent.toFixed(0)}% deps</span>` : ''}
+        </div>
+    `;
+
+    bar.addEventListener('click', async () => {
         await showRepoDetail(repo);
     });
 
-    return card;
+    return bar;
 }
 
 // Repository Detail Modal
