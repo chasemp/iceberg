@@ -5,9 +5,9 @@
     "url": "https://github.com/openclaw/openclaw",
     "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e",
     "language": "TypeScript",
-    "stars": 150477,
+    "stars": 150595,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:27:20.088185+00:00",
+    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
     "search_query": null
   },
   {
@@ -16,9 +16,9 @@
     "url": "https://github.com/asgeirtj/system_prompts_leaks",
     "description": "Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini",
     "language": "JavaScript",
-    "stars": 29632,
+    "stars": 29635,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:27:20.088185+00:00",
+    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
     "search_query": null
   },
   {
@@ -27,9 +27,9 @@
     "url": "https://github.com/MoonshotAI/kimi-cli",
     "description": "Kimi Code CLI is your next CLI agent.",
     "language": "Python",
-    "stars": 5744,
+    "stars": 5746,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:27:20.088185+00:00",
+    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
     "search_query": null
   },
   {
@@ -38,9 +38,9 @@
     "url": "https://github.com/badlogic/pi-mono",
     "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
     "language": "TypeScript",
-    "stars": 5482,
+    "stars": 5492,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:27:20.088185+00:00",
+    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
     "search_query": null
   },
   {
@@ -51,7 +51,7 @@
     "language": "TypeScript",
     "stars": 1241,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:27:20.088185+00:00",
+    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
     "search_query": null
   },
   {
@@ -60,9 +60,9 @@
     "url": "https://github.com/ThePrimeagen/99",
     "description": "Neovim AI agent done right",
     "language": "Lua",
-    "stars": 2995,
+    "stars": 2997,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:27:20.088185+00:00",
+    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
     "search_query": null
   },
   {
@@ -71,9 +71,9 @@
     "url": "https://github.com/NevaMind-AI/memU",
     "description": "Memory for 24/7 proactive agents like openclaw (moltbot, clawdbot).",
     "language": "Python",
-    "stars": 7031,
+    "stars": 7033,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:27:20.088185+00:00",
+    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
     "search_query": null
   },
   {
@@ -82,9 +82,9 @@
     "url": "https://github.com/microsoft/BitNet",
     "description": "Official inference framework for 1-bit LLMs",
     "language": "Python",
-    "stars": 27629,
+    "stars": 27631,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:27:20.088185+00:00",
+    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
     "search_query": null
   },
   {
@@ -93,9 +93,9 @@
     "url": "https://github.com/VectifyAI/PageIndex",
     "description": "\ud83d\udcd1 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
     "language": "Python",
-    "stars": 12403,
+    "stars": 12413,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:27:20.088185+00:00",
+    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
     "search_query": null
   },
   {
@@ -104,9 +104,9 @@
     "url": "https://github.com/steipete/Peekaboo",
     "description": "Peekaboo is a macOS CLI & optional MCP server that enables AI agents to capture screenshots of applications, or the entire system, with optional visual question answering through local or remote AI models.",
     "language": "Swift",
-    "stars": 1738,
+    "stars": 1740,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:27:20.088185+00:00",
+    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
     "search_query": null
   },
   {
@@ -117,7 +117,7 @@
     "language": "TypeScript",
     "stars": 16157,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:27:20.088185+00:00",
+    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
     "search_query": null
   },
   {
@@ -126,9 +126,9 @@
     "url": "https://github.com/remotion-dev/remotion",
     "description": "\ud83c\udfa5 Make videos programmatically with React",
     "language": "TypeScript",
-    "stars": 34510,
+    "stars": 34514,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:27:20.088185+00:00",
+    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
     "search_query": null
   },
   {
@@ -139,7 +139,7 @@
     "language": "TypeScript",
     "stars": 568,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T19:27:20.088185+00:00",
+    "discovered_at": "2026-02-02T19:55:08.553796+00:00",
     "search_query": null
   }
 ]
