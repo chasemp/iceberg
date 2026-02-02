@@ -19,6 +19,7 @@ let state = {
 document.addEventListener('DOMContentLoaded', async () => {
     setupEventListeners();
     await loadData();
+    renderStatistics();
     renderDimensions();
     populateLanguageFilter();
 
@@ -129,6 +130,41 @@ function setupEventListeners() {
     document.getElementById('repo-modal').addEventListener('click', (e) => {
         if (e.target.id === 'repo-modal') closeModal();
     });
+}
+
+// Statistics Rendering
+function renderStatistics() {
+    const container = document.getElementById('stats-summary');
+
+    if (!state.index || !state.index.dimensions) {
+        container.innerHTML = '';
+        return;
+    }
+
+    // Calculate aggregate statistics
+    const repos = getAllRepos();
+    const totalRepos = repos.length;
+    const languages = new Set(repos.map(r => r.language).filter(Boolean));
+    const avgStars = totalRepos > 0
+        ? Math.round(repos.reduce((sum, r) => sum + (r.stars || 0), 0) / totalRepos)
+        : 0;
+
+    // Count repos with AI tools
+    const reposWithAI = repos.filter(r => r.ai_tools && r.ai_tools.length > 0).length;
+
+    const stats = [
+        { value: totalRepos.toLocaleString(), label: 'Repositories' },
+        { value: languages.size.toLocaleString(), label: 'Languages' },
+        { value: avgStars.toLocaleString(), label: 'Avg Stars' },
+        { value: reposWithAI.toLocaleString(), label: 'Using AI Tools' },
+    ];
+
+    container.innerHTML = stats.map(stat => `
+        <div class="stat-summary-card">
+            <span class="stat-summary-value">${stat.value}</span>
+            <span class="stat-summary-label">${stat.label}</span>
+        </div>
+    `).join('');
 }
 
 // Data Loading
