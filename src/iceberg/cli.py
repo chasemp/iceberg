@@ -204,7 +204,7 @@ def analyze(
         except (DepsDevError, Exception):
             if not json_output:
                 typer.echo(
-                    f"📦 Using manifest-based analysis (package not in {pkg.system} registry)\n"
+                    f"📦 Using manifest-based dependency analysis\n"
                 )
 
             sbom_result = analyze_from_manifest(owner, name, cache_dir=cache_dir)
