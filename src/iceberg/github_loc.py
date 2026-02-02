@@ -7,6 +7,30 @@ from typing import Any
 import httpx
 
 
+def get_current_head_hash(owner: str, name: str) -> str | None:
+    """Get the current HEAD commit hash without cloning.
+
+    Returns the short hash (8 chars) of the current HEAD commit.
+    """
+    try:
+        # Use git ls-remote to get HEAD hash without cloning
+        result = subprocess.run(
+            ["git", "ls-remote", f"https://github.com/{owner}/{name}.git", "HEAD"],
+            capture_output=True,
+            text=True,
+            timeout=10,
+        )
+
+        if result.returncode == 0 and result.stdout:
+            # Output format: "hash\tHEAD"
+            hash_full = result.stdout.split()[0]
+            return hash_full[:8]  # Return short hash
+
+        return None
+    except Exception:
+        return None
+
+
 def get_latest_published_version(owner: str, name: str) -> str | None:
     """Get the latest published version (git tag) for a repository.
 
@@ -85,10 +109,21 @@ def clone_repository(
         if result.returncode != 0:
             return None
 
+        # Get the actual commit hash
+        commit_hash_result = subprocess.run(
+            ["git", "-C", str(target_dir), "rev-parse", "HEAD"],
+            capture_output=True,
+            text=True,
+            timeout=5,
+        )
+
+        commit_hash = commit_hash_result.stdout.strip() if commit_hash_result.returncode == 0 else None
+
         return {
             "duration_seconds": duration,
             "repo_url": repo_url,
             "ref": ref or "HEAD",
+            "commit_hash": commit_hash,
         }
     except Exception:
         return None
@@ -193,6 +228,7 @@ def get_github_project_loc(
                 "metadata": {
                     "repo_url": clone_result["repo_url"],
                     "ref": clone_result["ref"],
+                    "commit_hash": clone_result.get("commit_hash"),
                     "clone_duration_seconds": clone_result["duration_seconds"],
                     "count_duration_seconds": count_result["duration_seconds"],
                 },
