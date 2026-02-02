@@ -11,10 +11,14 @@ def test_fetch_with_analyze_flag(httpx_mock: HTTPXMock, tmp_path: Path) -> None:
     # Mock GitHub trending page
     trending_html = """
     <article class="Box-row">
-        <h2><a href="/owner/repo">repo</a></h2>
-        <p>A test repo</p>
-        <span>Python</span>
-        <span>1,234 stars</span>
+        <h2 class="h3">
+            <a href="/owner/repo">repo</a>
+        </h2>
+        <p class="col-9">A test repo</p>
+        <div>
+            <span itemprop="programmingLanguage">Python</span>
+            <span><svg aria-label="star"></svg>1234</span>
+        </div>
     </article>
     """
     httpx_mock.add_response(
@@ -91,10 +95,14 @@ def test_fetch_analyze_skips_already_analyzed(httpx_mock: HTTPXMock, tmp_path: P
     # Mock GitHub trending
     trending_html = """
     <article class="Box-row">
-        <h2><a href="/owner/repo">repo</a></h2>
-        <p>A test repo</p>
-        <span>Python</span>
-        <span>1,234 stars</span>
+        <h2 class="h3">
+            <a href="/owner/repo">repo</a>
+        </h2>
+        <p class="col-9">A test repo</p>
+        <div>
+            <span itemprop="programmingLanguage">Python</span>
+            <span><svg aria-label="star"></svg>1234</span>
+        </div>
     </article>
     """
     httpx_mock.add_response(

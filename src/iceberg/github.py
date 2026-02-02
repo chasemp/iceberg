@@ -1,22 +1,23 @@
 import re
+from datetime import datetime, timezone
 from typing import Any
 
 import httpx
 from bs4 import BeautifulSoup
 from pydantic import HttpUrl
 
-from iceberg.models import TrendingRepo
+from iceberg.models import DiscoveredRepo, TrendingRepo
 
 
 class GitHubError(Exception):
     pass
 
 
-def parse_trending_html(html: str) -> list[TrendingRepo]:
+def parse_trending_html(html: str) -> list[dict[str, Any]]:
     soup = BeautifulSoup(html, "html.parser")
     articles = soup.find_all("article", class_="Box-row")
 
-    repos: list[TrendingRepo] = []
+    repos: list[dict[str, Any]] = []
 
     for article in articles:
         h2 = article.find("h2", class_="h3")
@@ -52,24 +53,37 @@ def parse_trending_html(html: str) -> list[TrendingRepo]:
         url_str = f"https://github.com/{owner}/{name}"
 
         repos.append(
-            TrendingRepo(
-                name=name,
-                owner=owner,
-                url=HttpUrl(url_str),
-                description=description if description else None,
-                language=language if language else None,
-                stars=stars,
-            )
+            {
+                "name": name,
+                "owner": owner,
+                "url": url_str,
+                "description": description if description else None,
+                "language": language if language else None,
+                "stars": stars,
+            }
         )
 
     return repos
 
 
-def fetch_trending_repos(limit: int = 10) -> list[TrendingRepo]:
+def fetch_trending_repos(limit: int = 10) -> list[DiscoveredRepo]:
     try:
         response = httpx.get("https://github.com/trending")
         response.raise_for_status()
         repos = parse_trending_html(response.text)
-        return repos[:limit]
+
+        # Add source and timestamp to repos
+        discovered_at = datetime.now(timezone.utc).isoformat()
+        discovered_repos = [
+            DiscoveredRepo(
+                **repo,
+                source="trending-daily",
+                discovered_at=discovered_at,
+                search_query=None,
+            )
+            for repo in repos[:limit]
+        ]
+
+        return discovered_repos
     except Exception as e:
         raise GitHubError(f"Failed to fetch trending repos: {e}") from e
