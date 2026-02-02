@@ -1,9 +1,10 @@
+import hashlib
 import json
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
-from iceberg.models import LocMetrics, PackageIdentifier, TrendingRepo
+from iceberg.models import DiscoveredRepo, LocMetrics, PackageIdentifier, TrendingRepo
 
 
 def get_default_cache_dir() -> Path:
@@ -214,3 +215,104 @@ def list_project_versions(
         versions.append(file_path.stem)
 
     return sorted(versions)
+
+
+def _hash_query(query: str) -> str:
+    """Generate deterministic hash for search query.
+
+    Args:
+        query: Search query string
+
+    Returns:
+        16-character hex hash of query
+    """
+    return hashlib.sha256(query.encode()).hexdigest()[:16]
+
+
+def save_discovered_repos(
+    repos: list[DiscoveredRepo],
+    cache_dir: Path | None = None,
+) -> None:
+    """Save discovered repos with source tracking.
+
+    Args:
+        repos: List of discovered repositories
+        cache_dir: Optional cache directory path
+
+    Cache structure:
+        cache/discovered/{source}/{identifier}.json
+        - For trending: identifier is date (2026-02-02)
+        - For search: identifier is query hash
+    """
+    if cache_dir is None:
+        cache_dir = get_default_cache_dir()
+
+    if not repos:
+        return
+
+    # Group repos by source
+    source = repos[0].source
+    discovered_dir = cache_dir / "discovered" / source
+    discovered_dir.mkdir(parents=True, exist_ok=True)
+
+    # Determine cache filename
+    if source.startswith("trending"):
+        # Use date as identifier for trending
+        today = datetime.now(timezone.utc).date().isoformat()
+        cache_file = discovered_dir / f"{today}.json"
+    elif source == "search":
+        # Use query hash as identifier for search
+        query = repos[0].search_query or ""
+        query_hash = _hash_query(query)
+        cache_file = discovered_dir / f"{query_hash}.json"
+    else:
+        # Fallback: use timestamp
+        timestamp = datetime.now(timezone.utc).isoformat()
+        cache_file = discovered_dir / f"{timestamp}.json"
+
+    data = [repo.model_dump(mode="json") for repo in repos]
+    cache_file.write_text(json.dumps(data, indent=2))
+
+
+def load_discovered_repos(
+    source: str,
+    identifier: str,
+    cache_dir: Path | None = None,
+) -> list[DiscoveredRepo] | None:
+    """Load discovered repos by source and identifier.
+
+    Args:
+        source: Source type (trending-daily, trending-weekly, trending-monthly, search)
+        identifier: Date for trending (2026-02-02) or query for search
+        cache_dir: Optional cache directory path
+
+    Returns:
+        List of discovered repos or None if not cached
+
+    Notes:
+        Falls back to old trending cache for backward compatibility
+    """
+    if cache_dir is None:
+        cache_dir = get_default_cache_dir()
+
+    # Determine cache file path
+    if source.startswith("trending"):
+        # Try new structure first
+        cache_file = cache_dir / "discovered" / source / f"{identifier}.json"
+
+        # Fall back to old structure for backward compatibility
+        if not cache_file.exists() and source == "trending-daily":
+            cache_file = cache_dir / "trending" / f"{identifier}.json"
+
+    elif source == "search":
+        # For search, identifier is the query - hash it
+        query_hash = _hash_query(identifier)
+        cache_file = cache_dir / "discovered" / "search" / f"{query_hash}.json"
+    else:
+        cache_file = cache_dir / "discovered" / source / f"{identifier}.json"
+
+    if not cache_file.exists():
+        return None
+
+    data = json.loads(cache_file.read_text())
+    return [DiscoveredRepo.model_validate(item) for item in data]
