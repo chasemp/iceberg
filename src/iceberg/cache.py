@@ -1,6 +1,7 @@
 import json
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from typing import Any
 
 from iceberg.models import LocMetrics, PackageIdentifier, TrendingRepo
 
@@ -130,3 +131,86 @@ def is_cache_fresh(
 
     age = now - file_date
     return age <= timedelta(days=max_age_days)
+
+
+def save_project_loc(
+    project_data: dict[str, Any],
+    cache_dir: Path | None = None,
+) -> None:
+    """Save project LoC data to versioned cache.
+
+    Args:
+        project_data: Dict with owner, repo, version, loc, source, etc.
+        cache_dir: Cache directory
+    """
+    if cache_dir is None:
+        cache_dir = get_default_cache_dir()
+
+    owner = project_data["owner"]
+    repo = project_data["repo"]
+    version = project_data["version"]
+
+    project_dir = cache_dir / "projects" / owner / repo
+    project_dir.mkdir(parents=True, exist_ok=True)
+
+    cache_file = project_dir / f"{version}.json"
+    cache_file.write_text(json.dumps(project_data, indent=2))
+
+
+def load_project_loc(
+    owner: str,
+    repo: str,
+    version: str,
+    cache_dir: Path | None = None,
+) -> dict[str, Any] | None:
+    """Load project LoC data from versioned cache.
+
+    Args:
+        owner: Repository owner
+        repo: Repository name
+        version: Version tag (e.g., v1.0.0)
+        cache_dir: Cache directory
+
+    Returns:
+        Project data dict or None if not cached
+    """
+    if cache_dir is None:
+        cache_dir = get_default_cache_dir()
+
+    cache_file = cache_dir / "projects" / owner / repo / f"{version}.json"
+
+    if not cache_file.exists():
+        return None
+
+    data: dict[str, Any] = json.loads(cache_file.read_text())
+    return data
+
+
+def list_project_versions(
+    owner: str,
+    repo: str,
+    cache_dir: Path | None = None,
+) -> list[str]:
+    """List all cached versions for a project.
+
+    Args:
+        owner: Repository owner
+        repo: Repository name
+        cache_dir: Cache directory
+
+    Returns:
+        List of version strings (e.g., ["v1.0.0", "v2.0.0"])
+    """
+    if cache_dir is None:
+        cache_dir = get_default_cache_dir()
+
+    project_dir = cache_dir / "projects" / owner / repo
+
+    if not project_dir.exists():
+        return []
+
+    versions = []
+    for file_path in project_dir.glob("*.json"):
+        versions.append(file_path.stem)
+
+    return sorted(versions)

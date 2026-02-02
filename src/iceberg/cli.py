@@ -1,5 +1,6 @@
 import json
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 import typer
@@ -51,13 +52,17 @@ def analyze(
     auto_detect: bool = typer.Option(
         False, "--auto-detect", help="Auto-detect package from repository"
     ),
-    published: bool = typer.Option(
-        False, "--published", help="Analyze latest published version (git tag) instead of HEAD"
+    head: bool = typer.Option(
+        False, "--head", help="Analyze HEAD instead of latest published version"
     ),
     json_output: bool = typer.Option(False, "--json", help="Output as JSON"),
     cache_dir: Path | None = typer.Option(None, help="Cache directory path"),
 ) -> None:
-    """Analyze dependency footprint of a repository."""
+    """Analyze dependency footprint of a repository.
+
+    By default, analyzes the latest published version (git tag).
+    Use --head to analyze the current HEAD commit instead.
+    """
     try:
         if cache_dir is None:
             cache_dir = get_default_cache_dir()
@@ -113,33 +118,66 @@ def analyze(
 
         # If deps.dev doesn't have project LoC, try cloning and counting
         if project_loc is None:
+            from iceberg.cache import load_project_loc, save_project_loc
             from iceberg.github_loc import get_github_project_loc, get_latest_published_version
 
-            # Determine which ref to analyze
+            # Determine which ref to analyze (default to published, unless --head)
             ref_to_analyze: str | None = None
-            if published:
+            version_for_cache: str = "HEAD"
+
+            if not head:
                 if not json_output:
                     typer.echo(f"🔍 Finding latest published version...")
                 ref_to_analyze = get_latest_published_version(owner, name)
-                if ref_to_analyze and not json_output:
-                    typer.echo(f"✓ Found version: {ref_to_analyze}")
+                if ref_to_analyze:
+                    version_for_cache = ref_to_analyze
+                    if not json_output:
+                        typer.echo(f"✓ Found version: {ref_to_analyze}")
                 elif not json_output:
                     typer.echo(f"⚠️  No published versions found, using HEAD")
+                    version_for_cache = "HEAD"
+            else:
+                version_for_cache = "HEAD"
 
-            if not json_output:
-                ref_msg = f" at {ref_to_analyze}" if ref_to_analyze else ""
-                typer.echo(f"⏳ Cloning repository{ref_msg} to count project LoC...")
+            # Check cache first
+            cached_project_data = load_project_loc(owner, name, version_for_cache, cache_dir=cache_dir)
 
-            github_result = get_github_project_loc(owner, name, cache_dir=cache_dir, ref=ref_to_analyze)
-            if github_result:
-                project_loc = github_result["loc"]
+            if cached_project_data:
+                project_loc = cached_project_data["loc"]
                 if not json_output:
-                    clone_time = github_result["metadata"]["clone_duration_seconds"]
-                    count_time = github_result["metadata"]["count_duration_seconds"]
-                    ref = github_result["metadata"]["ref"]
-                    typer.echo(
-                        f"✓ Cloned and counted {ref} in {clone_time + count_time:.2f}s\n"
-                    )
+                    typer.echo(f"✓ Loaded {version_for_cache} from cache\n")
+            else:
+                # Not in cache, need to clone and count
+                if not json_output:
+                    ref_msg = f" at {ref_to_analyze}" if ref_to_analyze else ""
+                    typer.echo(f"⏳ Cloning repository{ref_msg} to count project LoC...")
+
+                github_result = get_github_project_loc(owner, name, cache_dir=cache_dir, ref=ref_to_analyze)
+                if github_result:
+                    project_loc = github_result["loc"]
+
+                    # Save to cache
+                    project_data = {
+                        "owner": owner,
+                        "repo": name,
+                        "version": version_for_cache,
+                        "loc": project_loc,
+                        "source": github_result["source"],
+                        "cached_at": datetime.now(timezone.utc).isoformat(),
+                        "ref": github_result["metadata"]["ref"],
+                        "repo_url": github_result["metadata"]["repo_url"],
+                        "clone_duration_seconds": github_result["metadata"]["clone_duration_seconds"],
+                        "count_duration_seconds": github_result["metadata"]["count_duration_seconds"],
+                    }
+                    save_project_loc(project_data, cache_dir=cache_dir)
+
+                    if not json_output:
+                        clone_time = github_result["metadata"]["clone_duration_seconds"]
+                        count_time = github_result["metadata"]["count_duration_seconds"]
+                        ref = github_result["metadata"]["ref"]
+                        typer.echo(
+                            f"✓ Cloned and counted {ref} in {clone_time + count_time:.2f}s (cached)\n"
+                        )
 
         try:
             total_loc = calculate_transitive_loc(pkg, cache_dir=cache_dir)

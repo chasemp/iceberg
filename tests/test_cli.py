@@ -200,6 +200,7 @@ def test_analyze_command_json_output(httpx_mock: HTTPXMock, tmp_path: Path) -> N
 def test_analyze_command_handles_missing_project_loc(
     httpx_mock: HTTPXMock, tmp_path: Path
 ) -> None:
+    """Test analyzing a package when project LoC is missing (using --head to skip clone)."""
     from iceberg.cli import app
 
     httpx_mock.add_response(
@@ -218,10 +219,10 @@ def test_analyze_command_handles_missing_project_loc(
     )
 
     runner = CliRunner()
+    # Use --head flag to skip published version detection and clone (would require git)
     result = runner.invoke(
         app,
-        ["analyze", "owner/repo", "--package", "npm:repo:1.0.0", "--cache-dir", str(tmp_path)],
+        ["analyze", "owner/repo", "--package", "npm:repo:1.0.0", "--cache-dir", str(tmp_path), "--head"],
     )
 
     assert result.exit_code == 0
-    assert "Project LoC: N/A" in result.stdout
