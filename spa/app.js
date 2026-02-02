@@ -10,6 +10,7 @@ let state = {
         language: 'all',
         aiTools: 'all'
     },
+    sort: 'stars-desc',
     rankings: null
 };
 
@@ -48,6 +49,17 @@ function setupEventListeners() {
     document.getElementById('ai-filter').addEventListener('change', (e) => {
         state.filters.aiTools = e.target.value;
         renderDimensions();
+    });
+
+    document.getElementById('sort-select').addEventListener('change', (e) => {
+        state.sort = e.target.value;
+        // Re-render current dimension with new sort
+        if (state.selectedDimension) {
+            const dimension = state.index.dimensions.find(d => d.id === state.selectedDimension);
+            if (dimension) {
+                renderRepositories(dimension);
+            }
+        }
     });
 
     // Modal close
@@ -325,6 +337,9 @@ function renderRepositories(dimension) {
         });
     }
 
+    // Apply sorting
+    repos = sortRepositories(repos, state.sort);
+
     if (repos.length === 0) {
         container.innerHTML = `
             <div class="empty-state">
@@ -344,6 +359,38 @@ function renderRepositories(dimension) {
         const card = createRepoCard(repo);
         container.appendChild(card);
     });
+}
+
+function sortRepositories(repos, sortBy) {
+    const sorted = [...repos]; // Create a copy to avoid mutation
+
+    switch (sortBy) {
+        case 'stars-desc':
+            sorted.sort((a, b) => (b.stars || 0) - (a.stars || 0));
+            break;
+        case 'stars-asc':
+            sorted.sort((a, b) => (a.stars || 0) - (b.stars || 0));
+            break;
+        case 'name-asc':
+            sorted.sort((a, b) => {
+                const nameA = (a.full_name || `${a.owner}/${a.name}`).toLowerCase();
+                const nameB = (b.full_name || `${b.owner}/${b.name}`).toLowerCase();
+                return nameA.localeCompare(nameB);
+            });
+            break;
+        case 'name-desc':
+            sorted.sort((a, b) => {
+                const nameA = (a.full_name || `${a.owner}/${a.name}`).toLowerCase();
+                const nameB = (b.full_name || `${b.owner}/${b.name}`).toLowerCase();
+                return nameB.localeCompare(nameA);
+            });
+            break;
+        default:
+            // Default to stars descending
+            sorted.sort((a, b) => (b.stars || 0) - (a.stars || 0));
+    }
+
+    return sorted;
 }
 
 function createRepoCard(repo) {

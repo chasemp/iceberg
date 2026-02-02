@@ -67,7 +67,18 @@
             </section>
 
             <section class="repositories">
-                <h2 id="repos-title">Repositories</h2>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                    <h2 id="repos-title" style="margin: 0;">Repositories</h2>
+                    <div class="filter-group" style="margin: 0;">
+                        <label for="sort-select">Sort by:</label>
+                        <select id="sort-select">
+                            <option value="stars-desc">Stars (High to Low)</option>
+                            <option value="stars-asc">Stars (Low to High)</option>
+                            <option value="name-asc">Name (A-Z)</option>
+                            <option value="name-desc">Name (Z-A)</option>
+                        </select>
+                    </div>
+                </div>
                 <div id="repositories-list" class="repos-grid">
                     <p class="placeholder">Select a dimension to view repositories</p>
                 </div>
