@@ -4,6 +4,22 @@
 
 Visualize the FLOSS "iceberg effect" - showing how dependencies make up the bulk of modern codebases.
 
+## Design Goals
+
+**Clear Data Lineage Tracking**: Every LoC metric includes comprehensive metadata showing exactly how the data was obtained and from which source. This transparency is critical for:
+- Understanding data quality and reliability
+- Debugging discrepancies in measurements
+- Sharing results across projects with full provenance
+- Enabling cache consolidation while maintaining traceability
+
+Each cached metric stores:
+- `source`: Which data provider was used (deps.dev, npm tarball, PyPI, etc.)
+- `source_url`: The exact URL where data was fetched from
+- `fetch_method`: How the data was obtained (API call, tarball download and count, etc.)
+- `cached_at`: When the data was collected
+
+This design ensures that anyone examining the results can trace back to the original data source and understand the measurement methodology.
+
 ## Installation
 
 ```bash
@@ -70,11 +86,15 @@ uv run mypy --strict src/
 
 ## Architecture
 
-- **models.py**: Immutable Pydantic domain models
+- **models.py**: Immutable Pydantic domain models with metadata tracking
 - **github.py**: GitHub trending page scraper
-- **depsdev.py**: deps.dev API client
-- **cache.py**: JSON-based caching layer
-- **calculator.py**: Transitive dependency LoC calculation
+- **depsdev.py**: deps.dev API client (primary data source)
+- **npm_loc.py**: npm tarball download and LoC counting fallback
+- **sbom.py**: SBOM/SCA-style analysis for unpublished packages
+- **detector.py**: Auto-detection of package ecosystems from manifests
+- **osv.py**: OSV-Scanner integration for lockfile-based analysis
+- **cache.py**: JSON-based caching layer with global consolidation
+- **calculator.py**: Transitive dependency LoC calculation with automatic fallbacks
 - **cli.py**: Typer CLI interface
 
 ## Cache
