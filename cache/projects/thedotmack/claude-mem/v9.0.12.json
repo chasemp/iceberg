@@ -1,0 +1,12 @@
+{
+  "owner": "thedotmack",
+  "repo": "claude-mem",
+  "version": "v9.0.12",
+  "loc": 28744,
+  "source": "github_clone",
+  "cached_at": "2026-02-02T17:36:14.882518+00:00",
+  "ref": "v9.0.12",
+  "repo_url": "https://github.com/thedotmack/claude-mem.git",
+  "clone_duration_seconds": 1.3922200202941895,
+  "count_duration_seconds": 0.032289743423461914
+}

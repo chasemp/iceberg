@@ -11,5 +11,122 @@ Requires-Dist: httpx>=0.27.0
 Requires-Dist: beautifulsoup4>=4.12.0
 Dynamic: license-file
 
-# iceberg
-The code you see if just the beginning
+# Iceberg
+
+> The code you see is just the tip of the iceberg
+
+Visualize the FLOSS "iceberg effect" - showing how dependencies make up the bulk of modern codebases.
+
+## Design Goals
+
+**Clear Data Lineage Tracking**: Every LoC metric includes comprehensive metadata showing exactly how the data was obtained and from which source. This transparency is critical for:
+- Understanding data quality and reliability
+- Debugging discrepancies in measurements
+- Sharing results across projects with full provenance
+- Enabling cache consolidation while maintaining traceability
+
+Each cached metric stores:
+- `source`: Which data provider was used (deps.dev, npm tarball, PyPI, etc.)
+- `source_url`: The exact URL where data was fetched from
+- `fetch_method`: How the data was obtained (API call, tarball download and count, etc.)
+- `cached_at`: When the data was collected
+
+This design ensures that anyone examining the results can trace back to the original data source and understand the measurement methodology.
+
+## Installation
+
+```bash
+# Install uv (if not already installed)
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Clone the repository
+git clone https://github.com/chasemp/iceberg.git
+cd iceberg
+
+# Install dependencies
+uv sync
+
+# The CLI is now available
+uv run iceberg --help
+```
+
+## Usage
+
+### Fetch Trending Repositories
+
+```bash
+# Fetch top 10 trending repos
+uv run iceberg fetch
+
+# Fetch top 5 trending repos
+uv run iceberg fetch --limit 5
+
+# Output as JSON
+uv run iceberg fetch --json
+```
+
+### Analyze Repository Dependencies
+
+```bash
+# Analyze a repository's dependency footprint
+uv run iceberg analyze facebook/react --package npm:react:18.2.0
+
+# Output as JSON
+uv run iceberg analyze facebook/react --package npm:react:18.2.0 --json
+```
+
+## Development
+
+### Running Tests
+
+```bash
+# Run all tests
+uv run pytest
+
+# Run with verbose output
+uv run pytest -v
+
+# Run specific test file
+uv run pytest tests/test_cli.py
+```
+
+### Type Checking
+
+```bash
+# Run mypy strict type checking
+uv run mypy --strict src/
+```
+
+## Architecture
+
+- **models.py**: Immutable Pydantic domain models with metadata tracking
+- **github.py**: GitHub trending page scraper
+- **depsdev.py**: deps.dev API client (primary data source)
+- **npm_loc.py**: npm tarball download and LoC counting fallback
+- **sbom.py**: SBOM/SCA-style analysis for unpublished packages
+- **detector.py**: Auto-detection of package ecosystems from manifests
+- **osv.py**: OSV-Scanner integration for lockfile-based analysis
+- **cache.py**: JSON-based caching layer with global consolidation
+- **calculator.py**: Transitive dependency LoC calculation with automatic fallbacks
+- **cli.py**: Typer CLI interface
+
+## Cache
+
+Data is cached in the `cache/` directory:
+- `cache/trending/`: Daily trending repos
+- `cache/loc/`: Package LoC metrics
+- `cache/dependencies/`: Package dependency graphs
+
+## Technology Stack
+
+- **Python 3.12**: Modern Python with strict type hints
+- **uv**: Fast Python package manager
+- **Pydantic**: Data validation and serialization
+- **Typer**: Type-driven CLI framework
+- **httpx**: Modern HTTP client
+- **BeautifulSoup4**: HTML parsing
+- **pytest**: Testing framework
+
+## License
+
+MIT

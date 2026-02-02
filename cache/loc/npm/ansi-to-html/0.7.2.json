@@ -4,7 +4,9 @@
     "name": "ansi-to-html",
     "version": "0.7.2"
   },
-  "total_lines": 0,
-  "source": "depsdev",
-  "cached_at": "2026-02-02T16:56:32.903629+00:00"
+  "total_lines": 484,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T17:04:40.465403+00:00",
+  "source_url": "https://registry.npmjs.org/ansi-to-html/-/ansi-to-html-0.7.2.tgz",
+  "fetch_method": "tarball_download_and_count"
 }

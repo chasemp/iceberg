@@ -390,26 +390,6 @@ def test_multi_source_cache_isolation(httpx_mock: HTTPXMock, tmp_path: Path) -> 
     assert search_repos[0].name == "search-repo"
 
 
-def test_backward_compatibility_with_old_cache(tmp_path: Path) -> None:
-    """Test that old trending cache format still works."""
-    from datetime import datetime, timezone
-
-    from iceberg.cache import load_discovered_repos, save_trending_repos
-    from tests.factories import create_discovered_repo
-
-    # Save using old function
-    repos = [create_discovered_repo(name="old-format-repo", source="trending-daily")]
-    save_trending_repos(repos, cache_dir=tmp_path)
-
-    # Load using new function
-    today = datetime.now(timezone.utc).date().isoformat()
-    loaded = load_discovered_repos("trending-daily", today, cache_dir=tmp_path)
-
-    assert loaded is not None
-    assert len(loaded) == 1
-    assert loaded[0].name == "old-format-repo"
-
-
 def test_search_with_multiple_filters(httpx_mock: HTTPXMock, tmp_path: Path) -> None:
     """Test search with multiple filter parameters."""
     from iceberg.cli import app

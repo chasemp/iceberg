@@ -1,0 +1,12 @@
+{
+  "owner": "termux",
+  "repo": "termux-app",
+  "version": "v0.118.3",
+  "loc": 20218,
+  "source": "github_clone",
+  "cached_at": "2026-02-02T17:52:27.088925+00:00",
+  "ref": "v0.118.3",
+  "repo_url": "https://github.com/termux/termux-app.git",
+  "clone_duration_seconds": 1.2332828044891357,
+  "count_duration_seconds": 0.02371978759765625
+}
