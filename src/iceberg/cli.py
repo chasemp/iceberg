@@ -6,10 +6,11 @@ import typer
 
 from iceberg.calculator import calculate_transitive_loc
 from iceberg.cache import get_default_cache_dir, save_trending_repos
-from iceberg.depsdev import get_project_loc
+from iceberg.depsdev import DepsDevError, get_dependencies, get_project_loc
 from iceberg.detector import detect_package
 from iceberg.github import fetch_trending_repos
 from iceberg.models import PackageIdentifier
+from iceberg.sbom import analyze_from_manifest
 
 app = typer.Typer()
 
@@ -102,21 +103,46 @@ def analyze(
             )
 
         project_loc = get_project_loc(owner, name)
-        total_loc = calculate_transitive_loc(pkg, cache_dir=cache_dir)
+
+        try:
+            total_loc = calculate_transitive_loc(pkg, cache_dir=cache_dir)
+            analysis_method = "published package"
+        except (DepsDevError, Exception):
+            if not json_output:
+                typer.echo(
+                    f"⚠️  Package not found in {pkg.system}. "
+                    "Analyzing from manifest...\n"
+                )
+
+            sbom_result = analyze_from_manifest(owner, name, cache_dir=cache_dir)
+
+            if sbom_result is None:
+                typer.echo(
+                    "Error: Could not analyze dependencies from manifest",
+                    err=True,
+                )
+                raise typer.Exit(1)
+
+            total_loc = sbom_result["total_dependencies_loc"]
+            analysis_method = "SBOM (manifest)"
 
         if json_output:
             data = {
                 "repo": repo,
                 "project_loc": project_loc,
                 "total_loc": total_loc,
+                "analysis_method": analysis_method,
             }
             typer.echo(json.dumps(data, indent=2))
         else:
             typer.echo(f"\nRepository: {repo}")
+            typer.echo(f"Analysis method: {analysis_method}")
+
             if project_loc is not None:
                 typer.echo(f"Project LoC: {project_loc:,}")
             else:
                 typer.echo("Project LoC: N/A")
+
             typer.echo(f"Total LoC (with dependencies): {total_loc:,}")
 
             if project_loc is not None and project_loc > 0:
