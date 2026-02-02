@@ -187,3 +187,47 @@ def test_fetch_trending_repos_handles_network_error(httpx_mock: HTTPXMock) -> No
         fetch_trending_repos()
 
     assert "Failed to fetch trending repos" in str(exc_info.value)
+
+
+def test_fetch_trending_repos_with_weekly_timeframe(httpx_mock: HTTPXMock) -> None:
+    from iceberg.github import fetch_trending_repos
+
+    httpx_mock.add_response(
+        url="https://github.com/trending?since=weekly",
+        text=load_fixture("github_trending.html"),
+    )
+
+    repos = fetch_trending_repos(since="weekly", limit=10)
+
+    assert len(repos) == 2
+    assert repos[0].source == "trending-weekly"
+    assert repos[0].discovered_at is not None
+
+
+def test_fetch_trending_repos_with_monthly_timeframe(httpx_mock: HTTPXMock) -> None:
+    from iceberg.github import fetch_trending_repos
+
+    httpx_mock.add_response(
+        url="https://github.com/trending?since=monthly",
+        text=load_fixture("github_trending.html"),
+    )
+
+    repos = fetch_trending_repos(since="monthly", limit=10)
+
+    assert len(repos) == 2
+    assert repos[0].source == "trending-monthly"
+    assert repos[0].discovered_at is not None
+
+
+def test_fetch_trending_repos_defaults_to_daily(httpx_mock: HTTPXMock) -> None:
+    from iceberg.github import fetch_trending_repos
+
+    httpx_mock.add_response(
+        url="https://github.com/trending",
+        text=load_fixture("github_trending.html"),
+    )
+
+    repos = fetch_trending_repos()
+
+    assert len(repos) == 2
+    assert repos[0].source == "trending-daily"
