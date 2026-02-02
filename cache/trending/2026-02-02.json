@@ -1,0 +1,26 @@
+[
+  {
+    "name": "claude-mem",
+    "owner": "thedotmack",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+    "language": "TypeScript",
+    "stars": 17602
+  },
+  {
+    "name": "99",
+    "owner": "ThePrimeagen",
+    "url": "https://github.com/ThePrimeagen/99",
+    "description": "Neovim AI agent done right",
+    "language": "Lua",
+    "stars": 2955
+  },
+  {
+    "name": "termux-app",
+    "owner": "termux",
+    "url": "https://github.com/termux/termux-app",
+    "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+    "language": "Java",
+    "stars": 49801
+  }
+]
