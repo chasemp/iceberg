@@ -12,6 +12,7 @@ from iceberg.calculator import calculate_transitive_loc
 from iceberg.cache import get_default_cache_dir, save_discovered_repos, save_trending_repos
 from iceberg.depsdev import DepsDevError, get_dependencies, get_project_loc
 from iceberg.detector import detect_package
+from iceberg.export import export_all
 from iceberg.github import fetch_trending_repos
 from iceberg.github_search import build_search_query, search_repositories
 from iceberg.models import PackageIdentifier
@@ -417,3 +418,30 @@ def analyze(
 
 if __name__ == "__main__":
     app()
+
+
+
+@app.command()
+def export(
+    output_dir: Path = typer.Option("./spa/data", help="Output directory for exported JSON files"),
+    cache_dir: Path | None = typer.Option(None, help="Cache directory path"),
+) -> None:
+    """Export cached data to SPA-friendly JSON format.
+    
+    Transforms the internal cache into JSON files optimized for
+    the GitHub Pages SPA, enabling interactive visualization.
+    """
+    try:
+        typer.echo(f"Exporting data to {output_dir}...")
+        
+        results = export_all(output_dir, cache_dir=cache_dir)
+        
+        typer.echo(f"✓ Exported {results[\"discovery_index\"][\"dimensions_exported\"]} discovery dimensions")
+        typer.echo(f"✓ Exported {results[\"repository_details\"][\"repos_exported\"]} repository details")
+        typer.echo(f"
+Data exported to: {output_dir}")
+        
+    except Exception as e:
+        typer.echo(f"Error exporting data: {e}", err=True)
+        raise typer.Exit(1)
+
