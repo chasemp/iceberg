@@ -4,13 +4,62 @@ import time
 from pathlib import Path
 from typing import Any
 
+import httpx
+
+
+def get_latest_published_version(owner: str, name: str) -> str | None:
+    """Get the latest published version (git tag) for a repository.
+
+    Returns the latest semver-like tag, or None if no tags found.
+    """
+    try:
+        # Use GitHub API to get latest release
+        url = f"https://api.github.com/repos/{owner}/{name}/releases/latest"
+        response = httpx.get(url, timeout=10.0, follow_redirects=True)
+
+        if response.status_code == 200:
+            data: dict[str, Any] = response.json()
+            tag: Any = data.get("tag_name")
+            if isinstance(tag, str):
+                return tag
+
+        # Fallback: try to get tags via git ls-remote
+        result = subprocess.run(
+            ["git", "ls-remote", "--tags", "--sort=-v:refname", f"https://github.com/{owner}/{name}.git"],
+            capture_output=True,
+            text=True,
+            timeout=10,
+        )
+
+        if result.returncode == 0 and result.stdout:
+            # Parse first tag from output
+            lines = result.stdout.strip().split("\n")
+            for line in lines:
+                if "refs/tags/" in line and "^{}" not in line:
+                    parts = line.split("refs/tags/")
+                    if len(parts) > 1:
+                        tag_name: str = parts[1]
+                        return tag_name
+
+        return None
+    except Exception:
+        return None
+
 
 def clone_repository(
     owner: str,
     name: str,
     target_dir: Path | None = None,
+    ref: str | None = None,
 ) -> dict[str, Any] | None:
-    """Clone a GitHub repository and return timing metadata."""
+    """Clone a GitHub repository and return timing metadata.
+
+    Args:
+        owner: Repository owner
+        name: Repository name
+        target_dir: Target directory for clone
+        ref: Git ref (branch/tag) to checkout. If None, uses default branch
+    """
     try:
         repo_url = f"https://github.com/{owner}/{name}.git"
 
@@ -19,8 +68,13 @@ def clone_repository(
 
         start_time = time.time()
 
+        clone_cmd = ["git", "clone", "--depth", "1"]
+        if ref:
+            clone_cmd.extend(["--branch", ref])
+        clone_cmd.extend([repo_url, str(target_dir)])
+
         result = subprocess.run(
-            ["git", "clone", "--depth", "1", repo_url, str(target_dir)],
+            clone_cmd,
             capture_output=True,
             text=True,
             timeout=60,
@@ -34,6 +88,7 @@ def clone_repository(
         return {
             "duration_seconds": duration,
             "repo_url": repo_url,
+            "ref": ref or "HEAD",
         }
     except Exception:
         return None
@@ -108,14 +163,22 @@ def get_github_project_loc(
     owner: str,
     name: str,
     cache_dir: Path | None = None,
+    ref: str | None = None,
 ) -> dict[str, Any] | None:
-    """Get LoC for a GitHub project by cloning and analyzing it."""
+    """Get LoC for a GitHub project by cloning and analyzing it.
+
+    Args:
+        owner: Repository owner
+        name: Repository name
+        cache_dir: Cache directory (not used yet for project LoC)
+        ref: Git ref (branch/tag) to analyze. If None, uses default branch
+    """
     try:
         with tempfile.TemporaryDirectory() as temp_dir:
             temp_path = Path(temp_dir)
 
             # Clone repository
-            clone_result = clone_repository(owner, name, target_dir=temp_path)
+            clone_result = clone_repository(owner, name, target_dir=temp_path, ref=ref)
             if not clone_result:
                 return None
 
@@ -129,6 +192,7 @@ def get_github_project_loc(
                 "source": "github_clone",
                 "metadata": {
                     "repo_url": clone_result["repo_url"],
+                    "ref": clone_result["ref"],
                     "clone_duration_seconds": clone_result["duration_seconds"],
                     "count_duration_seconds": count_result["duration_seconds"],
                 },
