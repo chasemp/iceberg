@@ -1,0 +1,10 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "zod-to-json-schema",
+    "version": "3.24.6"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-02T16:56:34.990636+00:00"
+}

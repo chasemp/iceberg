@@ -1,0 +1,10 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "glob",
+    "version": "11.0.3"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-02T16:56:33.533904+00:00"
+}
