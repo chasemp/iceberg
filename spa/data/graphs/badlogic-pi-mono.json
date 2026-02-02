@@ -1,0 +1,16 @@
+{
+  "owner": "badlogic",
+  "repo": "pi-mono",
+  "full_name": "badlogic/pi-mono",
+  "root_package": "npm:pi-monorepo:0.0.3",
+  "nodes": [
+    {
+      "id": "npm:pi-monorepo:0.0.3",
+      "system": "npm",
+      "name": "pi-monorepo",
+      "version": "0.0.3"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-02T20:12:04.081926+00:00"
+}

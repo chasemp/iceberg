@@ -1,0 +1,16 @@
+{
+  "owner": "netbirdio",
+  "repo": "netbird",
+  "full_name": "netbirdio/netbird",
+  "root_package": "go:github.com/netbirdio/netbird:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/netbirdio/netbird:v0.0.0",
+      "system": "go",
+      "name": "github.com/netbirdio/netbird",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-02T20:12:04.071106+00:00"
+}

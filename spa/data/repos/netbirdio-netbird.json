@@ -6,13 +6,19 @@
   "analysis": {
     "owner": "netbirdio",
     "repo": "netbird",
-    "version": "v0.64.4",
+    "version": "HEAD",
     "loc": 235049,
     "source": "github_clone",
-    "cached_at": "2026-02-02T17:52:34.503201+00:00",
-    "ref": "v0.64.4",
+    "cached_at": "2026-02-02T20:05:36.107715+00:00",
+    "package": {
+      "system": "go",
+      "name": "github.com/netbirdio/netbird",
+      "version": "v0.0.0"
+    },
     "repo_url": "https://github.com/netbirdio/netbird.git",
-    "clone_duration_seconds": 1.6800551414489746,
-    "count_duration_seconds": 0.14499211311340332
+    "ref": "HEAD",
+    "commit_hash": "b20d4849720754928ce08a88d8970877a5b0daa5",
+    "clone_duration_seconds": 1.5904061794281006,
+    "count_duration_seconds": 0.16697478294372559
   }
 }

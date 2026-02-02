@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 520232,
   "source": "github_clone",
-  "cached_at": "2026-02-02T19:13:45.520406+00:00",
+  "cached_at": "2026-02-02T20:06:20.263704+00:00",
   "repo_url": "https://github.com/kovidgoyal/calibre.git",
   "ref": "HEAD",
   "commit_hash": "0bb3b9a2d51380f01d44c19af804cff4af5a8e43",
-  "clone_duration_seconds": 3.9773430824279785,
-  "count_duration_seconds": 0.19026994705200195
+  "clone_duration_seconds": 4.412138938903809,
+  "count_duration_seconds": 0.2528049945831299
 }
