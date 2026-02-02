@@ -99,7 +99,7 @@ def export_discovery_index(
                     snapshots.append({
                         "date": date,
                         "count": len(repos),
-                        "repos": [_repo_summary(repo) for repo in repos],
+                        "repos": [_repo_summary(repo, cache_dir) for repo in repos],
                     })
 
             if snapshots:
@@ -123,7 +123,7 @@ def export_discovery_index(
                         "type": "search",
                         "query": query,
                         "count": len(repos),
-                        "repos": [_repo_summary(repo) for repo in repos],
+                        "repos": [_repo_summary(repo, cache_dir) for repo in repos],
                     })
 
     index = {
@@ -142,9 +142,9 @@ def export_discovery_index(
     }
 
 
-def _repo_summary(repo: DiscoveredRepo) -> dict[str, Any]:
+def _repo_summary(repo: DiscoveredRepo, cache_dir: Path) -> dict[str, Any]:
     """Create a summary dict of a repo for index files."""
-    return {
+    summary: dict[str, Any] = {
         "owner": repo.owner,
         "name": repo.name,
         "full_name": f"{repo.owner}/{repo.name}",
@@ -154,6 +154,21 @@ def _repo_summary(repo: DiscoveredRepo) -> dict[str, Any]:
         "stars": repo.stars,
         "discovered_at": repo.discovered_at,
     }
+
+    # Try to add AI tools info from analysis if available
+    projects_dir = cache_dir / "projects" / repo.owner / repo.name
+    if projects_dir.exists():
+        # Look for HEAD.json first, then any version file
+        head_file = projects_dir / "HEAD.json"
+        if head_file.exists():
+            try:
+                analysis = json.loads(head_file.read_text())
+                if "ai_tools" in analysis and analysis["ai_tools"]:
+                    summary["ai_tools"] = analysis["ai_tools"]
+            except (json.JSONDecodeError, IOError):
+                pass  # If we can't read it, just skip AI tools info
+
+    return summary
 
 
 def export_repository_details(

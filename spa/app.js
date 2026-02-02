@@ -7,7 +7,8 @@ let state = {
     filters: {
         source: 'all',
         timeframe: 'all',
-        language: 'all'
+        language: 'all',
+        aiTools: 'all'
     },
     rankings: null
 };
@@ -41,6 +42,11 @@ function setupEventListeners() {
 
     document.getElementById('language-filter').addEventListener('change', (e) => {
         state.filters.language = e.target.value;
+        renderDimensions();
+    });
+
+    document.getElementById('ai-filter').addEventListener('change', (e) => {
+        state.filters.aiTools = e.target.value;
         renderDimensions();
     });
 
@@ -302,6 +308,21 @@ function renderRepositories(dimension) {
     // Apply language filter
     if (state.filters.language !== 'all') {
         repos = repos.filter(r => r.language === state.filters.language);
+    }
+
+    // Apply AI tools filter
+    if (state.filters.aiTools !== 'all') {
+        repos = repos.filter(r => {
+            if (!r.ai_tools || r.ai_tools.length === 0) {
+                return false;
+            }
+            if (state.filters.aiTools === 'any') {
+                return true;
+            }
+            // Check if the specific tool is in the list (case-insensitive)
+            const toolName = state.filters.aiTools.toLowerCase();
+            return r.ai_tools.some(tool => tool.toLowerCase().includes(toolName));
+        });
     }
 
     if (repos.length === 0) {
