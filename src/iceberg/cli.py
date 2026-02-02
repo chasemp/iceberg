@@ -1,4 +1,5 @@
 import json
+import logging
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -55,6 +56,9 @@ def analyze(
     head: bool = typer.Option(
         False, "--head", help="Analyze HEAD instead of latest published version"
     ),
+    verbose: int = typer.Option(
+        0, "-v", "--verbose", count=True, help="Verbose output (-v shows dependencies, -vv enables debug logging)"
+    ),
     json_output: bool = typer.Option(False, "--json", help="Output as JSON"),
     cache_dir: Path | None = typer.Option(None, help="Cache directory path"),
 ) -> None:
@@ -62,7 +66,22 @@ def analyze(
 
     By default, analyzes the latest published version (git tag).
     Use --head to analyze the current HEAD commit instead.
+
+    Verbosity levels:
+      (none)  Clean summary output
+      -v      Show dependency breakdown
+      -vv     Enable debug logging
     """
+    # Configure logging based on verbosity
+    if verbose >= 2:
+        logging.basicConfig(
+            level=logging.DEBUG,
+            format="[DEBUG] %(name)s: %(message)s",
+        )
+        logging.debug("Debug logging enabled")
+    elif verbose >= 1:
+        logging.basicConfig(level=logging.INFO)
+
     try:
         if cache_dir is None:
             cache_dir = get_default_cache_dir()
@@ -200,8 +219,9 @@ def analyze(
             total_loc = sbom_result["total_dependencies_loc"]
             analysis_method = "SBOM (manifest)"
 
-            if not json_output and len(sbom_result["dependencies"]) > 0:
-                typer.echo(f"Found {len(sbom_result['dependencies'])} dependencies:\n")
+            # Only show dependency list if verbose
+            if not json_output and verbose >= 1 and len(sbom_result["dependencies"]) > 0:
+                typer.echo(f"\nFound {len(sbom_result['dependencies'])} dependencies:\n")
                 for dep in sbom_result["dependencies"][:5]:
                     typer.echo(f"  - {dep['name']}@{dep['version']}: {dep['loc']:,} LoC")
                 if len(sbom_result["dependencies"]) > 5:
