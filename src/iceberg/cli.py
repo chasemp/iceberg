@@ -1,16 +1,19 @@
 import json
 import logging
+import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Literal
 
 import typer
 
 from iceberg.calculator import calculate_transitive_loc
-from iceberg.cache import get_default_cache_dir, save_trending_repos
+from iceberg.cache import get_default_cache_dir, save_discovered_repos, save_trending_repos
 from iceberg.depsdev import DepsDevError, get_dependencies, get_project_loc
 from iceberg.detector import detect_package
 from iceberg.github import fetch_trending_repos
+from iceberg.github_search import build_search_query, search_repositories
 from iceberg.models import PackageIdentifier
 from iceberg.sbom import analyze_from_manifest
 
@@ -19,14 +22,42 @@ app = typer.Typer()
 
 @app.command()
 def fetch(
-    limit: int = typer.Option(10, help="Number of trending repos to fetch"),
+    limit: int = typer.Option(10, help="Number of repositories to fetch"),
+    source: Literal["trending", "search"] = typer.Option(
+        "trending", help="Repository source (trending or search)"
+    ),
+    since: Literal["daily", "weekly", "monthly"] = typer.Option(
+        "daily", help="Trending timeframe (with --source trending)"
+    ),
+    stars: str | None = typer.Option(
+        None, help="Star count filter, e.g., '>1000' (with --source search)"
+    ),
+    language: str | None = typer.Option(
+        None, help="Language filter (with --source search)"
+    ),
+    created: str | None = typer.Option(
+        None, help="Created date filter, e.g., '>2024-01-01' (with --source search)"
+    ),
+    pushed: str | None = typer.Option(
+        None, help="Last push date filter (with --source search)"
+    ),
+    query: str | None = typer.Option(
+        None, help="Custom search query (with --source search)"
+    ),
     analyze_repos: bool = typer.Option(False, "--analyze", help="Analyze each repo after fetching"),
     head: bool = typer.Option(False, "--head", help="Analyze HEAD instead of latest published version (with --analyze)"),
     verbose: int = typer.Option(0, "-v", "--verbose", count=True, help="Verbose output"),
     json_output: bool = typer.Option(False, "--json", help="Output as JSON"),
     cache_dir: Path | None = typer.Option(None, help="Cache directory path"),
 ) -> None:
-    """Fetch trending repositories and optionally analyze them.
+    """Fetch repositories from trending or search.
+
+    Examples:
+      iceberg fetch --limit 10
+      iceberg fetch --source trending --since weekly --limit 25
+      iceberg fetch --source search --stars ">10000" --limit 50
+      iceberg fetch --source search --language python --stars ">5000"
+      iceberg fetch --source search --query "language:rust stars:>1000"
 
     Use --analyze to automatically analyze each fetched repository.
     Results are cached, so re-running will skip already analyzed repos.
@@ -35,19 +66,40 @@ def fetch(
         if cache_dir is None:
             cache_dir = get_default_cache_dir()
 
-        repos = fetch_trending_repos(limit=limit)
-        save_trending_repos(repos, cache_dir=cache_dir)
+        # Fetch repos based on source
+        if source == "trending":
+            repos = fetch_trending_repos(limit=limit, since=since)
+        else:  # search
+            query_str = query or build_search_query(
+                stars=stars, language=language, created=created, pushed=pushed
+            )
+            token = os.environ.get("GITHUB_TOKEN")
+            repos = search_repositories(query_str, limit=limit, token=token)
+
+        save_discovered_repos(repos, cache_dir=cache_dir)
 
         if json_output:
             data = [repo.model_dump(mode="json") for repo in repos]
             typer.echo(json.dumps(data, indent=2))
         else:
-            if len(repos) < limit:
-                typer.echo(f"Fetched {len(repos)} trending repositories (GitHub only shows ~{len(repos)} on trending page)")
-            else:
-                typer.echo(f"Fetched {len(repos)} trending repositories")
-            for repo in repos:
-                typer.echo(f"  - {repo.owner}/{repo.name} ({repo.stars:,} stars)")
+            # Display source information
+            if repos:
+                repo_source = repos[0].source
+                if repo_source.startswith("trending"):
+                    timeframe = repo_source.replace("trending-", "")
+                    if len(repos) < limit:
+                        typer.echo(f"Fetched {len(repos)} {timeframe} trending repositories (GitHub only shows ~{len(repos)} on trending page)")
+                    else:
+                        typer.echo(f"Fetched {len(repos)} {timeframe} trending repositories")
+                elif repo_source == "search":
+                    typer.echo(f"Fetched {len(repos)} repositories from search")
+                    if repos[0].search_query:
+                        typer.echo(f"Query: {repos[0].search_query}")
+                else:
+                    typer.echo(f"Fetched {len(repos)} repositories")
+
+                for repo in repos:
+                    typer.echo(f"  - {repo.owner}/{repo.name} ({repo.stars:,} stars)")
 
         # Analyze repos if requested
         if analyze_repos and not json_output:
