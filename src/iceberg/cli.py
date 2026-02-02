@@ -49,7 +49,7 @@ def fetch(
         # Analyze repos if requested
         if analyze_repos and not json_output:
             from iceberg.cache import load_project_loc
-            from iceberg.github_loc import get_github_project_loc, get_latest_published_version
+            from iceberg.github_loc import get_current_head_hash, get_github_project_loc, get_latest_published_version
 
             typer.echo(f"\nAnalyzing {len(repos)} repositories...\n")
 
@@ -59,6 +59,7 @@ def fetch(
                 # Determine version to analyze
                 ref_to_analyze: str | None = None
                 version_for_cache: str = "HEAD"
+                use_commit_hash = False
 
                 if not head:
                     ref_to_analyze = get_latest_published_version(repo.owner, repo.name)
@@ -66,11 +67,19 @@ def fetch(
                         version_for_cache = ref_to_analyze
                     else:
                         version_for_cache = "HEAD"
+                        use_commit_hash = True
                 else:
                     version_for_cache = "HEAD"
+                    use_commit_hash = True
 
-                # Check if already analyzed
-                cached = load_project_loc(repo.owner, repo.name, version_for_cache, cache_dir=cache_dir)
+                # Check if already analyzed (use commit hash for HEAD)
+                cache_lookup_version = version_for_cache
+                if use_commit_hash:
+                    current_hash = get_current_head_hash(repo.owner, repo.name)
+                    if current_hash:
+                        cache_lookup_version = current_hash
+
+                cached = load_project_loc(repo.owner, repo.name, cache_lookup_version, cache_dir=cache_dir)
 
                 if cached:
                     typer.echo(f"  ✓ Already analyzed ({version_for_cache}, {cached['loc']:,} LoC)\n")
@@ -83,22 +92,30 @@ def fetch(
                     github_result = get_github_project_loc(repo.owner, repo.name, cache_dir=cache_dir, ref=ref_to_analyze)
 
                     if github_result:
+                        # Use commit hash as cache key if analyzing HEAD
+                        commit_hash = github_result["metadata"].get("commit_hash")
+                        cache_version = version_for_cache
+                        if use_commit_hash and commit_hash:
+                            cache_version = commit_hash[:8]
+
                         # Save to cache
                         project_data = {
                             "owner": repo.owner,
                             "repo": repo.name,
-                            "version": version_for_cache,
+                            "version": cache_version,
                             "loc": github_result["loc"],
                             "source": github_result["source"],
                             "cached_at": datetime.now(timezone.utc).isoformat(),
                             "ref": github_result["metadata"]["ref"],
+                            "commit_hash": commit_hash,
                             "repo_url": github_result["metadata"]["repo_url"],
                             "clone_duration_seconds": github_result["metadata"]["clone_duration_seconds"],
                             "count_duration_seconds": github_result["metadata"]["count_duration_seconds"],
                         }
                         save_project_loc(project_data, cache_dir=cache_dir)
 
-                        typer.echo(f"  ✓ {github_result['loc']:,} LoC\n")
+                        display_version = f"{cache_version} ({commit_hash[:8]})" if use_commit_hash and commit_hash else cache_version
+                        typer.echo(f"  ✓ {github_result['loc']:,} LoC [{display_version}]\n")
                     else:
                         typer.echo(f"  ✗ Could not analyze\n")
                 except Exception as ex:
@@ -208,6 +225,7 @@ def analyze(
             # Determine which ref to analyze (default to published, unless --head)
             ref_to_analyze: str | None = None
             version_for_cache: str = "HEAD"
+            use_commit_hash_for_cache = False
 
             if not head:
                 if not json_output:
@@ -217,14 +235,25 @@ def analyze(
                     version_for_cache = ref_to_analyze
                     if not json_output:
                         typer.echo(f"✓ Found version: {ref_to_analyze}")
-                elif not json_output:
-                    typer.echo(f"⚠️  No published versions found, using HEAD")
+                else:
+                    if not json_output:
+                        typer.echo(f"⚠️  No published versions found, using HEAD")
                     version_for_cache = "HEAD"
+                    use_commit_hash_for_cache = True
             else:
                 version_for_cache = "HEAD"
+                use_commit_hash_for_cache = True
 
             # Check cache first
-            cached_project_data = load_project_loc(owner, name, version_for_cache, cache_dir=cache_dir)
+            # For HEAD, use current commit hash as cache key
+            cache_lookup_version = version_for_cache
+            if use_commit_hash_for_cache:
+                from iceberg.github_loc import get_current_head_hash
+                current_hash = get_current_head_hash(owner, name)
+                if current_hash:
+                    cache_lookup_version = current_hash
+
+            cached_project_data = load_project_loc(owner, name, cache_lookup_version, cache_dir=cache_dir)
 
             if cached_project_data:
                 project_loc = cached_project_data["loc"]
@@ -240,15 +269,22 @@ def analyze(
                 if github_result:
                     project_loc = github_result["loc"]
 
+                    # Use commit hash as cache key if analyzing HEAD
+                    commit_hash = github_result["metadata"].get("commit_hash")
+                    cache_version = version_for_cache
+                    if use_commit_hash_for_cache and commit_hash:
+                        cache_version = commit_hash[:8]  # Use short hash
+
                     # Save to cache
                     project_data = {
                         "owner": owner,
                         "repo": name,
-                        "version": version_for_cache,
+                        "version": cache_version,
                         "loc": project_loc,
                         "source": github_result["source"],
                         "cached_at": datetime.now(timezone.utc).isoformat(),
                         "ref": github_result["metadata"]["ref"],
+                        "commit_hash": commit_hash,
                         "repo_url": github_result["metadata"]["repo_url"],
                         "clone_duration_seconds": github_result["metadata"]["clone_duration_seconds"],
                         "count_duration_seconds": github_result["metadata"]["count_duration_seconds"],
