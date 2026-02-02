@@ -67,16 +67,26 @@
             </section>
 
             <section class="repositories">
-                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; gap: 1rem; flex-wrap: wrap;">
                     <h2 id="repos-title" style="margin: 0;">Repositories</h2>
-                    <div class="filter-group" style="margin: 0;">
-                        <label for="sort-select">Sort by:</label>
-                        <select id="sort-select">
-                            <option value="stars-desc">Stars (High to Low)</option>
-                            <option value="stars-asc">Stars (Low to High)</option>
-                            <option value="name-asc">Name (A-Z)</option>
-                            <option value="name-desc">Name (Z-A)</option>
-                        </select>
+                    <div style="display: flex; gap: 1rem; align-items: center; flex: 1; justify-content: flex-end;">
+                        <div class="filter-group" style="margin: 0; flex: 0 1 300px;">
+                            <input
+                                type="text"
+                                id="repo-search"
+                                placeholder="Search repositories..."
+                                style="width: 100%; padding: 0.5rem; border: 1px solid var(--border); border-radius: var(--radius-sm); font-size: 0.875rem;"
+                            />
+                        </div>
+                        <div class="filter-group" style="margin: 0;">
+                            <label for="sort-select">Sort by:</label>
+                            <select id="sort-select">
+                                <option value="stars-desc">Stars (High to Low)</option>
+                                <option value="stars-asc">Stars (Low to High)</option>
+                                <option value="name-asc">Name (A-Z)</option>
+                                <option value="name-desc">Name (Z-A)</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
                 <div id="repositories-list" class="repos-grid">
