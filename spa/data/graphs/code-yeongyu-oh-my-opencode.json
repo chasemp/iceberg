@@ -1,0 +1,16 @@
+{
+  "owner": "code-yeongyu",
+  "repo": "oh-my-opencode",
+  "full_name": "code-yeongyu/oh-my-opencode",
+  "root_package": "npm:oh-my-opencode:3.0.1",
+  "nodes": [
+    {
+      "id": "npm:oh-my-opencode:3.0.1",
+      "system": "npm",
+      "name": "oh-my-opencode",
+      "version": "3.0.1"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-03T06:41:00.236003+00:00"
+}
