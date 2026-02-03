@@ -4,15 +4,17 @@
   "version": "HEAD",
   "loc": 249628,
   "source": "github_clone",
-  "cached_at": "2026-02-02T22:27:48.086773+00:00",
+  "cached_at": "2026-02-02T23:23:36.878546+00:00",
   "package": {
     "system": "go",
     "name": "github.com/steveyegge/beads",
     "version": "v0.0.0"
   },
+  "total_loc": 54271,
+  "ratio": 0.17858235795445196,
   "repo_url": "https://github.com/steveyegge/beads.git",
   "ref": "HEAD",
   "commit_hash": "a7f9e8631966701ae30948263594fa2f69fee05c",
-  "clone_duration_seconds": 1.8720500469207764,
-  "count_duration_seconds": 0.12795019149780273
+  "clone_duration_seconds": 1.9471330642700195,
+  "count_duration_seconds": 0.1221919059753418
 }

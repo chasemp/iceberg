@@ -1,0 +1,24 @@
+{
+  "owner": "bigskysoftware",
+  "repo": "htmx",
+  "version": "HEAD",
+  "loc": 10805,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T00:57:04.069069+00:00",
+  "package": {
+    "system": "npm",
+    "name": "htmx.org",
+    "version": "2.0.8"
+  },
+  "total_loc": 85627,
+  "ratio": 0.8879521320723411,
+  "repo_url": "https://github.com/bigskysoftware/htmx.git",
+  "ref": "v2.0.8",
+  "commit_hash": "cf6609d4546f366d7931d984072ecf5071bf334f",
+  "clone_duration_seconds": 19.151024103164673,
+  "count_duration_seconds": 0.014444112777709961,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

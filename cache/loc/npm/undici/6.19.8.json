@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "undici",
+    "version": "6.19.8"
+  },
+  "total_lines": 18272,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:20:55.128246+00:00",
+  "source_url": "https://registry.npmjs.org/undici/-/undici-6.19.8.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 1.1068639755249023,
+  "count_duration_seconds": null
+}

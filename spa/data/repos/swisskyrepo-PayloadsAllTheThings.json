@@ -1,0 +1,23 @@
+{
+  "owner": "swisskyrepo",
+  "repo": "PayloadsAllTheThings",
+  "full_name": "swisskyrepo/PayloadsAllTheThings",
+  "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+  "analysis": {
+    "owner": "swisskyrepo",
+    "repo": "PayloadsAllTheThings",
+    "version": "HEAD",
+    "loc": 3603,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T01:09:45.974577+00:00",
+    "repo_url": "https://github.com/swisskyrepo/PayloadsAllTheThings.git",
+    "ref": "HEAD",
+    "commit_hash": "66ef235835a827c0881cbeb705c24dfcdc3aec21",
+    "clone_duration_seconds": 1.7754981517791748,
+    "count_duration_seconds": 0.016062021255493164,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

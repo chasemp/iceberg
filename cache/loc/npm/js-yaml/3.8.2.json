@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "js-yaml",
+    "version": "3.8.2"
+  },
+  "total_lines": 2843,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:54:49.393787+00:00",
+  "source_url": "https://registry.npmjs.org/js-yaml/-/js-yaml-3.8.2.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.8276829719543457,
+  "count_duration_seconds": null
+}

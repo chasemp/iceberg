@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "csvtojson",
+    "version": "2.0.10"
+  },
+  "total_lines": 8254,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:50:03.244318+00:00",
+  "source_url": "https://registry.npmjs.org/csvtojson/-/csvtojson-2.0.10.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.9474139213562012,
+  "count_duration_seconds": null
+}

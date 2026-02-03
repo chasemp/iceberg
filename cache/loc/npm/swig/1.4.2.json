@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "swig",
+    "version": "1.4.2"
+  },
+  "total_lines": 2284,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:37:41.190733+00:00",
+  "source_url": "https://registry.npmjs.org/swig/-/swig-1.4.2.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.5294890403747559,
+  "count_duration_seconds": null
+}

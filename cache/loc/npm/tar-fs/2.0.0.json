@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "tar-fs",
+    "version": "2.0.0"
+  },
+  "total_lines": 275,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:47:42.798802+00:00",
+  "source_url": "https://registry.npmjs.org/tar-fs/-/tar-fs-2.0.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.8654849529266357,
+  "count_duration_seconds": null
+}

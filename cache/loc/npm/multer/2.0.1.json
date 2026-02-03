@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "multer",
+    "version": "2.0.1"
+  },
+  "total_lines": 419,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:50:16.794677+00:00",
+  "source_url": "https://registry.npmjs.org/multer/-/multer-2.0.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7694170475006104,
+  "count_duration_seconds": null
+}

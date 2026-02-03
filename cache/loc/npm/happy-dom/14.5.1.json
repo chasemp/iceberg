@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "happy-dom",
+    "version": "14.5.1"
+  },
+  "total_lines": 106780,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:20:35.991904+00:00",
+  "source_url": "https://registry.npmjs.org/happy-dom/-/happy-dom-14.5.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 2.1666579246520996,
+  "count_duration_seconds": null
+}

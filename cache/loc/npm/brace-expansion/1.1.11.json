@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "brace-expansion",
+    "version": "1.1.11"
+  },
+  "total_lines": 155,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:20:18.749581+00:00",
+  "source_url": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.5405058860778809,
+  "count_duration_seconds": null
+}

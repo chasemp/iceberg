@@ -1,0 +1,23 @@
+{
+  "owner": "521xueweihan",
+  "repo": "HelloGitHub",
+  "full_name": "521xueweihan/HelloGitHub",
+  "url": "https://github.com/521xueweihan/HelloGitHub",
+  "analysis": {
+    "owner": "521xueweihan",
+    "repo": "HelloGitHub",
+    "version": "HEAD",
+    "loc": 236,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T01:00:33.576339+00:00",
+    "repo_url": "https://github.com/521xueweihan/HelloGitHub.git",
+    "ref": "HEAD",
+    "commit_hash": "b2625cc5e7bb350423cfb694da3728d24f0940d5",
+    "clone_duration_seconds": 1.580359935760498,
+    "count_duration_seconds": 0.0048329830169677734,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

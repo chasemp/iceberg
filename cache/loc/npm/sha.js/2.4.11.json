@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "sha.js",
+    "version": "2.4.11"
+  },
+  "total_lines": 634,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:22:57.007263+00:00",
+  "source_url": "https://registry.npmjs.org/sha.js/-/sha.js-2.4.11.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.8155207633972168,
+  "count_duration_seconds": null
+}

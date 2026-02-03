@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "jquery",
+    "version": "3.4.1"
+  },
+  "total_lines": 6353,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:46:00.280249+00:00",
+  "source_url": "https://registry.npmjs.org/jquery/-/jquery-3.4.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.9672119617462158,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,16 @@
+{
+  "owner": "webpack",
+  "repo": "webpack",
+  "full_name": "webpack/webpack",
+  "root_package": "npm:webpack:5.104.1",
+  "nodes": [
+    {
+      "id": "npm:webpack:5.104.1",
+      "system": "npm",
+      "name": "webpack",
+      "version": "5.104.1"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-03T01:18:30.611366+00:00"
+}

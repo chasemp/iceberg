@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "ajv",
+    "version": "4.11.2"
+  },
+  "total_lines": 4953,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:48:24.832307+00:00",
+  "source_url": "https://registry.npmjs.org/ajv/-/ajv-4.11.2.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7156462669372559,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "useragent",
+    "version": "2.3.0"
+  },
+  "total_lines": 7416,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:49:37.316684+00:00",
+  "source_url": "https://registry.npmjs.org/useragent/-/useragent-2.3.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.5350730419158936,
+  "count_duration_seconds": null
+}

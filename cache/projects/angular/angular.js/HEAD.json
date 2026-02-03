@@ -1,0 +1,19 @@
+{
+  "owner": "angular",
+  "repo": "angular.js",
+  "version": "HEAD",
+  "loc": 159070,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T00:49:46.980473+00:00",
+  "total_loc": 527240,
+  "ratio": 0.7682242718305139,
+  "repo_url": "https://github.com/angular/angular.js.git",
+  "ref": "HEAD",
+  "commit_hash": "d8f77817eb5c98dec5317bc3756d1ea1812bcfbe",
+  "clone_duration_seconds": 8.444709777832031,
+  "count_duration_seconds": 0.0867161750793457,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

@@ -1,0 +1,16 @@
+{
+  "owner": "atom",
+  "repo": "atom",
+  "full_name": "atom/atom",
+  "root_package": "npm:atom:1.65.0-dev",
+  "nodes": [
+    {
+      "id": "npm:atom:1.65.0-dev",
+      "system": "npm",
+      "name": "atom",
+      "version": "1.65.0-dev"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-03T01:18:30.604102+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "morgan",
+    "version": "1.8.0"
+  },
+  "total_lines": 222,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:49:10.502742+00:00",
+  "source_url": "https://registry.npmjs.org/morgan/-/morgan-1.8.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7722339630126953,
+  "count_duration_seconds": null
+}

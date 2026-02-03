@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "braces",
+    "version": "0.1.5"
+  },
+  "total_lines": 207,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:55:19.102733+00:00",
+  "source_url": "https://registry.npmjs.org/braces/-/braces-0.1.5.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.5734598636627197,
+  "count_duration_seconds": null
+}

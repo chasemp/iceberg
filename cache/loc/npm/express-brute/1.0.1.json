@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "express-brute",
+    "version": "1.0.1"
+  },
+  "total_lines": 861,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:52:58.824448+00:00",
+  "source_url": "https://registry.npmjs.org/express-brute/-/express-brute-1.0.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.8037078380584717,
+  "count_duration_seconds": null
+}

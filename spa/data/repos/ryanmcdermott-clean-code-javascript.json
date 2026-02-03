@@ -1,0 +1,23 @@
+{
+  "owner": "ryanmcdermott",
+  "repo": "clean-code-javascript",
+  "full_name": "ryanmcdermott/clean-code-javascript",
+  "url": "https://github.com/ryanmcdermott/clean-code-javascript",
+  "analysis": {
+    "owner": "ryanmcdermott",
+    "repo": "clean-code-javascript",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:43:38.759989+00:00",
+    "repo_url": "https://github.com/ryanmcdermott/clean-code-javascript.git",
+    "ref": "HEAD",
+    "commit_hash": "5311f64b03fc0c2450ab17a45ee9818669c8b9b5",
+    "clone_duration_seconds": 0.921576976776123,
+    "count_duration_seconds": 0.0014290809631347656,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "owner": "mui",
+  "repo": "material-ui",
+  "version": "HEAD",
+  "loc": 761753,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T00:42:46.704875+00:00",
+  "package": {
+    "system": "npm",
+    "name": "@mui/monorepo",
+    "version": "7.3.7"
+  },
+  "total_loc": 192565,
+  "ratio": 0.20178284387384499,
+  "repo_url": "https://github.com/mui/material-ui.git",
+  "ref": "v7.3.7",
+  "commit_hash": "86fd51e367ed2cd72113592bde8c5ea89af7b00e",
+  "clone_duration_seconds": 32.94536876678467,
+  "count_duration_seconds": 2.1459641456604004,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "hosted-git-info",
+    "version": "2.8.4"
+  },
+  "total_lines": 309,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:50:10.085583+00:00",
+  "source_url": "https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-2.8.4.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.712432861328125,
+  "count_duration_seconds": null
+}

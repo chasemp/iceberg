@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "express",
+    "version": "4.19.2"
+  },
+  "total_lines": 1877,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:21:57.407869+00:00",
+  "source_url": "https://registry.npmjs.org/express/-/express-4.19.2.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.5910491943359375,
+  "count_duration_seconds": null
+}

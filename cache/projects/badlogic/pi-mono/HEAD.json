@@ -2,17 +2,19 @@
   "owner": "badlogic",
   "repo": "pi-mono",
   "version": "HEAD",
-  "loc": 84499,
+  "loc": 84531,
   "source": "github_clone",
-  "cached_at": "2026-02-02T22:25:11.834286+00:00",
+  "cached_at": "2026-02-02T23:17:09.175015+00:00",
   "package": {
     "system": "npm",
     "name": "pi-monorepo",
     "version": "0.0.3"
   },
+  "total_loc": 9332,
+  "ratio": 0.09942149728860147,
   "repo_url": "https://github.com/badlogic/pi-mono.git",
   "ref": "HEAD",
-  "commit_hash": "1fbafd6cc7b63fe6810cd8c4a42cb3232139751c",
-  "clone_duration_seconds": 1.3174290657043457,
-  "count_duration_seconds": 0.05913090705871582
+  "commit_hash": "8c38de049509b7fcdb0440fa3c4d6856eb89ba16",
+  "clone_duration_seconds": 1.5574698448181152,
+  "count_duration_seconds": 0.053009748458862305
 }

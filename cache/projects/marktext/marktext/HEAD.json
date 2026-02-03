@@ -1,0 +1,24 @@
+{
+  "owner": "marktext",
+  "repo": "marktext",
+  "version": "HEAD",
+  "loc": 33304,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T00:52:09.814094+00:00",
+  "package": {
+    "system": "npm",
+    "name": "marktext",
+    "version": "0.17.1"
+  },
+  "total_loc": 537095,
+  "ratio": 0.9416128008639566,
+  "repo_url": "https://github.com/marktext/marktext.git",
+  "ref": "v0.17.1",
+  "commit_hash": "c8aa33ddcd41184ecac3bd5e67451569b32d8e38",
+  "clone_duration_seconds": 3.9605448246002197,
+  "count_duration_seconds": 0.050409793853759766,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

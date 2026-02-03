@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "rollup",
+    "version": "3.20.2"
+  },
+  "total_lines": 0,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:44:55.523966+00:00",
+  "source_url": "https://registry.npmjs.org/rollup/-/rollup-3.20.2.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.8470628261566162,
+  "count_duration_seconds": null
+}

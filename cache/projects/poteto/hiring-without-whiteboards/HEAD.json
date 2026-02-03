@@ -1,0 +1,24 @@
+{
+  "owner": "poteto",
+  "repo": "hiring-without-whiteboards",
+  "version": "HEAD",
+  "loc": 1,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T00:54:54.380771+00:00",
+  "package": {
+    "system": "npm",
+    "name": "hiring-without-whiteboards",
+    "version": "0.1.0"
+  },
+  "total_loc": 6126,
+  "ratio": 0.9998367879875959,
+  "repo_url": "https://github.com/poteto/hiring-without-whiteboards.git",
+  "ref": "HEAD",
+  "commit_hash": "00b73640a3418c4181523ec6a723e2ee744f8344",
+  "clone_duration_seconds": 0.9700982570648193,
+  "count_duration_seconds": 0.003371000289916992,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

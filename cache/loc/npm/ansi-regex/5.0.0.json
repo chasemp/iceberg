@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "ansi-regex",
+    "version": "5.0.0"
+  },
+  "total_lines": 27,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:48:21.438736+00:00",
+  "source_url": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 1.0208241939544678,
+  "count_duration_seconds": null
+}

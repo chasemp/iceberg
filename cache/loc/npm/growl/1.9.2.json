@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "growl",
+    "version": "1.9.2"
+  },
+  "total_lines": 250,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:47:20.485168+00:00",
+  "source_url": "https://registry.npmjs.org/growl/-/growl-1.9.2.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.4608728885650635,
+  "count_duration_seconds": null
+}

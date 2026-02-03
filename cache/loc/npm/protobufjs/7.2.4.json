@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "protobufjs",
+    "version": "7.2.4"
+  },
+  "total_lines": 5357,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:20:46.606320+00:00",
+  "source_url": "https://registry.npmjs.org/protobufjs/-/protobufjs-7.2.4.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.8702950477600098,
+  "count_duration_seconds": null
+}

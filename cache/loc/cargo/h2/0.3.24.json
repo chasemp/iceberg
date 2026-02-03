@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "h2",
+    "version": "0.3.24"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T00:35:16.696977+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/h2/versions/0.3.24",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.12540698051452637,
+  "count_duration_seconds": null
+}

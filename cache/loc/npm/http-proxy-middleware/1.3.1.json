@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "http-proxy-middleware",
+    "version": "1.3.1"
+  },
+  "total_lines": 0,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:44:51.456853+00:00",
+  "source_url": "https://registry.npmjs.org/http-proxy-middleware/-/http-proxy-middleware-1.3.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.6194360256195068,
+  "count_duration_seconds": null
+}

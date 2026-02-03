@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "pypdf",
+    "version": "6.4.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T01:10:14.329852+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/pypdf/versions/6.4.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.13161921501159668,
+  "count_duration_seconds": null
+}

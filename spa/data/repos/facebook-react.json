@@ -1,0 +1,33 @@
+{
+  "owner": "facebook",
+  "repo": "react",
+  "full_name": "facebook/react",
+  "url": "https://github.com/facebook/react",
+  "analysis": {
+    "owner": "facebook",
+    "repo": "react",
+    "version": "HEAD",
+    "loc": 314741,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:34:28.630676+00:00",
+    "ai_markers": {
+      "claude": true,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "generic_ai": false
+    },
+    "ai_tools": [
+      "Claude"
+    ],
+    "repo_url": "https://github.com/facebook/react.git",
+    "ref": "HEAD",
+    "commit_hash": "7b023d7073aa700b48674ae1985235b8c4755880",
+    "clone_duration_seconds": 3.675661087036133,
+    "count_duration_seconds": 0.29621410369873047,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

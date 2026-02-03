@@ -1,0 +1,30 @@
+{
+  "owner": "sveltejs",
+  "repo": "svelte",
+  "full_name": "sveltejs/svelte",
+  "url": "https://github.com/sveltejs/svelte",
+  "analysis": {
+    "owner": "sveltejs",
+    "repo": "svelte",
+    "version": "HEAD",
+    "loc": 48875,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:43:49.968884+00:00",
+    "package": {
+      "system": "npm",
+      "name": "svelte-monorepo",
+      "version": "0.0.1"
+    },
+    "total_loc": 52733,
+    "ratio": 0.5189847256121565,
+    "repo_url": "https://github.com/sveltejs/svelte.git",
+    "ref": "HEAD",
+    "commit_hash": "cd8d40af1ae755ca7c889f3aa1b6c3d8d0c14dd7",
+    "clone_duration_seconds": 2.843989133834839,
+    "count_duration_seconds": 0.39197802543640137,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

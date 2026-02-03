@@ -9,11 +9,11 @@
     "version": "HEAD",
     "loc": 12732,
     "source": "github_clone",
-    "cached_at": "2026-02-02T22:27:42.078663+00:00",
+    "cached_at": "2026-02-02T23:23:24.559690+00:00",
     "repo_url": "https://github.com/ComposioHQ/awesome-claude-skills.git",
     "ref": "HEAD",
     "commit_hash": "362d35428562ad05d1faa1767abaf39d6e3a8e7a",
-    "clone_duration_seconds": 1.262425184249878,
-    "count_duration_seconds": 0.018417835235595703
+    "clone_duration_seconds": 1.4331870079040527,
+    "count_duration_seconds": 0.014611005783081055
   }
 }

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "vega-expression",
+    "version": "5.1.2"
+  },
+  "total_lines": 1434,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:36:54.447862+00:00",
+  "source_url": "https://registry.npmjs.org/vega-expression/-/vega-expression-5.1.2.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.6840269565582275,
+  "count_duration_seconds": null
+}

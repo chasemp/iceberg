@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "orjson",
+    "version": "3.10.18"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T01:10:13.781097+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/orjson/versions/3.10.18",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.14419198036193848,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,16 @@
+{
+  "owner": "axios",
+  "repo": "axios",
+  "full_name": "axios/axios",
+  "root_package": "npm:axios:1.13.3",
+  "nodes": [
+    {
+      "id": "npm:axios:1.13.3",
+      "system": "npm",
+      "name": "axios",
+      "version": "1.13.3"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-03T01:18:30.621113+00:00"
+}

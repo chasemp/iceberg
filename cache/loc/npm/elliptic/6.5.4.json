@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "elliptic",
+    "version": "6.5.4"
+  },
+  "total_lines": 3102,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:37:09.757199+00:00",
+  "source_url": "https://registry.npmjs.org/elliptic/-/elliptic-6.5.4.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.6827592849731445,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "netmask",
+    "version": "1.0.6"
+  },
+  "total_lines": 132,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:49:12.910060+00:00",
+  "source_url": "https://registry.npmjs.org/netmask/-/netmask-1.0.6.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.5154519081115723,
+  "count_duration_seconds": null
+}

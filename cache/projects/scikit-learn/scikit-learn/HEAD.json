@@ -1,0 +1,17 @@
+{
+  "owner": "scikit-learn",
+  "repo": "scikit-learn",
+  "version": "HEAD",
+  "loc": 210113,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T01:16:37.909096+00:00",
+  "repo_url": "https://github.com/scikit-learn/scikit-learn.git",
+  "ref": "HEAD",
+  "commit_hash": "951e8dd1e1c6e8091298a1a66ccba02714ec0c94",
+  "clone_duration_seconds": 3.2348029613494873,
+  "count_duration_seconds": 0.12585186958312988,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

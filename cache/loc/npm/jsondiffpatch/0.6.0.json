@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "jsondiffpatch",
+    "version": "0.6.0"
+  },
+  "total_lines": 2604,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:35:10.788705+00:00",
+  "source_url": "https://registry.npmjs.org/jsondiffpatch/-/jsondiffpatch-0.6.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7638900279998779,
+  "count_duration_seconds": null
+}

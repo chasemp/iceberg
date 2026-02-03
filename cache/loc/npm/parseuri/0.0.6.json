@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "parseuri",
+    "version": "0.0.6"
+  },
+  "total_lines": 99,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:37:30.300229+00:00",
+  "source_url": "https://registry.npmjs.org/parseuri/-/parseuri-0.0.6.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.4234802722930908,
+  "count_duration_seconds": null
+}

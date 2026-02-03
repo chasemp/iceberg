@@ -9,11 +9,13 @@
     "version": "HEAD",
     "loc": 1739,
     "source": "github_clone",
-    "cached_at": "2026-02-02T22:25:18.409362+00:00",
+    "cached_at": "2026-02-02T23:17:22.674768+00:00",
+    "total_loc": 0,
+    "ratio": 0.0,
     "repo_url": "https://github.com/VectifyAI/PageIndex.git",
     "ref": "HEAD",
     "commit_hash": "884209e8fd05a54650d059b8ed10d4bea7cd479c",
-    "clone_duration_seconds": 2.739719867706299,
-    "count_duration_seconds": 0.003108978271484375
+    "clone_duration_seconds": 2.867253065109253,
+    "count_duration_seconds": 0.0028679370880126953
   }
 }

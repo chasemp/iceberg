@@ -1,0 +1,16 @@
+{
+  "owner": "iamkun",
+  "repo": "dayjs",
+  "full_name": "iamkun/dayjs",
+  "root_package": "npm:dayjs:0.0.0-development",
+  "nodes": [
+    {
+      "id": "npm:dayjs:0.0.0-development",
+      "system": "npm",
+      "name": "dayjs",
+      "version": "0.0.0-development"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-03T01:18:30.608341+00:00"
+}

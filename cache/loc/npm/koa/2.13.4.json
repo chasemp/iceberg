@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "koa",
+    "version": "2.13.4"
+  },
+  "total_lines": 716,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:37:23.533013+00:00",
+  "source_url": "https://registry.npmjs.org/koa/-/koa-2.13.4.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7186579704284668,
+  "count_duration_seconds": null
+}

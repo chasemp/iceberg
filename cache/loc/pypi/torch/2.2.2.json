@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "torch",
+    "version": "2.2.2"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T01:00:22.719888+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/torch/versions/2.2.2",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.14872384071350098,
+  "count_duration_seconds": null
+}

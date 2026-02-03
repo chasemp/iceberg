@@ -7,7 +7,7 @@
     "language": "Rust",
     "stars": 109983,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -16,9 +16,9 @@
     "url": "https://github.com/rustdesk/rustdesk",
     "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
     "language": "Rust",
-    "stars": 106780,
+    "stars": 106781,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -29,7 +29,7 @@
     "language": "Rust",
     "stars": 106034,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -38,9 +38,9 @@
     "url": "https://github.com/tauri-apps/tauri",
     "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
     "language": "Rust",
-    "stars": 102203,
+    "stars": 102204,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -49,9 +49,9 @@
     "url": "https://github.com/astral-sh/uv",
     "description": "An extremely fast Python package and project manager, written in Rust.",
     "language": "Rust",
-    "stars": 78358,
+    "stars": 78359,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -60,9 +60,9 @@
     "url": "https://github.com/zed-industries/zed",
     "description": "Code at the speed of thought \u2013 Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
     "language": "Rust",
-    "stars": 74567,
+    "stars": 74570,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -71,9 +71,9 @@
     "url": "https://github.com/unionlabs/union",
     "description": "The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.",
     "language": "Rust",
-    "stars": 74360,
+    "stars": 74359,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -84,7 +84,7 @@
     "language": "Rust",
     "stars": 62245,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -95,7 +95,7 @@
     "language": "Rust",
     "stars": 61979,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -106,7 +106,7 @@
     "language": "Rust",
     "stars": 61676,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -115,9 +115,9 @@
     "url": "https://github.com/BurntSushi/ripgrep",
     "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
     "language": "Rust",
-    "stars": 59472,
+    "stars": 59473,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -126,9 +126,9 @@
     "url": "https://github.com/openai/codex",
     "description": "Lightweight coding agent that runs in your terminal",
     "language": "Rust",
-    "stars": 58519,
+    "stars": 58529,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -139,7 +139,7 @@
     "language": "Rust",
     "stars": 58489,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -150,7 +150,7 @@
     "language": "Rust",
     "stars": 57390,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -161,7 +161,7 @@
     "language": "Rust",
     "stars": 56934,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -170,9 +170,9 @@
     "url": "https://github.com/meilisearch/meilisearch",
     "description": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
     "language": "Rust",
-    "stars": 55715,
+    "stars": 55716,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -183,7 +183,7 @@
     "language": "Rust",
     "stars": 55383,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -194,7 +194,7 @@
     "language": "Rust",
     "stars": 54398,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -203,9 +203,9 @@
     "url": "https://github.com/dani-garcia/vaultwarden",
     "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
     "language": "Rust",
-    "stars": 54385,
+    "stars": 54386,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -214,9 +214,9 @@
     "url": "https://github.com/starship/starship",
     "description": "\u2604\ud83c\udf0c\ufe0f  The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
     "language": "Rust",
-    "stars": 53877,
+    "stars": 53878,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -225,9 +225,9 @@
     "url": "https://github.com/typst/typst",
     "description": "A markup-based typesetting system that is powerful and easy to learn.",
     "language": "Rust",
-    "stars": 51009,
+    "stars": 51010,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -238,7 +238,7 @@
     "language": "Rust",
     "stars": 45569,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -249,7 +249,7 @@
     "language": "Rust",
     "stars": 45532,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -260,7 +260,7 @@
     "language": "Rust",
     "stars": 44451,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -271,7 +271,7 @@
     "language": "Rust",
     "stars": 43451,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -282,7 +282,7 @@
     "language": "Rust",
     "stars": 42741,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -293,7 +293,7 @@
     "language": "Rust",
     "stars": 41436,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -304,7 +304,7 @@
     "language": "Rust",
     "stars": 40006,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -315,7 +315,7 @@
     "language": "Rust",
     "stars": 38088,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -324,9 +324,9 @@
     "url": "https://github.com/lapce/lapce",
     "description": "Lightning-fast and Powerful Code Editor written in Rust",
     "language": "Rust",
-    "stars": 38002,
+    "stars": 38003,
     "source": "search",
-    "discovered_at": "2026-02-02T22:24:15.063023+00:00",
+    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
     "search_query": "stars:>3000 language:rust"
   }
 ]

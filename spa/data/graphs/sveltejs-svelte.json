@@ -1,0 +1,16 @@
+{
+  "owner": "sveltejs",
+  "repo": "svelte",
+  "full_name": "sveltejs/svelte",
+  "root_package": "npm:svelte-monorepo:0.0.1",
+  "nodes": [
+    {
+      "id": "npm:svelte-monorepo:0.0.1",
+      "system": "npm",
+      "name": "svelte-monorepo",
+      "version": "0.0.1"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-03T01:18:30.603722+00:00"
+}

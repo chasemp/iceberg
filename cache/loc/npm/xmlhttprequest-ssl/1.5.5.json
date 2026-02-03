@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "xmlhttprequest-ssl",
+    "version": "1.5.5"
+  },
+  "total_lines": 400,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:55:47.993925+00:00",
+  "source_url": "https://registry.npmjs.org/xmlhttprequest-ssl/-/xmlhttprequest-ssl-1.5.5.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7544717788696289,
+  "count_duration_seconds": null
+}

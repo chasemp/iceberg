@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "app-builder-lib",
+    "version": "24.3.0"
+  },
+  "total_lines": 13330,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:54:33.388867+00:00",
+  "source_url": "https://registry.npmjs.org/app-builder-lib/-/app-builder-lib-24.3.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.6568171977996826,
+  "count_duration_seconds": null
+}

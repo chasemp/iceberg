@@ -1,0 +1,16 @@
+{
+  "owner": "leonardomso",
+  "repo": "33-js-concepts",
+  "full_name": "leonardomso/33-js-concepts",
+  "root_package": "npm:33-js-concepts:1.0.0",
+  "nodes": [
+    {
+      "id": "npm:33-js-concepts:1.0.0",
+      "system": "npm",
+      "name": "33-js-concepts",
+      "version": "1.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-03T01:18:30.604965+00:00"
+}

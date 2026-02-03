@@ -1,0 +1,23 @@
+{
+  "owner": "azl397985856",
+  "repo": "leetcode",
+  "full_name": "azl397985856/leetcode",
+  "url": "https://github.com/azl397985856/leetcode",
+  "analysis": {
+    "owner": "azl397985856",
+    "repo": "leetcode",
+    "version": "HEAD",
+    "loc": 349,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:51:01.355892+00:00",
+    "repo_url": "https://github.com/azl397985856/leetcode.git",
+    "ref": "HEAD",
+    "commit_hash": "24b0b6284959e0f21539764a156595af7664b63f",
+    "clone_duration_seconds": 15.117776155471802,
+    "count_duration_seconds": 0.010789155960083008,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

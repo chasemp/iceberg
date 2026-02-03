@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "moment",
+    "version": "2.28.0"
+  },
+  "total_lines": 62811,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:47:08.499398+00:00",
+  "source_url": "https://registry.npmjs.org/moment/-/moment-2.28.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 1.0021350383758545,
+  "count_duration_seconds": null
+}

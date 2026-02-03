@@ -1,0 +1,28 @@
+{
+  "owner": "Mintplex-Labs",
+  "repo": "anything-llm",
+  "full_name": "Mintplex-Labs/anything-llm",
+  "url": "https://github.com/Mintplex-Labs/anything-llm",
+  "analysis": {
+    "owner": "Mintplex-Labs",
+    "repo": "anything-llm",
+    "version": "HEAD",
+    "loc": 126630,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:51:07.430799+00:00",
+    "package": {
+      "system": "npm",
+      "name": "anything-llm",
+      "version": "1.10.0"
+    },
+    "repo_url": "https://github.com/Mintplex-Labs/anything-llm.git",
+    "ref": "v1.10.0",
+    "commit_hash": "ac8248e08d0a4606eb3c87bcdbab9fa99e73d7df",
+    "clone_duration_seconds": 2.417587995529175,
+    "count_duration_seconds": 0.15613079071044922,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

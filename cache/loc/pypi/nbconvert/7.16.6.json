@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "nbconvert",
+    "version": "7.16.6"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T01:13:56.169058+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/nbconvert/versions/7.16.6",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.14228200912475586,
+  "count_duration_seconds": null
+}

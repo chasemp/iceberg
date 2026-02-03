@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "valibot",
+    "version": "0.41.0"
+  },
+  "total_lines": 0,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:20:57.927402+00:00",
+  "source_url": "https://registry.npmjs.org/valibot/-/valibot-0.41.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.8335070610046387,
+  "count_duration_seconds": null
+}

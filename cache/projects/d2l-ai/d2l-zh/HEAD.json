@@ -1,0 +1,17 @@
+{
+  "owner": "d2l-ai",
+  "repo": "d2l-zh",
+  "version": "HEAD",
+  "loc": 8719,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T01:09:40.470152+00:00",
+  "repo_url": "https://github.com/d2l-ai/d2l-zh.git",
+  "ref": "HEAD",
+  "commit_hash": "e6b18ccea71451a55fcd861d7b96fddf2587b09a",
+  "clone_duration_seconds": 24.437477111816406,
+  "count_duration_seconds": 0.015013933181762695,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

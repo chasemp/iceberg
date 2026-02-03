@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "text-generation",
+    "version": "0.7.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T01:14:00.796480+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/text-generation/versions/0.7.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.16023015975952148,
+  "count_duration_seconds": null
+}

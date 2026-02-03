@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "bincode",
+    "version": "1.3.3"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T00:35:16.269904+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/bincode/versions/1.3.3",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.12886500358581543,
+  "count_duration_seconds": null
+}

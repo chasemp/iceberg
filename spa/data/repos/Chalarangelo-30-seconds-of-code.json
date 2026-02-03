@@ -1,0 +1,40 @@
+{
+  "owner": "Chalarangelo",
+  "repo": "30-seconds-of-code",
+  "full_name": "Chalarangelo/30-seconds-of-code",
+  "url": "https://github.com/Chalarangelo/30-seconds-of-code",
+  "analysis": {
+    "owner": "Chalarangelo",
+    "repo": "30-seconds-of-code",
+    "version": "HEAD",
+    "loc": 4402,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:38:42.471703+00:00",
+    "package": {
+      "system": "npm",
+      "name": "30-seconds-of-code",
+      "version": "13.0.0"
+    },
+    "total_loc": 92667,
+    "ratio": 0.9546508153993551,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": true,
+      "aider": false,
+      "generic_ai": false
+    },
+    "ai_tools": [
+      "GitHub Copilot"
+    ],
+    "repo_url": "https://github.com/Chalarangelo/30-seconds-of-code.git",
+    "ref": "v13.0.0",
+    "commit_hash": "51e8fc3a24ec59bbee53a1823a8249566a0e6db1",
+    "clone_duration_seconds": 30.969640731811523,
+    "count_duration_seconds": 0.027315139770507812,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

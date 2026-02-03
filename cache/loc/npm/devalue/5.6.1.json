@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "devalue",
+    "version": "5.6.1"
+  },
+  "total_lines": 858,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:35:09.901103+00:00",
+  "source_url": "https://registry.npmjs.org/devalue/-/devalue-5.6.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.757911205291748,
+  "count_duration_seconds": null
+}

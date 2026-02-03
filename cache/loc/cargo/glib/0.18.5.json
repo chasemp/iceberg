@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "glib",
+    "version": "0.18.5"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-02T23:18:38.399339+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/glib/versions/0.18.5",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.14918208122253418,
+  "count_duration_seconds": null
+}

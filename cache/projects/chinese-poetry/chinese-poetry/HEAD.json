@@ -1,0 +1,19 @@
+{
+  "owner": "chinese-poetry",
+  "repo": "chinese-poetry",
+  "version": "HEAD",
+  "loc": 1037,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T00:54:22.010835+00:00",
+  "total_loc": 0,
+  "ratio": 0.0,
+  "repo_url": "https://github.com/chinese-poetry/chinese-poetry.git",
+  "ref": "HEAD",
+  "commit_hash": "909646524737b70544ee7ae17cb76868a0bc8a55",
+  "clone_duration_seconds": 34.7495858669281,
+  "count_duration_seconds": 0.017482995986938477,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

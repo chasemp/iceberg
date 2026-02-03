@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "dompurify",
+    "version": "3.1.5"
+  },
+  "total_lines": 0,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:35:37.410347+00:00",
+  "source_url": "https://registry.npmjs.org/dompurify/-/dompurify-3.1.5.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.2711319923400879,
+  "count_duration_seconds": null
+}

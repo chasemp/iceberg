@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "log4js",
+    "version": "2.11.0"
+  },
+  "total_lines": 2748,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:55:25.377617+00:00",
+  "source_url": "https://registry.npmjs.org/log4js/-/log4js-2.11.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7665650844573975,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "moment-timezone",
+    "version": "0.5.31"
+  },
+  "total_lines": 6419,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:55:27.878069+00:00",
+  "source_url": "https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.5.31.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.5484957695007324,
+  "count_duration_seconds": null
+}

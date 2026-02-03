@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "follow-redirects",
+    "version": "1.0.0"
+  },
+  "total_lines": 121,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:55:23.069666+00:00",
+  "source_url": "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.0.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7495698928833008,
+  "count_duration_seconds": null
+}

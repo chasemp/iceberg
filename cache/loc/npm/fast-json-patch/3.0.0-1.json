@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "fast-json-patch",
+    "version": "3.0.0-1"
+  },
+  "total_lines": 1625,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:50:07.041188+00:00",
+  "source_url": "https://registry.npmjs.org/fast-json-patch/-/fast-json-patch-3.0.0-1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 1.0125010013580322,
+  "count_duration_seconds": null
+}

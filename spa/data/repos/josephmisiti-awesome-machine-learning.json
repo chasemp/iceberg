@@ -1,0 +1,23 @@
+{
+  "owner": "josephmisiti",
+  "repo": "awesome-machine-learning",
+  "full_name": "josephmisiti/awesome-machine-learning",
+  "url": "https://github.com/josephmisiti/awesome-machine-learning",
+  "analysis": {
+    "owner": "josephmisiti",
+    "repo": "awesome-machine-learning",
+    "version": "HEAD",
+    "loc": 22,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T01:10:47.368731+00:00",
+    "repo_url": "https://github.com/josephmisiti/awesome-machine-learning.git",
+    "ref": "HEAD",
+    "commit_hash": "b2c11b28ede637cd8ecef7a65bf59315545e6829",
+    "clone_duration_seconds": 0.933967113494873,
+    "count_duration_seconds": 0.002973794937133789,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

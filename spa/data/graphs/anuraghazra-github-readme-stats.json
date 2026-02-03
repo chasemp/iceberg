@@ -1,0 +1,16 @@
+{
+  "owner": "anuraghazra",
+  "repo": "github-readme-stats",
+  "full_name": "anuraghazra/github-readme-stats",
+  "root_package": "npm:github-readme-stats:1.0.0",
+  "nodes": [
+    {
+      "id": "npm:github-readme-stats:1.0.0",
+      "system": "npm",
+      "name": "github-readme-stats",
+      "version": "1.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-03T01:18:30.602609+00:00"
+}

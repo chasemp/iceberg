@@ -1,0 +1,25 @@
+{
+  "owner": "vercel",
+  "repo": "next.js",
+  "full_name": "vercel/next.js",
+  "url": "https://github.com/vercel/next.js",
+  "analysis": {
+    "owner": "vercel",
+    "repo": "next.js",
+    "version": "HEAD",
+    "loc": 1252438,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:37:52.230501+00:00",
+    "total_loc": 1122165,
+    "ratio": 0.47256952004187647,
+    "repo_url": "https://github.com/vercel/next.js.git",
+    "ref": "HEAD",
+    "commit_hash": "b91cf900ed2fac0bbaae17d1bbee8d8eb650a2f1",
+    "clone_duration_seconds": 9.364928007125854,
+    "count_duration_seconds": 1.9519989490509033,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "esbuild",
+    "version": "0.21.5"
+  },
+  "total_lines": 2843,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:15:28.467391+00:00",
+  "source_url": "https://registry.npmjs.org/esbuild/-/esbuild-0.21.5.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7826187610626221,
+  "count_duration_seconds": null
+}

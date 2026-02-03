@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "tmp",
+    "version": "0.2.1"
+  },
+  "total_lines": 331,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:40:52.287141+00:00",
+  "source_url": "https://registry.npmjs.org/tmp/-/tmp-0.2.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7461807727813721,
+  "count_duration_seconds": null
+}

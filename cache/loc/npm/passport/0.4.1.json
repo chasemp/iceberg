@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "passport",
+    "version": "0.4.1"
+  },
+  "total_lines": 508,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:37:30.929719+00:00",
+  "source_url": "https://registry.npmjs.org/passport/-/passport-0.4.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.5161890983581543,
+  "count_duration_seconds": null
+}

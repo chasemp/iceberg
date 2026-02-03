@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "tunnel-agent",
+    "version": "0.4.3"
+  },
+  "total_lines": 198,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:46:20.813707+00:00",
+  "source_url": "https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.4.3.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.8062021732330322,
+  "count_duration_seconds": null
+}

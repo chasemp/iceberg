@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "vue-template-compiler",
+    "version": "2.6.14"
+  },
+  "total_lines": 9023,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:52:01.990191+00:00",
+  "source_url": "https://registry.npmjs.org/vue-template-compiler/-/vue-template-compiler-2.6.14.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.2303469181060791,
+  "count_duration_seconds": null
+}

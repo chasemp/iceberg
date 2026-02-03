@@ -1,0 +1,34 @@
+{
+  "owner": "axios",
+  "repo": "axios",
+  "version": "HEAD",
+  "loc": 5675,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T00:40:58.194706+00:00",
+  "package": {
+    "system": "npm",
+    "name": "axios",
+    "version": "1.13.3"
+  },
+  "total_loc": 133330,
+  "ratio": 0.9591741304269631,
+  "ai_markers": {
+    "claude": false,
+    "cursor": false,
+    "copilot": true,
+    "aider": false,
+    "generic_ai": false
+  },
+  "ai_tools": [
+    "GitHub Copilot"
+  ],
+  "repo_url": "https://github.com/axios/axios.git",
+  "ref": "v1.13.3",
+  "commit_hash": "ab06109b40e129e43096f9c75aaa21bc74ef9fc8",
+  "clone_duration_seconds": 1.181755781173706,
+  "count_duration_seconds": 0.013139963150024414,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

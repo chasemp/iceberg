@@ -1,0 +1,30 @@
+{
+  "owner": "jquery",
+  "repo": "jquery",
+  "full_name": "jquery/jquery",
+  "url": "https://github.com/jquery/jquery",
+  "analysis": {
+    "owner": "jquery",
+    "repo": "jquery",
+    "version": "HEAD",
+    "loc": 7221,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:47:44.959147+00:00",
+    "package": {
+      "system": "npm",
+      "name": "jquery",
+      "version": "4.0.0"
+    },
+    "total_loc": 84583,
+    "ratio": 0.921343296588384,
+    "repo_url": "https://github.com/jquery/jquery.git",
+    "ref": "HEAD",
+    "commit_hash": "df16f7360d4db41de64589c6f18140882684ab55",
+    "clone_duration_seconds": 2.0479588508605957,
+    "count_duration_seconds": 0.0207369327545166,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "traceroute",
+    "version": "1.0.0"
+  },
+  "total_lines": 84,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:22:13.120703+00:00",
+  "source_url": "https://registry.npmjs.org/traceroute/-/traceroute-1.0.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.8816509246826172,
+  "count_duration_seconds": null
+}

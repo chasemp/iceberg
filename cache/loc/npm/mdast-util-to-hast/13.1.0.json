@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "mdast-util-to-hast",
+    "version": "13.1.0"
+  },
+  "total_lines": 1071,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:21:58.400835+00:00",
+  "source_url": "https://registry.npmjs.org/mdast-util-to-hast/-/mdast-util-to-hast-13.1.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.8281569480895996,
+  "count_duration_seconds": null
+}

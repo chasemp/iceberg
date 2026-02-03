@@ -1,0 +1,24 @@
+{
+  "owner": "atom",
+  "repo": "atom",
+  "version": "HEAD",
+  "loc": 50607,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T00:48:02.584859+00:00",
+  "package": {
+    "system": "npm",
+    "name": "atom",
+    "version": "1.65.0-dev"
+  },
+  "total_loc": 774515,
+  "ratio": 0.938667251630668,
+  "repo_url": "https://github.com/atom/atom.git",
+  "ref": "HEAD",
+  "commit_hash": "1c3bd35ce238dc0491def9e1780d04748d8e18af",
+  "clone_duration_seconds": 3.006772041320801,
+  "count_duration_seconds": 0.082366943359375,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

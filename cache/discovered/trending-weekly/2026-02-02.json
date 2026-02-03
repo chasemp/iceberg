@@ -5,9 +5,9 @@
     "url": "https://github.com/openclaw/openclaw",
     "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e",
     "language": "TypeScript",
-    "stars": 151067,
+    "stars": 151198,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T22:24:08.486205+00:00",
+    "discovered_at": "2026-02-02T23:14:56.547971+00:00",
     "search_query": null
   },
   {
@@ -16,9 +16,9 @@
     "url": "https://github.com/asgeirtj/system_prompts_leaks",
     "description": "Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini",
     "language": "JavaScript",
-    "stars": 29656,
+    "stars": 29660,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T22:24:08.486205+00:00",
+    "discovered_at": "2026-02-02T23:14:56.547971+00:00",
     "search_query": null
   },
   {
@@ -27,9 +27,9 @@
     "url": "https://github.com/MoonshotAI/kimi-cli",
     "description": "Kimi Code CLI is your next CLI agent.",
     "language": "Python",
-    "stars": 5752,
+    "stars": 5755,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T22:24:08.486205+00:00",
+    "discovered_at": "2026-02-02T23:14:56.547971+00:00",
     "search_query": null
   },
   {
@@ -38,9 +38,9 @@
     "url": "https://github.com/badlogic/pi-mono",
     "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
     "language": "TypeScript",
-    "stars": 5535,
+    "stars": 5546,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T22:24:08.486205+00:00",
+    "discovered_at": "2026-02-02T23:14:56.547971+00:00",
     "search_query": null
   },
   {
@@ -49,9 +49,9 @@
     "url": "https://github.com/modelcontextprotocol/ext-apps",
     "description": "Official repo for spec & SDK of MCP Apps protocol - standard for UIs embedded AI chatbots, served by MCP servers",
     "language": "TypeScript",
-    "stars": 1250,
+    "stars": 1252,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T22:24:08.486205+00:00",
+    "discovered_at": "2026-02-02T23:14:56.547971+00:00",
     "search_query": null
   },
   {
@@ -60,9 +60,9 @@
     "url": "https://github.com/ThePrimeagen/99",
     "description": "Neovim AI agent done right",
     "language": "Lua",
-    "stars": 3022,
+    "stars": 3026,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T22:24:08.486205+00:00",
+    "discovered_at": "2026-02-02T23:14:56.547971+00:00",
     "search_query": null
   },
   {
@@ -71,9 +71,9 @@
     "url": "https://github.com/NevaMind-AI/memU",
     "description": "Memory for 24/7 proactive agents like openclaw (moltbot, clawdbot).",
     "language": "Python",
-    "stars": 7070,
+    "stars": 7078,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T22:24:08.486205+00:00",
+    "discovered_at": "2026-02-02T23:14:56.547971+00:00",
     "search_query": null
   },
   {
@@ -82,9 +82,9 @@
     "url": "https://github.com/microsoft/BitNet",
     "description": "Official inference framework for 1-bit LLMs",
     "language": "Python",
-    "stars": 27640,
+    "stars": 27642,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T22:24:08.486205+00:00",
+    "discovered_at": "2026-02-02T23:14:56.547971+00:00",
     "search_query": null
   },
   {
@@ -93,9 +93,9 @@
     "url": "https://github.com/VectifyAI/PageIndex",
     "description": "\ud83d\udcd1 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
     "language": "Python",
-    "stars": 12459,
+    "stars": 12465,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T22:24:08.486205+00:00",
+    "discovered_at": "2026-02-02T23:14:56.547971+00:00",
     "search_query": null
   },
   {
@@ -104,9 +104,9 @@
     "url": "https://github.com/steipete/Peekaboo",
     "description": "Peekaboo is a macOS CLI & optional MCP server that enables AI agents to capture screenshots of applications, or the entire system, with optional visual question answering through local or remote AI models.",
     "language": "Swift",
-    "stars": 1746,
+    "stars": 1751,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T22:24:08.486205+00:00",
+    "discovered_at": "2026-02-02T23:14:56.547971+00:00",
     "search_query": null
   },
   {
@@ -115,9 +115,9 @@
     "url": "https://github.com/supermemoryai/supermemory",
     "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
     "language": "TypeScript",
-    "stars": 16168,
+    "stars": 16169,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T22:24:08.486205+00:00",
+    "discovered_at": "2026-02-02T23:14:56.547971+00:00",
     "search_query": null
   },
   {
@@ -126,9 +126,9 @@
     "url": "https://github.com/remotion-dev/remotion",
     "description": "\ud83c\udfa5 Make videos programmatically with React",
     "language": "TypeScript",
-    "stars": 34529,
+    "stars": 34533,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T22:24:08.486205+00:00",
+    "discovered_at": "2026-02-02T23:14:56.547971+00:00",
     "search_query": null
   },
   {
@@ -137,9 +137,9 @@
     "url": "https://github.com/Draculabo/AntigravityManager",
     "description": "Antigravity Manager is a powerful Electron-based application designed to manage accounts and processes for the Antigravity application. It provides a seamless interface for switching accounts, backing up progress, and controlling the application lifecycle.",
     "language": "TypeScript",
-    "stars": 576,
+    "stars": 578,
     "source": "trending-weekly",
-    "discovered_at": "2026-02-02T22:24:08.486205+00:00",
+    "discovered_at": "2026-02-02T23:14:56.547971+00:00",
     "search_query": null
   }
 ]

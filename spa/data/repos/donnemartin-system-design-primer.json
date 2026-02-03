@@ -1,0 +1,23 @@
+{
+  "owner": "donnemartin",
+  "repo": "system-design-primer",
+  "full_name": "donnemartin/system-design-primer",
+  "url": "https://github.com/donnemartin/system-design-primer",
+  "analysis": {
+    "owner": "donnemartin",
+    "repo": "system-design-primer",
+    "version": "HEAD",
+    "loc": 784,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:57:21.976011+00:00",
+    "repo_url": "https://github.com/donnemartin/system-design-primer.git",
+    "ref": "HEAD",
+    "commit_hash": "c7b139499e9345c639a4f50da4577f8dfa7e9578",
+    "clone_duration_seconds": 2.016378879547119,
+    "count_duration_seconds": 0.005875349044799805,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

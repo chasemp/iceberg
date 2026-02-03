@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "openssl",
+    "version": "0.10.38"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T00:36:51.102346+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/openssl/versions/0.10.38",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.10968208312988281,
+  "count_duration_seconds": null
+}

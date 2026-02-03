@@ -1,0 +1,17 @@
+{
+  "owner": "keras-team",
+  "repo": "keras",
+  "version": "HEAD",
+  "loc": 235397,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T01:18:29.843935+00:00",
+  "repo_url": "https://github.com/keras-team/keras.git",
+  "ref": "HEAD",
+  "commit_hash": "eeb16c3c4a9c7f6b8a4da8df15b285c11af06b8b",
+  "clone_duration_seconds": 1.6661419868469238,
+  "count_duration_seconds": 0.1365218162536621,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

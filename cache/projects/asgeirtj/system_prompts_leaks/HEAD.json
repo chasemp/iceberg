@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 178,
   "source": "github_clone",
-  "cached_at": "2026-02-02T22:27:22.202526+00:00",
+  "cached_at": "2026-02-02T23:21:28.967194+00:00",
   "repo_url": "https://github.com/asgeirtj/system_prompts_leaks.git",
   "ref": "HEAD",
   "commit_hash": "606a7f3245c6f8ffbde89d43b5eeb92d900421d3",
-  "clone_duration_seconds": 1.0122299194335938,
-  "count_duration_seconds": 0.0032050609588623047
+  "clone_duration_seconds": 1.085386037826538,
+  "count_duration_seconds": 0.004677295684814453
 }

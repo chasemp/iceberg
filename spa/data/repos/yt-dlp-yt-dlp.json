@@ -1,0 +1,28 @@
+{
+  "owner": "yt-dlp",
+  "repo": "yt-dlp",
+  "full_name": "yt-dlp/yt-dlp",
+  "url": "https://github.com/yt-dlp/yt-dlp",
+  "analysis": {
+    "owner": "yt-dlp",
+    "repo": "yt-dlp",
+    "version": "HEAD",
+    "loc": 206806,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:59:46.257515+00:00",
+    "package": {
+      "system": "pypi",
+      "name": "yt-dlp",
+      "version": "(?P<version>[^"
+    },
+    "repo_url": "https://github.com/yt-dlp/yt-dlp.git",
+    "ref": "HEAD",
+    "commit_hash": "891613b098b2b315d983c2ae16901f5de344ca56",
+    "clone_duration_seconds": 2.6952712535858154,
+    "count_duration_seconds": 0.13373422622680664,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

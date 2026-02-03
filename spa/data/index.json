@@ -16,11 +16,8 @@
               "url": "https://github.com/thedotmack/claude-mem",
               "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
               "language": "TypeScript",
-              "stars": 17978,
-              "discovered_at": "2026-02-02T22:24:06.951119+00:00",
-              "ai_tools": [
-                "Claude"
-              ]
+              "stars": 18026,
+              "discovered_at": "2026-02-02T23:14:54.939829+00:00"
             },
             {
               "owner": "ThePrimeagen",
@@ -29,11 +26,8 @@
               "url": "https://github.com/ThePrimeagen/99",
               "description": "Neovim AI agent done right",
               "language": "Lua",
-              "stars": 3022,
-              "discovered_at": "2026-02-02T22:24:06.951119+00:00",
-              "ai_tools": [
-                "AI Tools"
-              ]
+              "stars": 3026,
+              "discovered_at": "2026-02-02T23:14:54.939829+00:00"
             },
             {
               "owner": "termux",
@@ -42,8 +36,8 @@
               "url": "https://github.com/termux/termux-app",
               "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
               "language": "Java",
-              "stars": 49893,
-              "discovered_at": "2026-02-02T22:24:06.951119+00:00"
+              "stars": 49902,
+              "discovered_at": "2026-02-02T23:14:54.939829+00:00"
             },
             {
               "owner": "pedramamini",
@@ -52,11 +46,8 @@
               "url": "https://github.com/pedramamini/Maestro",
               "description": "Agent Orchestration Command Center",
               "language": "TypeScript",
-              "stars": 1255,
-              "discovered_at": "2026-02-02T22:24:06.951119+00:00",
-              "ai_tools": [
-                "Claude"
-              ]
+              "stars": 1263,
+              "discovered_at": "2026-02-02T23:14:54.939829+00:00"
             },
             {
               "owner": "netbirdio",
@@ -65,8 +56,8 @@
               "url": "https://github.com/netbirdio/netbird",
               "description": "Connect your devices into a secure WireGuard\u00ae-based overlay network with SSO, MFA and granular access controls.",
               "language": "Go",
-              "stars": 21952,
-              "discovered_at": "2026-02-02T22:24:06.951119+00:00"
+              "stars": 21957,
+              "discovered_at": "2026-02-02T23:14:54.939829+00:00"
             },
             {
               "owner": "OpenBMB",
@@ -75,8 +66,8 @@
               "url": "https://github.com/OpenBMB/ChatDev",
               "description": "ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration",
               "language": "Python",
-              "stars": 29349,
-              "discovered_at": "2026-02-02T22:24:06.951119+00:00"
+              "stars": 29363,
+              "discovered_at": "2026-02-02T23:14:54.939829+00:00"
             },
             {
               "owner": "autobrr",
@@ -85,8 +76,8 @@
               "url": "https://github.com/autobrr/qui",
               "description": "A fast, single-binary qBittorrent web UI: manage multiple instances, automate torrent workflows, and cross-seed across trackers.",
               "language": "Go",
-              "stars": 2799,
-              "discovered_at": "2026-02-02T22:24:06.951119+00:00"
+              "stars": 2808,
+              "discovered_at": "2026-02-02T23:14:54.939829+00:00"
             },
             {
               "owner": "badlogic",
@@ -95,8 +86,8 @@
               "url": "https://github.com/badlogic/pi-mono",
               "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
               "language": "TypeScript",
-              "stars": 5535,
-              "discovered_at": "2026-02-02T22:24:06.951119+00:00"
+              "stars": 5546,
+              "discovered_at": "2026-02-02T23:14:54.939829+00:00"
             },
             {
               "owner": "VectifyAI",
@@ -105,8 +96,8 @@
               "url": "https://github.com/VectifyAI/PageIndex",
               "description": "\ud83d\udcd1 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
               "language": "Python",
-              "stars": 12459,
-              "discovered_at": "2026-02-02T22:24:06.951119+00:00"
+              "stars": 12465,
+              "discovered_at": "2026-02-02T23:14:54.939829+00:00"
             },
             {
               "owner": "karpathy",
@@ -115,8 +106,8 @@
               "url": "https://github.com/karpathy/nanochat",
               "description": "The best ChatGPT that $100 can buy.",
               "language": "Python",
-              "stars": 41587,
-              "discovered_at": "2026-02-02T22:24:06.951119+00:00"
+              "stars": 41598,
+              "discovered_at": "2026-02-02T23:14:54.939829+00:00"
             },
             {
               "owner": "kovidgoyal",
@@ -126,7 +117,7 @@
               "description": "The official source code repository for the calibre ebook manager",
               "language": "Python",
               "stars": 23786,
-              "discovered_at": "2026-02-02T22:24:06.951119+00:00"
+              "discovered_at": "2026-02-02T23:14:54.939829+00:00"
             },
             {
               "owner": "langchain-ai",
@@ -135,8 +126,134 @@
               "url": "https://github.com/langchain-ai/rag-from-scratch",
               "description": null,
               "language": "Jupyter Notebook",
-              "stars": 6942,
-              "discovered_at": "2026-02-02T22:24:06.951119+00:00"
+              "stars": 6947,
+              "discovered_at": "2026-02-02T23:14:54.939829+00:00"
+            }
+          ]
+        },
+        {
+          "date": "2026-02-03",
+          "count": 12,
+          "repos": [
+            {
+              "owner": "thedotmack",
+              "name": "claude-mem",
+              "full_name": "thedotmack/claude-mem",
+              "url": "https://github.com/thedotmack/claude-mem",
+              "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+              "language": "TypeScript",
+              "stars": 18087,
+              "discovered_at": "2026-02-03T00:41:57.308815+00:00"
+            },
+            {
+              "owner": "ThePrimeagen",
+              "name": "99",
+              "full_name": "ThePrimeagen/99",
+              "url": "https://github.com/ThePrimeagen/99",
+              "description": "Neovim AI agent done right",
+              "language": "Lua",
+              "stars": 3036,
+              "discovered_at": "2026-02-03T00:41:57.308815+00:00"
+            },
+            {
+              "owner": "termux",
+              "name": "termux-app",
+              "full_name": "termux/termux-app",
+              "url": "https://github.com/termux/termux-app",
+              "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+              "language": "Java",
+              "stars": 49916,
+              "discovered_at": "2026-02-03T00:41:57.308815+00:00"
+            },
+            {
+              "owner": "pedramamini",
+              "name": "Maestro",
+              "full_name": "pedramamini/Maestro",
+              "url": "https://github.com/pedramamini/Maestro",
+              "description": "Agent Orchestration Command Center",
+              "language": "TypeScript",
+              "stars": 1277,
+              "discovered_at": "2026-02-03T00:41:57.308815+00:00"
+            },
+            {
+              "owner": "netbirdio",
+              "name": "netbird",
+              "full_name": "netbirdio/netbird",
+              "url": "https://github.com/netbirdio/netbird",
+              "description": "Connect your devices into a secure WireGuard\u00ae-based overlay network with SSO, MFA and granular access controls.",
+              "language": "Go",
+              "stars": 21969,
+              "discovered_at": "2026-02-03T00:41:57.308815+00:00"
+            },
+            {
+              "owner": "OpenBMB",
+              "name": "ChatDev",
+              "full_name": "OpenBMB/ChatDev",
+              "url": "https://github.com/OpenBMB/ChatDev",
+              "description": "ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration",
+              "language": "Python",
+              "stars": 29384,
+              "discovered_at": "2026-02-03T00:41:57.308815+00:00"
+            },
+            {
+              "owner": "autobrr",
+              "name": "qui",
+              "full_name": "autobrr/qui",
+              "url": "https://github.com/autobrr/qui",
+              "description": "A fast, single-binary qBittorrent web UI: manage multiple instances, automate torrent workflows, and cross-seed across trackers.",
+              "language": "Go",
+              "stars": 2828,
+              "discovered_at": "2026-02-03T00:41:57.308815+00:00"
+            },
+            {
+              "owner": "badlogic",
+              "name": "pi-mono",
+              "full_name": "badlogic/pi-mono",
+              "url": "https://github.com/badlogic/pi-mono",
+              "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+              "language": "TypeScript",
+              "stars": 5574,
+              "discovered_at": "2026-02-03T00:41:57.308815+00:00"
+            },
+            {
+              "owner": "VectifyAI",
+              "name": "PageIndex",
+              "full_name": "VectifyAI/PageIndex",
+              "url": "https://github.com/VectifyAI/PageIndex",
+              "description": "\ud83d\udcd1 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+              "language": "Python",
+              "stars": 12489,
+              "discovered_at": "2026-02-03T00:41:57.308815+00:00"
+            },
+            {
+              "owner": "karpathy",
+              "name": "nanochat",
+              "full_name": "karpathy/nanochat",
+              "url": "https://github.com/karpathy/nanochat",
+              "description": "The best ChatGPT that $100 can buy.",
+              "language": "Python",
+              "stars": 41628,
+              "discovered_at": "2026-02-03T00:41:57.308815+00:00"
+            },
+            {
+              "owner": "kovidgoyal",
+              "name": "calibre",
+              "full_name": "kovidgoyal/calibre",
+              "url": "https://github.com/kovidgoyal/calibre",
+              "description": "The official source code repository for the calibre ebook manager",
+              "language": "Python",
+              "stars": 23792,
+              "discovered_at": "2026-02-03T00:41:57.308815+00:00"
+            },
+            {
+              "owner": "langchain-ai",
+              "name": "rag-from-scratch",
+              "full_name": "langchain-ai/rag-from-scratch",
+              "url": "https://github.com/langchain-ai/rag-from-scratch",
+              "description": null,
+              "language": "Jupyter Notebook",
+              "stars": 6962,
+              "discovered_at": "2026-02-03T00:41:57.308815+00:00"
             }
           ]
         }
@@ -158,12 +275,8 @@
               "url": "https://github.com/openclaw/openclaw",
               "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e",
               "language": "TypeScript",
-              "stars": 151067,
-              "discovered_at": "2026-02-02T22:24:10.257294+00:00",
-              "ai_tools": [
-                "Claude",
-                "AI Tools"
-              ]
+              "stars": 151198,
+              "discovered_at": "2026-02-02T23:14:58.516729+00:00"
             },
             {
               "owner": "anomalyco",
@@ -172,8 +285,8 @@
               "url": "https://github.com/anomalyco/opencode",
               "description": "The open source coding agent.",
               "language": "TypeScript",
-              "stars": 95676,
-              "discovered_at": "2026-02-02T22:24:10.257294+00:00"
+              "stars": 95689,
+              "discovered_at": "2026-02-02T23:14:58.516729+00:00"
             },
             {
               "owner": "obra",
@@ -182,8 +295,8 @@
               "url": "https://github.com/obra/superpowers",
               "description": "An agentic skills framework & software development methodology that works.",
               "language": "Shell",
-              "stars": 42577,
-              "discovered_at": "2026-02-02T22:24:10.257294+00:00"
+              "stars": 42588,
+              "discovered_at": "2026-02-02T23:14:58.516729+00:00"
             },
             {
               "owner": "anthropics",
@@ -192,8 +305,8 @@
               "url": "https://github.com/anthropics/skills",
               "description": "Public repository for Agent Skills",
               "language": "Python",
-              "stars": 61088,
-              "discovered_at": "2026-02-02T22:24:10.257294+00:00"
+              "stars": 61103,
+              "discovered_at": "2026-02-02T23:14:58.516729+00:00"
             },
             {
               "owner": "anthropics",
@@ -202,8 +315,8 @@
               "url": "https://github.com/anthropics/claude-plugins-official",
               "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
               "language": "Shell",
-              "stars": 6231,
-              "discovered_at": "2026-02-02T22:24:10.257294+00:00"
+              "stars": 6235,
+              "discovered_at": "2026-02-02T23:14:58.516729+00:00"
             },
             {
               "owner": "VectifyAI",
@@ -212,8 +325,8 @@
               "url": "https://github.com/VectifyAI/PageIndex",
               "description": "\ud83d\udcd1 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
               "language": "Python",
-              "stars": 12459,
-              "discovered_at": "2026-02-02T22:24:10.257294+00:00"
+              "stars": 12465,
+              "discovered_at": "2026-02-02T23:14:58.516729+00:00"
             },
             {
               "owner": "remotion-dev",
@@ -222,8 +335,8 @@
               "url": "https://github.com/remotion-dev/remotion",
               "description": "\ud83c\udfa5 Make videos programmatically with React",
               "language": "TypeScript",
-              "stars": 34529,
-              "discovered_at": "2026-02-02T22:24:10.257294+00:00"
+              "stars": 34533,
+              "discovered_at": "2026-02-02T23:14:58.516729+00:00"
             },
             {
               "owner": "anthropics",
@@ -232,8 +345,8 @@
               "url": "https://github.com/anthropics/claude-code",
               "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
               "language": "Shell",
-              "stars": 63348,
-              "discovered_at": "2026-02-02T22:24:10.257294+00:00"
+              "stars": 63363,
+              "discovered_at": "2026-02-02T23:14:58.516729+00:00"
             },
             {
               "owner": "lbjlaq",
@@ -242,8 +355,8 @@
               "url": "https://github.com/lbjlaq/Antigravity-Manager",
               "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).\u4e13\u4e1a\u7684 Antigravity \u8d26\u53f7\u7ba1\u7406\u4e0e\u5207\u6362\u5de5\u5177\u3002\u4e3a Antigravity \u63d0\u4f9b\u4e00\u952e\u65e0\u7f1d\u8d26\u53f7\u5207\u6362\u529f\u80fd\u3002",
               "language": "Rust",
-              "stars": 20532,
-              "discovered_at": "2026-02-02T22:24:10.257294+00:00"
+              "stars": 20533,
+              "discovered_at": "2026-02-02T23:14:58.516729+00:00"
             },
             {
               "owner": "asgeirtj",
@@ -252,8 +365,8 @@
               "url": "https://github.com/asgeirtj/system_prompts_leaks",
               "description": "Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini",
               "language": "JavaScript",
-              "stars": 29656,
-              "discovered_at": "2026-02-02T22:24:10.257294+00:00"
+              "stars": 29660,
+              "discovered_at": "2026-02-02T23:14:58.516729+00:00"
             },
             {
               "owner": "Lissy93",
@@ -262,8 +375,8 @@
               "url": "https://github.com/Lissy93/web-check",
               "description": "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f All-in-one OSINT tool for analysing any website",
               "language": "TypeScript",
-              "stars": 31710,
-              "discovered_at": "2026-02-02T22:24:10.257294+00:00"
+              "stars": 31711,
+              "discovered_at": "2026-02-02T23:14:58.516729+00:00"
             },
             {
               "owner": "badlogic",
@@ -272,8 +385,8 @@
               "url": "https://github.com/badlogic/pi-mono",
               "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
               "language": "TypeScript",
-              "stars": 5535,
-              "discovered_at": "2026-02-02T22:24:10.257294+00:00"
+              "stars": 5546,
+              "discovered_at": "2026-02-02T23:14:58.516729+00:00"
             },
             {
               "owner": "bytedance",
@@ -283,7 +396,7 @@
               "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
               "language": "TypeScript",
               "stars": 25178,
-              "discovered_at": "2026-02-02T22:24:10.257294+00:00"
+              "discovered_at": "2026-02-02T23:14:58.516729+00:00"
             },
             {
               "owner": "ComposioHQ",
@@ -292,8 +405,8 @@
               "url": "https://github.com/ComposioHQ/awesome-claude-skills",
               "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
               "language": "Python",
-              "stars": 29301,
-              "discovered_at": "2026-02-02T22:24:10.257294+00:00"
+              "stars": 29311,
+              "discovered_at": "2026-02-02T23:14:58.516729+00:00"
             },
             {
               "owner": "steveyegge",
@@ -302,8 +415,8 @@
               "url": "https://github.com/steveyegge/beads",
               "description": "Beads - A memory upgrade for your coding agent",
               "language": "Go",
-              "stars": 14332,
-              "discovered_at": "2026-02-02T22:24:10.257294+00:00"
+              "stars": 14346,
+              "discovered_at": "2026-02-02T23:14:58.516729+00:00"
             },
             {
               "owner": "DataTalksClub",
@@ -313,7 +426,7 @@
               "description": "Data Engineering Zoomcamp is a free 9-week course on building production-ready data pipelines. The next cohort starts in January 2026. Join the course here \ud83d\udc47\ud83c\udffc",
               "language": "Jupyter Notebook",
               "stars": 37878,
-              "discovered_at": "2026-02-02T22:24:10.257294+00:00"
+              "discovered_at": "2026-02-02T23:14:58.516729+00:00"
             },
             {
               "owner": "virattt",
@@ -322,8 +435,8 @@
               "url": "https://github.com/virattt/dexter",
               "description": "An autonomous agent for deep financial research",
               "language": "TypeScript",
-              "stars": 9825,
-              "discovered_at": "2026-02-02T22:24:10.257294+00:00"
+              "stars": 9828,
+              "discovered_at": "2026-02-02T23:14:58.516729+00:00"
             },
             {
               "owner": "microsoft",
@@ -332,8 +445,134 @@
               "url": "https://github.com/microsoft/BitNet",
               "description": "Official inference framework for 1-bit LLMs",
               "language": "Python",
-              "stars": 27640,
-              "discovered_at": "2026-02-02T22:24:10.257294+00:00"
+              "stars": 27642,
+              "discovered_at": "2026-02-02T23:14:58.516729+00:00"
+            }
+          ]
+        },
+        {
+          "date": "2026-02-03",
+          "count": 12,
+          "repos": [
+            {
+              "owner": "anomalyco",
+              "name": "opencode",
+              "full_name": "anomalyco/opencode",
+              "url": "https://github.com/anomalyco/opencode",
+              "description": "The open source coding agent.",
+              "language": "TypeScript",
+              "stars": 95715,
+              "discovered_at": "2026-02-03T00:41:59.975042+00:00"
+            },
+            {
+              "owner": "obra",
+              "name": "superpowers",
+              "full_name": "obra/superpowers",
+              "url": "https://github.com/obra/superpowers",
+              "description": "An agentic skills framework & software development methodology that works.",
+              "language": "Shell",
+              "stars": 42615,
+              "discovered_at": "2026-02-03T00:41:59.975042+00:00"
+            },
+            {
+              "owner": "anthropics",
+              "name": "skills",
+              "full_name": "anthropics/skills",
+              "url": "https://github.com/anthropics/skills",
+              "description": "Public repository for Agent Skills",
+              "language": "Python",
+              "stars": 61127,
+              "discovered_at": "2026-02-03T00:41:59.975042+00:00"
+            },
+            {
+              "owner": "anthropics",
+              "name": "claude-plugins-official",
+              "full_name": "anthropics/claude-plugins-official",
+              "url": "https://github.com/anthropics/claude-plugins-official",
+              "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+              "language": "Shell",
+              "stars": 6245,
+              "discovered_at": "2026-02-03T00:41:59.975042+00:00"
+            },
+            {
+              "owner": "anthropics",
+              "name": "claude-code",
+              "full_name": "anthropics/claude-code",
+              "url": "https://github.com/anthropics/claude-code",
+              "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+              "language": "Shell",
+              "stars": 63374,
+              "discovered_at": "2026-02-03T00:41:59.975042+00:00"
+            },
+            {
+              "owner": "lbjlaq",
+              "name": "Antigravity-Manager",
+              "full_name": "lbjlaq/Antigravity-Manager",
+              "url": "https://github.com/lbjlaq/Antigravity-Manager",
+              "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).\u4e13\u4e1a\u7684 Antigravity \u8d26\u53f7\u7ba1\u7406\u4e0e\u5207\u6362\u5de5\u5177\u3002\u4e3a Antigravity \u63d0\u4f9b\u4e00\u952e\u65e0\u7f1d\u8d26\u53f7\u5207\u6362\u529f\u80fd\u3002",
+              "language": "Rust",
+              "stars": 20540,
+              "discovered_at": "2026-02-03T00:41:59.975042+00:00"
+            },
+            {
+              "owner": "Lissy93",
+              "name": "web-check",
+              "full_name": "Lissy93/web-check",
+              "url": "https://github.com/Lissy93/web-check",
+              "description": "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f All-in-one OSINT tool for analysing any website",
+              "language": "TypeScript",
+              "stars": 31718,
+              "discovered_at": "2026-02-03T00:41:59.975042+00:00"
+            },
+            {
+              "owner": "bytedance",
+              "name": "UI-TARS-desktop",
+              "full_name": "bytedance/UI-TARS-desktop",
+              "url": "https://github.com/bytedance/UI-TARS-desktop",
+              "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+              "language": "TypeScript",
+              "stars": 25180,
+              "discovered_at": "2026-02-03T00:41:59.975042+00:00"
+            },
+            {
+              "owner": "ComposioHQ",
+              "name": "awesome-claude-skills",
+              "full_name": "ComposioHQ/awesome-claude-skills",
+              "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+              "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+              "language": "Python",
+              "stars": 29329,
+              "discovered_at": "2026-02-03T00:41:59.975042+00:00"
+            },
+            {
+              "owner": "steveyegge",
+              "name": "beads",
+              "full_name": "steveyegge/beads",
+              "url": "https://github.com/steveyegge/beads",
+              "description": "Beads - A memory upgrade for your coding agent",
+              "language": "Go",
+              "stars": 14366,
+              "discovered_at": "2026-02-03T00:41:59.975042+00:00"
+            },
+            {
+              "owner": "DataTalksClub",
+              "name": "data-engineering-zoomcamp",
+              "full_name": "DataTalksClub/data-engineering-zoomcamp",
+              "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+              "description": "Data Engineering Zoomcamp is a free 9-week course on building production-ready data pipelines. The next cohort starts in January 2026. Join the course here \ud83d\udc47\ud83c\udffc",
+              "language": "Jupyter Notebook",
+              "stars": 37882,
+              "discovered_at": "2026-02-03T00:41:59.975042+00:00"
+            },
+            {
+              "owner": "virattt",
+              "name": "dexter",
+              "full_name": "virattt/dexter",
+              "url": "https://github.com/virattt/dexter",
+              "description": "An autonomous agent for deep financial research",
+              "language": "TypeScript",
+              "stars": 9834,
+              "discovered_at": "2026-02-03T00:41:59.975042+00:00"
             }
           ]
         }
@@ -355,12 +594,8 @@
               "url": "https://github.com/openclaw/openclaw",
               "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e",
               "language": "TypeScript",
-              "stars": 151067,
-              "discovered_at": "2026-02-02T22:24:08.486205+00:00",
-              "ai_tools": [
-                "Claude",
-                "AI Tools"
-              ]
+              "stars": 151198,
+              "discovered_at": "2026-02-02T23:14:56.547971+00:00"
             },
             {
               "owner": "asgeirtj",
@@ -369,8 +604,8 @@
               "url": "https://github.com/asgeirtj/system_prompts_leaks",
               "description": "Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini",
               "language": "JavaScript",
-              "stars": 29656,
-              "discovered_at": "2026-02-02T22:24:08.486205+00:00"
+              "stars": 29660,
+              "discovered_at": "2026-02-02T23:14:56.547971+00:00"
             },
             {
               "owner": "MoonshotAI",
@@ -379,8 +614,8 @@
               "url": "https://github.com/MoonshotAI/kimi-cli",
               "description": "Kimi Code CLI is your next CLI agent.",
               "language": "Python",
-              "stars": 5752,
-              "discovered_at": "2026-02-02T22:24:08.486205+00:00"
+              "stars": 5755,
+              "discovered_at": "2026-02-02T23:14:56.547971+00:00"
             },
             {
               "owner": "badlogic",
@@ -389,8 +624,8 @@
               "url": "https://github.com/badlogic/pi-mono",
               "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
               "language": "TypeScript",
-              "stars": 5535,
-              "discovered_at": "2026-02-02T22:24:08.486205+00:00"
+              "stars": 5546,
+              "discovered_at": "2026-02-02T23:14:56.547971+00:00"
             },
             {
               "owner": "modelcontextprotocol",
@@ -399,8 +634,8 @@
               "url": "https://github.com/modelcontextprotocol/ext-apps",
               "description": "Official repo for spec & SDK of MCP Apps protocol - standard for UIs embedded AI chatbots, served by MCP servers",
               "language": "TypeScript",
-              "stars": 1250,
-              "discovered_at": "2026-02-02T22:24:08.486205+00:00"
+              "stars": 1252,
+              "discovered_at": "2026-02-02T23:14:56.547971+00:00"
             },
             {
               "owner": "ThePrimeagen",
@@ -409,11 +644,8 @@
               "url": "https://github.com/ThePrimeagen/99",
               "description": "Neovim AI agent done right",
               "language": "Lua",
-              "stars": 3022,
-              "discovered_at": "2026-02-02T22:24:08.486205+00:00",
-              "ai_tools": [
-                "AI Tools"
-              ]
+              "stars": 3026,
+              "discovered_at": "2026-02-02T23:14:56.547971+00:00"
             },
             {
               "owner": "NevaMind-AI",
@@ -422,8 +654,8 @@
               "url": "https://github.com/NevaMind-AI/memU",
               "description": "Memory for 24/7 proactive agents like openclaw (moltbot, clawdbot).",
               "language": "Python",
-              "stars": 7070,
-              "discovered_at": "2026-02-02T22:24:08.486205+00:00"
+              "stars": 7078,
+              "discovered_at": "2026-02-02T23:14:56.547971+00:00"
             },
             {
               "owner": "microsoft",
@@ -432,8 +664,8 @@
               "url": "https://github.com/microsoft/BitNet",
               "description": "Official inference framework for 1-bit LLMs",
               "language": "Python",
-              "stars": 27640,
-              "discovered_at": "2026-02-02T22:24:08.486205+00:00"
+              "stars": 27642,
+              "discovered_at": "2026-02-02T23:14:56.547971+00:00"
             },
             {
               "owner": "VectifyAI",
@@ -442,8 +674,8 @@
               "url": "https://github.com/VectifyAI/PageIndex",
               "description": "\ud83d\udcd1 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
               "language": "Python",
-              "stars": 12459,
-              "discovered_at": "2026-02-02T22:24:08.486205+00:00"
+              "stars": 12465,
+              "discovered_at": "2026-02-02T23:14:56.547971+00:00"
             },
             {
               "owner": "steipete",
@@ -452,8 +684,8 @@
               "url": "https://github.com/steipete/Peekaboo",
               "description": "Peekaboo is a macOS CLI & optional MCP server that enables AI agents to capture screenshots of applications, or the entire system, with optional visual question answering through local or remote AI models.",
               "language": "Swift",
-              "stars": 1746,
-              "discovered_at": "2026-02-02T22:24:08.486205+00:00"
+              "stars": 1751,
+              "discovered_at": "2026-02-02T23:14:56.547971+00:00"
             },
             {
               "owner": "supermemoryai",
@@ -462,8 +694,8 @@
               "url": "https://github.com/supermemoryai/supermemory",
               "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
               "language": "TypeScript",
-              "stars": 16168,
-              "discovered_at": "2026-02-02T22:24:08.486205+00:00"
+              "stars": 16169,
+              "discovered_at": "2026-02-02T23:14:56.547971+00:00"
             },
             {
               "owner": "remotion-dev",
@@ -472,8 +704,8 @@
               "url": "https://github.com/remotion-dev/remotion",
               "description": "\ud83c\udfa5 Make videos programmatically with React",
               "language": "TypeScript",
-              "stars": 34529,
-              "discovered_at": "2026-02-02T22:24:08.486205+00:00"
+              "stars": 34533,
+              "discovered_at": "2026-02-02T23:14:56.547971+00:00"
             },
             {
               "owner": "Draculabo",
@@ -482,8 +714,114 @@
               "url": "https://github.com/Draculabo/AntigravityManager",
               "description": "Antigravity Manager is a powerful Electron-based application designed to manage accounts and processes for the Antigravity application. It provides a seamless interface for switching accounts, backing up progress, and controlling the application lifecycle.",
               "language": "TypeScript",
-              "stars": 576,
-              "discovered_at": "2026-02-02T22:24:08.486205+00:00"
+              "stars": 578,
+              "discovered_at": "2026-02-02T23:14:56.547971+00:00"
+            }
+          ]
+        },
+        {
+          "date": "2026-02-03",
+          "count": 10,
+          "repos": [
+            {
+              "owner": "openclaw",
+              "name": "openclaw",
+              "full_name": "openclaw/openclaw",
+              "url": "https://github.com/openclaw/openclaw",
+              "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e",
+              "language": "TypeScript",
+              "stars": 151468,
+              "discovered_at": "2026-02-03T00:41:58.508950+00:00"
+            },
+            {
+              "owner": "asgeirtj",
+              "name": "system_prompts_leaks",
+              "full_name": "asgeirtj/system_prompts_leaks",
+              "url": "https://github.com/asgeirtj/system_prompts_leaks",
+              "description": "Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini",
+              "language": "JavaScript",
+              "stars": 29674,
+              "discovered_at": "2026-02-03T00:41:58.508950+00:00"
+            },
+            {
+              "owner": "MoonshotAI",
+              "name": "kimi-cli",
+              "full_name": "MoonshotAI/kimi-cli",
+              "url": "https://github.com/MoonshotAI/kimi-cli",
+              "description": "Kimi Code CLI is your next CLI agent.",
+              "language": "Python",
+              "stars": 5760,
+              "discovered_at": "2026-02-03T00:41:58.508950+00:00"
+            },
+            {
+              "owner": "modelcontextprotocol",
+              "name": "ext-apps",
+              "full_name": "modelcontextprotocol/ext-apps",
+              "url": "https://github.com/modelcontextprotocol/ext-apps",
+              "description": "Official repo for spec & SDK of MCP Apps protocol - standard for UIs embedded AI chatbots, served by MCP servers",
+              "language": "TypeScript",
+              "stars": 1254,
+              "discovered_at": "2026-02-03T00:41:58.508950+00:00"
+            },
+            {
+              "owner": "NevaMind-AI",
+              "name": "memU",
+              "full_name": "NevaMind-AI/memU",
+              "url": "https://github.com/NevaMind-AI/memU",
+              "description": "Memory for 24/7 proactive agents like openclaw (moltbot, clawdbot).",
+              "language": "Python",
+              "stars": 7090,
+              "discovered_at": "2026-02-03T00:41:58.508950+00:00"
+            },
+            {
+              "owner": "microsoft",
+              "name": "BitNet",
+              "full_name": "microsoft/BitNet",
+              "url": "https://github.com/microsoft/BitNet",
+              "description": "Official inference framework for 1-bit LLMs",
+              "language": "Python",
+              "stars": 27645,
+              "discovered_at": "2026-02-03T00:41:58.508950+00:00"
+            },
+            {
+              "owner": "steipete",
+              "name": "Peekaboo",
+              "full_name": "steipete/Peekaboo",
+              "url": "https://github.com/steipete/Peekaboo",
+              "description": "Peekaboo is a macOS CLI & optional MCP server that enables AI agents to capture screenshots of applications, or the entire system, with optional visual question answering through local or remote AI models.",
+              "language": "Swift",
+              "stars": 1758,
+              "discovered_at": "2026-02-03T00:41:58.508950+00:00"
+            },
+            {
+              "owner": "supermemoryai",
+              "name": "supermemory",
+              "full_name": "supermemoryai/supermemory",
+              "url": "https://github.com/supermemoryai/supermemory",
+              "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+              "language": "TypeScript",
+              "stars": 16173,
+              "discovered_at": "2026-02-03T00:41:58.508950+00:00"
+            },
+            {
+              "owner": "remotion-dev",
+              "name": "remotion",
+              "full_name": "remotion-dev/remotion",
+              "url": "https://github.com/remotion-dev/remotion",
+              "description": "\ud83c\udfa5 Make videos programmatically with React",
+              "language": "TypeScript",
+              "stars": 34540,
+              "discovered_at": "2026-02-03T00:41:58.508950+00:00"
+            },
+            {
+              "owner": "Draculabo",
+              "name": "AntigravityManager",
+              "full_name": "Draculabo/AntigravityManager",
+              "url": "https://github.com/Draculabo/AntigravityManager",
+              "description": "Antigravity Manager is a powerful Electron-based application designed to manage accounts and processes for the Antigravity application. It provides a seamless interface for switching accounts, backing up progress, and controlling the application lifecycle.",
+              "language": "TypeScript",
+              "stars": 582,
+              "discovered_at": "2026-02-03T00:41:58.508950+00:00"
             }
           ]
         }
@@ -502,8 +840,8 @@
           "url": "https://github.com/codecrafters-io/build-your-own-x",
           "description": "Master programming by recreating your favorite technologies from scratch.",
           "language": "Markdown",
-          "stars": 463023,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 463030,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "freeCodeCamp",
@@ -513,7 +851,7 @@
           "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
           "language": "TypeScript",
           "stars": 436668,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "sindresorhus",
@@ -522,8 +860,8 @@
           "url": "https://github.com/sindresorhus/awesome",
           "description": "\ud83d\ude0e Awesome lists about all kinds of interesting topics",
           "language": null,
-          "stars": 434466,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 434477,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "public-apis",
@@ -532,8 +870,8 @@
           "url": "https://github.com/public-apis/public-apis",
           "description": "A collective list of free APIs",
           "language": "Python",
-          "stars": 394896,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 394899,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "EbookFoundation",
@@ -542,8 +880,8 @@
           "url": "https://github.com/EbookFoundation/free-programming-books",
           "description": ":books: Freely available programming books",
           "language": "Python",
-          "stars": 381922,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 381924,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "kamranahmedse",
@@ -553,7 +891,7 @@
           "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
           "language": "TypeScript",
           "stars": 348456,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "jwasham",
@@ -562,8 +900,8 @@
           "url": "https://github.com/jwasham/coding-interview-university",
           "description": "A complete computer science study plan to become a software engineer.",
           "language": null,
-          "stars": 336697,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 336695,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "donnemartin",
@@ -572,8 +910,8 @@
           "url": "https://github.com/donnemartin/system-design-primer",
           "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
           "language": "Python",
-          "stars": 334197,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 334198,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "vinta",
@@ -582,8 +920,8 @@
           "url": "https://github.com/vinta/awesome-python",
           "description": "An opinionated list of awesome Python frameworks, libraries, software and resources.",
           "language": "Python",
-          "stars": 281128,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 281132,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "996icu",
@@ -592,8 +930,8 @@
           "url": "https://github.com/996icu/996.ICU",
           "description": "Repo for counting stars and contributing. Press F to pay respect to glorious developers.",
           "language": null,
-          "stars": 275416,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 275417,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "awesome-selfhosted",
@@ -602,8 +940,8 @@
           "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
           "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
           "language": null,
-          "stars": 271314,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 271322,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "practical-tutorials",
@@ -612,8 +950,8 @@
           "url": "https://github.com/practical-tutorials/project-based-learning",
           "description": "Curated list of project-based tutorials",
           "language": null,
-          "stars": 257440,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 257443,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "facebook",
@@ -622,8 +960,11 @@
           "url": "https://github.com/facebook/react",
           "description": "The library for web and native user interfaces.",
           "language": "JavaScript",
-          "stars": 242716,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 242717,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00",
+          "ai_tools": [
+            "Claude"
+          ]
         },
         {
           "owner": "TheAlgorithms",
@@ -632,8 +973,8 @@
           "url": "https://github.com/TheAlgorithms/Python",
           "description": "All Algorithms implemented in Python",
           "language": "Python",
-          "stars": 217432,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 217435,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "torvalds",
@@ -642,8 +983,8 @@
           "url": "https://github.com/torvalds/linux",
           "description": "Linux kernel source tree",
           "language": "C",
-          "stars": 216099,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 216102,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "vuejs",
@@ -653,7 +994,7 @@
           "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
           "language": "TypeScript",
           "stars": 209899,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "trimstray",
@@ -662,8 +1003,8 @@
           "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
           "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
           "language": null,
-          "stars": 204699,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 204705,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "ossu",
@@ -672,8 +1013,8 @@
           "url": "https://github.com/ossu/computer-science",
           "description": "\ud83c\udf93 Path to a free self-taught education in Computer Science!",
           "language": "HTML",
-          "stars": 200921,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 200923,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "trekhleb",
@@ -683,7 +1024,7 @@
           "description": "\ud83d\udcdd Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
           "language": "JavaScript",
           "stars": 195488,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "tensorflow",
@@ -692,8 +1033,8 @@
           "url": "https://github.com/tensorflow/tensorflow",
           "description": "An Open Source Machine Learning Framework for Everyone",
           "language": "C++",
-          "stars": 193598,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 193597,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "ohmyzsh",
@@ -703,7 +1044,7 @@
           "description": "\ud83d\ude43   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
           "language": "Shell",
           "stars": 184440,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "getify",
@@ -713,7 +1054,7 @@
           "description": "A book series (2 published editions) on the JS language.",
           "language": null,
           "stars": 184366,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "CyC2018",
@@ -723,7 +1064,7 @@
           "description": ":books: \u6280\u672f\u9762\u8bd5\u5fc5\u5907\u57fa\u7840\u77e5\u8bc6\u3001Leetcode\u3001\u8ba1\u7b97\u673a\u64cd\u4f5c\u7cfb\u7edf\u3001\u8ba1\u7b97\u673a\u7f51\u7edc\u3001\u7cfb\u7edf\u8bbe\u8ba1",
           "language": null,
           "stars": 183597,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "Significant-Gravitas",
@@ -733,7 +1074,7 @@
           "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
           "language": "Python",
           "stars": 181641,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "microsoft",
@@ -742,8 +1083,8 @@
           "url": "https://github.com/microsoft/vscode",
           "description": "Visual Studio Code",
           "language": "TypeScript",
-          "stars": 181283,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 181285,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "jackfrued",
@@ -753,7 +1094,7 @@
           "description": "Python - 100\u5929\u4ece\u65b0\u624b\u5230\u5927\u5e08",
           "language": "Jupyter Notebook",
           "stars": 178375,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "flutter",
@@ -762,8 +1103,8 @@
           "url": "https://github.com/flutter/flutter",
           "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
           "language": "Dart",
-          "stars": 174926,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 174927,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "twbs",
@@ -773,7 +1114,7 @@
           "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
           "language": "MDX",
           "stars": 173976,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "n8n-io",
@@ -782,8 +1123,8 @@
           "url": "https://github.com/n8n-io/n8n",
           "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
           "language": "TypeScript",
-          "stars": 172651,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 172654,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "github",
@@ -792,8 +1133,8 @@
           "url": "https://github.com/github/gitignore",
           "description": "A collection of useful .gitignore templates",
           "language": null,
-          "stars": 172209,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 172208,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "massgravel",
@@ -802,8 +1143,8 @@
           "url": "https://github.com/massgravel/Microsoft-Activation-Scripts",
           "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
           "language": "Batchfile",
-          "stars": 164627,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 164628,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "avelino",
@@ -812,8 +1153,8 @@
           "url": "https://github.com/avelino/awesome-go",
           "description": "A curated list of awesome Go frameworks, libraries and software",
           "language": "Go",
-          "stars": 164089,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 164097,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "ollama",
@@ -822,8 +1163,8 @@
           "url": "https://github.com/ollama/ollama",
           "description": "Get up and running with Kimi-K2.5, GLM-4.7, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
           "language": "Go",
-          "stars": 161463,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 161467,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "AUTOMATIC1111",
@@ -832,8 +1173,8 @@
           "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
           "description": "Stable Diffusion web UI",
           "language": "Python",
-          "stars": 160388,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 160387,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "jlevy",
@@ -843,7 +1184,7 @@
           "description": "Master the command line, in one page",
           "language": null,
           "stars": 159720,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "huggingface",
@@ -853,7 +1194,7 @@
           "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
           "language": "Python",
           "stars": 156071,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "Snailclimb",
@@ -863,7 +1204,7 @@
           "description": "Java \u9762\u8bd5 & \u540e\u7aef\u901a\u7528\u9762\u8bd5\u6307\u5357\uff0c\u8986\u76d6\u8ba1\u7b97\u673a\u57fa\u7840\u3001\u6570\u636e\u5e93\u3001\u5206\u5e03\u5f0f\u3001\u9ad8\u5e76\u53d1\u4e0e\u7cfb\u7edf\u8bbe\u8ba1\u3002\u51c6\u5907\u540e\u7aef\u6280\u672f\u9762\u8bd5\uff0c\u9996\u9009 JavaGuide\uff01",
           "language": "Java",
           "stars": 153711,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "openclaw",
@@ -872,12 +1213,8 @@
           "url": "https://github.com/openclaw/openclaw",
           "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e ",
           "language": "TypeScript",
-          "stars": 151067,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00",
-          "ai_tools": [
-            "Claude",
-            "AI Tools"
-          ]
+          "stars": 151198,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "airbnb",
@@ -887,7 +1224,7 @@
           "description": "JavaScript Style Guide",
           "language": "JavaScript",
           "stars": 148091,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "yt-dlp",
@@ -896,8 +1233,8 @@
           "url": "https://github.com/yt-dlp/yt-dlp",
           "description": "A feature-rich command-line audio/video downloader",
           "language": "Python",
-          "stars": 145480,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 145485,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "DigitalPlatDev",
@@ -906,8 +1243,8 @@
           "url": "https://github.com/DigitalPlatDev/FreeDomain",
           "description": "DigitalPlat FreeDomain: Free Domain For Everyone",
           "language": "HTML",
-          "stars": 145338,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 145341,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "langflow-ai",
@@ -916,8 +1253,8 @@
           "url": "https://github.com/langflow-ai/langflow",
           "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
           "language": "Python",
-          "stars": 144486,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 144485,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "f",
@@ -926,8 +1263,8 @@
           "url": "https://github.com/f/prompts.chat",
           "description": "a.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source \u2014 self-host for your organization with complete privacy.",
           "language": "MDX",
-          "stars": 144328,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 144332,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "521xueweihan",
@@ -936,8 +1273,8 @@
           "url": "https://github.com/521xueweihan/HelloGitHub",
           "description": ":octocat: \u5206\u4eab GitHub \u4e0a\u6709\u8da3\u3001\u5165\u95e8\u7ea7\u7684\u5f00\u6e90\u9879\u76ee\u3002Share interesting, entry-level open source projects on GitHub.",
           "language": "Python",
-          "stars": 142000,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 142001,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "ytdl-org",
@@ -946,8 +1283,8 @@
           "url": "https://github.com/ytdl-org/youtube-dl",
           "description": "Command-line program to download videos from YouTube.com and other video sites",
           "language": "Python",
-          "stars": 139646,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 139645,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "vercel",
@@ -957,7 +1294,7 @@
           "description": "The React Framework",
           "language": "JavaScript",
           "stars": 137484,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "yangshun",
@@ -966,8 +1303,8 @@
           "url": "https://github.com/yangshun/tech-interview-handbook",
           "description": "Curated coding interview preparation materials for busy software engineers",
           "language": "TypeScript",
-          "stars": 137359,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 137358,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "Genymobile",
@@ -977,7 +1314,7 @@
           "description": "Display and control your Android device",
           "language": "C",
           "stars": 135079,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "labuladong",
@@ -987,7 +1324,7 @@
           "description": "\u5237\u7b97\u6cd5\u5168\u9760\u5957\u8def\uff0c\u8ba4\u51c6 labuladong \u5c31\u591f\u4e86\uff01English version supported! Crack LeetCode, not only how, but also why. ",
           "language": "Markdown",
           "stars": 132450,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         },
         {
           "owner": "golang",
@@ -996,8 +1333,8 @@
           "url": "https://github.com/golang/go",
           "description": "The Go programming language",
           "language": "Go",
-          "stars": 132243,
-          "discovered_at": "2026-02-02T22:24:11.743880+00:00"
+          "stars": 132245,
+          "discovered_at": "2026-02-02T23:15:00.018535+00:00"
         }
       ]
     },
@@ -1014,8 +1351,11 @@
           "url": "https://github.com/facebook/react",
           "description": "The library for web and native user interfaces.",
           "language": "JavaScript",
-          "stars": 242716,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "stars": 242717,
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00",
+          "ai_tools": [
+            "Claude"
+          ]
         },
         {
           "owner": "trekhleb",
@@ -1025,7 +1365,7 @@
           "description": "\ud83d\udcdd Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
           "language": "JavaScript",
           "stars": 195488,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "airbnb",
@@ -1035,7 +1375,7 @@
           "description": "JavaScript Style Guide",
           "language": "JavaScript",
           "stars": 148091,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "vercel",
@@ -1045,7 +1385,7 @@
           "description": "The React Framework",
           "language": "JavaScript",
           "stars": 137484,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "Chalarangelo",
@@ -1055,7 +1395,10 @@
           "description": "Coding articles to level up your development skills",
           "language": "JavaScript",
           "stars": 126630,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00",
+          "ai_tools": [
+            "GitHub Copilot"
+          ]
         },
         {
           "owner": "nodejs",
@@ -1065,7 +1408,7 @@
           "description": "Node.js JavaScript runtime \u2728\ud83d\udc22\ud83d\ude80\u2728",
           "language": "JavaScript",
           "stars": 115527,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "mrdoob",
@@ -1075,7 +1418,7 @@
           "description": "JavaScript 3D Library.",
           "language": "JavaScript",
           "stars": 110687,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "axios",
@@ -1085,7 +1428,10 @@
           "description": "Promise based HTTP client for the browser and node.js",
           "language": "JavaScript",
           "stars": 108563,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00",
+          "ai_tools": [
+            "GitHub Copilot"
+          ]
         },
         {
           "owner": "facebook",
@@ -1095,7 +1441,7 @@
           "description": "Set up a modern web app by running one command.",
           "language": "JavaScript",
           "stars": 103956,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "jaywcjlove",
@@ -1105,7 +1451,7 @@
           "description": "\uf8ff Now we have become very big, Different from the original idea. Collect premium software in various categories.",
           "language": "JavaScript",
           "stars": 98402,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "mui",
@@ -1114,8 +1460,8 @@
           "url": "https://github.com/mui/material-ui",
           "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
           "language": "JavaScript",
-          "stars": 97747,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "stars": 97748,
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "microsoft",
@@ -1125,7 +1471,7 @@
           "description": "24 Lessons, 12 Weeks, Get Started as a Web Developer",
           "language": "JavaScript",
           "stars": 95212,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "ryanmcdermott",
@@ -1135,7 +1481,7 @@
           "description": "Clean Code concepts adapted for JavaScript",
           "language": "JavaScript",
           "stars": 94289,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "sveltejs",
@@ -1145,7 +1491,7 @@
           "description": "web development for the rest of us",
           "language": "JavaScript",
           "stars": 85659,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "louislam",
@@ -1154,8 +1500,8 @@
           "url": "https://github.com/louislam/uptime-kuma",
           "description": "A fancy self-hosted monitoring tool",
           "language": "JavaScript",
-          "stars": 82262,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "stars": 82263,
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "anuraghazra",
@@ -1165,7 +1511,7 @@
           "description": ":zap: Dynamically generated stats for your github readmes",
           "language": "JavaScript",
           "stars": 78189,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "FortAwesome",
@@ -1175,7 +1521,7 @@
           "description": "The iconic SVG, font, and CSS toolkit",
           "language": "JavaScript",
           "stars": 76287,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "typicode",
@@ -1185,7 +1531,7 @@
           "description": "Get a full fake REST API with zero coding in less than 30 seconds (seriously)",
           "language": "JavaScript",
           "stars": 75618,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "hakimel",
@@ -1195,7 +1541,7 @@
           "description": "The HTML Presentation Framework",
           "language": "JavaScript",
           "stars": 70503,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "expressjs",
@@ -1205,7 +1551,7 @@
           "description": "Fast, unopinionated, minimalist web framework for node.",
           "language": "JavaScript",
           "stars": 68645,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "chartjs",
@@ -1215,7 +1561,7 @@
           "description": "Simple HTML5 Charts using the <canvas> tag",
           "language": "JavaScript",
           "stars": 67077,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "juliangarnier",
@@ -1225,7 +1571,7 @@
           "description": "JavaScript animation engine",
           "language": "JavaScript",
           "stars": 66321,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "leonardomso",
@@ -1235,7 +1581,7 @@
           "description": "\ud83d\udcdc 33 JavaScript concepts every developer should know.",
           "language": "JavaScript",
           "stars": 66225,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "webpack",
@@ -1245,7 +1591,7 @@
           "description": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.",
           "language": "JavaScript",
           "stars": 65940,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "resume",
@@ -1255,7 +1601,7 @@
           "description": "Resumes generated using the GitHub informations",
           "language": "JavaScript",
           "stars": 62790,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "lodash",
@@ -1265,7 +1611,7 @@
           "description": "A modern JavaScript utility library delivering modularity, performance, & extras.",
           "language": "JavaScript",
           "stars": 61601,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "gorhill",
@@ -1275,7 +1621,7 @@
           "description": "uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.",
           "language": "JavaScript",
           "stars": 61299,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "atom",
@@ -1285,7 +1631,7 @@
           "description": ":atom: The hackable text editor",
           "language": "JavaScript",
           "stars": 61004,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "adam-p",
@@ -1295,7 +1641,7 @@
           "description": "Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending.",
           "language": "JavaScript",
           "stars": 60127,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         },
         {
           "owner": "jquery",
@@ -1305,7 +1651,7 @@
           "description": "jQuery JavaScript Library",
           "language": "JavaScript",
           "stars": 59830,
-          "discovered_at": "2026-02-02T22:24:13.952031+00:00"
+          "discovered_at": "2026-02-02T23:15:02.189202+00:00"
         }
       ]
     },
@@ -1322,8 +1668,8 @@
           "url": "https://github.com/public-apis/public-apis",
           "description": "A collective list of free APIs",
           "language": "Python",
-          "stars": 394896,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "stars": 394899,
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "EbookFoundation",
@@ -1332,8 +1678,8 @@
           "url": "https://github.com/EbookFoundation/free-programming-books",
           "description": ":books: Freely available programming books",
           "language": "Python",
-          "stars": 381922,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "stars": 381924,
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "donnemartin",
@@ -1342,8 +1688,8 @@
           "url": "https://github.com/donnemartin/system-design-primer",
           "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
           "language": "Python",
-          "stars": 334197,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "stars": 334198,
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "vinta",
@@ -1352,8 +1698,8 @@
           "url": "https://github.com/vinta/awesome-python",
           "description": "An opinionated list of awesome Python frameworks, libraries, software and resources.",
           "language": "Python",
-          "stars": 281128,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "stars": 281132,
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "TheAlgorithms",
@@ -1362,8 +1708,8 @@
           "url": "https://github.com/TheAlgorithms/Python",
           "description": "All Algorithms implemented in Python",
           "language": "Python",
-          "stars": 217432,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "stars": 217435,
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "Significant-Gravitas",
@@ -1373,7 +1719,7 @@
           "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
           "language": "Python",
           "stars": 181641,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "AUTOMATIC1111",
@@ -1382,8 +1728,8 @@
           "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
           "description": "Stable Diffusion web UI",
           "language": "Python",
-          "stars": 160388,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "stars": 160387,
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "huggingface",
@@ -1393,7 +1739,7 @@
           "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
           "language": "Python",
           "stars": 156071,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "yt-dlp",
@@ -1402,8 +1748,8 @@
           "url": "https://github.com/yt-dlp/yt-dlp",
           "description": "A feature-rich command-line audio/video downloader",
           "language": "Python",
-          "stars": 145480,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "stars": 145485,
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "langflow-ai",
@@ -1412,8 +1758,8 @@
           "url": "https://github.com/langflow-ai/langflow",
           "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
           "language": "Python",
-          "stars": 144486,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "stars": 144485,
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "521xueweihan",
@@ -1422,8 +1768,8 @@
           "url": "https://github.com/521xueweihan/HelloGitHub",
           "description": ":octocat: \u5206\u4eab GitHub \u4e0a\u6709\u8da3\u3001\u5165\u95e8\u7ea7\u7684\u5f00\u6e90\u9879\u76ee\u3002Share interesting, entry-level open source projects on GitHub.",
           "language": "Python",
-          "stars": 142000,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "stars": 142001,
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "ytdl-org",
@@ -1432,8 +1778,8 @@
           "url": "https://github.com/ytdl-org/youtube-dl",
           "description": "Command-line program to download videos from YouTube.com and other video sites",
           "language": "Python",
-          "stars": 139646,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "stars": 139645,
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "langchain-ai",
@@ -1443,7 +1789,7 @@
           "description": "\ud83e\udd9c\ud83d\udd17 The platform for reliable agents.",
           "language": "Python",
           "stars": 125733,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "open-webui",
@@ -1452,8 +1798,8 @@
           "url": "https://github.com/open-webui/open-webui",
           "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
           "language": "Python",
-          "stars": 122696,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "stars": 122701,
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "Comfy-Org",
@@ -1462,8 +1808,8 @@
           "url": "https://github.com/Comfy-Org/ComfyUI",
           "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
           "language": "Python",
-          "stars": 102250,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "stars": 102253,
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "deepseek-ai",
@@ -1473,7 +1819,7 @@
           "description": null,
           "language": "Python",
           "stars": 101418,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "pytorch",
@@ -1482,8 +1828,8 @@
           "url": "https://github.com/pytorch/pytorch",
           "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
           "language": "Python",
-          "stars": 97121,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "stars": 97120,
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "nvbn",
@@ -1493,7 +1839,7 @@
           "description": "Magnificent app which corrects your previous console command.",
           "language": "Python",
           "stars": 95379,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "fastapi",
@@ -1502,8 +1848,8 @@
           "url": "https://github.com/fastapi/fastapi",
           "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
           "language": "Python",
-          "stars": 94731,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "stars": 94733,
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "openai",
@@ -1512,8 +1858,8 @@
           "url": "https://github.com/openai/whisper",
           "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
           "language": "Python",
-          "stars": 94065,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "stars": 94066,
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "Shubhamsaboo",
@@ -1522,8 +1868,8 @@
           "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
           "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
           "language": "Python",
-          "stars": 91788,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "stars": 91790,
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "django",
@@ -1533,7 +1879,7 @@
           "description": "The Web framework for perfectionists with deadlines.",
           "language": "Python",
           "stars": 86658,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "microsoft",
@@ -1542,8 +1888,8 @@
           "url": "https://github.com/microsoft/markitdown",
           "description": "Python tool for converting files and office documents to Markdown.",
           "language": "Python",
-          "stars": 86255,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "stars": 86259,
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "home-assistant",
@@ -1552,8 +1898,8 @@
           "url": "https://github.com/home-assistant/core",
           "description": ":house_with_garden: Open source home automation that puts local control and privacy first.",
           "language": "Python",
-          "stars": 84546,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "stars": 84547,
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "3b1b",
@@ -1563,7 +1909,7 @@
           "description": "Animation engine for explanatory math videos",
           "language": "Python",
           "stars": 84245,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "bregman-arie",
@@ -1573,7 +1919,7 @@
           "description": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
           "language": "Python",
           "stars": 80840,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "hacksider",
@@ -1582,8 +1928,8 @@
           "url": "https://github.com/hacksider/Deep-Live-Cam",
           "description": "real time face swap and one-click video deepfake with only a single image",
           "language": "Python",
-          "stars": 79205,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "stars": 79206,
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "fighting41love",
@@ -1593,7 +1939,7 @@
           "description": "\u4e2d\u82f1\u6587\u654f\u611f\u8bcd\u3001\u8bed\u8a00\u68c0\u6d4b\u3001\u4e2d\u5916\u624b\u673a/\u7535\u8bdd\u5f52\u5c5e\u5730/\u8fd0\u8425\u5546\u67e5\u8be2\u3001\u540d\u5b57\u63a8\u65ad\u6027\u522b\u3001\u624b\u673a\u53f7\u62bd\u53d6\u3001\u8eab\u4efd\u8bc1\u62bd\u53d6\u3001\u90ae\u7bb1\u62bd\u53d6\u3001\u4e2d\u65e5\u6587\u4eba\u540d\u5e93\u3001\u4e2d\u6587\u7f29\u5199\u5e93\u3001\u62c6\u5b57\u8bcd\u5178\u3001\u8bcd\u6c47\u60c5\u611f\u503c\u3001\u505c\u7528\u8bcd\u3001\u53cd\u52a8\u8bcd\u8868\u3001\u66b4\u6050\u8bcd\u8868\u3001\u7e41\u7b80\u4f53\u8f6c\u6362\u3001\u82f1\u6587\u6a21\u62df\u4e2d\u6587\u53d1\u97f3\u3001\u6c6a\u5cf0\u6b4c\u8bcd\u751f\u6210\u5668\u3001\u804c\u4e1a\u540d\u79f0\u8bcd\u5e93\u3001\u540c\u4e49\u8bcd\u5e93\u3001\u53cd\u4e49\u8bcd\u5e93\u3001\u5426\u5b9a\u8bcd\u5e93\u3001\u6c7d\u8f66\u54c1\u724c\u8bcd\u5e93\u3001\u6c7d\u8f66\u96f6\u4ef6\u8bcd\u5e93\u3001\u8fde\u7eed\u82f1\u6587\u5207\u5272\u3001\u5404\u79cd\u4e2d\u6587\u8bcd\u5411\u91cf\u3001\u516c\u53f8\u540d\u5b57\u5927\u5168\u3001\u53e4\u8bd7\u8bcd\u5e93\u3001IT\u8bcd\u5e93\u3001\u8d22\u7ecf\u8bcd\u5e93\u3001\u6210\u8bed\u8bcd\u5e93\u3001\u5730\u540d\u8bcd\u5e93\u3001\u5386\u53f2\u540d\u4eba\u8bcd\u5e93\u3001\u8bd7\u8bcd\u8bcd\u5e93\u3001\u533b\u5b66\u8bcd\u5e93\u3001\u996e\u98df\u8bcd\u5e93\u3001\u6cd5\u5f8b\u8bcd\u5e93\u3001\u6c7d\u8f66\u8bcd\u5e93\u3001\u52a8\u7269\u8bcd\u5e93\u3001\u4e2d\u6587\u804a\u5929\u8bed\u6599\u3001\u4e2d\u6587\u8c23\u8a00\u6570\u636e\u3001\u767e\u5ea6\u4e2d\u6587\u95ee\u7b54\u6570\u636e\u96c6\u3001\u53e5\u5b50\u76f8\u4f3c\u5ea6\u5339\u914d\u7b97\u6cd5\u96c6\u5408\u3001bert\u8d44\u6e90\u3001\u6587\u672c\u751f\u6210&\u6458\u8981\u76f8\u5173\u5de5\u5177\u3001cocoNLP\u4fe1\u606f\u62bd\u53d6\u5de5\u5177\u3001\u56fd\u5185\u7535\u8bdd\u53f7\u7801\u6b63\u5219\u5339\u914d\u3001\u6e05\u534e\u5927\u5b66XLORE:\u4e2d\u82f1\u6587\u8de8\u8bed\u8a00\u767e\u79d1\u77e5\u8bc6\u56fe\u8c31\u3001\u6e05\u534e\u5927\u5b66\u4eba\u5de5\u667a\u80fd\u6280\u672f\u7cfb\u5217\u62a5\u544a\u3001\u81ea\u7136\u8bed\u8a00\u751f\u6210\u3001NLU\u592a\u96be\u4e86\u7cfb\u5217\u3001\u81ea\u52a8\u5bf9\u8054\u6570\u636e\u53ca\u673a\u5668\u4eba\u3001\u7528\u6237\u540d\u9ed1\u540d\u5355\u5217\u8868\u3001\u7f6a\u540d\u6cd5\u52a1\u540d\u8bcd\u53ca\u5206\u7c7b\u6a21\u578b\u3001\u5fae\u4fe1\u516c\u4f17\u53f7\u8bed\u6599\u3001cs224n\u6df1\u5ea6\u5b66\u4e60\u81ea\u7136\u8bed\u8a00\u5904\u7406\u8bfe\u7a0b\u3001\u4e2d\u6587\u624b\u5199\u6c49\u5b57\u8bc6\u522b\u3001\u4e2d\u6587\u81ea\u7136\u8bed\u8a00\u5904\u7406 \u8bed\u6599/\u6570\u636e\u96c6\u3001\u53d8\u91cf\u547d\u540d\u795e\u5668\u3001\u5206\u8bcd\u8bed\u6599\u5e93+\u4ee3\u7801\u3001\u4efb\u52a1\u578b\u5bf9\u8bdd\u82f1\u6587\u6570\u636e\u96c6\u3001ASR \u8bed\u97f3\u6570\u636e\u96c6 + \u57fa\u4e8e\u6df1\u5ea6\u5b66\u4e60\u7684\u4e2d\u6587\u8bed\u97f3\u8bc6\u522b\u7cfb\u7edf\u3001\u7b11\u58f0\u68c0\u6d4b\u5668\u3001Microsoft\u591a\u8bed\u8a00\u6570\u5b57/\u5355\u4f4d/\u5982\u65e5\u671f\u65f6\u95f4\u8bc6\u522b\u5305\u3001\u4e2d\u534e\u65b0\u534e\u5b57\u5178\u6570\u636e\u5e93\u53caapi(\u5305\u62ec\u5e38\u7528\u6b47\u540e\u8bed\u3001\u6210\u8bed\u3001\u8bcd\u8bed\u548c\u6c49\u5b57)\u3001\u6587\u6863\u56fe\u8c31\u81ea\u52a8\u751f\u6210\u3001SpaCy \u4e2d\u6587\u6a21\u578b\u3001Common Voice\u8bed\u97f3\u8bc6\u522b\u6570\u636e\u96c6\u65b0\u7248\u3001\u795e\u7ecf\u7f51\u7edc\u5173\u7cfb\u62bd\u53d6\u3001\u57fa\u4e8ebert\u7684\u547d\u540d\u5b9e\u4f53\u8bc6\u522b\u3001\u5173\u952e\u8bcd(Keyphrase)\u62bd\u53d6\u5305pke\u3001\u57fa\u4e8e\u533b\u7597\u9886\u57df\u77e5\u8bc6\u56fe\u8c31\u7684\u95ee\u7b54\u7cfb\u7edf\u3001\u57fa\u4e8e\u4f9d\u5b58\u53e5\u6cd5\u4e0e\u8bed\u4e49\u89d2\u8272\u6807\u6ce8\u7684\u4e8b\u4ef6\u4e09\u5143\u7ec4\u62bd\u53d6\u3001\u4f9d\u5b58\u53e5\u6cd5\u5206\u67904\u4e07\u53e5\u9ad8\u8d28\u91cf\u6807\u6ce8\u6570\u636e\u3001cnocr\uff1a\u7528\u6765\u505a\u4e2d\u6587OCR\u7684Python3\u5305\u3001\u4e2d\u6587\u4eba\u7269\u5173\u7cfb\u77e5\u8bc6\u56fe\u8c31\u9879\u76ee\u3001\u4e2d\u6587nlp\u7ade\u8d5b\u9879\u76ee\u53ca\u4ee3\u7801\u6c47\u603b\u3001\u4e2d\u6587\u5b57\u7b26\u6570\u636e\u3001speech-aligner: \u4ece\u201c\u4eba\u58f0\u8bed\u97f3\u201d\u53ca\u5176\u201c\u8bed\u8a00\u6587\u672c\u201d\u4ea7\u751f\u97f3\u7d20\u7ea7\u522b\u65f6\u95f4\u5bf9\u9f50\u6807\u6ce8\u7684\u5de5\u5177\u3001AmpliGraph: \u77e5\u8bc6\u56fe\u8c31\u8868\u793a\u5b66\u4e60(Python)\u5e93\uff1a\u77e5\u8bc6\u56fe\u8c31\u6982\u5ff5\u94fe\u63a5\u9884\u6d4b\u3001Scattertext \u6587\u672c\u53ef\u89c6\u5316(python)\u3001\u8bed\u8a00/\u77e5\u8bc6\u8868\u793a\u5de5\u5177\uff1aBERT & ERNIE\u3001\u4e2d\u6587\u5bf9\u6bd4\u82f1\u6587\u81ea\u7136\u8bed\u8a00\u5904\u7406NLP\u7684\u533a\u522b\u7efc\u8ff0\u3001Synonyms\u4e2d\u6587\u8fd1\u4e49\u8bcd\u5de5\u5177\u5305\u3001HarvestText\u9886\u57df\u81ea\u9002\u5e94\u6587\u672c\u6316\u6398\u5de5\u5177\uff08\u65b0\u8bcd\u53d1\u73b0-\u60c5\u611f\u5206\u6790-\u5b9e\u4f53\u94fe\u63a5\u7b49\uff09\u3001word2word\uff1a(Python)\u65b9\u4fbf\u6613\u7528\u7684\u591a\u8bed\u8a00\u8bcd-\u8bcd\u5bf9\u96c6\uff1a62\u79cd\u8bed\u8a00/3,564\u4e2a\u591a\u8bed\u8a00\u5bf9\u3001\u8bed\u97f3\u8bc6\u522b\u8bed\u6599\u751f\u6210\u5de5\u5177\uff1a\u4ece\u5177\u6709\u97f3\u9891/\u5b57\u5e55\u7684\u5728\u7ebf\u89c6\u9891\u521b\u5efa\u81ea\u52a8\u8bed\u97f3\u8bc6\u522b(ASR)\u8bed\u6599\u5e93\u3001\u6784\u5efa\u533b\u7597\u5b9e\u4f53\u8bc6\u522b\u7684\u6a21\u578b\uff08\u5305\u542b\u8bcd\u5178\u548c\u8bed\u6599\u6807\u6ce8\uff09\u3001\u5355\u6587\u6863\u975e\u76d1\u7763\u7684\u5173\u952e\u8bcd\u62bd\u53d6\u3001Kashgari\u4e2d\u4f7f\u7528gpt-2\u8bed\u8a00\u6a21\u578b\u3001\u5f00\u6e90\u7684\u91d1\u878d\u6295\u8d44\u6570\u636e\u63d0\u53d6\u5de5\u5177\u3001\u6587\u672c\u81ea\u52a8\u6458\u8981\u5e93TextTeaser: \u4ec5\u652f\u6301\u82f1\u6587\u3001\u4eba\u6c11\u65e5\u62a5\u8bed\u6599\u5904\u7406\u5de5\u5177\u96c6\u3001\u4e00\u4e9b\u5173\u4e8e\u81ea\u7136\u8bed\u8a00\u7684\u57fa\u672c\u6a21\u578b\u3001\u57fa\u4e8e14W\u6b4c\u66f2\u77e5\u8bc6\u5e93\u7684\u95ee\u7b54\u5c1d\u8bd5--\u529f\u80fd\u5305\u62ec\u6b4c\u8bcd\u63a5\u9f99and\u5df2\u77e5\u6b4c\u8bcd\u627e\u6b4c\u66f2\u4ee5\u53ca\u6b4c\u66f2\u6b4c\u624b\u6b4c\u8bcd\u4e09\u89d2\u5173\u7cfb\u7684\u95ee\u7b54\u3001\u57fa\u4e8eSiamese bilstm\u6a21\u578b\u7684\u76f8\u4f3c\u53e5\u5b50\u5224\u5b9a\u6a21\u578b\u5e76\u63d0\u4f9b\u8bad\u7ec3\u6570\u636e\u96c6\u548c\u6d4b\u8bd5\u6570\u636e\u96c6\u3001\u7528Transformer\u7f16\u89e3\u7801\u6a21\u578b\u5b9e\u73b0\u7684\u6839\u636eHacker News\u6587\u7ae0\u6807\u9898\u81ea\u52a8\u751f\u6210\u8bc4\u8bba\u3001\u7528BERT\u8fdb\u884c\u5e8f\u5217\u6807\u8bb0\u548c\u6587\u672c\u5206\u7c7b\u7684\u6a21\u677f\u4ee3\u7801\u3001LitBank\uff1aNLP\u6570\u636e\u96c6\u2014\u2014\u652f\u6301\u81ea\u7136\u8bed\u8a00\u5904\u7406\u548c\u8ba1\u7b97\u4eba\u6587\u5b66\u79d1\u4efb\u52a1\u7684100\u90e8\u5e26\u6807\u8bb0\u82f1\u6587\u5c0f\u8bf4\u8bed\u6599\u3001\u767e\u5ea6\u5f00\u6e90\u7684\u57fa\u51c6\u4fe1\u606f\u62bd\u53d6\u7cfb\u7edf\u3001\u865a\u5047\u65b0\u95fb\u6570\u636e\u96c6\u3001Facebook: LAMA\u8bed\u8a00\u6a21\u578b\u5206\u6790\uff0c\u63d0\u4f9bTransformer-XL/BERT/ELMo/GPT\u9884\u8bad\u7ec3\u8bed\u8a00\u6a21\u578b\u7684\u7edf\u4e00\u8bbf\u95ee\u63a5\u53e3\u3001CommonsenseQA\uff1a\u9762\u5411\u5e38\u8bc6\u7684\u82f1\u6587QA\u6311\u6218\u3001\u4e2d\u6587\u77e5\u8bc6\u56fe\u8c31\u8d44\u6599\u3001\u6570\u636e\u53ca\u5de5\u5177\u3001\u5404\u5927\u516c\u53f8\u5185\u90e8\u91cc\u5927\u725b\u5206\u4eab\u7684\u6280\u672f\u6587\u6863 PDF \u6216\u8005 PPT\u3001\u81ea\u7136\u8bed\u8a00\u751f\u6210SQL\u8bed\u53e5\uff08\u82f1\u6587\uff09\u3001\u4e2d\u6587NLP\u6570\u636e\u589e\u5f3a\uff08EDA\uff09\u5de5\u5177\u3001\u82f1\u6587NLP\u6570\u636e\u589e\u5f3a\u5de5\u5177 \u3001\u57fa\u4e8e\u533b\u836f\u77e5\u8bc6\u56fe\u8c31\u7684\u667a\u80fd\u95ee\u7b54\u7cfb\u7edf\u3001\u4eac\u4e1c\u5546\u54c1\u77e5\u8bc6\u56fe\u8c31\u3001\u57fa\u4e8emongodb\u5b58\u50a8\u7684\u519b\u4e8b\u9886\u57df\u77e5\u8bc6\u56fe\u8c31\u95ee\u7b54\u9879\u76ee\u3001\u57fa\u4e8e\u8fdc\u76d1\u7763\u7684\u4e2d\u6587\u5173\u7cfb\u62bd\u53d6\u3001\u8bed\u97f3\u60c5\u611f\u5206\u6790\u3001\u4e2d\u6587ULMFiT-\u60c5\u611f\u5206\u6790-\u6587\u672c\u5206\u7c7b-\u8bed\u6599\u53ca\u6a21\u578b\u3001\u4e00\u4e2a\u62cd\u7167\u505a\u9898\u7a0b\u5e8f\u3001\u4e16\u754c\u5404\u56fd\u5927\u89c4\u6a21\u4eba\u540d\u5e93\u3001\u4e00\u4e2a\u5229\u7528\u6709\u8da3\u4e2d\u6587\u8bed\u6599\u5e93 qingyun \u8bad\u7ec3\u51fa\u6765\u7684\u4e2d\u6587\u804a\u5929\u673a\u5668\u4eba\u3001\u4e2d\u6587\u804a\u5929\u673a\u5668\u4ebaseqGAN\u3001\u7701\u5e02\u533a\u9547\u884c\u653f\u533a\u5212\u6570\u636e\u5e26\u62fc\u97f3\u6807\u6ce8\u3001\u6559\u80b2\u884c\u4e1a\u65b0\u95fb\u8bed\u6599\u5e93\u5305\u542b\u81ea\u52a8\u6587\u6458\u529f\u80fd\u3001\u5f00\u653e\u4e86\u5bf9\u8bdd\u673a\u5668\u4eba-\u77e5\u8bc6\u56fe\u8c31-\u8bed\u4e49\u7406\u89e3-\u81ea\u7136\u8bed\u8a00\u5904\u7406\u5de5\u5177\u53ca\u6570\u636e\u3001\u4e2d\u6587\u77e5\u8bc6\u56fe\u8c31\uff1a\u57fa\u4e8e\u767e\u5ea6\u767e\u79d1\u4e2d\u6587\u9875\u9762-\u62bd\u53d6\u4e09\u5143\u7ec4\u4fe1\u606f-\u6784\u5efa\u4e2d\u6587\u77e5\u8bc6\u56fe\u8c31\u3001masr: \u4e2d\u6587\u8bed\u97f3\u8bc6\u522b-\u63d0\u4f9b\u9884\u8bad\u7ec3\u6a21\u578b-\u9ad8\u8bc6\u522b\u7387\u3001Python\u97f3\u9891\u6570\u636e\u589e\u5e7f\u5e93\u3001\u4e2d\u6587\u5168\u8bcd\u8986\u76d6BERT\u53ca\u4e24\u4efd\u9605\u8bfb\u7406\u89e3\u6570\u636e\u3001ConvLab\uff1a\u5f00\u6e90\u591a\u57df\u7aef\u5230\u7aef\u5bf9\u8bdd\u7cfb\u7edf\u5e73\u53f0\u3001\u4e2d\u6587\u81ea\u7136\u8bed\u8a00\u5904\u7406\u6570\u636e\u96c6\u3001\u57fa\u4e8e\u6700\u65b0\u7248\u672crasa\u642d\u5efa\u7684\u5bf9\u8bdd\u7cfb\u7edf\u3001\u57fa\u4e8eTensorFlow\u548cBERT\u7684\u7ba1\u9053\u5f0f\u5b9e\u4f53\u53ca\u5173\u7cfb\u62bd\u53d6\u3001\u4e00\u4e2a\u5c0f\u578b\u7684\u8bc1\u5238\u77e5\u8bc6\u56fe\u8c31/\u77e5\u8bc6\u5e93\u3001\u590d\u76d8\u6240\u6709NLP\u6bd4\u8d5b\u7684TOP\u65b9\u6848\u3001OpenCLaP\uff1a\u591a\u9886\u57df\u5f00\u6e90\u4e2d\u6587\u9884\u8bad\u7ec3\u8bed\u8a00\u6a21\u578b\u4ed3\u5e93\u3001UER\uff1a\u57fa\u4e8e\u4e0d\u540c\u8bed\u6599+\u7f16\u7801\u5668+\u76ee\u6807\u4efb\u52a1\u7684\u4e2d\u6587\u9884\u8bad\u7ec3\u6a21\u578b\u4ed3\u5e93\u3001\u4e2d\u6587\u81ea\u7136\u8bed\u8a00\u5904\u7406\u5411\u91cf\u5408\u96c6\u3001\u57fa\u4e8e\u91d1\u878d-\u53f8\u6cd5\u9886\u57df(\u517c\u6709\u95f2\u804a\u6027\u8d28)\u7684\u804a\u5929\u673a\u5668\u4eba\u3001g2pC\uff1a\u57fa\u4e8e\u4e0a\u4e0b\u6587\u7684\u6c49\u8bed\u8bfb\u97f3\u81ea\u52a8\u6807\u8bb0\u6a21\u5757\u3001Zincbase \u77e5\u8bc6\u56fe\u8c31\u6784\u5efa\u5de5\u5177\u5305\u3001\u8bd7\u6b4c\u8d28\u91cf\u8bc4\u4ef7/\u7ec6\u7c92\u5ea6\u60c5\u611f\u8bd7\u6b4c\u8bed\u6599\u5e93\u3001\u5feb\u901f\u8f6c\u5316\u300c\u4e2d\u6587\u6570\u5b57\u300d\u548c\u300c\u963f\u62c9\u4f2f\u6570\u5b57\u300d\u3001\u767e\u5ea6\u77e5\u9053\u95ee\u7b54\u8bed\u6599\u5e93\u3001\u57fa\u4e8e\u77e5\u8bc6\u56fe\u8c31\u7684\u95ee\u7b54\u7cfb\u7edf\u3001jieba_fast \u52a0\u901f\u7248\u7684jieba\u3001\u6b63\u5219\u8868\u8fbe\u5f0f\u6559\u7a0b\u3001\u4e2d\u6587\u9605\u8bfb\u7406\u89e3\u6570\u636e\u96c6\u3001\u57fa\u4e8eBERT\u7b49\u6700\u65b0\u8bed\u8a00\u6a21\u578b\u7684\u62bd\u53d6\u5f0f\u6458\u8981\u63d0\u53d6\u3001Python\u5229\u7528\u6df1\u5ea6\u5b66\u4e60\u8fdb\u884c\u6587\u672c\u6458\u8981\u7684\u7efc\u5408\u6307\u5357\u3001\u77e5\u8bc6\u56fe\u8c31\u6df1\u5ea6\u5b66\u4e60\u76f8\u5173\u8d44\u6599\u6574\u7406\u3001\u7ef4\u57fa\u5927\u89c4\u6a21\u5e73\u884c\u6587\u672c\u8bed\u6599\u3001StanfordNLP 0.2.0\uff1a\u7eafPython\u7248\u81ea\u7136\u8bed\u8a00\u5904\u7406\u5305\u3001NeuralNLP-NeuralClassifier\uff1a\u817e\u8baf\u5f00\u6e90\u6df1\u5ea6\u5b66\u4e60\u6587\u672c\u5206\u7c7b\u5de5\u5177\u3001\u7aef\u5230\u7aef\u7684\u5c01\u95ed\u57df\u5bf9\u8bdd\u7cfb\u7edf\u3001\u4e2d\u6587\u547d\u540d\u5b9e\u4f53\u8bc6\u522b\uff1aNeuroNER vs. BertNER\u3001\u65b0\u95fb\u4e8b\u4ef6\u7ebf\u7d22\u62bd\u53d6\u30012019\u5e74\u767e\u5ea6\u7684\u4e09\u5143\u7ec4\u62bd\u53d6\u6bd4\u8d5b\uff1a\u201c\u79d1\u5b66\u7a7a\u95f4\u961f\u201d\u6e90\u7801\u3001\u57fa\u4e8e\u4f9d\u5b58\u53e5\u6cd5\u7684\u5f00\u653e\u57df\u6587\u672c\u77e5\u8bc6\u4e09\u5143\u7ec4\u62bd\u53d6\u548c\u77e5\u8bc6\u5e93\u6784\u5efa\u3001\u4e2d\u6587\u7684GPT2\u8bad\u7ec3\u4ee3\u7801\u3001ML-NLP - \u673a\u5668\u5b66\u4e60(Machine Learning)NLP\u9762\u8bd5\u4e2d\u5e38\u8003\u5230\u7684\u77e5\u8bc6\u70b9\u548c\u4ee3\u7801\u5b9e\u73b0\u3001nlp4han:\u4e2d\u6587\u81ea\u7136\u8bed\u8a00\u5904\u7406\u5de5\u5177\u96c6(\u65ad\u53e5/\u5206\u8bcd/\u8bcd\u6027\u6807\u6ce8/\u7ec4\u5757/\u53e5\u6cd5\u5206\u6790/\u8bed\u4e49\u5206\u6790/NER/N\u5143\u8bed\u6cd5/HMM/\u4ee3\u8bcd\u6d88\u89e3/\u60c5\u611f\u5206\u6790/\u62fc\u5199\u68c0\u67e5\u3001XLM\uff1aFacebook\u7684\u8de8\u8bed\u8a00\u9884\u8bad\u7ec3\u8bed\u8a00\u6a21\u578b\u3001\u7528\u57fa\u4e8eBERT\u7684\u5fae\u8c03\u548c\u7279\u5f81\u63d0\u53d6\u65b9\u6cd5\u6765\u8fdb\u884c\u77e5\u8bc6\u56fe\u8c31\u767e\u5ea6\u767e\u79d1\u4eba\u7269\u8bcd\u6761\u5c5e\u6027\u62bd\u53d6\u3001\u4e2d\u6587\u81ea\u7136\u8bed\u8a00\u5904\u7406\u76f8\u5173\u7684\u5f00\u653e\u4efb\u52a1-\u6570\u636e\u96c6-\u5f53\u524d\u6700\u4f73\u7ed3\u679c\u3001CoupletAI - \u57fa\u4e8eCNN+Bi-LSTM+Attention \u7684\u81ea\u52a8\u5bf9\u5bf9\u8054\u7cfb\u7edf\u3001\u62bd\u8c61\u77e5\u8bc6\u56fe\u8c31\u3001MiningZhiDaoQACorpus - 580\u4e07\u767e\u5ea6\u77e5\u9053\u95ee\u7b54\u6570\u636e\u6316\u6398\u9879\u76ee\u3001brat rapid annotation tool: \u5e8f\u5217\u6807\u6ce8\u5de5\u5177\u3001\u5927\u89c4\u6a21\u4e2d\u6587\u77e5\u8bc6\u56fe\u8c31\u6570\u636e\uff1a1.4\u4ebf\u5b9e\u4f53\u3001\u6570\u636e\u589e\u5f3a\u5728\u673a\u5668\u7ffb\u8bd1\u53ca\u5176\u4ed6nlp\u4efb\u52a1\u4e2d\u7684\u5e94\u7528\u53ca\u6548\u679c\u3001allennlp\u9605\u8bfb\u7406\u89e3:\u652f\u6301\u591a\u79cd\u6570\u636e\u548c\u6a21\u578b\u3001PDF\u8868\u683c\u6570\u636e\u63d0\u53d6\u5de5\u5177 \u3001 Graphbrain\uff1aAI\u5f00\u6e90\u8f6f\u4ef6\u5e93\u548c\u79d1\u7814\u5de5\u5177\uff0c\u76ee\u7684\u662f\u4fc3\u8fdb\u81ea\u52a8\u610f\u4e49\u63d0\u53d6\u548c\u6587\u672c\u7406\u89e3\u4ee5\u53ca\u77e5\u8bc6\u7684\u63a2\u7d22\u548c\u63a8\u65ad\u3001\u7b80\u5386\u81ea\u52a8\u7b5b\u9009\u7cfb\u7edf\u3001\u57fa\u4e8e\u547d\u540d\u5b9e\u4f53\u8bc6\u522b\u7684\u7b80\u5386\u81ea\u52a8\u6458\u8981\u3001\u4e2d\u6587\u8bed\u8a00\u7406\u89e3\u6d4b\u8bc4\u57fa\u51c6\uff0c\u5305\u62ec\u4ee3\u8868\u6027\u7684\u6570\u636e\u96c6&\u57fa\u51c6\u6a21\u578b&\u8bed\u6599\u5e93&\u6392\u884c\u699c\u3001\u6811\u6d1e OCR \u6587\u5b57\u8bc6\u522b \u3001\u4ece\u5305\u542b\u8868\u683c\u7684\u626b\u63cf\u56fe\u7247\u4e2d\u8bc6\u522b\u8868\u683c\u548c\u6587\u5b57\u3001\u8bed\u58f0\u8fc1\u79fb\u3001Python\u53e3\u8bed\u81ea\u7136\u8bed\u8a00\u5904\u7406\u5de5\u5177\u96c6(\u82f1\u6587)\u3001 similarity\uff1a\u76f8\u4f3c\u5ea6\u8ba1\u7b97\u5de5\u5177\u5305\uff0cjava\u7f16\u5199\u3001\u6d77\u91cf\u4e2d\u6587\u9884\u8bad\u7ec3ALBERT\u6a21\u578b \u3001Transformers 2.0 \u3001\u57fa\u4e8e\u5927\u89c4\u6a21\u97f3\u9891\u6570\u636e\u96c6Audioset\u7684\u97f3\u9891\u589e\u5f3a \u3001Poplar\uff1a\u7f51\u9875\u7248\u81ea\u7136\u8bed\u8a00\u6807\u6ce8\u5de5\u5177\u3001\u56fe\u7247\u6587\u5b57\u53bb\u9664\uff0c\u53ef\u7528\u4e8e\u6f2b\u753b\u7ffb\u8bd1 \u3001186\u79cd\u8bed\u8a00\u7684\u6570\u5b57\u53eb\u6cd5\u5e93\u3001Amazon\u53d1\u5e03\u57fa\u4e8e\u77e5\u8bc6\u7684\u4eba-\u4eba\u5f00\u653e\u9886\u57df\u5bf9\u8bdd\u6570\u636e\u96c6 \u3001\u4e2d\u6587\u6587\u672c\u7ea0\u9519\u6a21\u5757\u4ee3\u7801\u3001\u7e41\u7b80\u4f53\u8f6c\u6362 \u3001 Python\u5b9e\u73b0\u7684\u591a\u79cd\u6587\u672c\u53ef\u8bfb\u6027\u8bc4\u4ef7\u6307\u6807\u3001\u7c7b\u4f3c\u4e8e\u4eba\u540d/\u5730\u540d/\u7ec4\u7ec7\u673a\u6784\u540d\u7684\u547d\u540d\u4f53\u8bc6\u522b\u6570\u636e\u96c6 \u3001\u4e1c\u5357\u5927\u5b66\u300a\u77e5\u8bc6\u56fe\u8c31\u300b\u7814\u7a76\u751f\u8bfe\u7a0b(\u8d44\u6599)\u3001. \u82f1\u6587\u62fc\u5199\u68c0\u67e5\u5e93 \u3001 wwsearch\u662f\u4f01\u4e1a\u5fae\u4fe1\u540e\u53f0\u81ea\u7814\u7684\u5168\u6587\u68c0\u7d22\u5f15\u64ce\u3001CHAMELEON\uff1a\u6df1\u5ea6\u5b66\u4e60\u65b0\u95fb\u63a8\u8350\u7cfb\u7edf\u5143\u67b6\u6784 \u3001 8\u7bc7\u8bba\u6587\u68b3\u7406BERT\u76f8\u5173\u6a21\u578b\u8fdb\u5c55\u4e0e\u53cd\u601d\u3001DocSearch\uff1a\u514d\u8d39\u6587\u6863\u641c\u7d22\u5f15\u64ce\u3001 LIDA\uff1a\u8f7b\u91cf\u4ea4\u4e92\u5f0f\u5bf9\u8bdd\u6807\u6ce8\u5de5\u5177 \u3001aili - the fastest in-memory index in the East \u4e1c\u534a\u7403\u6700\u5feb\u5e76\u53d1\u7d22\u5f15 \u3001\u77e5\u8bc6\u56fe\u8c31\u8f66\u97f3\u5de5\u4f5c\u9879\u76ee\u3001\u81ea\u7136\u8bed\u8a00\u751f\u6210\u8d44\u6e90\u5927\u5168 \u3001\u4e2d\u65e5\u97e9\u5206\u8bcd\u5e93mecab\u7684Python\u63a5\u53e3\u5e93\u3001\u4e2d\u6587\u6587\u672c\u6458\u8981/\u5173\u952e\u8bcd\u63d0\u53d6\u3001\u6c49\u5b57\u5b57\u7b26\u7279\u5f81\u63d0\u53d6\u5668 (featurizer)\uff0c\u63d0\u53d6\u6c49\u5b57\u7684\u7279\u5f81\uff08\u53d1\u97f3\u7279\u5f81\u3001\u5b57\u5f62\u7279\u5f81\uff09\u7528\u505a\u6df1\u5ea6\u5b66\u4e60\u7684\u7279\u5f81\u3001\u4e2d\u6587\u751f\u6210\u4efb\u52a1\u57fa\u51c6\u6d4b\u8bc4 \u3001\u4e2d\u6587\u7f29\u5199\u6570\u636e\u96c6\u3001\u4e2d\u6587\u4efb\u52a1\u57fa\u51c6\u6d4b\u8bc4 - \u4ee3\u8868\u6027\u7684\u6570\u636e\u96c6-\u57fa\u51c6(\u9884\u8bad\u7ec3)\u6a21\u578b-\u8bed\u6599\u5e93-baseline-\u5de5\u5177\u5305-\u6392\u884c\u699c\u3001PySS3\uff1a\u9762\u5411\u53ef\u89e3\u91caAI\u7684SS3\u6587\u672c\u5206\u7c7b\u5668\u673a\u5668\u53ef\u89c6\u5316\u5de5\u5177 \u3001\u4e2d\u6587NLP\u6570\u636e\u96c6\u5217\u8868\u3001COPE - \u683c\u5f8b\u8bd7\u7f16\u8f91\u7a0b\u5e8f\u3001doccano\uff1a\u57fa\u4e8e\u7f51\u9875\u7684\u5f00\u6e90\u534f\u540c\u591a\u8bed\u8a00\u6587\u672c\u6807\u6ce8\u5de5\u5177 \u3001PreNLP\uff1a\u81ea\u7136\u8bed\u8a00\u9884\u5904\u7406\u5e93\u3001\u7b80\u5355\u7684\u7b80\u5386\u89e3\u6790\u5668\uff0c\u7528\u6765\u4ece\u7b80\u5386\u4e2d\u63d0\u53d6\u5173\u952e\u4fe1\u606f\u3001\u7528\u4e8e\u4e2d\u6587\u95f2\u804a\u7684GPT2\u6a21\u578b\uff1aGPT2-chitchat\u3001\u57fa\u4e8e\u68c0\u7d22\u804a\u5929\u673a\u5668\u4eba\u591a\u8f6e\u54cd\u5e94\u9009\u62e9\u76f8\u5173\u8d44\u6e90\u5217\u8868(Leaderboards\u3001Datasets\u3001Papers)\u3001(Colab)\u62bd\u8c61\u6587\u672c\u6458\u8981\u5b9e\u73b0\u96c6\u9526(\u6559\u7a0b \u3001\u8bcd\u8bed\u62fc\u97f3\u6570\u636e\u3001\u9ad8\u6548\u6a21\u7cca\u641c\u7d22\u5de5\u5177\u3001NLP\u6570\u636e\u589e\u5e7f\u8d44\u6e90\u96c6\u3001\u5fae\u8f6f\u5bf9\u8bdd\u673a\u5668\u4eba\u6846\u67b6 \u3001 GitHub Typo Corpus\uff1a\u5927\u89c4\u6a21GitHub\u591a\u8bed\u8a00\u62fc\u5199\u9519\u8bef/\u8bed\u6cd5\u9519\u8bef\u6570\u636e\u96c6\u3001TextCluster\uff1a\u77ed\u6587\u672c\u805a\u7c7b\u9884\u5904\u7406\u6a21\u5757 Short text cluster\u3001\u9762\u5411\u8bed\u97f3\u8bc6\u522b\u7684\u4e2d\u6587\u6587\u672c\u89c4\u8303\u5316\u3001BLINK\uff1a\u6700\u5148\u8fdb\u7684\u5b9e\u4f53\u94fe\u63a5\u5e93\u3001BertPunc\uff1a\u57fa\u4e8eBERT\u7684\u6700\u5148\u8fdb\u6807\u70b9\u4fee\u590d\u6a21\u578b\u3001Tokenizer\uff1a\u5feb\u901f\u3001\u53ef\u5b9a\u5236\u7684\u6587\u672c\u8bcd\u6761\u5316\u5e93\u3001\u4e2d\u6587\u8bed\u8a00\u7406\u89e3\u6d4b\u8bc4\u57fa\u51c6\uff0c\u5305\u62ec\u4ee3\u8868\u6027\u7684\u6570\u636e\u96c6\u3001\u57fa\u51c6(\u9884\u8bad\u7ec3)\u6a21\u578b\u3001\u8bed\u6599\u5e93\u3001\u6392\u884c\u699c\u3001spaCy \u533b\u5b66\u6587\u672c\u6316\u6398\u4e0e\u4fe1\u606f\u63d0\u53d6 \u3001 NLP\u4efb\u52a1\u793a\u4f8b\u9879\u76ee\u4ee3\u7801\u96c6\u3001 python\u62fc\u5199\u68c0\u67e5\u5e93\u3001chatbot-list - \u884c\u4e1a\u5185\u5173\u4e8e\u667a\u80fd\u5ba2\u670d\u3001\u804a\u5929\u673a\u5668\u4eba\u7684\u5e94\u7528\u548c\u67b6\u6784\u3001\u7b97\u6cd5\u5206\u4eab\u548c\u4ecb\u7ecd\u3001\u8bed\u97f3\u8d28\u91cf\u8bc4\u4ef7\u6307\u6807(MOSNet, BSSEval, STOI, PESQ, SRMR)\u3001 \u7528138GB\u8bed\u6599\u8bad\u7ec3\u7684\u6cd5\u6587RoBERTa\u9884\u8bad\u7ec3\u8bed\u8a00\u6a21\u578b \u3001BERT-NER-Pytorch\uff1a\u4e09\u79cd\u4e0d\u540c\u6a21\u5f0f\u7684BERT\u4e2d\u6587NER\u5b9e\u9a8c\u3001\u65e0\u9053\u8bcd\u5178 - \u6709\u9053\u8bcd\u5178\u7684\u547d\u4ee4\u884c\u7248\u672c\uff0c\u652f\u6301\u82f1\u6c49\u4e92\u67e5\u548c\u5728\u7ebf\u67e5\u8be2\u30012019\u5e74NLP\u4eae\u70b9\u56de\u987e\u3001 Chinese medical dialogue data \u4e2d\u6587\u533b\u7597\u5bf9\u8bdd\u6570\u636e\u96c6 \u3001\u6700\u597d\u7684\u6c49\u5b57\u6570\u5b57(\u4e2d\u6587\u6570\u5b57)-\u963f\u62c9\u4f2f\u6570\u5b57\u8f6c\u6362\u5de5\u5177\u3001 \u57fa\u4e8e\u767e\u79d1\u77e5\u8bc6\u5e93\u7684\u4e2d\u6587\u8bcd\u8bed\u591a\u8bcd\u4e49/\u4e49\u9879\u83b7\u53d6\u4e0e\u7279\u5b9a\u53e5\u5b50\u8bcd\u8bed\u8bed\u4e49\u6d88\u6b67\u3001awesome-nlp-sentiment-analysis - \u60c5\u611f\u5206\u6790\u3001\u60c5\u7eea\u539f\u56e0\u8bc6\u522b\u3001\u8bc4\u4ef7\u5bf9\u8c61\u548c\u8bc4\u4ef7\u8bcd\u62bd\u53d6\u3001LineFlow\uff1a\u9762\u5411\u6240\u6709\u6df1\u5ea6\u5b66\u4e60\u6846\u67b6\u7684NLP\u6570\u636e\u9ad8\u6548\u52a0\u8f7d\u5668\u3001\u4e2d\u6587\u533b\u5b66NLP\u516c\u5f00\u8d44\u6e90\u6574\u7406 \u3001MedQuAD\uff1a(\u82f1\u6587)\u533b\u5b66\u95ee\u7b54\u6570\u636e\u96c6\u3001\u5c06\u81ea\u7136\u8bed\u8a00\u6570\u5b57\u4e32\u89e3\u6790\u8f6c\u6362\u4e3a\u6574\u6570\u548c\u6d6e\u70b9\u6570\u3001Transfer Learning in Natural Language Processing (NLP) \u3001\u9762\u5411\u8bed\u97f3\u8bc6\u522b\u7684\u4e2d\u6587/\u82f1\u6587\u53d1\u97f3\u8f9e\u5178\u3001Tokenizers\uff1a\u6ce8\u91cd\u6027\u80fd\u4e0e\u591a\u529f\u80fd\u6027\u7684\u6700\u5148\u8fdb\u5206\u8bcd\u5668\u3001CLUENER \u7ec6\u7c92\u5ea6\u547d\u540d\u5b9e\u4f53\u8bc6\u522b Fine Grained Named Entity Recognition\u3001 \u57fa\u4e8eBERT\u7684\u4e2d\u6587\u547d\u540d\u5b9e\u4f53\u8bc6\u522b\u3001\u4e2d\u6587\u8c23\u8a00\u6570\u636e\u5e93\u3001NLP\u6570\u636e\u96c6/\u57fa\u51c6\u4efb\u52a1\u5927\u5217\u8868\u3001nlp\u76f8\u5173\u7684\u4e00\u4e9b\u8bba\u6587\u53ca\u4ee3\u7801, \u5305\u62ec\u4e3b\u9898\u6a21\u578b\u3001\u8bcd\u5411\u91cf(Word Embedding)\u3001\u547d\u540d\u5b9e\u4f53\u8bc6\u522b(NER)\u3001\u6587\u672c\u5206\u7c7b(Text Classificatin)\u3001\u6587\u672c\u751f\u6210(Text Generation)\u3001\u6587\u672c\u76f8\u4f3c\u6027(Text Similarity)\u8ba1\u7b97\u7b49\uff0c\u6d89\u53ca\u5230\u5404\u79cd\u4e0enlp\u76f8\u5173\u7684\u7b97\u6cd5\uff0c\u57fa\u4e8ekeras\u548ctensorflow \u3001Python\u6587\u672c\u6316\u6398/NLP\u5b9e\u6218\u793a\u4f8b\u3001 Blackstone\uff1a\u9762\u5411\u975e\u7ed3\u6784\u5316\u6cd5\u5f8b\u6587\u672c\u7684spaCy pipeline\u548cNLP\u6a21\u578b\u901a\u8fc7\u540c\u4e49\u8bcd\u66ff\u6362\u5b9e\u73b0\u6587\u672c\u201c\u53d8\u8138\u201d \u3001\u4e2d\u6587 \u9884\u8bad\u7ec3 ELECTREA \u6a21\u578b: \u57fa\u4e8e\u5bf9\u6297\u5b66\u4e60 pretrain Chinese Model \u3001albert-chinese-ner - \u7528\u9884\u8bad\u7ec3\u8bed\u8a00\u6a21\u578bALBERT\u505a\u4e2d\u6587NER \u3001\u57fa\u4e8eGPT2\u7684\u7279\u5b9a\u4e3b\u9898\u6587\u672c\u751f\u6210/\u6587\u672c\u589e\u5e7f\u3001\u5f00\u6e90\u9884\u8bad\u7ec3\u8bed\u8a00\u6a21\u578b\u5408\u96c6\u3001\u591a\u8bed\u8a00\u53e5\u5411\u91cf\u5305\u3001\u7f16\u7801\u3001\u6807\u8bb0\u548c\u5b9e\u73b0\uff1a\u4e00\u79cd\u53ef\u63a7\u9ad8\u6548\u7684\u6587\u672c\u751f\u6210\u65b9\u6cd5\u3001 \u82f1\u6587\u810f\u8bdd\u5927\u5217\u8868 \u3001attnvis\uff1aGPT2\u3001BERT\u7b49transformer\u8bed\u8a00\u6a21\u578b\u6ce8\u610f\u529b\u4ea4\u4e92\u53ef\u89c6\u5316\u3001CoVoST\uff1aFacebook\u53d1\u5e03\u7684\u591a\u8bed\u79cd\u8bed\u97f3-\u6587\u672c\u7ffb\u8bd1\u8bed\u6599\u5e93\uff0c\u5305\u62ec11\u79cd\u8bed\u8a00(\u6cd5\u8bed\u3001\u5fb7\u8bed\u3001\u8377\u5170\u8bed\u3001\u4fc4\u8bed\u3001\u897f\u73ed\u7259\u8bed\u3001\u610f\u5927\u5229\u8bed\u3001\u571f\u8033\u5176\u8bed\u3001\u6ce2\u65af\u8bed\u3001\u745e\u5178\u8bed\u3001\u8499\u53e4\u8bed\u548c\u4e2d\u6587)\u7684\u8bed\u97f3\u3001\u6587\u5b57\u8f6c\u5f55\u53ca\u82f1\u6587\u8bd1\u6587\u3001Jiagu\u81ea\u7136\u8bed\u8a00\u5904\u7406\u5de5\u5177 - \u4ee5BiLSTM\u7b49\u6a21\u578b\u4e3a\u57fa\u7840\uff0c\u63d0\u4f9b\u77e5\u8bc6\u56fe\u8c31\u5173\u7cfb\u62bd\u53d6 \u4e2d\u6587\u5206\u8bcd \u8bcd\u6027\u6807\u6ce8 \u547d\u540d\u5b9e\u4f53\u8bc6\u522b \u60c5\u611f\u5206\u6790 \u65b0\u8bcd\u53d1\u73b0 \u5173\u952e\u8bcd \u6587\u672c\u6458\u8981 \u6587\u672c\u805a\u7c7b\u7b49\u529f\u80fd\u3001\u7528unet\u5b9e\u73b0\u5bf9\u6587\u6863\u8868\u683c\u7684\u81ea\u52a8\u68c0\u6d4b\uff0c\u8868\u683c\u91cd\u5efa\u3001NLP\u4e8b\u4ef6\u63d0\u53d6\u6587\u732e\u8d44\u6e90\u5217\u8868 \u3001 \u91d1\u878d\u9886\u57df\u81ea\u7136\u8bed\u8a00\u5904\u7406\u7814\u7a76\u8d44\u6e90\u5927\u5217\u8868\u3001CLUEDatasetSearch - \u4e2d\u82f1\u6587NLP\u6570\u636e\u96c6\uff1a\u641c\u7d22\u6240\u6709\u4e2d\u6587NLP\u6570\u636e\u96c6\uff0c\u9644\u5e38\u7528\u82f1\u6587NLP\u6570\u636e\u96c6 \u3001medical_NER - \u4e2d\u6587\u533b\u5b66\u77e5\u8bc6\u56fe\u8c31\u547d\u540d\u5b9e\u4f53\u8bc6\u522b \u3001(\u54c8\u4f5b)\u8bb2\u56e0\u679c\u63a8\u7406\u7684\u514d\u8d39\u4e66\u3001\u77e5\u8bc6\u56fe\u8c31\u76f8\u5173\u5b66\u4e60\u8d44\u6599/\u6570\u636e\u96c6/\u5de5\u5177\u8d44\u6e90\u5927\u5217\u8868\u3001Forte\uff1a\u7075\u6d3b\u5f3a\u5927\u7684\u81ea\u7136\u8bed\u8a00\u5904\u7406pipeline\u5de5\u5177\u96c6 \u3001Python\u5b57\u7b26\u4e32\u76f8\u4f3c\u6027\u7b97\u6cd5\u5e93\u3001PyLaia\uff1a\u9762\u5411\u624b\u5199\u6587\u6863\u5206\u6790\u7684\u6df1\u5ea6\u5b66\u4e60\u5de5\u5177\u5305\u3001TextFooler\uff1a\u9488\u5bf9\u6587\u672c\u5206\u7c7b/\u63a8\u7406\u7684\u5bf9\u6297\u6587\u672c\u751f\u6210\u6a21\u5757\u3001Haystack\uff1a\u7075\u6d3b\u3001\u5f3a\u5927\u7684\u53ef\u6269\u5c55\u95ee\u7b54(QA)\u6846\u67b6\u3001\u4e2d\u6587\u5173\u952e\u77ed\u8bed\u62bd\u53d6\u5de5\u5177",
           "language": "Python",
           "stars": 78812,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "tensorflow",
@@ -1603,7 +1949,7 @@
           "description": "Models and examples built with TensorFlow",
           "language": "Python",
           "stars": 77683,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
         },
         {
           "owner": "browser-use",
@@ -1612,8 +1958,1025 @@
           "url": "https://github.com/browser-use/browser-use",
           "description": "\ud83c\udf10 Make websites accessible for AI agents. Automate tasks online with ease.",
           "language": "Python",
-          "stars": 77636,
-          "discovered_at": "2026-02-02T22:24:12.928158+00:00"
+          "stars": 77637,
+          "discovered_at": "2026-02-02T23:15:01.106116+00:00"
+        }
+      ]
+    },
+    {
+      "id": "search:stars:>10000 language:javascript",
+      "type": "search",
+      "query": "stars:>10000 language:javascript",
+      "count": 100,
+      "repos": [
+        {
+          "owner": "facebook",
+          "name": "react",
+          "full_name": "facebook/react",
+          "url": "https://github.com/facebook/react",
+          "description": "The library for web and native user interfaces.",
+          "language": "JavaScript",
+          "stars": 242719,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00",
+          "ai_tools": [
+            "Claude"
+          ]
+        },
+        {
+          "owner": "trekhleb",
+          "name": "javascript-algorithms",
+          "full_name": "trekhleb/javascript-algorithms",
+          "url": "https://github.com/trekhleb/javascript-algorithms",
+          "description": "\ud83d\udcdd Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
+          "language": "JavaScript",
+          "stars": 195489,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "airbnb",
+          "name": "javascript",
+          "full_name": "airbnb/javascript",
+          "url": "https://github.com/airbnb/javascript",
+          "description": "JavaScript Style Guide",
+          "language": "JavaScript",
+          "stars": 148092,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "vercel",
+          "name": "next.js",
+          "full_name": "vercel/next.js",
+          "url": "https://github.com/vercel/next.js",
+          "description": "The React Framework",
+          "language": "JavaScript",
+          "stars": 137484,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "Chalarangelo",
+          "name": "30-seconds-of-code",
+          "full_name": "Chalarangelo/30-seconds-of-code",
+          "url": "https://github.com/Chalarangelo/30-seconds-of-code",
+          "description": "Coding articles to level up your development skills",
+          "language": "JavaScript",
+          "stars": 126629,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00",
+          "ai_tools": [
+            "GitHub Copilot"
+          ]
+        },
+        {
+          "owner": "nodejs",
+          "name": "node",
+          "full_name": "nodejs/node",
+          "url": "https://github.com/nodejs/node",
+          "description": "Node.js JavaScript runtime \u2728\ud83d\udc22\ud83d\ude80\u2728",
+          "language": "JavaScript",
+          "stars": 115528,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "mrdoob",
+          "name": "three.js",
+          "full_name": "mrdoob/three.js",
+          "url": "https://github.com/mrdoob/three.js",
+          "description": "JavaScript 3D Library.",
+          "language": "JavaScript",
+          "stars": 110687,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "axios",
+          "name": "axios",
+          "full_name": "axios/axios",
+          "url": "https://github.com/axios/axios",
+          "description": "Promise based HTTP client for the browser and node.js",
+          "language": "JavaScript",
+          "stars": 108563,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00",
+          "ai_tools": [
+            "GitHub Copilot"
+          ]
+        },
+        {
+          "owner": "facebook",
+          "name": "create-react-app",
+          "full_name": "facebook/create-react-app",
+          "url": "https://github.com/facebook/create-react-app",
+          "description": "Set up a modern web app by running one command.",
+          "language": "JavaScript",
+          "stars": 103956,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "jaywcjlove",
+          "name": "awesome-mac",
+          "full_name": "jaywcjlove/awesome-mac",
+          "url": "https://github.com/jaywcjlove/awesome-mac",
+          "description": "\uf8ff Now we have become very big, Different from the original idea. Collect premium software in various categories.",
+          "language": "JavaScript",
+          "stars": 98406,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "mui",
+          "name": "material-ui",
+          "full_name": "mui/material-ui",
+          "url": "https://github.com/mui/material-ui",
+          "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
+          "language": "JavaScript",
+          "stars": 97749,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "microsoft",
+          "name": "Web-Dev-For-Beginners",
+          "full_name": "microsoft/Web-Dev-For-Beginners",
+          "url": "https://github.com/microsoft/Web-Dev-For-Beginners",
+          "description": "24 Lessons, 12 Weeks, Get Started as a Web Developer",
+          "language": "JavaScript",
+          "stars": 95212,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "ryanmcdermott",
+          "name": "clean-code-javascript",
+          "full_name": "ryanmcdermott/clean-code-javascript",
+          "url": "https://github.com/ryanmcdermott/clean-code-javascript",
+          "description": "Clean Code concepts adapted for JavaScript",
+          "language": "JavaScript",
+          "stars": 94289,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "sveltejs",
+          "name": "svelte",
+          "full_name": "sveltejs/svelte",
+          "url": "https://github.com/sveltejs/svelte",
+          "description": "web development for the rest of us",
+          "language": "JavaScript",
+          "stars": 85659,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "louislam",
+          "name": "uptime-kuma",
+          "full_name": "louislam/uptime-kuma",
+          "url": "https://github.com/louislam/uptime-kuma",
+          "description": "A fancy self-hosted monitoring tool",
+          "language": "JavaScript",
+          "stars": 82264,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "anuraghazra",
+          "name": "github-readme-stats",
+          "full_name": "anuraghazra/github-readme-stats",
+          "url": "https://github.com/anuraghazra/github-readme-stats",
+          "description": ":zap: Dynamically generated stats for your github readmes",
+          "language": "JavaScript",
+          "stars": 78189,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "FortAwesome",
+          "name": "Font-Awesome",
+          "full_name": "FortAwesome/Font-Awesome",
+          "url": "https://github.com/FortAwesome/Font-Awesome",
+          "description": "The iconic SVG, font, and CSS toolkit",
+          "language": "JavaScript",
+          "stars": 76287,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "typicode",
+          "name": "json-server",
+          "full_name": "typicode/json-server",
+          "url": "https://github.com/typicode/json-server",
+          "description": "Get a full fake REST API with zero coding in less than 30 seconds (seriously)",
+          "language": "JavaScript",
+          "stars": 75618,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "hakimel",
+          "name": "reveal.js",
+          "full_name": "hakimel/reveal.js",
+          "url": "https://github.com/hakimel/reveal.js",
+          "description": "The HTML Presentation Framework",
+          "language": "JavaScript",
+          "stars": 70503,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "expressjs",
+          "name": "express",
+          "full_name": "expressjs/express",
+          "url": "https://github.com/expressjs/express",
+          "description": "Fast, unopinionated, minimalist web framework for node.",
+          "language": "JavaScript",
+          "stars": 68644,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "chartjs",
+          "name": "Chart.js",
+          "full_name": "chartjs/Chart.js",
+          "url": "https://github.com/chartjs/Chart.js",
+          "description": "Simple HTML5 Charts using the <canvas> tag",
+          "language": "JavaScript",
+          "stars": 67077,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "juliangarnier",
+          "name": "anime",
+          "full_name": "juliangarnier/anime",
+          "url": "https://github.com/juliangarnier/anime",
+          "description": "JavaScript animation engine",
+          "language": "JavaScript",
+          "stars": 66323,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "leonardomso",
+          "name": "33-js-concepts",
+          "full_name": "leonardomso/33-js-concepts",
+          "url": "https://github.com/leonardomso/33-js-concepts",
+          "description": "\ud83d\udcdc 33 JavaScript concepts every developer should know.",
+          "language": "JavaScript",
+          "stars": 66222,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "webpack",
+          "name": "webpack",
+          "full_name": "webpack/webpack",
+          "url": "https://github.com/webpack/webpack",
+          "description": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.",
+          "language": "JavaScript",
+          "stars": 65940,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "resume",
+          "name": "resume.github.com",
+          "full_name": "resume/resume.github.com",
+          "url": "https://github.com/resume/resume.github.com",
+          "description": "Resumes generated using the GitHub informations",
+          "language": "JavaScript",
+          "stars": 62791,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "lodash",
+          "name": "lodash",
+          "full_name": "lodash/lodash",
+          "url": "https://github.com/lodash/lodash",
+          "description": "A modern JavaScript utility library delivering modularity, performance, & extras.",
+          "language": "JavaScript",
+          "stars": 61601,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "gorhill",
+          "name": "uBlock",
+          "full_name": "gorhill/uBlock",
+          "url": "https://github.com/gorhill/uBlock",
+          "description": "uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.",
+          "language": "JavaScript",
+          "stars": 61300,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "atom",
+          "name": "atom",
+          "full_name": "atom/atom",
+          "url": "https://github.com/atom/atom",
+          "description": ":atom: The hackable text editor",
+          "language": "JavaScript",
+          "stars": 61003,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "adam-p",
+          "name": "markdown-here",
+          "full_name": "adam-p/markdown-here",
+          "url": "https://github.com/adam-p/markdown-here",
+          "description": "Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending.",
+          "language": "JavaScript",
+          "stars": 60127,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "jquery",
+          "name": "jquery",
+          "full_name": "jquery/jquery",
+          "url": "https://github.com/jquery/jquery",
+          "description": "jQuery JavaScript Library",
+          "language": "JavaScript",
+          "stars": 59830,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "jgraph",
+          "name": "drawio-desktop",
+          "full_name": "jgraph/drawio-desktop",
+          "url": "https://github.com/jgraph/drawio-desktop",
+          "description": "Official electron build of draw.io",
+          "language": "JavaScript",
+          "stars": 59272,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "angular",
+          "name": "angular.js",
+          "full_name": "angular/angular.js",
+          "url": "https://github.com/angular/angular.js",
+          "description": "AngularJS - HTML enhanced for web apps!",
+          "language": "JavaScript",
+          "stars": 58990,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "h5bp",
+          "name": "html5-boilerplate",
+          "full_name": "h5bp/html5-boilerplate",
+          "url": "https://github.com/h5bp/html5-boilerplate",
+          "description": "A professional front-end template for building fast, robust, and adaptable web apps or sites.",
+          "language": "JavaScript",
+          "stars": 57388,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "scutan90",
+          "name": "DeepLearning-500-questions",
+          "full_name": "scutan90/DeepLearning-500-questions",
+          "url": "https://github.com/scutan90/DeepLearning-500-questions",
+          "description": "\u6df1\u5ea6\u5b66\u4e60500\u95ee\uff0c\u4ee5\u95ee\u7b54\u5f62\u5f0f\u5bf9\u5e38\u7528\u7684\u6982\u7387\u77e5\u8bc6\u3001\u7ebf\u6027\u4ee3\u6570\u3001\u673a\u5668\u5b66\u4e60\u3001\u6df1\u5ea6\u5b66\u4e60\u3001\u8ba1\u7b97\u673a\u89c6\u89c9\u7b49\u70ed\u70b9\u95ee\u9898\u8fdb\u884c\u9610\u8ff0\uff0c\u4ee5\u5e2e\u52a9\u81ea\u5df1\u53ca\u6709\u9700\u8981\u7684\u8bfb\u8005\u3002 \u5168\u4e66\u5206\u4e3a18\u4e2a\u7ae0\u8282\uff0c50\u4f59\u4e07\u5b57\u3002\u7531\u4e8e\u6c34\u5e73\u6709\u9650\uff0c\u4e66\u4e2d\u4e0d\u59a5\u4e4b\u5904\u6073\u8bf7\u5e7f\u5927\u8bfb\u8005\u6279\u8bc4\u6307\u6b63\u3002   \u672a\u5b8c\u5f85\u7eed............ \u5982\u6709\u610f\u5408\u4f5c\uff0c\u8054\u7cfbscutjy2015@163.com                     \u7248\u6743\u6240\u6709\uff0c\u8fdd\u6743\u5fc5\u7a76       Tan 2018.06",
+          "language": "JavaScript",
+          "stars": 57114,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "gatsbyjs",
+          "name": "gatsby",
+          "full_name": "gatsbyjs/gatsby",
+          "url": "https://github.com/gatsbyjs/gatsby",
+          "description": "The best React-based framework with performance, scalability and security built in.",
+          "language": "JavaScript",
+          "stars": 55972,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "azl397985856",
+          "name": "leetcode",
+          "full_name": "azl397985856/leetcode",
+          "url": "https://github.com/azl397985856/leetcode",
+          "description": "LeetCode Solutions: A Record of My Problem Solving Journey.( leetcode\u9898\u89e3\uff0c\u8bb0\u5f55\u81ea\u5df1\u7684leetcode\u89e3\u9898\u4e4b\u8def\u3002)",
+          "language": "JavaScript",
+          "stars": 55799,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "Mintplex-Labs",
+          "name": "anything-llm",
+          "full_name": "Mintplex-Labs/anything-llm",
+          "url": "https://github.com/Mintplex-Labs/anything-llm",
+          "description": "The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility,  and more.",
+          "language": "JavaScript",
+          "stars": 54098,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "marktext",
+          "name": "marktext",
+          "full_name": "marktext/marktext",
+          "url": "https://github.com/marktext/marktext",
+          "description": "\ud83d\udcddA simple and elegant markdown editor, available for Linux, macOS and Windows.",
+          "language": "JavaScript",
+          "stars": 53618,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "mozilla",
+          "name": "pdf.js",
+          "full_name": "mozilla/pdf.js",
+          "url": "https://github.com/mozilla/pdf.js",
+          "description": "PDF Reader in JavaScript",
+          "language": "JavaScript",
+          "stars": 52767,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "TryGhost",
+          "name": "Ghost",
+          "full_name": "TryGhost/Ghost",
+          "url": "https://github.com/TryGhost/Ghost",
+          "description": "Independent technology for modern publishing, memberships, subscriptions and newsletters.",
+          "language": "JavaScript",
+          "stars": 51732,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "prettier",
+          "name": "prettier",
+          "full_name": "prettier/prettier",
+          "url": "https://github.com/prettier/prettier",
+          "description": "Prettier is an opinionated code formatter.",
+          "language": "JavaScript",
+          "stars": 51505,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "Semantic-Org",
+          "name": "Semantic-UI",
+          "full_name": "Semantic-Org/Semantic-UI",
+          "url": "https://github.com/Semantic-Org/Semantic-UI",
+          "description": "Semantic is a UI component framework based around useful principles from natural language.",
+          "language": "JavaScript",
+          "stars": 51172,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "chinese-poetry",
+          "name": "chinese-poetry",
+          "full_name": "chinese-poetry/chinese-poetry",
+          "url": "https://github.com/chinese-poetry/chinese-poetry",
+          "description": "The most comprehensive database of Chinese poetry \ud83e\uddf6\u6700\u5168\u4e2d\u534e\u53e4\u8bd7\u8bcd\u6570\u636e\u5e93,  \u5510\u5b8b\u4e24\u671d\u8fd1\u4e00\u4e07\u56db\u5343\u53e4\u8bd7\u4eba,  \u63a5\u8fd15.5\u4e07\u9996\u5510\u8bd7\u52a026\u4e07\u5b8b\u8bd7.  \u4e24\u5b8b\u65f6\u671f1564\u4f4d\u8bcd\u4eba\uff0c21050\u9996\u8bcd\u3002",
+          "language": "JavaScript",
+          "stars": 50914,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "agalwood",
+          "name": "Motrix",
+          "full_name": "agalwood/Motrix",
+          "url": "https://github.com/agalwood/Motrix",
+          "description": "A full-featured download manager.",
+          "language": "JavaScript",
+          "stars": 50686,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "poteto",
+          "name": "hiring-without-whiteboards",
+          "full_name": "poteto/hiring-without-whiteboards",
+          "url": "https://github.com/poteto/hiring-without-whiteboards",
+          "description": "\u2b50\ufe0f  Companies that don't have a broken hiring process",
+          "language": "JavaScript",
+          "stars": 50401,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "NARKOZ",
+          "name": "hacker-scripts",
+          "full_name": "NARKOZ/hacker-scripts",
+          "url": "https://github.com/NARKOZ/hacker-scripts",
+          "description": "Based on a true story",
+          "language": "JavaScript",
+          "stars": 49406,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "iamkun",
+          "name": "dayjs",
+          "full_name": "iamkun/dayjs",
+          "url": "https://github.com/iamkun/dayjs",
+          "description": "\u23f0 Day.js 2kB immutable date-time library alternative to Moment.js with the same modern API",
+          "language": "JavaScript",
+          "stars": 48529,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "algorithm-visualizer",
+          "name": "algorithm-visualizer",
+          "full_name": "algorithm-visualizer/algorithm-visualizer",
+          "url": "https://github.com/algorithm-visualizer/algorithm-visualizer",
+          "description": ":fireworks:Interactive Online Platform that Visualizes Algorithms from Code",
+          "language": "JavaScript",
+          "stars": 48344,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "moment",
+          "name": "moment",
+          "full_name": "moment/moment",
+          "url": "https://github.com/moment/moment",
+          "description": "Parse, validate, manipulate, and display dates in javascript.",
+          "language": "JavaScript",
+          "stars": 48086,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "bigskysoftware",
+          "name": "htmx",
+          "full_name": "bigskysoftware/htmx",
+          "url": "https://github.com/bigskysoftware/htmx",
+          "description": "</> htmx - high power tools for HTML",
+          "language": "JavaScript",
+          "stars": 47332,
+          "discovered_at": "2026-02-03T00:42:01.132507+00:00"
+        },
+        {
+          "owner": "public-apis",
+          "name": "public-apis",
+          "full_name": "public-apis/public-apis",
+          "url": "https://github.com/public-apis/public-apis",
+          "description": "A collective list of free APIs",
+          "language": "Python",
+          "stars": 394903,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "EbookFoundation",
+          "name": "free-programming-books",
+          "full_name": "EbookFoundation/free-programming-books",
+          "url": "https://github.com/EbookFoundation/free-programming-books",
+          "description": ":books: Freely available programming books",
+          "language": "Python",
+          "stars": 381930,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "donnemartin",
+          "name": "system-design-primer",
+          "full_name": "donnemartin/system-design-primer",
+          "url": "https://github.com/donnemartin/system-design-primer",
+          "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+          "language": "Python",
+          "stars": 334200,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "vinta",
+          "name": "awesome-python",
+          "full_name": "vinta/awesome-python",
+          "url": "https://github.com/vinta/awesome-python",
+          "description": "An opinionated list of awesome Python frameworks, libraries, software and resources.",
+          "language": "Python",
+          "stars": 281140,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "TheAlgorithms",
+          "name": "Python",
+          "full_name": "TheAlgorithms/Python",
+          "url": "https://github.com/TheAlgorithms/Python",
+          "description": "All Algorithms implemented in Python",
+          "language": "Python",
+          "stars": 217436,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "Significant-Gravitas",
+          "name": "AutoGPT",
+          "full_name": "Significant-Gravitas/AutoGPT",
+          "url": "https://github.com/Significant-Gravitas/AutoGPT",
+          "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+          "language": "Python",
+          "stars": 181643,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "AUTOMATIC1111",
+          "name": "stable-diffusion-webui",
+          "full_name": "AUTOMATIC1111/stable-diffusion-webui",
+          "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+          "description": "Stable Diffusion web UI",
+          "language": "Python",
+          "stars": 160388,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "huggingface",
+          "name": "transformers",
+          "full_name": "huggingface/transformers",
+          "url": "https://github.com/huggingface/transformers",
+          "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+          "language": "Python",
+          "stars": 156072,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "yt-dlp",
+          "name": "yt-dlp",
+          "full_name": "yt-dlp/yt-dlp",
+          "url": "https://github.com/yt-dlp/yt-dlp",
+          "description": "A feature-rich command-line audio/video downloader",
+          "language": "Python",
+          "stars": 145487,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "langflow-ai",
+          "name": "langflow",
+          "full_name": "langflow-ai/langflow",
+          "url": "https://github.com/langflow-ai/langflow",
+          "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+          "language": "Python",
+          "stars": 144489,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "521xueweihan",
+          "name": "HelloGitHub",
+          "full_name": "521xueweihan/HelloGitHub",
+          "url": "https://github.com/521xueweihan/HelloGitHub",
+          "description": ":octocat: \u5206\u4eab GitHub \u4e0a\u6709\u8da3\u3001\u5165\u95e8\u7ea7\u7684\u5f00\u6e90\u9879\u76ee\u3002Share interesting, entry-level open source projects on GitHub.",
+          "language": "Python",
+          "stars": 142003,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "ytdl-org",
+          "name": "youtube-dl",
+          "full_name": "ytdl-org/youtube-dl",
+          "url": "https://github.com/ytdl-org/youtube-dl",
+          "description": "Command-line program to download videos from YouTube.com and other video sites",
+          "language": "Python",
+          "stars": 139647,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "langchain-ai",
+          "name": "langchain",
+          "full_name": "langchain-ai/langchain",
+          "url": "https://github.com/langchain-ai/langchain",
+          "description": "\ud83e\udd9c\ud83d\udd17 The platform for reliable agents.",
+          "language": "Python",
+          "stars": 125734,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "open-webui",
+          "name": "open-webui",
+          "full_name": "open-webui/open-webui",
+          "url": "https://github.com/open-webui/open-webui",
+          "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+          "language": "Python",
+          "stars": 122701,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "Comfy-Org",
+          "name": "ComfyUI",
+          "full_name": "Comfy-Org/ComfyUI",
+          "url": "https://github.com/Comfy-Org/ComfyUI",
+          "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+          "language": "Python",
+          "stars": 102256,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "deepseek-ai",
+          "name": "DeepSeek-V3",
+          "full_name": "deepseek-ai/DeepSeek-V3",
+          "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+          "description": null,
+          "language": "Python",
+          "stars": 101418,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "pytorch",
+          "name": "pytorch",
+          "full_name": "pytorch/pytorch",
+          "url": "https://github.com/pytorch/pytorch",
+          "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+          "language": "Python",
+          "stars": 97120,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "nvbn",
+          "name": "thefuck",
+          "full_name": "nvbn/thefuck",
+          "url": "https://github.com/nvbn/thefuck",
+          "description": "Magnificent app which corrects your previous console command.",
+          "language": "Python",
+          "stars": 95380,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "fastapi",
+          "name": "fastapi",
+          "full_name": "fastapi/fastapi",
+          "url": "https://github.com/fastapi/fastapi",
+          "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+          "language": "Python",
+          "stars": 94734,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "openai",
+          "name": "whisper",
+          "full_name": "openai/whisper",
+          "url": "https://github.com/openai/whisper",
+          "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+          "language": "Python",
+          "stars": 94070,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "Shubhamsaboo",
+          "name": "awesome-llm-apps",
+          "full_name": "Shubhamsaboo/awesome-llm-apps",
+          "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+          "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
+          "language": "Python",
+          "stars": 91791,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "django",
+          "name": "django",
+          "full_name": "django/django",
+          "url": "https://github.com/django/django",
+          "description": "The Web framework for perfectionists with deadlines.",
+          "language": "Python",
+          "stars": 86658,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "microsoft",
+          "name": "markitdown",
+          "full_name": "microsoft/markitdown",
+          "url": "https://github.com/microsoft/markitdown",
+          "description": "Python tool for converting files and office documents to Markdown.",
+          "language": "Python",
+          "stars": 86266,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "home-assistant",
+          "name": "core",
+          "full_name": "home-assistant/core",
+          "url": "https://github.com/home-assistant/core",
+          "description": ":house_with_garden: Open source home automation that puts local control and privacy first.",
+          "language": "Python",
+          "stars": 84548,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "3b1b",
+          "name": "manim",
+          "full_name": "3b1b/manim",
+          "url": "https://github.com/3b1b/manim",
+          "description": "Animation engine for explanatory math videos",
+          "language": "Python",
+          "stars": 84247,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "bregman-arie",
+          "name": "devops-exercises",
+          "full_name": "bregman-arie/devops-exercises",
+          "url": "https://github.com/bregman-arie/devops-exercises",
+          "description": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
+          "language": "Python",
+          "stars": 80840,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "hacksider",
+          "name": "Deep-Live-Cam",
+          "full_name": "hacksider/Deep-Live-Cam",
+          "url": "https://github.com/hacksider/Deep-Live-Cam",
+          "description": "real time face swap and one-click video deepfake with only a single image",
+          "language": "Python",
+          "stars": 79207,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "fighting41love",
+          "name": "funNLP",
+          "full_name": "fighting41love/funNLP",
+          "url": "https://github.com/fighting41love/funNLP",
+          "description": "\u4e2d\u82f1\u6587\u654f\u611f\u8bcd\u3001\u8bed\u8a00\u68c0\u6d4b\u3001\u4e2d\u5916\u624b\u673a/\u7535\u8bdd\u5f52\u5c5e\u5730/\u8fd0\u8425\u5546\u67e5\u8be2\u3001\u540d\u5b57\u63a8\u65ad\u6027\u522b\u3001\u624b\u673a\u53f7\u62bd\u53d6\u3001\u8eab\u4efd\u8bc1\u62bd\u53d6\u3001\u90ae\u7bb1\u62bd\u53d6\u3001\u4e2d\u65e5\u6587\u4eba\u540d\u5e93\u3001\u4e2d\u6587\u7f29\u5199\u5e93\u3001\u62c6\u5b57\u8bcd\u5178\u3001\u8bcd\u6c47\u60c5\u611f\u503c\u3001\u505c\u7528\u8bcd\u3001\u53cd\u52a8\u8bcd\u8868\u3001\u66b4\u6050\u8bcd\u8868\u3001\u7e41\u7b80\u4f53\u8f6c\u6362\u3001\u82f1\u6587\u6a21\u62df\u4e2d\u6587\u53d1\u97f3\u3001\u6c6a\u5cf0\u6b4c\u8bcd\u751f\u6210\u5668\u3001\u804c\u4e1a\u540d\u79f0\u8bcd\u5e93\u3001\u540c\u4e49\u8bcd\u5e93\u3001\u53cd\u4e49\u8bcd\u5e93\u3001\u5426\u5b9a\u8bcd\u5e93\u3001\u6c7d\u8f66\u54c1\u724c\u8bcd\u5e93\u3001\u6c7d\u8f66\u96f6\u4ef6\u8bcd\u5e93\u3001\u8fde\u7eed\u82f1\u6587\u5207\u5272\u3001\u5404\u79cd\u4e2d\u6587\u8bcd\u5411\u91cf\u3001\u516c\u53f8\u540d\u5b57\u5927\u5168\u3001\u53e4\u8bd7\u8bcd\u5e93\u3001IT\u8bcd\u5e93\u3001\u8d22\u7ecf\u8bcd\u5e93\u3001\u6210\u8bed\u8bcd\u5e93\u3001\u5730\u540d\u8bcd\u5e93\u3001\u5386\u53f2\u540d\u4eba\u8bcd\u5e93\u3001\u8bd7\u8bcd\u8bcd\u5e93\u3001\u533b\u5b66\u8bcd\u5e93\u3001\u996e\u98df\u8bcd\u5e93\u3001\u6cd5\u5f8b\u8bcd\u5e93\u3001\u6c7d\u8f66\u8bcd\u5e93\u3001\u52a8\u7269\u8bcd\u5e93\u3001\u4e2d\u6587\u804a\u5929\u8bed\u6599\u3001\u4e2d\u6587\u8c23\u8a00\u6570\u636e\u3001\u767e\u5ea6\u4e2d\u6587\u95ee\u7b54\u6570\u636e\u96c6\u3001\u53e5\u5b50\u76f8\u4f3c\u5ea6\u5339\u914d\u7b97\u6cd5\u96c6\u5408\u3001bert\u8d44\u6e90\u3001\u6587\u672c\u751f\u6210&\u6458\u8981\u76f8\u5173\u5de5\u5177\u3001cocoNLP\u4fe1\u606f\u62bd\u53d6\u5de5\u5177\u3001\u56fd\u5185\u7535\u8bdd\u53f7\u7801\u6b63\u5219\u5339\u914d\u3001\u6e05\u534e\u5927\u5b66XLORE:\u4e2d\u82f1\u6587\u8de8\u8bed\u8a00\u767e\u79d1\u77e5\u8bc6\u56fe\u8c31\u3001\u6e05\u534e\u5927\u5b66\u4eba\u5de5\u667a\u80fd\u6280\u672f\u7cfb\u5217\u62a5\u544a\u3001\u81ea\u7136\u8bed\u8a00\u751f\u6210\u3001NLU\u592a\u96be\u4e86\u7cfb\u5217\u3001\u81ea\u52a8\u5bf9\u8054\u6570\u636e\u53ca\u673a\u5668\u4eba\u3001\u7528\u6237\u540d\u9ed1\u540d\u5355\u5217\u8868\u3001\u7f6a\u540d\u6cd5\u52a1\u540d\u8bcd\u53ca\u5206\u7c7b\u6a21\u578b\u3001\u5fae\u4fe1\u516c\u4f17\u53f7\u8bed\u6599\u3001cs224n\u6df1\u5ea6\u5b66\u4e60\u81ea\u7136\u8bed\u8a00\u5904\u7406\u8bfe\u7a0b\u3001\u4e2d\u6587\u624b\u5199\u6c49\u5b57\u8bc6\u522b\u3001\u4e2d\u6587\u81ea\u7136\u8bed\u8a00\u5904\u7406 \u8bed\u6599/\u6570\u636e\u96c6\u3001\u53d8\u91cf\u547d\u540d\u795e\u5668\u3001\u5206\u8bcd\u8bed\u6599\u5e93+\u4ee3\u7801\u3001\u4efb\u52a1\u578b\u5bf9\u8bdd\u82f1\u6587\u6570\u636e\u96c6\u3001ASR \u8bed\u97f3\u6570\u636e\u96c6 + \u57fa\u4e8e\u6df1\u5ea6\u5b66\u4e60\u7684\u4e2d\u6587\u8bed\u97f3\u8bc6\u522b\u7cfb\u7edf\u3001\u7b11\u58f0\u68c0\u6d4b\u5668\u3001Microsoft\u591a\u8bed\u8a00\u6570\u5b57/\u5355\u4f4d/\u5982\u65e5\u671f\u65f6\u95f4\u8bc6\u522b\u5305\u3001\u4e2d\u534e\u65b0\u534e\u5b57\u5178\u6570\u636e\u5e93\u53caapi(\u5305\u62ec\u5e38\u7528\u6b47\u540e\u8bed\u3001\u6210\u8bed\u3001\u8bcd\u8bed\u548c\u6c49\u5b57)\u3001\u6587\u6863\u56fe\u8c31\u81ea\u52a8\u751f\u6210\u3001SpaCy \u4e2d\u6587\u6a21\u578b\u3001Common Voice\u8bed\u97f3\u8bc6\u522b\u6570\u636e\u96c6\u65b0\u7248\u3001\u795e\u7ecf\u7f51\u7edc\u5173\u7cfb\u62bd\u53d6\u3001\u57fa\u4e8ebert\u7684\u547d\u540d\u5b9e\u4f53\u8bc6\u522b\u3001\u5173\u952e\u8bcd(Keyphrase)\u62bd\u53d6\u5305pke\u3001\u57fa\u4e8e\u533b\u7597\u9886\u57df\u77e5\u8bc6\u56fe\u8c31\u7684\u95ee\u7b54\u7cfb\u7edf\u3001\u57fa\u4e8e\u4f9d\u5b58\u53e5\u6cd5\u4e0e\u8bed\u4e49\u89d2\u8272\u6807\u6ce8\u7684\u4e8b\u4ef6\u4e09\u5143\u7ec4\u62bd\u53d6\u3001\u4f9d\u5b58\u53e5\u6cd5\u5206\u67904\u4e07\u53e5\u9ad8\u8d28\u91cf\u6807\u6ce8\u6570\u636e\u3001cnocr\uff1a\u7528\u6765\u505a\u4e2d\u6587OCR\u7684Python3\u5305\u3001\u4e2d\u6587\u4eba\u7269\u5173\u7cfb\u77e5\u8bc6\u56fe\u8c31\u9879\u76ee\u3001\u4e2d\u6587nlp\u7ade\u8d5b\u9879\u76ee\u53ca\u4ee3\u7801\u6c47\u603b\u3001\u4e2d\u6587\u5b57\u7b26\u6570\u636e\u3001speech-aligner: \u4ece\u201c\u4eba\u58f0\u8bed\u97f3\u201d\u53ca\u5176\u201c\u8bed\u8a00\u6587\u672c\u201d\u4ea7\u751f\u97f3\u7d20\u7ea7\u522b\u65f6\u95f4\u5bf9\u9f50\u6807\u6ce8\u7684\u5de5\u5177\u3001AmpliGraph: \u77e5\u8bc6\u56fe\u8c31\u8868\u793a\u5b66\u4e60(Python)\u5e93\uff1a\u77e5\u8bc6\u56fe\u8c31\u6982\u5ff5\u94fe\u63a5\u9884\u6d4b\u3001Scattertext \u6587\u672c\u53ef\u89c6\u5316(python)\u3001\u8bed\u8a00/\u77e5\u8bc6\u8868\u793a\u5de5\u5177\uff1aBERT & ERNIE\u3001\u4e2d\u6587\u5bf9\u6bd4\u82f1\u6587\u81ea\u7136\u8bed\u8a00\u5904\u7406NLP\u7684\u533a\u522b\u7efc\u8ff0\u3001Synonyms\u4e2d\u6587\u8fd1\u4e49\u8bcd\u5de5\u5177\u5305\u3001HarvestText\u9886\u57df\u81ea\u9002\u5e94\u6587\u672c\u6316\u6398\u5de5\u5177\uff08\u65b0\u8bcd\u53d1\u73b0-\u60c5\u611f\u5206\u6790-\u5b9e\u4f53\u94fe\u63a5\u7b49\uff09\u3001word2word\uff1a(Python)\u65b9\u4fbf\u6613\u7528\u7684\u591a\u8bed\u8a00\u8bcd-\u8bcd\u5bf9\u96c6\uff1a62\u79cd\u8bed\u8a00/3,564\u4e2a\u591a\u8bed\u8a00\u5bf9\u3001\u8bed\u97f3\u8bc6\u522b\u8bed\u6599\u751f\u6210\u5de5\u5177\uff1a\u4ece\u5177\u6709\u97f3\u9891/\u5b57\u5e55\u7684\u5728\u7ebf\u89c6\u9891\u521b\u5efa\u81ea\u52a8\u8bed\u97f3\u8bc6\u522b(ASR)\u8bed\u6599\u5e93\u3001\u6784\u5efa\u533b\u7597\u5b9e\u4f53\u8bc6\u522b\u7684\u6a21\u578b\uff08\u5305\u542b\u8bcd\u5178\u548c\u8bed\u6599\u6807\u6ce8\uff09\u3001\u5355\u6587\u6863\u975e\u76d1\u7763\u7684\u5173\u952e\u8bcd\u62bd\u53d6\u3001Kashgari\u4e2d\u4f7f\u7528gpt-2\u8bed\u8a00\u6a21\u578b\u3001\u5f00\u6e90\u7684\u91d1\u878d\u6295\u8d44\u6570\u636e\u63d0\u53d6\u5de5\u5177\u3001\u6587\u672c\u81ea\u52a8\u6458\u8981\u5e93TextTeaser: \u4ec5\u652f\u6301\u82f1\u6587\u3001\u4eba\u6c11\u65e5\u62a5\u8bed\u6599\u5904\u7406\u5de5\u5177\u96c6\u3001\u4e00\u4e9b\u5173\u4e8e\u81ea\u7136\u8bed\u8a00\u7684\u57fa\u672c\u6a21\u578b\u3001\u57fa\u4e8e14W\u6b4c\u66f2\u77e5\u8bc6\u5e93\u7684\u95ee\u7b54\u5c1d\u8bd5--\u529f\u80fd\u5305\u62ec\u6b4c\u8bcd\u63a5\u9f99and\u5df2\u77e5\u6b4c\u8bcd\u627e\u6b4c\u66f2\u4ee5\u53ca\u6b4c\u66f2\u6b4c\u624b\u6b4c\u8bcd\u4e09\u89d2\u5173\u7cfb\u7684\u95ee\u7b54\u3001\u57fa\u4e8eSiamese bilstm\u6a21\u578b\u7684\u76f8\u4f3c\u53e5\u5b50\u5224\u5b9a\u6a21\u578b\u5e76\u63d0\u4f9b\u8bad\u7ec3\u6570\u636e\u96c6\u548c\u6d4b\u8bd5\u6570\u636e\u96c6\u3001\u7528Transformer\u7f16\u89e3\u7801\u6a21\u578b\u5b9e\u73b0\u7684\u6839\u636eHacker News\u6587\u7ae0\u6807\u9898\u81ea\u52a8\u751f\u6210\u8bc4\u8bba\u3001\u7528BERT\u8fdb\u884c\u5e8f\u5217\u6807\u8bb0\u548c\u6587\u672c\u5206\u7c7b\u7684\u6a21\u677f\u4ee3\u7801\u3001LitBank\uff1aNLP\u6570\u636e\u96c6\u2014\u2014\u652f\u6301\u81ea\u7136\u8bed\u8a00\u5904\u7406\u548c\u8ba1\u7b97\u4eba\u6587\u5b66\u79d1\u4efb\u52a1\u7684100\u90e8\u5e26\u6807\u8bb0\u82f1\u6587\u5c0f\u8bf4\u8bed\u6599\u3001\u767e\u5ea6\u5f00\u6e90\u7684\u57fa\u51c6\u4fe1\u606f\u62bd\u53d6\u7cfb\u7edf\u3001\u865a\u5047\u65b0\u95fb\u6570\u636e\u96c6\u3001Facebook: LAMA\u8bed\u8a00\u6a21\u578b\u5206\u6790\uff0c\u63d0\u4f9bTransformer-XL/BERT/ELMo/GPT\u9884\u8bad\u7ec3\u8bed\u8a00\u6a21\u578b\u7684\u7edf\u4e00\u8bbf\u95ee\u63a5\u53e3\u3001CommonsenseQA\uff1a\u9762\u5411\u5e38\u8bc6\u7684\u82f1\u6587QA\u6311\u6218\u3001\u4e2d\u6587\u77e5\u8bc6\u56fe\u8c31\u8d44\u6599\u3001\u6570\u636e\u53ca\u5de5\u5177\u3001\u5404\u5927\u516c\u53f8\u5185\u90e8\u91cc\u5927\u725b\u5206\u4eab\u7684\u6280\u672f\u6587\u6863 PDF \u6216\u8005 PPT\u3001\u81ea\u7136\u8bed\u8a00\u751f\u6210SQL\u8bed\u53e5\uff08\u82f1\u6587\uff09\u3001\u4e2d\u6587NLP\u6570\u636e\u589e\u5f3a\uff08EDA\uff09\u5de5\u5177\u3001\u82f1\u6587NLP\u6570\u636e\u589e\u5f3a\u5de5\u5177 \u3001\u57fa\u4e8e\u533b\u836f\u77e5\u8bc6\u56fe\u8c31\u7684\u667a\u80fd\u95ee\u7b54\u7cfb\u7edf\u3001\u4eac\u4e1c\u5546\u54c1\u77e5\u8bc6\u56fe\u8c31\u3001\u57fa\u4e8emongodb\u5b58\u50a8\u7684\u519b\u4e8b\u9886\u57df\u77e5\u8bc6\u56fe\u8c31\u95ee\u7b54\u9879\u76ee\u3001\u57fa\u4e8e\u8fdc\u76d1\u7763\u7684\u4e2d\u6587\u5173\u7cfb\u62bd\u53d6\u3001\u8bed\u97f3\u60c5\u611f\u5206\u6790\u3001\u4e2d\u6587ULMFiT-\u60c5\u611f\u5206\u6790-\u6587\u672c\u5206\u7c7b-\u8bed\u6599\u53ca\u6a21\u578b\u3001\u4e00\u4e2a\u62cd\u7167\u505a\u9898\u7a0b\u5e8f\u3001\u4e16\u754c\u5404\u56fd\u5927\u89c4\u6a21\u4eba\u540d\u5e93\u3001\u4e00\u4e2a\u5229\u7528\u6709\u8da3\u4e2d\u6587\u8bed\u6599\u5e93 qingyun \u8bad\u7ec3\u51fa\u6765\u7684\u4e2d\u6587\u804a\u5929\u673a\u5668\u4eba\u3001\u4e2d\u6587\u804a\u5929\u673a\u5668\u4ebaseqGAN\u3001\u7701\u5e02\u533a\u9547\u884c\u653f\u533a\u5212\u6570\u636e\u5e26\u62fc\u97f3\u6807\u6ce8\u3001\u6559\u80b2\u884c\u4e1a\u65b0\u95fb\u8bed\u6599\u5e93\u5305\u542b\u81ea\u52a8\u6587\u6458\u529f\u80fd\u3001\u5f00\u653e\u4e86\u5bf9\u8bdd\u673a\u5668\u4eba-\u77e5\u8bc6\u56fe\u8c31-\u8bed\u4e49\u7406\u89e3-\u81ea\u7136\u8bed\u8a00\u5904\u7406\u5de5\u5177\u53ca\u6570\u636e\u3001\u4e2d\u6587\u77e5\u8bc6\u56fe\u8c31\uff1a\u57fa\u4e8e\u767e\u5ea6\u767e\u79d1\u4e2d\u6587\u9875\u9762-\u62bd\u53d6\u4e09\u5143\u7ec4\u4fe1\u606f-\u6784\u5efa\u4e2d\u6587\u77e5\u8bc6\u56fe\u8c31\u3001masr: \u4e2d\u6587\u8bed\u97f3\u8bc6\u522b-\u63d0\u4f9b\u9884\u8bad\u7ec3\u6a21\u578b-\u9ad8\u8bc6\u522b\u7387\u3001Python\u97f3\u9891\u6570\u636e\u589e\u5e7f\u5e93\u3001\u4e2d\u6587\u5168\u8bcd\u8986\u76d6BERT\u53ca\u4e24\u4efd\u9605\u8bfb\u7406\u89e3\u6570\u636e\u3001ConvLab\uff1a\u5f00\u6e90\u591a\u57df\u7aef\u5230\u7aef\u5bf9\u8bdd\u7cfb\u7edf\u5e73\u53f0\u3001\u4e2d\u6587\u81ea\u7136\u8bed\u8a00\u5904\u7406\u6570\u636e\u96c6\u3001\u57fa\u4e8e\u6700\u65b0\u7248\u672crasa\u642d\u5efa\u7684\u5bf9\u8bdd\u7cfb\u7edf\u3001\u57fa\u4e8eTensorFlow\u548cBERT\u7684\u7ba1\u9053\u5f0f\u5b9e\u4f53\u53ca\u5173\u7cfb\u62bd\u53d6\u3001\u4e00\u4e2a\u5c0f\u578b\u7684\u8bc1\u5238\u77e5\u8bc6\u56fe\u8c31/\u77e5\u8bc6\u5e93\u3001\u590d\u76d8\u6240\u6709NLP\u6bd4\u8d5b\u7684TOP\u65b9\u6848\u3001OpenCLaP\uff1a\u591a\u9886\u57df\u5f00\u6e90\u4e2d\u6587\u9884\u8bad\u7ec3\u8bed\u8a00\u6a21\u578b\u4ed3\u5e93\u3001UER\uff1a\u57fa\u4e8e\u4e0d\u540c\u8bed\u6599+\u7f16\u7801\u5668+\u76ee\u6807\u4efb\u52a1\u7684\u4e2d\u6587\u9884\u8bad\u7ec3\u6a21\u578b\u4ed3\u5e93\u3001\u4e2d\u6587\u81ea\u7136\u8bed\u8a00\u5904\u7406\u5411\u91cf\u5408\u96c6\u3001\u57fa\u4e8e\u91d1\u878d-\u53f8\u6cd5\u9886\u57df(\u517c\u6709\u95f2\u804a\u6027\u8d28)\u7684\u804a\u5929\u673a\u5668\u4eba\u3001g2pC\uff1a\u57fa\u4e8e\u4e0a\u4e0b\u6587\u7684\u6c49\u8bed\u8bfb\u97f3\u81ea\u52a8\u6807\u8bb0\u6a21\u5757\u3001Zincbase \u77e5\u8bc6\u56fe\u8c31\u6784\u5efa\u5de5\u5177\u5305\u3001\u8bd7\u6b4c\u8d28\u91cf\u8bc4\u4ef7/\u7ec6\u7c92\u5ea6\u60c5\u611f\u8bd7\u6b4c\u8bed\u6599\u5e93\u3001\u5feb\u901f\u8f6c\u5316\u300c\u4e2d\u6587\u6570\u5b57\u300d\u548c\u300c\u963f\u62c9\u4f2f\u6570\u5b57\u300d\u3001\u767e\u5ea6\u77e5\u9053\u95ee\u7b54\u8bed\u6599\u5e93\u3001\u57fa\u4e8e\u77e5\u8bc6\u56fe\u8c31\u7684\u95ee\u7b54\u7cfb\u7edf\u3001jieba_fast \u52a0\u901f\u7248\u7684jieba\u3001\u6b63\u5219\u8868\u8fbe\u5f0f\u6559\u7a0b\u3001\u4e2d\u6587\u9605\u8bfb\u7406\u89e3\u6570\u636e\u96c6\u3001\u57fa\u4e8eBERT\u7b49\u6700\u65b0\u8bed\u8a00\u6a21\u578b\u7684\u62bd\u53d6\u5f0f\u6458\u8981\u63d0\u53d6\u3001Python\u5229\u7528\u6df1\u5ea6\u5b66\u4e60\u8fdb\u884c\u6587\u672c\u6458\u8981\u7684\u7efc\u5408\u6307\u5357\u3001\u77e5\u8bc6\u56fe\u8c31\u6df1\u5ea6\u5b66\u4e60\u76f8\u5173\u8d44\u6599\u6574\u7406\u3001\u7ef4\u57fa\u5927\u89c4\u6a21\u5e73\u884c\u6587\u672c\u8bed\u6599\u3001StanfordNLP 0.2.0\uff1a\u7eafPython\u7248\u81ea\u7136\u8bed\u8a00\u5904\u7406\u5305\u3001NeuralNLP-NeuralClassifier\uff1a\u817e\u8baf\u5f00\u6e90\u6df1\u5ea6\u5b66\u4e60\u6587\u672c\u5206\u7c7b\u5de5\u5177\u3001\u7aef\u5230\u7aef\u7684\u5c01\u95ed\u57df\u5bf9\u8bdd\u7cfb\u7edf\u3001\u4e2d\u6587\u547d\u540d\u5b9e\u4f53\u8bc6\u522b\uff1aNeuroNER vs. BertNER\u3001\u65b0\u95fb\u4e8b\u4ef6\u7ebf\u7d22\u62bd\u53d6\u30012019\u5e74\u767e\u5ea6\u7684\u4e09\u5143\u7ec4\u62bd\u53d6\u6bd4\u8d5b\uff1a\u201c\u79d1\u5b66\u7a7a\u95f4\u961f\u201d\u6e90\u7801\u3001\u57fa\u4e8e\u4f9d\u5b58\u53e5\u6cd5\u7684\u5f00\u653e\u57df\u6587\u672c\u77e5\u8bc6\u4e09\u5143\u7ec4\u62bd\u53d6\u548c\u77e5\u8bc6\u5e93\u6784\u5efa\u3001\u4e2d\u6587\u7684GPT2\u8bad\u7ec3\u4ee3\u7801\u3001ML-NLP - \u673a\u5668\u5b66\u4e60(Machine Learning)NLP\u9762\u8bd5\u4e2d\u5e38\u8003\u5230\u7684\u77e5\u8bc6\u70b9\u548c\u4ee3\u7801\u5b9e\u73b0\u3001nlp4han:\u4e2d\u6587\u81ea\u7136\u8bed\u8a00\u5904\u7406\u5de5\u5177\u96c6(\u65ad\u53e5/\u5206\u8bcd/\u8bcd\u6027\u6807\u6ce8/\u7ec4\u5757/\u53e5\u6cd5\u5206\u6790/\u8bed\u4e49\u5206\u6790/NER/N\u5143\u8bed\u6cd5/HMM/\u4ee3\u8bcd\u6d88\u89e3/\u60c5\u611f\u5206\u6790/\u62fc\u5199\u68c0\u67e5\u3001XLM\uff1aFacebook\u7684\u8de8\u8bed\u8a00\u9884\u8bad\u7ec3\u8bed\u8a00\u6a21\u578b\u3001\u7528\u57fa\u4e8eBERT\u7684\u5fae\u8c03\u548c\u7279\u5f81\u63d0\u53d6\u65b9\u6cd5\u6765\u8fdb\u884c\u77e5\u8bc6\u56fe\u8c31\u767e\u5ea6\u767e\u79d1\u4eba\u7269\u8bcd\u6761\u5c5e\u6027\u62bd\u53d6\u3001\u4e2d\u6587\u81ea\u7136\u8bed\u8a00\u5904\u7406\u76f8\u5173\u7684\u5f00\u653e\u4efb\u52a1-\u6570\u636e\u96c6-\u5f53\u524d\u6700\u4f73\u7ed3\u679c\u3001CoupletAI - \u57fa\u4e8eCNN+Bi-LSTM+Attention \u7684\u81ea\u52a8\u5bf9\u5bf9\u8054\u7cfb\u7edf\u3001\u62bd\u8c61\u77e5\u8bc6\u56fe\u8c31\u3001MiningZhiDaoQACorpus - 580\u4e07\u767e\u5ea6\u77e5\u9053\u95ee\u7b54\u6570\u636e\u6316\u6398\u9879\u76ee\u3001brat rapid annotation tool: \u5e8f\u5217\u6807\u6ce8\u5de5\u5177\u3001\u5927\u89c4\u6a21\u4e2d\u6587\u77e5\u8bc6\u56fe\u8c31\u6570\u636e\uff1a1.4\u4ebf\u5b9e\u4f53\u3001\u6570\u636e\u589e\u5f3a\u5728\u673a\u5668\u7ffb\u8bd1\u53ca\u5176\u4ed6nlp\u4efb\u52a1\u4e2d\u7684\u5e94\u7528\u53ca\u6548\u679c\u3001allennlp\u9605\u8bfb\u7406\u89e3:\u652f\u6301\u591a\u79cd\u6570\u636e\u548c\u6a21\u578b\u3001PDF\u8868\u683c\u6570\u636e\u63d0\u53d6\u5de5\u5177 \u3001 Graphbrain\uff1aAI\u5f00\u6e90\u8f6f\u4ef6\u5e93\u548c\u79d1\u7814\u5de5\u5177\uff0c\u76ee\u7684\u662f\u4fc3\u8fdb\u81ea\u52a8\u610f\u4e49\u63d0\u53d6\u548c\u6587\u672c\u7406\u89e3\u4ee5\u53ca\u77e5\u8bc6\u7684\u63a2\u7d22\u548c\u63a8\u65ad\u3001\u7b80\u5386\u81ea\u52a8\u7b5b\u9009\u7cfb\u7edf\u3001\u57fa\u4e8e\u547d\u540d\u5b9e\u4f53\u8bc6\u522b\u7684\u7b80\u5386\u81ea\u52a8\u6458\u8981\u3001\u4e2d\u6587\u8bed\u8a00\u7406\u89e3\u6d4b\u8bc4\u57fa\u51c6\uff0c\u5305\u62ec\u4ee3\u8868\u6027\u7684\u6570\u636e\u96c6&\u57fa\u51c6\u6a21\u578b&\u8bed\u6599\u5e93&\u6392\u884c\u699c\u3001\u6811\u6d1e OCR \u6587\u5b57\u8bc6\u522b \u3001\u4ece\u5305\u542b\u8868\u683c\u7684\u626b\u63cf\u56fe\u7247\u4e2d\u8bc6\u522b\u8868\u683c\u548c\u6587\u5b57\u3001\u8bed\u58f0\u8fc1\u79fb\u3001Python\u53e3\u8bed\u81ea\u7136\u8bed\u8a00\u5904\u7406\u5de5\u5177\u96c6(\u82f1\u6587)\u3001 similarity\uff1a\u76f8\u4f3c\u5ea6\u8ba1\u7b97\u5de5\u5177\u5305\uff0cjava\u7f16\u5199\u3001\u6d77\u91cf\u4e2d\u6587\u9884\u8bad\u7ec3ALBERT\u6a21\u578b \u3001Transformers 2.0 \u3001\u57fa\u4e8e\u5927\u89c4\u6a21\u97f3\u9891\u6570\u636e\u96c6Audioset\u7684\u97f3\u9891\u589e\u5f3a \u3001Poplar\uff1a\u7f51\u9875\u7248\u81ea\u7136\u8bed\u8a00\u6807\u6ce8\u5de5\u5177\u3001\u56fe\u7247\u6587\u5b57\u53bb\u9664\uff0c\u53ef\u7528\u4e8e\u6f2b\u753b\u7ffb\u8bd1 \u3001186\u79cd\u8bed\u8a00\u7684\u6570\u5b57\u53eb\u6cd5\u5e93\u3001Amazon\u53d1\u5e03\u57fa\u4e8e\u77e5\u8bc6\u7684\u4eba-\u4eba\u5f00\u653e\u9886\u57df\u5bf9\u8bdd\u6570\u636e\u96c6 \u3001\u4e2d\u6587\u6587\u672c\u7ea0\u9519\u6a21\u5757\u4ee3\u7801\u3001\u7e41\u7b80\u4f53\u8f6c\u6362 \u3001 Python\u5b9e\u73b0\u7684\u591a\u79cd\u6587\u672c\u53ef\u8bfb\u6027\u8bc4\u4ef7\u6307\u6807\u3001\u7c7b\u4f3c\u4e8e\u4eba\u540d/\u5730\u540d/\u7ec4\u7ec7\u673a\u6784\u540d\u7684\u547d\u540d\u4f53\u8bc6\u522b\u6570\u636e\u96c6 \u3001\u4e1c\u5357\u5927\u5b66\u300a\u77e5\u8bc6\u56fe\u8c31\u300b\u7814\u7a76\u751f\u8bfe\u7a0b(\u8d44\u6599)\u3001. \u82f1\u6587\u62fc\u5199\u68c0\u67e5\u5e93 \u3001 wwsearch\u662f\u4f01\u4e1a\u5fae\u4fe1\u540e\u53f0\u81ea\u7814\u7684\u5168\u6587\u68c0\u7d22\u5f15\u64ce\u3001CHAMELEON\uff1a\u6df1\u5ea6\u5b66\u4e60\u65b0\u95fb\u63a8\u8350\u7cfb\u7edf\u5143\u67b6\u6784 \u3001 8\u7bc7\u8bba\u6587\u68b3\u7406BERT\u76f8\u5173\u6a21\u578b\u8fdb\u5c55\u4e0e\u53cd\u601d\u3001DocSearch\uff1a\u514d\u8d39\u6587\u6863\u641c\u7d22\u5f15\u64ce\u3001 LIDA\uff1a\u8f7b\u91cf\u4ea4\u4e92\u5f0f\u5bf9\u8bdd\u6807\u6ce8\u5de5\u5177 \u3001aili - the fastest in-memory index in the East \u4e1c\u534a\u7403\u6700\u5feb\u5e76\u53d1\u7d22\u5f15 \u3001\u77e5\u8bc6\u56fe\u8c31\u8f66\u97f3\u5de5\u4f5c\u9879\u76ee\u3001\u81ea\u7136\u8bed\u8a00\u751f\u6210\u8d44\u6e90\u5927\u5168 \u3001\u4e2d\u65e5\u97e9\u5206\u8bcd\u5e93mecab\u7684Python\u63a5\u53e3\u5e93\u3001\u4e2d\u6587\u6587\u672c\u6458\u8981/\u5173\u952e\u8bcd\u63d0\u53d6\u3001\u6c49\u5b57\u5b57\u7b26\u7279\u5f81\u63d0\u53d6\u5668 (featurizer)\uff0c\u63d0\u53d6\u6c49\u5b57\u7684\u7279\u5f81\uff08\u53d1\u97f3\u7279\u5f81\u3001\u5b57\u5f62\u7279\u5f81\uff09\u7528\u505a\u6df1\u5ea6\u5b66\u4e60\u7684\u7279\u5f81\u3001\u4e2d\u6587\u751f\u6210\u4efb\u52a1\u57fa\u51c6\u6d4b\u8bc4 \u3001\u4e2d\u6587\u7f29\u5199\u6570\u636e\u96c6\u3001\u4e2d\u6587\u4efb\u52a1\u57fa\u51c6\u6d4b\u8bc4 - \u4ee3\u8868\u6027\u7684\u6570\u636e\u96c6-\u57fa\u51c6(\u9884\u8bad\u7ec3)\u6a21\u578b-\u8bed\u6599\u5e93-baseline-\u5de5\u5177\u5305-\u6392\u884c\u699c\u3001PySS3\uff1a\u9762\u5411\u53ef\u89e3\u91caAI\u7684SS3\u6587\u672c\u5206\u7c7b\u5668\u673a\u5668\u53ef\u89c6\u5316\u5de5\u5177 \u3001\u4e2d\u6587NLP\u6570\u636e\u96c6\u5217\u8868\u3001COPE - \u683c\u5f8b\u8bd7\u7f16\u8f91\u7a0b\u5e8f\u3001doccano\uff1a\u57fa\u4e8e\u7f51\u9875\u7684\u5f00\u6e90\u534f\u540c\u591a\u8bed\u8a00\u6587\u672c\u6807\u6ce8\u5de5\u5177 \u3001PreNLP\uff1a\u81ea\u7136\u8bed\u8a00\u9884\u5904\u7406\u5e93\u3001\u7b80\u5355\u7684\u7b80\u5386\u89e3\u6790\u5668\uff0c\u7528\u6765\u4ece\u7b80\u5386\u4e2d\u63d0\u53d6\u5173\u952e\u4fe1\u606f\u3001\u7528\u4e8e\u4e2d\u6587\u95f2\u804a\u7684GPT2\u6a21\u578b\uff1aGPT2-chitchat\u3001\u57fa\u4e8e\u68c0\u7d22\u804a\u5929\u673a\u5668\u4eba\u591a\u8f6e\u54cd\u5e94\u9009\u62e9\u76f8\u5173\u8d44\u6e90\u5217\u8868(Leaderboards\u3001Datasets\u3001Papers)\u3001(Colab)\u62bd\u8c61\u6587\u672c\u6458\u8981\u5b9e\u73b0\u96c6\u9526(\u6559\u7a0b \u3001\u8bcd\u8bed\u62fc\u97f3\u6570\u636e\u3001\u9ad8\u6548\u6a21\u7cca\u641c\u7d22\u5de5\u5177\u3001NLP\u6570\u636e\u589e\u5e7f\u8d44\u6e90\u96c6\u3001\u5fae\u8f6f\u5bf9\u8bdd\u673a\u5668\u4eba\u6846\u67b6 \u3001 GitHub Typo Corpus\uff1a\u5927\u89c4\u6a21GitHub\u591a\u8bed\u8a00\u62fc\u5199\u9519\u8bef/\u8bed\u6cd5\u9519\u8bef\u6570\u636e\u96c6\u3001TextCluster\uff1a\u77ed\u6587\u672c\u805a\u7c7b\u9884\u5904\u7406\u6a21\u5757 Short text cluster\u3001\u9762\u5411\u8bed\u97f3\u8bc6\u522b\u7684\u4e2d\u6587\u6587\u672c\u89c4\u8303\u5316\u3001BLINK\uff1a\u6700\u5148\u8fdb\u7684\u5b9e\u4f53\u94fe\u63a5\u5e93\u3001BertPunc\uff1a\u57fa\u4e8eBERT\u7684\u6700\u5148\u8fdb\u6807\u70b9\u4fee\u590d\u6a21\u578b\u3001Tokenizer\uff1a\u5feb\u901f\u3001\u53ef\u5b9a\u5236\u7684\u6587\u672c\u8bcd\u6761\u5316\u5e93\u3001\u4e2d\u6587\u8bed\u8a00\u7406\u89e3\u6d4b\u8bc4\u57fa\u51c6\uff0c\u5305\u62ec\u4ee3\u8868\u6027\u7684\u6570\u636e\u96c6\u3001\u57fa\u51c6(\u9884\u8bad\u7ec3)\u6a21\u578b\u3001\u8bed\u6599\u5e93\u3001\u6392\u884c\u699c\u3001spaCy \u533b\u5b66\u6587\u672c\u6316\u6398\u4e0e\u4fe1\u606f\u63d0\u53d6 \u3001 NLP\u4efb\u52a1\u793a\u4f8b\u9879\u76ee\u4ee3\u7801\u96c6\u3001 python\u62fc\u5199\u68c0\u67e5\u5e93\u3001chatbot-list - \u884c\u4e1a\u5185\u5173\u4e8e\u667a\u80fd\u5ba2\u670d\u3001\u804a\u5929\u673a\u5668\u4eba\u7684\u5e94\u7528\u548c\u67b6\u6784\u3001\u7b97\u6cd5\u5206\u4eab\u548c\u4ecb\u7ecd\u3001\u8bed\u97f3\u8d28\u91cf\u8bc4\u4ef7\u6307\u6807(MOSNet, BSSEval, STOI, PESQ, SRMR)\u3001 \u7528138GB\u8bed\u6599\u8bad\u7ec3\u7684\u6cd5\u6587RoBERTa\u9884\u8bad\u7ec3\u8bed\u8a00\u6a21\u578b \u3001BERT-NER-Pytorch\uff1a\u4e09\u79cd\u4e0d\u540c\u6a21\u5f0f\u7684BERT\u4e2d\u6587NER\u5b9e\u9a8c\u3001\u65e0\u9053\u8bcd\u5178 - \u6709\u9053\u8bcd\u5178\u7684\u547d\u4ee4\u884c\u7248\u672c\uff0c\u652f\u6301\u82f1\u6c49\u4e92\u67e5\u548c\u5728\u7ebf\u67e5\u8be2\u30012019\u5e74NLP\u4eae\u70b9\u56de\u987e\u3001 Chinese medical dialogue data \u4e2d\u6587\u533b\u7597\u5bf9\u8bdd\u6570\u636e\u96c6 \u3001\u6700\u597d\u7684\u6c49\u5b57\u6570\u5b57(\u4e2d\u6587\u6570\u5b57)-\u963f\u62c9\u4f2f\u6570\u5b57\u8f6c\u6362\u5de5\u5177\u3001 \u57fa\u4e8e\u767e\u79d1\u77e5\u8bc6\u5e93\u7684\u4e2d\u6587\u8bcd\u8bed\u591a\u8bcd\u4e49/\u4e49\u9879\u83b7\u53d6\u4e0e\u7279\u5b9a\u53e5\u5b50\u8bcd\u8bed\u8bed\u4e49\u6d88\u6b67\u3001awesome-nlp-sentiment-analysis - \u60c5\u611f\u5206\u6790\u3001\u60c5\u7eea\u539f\u56e0\u8bc6\u522b\u3001\u8bc4\u4ef7\u5bf9\u8c61\u548c\u8bc4\u4ef7\u8bcd\u62bd\u53d6\u3001LineFlow\uff1a\u9762\u5411\u6240\u6709\u6df1\u5ea6\u5b66\u4e60\u6846\u67b6\u7684NLP\u6570\u636e\u9ad8\u6548\u52a0\u8f7d\u5668\u3001\u4e2d\u6587\u533b\u5b66NLP\u516c\u5f00\u8d44\u6e90\u6574\u7406 \u3001MedQuAD\uff1a(\u82f1\u6587)\u533b\u5b66\u95ee\u7b54\u6570\u636e\u96c6\u3001\u5c06\u81ea\u7136\u8bed\u8a00\u6570\u5b57\u4e32\u89e3\u6790\u8f6c\u6362\u4e3a\u6574\u6570\u548c\u6d6e\u70b9\u6570\u3001Transfer Learning in Natural Language Processing (NLP) \u3001\u9762\u5411\u8bed\u97f3\u8bc6\u522b\u7684\u4e2d\u6587/\u82f1\u6587\u53d1\u97f3\u8f9e\u5178\u3001Tokenizers\uff1a\u6ce8\u91cd\u6027\u80fd\u4e0e\u591a\u529f\u80fd\u6027\u7684\u6700\u5148\u8fdb\u5206\u8bcd\u5668\u3001CLUENER \u7ec6\u7c92\u5ea6\u547d\u540d\u5b9e\u4f53\u8bc6\u522b Fine Grained Named Entity Recognition\u3001 \u57fa\u4e8eBERT\u7684\u4e2d\u6587\u547d\u540d\u5b9e\u4f53\u8bc6\u522b\u3001\u4e2d\u6587\u8c23\u8a00\u6570\u636e\u5e93\u3001NLP\u6570\u636e\u96c6/\u57fa\u51c6\u4efb\u52a1\u5927\u5217\u8868\u3001nlp\u76f8\u5173\u7684\u4e00\u4e9b\u8bba\u6587\u53ca\u4ee3\u7801, \u5305\u62ec\u4e3b\u9898\u6a21\u578b\u3001\u8bcd\u5411\u91cf(Word Embedding)\u3001\u547d\u540d\u5b9e\u4f53\u8bc6\u522b(NER)\u3001\u6587\u672c\u5206\u7c7b(Text Classificatin)\u3001\u6587\u672c\u751f\u6210(Text Generation)\u3001\u6587\u672c\u76f8\u4f3c\u6027(Text Similarity)\u8ba1\u7b97\u7b49\uff0c\u6d89\u53ca\u5230\u5404\u79cd\u4e0enlp\u76f8\u5173\u7684\u7b97\u6cd5\uff0c\u57fa\u4e8ekeras\u548ctensorflow \u3001Python\u6587\u672c\u6316\u6398/NLP\u5b9e\u6218\u793a\u4f8b\u3001 Blackstone\uff1a\u9762\u5411\u975e\u7ed3\u6784\u5316\u6cd5\u5f8b\u6587\u672c\u7684spaCy pipeline\u548cNLP\u6a21\u578b\u901a\u8fc7\u540c\u4e49\u8bcd\u66ff\u6362\u5b9e\u73b0\u6587\u672c\u201c\u53d8\u8138\u201d \u3001\u4e2d\u6587 \u9884\u8bad\u7ec3 ELECTREA \u6a21\u578b: \u57fa\u4e8e\u5bf9\u6297\u5b66\u4e60 pretrain Chinese Model \u3001albert-chinese-ner - \u7528\u9884\u8bad\u7ec3\u8bed\u8a00\u6a21\u578bALBERT\u505a\u4e2d\u6587NER \u3001\u57fa\u4e8eGPT2\u7684\u7279\u5b9a\u4e3b\u9898\u6587\u672c\u751f\u6210/\u6587\u672c\u589e\u5e7f\u3001\u5f00\u6e90\u9884\u8bad\u7ec3\u8bed\u8a00\u6a21\u578b\u5408\u96c6\u3001\u591a\u8bed\u8a00\u53e5\u5411\u91cf\u5305\u3001\u7f16\u7801\u3001\u6807\u8bb0\u548c\u5b9e\u73b0\uff1a\u4e00\u79cd\u53ef\u63a7\u9ad8\u6548\u7684\u6587\u672c\u751f\u6210\u65b9\u6cd5\u3001 \u82f1\u6587\u810f\u8bdd\u5927\u5217\u8868 \u3001attnvis\uff1aGPT2\u3001BERT\u7b49transformer\u8bed\u8a00\u6a21\u578b\u6ce8\u610f\u529b\u4ea4\u4e92\u53ef\u89c6\u5316\u3001CoVoST\uff1aFacebook\u53d1\u5e03\u7684\u591a\u8bed\u79cd\u8bed\u97f3-\u6587\u672c\u7ffb\u8bd1\u8bed\u6599\u5e93\uff0c\u5305\u62ec11\u79cd\u8bed\u8a00(\u6cd5\u8bed\u3001\u5fb7\u8bed\u3001\u8377\u5170\u8bed\u3001\u4fc4\u8bed\u3001\u897f\u73ed\u7259\u8bed\u3001\u610f\u5927\u5229\u8bed\u3001\u571f\u8033\u5176\u8bed\u3001\u6ce2\u65af\u8bed\u3001\u745e\u5178\u8bed\u3001\u8499\u53e4\u8bed\u548c\u4e2d\u6587)\u7684\u8bed\u97f3\u3001\u6587\u5b57\u8f6c\u5f55\u53ca\u82f1\u6587\u8bd1\u6587\u3001Jiagu\u81ea\u7136\u8bed\u8a00\u5904\u7406\u5de5\u5177 - \u4ee5BiLSTM\u7b49\u6a21\u578b\u4e3a\u57fa\u7840\uff0c\u63d0\u4f9b\u77e5\u8bc6\u56fe\u8c31\u5173\u7cfb\u62bd\u53d6 \u4e2d\u6587\u5206\u8bcd \u8bcd\u6027\u6807\u6ce8 \u547d\u540d\u5b9e\u4f53\u8bc6\u522b \u60c5\u611f\u5206\u6790 \u65b0\u8bcd\u53d1\u73b0 \u5173\u952e\u8bcd \u6587\u672c\u6458\u8981 \u6587\u672c\u805a\u7c7b\u7b49\u529f\u80fd\u3001\u7528unet\u5b9e\u73b0\u5bf9\u6587\u6863\u8868\u683c\u7684\u81ea\u52a8\u68c0\u6d4b\uff0c\u8868\u683c\u91cd\u5efa\u3001NLP\u4e8b\u4ef6\u63d0\u53d6\u6587\u732e\u8d44\u6e90\u5217\u8868 \u3001 \u91d1\u878d\u9886\u57df\u81ea\u7136\u8bed\u8a00\u5904\u7406\u7814\u7a76\u8d44\u6e90\u5927\u5217\u8868\u3001CLUEDatasetSearch - \u4e2d\u82f1\u6587NLP\u6570\u636e\u96c6\uff1a\u641c\u7d22\u6240\u6709\u4e2d\u6587NLP\u6570\u636e\u96c6\uff0c\u9644\u5e38\u7528\u82f1\u6587NLP\u6570\u636e\u96c6 \u3001medical_NER - \u4e2d\u6587\u533b\u5b66\u77e5\u8bc6\u56fe\u8c31\u547d\u540d\u5b9e\u4f53\u8bc6\u522b \u3001(\u54c8\u4f5b)\u8bb2\u56e0\u679c\u63a8\u7406\u7684\u514d\u8d39\u4e66\u3001\u77e5\u8bc6\u56fe\u8c31\u76f8\u5173\u5b66\u4e60\u8d44\u6599/\u6570\u636e\u96c6/\u5de5\u5177\u8d44\u6e90\u5927\u5217\u8868\u3001Forte\uff1a\u7075\u6d3b\u5f3a\u5927\u7684\u81ea\u7136\u8bed\u8a00\u5904\u7406pipeline\u5de5\u5177\u96c6 \u3001Python\u5b57\u7b26\u4e32\u76f8\u4f3c\u6027\u7b97\u6cd5\u5e93\u3001PyLaia\uff1a\u9762\u5411\u624b\u5199\u6587\u6863\u5206\u6790\u7684\u6df1\u5ea6\u5b66\u4e60\u5de5\u5177\u5305\u3001TextFooler\uff1a\u9488\u5bf9\u6587\u672c\u5206\u7c7b/\u63a8\u7406\u7684\u5bf9\u6297\u6587\u672c\u751f\u6210\u6a21\u5757\u3001Haystack\uff1a\u7075\u6d3b\u3001\u5f3a\u5927\u7684\u53ef\u6269\u5c55\u95ee\u7b54(QA)\u6846\u67b6\u3001\u4e2d\u6587\u5173\u952e\u77ed\u8bed\u62bd\u53d6\u5de5\u5177",
+          "language": "Python",
+          "stars": 78812,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "tensorflow",
+          "name": "models",
+          "full_name": "tensorflow/models",
+          "url": "https://github.com/tensorflow/models",
+          "description": "Models and examples built with TensorFlow",
+          "language": "Python",
+          "stars": 77683,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "browser-use",
+          "name": "browser-use",
+          "full_name": "browser-use/browser-use",
+          "url": "https://github.com/browser-use/browser-use",
+          "description": "\ud83c\udf10 Make websites accessible for AI agents. Automate tasks online with ease.",
+          "language": "Python",
+          "stars": 77639,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "d2l-ai",
+          "name": "d2l-zh",
+          "full_name": "d2l-ai/d2l-zh",
+          "url": "https://github.com/d2l-ai/d2l-zh",
+          "description": "\u300a\u52a8\u624b\u5b66\u6df1\u5ea6\u5b66\u4e60\u300b\uff1a\u9762\u5411\u4e2d\u6587\u8bfb\u8005\u3001\u80fd\u8fd0\u884c\u3001\u53ef\u8ba8\u8bba\u3002\u4e2d\u82f1\u6587\u7248\u88ab70\u591a\u4e2a\u56fd\u5bb6\u7684500\u591a\u6240\u5927\u5b66\u7528\u4e8e\u6559\u5b66\u3002",
+          "language": "Python",
+          "stars": 75377,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "swisskyrepo",
+          "name": "PayloadsAllTheThings",
+          "full_name": "swisskyrepo/PayloadsAllTheThings",
+          "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+          "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
+          "language": "Python",
+          "stars": 74884,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "infiniflow",
+          "name": "ragflow",
+          "full_name": "infiniflow/ragflow",
+          "url": "https://github.com/infiniflow/ragflow",
+          "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+          "language": "Python",
+          "stars": 72619,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "sherlock-project",
+          "name": "sherlock",
+          "full_name": "sherlock-project/sherlock",
+          "url": "https://github.com/sherlock-project/sherlock",
+          "description": "Hunt down social media accounts by username across social networks",
+          "language": "Python",
+          "stars": 72387,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "josephmisiti",
+          "name": "awesome-machine-learning",
+          "full_name": "josephmisiti/awesome-machine-learning",
+          "url": "https://github.com/josephmisiti/awesome-machine-learning",
+          "description": "A curated list of awesome Machine Learning frameworks, libraries and software.",
+          "language": "Python",
+          "stars": 71567,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "python",
+          "name": "cpython",
+          "full_name": "python/cpython",
+          "url": "https://github.com/python/cpython",
+          "description": "The Python programming language",
+          "language": "Python",
+          "stars": 71327,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "pallets",
+          "name": "flask",
+          "full_name": "pallets/flask",
+          "url": "https://github.com/pallets/flask",
+          "description": "The Python micro framework for building web applications.",
+          "language": "Python",
+          "stars": 71126,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "binary-husky",
+          "name": "gpt_academic",
+          "full_name": "binary-husky/gpt_academic",
+          "url": "https://github.com/binary-husky/gpt_academic",
+          "description": "\u4e3aGPT/GLM\u7b49LLM\u5927\u8bed\u8a00\u6a21\u578b\u63d0\u4f9b\u5b9e\u7528\u5316\u4ea4\u4e92\u63a5\u53e3\uff0c\u7279\u522b\u4f18\u5316\u8bba\u6587\u9605\u8bfb/\u6da6\u8272/\u5199\u4f5c\u4f53\u9a8c\uff0c\u6a21\u5757\u5316\u8bbe\u8ba1\uff0c\u652f\u6301\u81ea\u5b9a\u4e49\u5feb\u6377\u6309\u94ae&\u51fd\u6570\u63d2\u4ef6\uff0c\u652f\u6301Python\u548cC++\u7b49\u9879\u76ee\u5256\u6790&\u81ea\u8bd1\u89e3\u529f\u80fd\uff0cPDF/LaTex\u8bba\u6587\u7ffb\u8bd1&\u603b\u7ed3\u529f\u80fd\uff0c\u652f\u6301\u5e76\u884c\u95ee\u8be2\u591a\u79cdLLM\u6a21\u578b\uff0c\u652f\u6301chatglm3\u7b49\u672c\u5730\u6a21\u578b\u3002\u63a5\u5165\u901a\u4e49\u5343\u95ee, deepseekcoder, \u8baf\u98de\u661f\u706b, \u6587\u5fc3\u4e00\u8a00, llama2, rwkv, claude2, moss\u7b49\u3002",
+          "language": "Python",
+          "stars": 70061,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "PaddlePaddle",
+          "name": "PaddleOCR",
+          "full_name": "PaddlePaddle/PaddleOCR",
+          "url": "https://github.com/PaddlePaddle/PaddleOCR",
+          "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+          "language": "Python",
+          "stars": 69923,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "vllm-project",
+          "name": "vllm",
+          "full_name": "vllm-project/vllm",
+          "url": "https://github.com/vllm-project/vllm",
+          "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+          "language": "Python",
+          "stars": 69292,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "ansible",
+          "name": "ansible",
+          "full_name": "ansible/ansible",
+          "url": "https://github.com/ansible/ansible",
+          "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
+          "language": "Python",
+          "stars": 67870,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "OpenHands",
+          "name": "OpenHands",
+          "full_name": "OpenHands/OpenHands",
+          "url": "https://github.com/OpenHands/OpenHands",
+          "description": "\ud83d\ude4c OpenHands: AI-Driven Development",
+          "language": "Python",
+          "stars": 67410,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "github",
+          "name": "spec-kit",
+          "full_name": "github/spec-kit",
+          "url": "https://github.com/github/spec-kit",
+          "description": "\ud83d\udcab Toolkit to help you get started with Spec-Driven Development",
+          "language": "Python",
+          "stars": 67075,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "hiyouga",
+          "name": "LlamaFactory",
+          "full_name": "hiyouga/LlamaFactory",
+          "url": "https://github.com/hiyouga/LlamaFactory",
+          "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+          "language": "Python",
+          "stars": 66776,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "xtekky",
+          "name": "gpt4free",
+          "full_name": "xtekky/gpt4free",
+          "url": "https://github.com/xtekky/gpt4free",
+          "description": "The official gpt4free repository | various collection of powerful language models | o4, o3 and deepseek r1, gpt-4.1, gemini 2.5",
+          "language": "Python",
+          "stars": 65721,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "labmlai",
+          "name": "annotated_deep_learning_paper_implementations",
+          "full_name": "labmlai/annotated_deep_learning_paper_implementations",
+          "url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+          "description": "\ud83e\uddd1\u200d\ud83c\udfeb 60+ Implementations/tutorials of deep learning papers with side-by-side notes \ud83d\udcdd; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gans(cyclegan, stylegan2, ...), \ud83c\udfae reinforcement learning (ppo, dqn), capsnet, distillation, ... \ud83e\udde0",
+          "language": "Python",
+          "stars": 65603,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "scikit-learn",
+          "name": "scikit-learn",
+          "full_name": "scikit-learn/scikit-learn",
+          "url": "https://github.com/scikit-learn/scikit-learn",
+          "description": "scikit-learn: machine learning in Python",
+          "language": "Python",
+          "stars": 64875,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "localstack",
+          "name": "localstack",
+          "full_name": "localstack/localstack",
+          "url": "https://github.com/localstack/localstack",
+          "description": "\ud83d\udcbb A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline",
+          "language": "Python",
+          "stars": 64272,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "FoundationAgents",
+          "name": "MetaGPT",
+          "full_name": "FoundationAgents/MetaGPT",
+          "url": "https://github.com/FoundationAgents/MetaGPT",
+          "description": "\ud83c\udf1f The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
+          "language": "Python",
+          "stars": 63798,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
+        },
+        {
+          "owner": "keras-team",
+          "name": "keras",
+          "full_name": "keras-team/keras",
+          "url": "https://github.com/keras-team/keras",
+          "description": "Deep Learning for humans",
+          "language": "Python",
+          "stars": 63754,
+          "discovered_at": "2026-02-03T00:42:03.127701+00:00"
         }
       ]
     },
@@ -1631,7 +2994,7 @@
           "description": "Empowering everyone to build reliable and efficient software.",
           "language": "Rust",
           "stars": 109983,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "rustdesk",
@@ -1640,8 +3003,8 @@
           "url": "https://github.com/rustdesk/rustdesk",
           "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
           "language": "Rust",
-          "stars": 106780,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "stars": 106781,
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "denoland",
@@ -1651,7 +3014,7 @@
           "description": "A modern runtime for JavaScript and TypeScript.",
           "language": "Rust",
           "stars": 106034,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "tauri-apps",
@@ -1660,8 +3023,8 @@
           "url": "https://github.com/tauri-apps/tauri",
           "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
           "language": "Rust",
-          "stars": 102203,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "stars": 102204,
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "astral-sh",
@@ -1670,8 +3033,8 @@
           "url": "https://github.com/astral-sh/uv",
           "description": "An extremely fast Python package and project manager, written in Rust.",
           "language": "Rust",
-          "stars": 78358,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "stars": 78359,
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "zed-industries",
@@ -1680,8 +3043,8 @@
           "url": "https://github.com/zed-industries/zed",
           "description": "Code at the speed of thought \u2013 Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
           "language": "Rust",
-          "stars": 74567,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "stars": 74570,
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "unionlabs",
@@ -1690,8 +3053,8 @@
           "url": "https://github.com/unionlabs/union",
           "description": "The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.",
           "language": "Rust",
-          "stars": 74360,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "stars": 74359,
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "alacritty",
@@ -1701,7 +3064,7 @@
           "description": "A cross-platform, OpenGL terminal emulator.",
           "language": "Rust",
           "stars": 62245,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "FuelLabs",
@@ -1711,7 +3074,7 @@
           "description": "\ud83c\udf34 Empowering everyone to build reliable and efficient smart contracts.",
           "language": "Rust",
           "stars": 61979,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "rust-lang",
@@ -1721,7 +3084,7 @@
           "description": ":crab: Small exercises to get you used to reading and writing Rust code!",
           "language": "Rust",
           "stars": 61676,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "BurntSushi",
@@ -1730,8 +3093,8 @@
           "url": "https://github.com/BurntSushi/ripgrep",
           "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
           "language": "Rust",
-          "stars": 59472,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "stars": 59473,
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "openai",
@@ -1740,8 +3103,8 @@
           "url": "https://github.com/openai/codex",
           "description": "Lightweight coding agent that runs in your terminal",
           "language": "Rust",
-          "stars": 58519,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "stars": 58529,
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "topjohnwu",
@@ -1751,7 +3114,7 @@
           "description": "The Magic Mask for Android",
           "language": "Rust",
           "stars": 58489,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "FuelLabs",
@@ -1761,7 +3124,7 @@
           "description": "Rust full node implementation of the Fuel v2 protocol.",
           "language": "Rust",
           "stars": 57390,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "sharkdp",
@@ -1771,7 +3134,7 @@
           "description": "A cat(1) clone with wings.",
           "language": "Rust",
           "stars": 56934,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "meilisearch",
@@ -1780,8 +3143,8 @@
           "url": "https://github.com/meilisearch/meilisearch",
           "description": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
           "language": "Rust",
-          "stars": 55715,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "stars": 55716,
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "rust-unofficial",
@@ -1791,7 +3154,7 @@
           "description": "A curated list of Rust code and resources.",
           "language": "Rust",
           "stars": 55383,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "lencx",
@@ -1801,7 +3164,7 @@
           "description": "\ud83d\udd2e ChatGPT Desktop Application (Mac, Windows and Linux)",
           "language": "Rust",
           "stars": 54398,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "dani-garcia",
@@ -1810,8 +3173,8 @@
           "url": "https://github.com/dani-garcia/vaultwarden",
           "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
           "language": "Rust",
-          "stars": 54385,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "stars": 54386,
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "starship",
@@ -1820,8 +3183,8 @@
           "url": "https://github.com/starship/starship",
           "description": "\u2604\ud83c\udf0c\ufe0f  The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
           "language": "Rust",
-          "stars": 53877,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "stars": 53878,
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "typst",
@@ -1830,8 +3193,8 @@
           "url": "https://github.com/typst/typst",
           "description": "A markup-based typesetting system that is powerful and easy to learn.",
           "language": "Rust",
-          "stars": 51009,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "stars": 51010,
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "tw93",
@@ -1841,7 +3204,7 @@
           "description": "\ud83e\udd31\ud83c\udffb Turn any webpage into a desktop app with one command.",
           "language": "Rust",
           "stars": 45569,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "astral-sh",
@@ -1851,7 +3214,7 @@
           "description": "An extremely fast Python linter and code formatter, written in Rust.",
           "language": "Rust",
           "stars": 45532,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "bevyengine",
@@ -1861,7 +3224,7 @@
           "description": "A refreshingly simple data-driven game engine built in Rust",
           "language": "Rust",
           "stars": 44451,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "FuelLabs",
@@ -1871,7 +3234,7 @@
           "description": "Fuel Network Rust SDK",
           "language": "Rust",
           "stars": 43451,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "helix-editor",
@@ -1881,7 +3244,7 @@
           "description": "A post-modern modal text editor.",
           "language": "Rust",
           "stars": 42741,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "sharkdp",
@@ -1891,7 +3254,7 @@
           "description": "A simple, fast and user-friendly alternative to 'find'",
           "language": "Rust",
           "stars": 41436,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "juspay",
@@ -1901,7 +3264,7 @@
           "description": "An open source payments switch written in Rust to make payments fast, reliable and affordable",
           "language": "Rust",
           "stars": 40006,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "nushell",
@@ -1911,7 +3274,7 @@
           "description": "A new type of shell",
           "language": "Rust",
           "stars": 38088,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         },
         {
           "owner": "lapce",
@@ -1920,11 +3283,11 @@
           "url": "https://github.com/lapce/lapce",
           "description": "Lightning-fast and Powerful Code Editor written in Rust",
           "language": "Rust",
-          "stars": 38002,
-          "discovered_at": "2026-02-02T22:24:15.063023+00:00"
+          "stars": 38003,
+          "discovered_at": "2026-02-02T23:15:03.291509+00:00"
         }
       ]
     }
   ],
-  "generated_at": "2026-02-02T22:28:44.909370+00:00"
+  "generated_at": "2026-02-03T01:18:30.499089+00:00"
 }

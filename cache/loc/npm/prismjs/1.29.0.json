@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "prismjs",
+    "version": "1.29.0"
+  },
+  "total_lines": 22278,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:22:03.748680+00:00",
+  "source_url": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 1.0949478149414062,
+  "count_duration_seconds": null
+}

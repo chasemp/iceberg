@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "filelock",
+    "version": "3.15.4"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T01:10:13.634134+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/filelock/versions/3.15.4",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.12764430046081543,
+  "count_duration_seconds": null
+}

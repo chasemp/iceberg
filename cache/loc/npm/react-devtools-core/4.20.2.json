@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "react-devtools-core",
+    "version": "4.20.2"
+  },
+  "total_lines": 2,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:50:29.457541+00:00",
+  "source_url": "https://registry.npmjs.org/react-devtools-core/-/react-devtools-core-4.20.2.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 7.155655145645142,
+  "count_duration_seconds": null
+}

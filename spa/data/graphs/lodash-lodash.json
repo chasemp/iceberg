@@ -1,0 +1,16 @@
+{
+  "owner": "lodash",
+  "repo": "lodash",
+  "full_name": "lodash/lodash",
+  "root_package": "npm:lodash:4.17.23",
+  "nodes": [
+    {
+      "id": "npm:lodash:4.17.23",
+      "system": "npm",
+      "name": "lodash",
+      "version": "4.17.23"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-03T01:18:30.595589+00:00"
+}

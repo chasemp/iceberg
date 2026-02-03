@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "fastmcp",
+    "version": "2.12.4"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T01:14:00.621039+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/fastmcp/versions/2.12.4",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.12545418739318848,
+  "count_duration_seconds": null
+}

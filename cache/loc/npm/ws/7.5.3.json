@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "ws",
+    "version": "7.5.3"
+  },
+  "total_lines": 2366,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:36:46.971719+00:00",
+  "source_url": "https://registry.npmjs.org/ws/-/ws-7.5.3.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7396841049194336,
+  "count_duration_seconds": null
+}

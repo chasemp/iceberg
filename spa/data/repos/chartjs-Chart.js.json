@@ -1,0 +1,30 @@
+{
+  "owner": "chartjs",
+  "repo": "Chart.js",
+  "full_name": "chartjs/Chart.js",
+  "url": "https://github.com/chartjs/Chart.js",
+  "analysis": {
+    "owner": "chartjs",
+    "repo": "Chart.js",
+    "version": "HEAD",
+    "loc": 16721,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:45:04.653120+00:00",
+    "package": {
+      "system": "npm",
+      "name": "chart.js",
+      "version": "4.5.1"
+    },
+    "total_loc": 253836,
+    "ratio": 0.9381978658840836,
+    "repo_url": "https://github.com/chartjs/Chart.js.git",
+    "ref": "v4.5.1",
+    "commit_hash": "9c5cf9fac7ec04a71b516e2aff3f7d76876be369",
+    "clone_duration_seconds": 3.376546621322632,
+    "count_duration_seconds": 0.033551931381225586,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

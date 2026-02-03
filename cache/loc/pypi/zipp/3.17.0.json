@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "zipp",
+    "version": "3.17.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T00:58:16.065221+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/zipp/versions/3.17.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1269979476928711,
+  "count_duration_seconds": null
+}

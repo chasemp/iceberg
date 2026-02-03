@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "ecdsa",
+    "version": "0.19.1"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T01:13:56.025446+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/ecdsa/versions/0.19.1",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.22736120223999023,
+  "count_duration_seconds": null
+}

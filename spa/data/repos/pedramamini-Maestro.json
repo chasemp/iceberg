@@ -7,28 +7,20 @@
     "owner": "pedramamini",
     "repo": "Maestro",
     "version": "HEAD",
-    "loc": 180581,
+    "loc": 179541,
     "source": "github_clone",
-    "cached_at": "2026-02-02T22:24:39.675772+00:00",
+    "cached_at": "2026-02-02T23:15:35.532684+00:00",
     "package": {
       "system": "npm",
       "name": "maestro",
       "version": "0.14.5"
     },
-    "ai_markers": {
-      "claude": true,
-      "cursor": false,
-      "copilot": false,
-      "aider": false,
-      "generic_ai": false
-    },
-    "ai_tools": [
-      "Claude"
-    ],
+    "total_loc": 52042,
+    "ratio": 0.2247228855313214,
     "repo_url": "https://github.com/pedramamini/Maestro.git",
-    "ref": "HEAD",
-    "commit_hash": "9cf1b0565526d709d589ee800a83fe05cc72b0c4",
-    "clone_duration_seconds": 5.101600170135498,
-    "count_duration_seconds": 0.08118295669555664
+    "ref": "v0.14.5",
+    "commit_hash": "8be8a8eb6a9ef681a420151c87c7eec2c8cfc9e1",
+    "clone_duration_seconds": 4.566849946975708,
+    "count_duration_seconds": 0.09237504005432129
   }
 }

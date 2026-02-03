@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "litellm",
+    "version": "1.17.13"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T00:58:16.486921+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/litellm/versions/1.17.13",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1317439079284668,
+  "count_duration_seconds": null
+}

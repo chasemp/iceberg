@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "body-parser",
+    "version": "2.2.0"
+  },
+  "total_lines": 498,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:20:18.067854+00:00",
+  "source_url": "https://registry.npmjs.org/body-parser/-/body-parser-2.2.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.8936498165130615,
+  "count_duration_seconds": null
+}

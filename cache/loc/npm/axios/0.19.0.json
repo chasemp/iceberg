@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "axios",
+    "version": "0.19.0"
+  },
+  "total_lines": 1199,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:56:00.913128+00:00",
+  "source_url": "https://registry.npmjs.org/axios/-/axios-0.19.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.5357711315155029,
+  "count_duration_seconds": null
+}

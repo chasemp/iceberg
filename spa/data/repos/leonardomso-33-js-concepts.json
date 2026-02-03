@@ -1,0 +1,28 @@
+{
+  "owner": "leonardomso",
+  "repo": "33-js-concepts",
+  "full_name": "leonardomso/33-js-concepts",
+  "url": "https://github.com/leonardomso/33-js-concepts",
+  "analysis": {
+    "owner": "leonardomso",
+    "repo": "33-js-concepts",
+    "version": "HEAD",
+    "loc": 11,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:45:16.132117+00:00",
+    "package": {
+      "system": "npm",
+      "name": "33-js-concepts",
+      "version": "1.0.0"
+    },
+    "repo_url": "https://github.com/leonardomso/33-js-concepts.git",
+    "ref": "HEAD",
+    "commit_hash": "64b11597a4419b2ea19a5f4ad2b60b91c8e720f2",
+    "clone_duration_seconds": 1.367232084274292,
+    "count_duration_seconds": 0.011022806167602539,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

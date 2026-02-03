@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "base-x",
+    "version": "3.0.9"
+  },
+  "total_lines": 110,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:49:46.073923+00:00",
+  "source_url": "https://registry.npmjs.org/base-x/-/base-x-3.0.9.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7730281352996826,
+  "count_duration_seconds": null
+}

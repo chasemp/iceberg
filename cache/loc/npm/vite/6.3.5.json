@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "vite",
+    "version": "6.3.5"
+  },
+  "total_lines": 635,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:21:02.186695+00:00",
+  "source_url": "https://registry.npmjs.org/vite/-/vite-6.3.5.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 1.5395660400390625,
+  "count_duration_seconds": null
+}
