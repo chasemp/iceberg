@@ -1,0 +1,99 @@
+name: Weekly Maintenance
+
+on:
+  # Run weekly on Sundays at 8 AM UTC
+  schedule:
+    - cron: '0 8 * * 0'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      max_updates:
+        description: 'Maximum number of repos to update'
+        required: false
+        default: '200'
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  maintain:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history for proper commits
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+      
+      - name: Install osv-scanner
+        run: |
+          curl -sSL https://github.com/google/osv-scanner/releases/download/v1.9.1/osv-scanner_1.9.1_linux_amd64 -o /usr/local/bin/osv-scanner
+          chmod +x /usr/local/bin/osv-scanner
+          osv-scanner --version
+      
+      - name: Run maintenance
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          MAX_UPDATES="${{ inputs.max_updates || '200' }}"
+          python scripts/run_maintenance.py --max-updates=$MAX_UPDATES 2>&1 | tee maintenance.log
+      
+      - name: Export to SPA
+        run: |
+          python -m iceberg.cli export
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Add cache and SPA data
+          git add cache/ spa/data/ || true
+          
+          # Commit with date
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Weekly maintenance $(date +%Y-%m-%d)" \
+              -m "Automated maintenance run" \
+              -m "$(tail -20 maintenance.log)"
+            git push
+          fi
+      
+      - name: Upload maintenance log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: maintenance-log
+          path: maintenance.log
+          retention-days: 14
+      
+      - name: Create issue on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const log = fs.readFileSync('maintenance.log', 'utf8');
+            const lastLines = log.split('\n').slice(-30).join('\n');
+            
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Maintenance workflow failed - ${new Date().toISOString().split('T')[0]}`,
+              body: `The weekly maintenance workflow failed.\n\n**Last 30 lines of log:**\n\`\`\`\n${lastLines}\n\`\`\`\n\nCheck the [workflow run](${context.payload.repository.html_url}/actions/runs/${context.runId}) for details.`,
+              labels: ['maintenance', 'automation']
+            });
