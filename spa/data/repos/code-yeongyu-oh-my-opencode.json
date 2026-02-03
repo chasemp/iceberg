@@ -1,0 +1,34 @@
+{
+  "owner": "code-yeongyu",
+  "repo": "oh-my-opencode",
+  "full_name": "code-yeongyu/oh-my-opencode",
+  "url": "https://github.com/code-yeongyu/oh-my-opencode",
+  "analysis": {
+    "owner": "code-yeongyu",
+    "repo": "oh-my-opencode",
+    "version": "HEAD",
+    "loc": 51151,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T06:40:59.845964+00:00",
+    "package": {
+      "system": "npm",
+      "name": "oh-my-opencode",
+      "version": "3.0.1"
+    },
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "generic_ai": true
+    },
+    "ai_tools": [
+      "AI Tools"
+    ],
+    "repo_url": "https://github.com/code-yeongyu/oh-my-opencode.git",
+    "ref": "v3.0.1",
+    "commit_hash": "a5db86ee1593cdf6379db9400ddce5ee783c9f5d",
+    "clone_duration_seconds": 0.5056393146514893,
+    "count_duration_seconds": 0.028421640396118164
+  }
+}

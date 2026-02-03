@@ -5,9 +5,9 @@
     "url": "https://github.com/rust-lang/rust",
     "description": "Empowering everyone to build reliable and efficient software.",
     "language": "Rust",
-    "stars": 109983,
+    "stars": 109992,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -16,9 +16,9 @@
     "url": "https://github.com/rustdesk/rustdesk",
     "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
     "language": "Rust",
-    "stars": 106781,
+    "stars": 106800,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -27,9 +27,9 @@
     "url": "https://github.com/denoland/deno",
     "description": "A modern runtime for JavaScript and TypeScript.",
     "language": "Rust",
-    "stars": 106034,
+    "stars": 106037,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -38,9 +38,9 @@
     "url": "https://github.com/tauri-apps/tauri",
     "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
     "language": "Rust",
-    "stars": 102204,
+    "stars": 102212,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -49,9 +49,9 @@
     "url": "https://github.com/astral-sh/uv",
     "description": "An extremely fast Python package and project manager, written in Rust.",
     "language": "Rust",
-    "stars": 78359,
+    "stars": 78392,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -60,9 +60,9 @@
     "url": "https://github.com/zed-industries/zed",
     "description": "Code at the speed of thought \u2013 Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
     "language": "Rust",
-    "stars": 74570,
+    "stars": 74594,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -73,7 +73,7 @@
     "language": "Rust",
     "stars": 74359,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -84,7 +84,7 @@
     "language": "Rust",
     "stars": 62245,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -95,7 +95,7 @@
     "language": "Rust",
     "stars": 61979,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -104,9 +104,9 @@
     "url": "https://github.com/rust-lang/rustlings",
     "description": ":crab: Small exercises to get you used to reading and writing Rust code!",
     "language": "Rust",
-    "stars": 61676,
+    "stars": 61680,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -115,9 +115,9 @@
     "url": "https://github.com/BurntSushi/ripgrep",
     "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
     "language": "Rust",
-    "stars": 59473,
+    "stars": 59481,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -126,9 +126,9 @@
     "url": "https://github.com/openai/codex",
     "description": "Lightweight coding agent that runs in your terminal",
     "language": "Rust",
-    "stars": 58529,
+    "stars": 58606,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -137,9 +137,9 @@
     "url": "https://github.com/topjohnwu/Magisk",
     "description": "The Magic Mask for Android",
     "language": "Rust",
-    "stars": 58489,
+    "stars": 58497,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -150,7 +150,7 @@
     "language": "Rust",
     "stars": 57390,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -159,9 +159,9 @@
     "url": "https://github.com/sharkdp/bat",
     "description": "A cat(1) clone with wings.",
     "language": "Rust",
-    "stars": 56934,
+    "stars": 56939,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -170,9 +170,9 @@
     "url": "https://github.com/meilisearch/meilisearch",
     "description": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
     "language": "Rust",
-    "stars": 55716,
+    "stars": 55723,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -181,20 +181,9 @@
     "url": "https://github.com/rust-unofficial/awesome-rust",
     "description": "A curated list of Rust code and resources.",
     "language": "Rust",
-    "stars": 55383,
+    "stars": 55388,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
-    "search_query": "stars:>3000 language:rust"
-  },
-  {
-    "name": "ChatGPT",
-    "owner": "lencx",
-    "url": "https://github.com/lencx/ChatGPT",
-    "description": "\ud83d\udd2e ChatGPT Desktop Application (Mac, Windows and Linux)",
-    "language": "Rust",
-    "stars": 54398,
-    "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -203,9 +192,20 @@
     "url": "https://github.com/dani-garcia/vaultwarden",
     "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
     "language": "Rust",
-    "stars": 54386,
+    "stars": 54401,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
+    "search_query": "stars:>3000 language:rust"
+  },
+  {
+    "name": "ChatGPT",
+    "owner": "lencx",
+    "url": "https://github.com/lencx/ChatGPT",
+    "description": "\ud83d\udd2e ChatGPT Desktop Application (Mac, Windows and Linux)",
+    "language": "Rust",
+    "stars": 54397,
+    "source": "search",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -214,9 +214,9 @@
     "url": "https://github.com/starship/starship",
     "description": "\u2604\ud83c\udf0c\ufe0f  The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
     "language": "Rust",
-    "stars": 53878,
+    "stars": 53884,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -225,9 +225,9 @@
     "url": "https://github.com/typst/typst",
     "description": "A markup-based typesetting system that is powerful and easy to learn.",
     "language": "Rust",
-    "stars": 51010,
+    "stars": 51012,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -236,9 +236,9 @@
     "url": "https://github.com/tw93/Pake",
     "description": "\ud83e\udd31\ud83c\udffb Turn any webpage into a desktop app with one command.",
     "language": "Rust",
-    "stars": 45569,
+    "stars": 45572,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -247,9 +247,9 @@
     "url": "https://github.com/astral-sh/ruff",
     "description": "An extremely fast Python linter and code formatter, written in Rust.",
     "language": "Rust",
-    "stars": 45532,
+    "stars": 45537,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -258,9 +258,9 @@
     "url": "https://github.com/bevyengine/bevy",
     "description": "A refreshingly simple data-driven game engine built in Rust",
     "language": "Rust",
-    "stars": 44451,
+    "stars": 44457,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -271,7 +271,7 @@
     "language": "Rust",
     "stars": 43451,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -280,9 +280,9 @@
     "url": "https://github.com/helix-editor/helix",
     "description": "A post-modern modal text editor.",
     "language": "Rust",
-    "stars": 42741,
+    "stars": 42748,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -291,9 +291,9 @@
     "url": "https://github.com/sharkdp/fd",
     "description": "A simple, fast and user-friendly alternative to 'find'",
     "language": "Rust",
-    "stars": 41436,
+    "stars": 41438,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -302,9 +302,9 @@
     "url": "https://github.com/juspay/hyperswitch",
     "description": "An open source payments switch written in Rust to make payments fast, reliable and affordable",
     "language": "Rust",
-    "stars": 40006,
+    "stars": 40007,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -313,9 +313,9 @@
     "url": "https://github.com/nushell/nushell",
     "description": "A new type of shell",
     "language": "Rust",
-    "stars": 38088,
+    "stars": 38096,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   },
   {
@@ -324,9 +324,9 @@
     "url": "https://github.com/lapce/lapce",
     "description": "Lightning-fast and Powerful Code Editor written in Rust",
     "language": "Rust",
-    "stars": 38003,
+    "stars": 38005,
     "source": "search",
-    "discovered_at": "2026-02-02T23:15:03.291509+00:00",
+    "discovered_at": "2026-02-03T06:40:54.605794+00:00",
     "search_query": "stars:>3000 language:rust"
   }
 ]
