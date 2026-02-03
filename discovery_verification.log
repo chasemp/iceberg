@@ -1,0 +1,415 @@
+============================================================
+🔍 DISCOVERY RUN
+Date: 2026-02-09
+============================================================
+
+📡 Fetching discovery sources...
+
+  Fetching trending weekly...
+  ✓ Got 17 repos from trending weekly
+  Fetching trending monthly...
+  ✓ Got 19 repos from trending monthly
+
+  Fetching search: stars>10000 language:javascript...
+  ✓ Got 50 repos from search
+  Fetching search: stars>10000 language:python...
+  ✓ Got 50 repos from search
+
+  Fetching GitHub-Ranking: Top-100-stars...
+  ✓ Got 100 repos from GitHub-Ranking (Top-100-stars)
+  Fetching GitHub-Ranking: Top-100-forks...
+  ✓ Got 100 repos from GitHub-Ranking (Top-100-forks)
+  Fetching GitHub-Ranking: Python...
+  ✓ Got 25 repos from GitHub-Ranking (Python)
+  Fetching GitHub-Ranking: JavaScript...
+  ✓ Got 25 repos from GitHub-Ranking (JavaScript)
+  Fetching GitHub-Ranking: TypeScript...
+  ✓ Got 25 repos from GitHub-Ranking (TypeScript)
+  Fetching GitHub-Ranking: Java...
+  ✓ Got 25 repos from GitHub-Ranking (Java)
+  Fetching GitHub-Ranking: Go...
+  ✓ Got 25 repos from GitHub-Ranking (Go)
+  Fetching GitHub-Ranking: Rust...
+  ✓ Got 25 repos from GitHub-Ranking (Rust)
+  Fetching GitHub-Ranking: C...
+  ✓ Got 25 repos from GitHub-Ranking (C)
+  Fetching GitHub-Ranking: CPP...
+  ✓ Got 25 repos from GitHub-Ranking (CPP)
+  Fetching GitHub-Ranking: CSharp...
+  ✓ Got 25 repos from GitHub-Ranking (CSharp)
+  Fetching GitHub-Ranking: PHP...
+  ✓ Got 25 repos from GitHub-Ranking (PHP)
+  Fetching GitHub-Ranking: Ruby...
+  ✓ Got 25 repos from GitHub-Ranking (Ruby)
+  Fetching GitHub-Ranking: Swift...
+  ✓ Got 25 repos from GitHub-Ranking (Swift)
+  Fetching GitHub-Ranking: Kotlin...
+  ✓ Got 25 repos from GitHub-Ranking (Kotlin)
+  Fetching GitHub-Ranking: R...
+  ✓ Got 25 repos from GitHub-Ranking (R)
+  Fetching GitHub-Ranking: Scala...
+  ✓ Got 25 repos from GitHub-Ranking (Scala)
+  Fetching GitHub-Ranking: Dart...
+  ✓ Got 25 repos from GitHub-Ranking (Dart)
+  Fetching GitHub-Ranking: Shell...
+  ✓ Got 25 repos from GitHub-Ranking (Shell)
+  Fetching GitHub-Ranking: Lua...
+  ✓ Got 25 repos from GitHub-Ranking (Lua)
+  Fetching GitHub-Ranking: Haskell...
+  ✓ Got 25 repos from GitHub-Ranking (Haskell)
+  Fetching GitHub-Ranking: Julia...
+  ✓ Got 25 repos from GitHub-Ranking (Julia)
+  Fetching GitHub-Ranking: Elixir...
+  ✓ Got 25 repos from GitHub-Ranking (Elixir)
+
+📊 Total repos fetched: 861
+📊 Unique repos: 663
+
+💾 Saving discovery snapshots...
+  ✓ Saved 17 repos to trending-weekly
+  ✓ Saved 11 repos to trending-monthly
+  ✓ Saved 99 repos to search
+  ✓ Saved 67 repos to github-ranking-top-100-stars
+  ✓ Saved 50 repos to github-ranking-top-100-forks
+  ✓ Saved 7 repos to github-ranking-typescript
+  ✓ Saved 15 repos to github-ranking-java
+  ✓ Saved 20 repos to github-ranking-go
+  ✓ Saved 21 repos to github-ranking-rust
+  ✓ Saved 22 repos to github-ranking-c
+  ✓ Saved 18 repos to github-ranking-cpp
+  ✓ Saved 23 repos to github-ranking-csharp
+  ✓ Saved 25 repos to github-ranking-php
+  ✓ Saved 25 repos to github-ranking-ruby
+  ✓ Saved 25 repos to github-ranking-swift
+  ✓ Saved 25 repos to github-ranking-kotlin
+  ✓ Saved 25 repos to github-ranking-r
+  ✓ Saved 24 repos to github-ranking-scala
+  ✓ Saved 24 repos to github-ranking-dart
+  ✓ Saved 21 repos to github-ranking-shell
+  ✓ Saved 24 repos to github-ranking-lua
+  ✓ Saved 25 repos to github-ranking-haskell
+  ✓ Saved 25 repos to github-ranking-julia
+  ✓ Saved 25 repos to github-ranking-elixir
+
+💾 Updating repo metadata...
+  ✓ Updated metadata for 663 unique repos
+
+============================================================
+🔬 ANALYZING REPOS
+============================================================
+
+⏭️  KeygraphHQ/shannon - analyzed 2.0h ago
+⏭️  openai/skills - analyzed 2.0h ago
+🔍 thedotmack/claude-mem - needs update: new commits (cached: a16b2527, current: b2ddf59d)
+  ✓ Analyzed: 28,744 LoC
+
+🔍 badlogic/pi-mono - needs update: new commits (cached: 8c38de04, current: fdcd9ab7)
+  ✓ Analyzed: 84,531 LoC
+  ✓ Dependencies: 9,332 LoC
+
+🔍 openclaw/openclaw - needs update: new commits (cached: d842b28a, current: 1fad1900)
+  ✓ Analyzed: 556,049 LoC
+
+⏭️  disler/claude-code-hooks-mastery - analyzed 2.0h ago
+🔍 virattt/dexter - needs update: new commits (cached: e4a1aea3, current: 783025ac)
+  ✓ Analyzed: 5,230 LoC
+  ✓ Dependencies: 0 LoC
+
+⏭️  tobi/qmd - analyzed 2.0h ago
+🔍 OpenBMB/ChatDev - needs update: new commits (cached: a96d633d, current: c964a3fa)
+  ✓ Analyzed: 22,370 LoC
+  ✓ Dependencies: 41,152 LoC
+
+🔍 karpathy/nanochat - needs update: new commits (cached: 72b9064f, current: 1ec0a347)
+  ✓ Analyzed: 6,174 LoC
+  ✓ Dependencies: 0 LoC
+
+⏭️  github/gh-aw - analyzed 1.9h ago
+🔍 ThePrimeagen/99 - needs update: new commits (cached: 2c771814, current: 33bad889)
+  ✓ Analyzed: 25 LoC
+
+⏭️  gitbutlerapp/gitbutler - analyzed 1.9h ago
+🔍 pedramamini/Maestro - needs update: new commits (cached: 8be8a8eb, current: 8b29dbeb)
+  ✓ Analyzed: 179,541 LoC
+  ✓ Dependencies: 52,042 LoC
+
+⏭️  microsoft/playwright-cli - analyzed 1.9h ago
+⏭️  Canner/WrenAI - analyzed 1.9h ago
+🔍 NevaMind-AI/memU - needs update: new commits (cached: 0d3cff61, current: 777f1eda)
+  ✓ Analyzed: 12,145 LoC
+  ✓ Dependencies: 0 LoC
+
+🔍 obra/superpowers - needs update: new commits (cached: 06b92f36, current: a98c5dfc)
+  ✓ Analyzed: 473 LoC
+
+🔍 anomalyco/opencode - needs update: new commits (cached: ba545ba9, current: 3d6fb29f)
+  ✓ Analyzed: 141,496 LoC
+  ✓ Dependencies: 744,757 LoC
+
+🔍 anthropics/skills - needs update: new commits (cached: 69c0b1a0, current: 1ed29a03)
+  ✓ Analyzed: 9,001 LoC
+
+⏭️  iOfficeAI/AionUi - analyzed 1.9h ago
+⏭️  VectifyAI/PageIndex - up to date
+🔍 remotion-dev/remotion - needs update: new commits (cached: 247a924f, current: a2c1b33f)
+  ✓ Analyzed: 654,333 LoC
+  ✓ Dependencies: 491,100 LoC
+
+🔍 asgeirtj/system_prompts_leaks - needs update: new commits (cached: 606a7f32, current: da1c38aa)
+  ✓ Analyzed: 178 LoC
+
+⏭️  frankbria/ralph-claude-code - analyzed 1.9h ago
+⏭️  code-yeongyu/oh-my-opencode - analyzed 1.9h ago
+🔍 ComposioHQ/awesome-claude-skills - needs update: new commits (cached: 362d3542, current: e762a98b)
+  ✓ Analyzed: 12,732 LoC
+
+🔍 anthropics/claude-plugins-official - needs update: new commits (cached: 27d2b86d, current: 2cd88e79)
+  ✓ Analyzed: 1,918 LoC
+
+🔍 facebook/react - needs update: new commits (cached: 7b023d70, current: 24f215ce)
+  ✓ Analyzed: 314,741 LoC
+
+⏭️  trekhleb/javascript-algorithms - up to date
+⏭️  airbnb/javascript - up to date
+🔍 vercel/next.js - needs update: new commits (cached: b91cf900, current: cc68574b)
+  ✓ Analyzed: 1,252,438 LoC
+  ✓ Dependencies: 1,122,165 LoC
+
+🔍 Chalarangelo/30-seconds-of-code - needs update: new commits (cached: 51e8fc3a, current: 213b7e98)
+  ✓ Analyzed: 4,402 LoC
+  ✓ Dependencies: 92,667 LoC
+
+🔍 nodejs/node - needs update: new commits (cached: bdceaa21, current: 8ba4d727)
+  ✓ Analyzed: 218,569 LoC
+
+🔍 mrdoob/three.js - needs update: new commits (cached: f9e33fa6, current: 53ae84bc)
+  ✓ Analyzed: 233,811 LoC
+
+🔍 axios/axios - needs update: new commits (cached: ab06109b, current: 29f75425)
+  ✓ Analyzed: 5,675 LoC
+  ✓ Dependencies: 133,330 LoC
+
+⏭️  facebook/create-react-app - up to date
+🔍 jaywcjlove/awesome-mac - needs update: new commits (cached: 63287cb9, current: 6acbf0eb)
+  ✓ Analyzed: 0 LoC
+
+🔍 mui/material-ui - needs update: new commits (cached: 86fd51e3, current: ed891c36)
+  ✓ Analyzed: 761,753 LoC
+  ✓ Dependencies: 192,565 LoC
+
+🔍 microsoft/Web-Dev-For-Beginners - needs update: new commits (cached: 1e73db40, current: 7438fab2)
+  ✓ Analyzed: 3,584 LoC
+  ✓ Dependencies: 253,563 LoC
+
+⏭️  ryanmcdermott/clean-code-javascript - up to date
+🔍 sveltejs/svelte - needs update: new commits (cached: cd8d40af, current: f0978542)
+  ✓ Analyzed: 48,875 LoC
+  ✓ Dependencies: 52,733 LoC
+
+🔍 louislam/uptime-kuma - needs update: new commits (cached: 574d42ca, current: 2d304893)
+  ✓ Analyzed: 24,926 LoC
+  ✓ Dependencies: 103,649 LoC
+
+🔍 anuraghazra/github-readme-stats - needs update: new commits (cached: dc8852dd, current: 5df91f9b)
+  ✓ Analyzed: 3,256 LoC
+
+⏭️  FortAwesome/Font-Awesome - up to date
+🔍 typicode/json-server - needs update: new commits (cached: 58e8b010, current: a2dbadad)
+  ✓ Analyzed: 1,125 LoC
+
+⏭️  hakimel/reveal.js - up to date
+🔍 expressjs/express - needs update: new commits (cached: dbac741a, current: 66404b34)
+  ✓ Analyzed: 2,391 LoC
+
+🔍 chartjs/Chart.js - needs update: new commits (cached: 9c5cf9fa, current: a1535568)
+  ✓ Analyzed: 16,721 LoC
+  ✓ Dependencies: 253,836 LoC
+
+⏭️  juliangarnier/anime - up to date
+⏭️  leonardomso/33-js-concepts - up to date
+🔍 webpack/webpack - needs update: new commits (cached: 24e3c2d2, current: 124ba799)
+  ✓ Analyzed: 121,239 LoC
+  ✓ Dependencies: 65,499 LoC
+
+⏭️  resume/resume.github.com - up to date
+🔍 lodash/lodash - needs update: new commits (cached: 62b439f6, current: 35bb1d91)
+  ✓ Analyzed: 8,933 LoC
+  ✓ Dependencies: 223,921 LoC
+
+🔍 gorhill/uBlock - needs update: new commits (cached: 1ec05d4c, current: 2b63dcdc)
+  ✓ Analyzed: 84,408 LoC
+  ✓ Dependencies: 2,924 LoC
+
+⏭️  atom/atom - up to date
+⏭️  adam-p/markdown-here - up to date
+🔍 jquery/jquery - needs update: new commits (cached: df16f736, current: a52eeaef)
+  ✓ Analyzed: 7,221 LoC
+  ✓ Dependencies: 84,583 LoC
+
+🔍 jgraph/drawio-desktop - needs update: new commits (cached: 0667e8dd, current: fff2ad40)
+  ✓ Analyzed: 2,305 LoC
+
+⏭️  angular/angular.js - up to date
+🔍 h5bp/html5-boilerplate - needs update: new commits (cached: 90066899, current: 091a3573)
+  ✓ Analyzed: 177 LoC
+  ✓ Dependencies: 118,423 LoC
+
+⏭️  scutan90/DeepLearning-500-questions - up to date
+⏭️  gatsbyjs/gatsby - up to date
+⏭️  azl397985856/leetcode - up to date
+🔍 Mintplex-Labs/anything-llm - needs update: new commits (cached: ac8248e0, current: 4a61008b)
+  ✓ Analyzed: 126,630 LoC
+
+🔍 marktext/marktext - needs update: new commits (cached: c8aa33dd, current: aa71e33e)
+  ✓ Analyzed: 33,304 LoC
+  ✓ Dependencies: 537,095 LoC
+
+🔍 mozilla/pdf.js - needs update: new commits (cached: 1c12b077, current: 96dbe92b)
+  ✓ Analyzed: 131,375 LoC
+  ✓ Dependencies: 26,501 LoC
+
+🔍 TryGhost/Ghost - needs update: new commits (cached: 53e58343, current: 4deee1d9)
+  ✓ Analyzed: 232,620 LoC
+  ✓ Dependencies: 402,462 LoC
+
+🔍 prettier/prettier - needs update: new commits (cached: f0a706d8, current: f7a1bcfe)
+  ✓ Analyzed: 49,269 LoC
+
+⏭️  Semantic-Org/Semantic-UI - up to date
+⏭️  chinese-poetry/chinese-poetry - up to date
+🔍 agalwood/Motrix - needs update: new commits (cached: a0a1fe90, current: 7012040f)
+  ✓ Analyzed: 15,723 LoC
+  ✓ Dependencies: 280,937 LoC
+
+⏭️  poteto/hiring-without-whiteboards - up to date
+⏭️  NARKOZ/hacker-scripts - up to date
+⏭️  iamkun/dayjs - up to date
+⏭️  algorithm-visualizer/algorithm-visualizer - up to date
+⏭️  moment/moment - up to date
+🔍 bigskysoftware/htmx - needs update: new commits (cached: cf6609d4, current: 31430d99)
+  ✓ Analyzed: 10,805 LoC
+  ✓ Dependencies: 85,627 LoC
+
+⏭️  public-apis/public-apis - up to date
+🔍 EbookFoundation/free-programming-books - needs update: new commits (cached: 7106f794, current: 351c271b)
+  ✓ Analyzed: 349 LoC
+
+⏭️  donnemartin/system-design-primer - up to date
+🔍 vinta/awesome-python - needs update: new commits (cached: e9a1c732, current: 0ab2f81d)
+  ✓ Analyzed: 55 LoC
+
+⏭️  TheAlgorithms/Python - up to date
+🔍 Significant-Gravitas/AutoGPT - needs update: new commits (cached: f7350c79, current: 7e5b84cc)
+  ✓ Analyzed: 235,058 LoC
+  ✓ Dependencies: 81,851 LoC
+
+⏭️  AUTOMATIC1111/stable-diffusion-webui - up to date
+🔍 huggingface/transformers - needs update: new commits (cached: aefa23ad, current: b2028e77)
+  ✓ Analyzed: 869,899 LoC
+
+🔍 yt-dlp/yt-dlp - needs update: new commits (cached: 891613b0, current: a13f2810)
+  ✓ Analyzed: 206,806 LoC
+
+🔍 langflow-ai/langflow - needs update: new commits (cached: 5a1ac1a4, current: 80f63974)
+  ✓ Analyzed: 221,311 LoC
+  ✓ Dependencies: 188,577 LoC
+
+⏭️  521xueweihan/HelloGitHub - up to date
+⏭️  ytdl-org/youtube-dl - up to date
+🔍 langchain-ai/langchain - needs update: new commits (cached: 16f2c7d1, current: 0040e1a8)
+  ✓ Analyzed: 149,749 LoC
+
+⏭️  open-webui/open-webui - up to date
+🔍 Comfy-Org/ComfyUI - needs update: new commits (cached: b0d97089, current: 62315fbb)
+  ✓ Analyzed: 119,711 LoC
+
+⏭️  deepseek-ai/DeepSeek-V3 - up to date
+🔍 pytorch/pytorch - needs update: new commits (cached: 26596fa5, current: ed0b1fec)
+  ✓ Analyzed: 1,770,986 LoC
+
+⏭️  nvbn/thefuck - up to date
+🔍 fastapi/fastapi - needs update: new commits (cached: 2247750d, current: e94028ab)
+  ✓ Analyzed: 29,164 LoC
+  ✓ Dependencies: 0 LoC
+
+⏭️  openai/whisper - up to date
+🔍 Shubhamsaboo/awesome-llm-apps - needs update: new commits (cached: 60b72c64, current: 9529d005)
+  ✓ Analyzed: 69,976 LoC
+
+🔍 django/django - needs update: new commits (cached: 5798f4bb, current: 7cf1c22d)
+  ✓ Analyzed: 128,924 LoC
+
+⏭️  microsoft/markitdown - up to date
+🔍 home-assistant/core - needs update: new commits (cached: c5b96990, current: 80bbe5df)
+  ✓ Analyzed: 1,074,332 LoC
+
+⏭️  3b1b/manim - up to date
+⏭️  bregman-arie/devops-exercises - up to date
+🔍 hacksider/Deep-Live-Cam - needs update: new commits (cached: 06bc8f21, current: 2b36300b)
+  ✓ Analyzed: 3,222 LoC
+
+⏭️  fighting41love/funNLP - up to date
+🔍 browser-use/browser-use - needs update: new commits (cached: 39d62587, current: a8a98917)
+  ✓ Analyzed: 50,782 LoC
+
+🔍 tensorflow/models - needs update: new commits (cached: d79eeff5, current: 799b0af9)
+  ✓ Analyzed: 477,818 LoC
+
+⏭️  d2l-ai/d2l-zh - up to date
+⏭️  swisskyrepo/PayloadsAllTheThings - up to date
+🔍 infiniflow/ragflow - needs update: new commits (cached: 675d18d3, current: 9c39ac11)
+  ✓ Analyzed: 217,178 LoC
+  ✓ Dependencies: 468,028 LoC
+
+🔍 sherlock-project/sherlock - needs update: new commits (cached: 524415b5, current: 8f8ebf3c)
+  ✓ Analyzed: 1,287 LoC
+
+⏭️  josephmisiti/awesome-machine-learning - up to date
+🔍 python/cpython - needs update: new commits (cached: 29acc08c, current: fd190d1f)
+  ✓ Analyzed: 1,084,918 LoC
+  ✓ Dependencies: 19,796 LoC
+
+🔍 pallets/flask - needs update: new commits (cached: 798e006f, current: d3b78fd1)
+  ✓ Analyzed: 7,304 LoC
+  ✓ Dependencies: 0 LoC
+
+🔍 PaddlePaddle/PaddleOCR - needs update: new commits (cached: 5f184add, current: 32bc73f0)
+  ✓ Analyzed: 94,412 LoC
+
+⏭️  binary-husky/gpt_academic - up to date
+🔍 vllm-project/vllm - needs update: new commits (cached: 4b3803d1, current: bb9f9730)
+  ✓ Analyzed: 455,499 LoC
+
+🔍 github/spec-kit - needs update: new commits (cached: 445902f2, current: 4afbd87a)
+  ✓ Analyzed: 1,163 LoC
+
+🔍 ansible/ansible - needs update: new commits (cached: 1e31c7c8, current: 0a2bac10)
+  ✓ Analyzed: 104,407 LoC
+  ✓ Dependencies: 0 LoC
+
+🔍 OpenHands/OpenHands - needs update: new commits (cached: 7b0589ad, current: bef9b80b)
+  ✓ Analyzed: 138,521 LoC
+  ✓ Dependencies: 85,559 LoC
+
+🔍 hiyouga/LlamaFactory - needs update: new commits (cached: b53d7037, current: 1d5e8ebc)
+  ✓ Analyzed: 30,798 LoC
+
+🔍 xtekky/gpt4free - needs update: new commits (cached: 20637d60, current: 405868c5)
+  ✓ Analyzed: 40,059 LoC
+
+⏭️  labmlai/annotated_deep_learning_paper_implementations - up to date
+🔍 scikit-learn/scikit-learn - needs update: new commits (cached: 951e8dd1, current: f3bc3325)
+  ✓ Analyzed: 210,113 LoC
+
+🔍 localstack/localstack - needs update: new commits (cached: a8c43f2d, current: 4651d181)
+  ✓ Analyzed: 270,017 LoC
+
+⏭️  FoundationAgents/MetaGPT - up to date
+⏭️  codecrafters-io/build-your-own-x - up to date
+🔍 freeCodeCamp/freeCodeCamp - needs update: new commits (cached: ff162dce, current: 26459487)
+  ✓ Analyzed: 114,452 LoC
+  ✓ Dependencies: 364,084 LoC
+
+⏭️  sindresorhus/awesome - up to date
+🔍 kamranahmedse/developer-roadmap - needs update: new commits (cached: 74e2a710, current: dfa35b63)
+  ✓ Analyzed: 64,281 LoC

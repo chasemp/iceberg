@@ -1,0 +1,30 @@
+{
+  "name": "iceberg-spa",
+  "version": "1.0.0",
+  "description": "Frontend testing for Iceberg SPA",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/user-event": "^14.5.2",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "testMatch": [
+      "**/tests/frontend/**/*.test.js"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>/tests/frontend/setup.js"
+    ],
+    "collectCoverageFrom": [
+      "spa/**/*.js",
+      "!spa/data/**"
+    ]
+  }
+}

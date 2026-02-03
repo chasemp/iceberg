@@ -1,0 +1,406 @@
+============================================================
+🔍 DISCOVERY RUN
+Date: 2026-02-09
+============================================================
+
+📡 Fetching discovery sources...
+
+  Fetching trending weekly...
+  ✓ Got 17 repos from trending weekly
+  Fetching trending monthly...
+  ✓ Got 19 repos from trending monthly
+
+  Fetching search: stars>10000 language:javascript...
+  ✓ Got 50 repos from search
+  Fetching search: stars>10000 language:python...
+  ✓ Got 50 repos from search
+
+  Fetching GitHub-Ranking: Top-100-stars...
+  ✓ Got 100 repos from GitHub-Ranking (Top-100-stars)
+  Fetching GitHub-Ranking: Top-100-forks...
+  ✓ Got 100 repos from GitHub-Ranking (Top-100-forks)
+  Fetching GitHub-Ranking: Python...
+  ✓ Got 25 repos from GitHub-Ranking (Python)
+  Fetching GitHub-Ranking: JavaScript...
+  ✓ Got 25 repos from GitHub-Ranking (JavaScript)
+  Fetching GitHub-Ranking: TypeScript...
+  ✓ Got 25 repos from GitHub-Ranking (TypeScript)
+  Fetching GitHub-Ranking: Java...
+  ✓ Got 25 repos from GitHub-Ranking (Java)
+  Fetching GitHub-Ranking: Go...
+  ✓ Got 25 repos from GitHub-Ranking (Go)
+  Fetching GitHub-Ranking: Rust...
+  ✓ Got 25 repos from GitHub-Ranking (Rust)
+  Fetching GitHub-Ranking: C...
+  ✓ Got 25 repos from GitHub-Ranking (C)
+  Fetching GitHub-Ranking: CPP...
+  ✓ Got 25 repos from GitHub-Ranking (CPP)
+  Fetching GitHub-Ranking: CSharp...
+  ✓ Got 25 repos from GitHub-Ranking (CSharp)
+  Fetching GitHub-Ranking: PHP...
+  ✓ Got 25 repos from GitHub-Ranking (PHP)
+  Fetching GitHub-Ranking: Ruby...
+  ✓ Got 25 repos from GitHub-Ranking (Ruby)
+  Fetching GitHub-Ranking: Swift...
+  ✓ Got 25 repos from GitHub-Ranking (Swift)
+  Fetching GitHub-Ranking: Kotlin...
+  ✓ Got 25 repos from GitHub-Ranking (Kotlin)
+  Fetching GitHub-Ranking: R...
+  ✓ Got 25 repos from GitHub-Ranking (R)
+  Fetching GitHub-Ranking: Scala...
+  ✓ Got 25 repos from GitHub-Ranking (Scala)
+  Fetching GitHub-Ranking: Dart...
+  ✓ Got 25 repos from GitHub-Ranking (Dart)
+  Fetching GitHub-Ranking: Shell...
+  ✓ Got 25 repos from GitHub-Ranking (Shell)
+  Fetching GitHub-Ranking: Lua...
+  ✓ Got 25 repos from GitHub-Ranking (Lua)
+  Fetching GitHub-Ranking: Haskell...
+  ✓ Got 25 repos from GitHub-Ranking (Haskell)
+  Fetching GitHub-Ranking: Julia...
+  ✓ Got 25 repos from GitHub-Ranking (Julia)
+  Fetching GitHub-Ranking: Elixir...
+  ✓ Got 25 repos from GitHub-Ranking (Elixir)
+
+📊 Total repos fetched: 861
+📊 Unique repos: 663
+
+💾 Saving discovery snapshots...
+  ✓ Saved 17 repos to trending-weekly
+  ✓ Saved 11 repos to trending-monthly
+  ✓ Saved 99 repos to search
+  ✓ Saved 67 repos to github-ranking-top-100-stars
+  ✓ Saved 50 repos to github-ranking-top-100-forks
+  ✓ Saved 7 repos to github-ranking-typescript
+  ✓ Saved 15 repos to github-ranking-java
+  ✓ Saved 20 repos to github-ranking-go
+  ✓ Saved 21 repos to github-ranking-rust
+  ✓ Saved 22 repos to github-ranking-c
+  ✓ Saved 18 repos to github-ranking-cpp
+  ✓ Saved 23 repos to github-ranking-csharp
+  ✓ Saved 25 repos to github-ranking-php
+  ✓ Saved 25 repos to github-ranking-ruby
+  ✓ Saved 25 repos to github-ranking-swift
+  ✓ Saved 25 repos to github-ranking-kotlin
+  ✓ Saved 25 repos to github-ranking-r
+  ✓ Saved 24 repos to github-ranking-scala
+  ✓ Saved 24 repos to github-ranking-dart
+  ✓ Saved 21 repos to github-ranking-shell
+  ✓ Saved 24 repos to github-ranking-lua
+  ✓ Saved 25 repos to github-ranking-haskell
+  ✓ Saved 25 repos to github-ranking-julia
+  ✓ Saved 25 repos to github-ranking-elixir
+
+💾 Updating repo metadata...
+  ✓ Updated metadata for 663 unique repos
+
+============================================================
+🔬 ANALYZING REPOS
+============================================================
+
+⏭️  KeygraphHQ/shannon - analyzed 0.4h ago
+⏭️  openai/skills - analyzed 0.4h ago
+🔍 thedotmack/claude-mem - needs update: new commits (cached: a16b2527, current: b2ddf59d)
+  ✗ Error: 'project_loc'
+
+🔍 badlogic/pi-mono - needs update: new commits (cached: 8c38de04, current: fdcd9ab7)
+  ✗ Error: 'project_loc'
+
+🔍 openclaw/openclaw - needs update: new commits (cached: d842b28a, current: 715e8b54)
+  ✗ Error: 'project_loc'
+
+⏭️  disler/claude-code-hooks-mastery - analyzed 0.4h ago
+🔍 virattt/dexter - needs update: new commits (cached: e4a1aea3, current: 783025ac)
+  ✗ Error: 'project_loc'
+
+⏭️  tobi/qmd - analyzed 0.4h ago
+🔍 OpenBMB/ChatDev - needs update: new commits (cached: a96d633d, current: c964a3fa)
+  ✗ Error: 'project_loc'
+
+🔍 karpathy/nanochat - needs update: new commits (cached: 72b9064f, current: 1ec0a347)
+  ✗ Error: 'project_loc'
+
+⏭️  github/gh-aw - analyzed 0.4h ago
+🔍 ThePrimeagen/99 - needs update: new commits (cached: 2c771814, current: 33bad889)
+  ✗ Error: 'project_loc'
+
+⏭️  gitbutlerapp/gitbutler - analyzed 0.4h ago
+🔍 pedramamini/Maestro - needs update: new commits (cached: 8be8a8eb, current: 8b29dbeb)
+  ✗ Error: 'project_loc'
+
+⏭️  microsoft/playwright-cli - analyzed 0.4h ago
+⏭️  Canner/WrenAI - analyzed 0.4h ago
+🔍 NevaMind-AI/memU - needs update: new commits (cached: 0d3cff61, current: 777f1eda)
+  ✗ Error: 'project_loc'
+
+🔍 obra/superpowers - needs update: new commits (cached: 06b92f36, current: a98c5dfc)
+  ✗ Error: 'project_loc'
+
+🔍 anomalyco/opencode - needs update: new commits (cached: ba545ba9, current: 19809e76)
+  ✗ Error: 'project_loc'
+
+🔍 anthropics/skills - needs update: new commits (cached: 69c0b1a0, current: 1ed29a03)
+  ✗ Error: 'project_loc'
+
+⏭️  iOfficeAI/AionUi - analyzed 0.4h ago
+⏭️  VectifyAI/PageIndex - up to date
+🔍 remotion-dev/remotion - needs update: new commits (cached: 247a924f, current: a2c1b33f)
+  ✗ Error: 'project_loc'
+
+🔍 asgeirtj/system_prompts_leaks - needs update: new commits (cached: 606a7f32, current: da1c38aa)
+  ✗ Error: 'project_loc'
+
+⏭️  frankbria/ralph-claude-code - analyzed 0.3h ago
+⏭️  code-yeongyu/oh-my-opencode - analyzed 0.3h ago
+🔍 ComposioHQ/awesome-claude-skills - needs update: new commits (cached: 362d3542, current: e762a98b)
+  ✗ Error: 'project_loc'
+
+🔍 anthropics/claude-plugins-official - needs update: new commits (cached: 27d2b86d, current: 2cd88e79)
+  ✗ Error: 'project_loc'
+
+🔍 facebook/react - needs update: new commits (cached: 7b023d70, current: eab523e2)
+  ✗ Error: 'project_loc'
+
+⏭️  trekhleb/javascript-algorithms - up to date
+⏭️  airbnb/javascript - up to date
+🔍 vercel/next.js - needs update: new commits (cached: b91cf900, current: cc68574b)
+  ✗ Error: 'project_loc'
+
+🔍 Chalarangelo/30-seconds-of-code - needs update: new commits (cached: 51e8fc3a, current: 213b7e98)
+  ✗ Error: 'project_loc'
+
+🔍 nodejs/node - needs update: new commits (cached: bdceaa21, current: 2c8517e3)
+  ✗ Error: 'project_loc'
+
+🔍 mrdoob/three.js - needs update: new commits (cached: f9e33fa6, current: 53ae84bc)
+  ✗ Error: 'project_loc'
+
+🔍 axios/axios - needs update: new commits (cached: ab06109b, current: 29f75425)
+  ✗ Error: 'project_loc'
+
+⏭️  facebook/create-react-app - up to date
+🔍 jaywcjlove/awesome-mac - needs update: new commits (cached: 63287cb9, current: 406b0ee3)
+  ✗ Error: 'project_loc'
+
+🔍 mui/material-ui - needs update: new commits (cached: 86fd51e3, current: ed891c36)
+  ✗ Error: 'project_loc'
+
+🔍 microsoft/Web-Dev-For-Beginners - needs update: new commits (cached: 1e73db40, current: 7438fab2)
+  ✗ Error: 'project_loc'
+
+⏭️  ryanmcdermott/clean-code-javascript - up to date
+🔍 sveltejs/svelte - needs update: new commits (cached: cd8d40af, current: f0978542)
+  ✗ Error: 'project_loc'
+
+🔍 louislam/uptime-kuma - needs update: new commits (cached: 574d42ca, current: 2d304893)
+  ✗ Error: 'project_loc'
+
+🔍 anuraghazra/github-readme-stats - needs update: new commits (cached: dc8852dd, current: 5df91f9b)
+  ✗ Error: 'project_loc'
+
+⏭️  FortAwesome/Font-Awesome - up to date
+🔍 typicode/json-server - needs update: new commits (cached: 58e8b010, current: a2dbadad)
+  ✗ Error: 'project_loc'
+
+⏭️  hakimel/reveal.js - up to date
+🔍 expressjs/express - needs update: new commits (cached: dbac741a, current: 66404b34)
+  ✗ Error: 'project_loc'
+
+🔍 chartjs/Chart.js - needs update: new commits (cached: 9c5cf9fa, current: a1535568)
+  ✗ Error: 'project_loc'
+
+⏭️  juliangarnier/anime - up to date
+⏭️  leonardomso/33-js-concepts - up to date
+🔍 webpack/webpack - needs update: new commits (cached: 24e3c2d2, current: 124ba799)
+  ✗ Error: 'project_loc'
+
+⏭️  resume/resume.github.com - up to date
+🔍 lodash/lodash - needs update: new commits (cached: 62b439f6, current: 35bb1d91)
+  ✗ Error: 'project_loc'
+
+🔍 gorhill/uBlock - needs update: new commits (cached: 1ec05d4c, current: 2b63dcdc)
+  ✗ Error: 'project_loc'
+
+⏭️  atom/atom - up to date
+⏭️  adam-p/markdown-here - up to date
+🔍 jquery/jquery - needs update: new commits (cached: df16f736, current: a52eeaef)
+  ✗ Error: 'project_loc'
+
+🔍 jgraph/drawio-desktop - needs update: new commits (cached: 0667e8dd, current: fff2ad40)
+  ✗ Error: 'project_loc'
+
+⏭️  angular/angular.js - up to date
+🔍 h5bp/html5-boilerplate - needs update: new commits (cached: 90066899, current: 091a3573)
+  ✗ Error: 'project_loc'
+
+⏭️  scutan90/DeepLearning-500-questions - up to date
+⏭️  gatsbyjs/gatsby - up to date
+⏭️  azl397985856/leetcode - up to date
+🔍 Mintplex-Labs/anything-llm - needs update: new commits (cached: ac8248e0, current: bb773266)
+  ✗ Error: 'project_loc'
+
+🔍 marktext/marktext - needs update: new commits (cached: c8aa33dd, current: aa71e33e)
+  ✗ Error: 'project_loc'
+
+🔍 mozilla/pdf.js - needs update: new commits (cached: 1c12b077, current: 96dbe92b)
+  ✗ Error: 'project_loc'
+
+🔍 TryGhost/Ghost - needs update: new commits (cached: 53e58343, current: ac3aa30b)
+  ✗ Error: 'project_loc'
+
+🔍 prettier/prettier - needs update: new commits (cached: f0a706d8, current: f7a1bcfe)
+  ✗ Error: 'project_loc'
+
+⏭️  Semantic-Org/Semantic-UI - up to date
+⏭️  chinese-poetry/chinese-poetry - up to date
+🔍 agalwood/Motrix - needs update: new commits (cached: a0a1fe90, current: 7012040f)
+  ✗ Error: 'project_loc'
+
+⏭️  poteto/hiring-without-whiteboards - up to date
+⏭️  NARKOZ/hacker-scripts - up to date
+⏭️  iamkun/dayjs - up to date
+⏭️  algorithm-visualizer/algorithm-visualizer - up to date
+⏭️  moment/moment - up to date
+🔍 bigskysoftware/htmx - needs update: new commits (cached: cf6609d4, current: 31430d99)
+  ✗ Error: 'project_loc'
+
+⏭️  public-apis/public-apis - up to date
+🔍 EbookFoundation/free-programming-books - needs update: new commits (cached: 7106f794, current: 351c271b)
+  ✗ Error: 'project_loc'
+
+⏭️  donnemartin/system-design-primer - up to date
+🔍 vinta/awesome-python - needs update: new commits (cached: e9a1c732, current: 0ab2f81d)
+  ✗ Error: 'project_loc'
+
+⏭️  TheAlgorithms/Python - up to date
+🔍 Significant-Gravitas/AutoGPT - needs update: new commits (cached: f7350c79, current: 7e5b84cc)
+  ✗ Error: 'project_loc'
+
+⏭️  AUTOMATIC1111/stable-diffusion-webui - up to date
+🔍 huggingface/transformers - needs update: new commits (cached: aefa23ad, current: b2028e77)
+  ✗ Error: 'project_loc'
+
+🔍 yt-dlp/yt-dlp - needs update: new commits (cached: 891613b0, current: 637ae202)
+  ✗ Error: 'project_loc'
+
+🔍 langflow-ai/langflow - needs update: new commits (cached: 5a1ac1a4, current: 80f63974)
+  ✗ Error: 'project_loc'
+
+⏭️  521xueweihan/HelloGitHub - up to date
+⏭️  ytdl-org/youtube-dl - up to date
+🔍 langchain-ai/langchain - needs update: new commits (cached: 16f2c7d1, current: 4ca586b3)
+  ✗ Error: 'project_loc'
+
+⏭️  open-webui/open-webui - up to date
+🔍 Comfy-Org/ComfyUI - needs update: new commits (cached: b0d97089, current: a0302cc6)
+  ✗ Error: 'project_loc'
+
+⏭️  deepseek-ai/DeepSeek-V3 - up to date
+🔍 pytorch/pytorch - needs update: new commits (cached: 26596fa5, current: ed0b1fec)
+  ✗ Error: 'project_loc'
+
+⏭️  nvbn/thefuck - up to date
+🔍 fastapi/fastapi - needs update: new commits (cached: 2247750d, current: e94028ab)
+  ✗ Error: 'project_loc'
+
+⏭️  openai/whisper - up to date
+🔍 Shubhamsaboo/awesome-llm-apps - needs update: new commits (cached: 60b72c64, current: 9529d005)
+  ✗ Error: 'project_loc'
+
+🔍 django/django - needs update: new commits (cached: 5798f4bb, current: 0deedbd5)
+  ✗ Error: 'project_loc'
+
+⏭️  microsoft/markitdown - up to date
+🔍 home-assistant/core - needs update: new commits (cached: c5b96990, current: 80bbe5df)
+  ✗ Error: 'project_loc'
+
+⏭️  3b1b/manim - up to date
+⏭️  bregman-arie/devops-exercises - up to date
+🔍 hacksider/Deep-Live-Cam - needs update: new commits (cached: 06bc8f21, current: 2b36300b)
+  ✗ Error: 'project_loc'
+
+⏭️  fighting41love/funNLP - up to date
+🔍 browser-use/browser-use - needs update: new commits (cached: 39d62587, current: a8a98917)
+  ✗ Error: 'project_loc'
+
+🔍 tensorflow/models - needs update: new commits (cached: d79eeff5, current: 799b0af9)
+  ✗ Error: 'project_loc'
+
+⏭️  d2l-ai/d2l-zh - up to date
+⏭️  swisskyrepo/PayloadsAllTheThings - up to date
+🔍 infiniflow/ragflow - needs update: new commits (cached: 675d18d3, current: 9c39ac11)
+  ✗ Error: 'project_loc'
+
+🔍 sherlock-project/sherlock - needs update: new commits (cached: 524415b5, current: 8f8ebf3c)
+  ✗ Error: 'project_loc'
+
+⏭️  josephmisiti/awesome-machine-learning - up to date
+🔍 python/cpython - needs update: new commits (cached: 29acc08c, current: fd190d1f)
+  ✗ Error: 'project_loc'
+
+🔍 pallets/flask - needs update: new commits (cached: 798e006f, current: d3b78fd1)
+  ✗ Error: 'project_loc'
+
+🔍 PaddlePaddle/PaddleOCR - needs update: new commits (cached: 5f184add, current: 32bc73f0)
+  ✗ Error: 'project_loc'
+
+⏭️  binary-husky/gpt_academic - up to date
+🔍 vllm-project/vllm - needs update: new commits (cached: 4b3803d1, current: 4d396509)
+  ✗ Error: 'project_loc'
+
+🔍 github/spec-kit - needs update: new commits (cached: 445902f2, current: 4afbd87a)
+  ✗ Error: 'project_loc'
+
+🔍 ansible/ansible - needs update: new commits (cached: 1e31c7c8, current: 0a2bac10)
+  ✗ Error: 'project_loc'
+
+🔍 OpenHands/OpenHands - needs update: new commits (cached: 7b0589ad, current: bef9b80b)
+  ✗ Error: 'project_loc'
+
+🔍 hiyouga/LlamaFactory - needs update: new commits (cached: b53d7037, current: 1d5e8ebc)
+  ✗ Error: 'project_loc'
+
+🔍 xtekky/gpt4free - needs update: new commits (cached: 20637d60, current: 405868c5)
+  ✗ Error: 'project_loc'
+
+⏭️  labmlai/annotated_deep_learning_paper_implementations - up to date
+🔍 scikit-learn/scikit-learn - needs update: new commits (cached: 951e8dd1, current: f3bc3325)
+  ✗ Error: 'project_loc'
+
+🔍 localstack/localstack - needs update: new commits (cached: a8c43f2d, current: 4651d181)
+  ✗ Error: 'project_loc'
+
+⏭️  FoundationAgents/MetaGPT - up to date
+⏭️  codecrafters-io/build-your-own-x - up to date
+🔍 freeCodeCamp/freeCodeCamp - needs update: new commits (cached: ff162dce, current: 229635e8)
+  ✗ Error: 'project_loc'
+
+⏭️  sindresorhus/awesome - up to date
+🔍 kamranahmedse/developer-roadmap - needs update: new commits (cached: 74e2a710, current: dfa35b63)
+  ✗ Error: 'project_loc'
+
+⏭️  jwasham/coding-interview-university - up to date
+⏭️  996icu/996.ICU - up to date
+🔍 awesome-selfhosted/awesome-selfhosted - needs update: new commits (cached: 198f8bbe, current: ff100d55)
+  ✗ Error: 'project_loc'
+
+⏭️  practical-tutorials/project-based-learning - up to date
+🔍 torvalds/linux - needs update: new commits (cached: 8fdb05de, current: 05f7e89a)
+  ✗ Error: 'project_loc'
+
+🔍 vuejs/vue - needs update: new commits (cached: 13f4e7dc, current: 9e887079)
+  ✗ Error: 'project_loc'
+
+⏭️  trimstray/the-book-of-secret-knowledge - up to date
+🔍 ossu/computer-science - needs update: new commits (cached: 0c89345c, current: bf6af682)
+  ✗ Error: 'project_loc'
+
+🔍 tensorflow/tensorflow - needs update: new commits (cached: f20c0004, current: 4efbbddc)
+  ✗ Error: 'project_loc'
+
+🔍 ohmyzsh/ohmyzsh - needs update: new commits (cached: 9df4ea09, current: 41c5b967)
+  ✗ Error: 'project_loc'
+
+⏭️  getify/You-Dont-Know-JS - up to date
+⏭️  CyC2018/CS-Notes - up to date
+🔍 microsoft/vscode - needs update: new commits (cached: d37ccd60, current: 9899b0a9)

@@ -1,0 +1,45 @@
+Loading discovered repositories...
+Found 34 unique repositories across all sources
+Running in verbose mode (showing fallback attempts)
+
+  ⏭️  thedotmack/claude-mem - already analyzed
+  ⏭️  ThePrimeagen/99 - already analyzed
+  ⏭️  termux/termux-app - already analyzed
+  ⏭️  pedramamini/Maestro - already analyzed
+  ⏭️  netbirdio/netbird - already analyzed
+  ⏭️  OpenBMB/ChatDev - already analyzed
+  ⏭️  autobrr/qui - already analyzed
+  ⏭️  badlogic/pi-mono - already analyzed
+  ⏭️  VectifyAI/PageIndex - already analyzed
+  ⏭️  karpathy/nanochat - already analyzed
+  ⏭️  kovidgoyal/calibre - already analyzed
+  ⏭️  langchain-ai/rag-from-scratch - already analyzed
+  ⏭️  openclaw/openclaw - already analyzed
+  ⏭️  anomalyco/opencode - already analyzed
+  ⏭️  obra/superpowers - already analyzed
+  ⏭️  anthropics/skills - already analyzed
+  ⏭️  anthropics/claude-plugins-official - already analyzed
+  ⏭️  remotion-dev/remotion - already analyzed
+  ⏭️  anthropics/claude-code - already analyzed
+  ⏭️  lbjlaq/Antigravity-Manager - already analyzed
+  ⏭️  asgeirtj/system_prompts_leaks - already analyzed
+  ⏭️  Lissy93/web-check - already analyzed
+  ⏭️  bytedance/UI-TARS-desktop - already analyzed
+  ⏭️  ComposioHQ/awesome-claude-skills - already analyzed
+  ⏭️  steveyegge/beads - already analyzed
+  ⏭️  DataTalksClub/data-engineering-zoomcamp - already analyzed
+  ⏭️  virattt/dexter - already analyzed
+  ⏭️  microsoft/BitNet - already analyzed
+  ⏭️  MoonshotAI/kimi-cli - already analyzed
+  ⏭️  modelcontextprotocol/ext-apps - already analyzed
+  ⏭️  NevaMind-AI/memU - already analyzed
+  ⏭️  steipete/Peekaboo - already analyzed
+  ⏭️  supermemoryai/supermemory - already analyzed
+  ⏭️  Draculabo/AntigravityManager - already analyzed
+
+============================================================
+Analysis complete:
+  Analyzed: 0
+  Skipped (already analyzed): 34
+  Errors: 0
+============================================================
