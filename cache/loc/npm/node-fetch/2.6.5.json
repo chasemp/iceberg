@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "node-fetch",
+    "version": "2.6.5"
+  },
+  "total_lines": 3120,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:41:17.722715+00:00",
+  "source_url": "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.5.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.6831581592559814,
+  "count_duration_seconds": null
+}

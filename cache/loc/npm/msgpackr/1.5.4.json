@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "msgpackr",
+    "version": "1.5.4"
+  },
+  "total_lines": 2098,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:50:15.901241+00:00",
+  "source_url": "https://registry.npmjs.org/msgpackr/-/msgpackr-1.5.4.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.783776044845581,
+  "count_duration_seconds": null
+}

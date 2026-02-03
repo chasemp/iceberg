@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "glob-parent",
+    "version": "5.1.1"
+  },
+  "total_lines": 23,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:51:33.856299+00:00",
+  "source_url": "https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.4848160743713379,
+  "count_duration_seconds": null
+}

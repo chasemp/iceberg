@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "micromatch",
+    "version": "4.0.5"
+  },
+  "total_lines": 150,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:21:59.018554+00:00",
+  "source_url": "https://registry.npmjs.org/micromatch/-/micromatch-4.0.5.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.5191400051116943,
+  "count_duration_seconds": null
+}

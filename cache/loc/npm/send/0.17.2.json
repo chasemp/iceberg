@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "send",
+    "version": "0.17.2"
+  },
+  "total_lines": 590,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:55:37.399827+00:00",
+  "source_url": "https://registry.npmjs.org/send/-/send-0.17.2.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.8199260234832764,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "react-router",
+    "version": "6.28.1"
+  },
+  "total_lines": 0,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:20:48.245224+00:00",
+  "source_url": "https://registry.npmjs.org/react-router/-/react-router-6.28.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.8095521926879883,
+  "count_duration_seconds": null
+}

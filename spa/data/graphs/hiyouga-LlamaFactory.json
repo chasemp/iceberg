@@ -1,0 +1,16 @@
+{
+  "owner": "hiyouga",
+  "repo": "LlamaFactory",
+  "full_name": "hiyouga/LlamaFactory",
+  "root_package": "pypi:llamafactory:py311",
+  "nodes": [
+    {
+      "id": "pypi:llamafactory:py311",
+      "system": "pypi",
+      "name": "llamafactory",
+      "version": "py311"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-03T01:18:30.621329+00:00"
+}

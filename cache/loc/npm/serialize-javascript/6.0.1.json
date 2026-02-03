@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "serialize-javascript",
+    "version": "6.0.1"
+  },
+  "total_lines": 185,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:20:49.799634+00:00",
+  "source_url": "https://registry.npmjs.org/serialize-javascript/-/serialize-javascript-6.0.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7551898956298828,
+  "count_duration_seconds": null
+}

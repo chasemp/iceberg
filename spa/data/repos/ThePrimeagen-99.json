@@ -9,21 +9,11 @@
     "version": "HEAD",
     "loc": 25,
     "source": "github_clone",
-    "cached_at": "2026-02-02T22:24:25.194075+00:00",
-    "ai_markers": {
-      "claude": false,
-      "cursor": false,
-      "copilot": false,
-      "aider": false,
-      "generic_ai": true
-    },
-    "ai_tools": [
-      "AI Tools"
-    ],
+    "cached_at": "2026-02-02T23:15:13.018094+00:00",
     "repo_url": "https://github.com/ThePrimeagen/99.git",
     "ref": "HEAD",
     "commit_hash": "2c771814e1d95280ee99545de61b28dfa773c5fa",
-    "clone_duration_seconds": 0.857874870300293,
-    "count_duration_seconds": 0.004923820495605469
+    "clone_duration_seconds": 0.9595909118652344,
+    "count_duration_seconds": 0.004212141036987305
   }
 }

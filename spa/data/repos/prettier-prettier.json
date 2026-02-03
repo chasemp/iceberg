@@ -1,0 +1,28 @@
+{
+  "owner": "prettier",
+  "repo": "prettier",
+  "full_name": "prettier/prettier",
+  "url": "https://github.com/prettier/prettier",
+  "analysis": {
+    "owner": "prettier",
+    "repo": "prettier",
+    "version": "HEAD",
+    "loc": 49269,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:53:35.729795+00:00",
+    "package": {
+      "system": "npm",
+      "name": "prettier",
+      "version": "3.9.0-dev"
+    },
+    "repo_url": "https://github.com/prettier/prettier.git",
+    "ref": "HEAD",
+    "commit_hash": "f0a706d88b33ad6a93d11f4ced3225aef05b00de",
+    "clone_duration_seconds": 3.8945059776306152,
+    "count_duration_seconds": 0.531548023223877,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

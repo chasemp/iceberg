@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "semver-regex",
+    "version": "3.1.3"
+  },
+  "total_lines": 13,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:41:27.914537+00:00",
+  "source_url": "https://registry.npmjs.org/semver-regex/-/semver-regex-3.1.3.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.2854897975921631,
+  "count_duration_seconds": null
+}

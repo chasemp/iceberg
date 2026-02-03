@@ -1,0 +1,23 @@
+{
+  "owner": "hacksider",
+  "repo": "Deep-Live-Cam",
+  "full_name": "hacksider/Deep-Live-Cam",
+  "url": "https://github.com/hacksider/Deep-Live-Cam",
+  "analysis": {
+    "owner": "hacksider",
+    "repo": "Deep-Live-Cam",
+    "version": "HEAD",
+    "loc": 3222,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T01:08:10.868643+00:00",
+    "repo_url": "https://github.com/hacksider/Deep-Live-Cam.git",
+    "ref": "HEAD",
+    "commit_hash": "06bc8f21526ae1d87c917f47cce0982392081594",
+    "clone_duration_seconds": 10.605084896087646,
+    "count_duration_seconds": 0.0038471221923828125,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

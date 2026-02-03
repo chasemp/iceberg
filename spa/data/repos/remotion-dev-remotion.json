@@ -9,16 +9,18 @@
     "version": "HEAD",
     "loc": 654333,
     "source": "github_clone",
-    "cached_at": "2026-02-02T22:27:06.725361+00:00",
+    "cached_at": "2026-02-02T23:21:05.600375+00:00",
     "package": {
       "system": "npm",
       "name": "remotion-monorepo",
       "version": "0.0.0"
     },
+    "total_loc": 491100,
+    "ratio": 0.4287461597491953,
     "repo_url": "https://github.com/remotion-dev/remotion.git",
     "ref": "HEAD",
     "commit_hash": "247a924fa691e420fb4e63f69dfdda49d1757bc3",
-    "clone_duration_seconds": 43.8190860748291,
-    "count_duration_seconds": 0.6280620098114014
+    "clone_duration_seconds": 49.34914517402649,
+    "count_duration_seconds": 0.5993340015411377
   }
 }

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "redis",
+    "version": "2.8.0"
+  },
+  "total_lines": 2062,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:55:33.597077+00:00",
+  "source_url": "https://registry.npmjs.org/redis/-/redis-2.8.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7915279865264893,
+  "count_duration_seconds": null
+}

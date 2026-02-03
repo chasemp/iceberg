@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "path-to-regexp",
+    "version": "6.1.0"
+  },
+  "total_lines": 2965,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:36:25.304326+00:00",
+  "source_url": "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-6.1.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7895598411560059,
+  "count_duration_seconds": null
+}

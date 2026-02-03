@@ -1,0 +1,16 @@
+{
+  "owner": "poteto",
+  "repo": "hiring-without-whiteboards",
+  "full_name": "poteto/hiring-without-whiteboards",
+  "root_package": "npm:hiring-without-whiteboards:0.1.0",
+  "nodes": [
+    {
+      "id": "npm:hiring-without-whiteboards:0.1.0",
+      "system": "npm",
+      "name": "hiring-without-whiteboards",
+      "version": "0.1.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-03T01:18:30.606428+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "svelte",
+    "version": "4.2.17"
+  },
+  "total_lines": 65001,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:22:09.466373+00:00",
+  "source_url": "https://registry.npmjs.org/svelte/-/svelte-4.2.17.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.8490512371063232,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,16 @@
+{
+  "owner": "Comfy-Org",
+  "repo": "ComfyUI",
+  "full_name": "Comfy-Org/ComfyUI",
+  "root_package": "pypi:ComfyUI:0.11.1",
+  "nodes": [
+    {
+      "id": "pypi:ComfyUI:0.11.1",
+      "system": "pypi",
+      "name": "ComfyUI",
+      "version": "0.11.1"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-03T01:18:30.605565+00:00"
+}

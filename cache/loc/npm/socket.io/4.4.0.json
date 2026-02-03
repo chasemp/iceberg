@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "socket.io",
+    "version": "4.4.0"
+  },
+  "total_lines": 2614,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:51:53.537857+00:00",
+  "source_url": "https://registry.npmjs.org/socket.io/-/socket.io-4.4.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 1.3656277656555176,
+  "count_duration_seconds": null
+}

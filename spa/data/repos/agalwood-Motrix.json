@@ -1,0 +1,30 @@
+{
+  "owner": "agalwood",
+  "repo": "Motrix",
+  "full_name": "agalwood/Motrix",
+  "url": "https://github.com/agalwood/Motrix",
+  "analysis": {
+    "owner": "agalwood",
+    "repo": "Motrix",
+    "version": "HEAD",
+    "loc": 15723,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:54:43.431840+00:00",
+    "package": {
+      "system": "npm",
+      "name": "Motrix",
+      "version": "1.8.19"
+    },
+    "total_loc": 280937,
+    "ratio": 0.9469999325827547,
+    "repo_url": "https://github.com/agalwood/Motrix.git",
+    "ref": "v1.8.19",
+    "commit_hash": "a0a1fe90f7e9f6d305ed2b512f62c8d36c2fb95a",
+    "clone_duration_seconds": 5.697743892669678,
+    "count_duration_seconds": 0.04118990898132324,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

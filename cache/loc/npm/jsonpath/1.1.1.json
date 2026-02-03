@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "jsonpath",
+    "version": "1.1.1"
+  },
+  "total_lines": 6559,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:53:00.682021+00:00",
+  "source_url": "https://registry.npmjs.org/jsonpath/-/jsonpath-1.1.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.8488919734954834,
+  "count_duration_seconds": null
+}

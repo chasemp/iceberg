@@ -1,0 +1,17 @@
+{
+  "owner": "nodejs",
+  "repo": "node",
+  "version": "HEAD",
+  "loc": 218569,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T00:39:45.331732+00:00",
+  "repo_url": "https://github.com/nodejs/node.git",
+  "ref": "HEAD",
+  "commit_hash": "bdceaa2117144676bff940c0e0cb1f6792141492",
+  "clone_duration_seconds": 26.877363204956055,
+  "count_duration_seconds": 0.8658368587493896,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

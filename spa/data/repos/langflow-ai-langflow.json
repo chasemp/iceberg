@@ -1,0 +1,30 @@
+{
+  "owner": "langflow-ai",
+  "repo": "langflow",
+  "full_name": "langflow-ai/langflow",
+  "url": "https://github.com/langflow-ai/langflow",
+  "analysis": {
+    "owner": "langflow-ai",
+    "repo": "langflow",
+    "version": "HEAD",
+    "loc": 221311,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T01:00:26.915964+00:00",
+    "package": {
+      "system": "pypi",
+      "name": "langflow",
+      "version": "1.8.0"
+    },
+    "total_loc": 188577,
+    "ratio": 0.46006957998282455,
+    "repo_url": "https://github.com/langflow-ai/langflow.git",
+    "ref": "v1.8.0",
+    "commit_hash": "5a1ac1a4eea3b9d095d12e8e5c9207966c5b0c16",
+    "clone_duration_seconds": 23.819950103759766,
+    "count_duration_seconds": 0.3281388282775879,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

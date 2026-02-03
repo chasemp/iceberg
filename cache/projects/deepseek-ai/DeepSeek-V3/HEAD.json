@@ -1,0 +1,17 @@
+{
+  "owner": "deepseek-ai",
+  "repo": "DeepSeek-V3",
+  "version": "HEAD",
+  "loc": 1196,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T01:02:48.394004+00:00",
+  "repo_url": "https://github.com/deepseek-ai/DeepSeek-V3.git",
+  "ref": "HEAD",
+  "commit_hash": "9b4e9788e4a3a731f7567338ed15d3ec549ce03b",
+  "clone_duration_seconds": 0.9424991607666016,
+  "count_duration_seconds": 0.0026640892028808594,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

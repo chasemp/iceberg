@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "storybook",
+    "version": "9.0.18"
+  },
+  "total_lines": 17,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T01:13:58.992594+00:00",
+  "source_url": "https://registry.npmjs.org/storybook/-/storybook-9.0.18.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 2.347025156021118,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "vega-interpreter",
+    "version": "1.0.4"
+  },
+  "total_lines": 255,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:51:58.497214+00:00",
+  "source_url": "https://registry.npmjs.org/vega-interpreter/-/vega-interpreter-1.0.4.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.8290698528289795,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,24 @@
+{
+  "owner": "lodash",
+  "repo": "lodash",
+  "version": "HEAD",
+  "loc": 8933,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T00:46:27.271364+00:00",
+  "package": {
+    "system": "npm",
+    "name": "lodash",
+    "version": "4.17.23"
+  },
+  "total_loc": 223921,
+  "ratio": 0.9616369055287862,
+  "repo_url": "https://github.com/lodash/lodash.git",
+  "ref": "HEAD",
+  "commit_hash": "62b439f689642a1cedd3c5c81f4fc58898d5460a",
+  "clone_duration_seconds": 1.209798812866211,
+  "count_duration_seconds": 0.009667158126831055,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

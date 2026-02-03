@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "terser",
+    "version": "5.10.0"
+  },
+  "total_lines": 27236,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:41:29.203631+00:00",
+  "source_url": "https://registry.npmjs.org/terser/-/terser-5.10.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.5454158782958984,
+  "count_duration_seconds": null
+}

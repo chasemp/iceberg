@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "form-data",
+    "version": "2.5.1"
+  },
+  "total_lines": 347,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:20:32.537729+00:00",
+  "source_url": "https://registry.npmjs.org/form-data/-/form-data-2.5.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.9598228931427002,
+  "count_duration_seconds": null
+}

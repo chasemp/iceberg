@@ -9,7 +9,7 @@
     "version": "HEAD",
     "loc": 125793,
     "source": "github_clone",
-    "cached_at": "2026-02-02T22:28:27.120365+00:00",
+    "cached_at": "2026-02-02T23:25:31.776627+00:00",
     "package": {
       "system": "npm",
       "name": "@steipete/peekaboo",
@@ -18,7 +18,7 @@
     "repo_url": "https://github.com/steipete/Peekaboo.git",
     "ref": "HEAD",
     "commit_hash": "bace59f90bb276f1c6fb613acfda3935ec4a7a90",
-    "clone_duration_seconds": 5.135756015777588,
-    "count_duration_seconds": 0.09769868850708008
+    "clone_duration_seconds": 5.252948045730591,
+    "count_duration_seconds": 0.10052990913391113
   }
 }

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "dot-prop",
+    "version": "4.2.0"
+  },
+  "total_lines": 88,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:35:38.310760+00:00",
+  "source_url": "https://registry.npmjs.org/dot-prop/-/dot-prop-4.2.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7831287384033203,
+  "count_duration_seconds": null
+}

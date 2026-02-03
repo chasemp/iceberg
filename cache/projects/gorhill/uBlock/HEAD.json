@@ -1,0 +1,24 @@
+{
+  "owner": "gorhill",
+  "repo": "uBlock",
+  "version": "HEAD",
+  "loc": 84408,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T00:46:35.241319+00:00",
+  "package": {
+    "system": "npm",
+    "name": "uBlock",
+    "version": "1.0.0"
+  },
+  "total_loc": 2924,
+  "ratio": 0.033481427197361795,
+  "repo_url": "https://github.com/gorhill/uBlock.git",
+  "ref": "HEAD",
+  "commit_hash": "1ec05d4c0a9e4c1c804b982784345ce8f3e2dfdb",
+  "clone_duration_seconds": 2.237031936645508,
+  "count_duration_seconds": 0.06219005584716797,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

@@ -1,0 +1,16 @@
+{
+  "owner": "jgraph",
+  "repo": "drawio-desktop",
+  "full_name": "jgraph/drawio-desktop",
+  "root_package": "npm:draw.io:29.3.6",
+  "nodes": [
+    {
+      "id": "npm:draw.io:29.3.6",
+      "system": "npm",
+      "name": "draw.io",
+      "version": "29.3.6"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-03T01:18:30.619227+00:00"
+}

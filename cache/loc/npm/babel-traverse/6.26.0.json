@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "babel-traverse",
+    "version": "6.26.0"
+  },
+  "total_lines": 4240,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:40:38.904060+00:00",
+  "source_url": "https://registry.npmjs.org/babel-traverse/-/babel-traverse-6.26.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.5619173049926758,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "systeminformation",
+    "version": "5.22.8"
+  },
+  "total_lines": 15000,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:22:10.390700+00:00",
+  "source_url": "https://registry.npmjs.org/systeminformation/-/systeminformation-5.22.8.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7910149097442627,
+  "count_duration_seconds": null
+}

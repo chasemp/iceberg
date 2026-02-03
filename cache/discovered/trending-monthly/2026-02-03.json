@@ -1,0 +1,134 @@
+[
+  {
+    "name": "opencode",
+    "owner": "anomalyco",
+    "url": "https://github.com/anomalyco/opencode",
+    "description": "The open source coding agent.",
+    "language": "TypeScript",
+    "stars": 95715,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-03T00:41:59.975042+00:00",
+    "search_query": null
+  },
+  {
+    "name": "superpowers",
+    "owner": "obra",
+    "url": "https://github.com/obra/superpowers",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "language": "Shell",
+    "stars": 42615,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-03T00:41:59.975042+00:00",
+    "search_query": null
+  },
+  {
+    "name": "skills",
+    "owner": "anthropics",
+    "url": "https://github.com/anthropics/skills",
+    "description": "Public repository for Agent Skills",
+    "language": "Python",
+    "stars": 61127,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-03T00:41:59.975042+00:00",
+    "search_query": null
+  },
+  {
+    "name": "claude-plugins-official",
+    "owner": "anthropics",
+    "url": "https://github.com/anthropics/claude-plugins-official",
+    "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+    "language": "Shell",
+    "stars": 6245,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-03T00:41:59.975042+00:00",
+    "search_query": null
+  },
+  {
+    "name": "claude-code",
+    "owner": "anthropics",
+    "url": "https://github.com/anthropics/claude-code",
+    "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+    "language": "Shell",
+    "stars": 63374,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-03T00:41:59.975042+00:00",
+    "search_query": null
+  },
+  {
+    "name": "Antigravity-Manager",
+    "owner": "lbjlaq",
+    "url": "https://github.com/lbjlaq/Antigravity-Manager",
+    "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).\u4e13\u4e1a\u7684 Antigravity \u8d26\u53f7\u7ba1\u7406\u4e0e\u5207\u6362\u5de5\u5177\u3002\u4e3a Antigravity \u63d0\u4f9b\u4e00\u952e\u65e0\u7f1d\u8d26\u53f7\u5207\u6362\u529f\u80fd\u3002",
+    "language": "Rust",
+    "stars": 20540,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-03T00:41:59.975042+00:00",
+    "search_query": null
+  },
+  {
+    "name": "web-check",
+    "owner": "Lissy93",
+    "url": "https://github.com/Lissy93/web-check",
+    "description": "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f All-in-one OSINT tool for analysing any website",
+    "language": "TypeScript",
+    "stars": 31718,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-03T00:41:59.975042+00:00",
+    "search_query": null
+  },
+  {
+    "name": "UI-TARS-desktop",
+    "owner": "bytedance",
+    "url": "https://github.com/bytedance/UI-TARS-desktop",
+    "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+    "language": "TypeScript",
+    "stars": 25180,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-03T00:41:59.975042+00:00",
+    "search_query": null
+  },
+  {
+    "name": "awesome-claude-skills",
+    "owner": "ComposioHQ",
+    "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+    "language": "Python",
+    "stars": 29329,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-03T00:41:59.975042+00:00",
+    "search_query": null
+  },
+  {
+    "name": "beads",
+    "owner": "steveyegge",
+    "url": "https://github.com/steveyegge/beads",
+    "description": "Beads - A memory upgrade for your coding agent",
+    "language": "Go",
+    "stars": 14366,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-03T00:41:59.975042+00:00",
+    "search_query": null
+  },
+  {
+    "name": "data-engineering-zoomcamp",
+    "owner": "DataTalksClub",
+    "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+    "description": "Data Engineering Zoomcamp is a free 9-week course on building production-ready data pipelines. The next cohort starts in January 2026. Join the course here \ud83d\udc47\ud83c\udffc",
+    "language": "Jupyter Notebook",
+    "stars": 37882,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-03T00:41:59.975042+00:00",
+    "search_query": null
+  },
+  {
+    "name": "dexter",
+    "owner": "virattt",
+    "url": "https://github.com/virattt/dexter",
+    "description": "An autonomous agent for deep financial research",
+    "language": "TypeScript",
+    "stars": 9834,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-03T00:41:59.975042+00:00",
+    "search_query": null
+  }
+]

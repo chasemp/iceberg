@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "pug-code-gen",
+    "version": "3.0.2"
+  },
+  "total_lines": 708,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:37:34.488046+00:00",
+  "source_url": "https://registry.npmjs.org/pug-code-gen/-/pug-code-gen-3.0.2.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.736915111541748,
+  "count_duration_seconds": null
+}

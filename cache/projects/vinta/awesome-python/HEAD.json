@@ -1,0 +1,17 @@
+{
+  "owner": "vinta",
+  "repo": "awesome-python",
+  "version": "HEAD",
+  "loc": 55,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T00:57:28.456338+00:00",
+  "repo_url": "https://github.com/vinta/awesome-python.git",
+  "ref": "HEAD",
+  "commit_hash": "e9a1c73269fc478802af0364ad20711cf979cc06",
+  "clone_duration_seconds": 0.9321949481964111,
+  "count_duration_seconds": 0.0034422874450683594,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

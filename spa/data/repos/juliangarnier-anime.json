@@ -1,0 +1,30 @@
+{
+  "owner": "juliangarnier",
+  "repo": "anime",
+  "full_name": "juliangarnier/anime",
+  "url": "https://github.com/juliangarnier/anime",
+  "analysis": {
+    "owner": "juliangarnier",
+    "repo": "anime",
+    "version": "HEAD",
+    "loc": 10234,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:45:10.289059+00:00",
+    "package": {
+      "system": "npm",
+      "name": "animejs",
+      "version": "4.3.5"
+    },
+    "total_loc": 24604,
+    "ratio": 0.706240312302658,
+    "repo_url": "https://github.com/juliangarnier/anime.git",
+    "ref": "v4.3.5",
+    "commit_hash": "d33098727cb28cc00ffd0116fd2751f1112eafdd",
+    "clone_duration_seconds": 1.7036380767822266,
+    "count_duration_seconds": 0.019977807998657227,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

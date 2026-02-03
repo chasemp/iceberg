@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "plist",
+    "version": "3.0.4"
+  },
+  "total_lines": 2239,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:47:34.516787+00:00",
+  "source_url": "https://registry.npmjs.org/plist/-/plist-3.0.4.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.732154130935669,
+  "count_duration_seconds": null
+}

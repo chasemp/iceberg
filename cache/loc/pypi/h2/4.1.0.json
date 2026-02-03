@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "h2",
+    "version": "4.1.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T00:58:16.209952+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/h2/versions/4.1.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.14051079750061035,
+  "count_duration_seconds": null
+}

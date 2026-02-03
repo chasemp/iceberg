@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "tar",
+    "version": "7.5.4"
+  },
+  "total_lines": 0,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:25:58.593613+00:00",
+  "source_url": "https://registry.npmjs.org/tar/-/tar-7.5.4.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.889092206954956,
+  "count_duration_seconds": null
+}

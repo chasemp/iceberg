@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "uglify-js",
+    "version": "2.2.5"
+  },
+  "total_lines": 6247,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:49:36.602579+00:00",
+  "source_url": "https://registry.npmjs.org/uglify-js/-/uglify-js-2.2.5.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.42662882804870605,
+  "count_duration_seconds": null
+}

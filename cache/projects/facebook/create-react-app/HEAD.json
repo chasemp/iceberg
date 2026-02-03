@@ -1,0 +1,19 @@
+{
+  "owner": "facebook",
+  "repo": "create-react-app",
+  "version": "HEAD",
+  "loc": 58585,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T00:41:37.473422+00:00",
+  "total_loc": 301871,
+  "ratio": 0.8374697605255566,
+  "repo_url": "https://github.com/facebook/create-react-app.git",
+  "ref": "HEAD",
+  "commit_hash": "6254386531d263688ccfa542d0e628fbc0de0b28",
+  "clone_duration_seconds": 1.3445219993591309,
+  "count_duration_seconds": 0.04281306266784668,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

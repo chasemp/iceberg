@@ -9,11 +9,13 @@
     "version": "HEAD",
     "loc": 64138,
     "source": "github_clone",
-    "cached_at": "2026-02-02T22:28:40.320709+00:00",
+    "cached_at": "2026-02-02T23:25:51.272695+00:00",
+    "total_loc": 2924,
+    "ratio": 0.04360144344039844,
     "repo_url": "https://github.com/supermemoryai/supermemory.git",
     "ref": "HEAD",
     "commit_hash": "b7e6eb65b96d072159bc24e020823997a4db6542",
-    "clone_duration_seconds": 9.177931070327759,
-    "count_duration_seconds": 0.05332136154174805
+    "clone_duration_seconds": 8.73884105682373,
+    "count_duration_seconds": 0.04714703559875488
   }
 }

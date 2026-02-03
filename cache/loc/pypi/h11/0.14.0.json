@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "h11",
+    "version": "0.14.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T00:58:13.745396+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/h11/versions/0.14.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11891913414001465,
+  "count_duration_seconds": null
+}

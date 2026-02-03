@@ -1,0 +1,17 @@
+{
+  "owner": "binary-husky",
+  "repo": "gpt_academic",
+  "version": "HEAD",
+  "loc": 55146,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T01:12:02.891759+00:00",
+  "repo_url": "https://github.com/binary-husky/gpt_academic.git",
+  "ref": "HEAD",
+  "commit_hash": "d6bde0fa54373309bd05823a49bda8da019d2c77",
+  "clone_duration_seconds": 2.5145390033721924,
+  "count_duration_seconds": 0.03979611396789551,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

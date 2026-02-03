@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "ai",
+    "version": "3.4.33"
+  },
+  "total_lines": 0,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:35:08.995290+00:00",
+  "source_url": "https://registry.npmjs.org/ai/-/ai-3.4.33.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 1.3452270030975342,
+  "count_duration_seconds": null
+}

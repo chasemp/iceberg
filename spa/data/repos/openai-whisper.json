@@ -1,0 +1,23 @@
+{
+  "owner": "openai",
+  "repo": "whisper",
+  "full_name": "openai/whisper",
+  "url": "https://github.com/openai/whisper",
+  "analysis": {
+    "owner": "openai",
+    "repo": "whisper",
+    "version": "HEAD",
+    "loc": 3174,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T01:04:42.678966+00:00",
+    "repo_url": "https://github.com/openai/whisper.git",
+    "ref": "HEAD",
+    "commit_hash": "c0d2f624c09dc18e709e37c2ad90c039a4eb72a2",
+    "clone_duration_seconds": 2.141094923019409,
+    "count_duration_seconds": 0.0037860870361328125,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

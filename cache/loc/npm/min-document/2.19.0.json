@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "min-document",
+    "version": "2.19.0"
+  },
+  "total_lines": 452,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:22:49.362485+00:00",
+  "source_url": "https://registry.npmjs.org/min-document/-/min-document-2.19.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.8371419906616211,
+  "count_duration_seconds": null
+}

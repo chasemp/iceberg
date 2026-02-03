@@ -1,0 +1,16 @@
+{
+  "owner": "infiniflow",
+  "repo": "ragflow",
+  "full_name": "infiniflow/ragflow",
+  "root_package": "pypi:ragflow:0.23.1",
+  "nodes": [
+    {
+      "id": "pypi:ragflow:0.23.1",
+      "system": "pypi",
+      "name": "ragflow",
+      "version": "0.23.1"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-03T01:18:30.612996+00:00"
+}

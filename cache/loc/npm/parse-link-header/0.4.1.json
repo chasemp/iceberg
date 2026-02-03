@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "parse-link-header",
+    "version": "0.4.1"
+  },
+  "total_lines": 48,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:47:58.810945+00:00",
+  "source_url": "https://registry.npmjs.org/parse-link-header/-/parse-link-header-0.4.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7793288230895996,
+  "count_duration_seconds": null
+}

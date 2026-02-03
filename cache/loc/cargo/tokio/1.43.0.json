@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "tokio",
+    "version": "1.43.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T00:35:17.655382+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/tokio/versions/1.43.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11262893676757812,
+  "count_duration_seconds": null
+}

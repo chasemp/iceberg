@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "qs",
+    "version": "6.7.0"
+  },
+  "total_lines": 626,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:36:34.667237+00:00",
+  "source_url": "https://registry.npmjs.org/qs/-/qs-6.7.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7832722663879395,
+  "count_duration_seconds": null
+}

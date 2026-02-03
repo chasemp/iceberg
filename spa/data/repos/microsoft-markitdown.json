@@ -1,0 +1,23 @@
+{
+  "owner": "microsoft",
+  "repo": "markitdown",
+  "full_name": "microsoft/markitdown",
+  "url": "https://github.com/microsoft/markitdown",
+  "analysis": {
+    "owner": "microsoft",
+    "repo": "markitdown",
+    "version": "HEAD",
+    "loc": 4292,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T01:05:54.188623+00:00",
+    "repo_url": "https://github.com/microsoft/markitdown.git",
+    "ref": "HEAD",
+    "commit_hash": "7fdaefb724d08a999f8d30647e8ce8f2ad1c5795",
+    "clone_duration_seconds": 1.4677538871765137,
+    "count_duration_seconds": 0.010795116424560547,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

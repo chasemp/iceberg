@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "certifi",
+    "version": "2024.6.2"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T00:58:15.184227+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/certifi/versions/2024.6.2",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1286931037902832,
+  "count_duration_seconds": null
+}

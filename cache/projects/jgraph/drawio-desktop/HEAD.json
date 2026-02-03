@@ -1,0 +1,22 @@
+{
+  "owner": "jgraph",
+  "repo": "drawio-desktop",
+  "version": "HEAD",
+  "loc": 2305,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T00:47:51.068925+00:00",
+  "package": {
+    "system": "npm",
+    "name": "draw.io",
+    "version": "29.3.6"
+  },
+  "repo_url": "https://github.com/jgraph/drawio-desktop.git",
+  "ref": "v29.3.6",
+  "commit_hash": "0667e8dd0d12f6fe94a158dfbae8fda0219ee480",
+  "clone_duration_seconds": 1.2416000366210938,
+  "count_duration_seconds": 0.004798173904418945,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

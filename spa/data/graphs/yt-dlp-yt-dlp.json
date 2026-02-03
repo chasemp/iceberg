@@ -1,0 +1,16 @@
+{
+  "owner": "yt-dlp",
+  "repo": "yt-dlp",
+  "full_name": "yt-dlp/yt-dlp",
+  "root_package": "pypi:yt-dlp:(?P<version>[^",
+  "nodes": [
+    {
+      "id": "pypi:yt-dlp:(?P<version>[^",
+      "system": "pypi",
+      "name": "yt-dlp",
+      "version": "(?P<version>[^"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-03T01:18:30.603073+00:00"
+}

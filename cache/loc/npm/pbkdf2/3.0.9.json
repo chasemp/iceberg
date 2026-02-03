@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "pbkdf2",
+    "version": "3.0.9"
+  },
+  "total_lines": 73,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:49:18.266439+00:00",
+  "source_url": "https://registry.npmjs.org/pbkdf2/-/pbkdf2-3.0.9.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.8645999431610107,
+  "count_duration_seconds": null
+}

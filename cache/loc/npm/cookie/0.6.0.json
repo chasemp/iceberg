@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "cookie",
+    "version": "0.6.0"
+  },
+  "total_lines": 145,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:20:20.861938+00:00",
+  "source_url": "https://registry.npmjs.org/cookie/-/cookie-0.6.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.9355320930480957,
+  "count_duration_seconds": null
+}

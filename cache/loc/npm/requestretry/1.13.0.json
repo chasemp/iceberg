@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "requestretry",
+    "version": "1.13.0"
+  },
+  "total_lines": 314,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:55:35.258327+00:00",
+  "source_url": "https://registry.npmjs.org/requestretry/-/requestretry-1.13.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.6222679615020752,
+  "count_duration_seconds": null
+}

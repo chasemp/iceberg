@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "debug",
+    "version": "2.6.8"
+  },
+  "total_lines": 332,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:47:18.238579+00:00",
+  "source_url": "https://registry.npmjs.org/debug/-/debug-2.6.8.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7286040782928467,
+  "count_duration_seconds": null
+}

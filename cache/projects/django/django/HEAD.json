@@ -1,0 +1,17 @@
+{
+  "owner": "django",
+  "repo": "django",
+  "version": "HEAD",
+  "loc": 128924,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T01:05:48.114245+00:00",
+  "repo_url": "https://github.com/django/django.git",
+  "ref": "HEAD",
+  "commit_hash": "5798f4bb1750f68d3bfbaa75020db7fa02b4db15",
+  "clone_duration_seconds": 4.732387065887451,
+  "count_duration_seconds": 0.4539639949798584,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

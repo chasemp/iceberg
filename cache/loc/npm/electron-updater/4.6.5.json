@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "electron-updater",
+    "version": "4.6.5"
+  },
+  "total_lines": 3397,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:51:29.191332+00:00",
+  "source_url": "https://registry.npmjs.org/electron-updater/-/electron-updater-4.6.5.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7268788814544678,
+  "count_duration_seconds": null
+}

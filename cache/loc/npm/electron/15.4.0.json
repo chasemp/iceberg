@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "electron",
+    "version": "15.4.0"
+  },
+  "total_lines": 5669,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:51:28.308087+00:00",
+  "source_url": "https://registry.npmjs.org/electron/-/electron-15.4.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.9708940982818604,
+  "count_duration_seconds": null
+}

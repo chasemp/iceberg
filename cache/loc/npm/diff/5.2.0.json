@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "diff",
+    "version": "5.2.0"
+  },
+  "total_lines": 4264,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:20:22.267238+00:00",
+  "source_url": "https://registry.npmjs.org/diff/-/diff-5.2.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7848949432373047,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "semver",
+    "version": "5.3.0"
+  },
+  "total_lines": 864,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:47:37.803701+00:00",
+  "source_url": "https://registry.npmjs.org/semver/-/semver-5.3.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 1.7619247436523438,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,24 @@
+{
+  "owner": "webpack",
+  "repo": "webpack",
+  "version": "HEAD",
+  "loc": 121239,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T00:45:30.501786+00:00",
+  "package": {
+    "system": "npm",
+    "name": "webpack",
+    "version": "5.104.1"
+  },
+  "total_loc": 65499,
+  "ratio": 0.35075346206985186,
+  "repo_url": "https://github.com/webpack/webpack.git",
+  "ref": "v5.104.1",
+  "commit_hash": "24e3c2d2c9f8c6d60810302b2ea70ed86e2863dc",
+  "clone_duration_seconds": 3.714277982711792,
+  "count_duration_seconds": 0.4051201343536377,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

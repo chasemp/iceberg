@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "simple-get",
+    "version": "3.1.0"
+  },
+  "total_lines": 83,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:46:50.402548+00:00",
+  "source_url": "https://registry.npmjs.org/simple-get/-/simple-get-3.1.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7855730056762695,
+  "count_duration_seconds": null
+}

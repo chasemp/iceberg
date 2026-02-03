@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "eta",
+    "version": "1.12.3"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T00:41:12.992890+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/npm/packages/eta/versions/1.12.3",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11387801170349121,
+  "count_duration_seconds": null
+}

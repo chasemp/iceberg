@@ -1,0 +1,22 @@
+{
+  "owner": "expressjs",
+  "repo": "express",
+  "version": "HEAD",
+  "loc": 2391,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T00:44:38.529931+00:00",
+  "package": {
+    "system": "npm",
+    "name": "express",
+    "version": "5.2.1"
+  },
+  "repo_url": "https://github.com/expressjs/express.git",
+  "ref": "v5.2.1",
+  "commit_hash": "dbac741a49a5a64336b70c06e85c2e2706e36336",
+  "clone_duration_seconds": 1.191498041152954,
+  "count_duration_seconds": 0.009395837783813477,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

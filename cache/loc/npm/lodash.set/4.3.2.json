@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "lodash.set",
+    "version": "4.3.2"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T00:47:32.751618+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/npm/packages/lodash.set/versions/4.3.2",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11631488800048828,
+  "count_duration_seconds": null
+}

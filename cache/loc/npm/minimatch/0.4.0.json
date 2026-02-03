@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "minimatch",
+    "version": "0.4.0"
+  },
+  "total_lines": 660,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:47:06.949742+00:00",
+  "source_url": "https://registry.npmjs.org/minimatch/-/minimatch-0.4.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.736396074295044,
+  "count_duration_seconds": null
+}

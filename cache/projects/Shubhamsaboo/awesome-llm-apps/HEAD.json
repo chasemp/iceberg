@@ -1,0 +1,17 @@
+{
+  "owner": "Shubhamsaboo",
+  "repo": "awesome-llm-apps",
+  "version": "HEAD",
+  "loc": 69976,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T01:05:28.202620+00:00",
+  "repo_url": "https://github.com/Shubhamsaboo/awesome-llm-apps.git",
+  "ref": "HEAD",
+  "commit_hash": "60b72c6479c3f3c4749c08d101f5de78c7a33b01",
+  "clone_duration_seconds": 11.308470010757446,
+  "count_duration_seconds": 0.0812690258026123,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

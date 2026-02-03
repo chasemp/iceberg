@@ -1,0 +1,22 @@
+{
+  "owner": "browser-use",
+  "repo": "browser-use",
+  "version": "HEAD",
+  "loc": 50782,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T01:09:10.794674+00:00",
+  "package": {
+    "system": "pypi",
+    "name": "browser-use",
+    "version": "0.11.7"
+  },
+  "repo_url": "https://github.com/browser-use/browser-use.git",
+  "ref": "HEAD",
+  "commit_hash": "39d625875535889cd4ecaf11ef525829d13f173e",
+  "clone_duration_seconds": 2.1134886741638184,
+  "count_duration_seconds": 0.04144096374511719,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

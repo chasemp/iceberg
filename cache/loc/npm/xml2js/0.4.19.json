@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "xml2js",
+    "version": "0.4.19"
+  },
+  "total_lines": 582,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:37:48.449110+00:00",
+  "source_url": "https://registry.npmjs.org/xml2js/-/xml2js-0.4.19.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.508173942565918,
+  "count_duration_seconds": null
+}

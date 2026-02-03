@@ -1,0 +1,16 @@
+{
+  "owner": "bigskysoftware",
+  "repo": "htmx",
+  "full_name": "bigskysoftware/htmx",
+  "root_package": "npm:htmx.org:2.0.8",
+  "nodes": [
+    {
+      "id": "npm:htmx.org:2.0.8",
+      "system": "npm",
+      "name": "htmx.org",
+      "version": "2.0.8"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-03T01:18:30.599488+00:00"
+}

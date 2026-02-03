@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "urllib3",
+    "version": "1.26.18"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T00:58:14.928003+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/urllib3/versions/1.26.18",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.13558506965637207,
+  "count_duration_seconds": null
+}

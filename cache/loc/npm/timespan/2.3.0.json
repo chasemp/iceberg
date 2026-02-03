@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "timespan",
+    "version": "2.3.0"
+  },
+  "total_lines": 569,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:55:43.379552+00:00",
+  "source_url": "https://registry.npmjs.org/timespan/-/timespan-2.3.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7932419776916504,
+  "count_duration_seconds": null
+}

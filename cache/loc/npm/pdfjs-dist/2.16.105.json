@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "pdfjs-dist",
+    "version": "2.16.105"
+  },
+  "total_lines": 115257,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T01:10:24.140974+00:00",
+  "source_url": "https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-2.16.105.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 1.9047839641571045,
+  "count_duration_seconds": null
+}

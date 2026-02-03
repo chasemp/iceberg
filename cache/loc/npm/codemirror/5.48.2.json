@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "codemirror",
+    "version": "5.48.2"
+  },
+  "total_lines": 55219,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:52:57.557466+00:00",
+  "source_url": "https://registry.npmjs.org/codemirror/-/codemirror-5.48.2.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.9277150630950928,
+  "count_duration_seconds": null
+}

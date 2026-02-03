@@ -1,0 +1,16 @@
+{
+  "owner": "mrdoob",
+  "repo": "three.js",
+  "full_name": "mrdoob/three.js",
+  "root_package": "npm:three:0.182.0",
+  "nodes": [
+    {
+      "id": "npm:three:0.182.0",
+      "system": "npm",
+      "name": "three",
+      "version": "0.182.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-03T01:18:30.600285+00:00"
+}

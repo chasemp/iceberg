@@ -1,0 +1,28 @@
+{
+  "owner": "localstack",
+  "repo": "localstack",
+  "full_name": "localstack/localstack",
+  "url": "https://github.com/localstack/localstack",
+  "analysis": {
+    "owner": "localstack",
+    "repo": "localstack",
+    "version": "HEAD",
+    "loc": 270017,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T01:17:15.668118+00:00",
+    "package": {
+      "system": "pypi",
+      "name": "localstack-core",
+      "version": "py311"
+    },
+    "repo_url": "https://github.com/localstack/localstack.git",
+    "ref": "HEAD",
+    "commit_hash": "a8c43f2df87d94f19dfd4a9c478c81f9ea8ba5d3",
+    "clone_duration_seconds": 3.563717842102051,
+    "count_duration_seconds": 0.21249103546142578,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

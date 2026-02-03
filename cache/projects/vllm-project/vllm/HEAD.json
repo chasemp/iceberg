@@ -1,0 +1,17 @@
+{
+  "owner": "vllm-project",
+  "repo": "vllm",
+  "version": "HEAD",
+  "loc": 455499,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T01:13:30.455314+00:00",
+  "repo_url": "https://github.com/vllm-project/vllm.git",
+  "ref": "HEAD",
+  "commit_hash": "4b3803d18044499962f331db0a1614b726110e2a",
+  "clone_duration_seconds": 7.437909126281738,
+  "count_duration_seconds": 0.27488207817077637,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

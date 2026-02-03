@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "jose",
+    "version": "2.0.5"
+  },
+  "total_lines": 4826,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:48:22.452453+00:00",
+  "source_url": "https://registry.npmjs.org/jose/-/jose-2.0.5.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.8873069286346436,
+  "count_duration_seconds": null
+}

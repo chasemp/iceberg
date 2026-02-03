@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "webpack-dev-server",
+    "version": "4.13.1"
+  },
+  "total_lines": 12856,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:44:59.878059+00:00",
+  "source_url": "https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-4.13.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.6522541046142578,
+  "count_duration_seconds": null
+}

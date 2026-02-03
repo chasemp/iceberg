@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "seroval",
+    "version": "1.3.2"
+  },
+  "total_lines": 5231,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:18:23.135510+00:00",
+  "source_url": "https://registry.npmjs.org/seroval/-/seroval-1.3.2.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.9896349906921387,
+  "count_duration_seconds": null
+}

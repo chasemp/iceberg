@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "jws",
+    "version": "3.2.2"
+  },
+  "total_lines": 239,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-02T23:22:47.727511+00:00",
+  "source_url": "https://registry.npmjs.org/jws/-/jws-3.2.2.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7415838241577148,
+  "count_duration_seconds": null
+}

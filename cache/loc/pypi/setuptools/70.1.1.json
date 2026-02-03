@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "setuptools",
+    "version": "70.1.1"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T00:58:16.776218+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/setuptools/versions/70.1.1",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1558818817138672,
+  "count_duration_seconds": null
+}

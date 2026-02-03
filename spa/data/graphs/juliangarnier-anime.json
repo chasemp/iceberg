@@ -1,0 +1,16 @@
+{
+  "owner": "juliangarnier",
+  "repo": "anime",
+  "full_name": "juliangarnier/anime",
+  "root_package": "npm:animejs:4.3.5",
+  "nodes": [
+    {
+      "id": "npm:animejs:4.3.5",
+      "system": "npm",
+      "name": "animejs",
+      "version": "4.3.5"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-03T01:18:30.598397+00:00"
+}

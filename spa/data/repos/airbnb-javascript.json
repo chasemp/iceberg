@@ -1,0 +1,28 @@
+{
+  "owner": "airbnb",
+  "repo": "javascript",
+  "full_name": "airbnb/javascript",
+  "url": "https://github.com/airbnb/javascript",
+  "analysis": {
+    "owner": "airbnb",
+    "repo": "javascript",
+    "version": "HEAD",
+    "loc": 1563,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:34:46.932722+00:00",
+    "package": {
+      "system": "npm",
+      "name": "airbnb-style",
+      "version": "2.0.0"
+    },
+    "repo_url": "https://github.com/airbnb/javascript.git",
+    "ref": "HEAD",
+    "commit_hash": "0e2ef178a26ba9ac3495402a182891ad8096d3a0",
+    "clone_duration_seconds": 0.9331729412078857,
+    "count_duration_seconds": 0.0037529468536376953,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

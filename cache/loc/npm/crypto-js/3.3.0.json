@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "crypto-js",
+    "version": "3.3.0"
+  },
+  "total_lines": 6886,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:37:06.093753+00:00",
+  "source_url": "https://registry.npmjs.org/crypto-js/-/crypto-js-3.3.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7663688659667969,
+  "count_duration_seconds": null
+}

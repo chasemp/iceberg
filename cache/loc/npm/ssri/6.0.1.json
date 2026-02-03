@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "ssri",
+    "version": "6.0.1"
+  },
+  "total_lines": 350,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:50:32.145715+00:00",
+  "source_url": "https://registry.npmjs.org/ssri/-/ssri-6.0.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.6490199565887451,
+  "count_duration_seconds": null
+}

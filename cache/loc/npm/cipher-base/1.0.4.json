@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "cipher-base",
+    "version": "1.0.4"
+  },
+  "total_lines": 185,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:35:26.596248+00:00",
+  "source_url": "https://registry.npmjs.org/cipher-base/-/cipher-base-1.0.4.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 1.1841928958892822,
+  "count_duration_seconds": null
+}

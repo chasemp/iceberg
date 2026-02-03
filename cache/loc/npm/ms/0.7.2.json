@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "ms",
+    "version": "0.7.2"
+  },
+  "total_lines": 98,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:49:12.229050+00:00",
+  "source_url": "https://registry.npmjs.org/ms/-/ms-0.7.2.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.8068459033966064,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "shell-quote",
+    "version": "0.0.1"
+  },
+  "total_lines": 38,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:49:31.283097+00:00",
+  "source_url": "https://registry.npmjs.org/shell-quote/-/shell-quote-0.0.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.6960861682891846,
+  "count_duration_seconds": null
+}

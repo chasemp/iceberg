@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "number_prefix",
+    "version": "0.4.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T00:36:50.247709+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/number_prefix/versions/0.4.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1324779987335205,
+  "count_duration_seconds": null
+}

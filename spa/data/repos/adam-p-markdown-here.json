@@ -1,0 +1,25 @@
+{
+  "owner": "adam-p",
+  "repo": "markdown-here",
+  "full_name": "adam-p/markdown-here",
+  "url": "https://github.com/adam-p/markdown-here",
+  "analysis": {
+    "owner": "adam-p",
+    "repo": "markdown-here",
+    "version": "HEAD",
+    "loc": 59504,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:47:34.330188+00:00",
+    "total_loc": 17920,
+    "ratio": 0.23145277949989668,
+    "repo_url": "https://github.com/adam-p/markdown-here.git",
+    "ref": "HEAD",
+    "commit_hash": "e00d005299922198aef968e0cd42b275525c20a6",
+    "clone_duration_seconds": 1.5354890823364258,
+    "count_duration_seconds": 0.02127695083618164,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

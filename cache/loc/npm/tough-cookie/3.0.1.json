@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "tough-cookie",
+    "version": "3.0.1"
+  },
+  "total_lines": 1203,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:50:33.915284+00:00",
+  "source_url": "https://registry.npmjs.org/tough-cookie/-/tough-cookie-3.0.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7505667209625244,
+  "count_duration_seconds": null
+}

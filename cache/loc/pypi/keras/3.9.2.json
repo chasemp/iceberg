@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "keras",
+    "version": "3.9.2"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T00:57:31.637455+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/keras/versions/3.9.2",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11573100090026855,
+  "count_duration_seconds": null
+}

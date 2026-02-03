@@ -1,0 +1,16 @@
+{
+  "owner": "browser-use",
+  "repo": "browser-use",
+  "full_name": "browser-use/browser-use",
+  "root_package": "pypi:browser-use:0.11.7",
+  "nodes": [
+    {
+      "id": "pypi:browser-use:0.11.7",
+      "system": "pypi",
+      "name": "browser-use",
+      "version": "0.11.7"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-03T01:18:30.619014+00:00"
+}

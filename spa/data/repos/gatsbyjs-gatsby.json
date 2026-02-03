@@ -1,0 +1,25 @@
+{
+  "owner": "gatsbyjs",
+  "repo": "gatsby",
+  "full_name": "gatsbyjs/gatsby",
+  "url": "https://github.com/gatsbyjs/gatsby",
+  "analysis": {
+    "owner": "gatsbyjs",
+    "repo": "gatsby",
+    "version": "HEAD",
+    "loc": 297843,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:50:41.294031+00:00",
+    "total_loc": 1170744,
+    "ratio": 0.7971907690862032,
+    "repo_url": "https://github.com/gatsbyjs/gatsby.git",
+    "ref": "HEAD",
+    "commit_hash": "49188eff4aed047215b3933048d35dc113c170ab",
+    "clone_duration_seconds": 22.87174892425537,
+    "count_duration_seconds": 0.47417688369750977,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

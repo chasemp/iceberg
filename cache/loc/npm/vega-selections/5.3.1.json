@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "vega-selections",
+    "version": "5.3.1"
+  },
+  "total_lines": 199,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:51:59.959123+00:00",
+  "source_url": "https://registry.npmjs.org/vega-selections/-/vega-selections-5.3.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 1.340475082397461,
+  "count_duration_seconds": null
+}

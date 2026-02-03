@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "lexical-core",
+    "version": "0.8.5"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T00:35:16.917565+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/lexical-core/versions/0.8.5",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.10717988014221191,
+  "count_duration_seconds": null
+}

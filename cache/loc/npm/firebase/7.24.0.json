@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "firebase",
+    "version": "7.24.0"
+  },
+  "total_lines": 2388,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:37:15.321521+00:00",
+  "source_url": "https://registry.npmjs.org/firebase/-/firebase-7.24.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 1.6691632270812988,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,17 @@
+{
+  "owner": "labmlai",
+  "repo": "annotated_deep_learning_paper_implementations",
+  "version": "HEAD",
+  "loc": 23838,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T01:16:00.844290+00:00",
+  "repo_url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations.git",
+  "ref": "HEAD",
+  "commit_hash": "33ab02281c2b928e6b32792909cc79cbdcfe1d6a",
+  "clone_duration_seconds": 34.579944133758545,
+  "count_duration_seconds": 0.08534884452819824,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

@@ -1,0 +1,24 @@
+{
+  "owner": "iamkun",
+  "repo": "dayjs",
+  "version": "HEAD",
+  "loc": 8725,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T00:55:52.601894+00:00",
+  "package": {
+    "system": "npm",
+    "name": "dayjs",
+    "version": "0.0.0-development"
+  },
+  "total_loc": 269208,
+  "ratio": 0.9686075421054715,
+  "repo_url": "https://github.com/iamkun/dayjs.git",
+  "ref": "HEAD",
+  "commit_hash": "807face1fef65eee9955fa587888cf31c5a0d3c0",
+  "clone_duration_seconds": 1.1066889762878418,
+  "count_duration_seconds": 0.027711153030395508,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

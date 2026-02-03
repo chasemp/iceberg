@@ -7,18 +7,20 @@
     "owner": "Draculabo",
     "repo": "AntigravityManager",
     "version": "HEAD",
-    "loc": 12813,
+    "loc": 12746,
     "source": "github_clone",
-    "cached_at": "2026-02-02T22:28:44.558983+00:00",
+    "cached_at": "2026-02-02T23:26:02.012296+00:00",
     "package": {
       "system": "npm",
       "name": "antigravity-manager",
       "version": "0.5.0"
     },
+    "total_loc": 72601,
+    "ratio": 0.8506567307579646,
     "repo_url": "https://github.com/Draculabo/AntigravityManager.git",
-    "ref": "HEAD",
-    "commit_hash": "080fb6797420c8e8edad9ee9f8d8cb3faf06f52d",
-    "clone_duration_seconds": 1.161423921585083,
-    "count_duration_seconds": 0.019225120544433594
+    "ref": "v0.5.0",
+    "commit_hash": "d25f2948c3ae7b2db170e43c969921e4b473de4a",
+    "clone_duration_seconds": 1.3933351039886475,
+    "count_duration_seconds": 0.018876075744628906
   }
 }

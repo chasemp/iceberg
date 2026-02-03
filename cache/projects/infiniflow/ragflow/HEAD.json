@@ -1,0 +1,24 @@
+{
+  "owner": "infiniflow",
+  "repo": "ragflow",
+  "version": "HEAD",
+  "loc": 217178,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T01:10:35.830785+00:00",
+  "package": {
+    "system": "pypi",
+    "name": "ragflow",
+    "version": "0.23.1"
+  },
+  "total_loc": 468028,
+  "ratio": 0.6830471420273612,
+  "repo_url": "https://github.com/infiniflow/ragflow.git",
+  "ref": "v0.23.1",
+  "commit_hash": "675d18d359d9a8b29b7f990a7b8e07e200daa572",
+  "clone_duration_seconds": 7.433890104293823,
+  "count_duration_seconds": 0.19878292083740234,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

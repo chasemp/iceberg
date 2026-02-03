@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "vega-functions",
+    "version": "5.12.1"
+  },
+  "total_lines": 887,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:51:57.547083+00:00",
+  "source_url": "https://registry.npmjs.org/vega-functions/-/vega-functions-5.12.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.6549429893493652,
+  "count_duration_seconds": null
+}

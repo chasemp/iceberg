@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "hawk",
+    "version": "1.1.1"
+  },
+  "total_lines": 1094,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:45:54.053917+00:00",
+  "source_url": "https://registry.npmjs.org/hawk/-/hawk-1.1.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.759876012802124,
+  "count_duration_seconds": null
+}

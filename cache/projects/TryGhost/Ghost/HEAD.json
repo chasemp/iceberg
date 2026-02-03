@@ -1,0 +1,24 @@
+{
+  "owner": "TryGhost",
+  "repo": "Ghost",
+  "version": "HEAD",
+  "loc": 232620,
+  "source": "github_clone",
+  "cached_at": "2026-02-03T00:53:21.711322+00:00",
+  "package": {
+    "system": "npm",
+    "name": "ghost-monorepo",
+    "version": "0.0.0-private"
+  },
+  "total_loc": 402462,
+  "ratio": 0.6337165909284156,
+  "repo_url": "https://github.com/TryGhost/Ghost.git",
+  "ref": "HEAD",
+  "commit_hash": "53e583436edd50b8dccbaa4321172a0dd505bb52",
+  "clone_duration_seconds": 7.710861921310425,
+  "count_duration_seconds": 0.42490386962890625,
+  "last_discovered": "2026-02-03",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

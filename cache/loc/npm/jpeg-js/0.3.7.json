@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "jpeg-js",
+    "version": "0.3.7"
+  },
+  "total_lines": 1582,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:37:19.580982+00:00",
+  "source_url": "https://registry.npmjs.org/jpeg-js/-/jpeg-js-0.3.7.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.4716811180114746,
+  "count_duration_seconds": null
+}

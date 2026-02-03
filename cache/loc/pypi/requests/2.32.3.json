@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "requests",
+    "version": "2.32.3"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-03T00:57:31.890437+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/requests/versions/2.32.3",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11249995231628418,
+  "count_duration_seconds": null
+}

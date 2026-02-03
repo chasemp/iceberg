@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "pathval",
+    "version": "0.1.1"
+  },
+  "total_lines": 86,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:46:10.563800+00:00",
+  "source_url": "https://registry.npmjs.org/pathval/-/pathval-0.1.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.729489803314209,
+  "count_duration_seconds": null
+}

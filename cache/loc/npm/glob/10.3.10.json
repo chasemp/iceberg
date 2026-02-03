@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "glob",
+    "version": "10.3.10"
+  },
+  "total_lines": 0,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-03T00:38:31.708316+00:00",
+  "source_url": "https://registry.npmjs.org/glob/-/glob-10.3.10.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.6361939907073975,
+  "count_duration_seconds": null
+}
