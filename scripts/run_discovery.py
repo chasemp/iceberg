@@ -41,8 +41,8 @@ def fetch_all_discovery_sources() -> list[DiscoveredRepo]:
     
     print("📡 Fetching discovery sources...\n")
     
-    # Trending
-    for timeframe in ["daily", "weekly", "monthly"]:
+    # Trending (weekly and monthly only - daily is too noisy)
+    for timeframe in ["weekly", "monthly"]:
         try:
             print(f"  Fetching trending {timeframe}...")
             repos = fetch_trending_repos(limit=25, since=timeframe)
