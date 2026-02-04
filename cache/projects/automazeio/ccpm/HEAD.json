@@ -1,0 +1,13 @@
+{
+  "owner": "automazeio",
+  "repo": "ccpm",
+  "version": "HEAD",
+  "loc": 1359,
+  "source": "github_clone",
+  "cached_at": "2026-02-04T06:41:34.164452+00:00",
+  "repo_url": "https://github.com/automazeio/ccpm.git",
+  "ref": "HEAD",
+  "commit_hash": "3c8e0e7f673c62ac162bb1ce81c19207c440b7f2",
+  "clone_duration_seconds": 0.36179423332214355,
+  "count_duration_seconds": 0.003560781478881836
+}
