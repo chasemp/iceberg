@@ -1,0 +1,28 @@
+{
+  "owner": "frankbria",
+  "repo": "ralph-claude-code",
+  "version": "HEAD",
+  "loc": 5552,
+  "source": "github_clone",
+  "cached_at": "2026-02-04T06:41:42.218909+00:00",
+  "package": {
+    "system": "npm",
+    "name": "ralph-claude-code",
+    "version": "1.0.0"
+  },
+  "ai_markers": {
+    "claude": true,
+    "cursor": false,
+    "copilot": false,
+    "aider": false,
+    "generic_ai": false
+  },
+  "ai_tools": [
+    "Claude"
+  ],
+  "repo_url": "https://github.com/frankbria/ralph-claude-code.git",
+  "ref": "HEAD",
+  "commit_hash": "abcfa8b695ec388a33c03c1bcba9af7c89b25ff6",
+  "clone_duration_seconds": 0.33113694190979004,
+  "count_duration_seconds": 0.0059146881103515625
+}
