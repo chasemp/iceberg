@@ -1,0 +1,29 @@
+{
+  "owner": "Canner",
+  "repo": "WrenAI",
+  "full_name": "Canner/WrenAI",
+  "url": "https://github.com/Canner/WrenAI",
+  "analysis": {
+    "owner": "Canner",
+    "repo": "WrenAI",
+    "version": "HEAD",
+    "loc": 72743,
+    "source": "github_clone",
+    "cached_at": "2026-02-05T06:49:41.311697+00:00",
+    "ai_markers": {
+      "claude": true,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "generic_ai": false
+    },
+    "ai_tools": [
+      "Claude"
+    ],
+    "repo_url": "https://github.com/Canner/WrenAI.git",
+    "ref": "HEAD",
+    "commit_hash": "759aa71ca64f1fd16ce70ca1559157405b52dcd7",
+    "clone_duration_seconds": 0.740941047668457,
+    "count_duration_seconds": 0.06140637397766113
+  }
+}

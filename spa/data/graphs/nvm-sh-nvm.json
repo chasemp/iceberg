@@ -1,0 +1,16 @@
+{
+  "owner": "nvm-sh",
+  "repo": "nvm",
+  "full_name": "nvm-sh/nvm",
+  "root_package": "npm:nvm:0.40.4",
+  "nodes": [
+    {
+      "id": "npm:nvm:0.40.4",
+      "system": "npm",
+      "name": "nvm",
+      "version": "0.40.4"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-05T06:50:01.915632+00:00"
+}
