@@ -1,0 +1,29 @@
+{
+  "owner": "disler",
+  "repo": "claude-code-hooks-mastery",
+  "full_name": "disler/claude-code-hooks-mastery",
+  "url": "https://github.com/disler/claude-code-hooks-mastery",
+  "analysis": {
+    "owner": "disler",
+    "repo": "claude-code-hooks-mastery",
+    "version": "HEAD",
+    "loc": 4795,
+    "source": "github_clone",
+    "cached_at": "2026-02-05T06:49:27.555524+00:00",
+    "ai_markers": {
+      "claude": true,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "generic_ai": false
+    },
+    "ai_tools": [
+      "Claude"
+    ],
+    "repo_url": "https://github.com/disler/claude-code-hooks-mastery.git",
+    "ref": "HEAD",
+    "commit_hash": "052ad1cbd5aeb1ec4a1def22012d1293c6225625",
+    "clone_duration_seconds": 0.39197683334350586,
+    "count_duration_seconds": 0.006273508071899414
+  }
+}
