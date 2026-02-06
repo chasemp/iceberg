@@ -1,0 +1,24 @@
+{
+  "owner": "linshenkx",
+  "repo": "prompt-optimizer",
+  "full_name": "linshenkx/prompt-optimizer",
+  "url": "https://github.com/linshenkx/prompt-optimizer",
+  "analysis": {
+    "owner": "linshenkx",
+    "repo": "prompt-optimizer",
+    "version": "HEAD",
+    "loc": 59913,
+    "source": "github_clone",
+    "cached_at": "2026-02-06T06:44:03.743429+00:00",
+    "package": {
+      "system": "npm",
+      "name": "prompt-optimizer",
+      "version": "2.5.3"
+    },
+    "repo_url": "https://github.com/linshenkx/prompt-optimizer.git",
+    "ref": "v2.5.3",
+    "commit_hash": "290e99f910ce91c24de97e1194c35dae9d472f57",
+    "clone_duration_seconds": 0.8979177474975586,
+    "count_duration_seconds": 0.06728339195251465
+  }
+}

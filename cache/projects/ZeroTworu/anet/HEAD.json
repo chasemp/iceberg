@@ -1,0 +1,13 @@
+{
+  "owner": "ZeroTworu",
+  "repo": "anet",
+  "version": "HEAD",
+  "loc": 5276,
+  "source": "github_clone",
+  "cached_at": "2026-02-06T06:44:05.274223+00:00",
+  "repo_url": "https://github.com/ZeroTworu/anet.git",
+  "ref": "HEAD",
+  "commit_hash": "3c857e6418100f11a6749599b62a5e4fd8112757",
+  "clone_duration_seconds": 0.17877840995788574,
+  "count_duration_seconds": 0.007378816604614258
+}

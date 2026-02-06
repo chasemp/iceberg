@@ -1,0 +1,123 @@
+[
+  {
+    "name": "UI-TARS-desktop",
+    "owner": "bytedance",
+    "url": "https://github.com/bytedance/UI-TARS-desktop",
+    "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+    "language": "TypeScript",
+    "stars": 26862,
+    "source": "trending-daily",
+    "discovered_at": "2026-02-06T06:43:41.416712+00:00",
+    "search_query": null
+  },
+  {
+    "name": "skills",
+    "owner": "openai",
+    "url": "https://github.com/openai/skills",
+    "description": "Skills Catalog for Codex",
+    "language": "Python",
+    "stars": 4442,
+    "source": "trending-daily",
+    "discovered_at": "2026-02-06T06:43:41.416712+00:00",
+    "search_query": null
+  },
+  {
+    "name": "claude-mem",
+    "owner": "thedotmack",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+    "language": "TypeScript",
+    "stars": 23893,
+    "source": "trending-daily",
+    "discovered_at": "2026-02-06T06:43:41.416712+00:00",
+    "search_query": null
+  },
+  {
+    "name": "prek",
+    "owner": "j178",
+    "url": "https://github.com/j178/prek",
+    "description": "\u26a1 Better `pre-commit`, re-engineered in Rust",
+    "language": "Rust",
+    "stars": 5581,
+    "source": "trending-daily",
+    "discovered_at": "2026-02-06T06:43:41.416712+00:00",
+    "search_query": null
+  },
+  {
+    "name": "cognee",
+    "owner": "topoteretes",
+    "url": "https://github.com/topoteretes/cognee",
+    "description": "Memory for AI Agents in 6 lines of code",
+    "language": "Python",
+    "stars": 11897,
+    "source": "trending-daily",
+    "discovered_at": "2026-02-06T06:43:41.416712+00:00",
+    "search_query": null
+  },
+  {
+    "name": "superpowers",
+    "owner": "obra",
+    "url": "https://github.com/obra/superpowers",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "language": "Shell",
+    "stars": 45632,
+    "source": "trending-daily",
+    "discovered_at": "2026-02-06T06:43:41.416712+00:00",
+    "search_query": null
+  },
+  {
+    "name": "trivy",
+    "owner": "aquasecurity",
+    "url": "https://github.com/aquasecurity/trivy",
+    "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+    "language": "Go",
+    "stars": 31406,
+    "source": "trending-daily",
+    "discovered_at": "2026-02-06T06:43:41.416712+00:00",
+    "search_query": null
+  },
+  {
+    "name": "fish-shell",
+    "owner": "fish-shell",
+    "url": "https://github.com/fish-shell/fish-shell",
+    "description": "The user-friendly command line shell.",
+    "language": "Rust",
+    "stars": 32421,
+    "source": "trending-daily",
+    "discovered_at": "2026-02-06T06:43:41.416712+00:00",
+    "search_query": null
+  },
+  {
+    "name": "nvm",
+    "owner": "nvm-sh",
+    "url": "https://github.com/nvm-sh/nvm",
+    "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
+    "language": "Shell",
+    "stars": 91400,
+    "source": "trending-daily",
+    "discovered_at": "2026-02-06T06:43:41.416712+00:00",
+    "search_query": null
+  },
+  {
+    "name": "prompt-optimizer",
+    "owner": "linshenkx",
+    "url": "https://github.com/linshenkx/prompt-optimizer",
+    "description": "\u4e00\u6b3e\u63d0\u793a\u8bcd\u4f18\u5316\u5668\uff0c\u52a9\u529b\u4e8e\u7f16\u5199\u9ad8\u8d28\u91cf\u7684\u63d0\u793a\u8bcd",
+    "language": "TypeScript",
+    "stars": 19465,
+    "source": "trending-daily",
+    "discovered_at": "2026-02-06T06:43:41.416712+00:00",
+    "search_query": null
+  },
+  {
+    "name": "anet",
+    "owner": "ZeroTworu",
+    "url": "https://github.com/ZeroTworu/anet",
+    "description": "Simple Rust VPN Client / Server",
+    "language": "Rust",
+    "stars": 419,
+    "source": "trending-daily",
+    "discovered_at": "2026-02-06T06:43:41.416712+00:00",
+    "search_query": null
+  }
+]

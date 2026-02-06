@@ -1,0 +1,19 @@
+{
+  "owner": "microsoft",
+  "repo": "playwright-cli",
+  "full_name": "microsoft/playwright-cli",
+  "url": "https://github.com/microsoft/playwright-cli",
+  "analysis": {
+    "owner": "microsoft",
+    "repo": "playwright-cli",
+    "version": "HEAD",
+    "loc": 44,
+    "source": "github_clone",
+    "cached_at": "2026-02-06T06:43:52.265942+00:00",
+    "repo_url": "https://github.com/microsoft/playwright-cli.git",
+    "ref": "HEAD",
+    "commit_hash": "47a4df14c79b00ea8c4548bb7e11e7633fa535b4",
+    "clone_duration_seconds": 0.13715839385986328,
+    "count_duration_seconds": 0.0014986991882324219
+  }
+}

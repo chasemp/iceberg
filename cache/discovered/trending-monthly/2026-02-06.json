@@ -1,0 +1,189 @@
+[
+  {
+    "name": "openclaw",
+    "owner": "openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e",
+    "language": "TypeScript",
+    "stars": 168890,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-06T06:43:44.709815+00:00",
+    "search_query": null
+  },
+  {
+    "name": "superpowers",
+    "owner": "obra",
+    "url": "https://github.com/obra/superpowers",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "language": "Shell",
+    "stars": 45632,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-06T06:43:44.709815+00:00",
+    "search_query": null
+  },
+  {
+    "name": "opencode",
+    "owner": "anomalyco",
+    "url": "https://github.com/anomalyco/opencode",
+    "description": "The open source coding agent.",
+    "language": "TypeScript",
+    "stars": 98693,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-06T06:43:44.709815+00:00",
+    "search_query": null
+  },
+  {
+    "name": "ralph-claude-code",
+    "owner": "frankbria",
+    "url": "https://github.com/frankbria/ralph-claude-code",
+    "description": "Autonomous AI development loop for Claude Code with intelligent exit detection",
+    "language": "Shell",
+    "stars": 6375,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-06T06:43:44.709815+00:00",
+    "search_query": null
+  },
+  {
+    "name": "skills",
+    "owner": "anthropics",
+    "url": "https://github.com/anthropics/skills",
+    "description": "Public repository for Agent Skills",
+    "language": "Python",
+    "stars": 64250,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-06T06:43:44.709815+00:00",
+    "search_query": null
+  },
+  {
+    "name": "PageIndex",
+    "owner": "VectifyAI",
+    "url": "https://github.com/VectifyAI/PageIndex",
+    "description": "\ud83d\udcd1 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+    "language": "Python",
+    "stars": 13675,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-06T06:43:44.709815+00:00",
+    "search_query": null
+  },
+  {
+    "name": "oh-my-opencode",
+    "owner": "code-yeongyu",
+    "url": "https://github.com/code-yeongyu/oh-my-opencode",
+    "description": "The Best Agent Harness. Meet Sisyphus: The Batteries-Included Agent that codes like you.",
+    "language": "TypeScript",
+    "stars": 28659,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-06T06:43:44.709815+00:00",
+    "search_query": null
+  },
+  {
+    "name": "pi-mono",
+    "owner": "badlogic",
+    "url": "https://github.com/badlogic/pi-mono",
+    "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+    "language": "TypeScript",
+    "stars": 7343,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-06T06:43:44.709815+00:00",
+    "search_query": null
+  },
+  {
+    "name": "remotion",
+    "owner": "remotion-dev",
+    "url": "https://github.com/remotion-dev/remotion",
+    "description": "\ud83c\udfa5 Make videos programmatically with React",
+    "language": "TypeScript",
+    "stars": 35217,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-06T06:43:44.709815+00:00",
+    "search_query": null
+  },
+  {
+    "name": "claude-plugins-official",
+    "owner": "anthropics",
+    "url": "https://github.com/anthropics/claude-plugins-official",
+    "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+    "language": "Shell",
+    "stars": 6668,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-06T06:43:44.709815+00:00",
+    "search_query": null
+  },
+  {
+    "name": "system_prompts_leaks",
+    "owner": "asgeirtj",
+    "url": "https://github.com/asgeirtj/system_prompts_leaks",
+    "description": "Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini",
+    "language": "JavaScript",
+    "stars": 30332,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-06T06:43:44.709815+00:00",
+    "search_query": null
+  },
+  {
+    "name": "claude-code",
+    "owner": "anthropics",
+    "url": "https://github.com/anthropics/claude-code",
+    "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+    "language": "Shell",
+    "stars": 64588,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-06T06:43:44.709815+00:00",
+    "search_query": null
+  },
+  {
+    "name": "Antigravity-Manager",
+    "owner": "lbjlaq",
+    "url": "https://github.com/lbjlaq/Antigravity-Manager",
+    "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).\u4e13\u4e1a\u7684 Antigravity \u8d26\u53f7\u7ba1\u7406\u4e0e\u5207\u6362\u5de5\u5177\u3002\u4e3a Antigravity \u63d0\u4f9b\u4e00\u952e\u65e0\u7f1d\u8d26\u53f7\u5207\u6362\u529f\u80fd\u3002",
+    "language": "Rust",
+    "stars": 21528,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-06T06:43:44.709815+00:00",
+    "search_query": null
+  },
+  {
+    "name": "UI-TARS-desktop",
+    "owner": "bytedance",
+    "url": "https://github.com/bytedance/UI-TARS-desktop",
+    "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+    "language": "TypeScript",
+    "stars": 26862,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-06T06:43:44.709815+00:00",
+    "search_query": null
+  },
+  {
+    "name": "awesome-claude-skills",
+    "owner": "ComposioHQ",
+    "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+    "language": "Python",
+    "stars": 30948,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-06T06:43:44.709815+00:00",
+    "search_query": null
+  },
+  {
+    "name": "claude-mem",
+    "owner": "thedotmack",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+    "language": "TypeScript",
+    "stars": 23893,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-06T06:43:44.709815+00:00",
+    "search_query": null
+  },
+  {
+    "name": "data-engineering-zoomcamp",
+    "owner": "DataTalksClub",
+    "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+    "description": "Data Engineering Zoomcamp is a free 9-week course on building production-ready data pipelines. The next cohort starts in January 2026. Join the course here \ud83d\udc47\ud83c\udffc",
+    "language": "Jupyter Notebook",
+    "stars": 38081,
+    "source": "trending-monthly",
+    "discovered_at": "2026-02-06T06:43:44.709815+00:00",
+    "search_query": null
+  }
+]
