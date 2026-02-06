@@ -1,0 +1,28 @@
+{
+  "owner": "topoteretes",
+  "repo": "cognee",
+  "version": "HEAD",
+  "loc": 62500,
+  "source": "github_clone",
+  "cached_at": "2026-02-06T06:43:56.391396+00:00",
+  "package": {
+    "system": "pypi",
+    "name": "cognee",
+    "version": "0.5.2"
+  },
+  "ai_markers": {
+    "claude": true,
+    "cursor": false,
+    "copilot": false,
+    "aider": false,
+    "generic_ai": false
+  },
+  "ai_tools": [
+    "Claude"
+  ],
+  "repo_url": "https://github.com/topoteretes/cognee.git",
+  "ref": "v0.5.2",
+  "commit_hash": "a2c21cdb2dd51f3fdd57f5e3c41ff7c810e04c21",
+  "clone_duration_seconds": 1.042848825454712,
+  "count_duration_seconds": 0.08561444282531738
+}

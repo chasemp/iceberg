@@ -1,0 +1,16 @@
+{
+  "owner": "linshenkx",
+  "repo": "prompt-optimizer",
+  "full_name": "linshenkx/prompt-optimizer",
+  "root_package": "npm:prompt-optimizer:2.5.3",
+  "nodes": [
+    {
+      "id": "npm:prompt-optimizer:2.5.3",
+      "system": "npm",
+      "name": "prompt-optimizer",
+      "version": "2.5.3"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-06T06:44:05.720009+00:00"
+}
