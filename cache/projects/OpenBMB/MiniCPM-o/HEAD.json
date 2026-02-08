@@ -1,0 +1,13 @@
+{
+  "owner": "OpenBMB",
+  "repo": "MiniCPM-o",
+  "version": "HEAD",
+  "loc": 25783,
+  "source": "github_clone",
+  "cached_at": "2026-02-08T06:41:27.002588+00:00",
+  "repo_url": "https://github.com/OpenBMB/MiniCPM-o.git",
+  "ref": "HEAD",
+  "commit_hash": "16b2b96a9fb6953457144d6a8ec19b4dcc2401f7",
+  "clone_duration_seconds": 22.882282495498657,
+  "count_duration_seconds": 0.021455764770507812
+}

@@ -1,0 +1,13 @@
+{
+  "owner": "gitbutlerapp",
+  "repo": "gitbutler",
+  "version": "HEAD",
+  "loc": 138863,
+  "source": "github_clone",
+  "cached_at": "2026-02-08T06:41:40.140208+00:00",
+  "repo_url": "https://github.com/gitbutlerapp/gitbutler.git",
+  "ref": "HEAD",
+  "commit_hash": "ed31649e2f98ab48c1c894a810ef8784c3e25393",
+  "clone_duration_seconds": 1.0055294036865234,
+  "count_duration_seconds": 0.13300132751464844
+}

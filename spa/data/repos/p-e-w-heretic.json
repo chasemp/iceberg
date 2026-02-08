@@ -1,0 +1,24 @@
+{
+  "owner": "p-e-w",
+  "repo": "heretic",
+  "full_name": "p-e-w/heretic",
+  "url": "https://github.com/p-e-w/heretic",
+  "analysis": {
+    "owner": "p-e-w",
+    "repo": "heretic",
+    "version": "HEAD",
+    "loc": 1406,
+    "source": "github_clone",
+    "cached_at": "2026-02-08T06:41:00.789704+00:00",
+    "package": {
+      "system": "pypi",
+      "name": "heretic-llm",
+      "version": "1.1.0"
+    },
+    "repo_url": "https://github.com/p-e-w/heretic.git",
+    "ref": "v1.1.0",
+    "commit_hash": "d9f2b0407ad1aade5c69d49f8b256fda45cc3281",
+    "clone_duration_seconds": 0.24700379371643066,
+    "count_duration_seconds": 0.0018928050994873047
+  }
+}
