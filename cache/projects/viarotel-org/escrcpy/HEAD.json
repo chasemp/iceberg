@@ -1,0 +1,18 @@
+{
+  "owner": "viarotel-org",
+  "repo": "escrcpy",
+  "version": "HEAD",
+  "loc": 16789,
+  "source": "github_clone",
+  "cached_at": "2026-02-08T06:41:36.330712+00:00",
+  "package": {
+    "system": "npm",
+    "name": "@escrcpy/workspace",
+    "version": "2.3.1"
+  },
+  "repo_url": "https://github.com/viarotel-org/escrcpy.git",
+  "ref": "v2.3.1",
+  "commit_hash": "f9c75e75a4948bf7c58f5d0d2fcfa7ec78fa2fd1",
+  "clone_duration_seconds": 3.3207926750183105,
+  "count_duration_seconds": 0.03210711479187012
+}

@@ -1,0 +1,16 @@
+{
+  "owner": "KeygraphHQ",
+  "repo": "shannon",
+  "full_name": "KeygraphHQ/shannon",
+  "root_package": "npm:shannon:1.0.0",
+  "nodes": [
+    {
+      "id": "npm:shannon:1.0.0",
+      "system": "npm",
+      "name": "shannon",
+      "version": "1.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-08T06:41:40.712697+00:00"
+}
