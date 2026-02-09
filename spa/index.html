@@ -26,80 +26,139 @@
             </section>
 
             <section class="filters">
-                <h2>Filter Discovery Dimensions</h2>
-                <div class="filter-group">
-                    <label for="source-filter">Source:</label>
-                    <select id="source-filter">
-                        <option value="all">All Sources</option>
-                        <option value="trending">Trending</option>
-                        <option value="search">Search</option>
-                    </select>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <h2 style="margin: 0;">Filter Repositories</h2>
+                        <div style="font-size: 0.875rem;">
+                            <button id="clear-filters-btn" class="filter-action-btn" style="background: none; border: none; color: var(--primary); cursor: pointer; padding: 0.25rem 0.5rem;">clear</button>
+                            <span style="color: var(--text-muted);">|</span>
+                            <button id="reset-filters-btn" class="filter-action-btn" style="background: none; border: none; color: var(--primary); cursor: pointer; padding: 0.25rem 0.5rem;">reset</button>
+                        </div>
+                    </div>
+                    <label for="deps-toggle" style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer; font-size: 0.875rem;">
+                        <input type="checkbox" id="deps-toggle" />
+                        <span>Only with dependencies</span>
+                    </label>
                 </div>
-                <div class="filter-group">
-                    <label for="timeframe-filter">Timeframe:</label>
-                    <select id="timeframe-filter">
-                        <option value="all">All Timeframes</option>
-                        <option value="daily">Daily</option>
-                        <option value="weekly">Weekly</option>
-                        <option value="monthly">Monthly</option>
-                    </select>
-                </div>
-                <div class="filter-group">
-                    <label for="language-filter">Language:</label>
-                    <select id="language-filter">
-                        <option value="all">All Languages</option>
-                    </select>
-                </div>
-                <div class="filter-group">
-                    <label for="ai-filter">AI Tools:</label>
-                    <select id="ai-filter">
-                        <option value="all">All Projects</option>
-                        <option value="any">With AI Tools</option>
-                        <option value="claude">Claude</option>
-                        <option value="cursor">Cursor</option>
-                        <option value="copilot">GitHub Copilot</option>
-                        <option value="aider">Aider</option>
-                    </select>
-                </div>
-            </section>
 
-            <section class="dimensions">
-                <h2>Discovery Dimensions</h2>
-                <div id="dimensions-list" class="dimensions-grid">
-                    <p class="loading">Loading dimensions...</p>
+                <!-- Multiselect dropdowns for trending and stars -->
+                <div id="dimensions-filters" class="multiselect-filters">
+                    <!-- Trending multiselect dropdown -->
+                    <div class="multiselect-dropdown" data-testid="trending-dropdown">
+                        <button class="multiselect-button" data-testid="trending-dropdown-button">
+                            <span class="multiselect-label">Trending</span>
+                            <span class="multiselect-arrow">▼</span>
+                        </button>
+                        <div class="multiselect-menu" data-testid="trending-dropdown-menu">
+                            <label class="multiselect-option">
+                                <input type="checkbox" value="weekly" checked />
+                                <span data-original-label="Weekly">Weekly</span>
+                            </label>
+                            <label class="multiselect-option">
+                                <input type="checkbox" value="monthly" checked />
+                                <span data-original-label="Monthly">Monthly</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Stars multiselect dropdown -->
+                    <div class="multiselect-dropdown" data-testid="stars-dropdown">
+                        <button class="multiselect-button" data-testid="stars-dropdown-button">
+                            <span class="multiselect-label">Star ranges</span>
+                            <span class="multiselect-arrow">▼</span>
+                        </button>
+                        <div class="multiselect-menu" data-testid="stars-dropdown-menu">
+                            <label class="multiselect-option">
+                                <input type="checkbox" value="0-100" checked />
+                                <span data-original-label="0-100 stars">0-100 stars</span>
+                            </label>
+                            <label class="multiselect-option">
+                                <input type="checkbox" value="100-1000" checked />
+                                <span data-original-label="100-1K stars">100-1K stars</span>
+                            </label>
+                            <label class="multiselect-option">
+                                <input type="checkbox" value="1000-10000" checked />
+                                <span data-original-label="1K-10K stars">1K-10K stars</span>
+                            </label>
+                            <label class="multiselect-option">
+                                <input type="checkbox" value="10000+" checked />
+                                <span data-original-label="10K+ stars">10K+ stars</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Language filter dropdown -->
+                    <div class="multiselect-dropdown" data-testid="language-dropdown">
+                        <button class="multiselect-button" data-testid="language-dropdown-button">
+                            <span class="multiselect-label">Languages</span>
+                            <span class="multiselect-arrow">▼</span>
+                        </button>
+                        <div class="multiselect-menu" data-testid="language-dropdown-menu" id="language-menu">
+                            <!-- Language options will be populated dynamically -->
+                        </div>
+                    </div>
+
+                    <!-- AI Tools filter dropdown -->
+                    <div class="multiselect-dropdown" data-testid="ai-tools-dropdown">
+                        <button class="multiselect-button" data-testid="ai-tools-dropdown-button">
+                            <span class="multiselect-label">AI Usage</span>
+                            <span class="multiselect-arrow">▼</span>
+                        </button>
+                        <div class="multiselect-menu" data-testid="ai-tools-dropdown-menu">
+                            <label class="multiselect-option">
+                                <input type="checkbox" value="any" />
+                                <span data-original-label="Any AI Tool">Any AI Tool</span>
+                            </label>
+                            <label class="multiselect-option">
+                                <input type="checkbox" value="claude" />
+                                <span data-original-label="Claude">Claude</span>
+                            </label>
+                            <label class="multiselect-option">
+                                <input type="checkbox" value="cursor" />
+                                <span data-original-label="Cursor">Cursor</span>
+                            </label>
+                            <label class="multiselect-option">
+                                <input type="checkbox" value="copilot" />
+                                <span data-original-label="GitHub Copilot">GitHub Copilot</span>
+                            </label>
+                            <label class="multiselect-option">
+                                <input type="checkbox" value="aider" />
+                                <span data-original-label="Aider">Aider</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Search and Sort on separate line -->
+                <div style="display: flex; gap: 1rem; align-items: center; margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border);">
+                    <div style="flex: 1;">
+                        <input
+                            type="text"
+                            id="repo-search"
+                            placeholder="Search repositories..."
+                            style="width: 100%; padding: 0.5rem; border: 1px solid var(--border); border-radius: var(--radius-sm); font-size: 0.875rem;"
+                        />
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 0.5rem; white-space: nowrap;">
+                        <select id="sort-select" style="padding: 0.5rem; border: 1px solid var(--border); border-radius: var(--radius-sm); font-size: 0.875rem;">
+                            <option value="stars-desc">Stars (High to Low)</option>
+                            <option value="stars-asc">Stars (Low to High)</option>
+                            <option value="ratio-desc">Iceberg Ratio (High to Low)</option>
+                            <option value="project-loc-desc">Project LoC (High to Low)</option>
+                            <option value="dep-loc-desc">Dep LoC (High to Low)</option>
+                            <option value="dep-count-desc">Dep Count (High to Low)</option>
+                            <option value="name-asc">Name (A-Z)</option>
+                            <option value="name-desc">Name (Z-A)</option>
+                        </select>
+                    </div>
+                    <div id="results-count" style="font-size: 0.875rem; color: var(--text-muted); white-space: nowrap;">
+                        Results: <span id="results-count-number">0</span>
+                    </div>
                 </div>
             </section>
 
             <section class="repositories">
-                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; gap: 1rem; flex-wrap: wrap;">
-                    <h2 id="repos-title" style="margin: 0;">Repositories</h2>
-                    <div style="display: flex; gap: 1rem; align-items: center; flex: 1; justify-content: flex-end;">
-                        <div class="filter-group" style="margin: 0;">
-                            <label for="deps-toggle" style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
-                                <input type="checkbox" id="deps-toggle" />
-                                <span>Only with dependencies</span>
-                            </label>
-                        </div>
-                        <div class="filter-group" style="margin: 0; flex: 0 1 300px;">
-                            <input
-                                type="text"
-                                id="repo-search"
-                                placeholder="Search repositories..."
-                                style="width: 100%; padding: 0.5rem; border: 1px solid var(--border); border-radius: var(--radius-sm); font-size: 0.875rem;"
-                            />
-                        </div>
-                        <div class="filter-group" style="margin: 0;">
-                            <label for="sort-select">Sort by:</label>
-                            <select id="sort-select">
-                                <option value="stars-desc">Stars (High to Low)</option>
-                                <option value="stars-asc">Stars (Low to High)</option>
-                                <option value="name-asc">Name (A-Z)</option>
-                                <option value="name-desc">Name (Z-A)</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <div id="repositories-list" class="repos-grid">
+                <div id="repositories-list" class="repos-grid" data-testid="repositories-list">
                     <p class="placeholder">Select a dimension to view repositories</p>
                 </div>
             </section>
