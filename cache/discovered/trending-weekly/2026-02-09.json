@@ -1,0 +1,156 @@
+[
+  {
+    "name": "shannon",
+    "owner": "KeygraphHQ",
+    "url": "https://github.com/KeygraphHQ/shannon",
+    "description": "Fully autonomous AI hacker to find actual exploits in your web apps. Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW Benchmark.",
+    "language": "TypeScript",
+    "stars": 14309,
+    "source": "trending-weekly",
+    "discovered_at": "2026-02-09T06:56:55.687517+00:00",
+    "search_query": null
+  },
+  {
+    "name": "openclaw",
+    "owner": "openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e",
+    "language": "TypeScript",
+    "stars": 177526,
+    "source": "trending-weekly",
+    "discovered_at": "2026-02-09T06:56:55.687517+00:00",
+    "search_query": null
+  },
+  {
+    "name": "skills",
+    "owner": "openai",
+    "url": "https://github.com/openai/skills",
+    "description": "Skills Catalog for Codex",
+    "language": "Python",
+    "stars": 7189,
+    "source": "trending-weekly",
+    "discovered_at": "2026-02-09T06:56:55.687517+00:00",
+    "search_query": null
+  },
+  {
+    "name": "claude-mem",
+    "owner": "thedotmack",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+    "language": "TypeScript",
+    "stars": 25822,
+    "source": "trending-weekly",
+    "discovered_at": "2026-02-09T06:56:55.687517+00:00",
+    "search_query": null
+  },
+  {
+    "name": "pi-mono",
+    "owner": "badlogic",
+    "url": "https://github.com/badlogic/pi-mono",
+    "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+    "language": "TypeScript",
+    "stars": 8248,
+    "source": "trending-weekly",
+    "discovered_at": "2026-02-09T06:56:55.687517+00:00",
+    "search_query": null
+  },
+  {
+    "name": "claude-code-hooks-mastery",
+    "owner": "disler",
+    "url": "https://github.com/disler/claude-code-hooks-mastery",
+    "description": "Master Claude Code Hooks",
+    "language": "Python",
+    "stars": 2749,
+    "source": "trending-weekly",
+    "discovered_at": "2026-02-09T06:56:55.687517+00:00",
+    "search_query": null
+  },
+  {
+    "name": "qmd",
+    "owner": "tobi",
+    "url": "https://github.com/tobi/qmd",
+    "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
+    "language": "TypeScript",
+    "stars": 7389,
+    "source": "trending-weekly",
+    "discovered_at": "2026-02-09T06:56:55.687517+00:00",
+    "search_query": null
+  },
+  {
+    "name": "99",
+    "owner": "ThePrimeagen",
+    "url": "https://github.com/ThePrimeagen/99",
+    "description": "Neovim AI agent done right",
+    "language": "Lua",
+    "stars": 3545,
+    "source": "trending-weekly",
+    "discovered_at": "2026-02-09T06:56:55.687517+00:00",
+    "search_query": null
+  },
+  {
+    "name": "ChatDev",
+    "owner": "OpenBMB",
+    "url": "https://github.com/OpenBMB/ChatDev",
+    "description": "ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration",
+    "language": "Python",
+    "stars": 30612,
+    "source": "trending-weekly",
+    "discovered_at": "2026-02-09T06:56:55.687517+00:00",
+    "search_query": null
+  },
+  {
+    "name": "Maestro",
+    "owner": "pedramamini",
+    "url": "https://github.com/pedramamini/Maestro",
+    "description": "Agent Orchestration Command Center",
+    "language": "TypeScript",
+    "stars": 2042,
+    "source": "trending-weekly",
+    "discovered_at": "2026-02-09T06:56:55.687517+00:00",
+    "search_query": null
+  },
+  {
+    "name": "nanochat",
+    "owner": "karpathy",
+    "url": "https://github.com/karpathy/nanochat",
+    "description": "The best ChatGPT that $100 can buy.",
+    "language": "Python",
+    "stars": 42658,
+    "source": "trending-weekly",
+    "discovered_at": "2026-02-09T06:56:55.687517+00:00",
+    "search_query": null
+  },
+  {
+    "name": "PageIndex",
+    "owner": "VectifyAI",
+    "url": "https://github.com/VectifyAI/PageIndex",
+    "description": "\ud83d\udcd1 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+    "language": "Python",
+    "stars": 14344,
+    "source": "trending-weekly",
+    "discovered_at": "2026-02-09T06:56:55.687517+00:00",
+    "search_query": null
+  },
+  {
+    "name": "playwright-cli",
+    "owner": "microsoft",
+    "url": "https://github.com/microsoft/playwright-cli",
+    "description": "CLI for common Playwright actions. Record and generate Playwright code, inspect selectors and take screenshots.",
+    "language": "JavaScript",
+    "stars": 2725,
+    "source": "trending-weekly",
+    "discovered_at": "2026-02-09T06:56:55.687517+00:00",
+    "search_query": null
+  },
+  {
+    "name": "prek",
+    "owner": "j178",
+    "url": "https://github.com/j178/prek",
+    "description": "\u26a1 Better `pre-commit`, re-engineered in Rust",
+    "language": "Rust",
+    "stars": 5910,
+    "source": "trending-weekly",
+    "discovered_at": "2026-02-09T06:56:55.687517+00:00",
+    "search_query": null
+  }
+]

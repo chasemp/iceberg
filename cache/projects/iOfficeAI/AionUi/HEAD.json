@@ -1,0 +1,28 @@
+{
+  "owner": "iOfficeAI",
+  "repo": "AionUi",
+  "version": "HEAD",
+  "loc": 75384,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T06:57:19.206600+00:00",
+  "package": {
+    "system": "npm",
+    "name": "AionUi",
+    "version": "1.8.4"
+  },
+  "ai_markers": {
+    "claude": true,
+    "cursor": false,
+    "copilot": false,
+    "aider": false,
+    "generic_ai": false
+  },
+  "ai_tools": [
+    "Claude"
+  ],
+  "repo_url": "https://github.com/iOfficeAI/AionUi.git",
+  "ref": "v1.8.4",
+  "commit_hash": "acbffd398910354919e9e88ba1242428e372b81e",
+  "clone_duration_seconds": 5.903436660766602,
+  "count_duration_seconds": 0.07404446601867676
+}
