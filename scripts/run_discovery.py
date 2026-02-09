@@ -6,18 +6,21 @@ It fetches the latest trending and search results, then analyzes
 new repos and updates existing ones that appear in today's discovery.
 
 Logic:
-1. Fetch trending (daily, weekly, monthly)
-2. Fetch search queries (stars>5000, language filters)
-3. Deduplicate → typically 50-100 unique repos
-4. For each repo:
+1. Fetch trending (weekly, monthly)
+2. Fetch search queries (stars>10000, language filters)
+3. Fetch GitHub-Ranking (top repos by language)
+4. Deduplicate → typically 150-250 unique repos
+5. For each repo:
    - If NEW → analyze
    - If EXISTS + in today's discovery → check for updates
    - If EXISTS + analyzed < 24h → skip (already fresh)
-5. Mark repos with discovery metadata
+6. Mark repos with discovery metadata
 
 Usage:
     python scripts/run_discovery.py
     python scripts/run_discovery.py --verbose
+    python scripts/run_discovery.py --analyze-limit 10
+    python scripts/run_discovery.py --analyze-limit 10 --verbose
 """
 
 import sys
@@ -27,9 +30,14 @@ from pathlib import Path
 # Add src to path
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
-from iceberg.cache import get_default_cache_dir, save_discovered_repos
+from iceberg.cache import (
+    get_default_cache_dir,
+    save_discovered_repos,
+    save_repo_metadata,
+)
 from iceberg.calculator import analyze_repository
 from iceberg.github import fetch_trending_repos
+from iceberg.github_ranking import fetch_github_ranking
 from iceberg.github_search import build_search_query, search_repositories
 from iceberg.models import DiscoveredRepo
 from iceberg.tracking import is_repo_tracked, load_project_loc, needs_update
@@ -72,7 +80,34 @@ def fetch_all_discovery_sources() -> list[DiscoveredRepo]:
         print(f"  ✓ Got {len(repos)} repos from search")
     except Exception as e:
         print(f"  ✗ Failed to fetch search: {e}")
-    
+
+    print()
+
+    # GitHub-Ranking - overall top repos
+    for category in ["Top-100-stars", "Top-100-forks"]:
+        try:
+            print(f"  Fetching GitHub-Ranking: {category}...")
+            repos = fetch_github_ranking(category=category, limit=100)
+            all_repos.extend(repos)
+            print(f"  ✓ Got {len(repos)} repos from GitHub-Ranking ({category})")
+        except Exception as e:
+            print(f"  ✗ Failed to fetch GitHub-Ranking {category}: {e}")
+
+    # GitHub-Ranking - by programming language
+    languages = [
+        "Python", "JavaScript", "TypeScript", "Java", "Go", "Rust",
+        "C", "CPP", "CSharp", "PHP", "Ruby", "Swift", "Kotlin",
+        "R", "Scala", "Dart", "Shell", "Lua", "Haskell", "Julia", "Elixir"
+    ]
+    for category in languages:
+        try:
+            print(f"  Fetching GitHub-Ranking: {category}...")
+            repos = fetch_github_ranking(category=category, limit=25)
+            all_repos.extend(repos)
+            print(f"  ✓ Got {len(repos)} repos from GitHub-Ranking ({category})")
+        except Exception as e:
+            print(f"  ✗ Failed to fetch GitHub-Ranking {category}: {e}")
+
     return all_repos
 
 
@@ -133,12 +168,25 @@ def should_analyze(
 def main():
     """Run discovery workflow."""
     verbose = "-v" in sys.argv or "--verbose" in sys.argv
+
+    # Parse analyze-limit argument
+    analyze_limit = None  # None means "all repos"
+    for i, arg in enumerate(sys.argv):
+        if arg == "--analyze-limit" and i + 1 < len(sys.argv):
+            try:
+                analyze_limit = int(sys.argv[i + 1])
+            except ValueError:
+                print(f"⚠️  Invalid --analyze-limit value: {sys.argv[i + 1]}")
+                return 1
+
     cache_dir = get_default_cache_dir()
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    
+
     print("=" * 60)
     print("🔍 DISCOVERY RUN")
     print(f"Date: {today}")
+    if analyze_limit is not None:
+        print(f"Analyze limit: {analyze_limit} repos")
     print("=" * 60)
     print()
     
@@ -165,28 +213,42 @@ def main():
         save_discovered_repos(repos, cache_dir=cache_dir)
         print(f"  ✓ Saved {len(repos)} repos to {source}")
     print()
-    
+
+    # Step 3b: Save repo metadata (categories)
+    print("💾 Updating repo metadata...")
+    for repo in all_repos:
+        # Save each repo with its category
+        save_repo_metadata(repo, repo.source, cache_dir=cache_dir)
+    print(f"  ✓ Updated metadata for {len(unique_repos)} unique repos")
+    print()
+
     # Step 4: Analyze repos
     print("=" * 60)
     print("🔬 ANALYZING REPOS")
     print("=" * 60)
     print()
-    
+
     analyzed_count = 0
     skipped_count = 0
     error_count = 0
-    
+
     for repo in unique_repos:
+        # Check if we've reached the analyze limit
+        if analyze_limit is not None and analyzed_count >= analyze_limit:
+            print(f"\n⚠️  Reached analyze limit of {analyze_limit} repos")
+            print(f"   Remaining repos will be discovered but not analyzed")
+            break
+
         repo_name = f"{repo.owner}/{repo.name}"
-        
+
         # Determine if we should analyze
         should_analyze_result, reason = should_analyze(repo, cache_dir, verbose)
-        
+
         if not should_analyze_result:
             print(f"⏭️  {repo_name} - {reason}")
             skipped_count += 1
             continue
-        
+
         print(f"🔍 {repo_name} - {reason}")
         
         try:
@@ -205,7 +267,7 @@ def main():
                     cached["last_discovered"] = today
                     cached["discovery_source"] = repo.source
                     cached["tracked"] = is_repo_tracked(repo.owner, repo.name, cache_dir=cache_dir)
-                    
+
                     # Determine priority
                     if cached["tracked"]:
                         cached["maintenance_priority"] = "high"
@@ -213,10 +275,12 @@ def main():
                         cached["maintenance_priority"] = "medium"
                     else:
                         cached["maintenance_priority"] = "low"
-                    
+
                     save_project_loc(cached, cache_dir=cache_dir)
-                
-                print(f"  ✓ Analyzed: {result['project_loc']:,} LoC")
+
+                # Handle both "project_loc" (fresh analysis) and "loc" (cached data)
+                project_loc = result.get('project_loc') or result.get('loc', 0)
+                print(f"  ✓ Analyzed: {project_loc:,} LoC")
                 if 'total_loc' in result:
                     print(f"  ✓ Dependencies: {result['total_loc']:,} LoC")
                 analyzed_count += 1
