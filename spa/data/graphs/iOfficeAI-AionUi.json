@@ -1,0 +1,16 @@
+{
+  "owner": "iOfficeAI",
+  "repo": "AionUi",
+  "full_name": "iOfficeAI/AionUi",
+  "root_package": "npm:AionUi:1.8.4",
+  "nodes": [
+    {
+      "id": "npm:AionUi:1.8.4",
+      "system": "npm",
+      "name": "AionUi",
+      "version": "1.8.4"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T06:57:22.819479+00:00"
+}

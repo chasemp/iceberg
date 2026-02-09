@@ -1,0 +1,28 @@
+{
+  "owner": "tobi",
+  "repo": "qmd",
+  "version": "HEAD",
+  "loc": 16212,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T06:57:05.506348+00:00",
+  "package": {
+    "system": "npm",
+    "name": "qmd",
+    "version": "1.0.0"
+  },
+  "ai_markers": {
+    "claude": true,
+    "cursor": false,
+    "copilot": false,
+    "aider": false,
+    "generic_ai": false
+  },
+  "ai_tools": [
+    "Claude"
+  ],
+  "repo_url": "https://github.com/tobi/qmd.git",
+  "ref": "HEAD",
+  "commit_hash": "63028fd5e905f653bbb3f55e1857b48efba6ba6d",
+  "clone_duration_seconds": 0.3777461051940918,
+  "count_duration_seconds": 0.009833812713623047
+}

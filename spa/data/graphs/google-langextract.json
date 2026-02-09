@@ -1,0 +1,16 @@
+{
+  "owner": "google",
+  "repo": "langextract",
+  "full_name": "google/langextract",
+  "root_package": "pypi:langextract:1.1.1",
+  "nodes": [
+    {
+      "id": "pypi:langextract:1.1.1",
+      "system": "pypi",
+      "name": "langextract",
+      "version": "1.1.1"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T06:57:22.816590+00:00"
+}
