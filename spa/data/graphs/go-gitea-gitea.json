@@ -1,0 +1,16 @@
+{
+  "owner": "go-gitea",
+  "repo": "gitea",
+  "full_name": "go-gitea/gitea",
+  "root_package": "pypi:gitea:0.0.0",
+  "nodes": [
+    {
+      "id": "pypi:gitea:0.0.0",
+      "system": "pypi",
+      "name": "gitea",
+      "version": "0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.177028+00:00"
+}

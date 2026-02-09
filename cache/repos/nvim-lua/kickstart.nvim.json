@@ -1,0 +1,13 @@
+{
+  "owner": "nvim-lua",
+  "name": "kickstart.nvim",
+  "url": "https://github.com/nvim-lua/kickstart.nvim",
+  "description": "A launch point for your personal nvim configuration",
+  "language": "Lua",
+  "stars": 29347,
+  "categories": {
+    "github-ranking-top-100-forks": "2026-02-09",
+    "github-ranking-lua": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

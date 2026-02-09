@@ -1,0 +1,30 @@
+{
+  "owner": "TheOdinProject",
+  "repo": "javascript-exercises",
+  "full_name": "TheOdinProject/javascript-exercises",
+  "url": "https://github.com/TheOdinProject/javascript-exercises",
+  "analysis": {
+    "owner": "TheOdinProject",
+    "repo": "javascript-exercises",
+    "version": "HEAD",
+    "loc": 2078,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T20:17:20.405308+00:00",
+    "package": {
+      "system": "npm",
+      "name": "javascript-exercises",
+      "version": "1.0.0"
+    },
+    "total_loc": 496,
+    "ratio": 0.1926961926961927,
+    "repo_url": "https://github.com/TheOdinProject/javascript-exercises.git",
+    "ref": "HEAD",
+    "commit_hash": "9d2ad5d5384828b34a2657c95a34240a13c77671",
+    "clone_duration_seconds": 0.9451949596405029,
+    "count_duration_seconds": 0.014186859130859375,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-forks",
+    "tracked": false,
+    "maintenance_priority": "low"
+  }
+}

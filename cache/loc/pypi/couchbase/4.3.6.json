@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "couchbase",
+    "version": "4.3.6"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T19:42:15.864959+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/couchbase/versions/4.3.6",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.12023401260375977,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,13 @@
+{
+  "owner": "rust-lang",
+  "name": "rust",
+  "url": "https://github.com/rust-lang/rust",
+  "description": "Empowering everyone to build reliable and efficient software.",
+  "language": "Rust",
+  "stars": 110132,
+  "categories": {
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-rust": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

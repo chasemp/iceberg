@@ -1,0 +1,12 @@
+{
+  "owner": "inkonchain",
+  "name": "node",
+  "url": "https://github.com/inkonchain/node",
+  "description": "How to run an Ink Node",
+  "language": "Shell",
+  "stars": 36816,
+  "categories": {
+    "github-ranking-shell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

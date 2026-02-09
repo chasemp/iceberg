@@ -1,0 +1,19 @@
+{
+  "owner": "redis",
+  "repo": "redis",
+  "version": "HEAD",
+  "loc": 129358,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T21:51:11.746947+00:00",
+  "total_loc": 0,
+  "ratio": 0.0,
+  "repo_url": "https://github.com/redis/redis.git",
+  "ref": "HEAD",
+  "commit_hash": "d30b7255cb8ea742008549c38998c7abab235cfb",
+  "clone_duration_seconds": 2.530636787414551,
+  "count_duration_seconds": 0.06803131103515625,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-c",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

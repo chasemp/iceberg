@@ -1,0 +1,12 @@
+{
+  "owner": "gatling",
+  "name": "gatling",
+  "url": "https://github.com/gatling/gatling",
+  "description": "Modern Load Testing as Code",
+  "language": "Scala",
+  "stars": 6858,
+  "categories": {
+    "github-ranking-scala": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

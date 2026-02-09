@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "scss-tokenizer",
+    "version": "0.3.0"
+  },
+  "total_lines": 828,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-09T20:24:20.906574+00:00",
+  "source_url": "https://registry.npmjs.org/scss-tokenizer/-/scss-tokenizer-0.3.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.6883301734924316,
+  "count_duration_seconds": null
+}

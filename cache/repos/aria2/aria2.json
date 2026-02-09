@@ -1,0 +1,12 @@
+{
+  "owner": "aria2",
+  "name": "aria2",
+  "url": "https://github.com/aria2/aria2",
+  "description": "aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink.",
+  "language": "C++",
+  "stars": 39978,
+  "categories": {
+    "github-ranking-cpp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

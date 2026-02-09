@@ -1,0 +1,12 @@
+{
+  "owner": "fruitcake",
+  "name": "laravel-debugbar",
+  "url": "https://github.com/fruitcake/laravel-debugbar",
+  "description": "Debugbar for Laravel (Integrates PHP Debug Bar)",
+  "language": "PHP",
+  "stars": 19082,
+  "categories": {
+    "github-ranking-php": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

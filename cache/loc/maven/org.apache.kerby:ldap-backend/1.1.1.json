@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "org.apache.kerby:ldap-backend",
+    "version": "1.1.1"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:28:14.990420+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/org.apache.kerby:ldap-backend/versions/1.1.1",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1082770824432373,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "rstudio",
+  "name": "rmarkdown",
+  "url": "https://github.com/rstudio/rmarkdown",
+  "description": "Dynamic Documents for R",
+  "language": "R",
+  "stars": 3018,
+  "categories": {
+    "github-ranking-r": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

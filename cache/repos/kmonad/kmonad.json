@@ -1,0 +1,12 @@
+{
+  "owner": "kmonad",
+  "name": "kmonad",
+  "url": "https://github.com/kmonad/kmonad",
+  "description": "An advanced keyboard manager",
+  "language": "Haskell",
+  "stars": 4893,
+  "categories": {
+    "github-ranking-haskell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

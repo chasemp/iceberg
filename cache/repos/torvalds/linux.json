@@ -1,0 +1,14 @@
+{
+  "owner": "torvalds",
+  "name": "linux",
+  "url": "https://github.com/torvalds/linux",
+  "description": "Linux kernel source tree",
+  "language": "C",
+  "stars": 216662,
+  "categories": {
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-top-100-forks": "2026-02-09",
+    "github-ranking-c": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

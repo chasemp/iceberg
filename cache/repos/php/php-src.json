@@ -1,0 +1,12 @@
+{
+  "owner": "php",
+  "name": "php-src",
+  "url": "https://github.com/php/php-src",
+  "description": "The PHP Interpreter",
+  "language": "C",
+  "stars": 39844,
+  "categories": {
+    "github-ranking-c": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

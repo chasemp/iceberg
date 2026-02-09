@@ -1,0 +1,26 @@
+{
+  "owner": "tauri-apps",
+  "repo": "tauri",
+  "full_name": "tauri-apps/tauri",
+  "url": "https://github.com/tauri-apps/tauri",
+  "analysis": {
+    "owner": "tauri-apps",
+    "repo": "tauri",
+    "version": "HEAD",
+    "loc": 73080,
+    "source": "github_clone",
+    "cached_at": "2026-02-05T22:28:55.574173+00:00",
+    "package": {
+      "system": "npm",
+      "name": "tauri-workspace",
+      "version": "0.0.0"
+    },
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/tauri-apps/tauri.git",
+    "ref": "HEAD",
+    "commit_hash": "7d01aa04174744f7c27516a48d6ac1e6c3f84e77",
+    "clone_duration_seconds": 2.1598942279815674,
+    "count_duration_seconds": 0.0551302433013916
+  }
+}

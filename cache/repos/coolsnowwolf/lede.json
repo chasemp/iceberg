@@ -1,0 +1,12 @@
+{
+  "owner": "coolsnowwolf",
+  "name": "lede",
+  "url": "https://github.com/coolsnowwolf/lede",
+  "description": "Lean's LEDE source",
+  "language": "C",
+  "stars": 31314,
+  "categories": {
+    "github-ranking-c": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

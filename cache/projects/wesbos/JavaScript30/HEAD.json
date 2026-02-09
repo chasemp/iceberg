@@ -1,0 +1,17 @@
+{
+  "owner": "wesbos",
+  "repo": "JavaScript30",
+  "version": "HEAD",
+  "loc": 460,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T20:18:37.036119+00:00",
+  "repo_url": "https://github.com/wesbos/JavaScript30.git",
+  "ref": "HEAD",
+  "commit_hash": "a23f7ec27479ffb23f473693d3565e9aac813299",
+  "clone_duration_seconds": 4.148046970367432,
+  "count_duration_seconds": 0.005649089813232422,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-top-100-forks",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

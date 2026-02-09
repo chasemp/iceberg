@@ -1,0 +1,30 @@
+{
+  "owner": "freeCodeCamp",
+  "repo": "freeCodeCamp",
+  "full_name": "freeCodeCamp/freeCodeCamp",
+  "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+  "analysis": {
+    "owner": "freeCodeCamp",
+    "repo": "freeCodeCamp",
+    "version": "HEAD",
+    "loc": 114452,
+    "source": "github_clone",
+    "cached_at": "2026-02-05T22:21:41.485298+00:00",
+    "package": {
+      "system": "npm",
+      "name": "@freecodecamp/freecodecamp",
+      "version": "0.0.1"
+    },
+    "total_loc": 364084,
+    "ratio": 0.7608288613604828,
+    "repo_url": "https://github.com/freeCodeCamp/freeCodeCamp.git",
+    "ref": "HEAD",
+    "commit_hash": "ff162dce2e3ecc8dd77810c9b6bb2cf53086610e",
+    "clone_duration_seconds": 7.228986024856567,
+    "count_duration_seconds": 0.21907877922058105,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-stars",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

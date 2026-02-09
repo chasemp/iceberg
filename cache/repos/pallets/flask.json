@@ -1,0 +1,12 @@
+{
+  "owner": "pallets",
+  "name": "flask",
+  "url": "https://github.com/pallets/flask",
+  "description": "The Python micro framework for building web applications.",
+  "language": "Python",
+  "stars": 71145,
+  "categories": {
+    "search": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "FiloSottile",
+  "name": "mkcert",
+  "url": "https://github.com/FiloSottile/mkcert",
+  "description": "A simple zero-config tool to make locally trusted development certificates with any names you'd like.",
+  "language": "Go",
+  "stars": 57985,
+  "categories": {
+    "github-ranking-go": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "gohugoio",
+  "name": "hugo",
+  "url": "https://github.com/gohugoio/hugo",
+  "description": "The world\u2019s fastest framework for building websites.",
+  "language": "Go",
+  "stars": 86466,
+  "categories": {
+    "github-ranking-go": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

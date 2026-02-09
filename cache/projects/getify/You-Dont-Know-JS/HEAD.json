@@ -1,0 +1,13 @@
+{
+  "owner": "getify",
+  "repo": "You-Dont-Know-JS",
+  "version": "HEAD",
+  "loc": 0,
+  "source": "github_clone",
+  "cached_at": "2026-02-05T22:21:47.787350+00:00",
+  "repo_url": "https://github.com/getify/You-Dont-Know-JS.git",
+  "ref": "HEAD",
+  "commit_hash": "044120ef55564939cd35f5ddaf3f6c0a45d7b02c",
+  "clone_duration_seconds": 1.414024829864502,
+  "count_duration_seconds": 0.0026259422302246094
+}

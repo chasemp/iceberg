@@ -1,0 +1,19 @@
+{
+  "owner": "odoo",
+  "repo": "odoo",
+  "version": "HEAD",
+  "loc": 1054252,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T20:20:23.788968+00:00",
+  "total_loc": 0,
+  "ratio": 0.0,
+  "repo_url": "https://github.com/odoo/odoo.git",
+  "ref": "HEAD",
+  "commit_hash": "97ae2ecbc0c903966f7444a8c69bfb599611f92f",
+  "clone_duration_seconds": 37.1242790222168,
+  "count_duration_seconds": 1.900299072265625,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-top-100-forks",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

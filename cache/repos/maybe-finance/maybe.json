@@ -1,0 +1,12 @@
+{
+  "owner": "maybe-finance",
+  "name": "maybe",
+  "url": "https://github.com/maybe-finance/maybe",
+  "description": "The personal finance app for everyone",
+  "language": "Ruby",
+  "stars": 53996,
+  "categories": {
+    "github-ranking-ruby": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

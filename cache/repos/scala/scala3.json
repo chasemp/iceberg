@@ -1,0 +1,12 @@
+{
+  "owner": "scala",
+  "name": "scala3",
+  "url": "https://github.com/scala/scala3",
+  "description": "The Scala 3 compiler, also known as Dotty.",
+  "language": "Scala",
+  "stars": 6188,
+  "categories": {
+    "github-ranking-scala": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

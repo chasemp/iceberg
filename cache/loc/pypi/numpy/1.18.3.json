@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "numpy",
+    "version": "1.18.3"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:22:37.609332+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/numpy/versions/1.18.3",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.12990808486938477,
+  "count_duration_seconds": null
+}

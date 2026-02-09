@@ -1,0 +1,22 @@
+{
+  "owner": "traefik",
+  "repo": "traefik",
+  "version": "HEAD",
+  "loc": 174353,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T21:45:31.654924+00:00",
+  "package": {
+    "system": "go",
+    "name": "github.com/traefik/traefik/v3",
+    "version": "v0.0.0"
+  },
+  "repo_url": "https://github.com/traefik/traefik.git",
+  "ref": "HEAD",
+  "commit_hash": "34ae66b9ab731afdbff91325ecd1c3900356254b",
+  "clone_duration_seconds": 4.163032054901123,
+  "count_duration_seconds": 0.13915181159973145,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-go",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

@@ -1,0 +1,16 @@
+{
+  "owner": "eugenp",
+  "repo": "tutorials",
+  "full_name": "eugenp/tutorials",
+  "root_package": "maven:parent-modules:1.0.0-SNAPSHOT",
+  "nodes": [
+    {
+      "id": "maven:parent-modules:1.0.0-SNAPSHOT",
+      "system": "maven",
+      "name": "parent-modules",
+      "version": "1.0.0-SNAPSHOT"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.186038+00:00"
+}

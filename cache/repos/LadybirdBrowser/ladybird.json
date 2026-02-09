@@ -1,0 +1,12 @@
+{
+  "owner": "LadybirdBrowser",
+  "name": "ladybird",
+  "url": "https://github.com/LadybirdBrowser/ladybird",
+  "description": "Truly independent web browser",
+  "language": "C++",
+  "stars": 58445,
+  "categories": {
+    "github-ranking-cpp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

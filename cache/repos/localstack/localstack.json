@@ -1,0 +1,12 @@
+{
+  "owner": "localstack",
+  "name": "localstack",
+  "url": "https://github.com/localstack/localstack",
+  "description": "\ud83d\udcbb A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline",
+  "language": "Python",
+  "stars": 64331,
+  "categories": {
+    "search": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

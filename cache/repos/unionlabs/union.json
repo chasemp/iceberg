@@ -1,0 +1,12 @@
+{
+  "owner": "unionlabs",
+  "name": "union",
+  "url": "https://github.com/unionlabs/union",
+  "description": "The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.",
+  "language": "Rust",
+  "stars": 74335,
+  "categories": {
+    "github-ranking-rust": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

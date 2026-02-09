@@ -1,0 +1,28 @@
+{
+  "owner": "microsoft",
+  "repo": "TypeScript",
+  "full_name": "microsoft/TypeScript",
+  "url": "https://github.com/microsoft/TypeScript",
+  "analysis": {
+    "owner": "microsoft",
+    "repo": "TypeScript",
+    "version": "HEAD",
+    "loc": 335979,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T20:05:49.663451+00:00",
+    "package": {
+      "system": "npm",
+      "name": "typescript",
+      "version": "6.0.0"
+    },
+    "repo_url": "https://github.com/microsoft/TypeScript.git",
+    "ref": "HEAD",
+    "commit_hash": "87aa917befa8f6182f5535df3c77287209692a04",
+    "clone_duration_seconds": 21.35219717025757,
+    "count_duration_seconds": 0.9678969383239746,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-stars",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

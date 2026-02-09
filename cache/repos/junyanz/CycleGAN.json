@@ -1,0 +1,12 @@
+{
+  "owner": "junyanz",
+  "name": "CycleGAN",
+  "url": "https://github.com/junyanz/CycleGAN",
+  "description": "Software that can generate photos from paintings,  turn horses into zebras,  perform style transfer, and more.",
+  "language": "Lua",
+  "stars": 12836,
+  "categories": {
+    "github-ranking-lua": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

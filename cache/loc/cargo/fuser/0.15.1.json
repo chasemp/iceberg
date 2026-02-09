@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "fuser",
+    "version": "0.15.1"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:28:17.370440+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/fuser/versions/0.15.1",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11982178688049316,
+  "count_duration_seconds": null
+}

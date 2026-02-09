@@ -1,0 +1,12 @@
+{
+  "owner": "storybookjs",
+  "name": "storybook",
+  "url": "https://github.com/storybookjs/storybook",
+  "description": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation",
+  "language": "TypeScript",
+  "stars": 89221,
+  "categories": {
+    "github-ranking-typescript": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

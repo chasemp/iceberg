@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "rustls",
+    "version": "0.20.9"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:23:05.774537+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/rustls/versions/0.20.9",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.14319610595703125,
+  "count_duration_seconds": null
+}

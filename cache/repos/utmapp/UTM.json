@@ -1,0 +1,12 @@
+{
+  "owner": "utmapp",
+  "name": "UTM",
+  "url": "https://github.com/utmapp/UTM",
+  "description": "Virtual machines for iOS and macOS",
+  "language": "Swift",
+  "stars": 32736,
+  "categories": {
+    "github-ranking-swift": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

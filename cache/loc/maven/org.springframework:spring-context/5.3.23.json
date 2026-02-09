@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "org.springframework:spring-context",
+    "version": "5.3.23"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:22:38.298408+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/org.springframework:spring-context/versions/5.3.23",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.09574198722839355,
+  "count_duration_seconds": null
+}

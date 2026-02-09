@@ -1,0 +1,13 @@
+{
+  "owner": "apache",
+  "name": "spark",
+  "url": "https://github.com/apache/spark",
+  "description": "Apache Spark - A unified analytics engine for large-scale data processing",
+  "language": "Scala",
+  "stars": 42781,
+  "categories": {
+    "github-ranking-top-100-forks": "2026-02-09",
+    "github-ranking-scala": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

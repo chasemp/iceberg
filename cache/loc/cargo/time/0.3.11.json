@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "time",
+    "version": "0.3.11"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:25:40.223798+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/time/versions/0.3.11",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.10697388648986816,
+  "count_duration_seconds": null
+}

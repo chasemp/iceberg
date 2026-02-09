@@ -1,0 +1,12 @@
+{
+  "owner": "mihonapp",
+  "name": "mihon",
+  "url": "https://github.com/mihonapp/mihon",
+  "description": "Free and open source manga reader for Android",
+  "language": "Kotlin",
+  "stars": 18487,
+  "categories": {
+    "github-ranking-kotlin": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

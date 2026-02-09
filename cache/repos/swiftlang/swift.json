@@ -1,0 +1,12 @@
+{
+  "owner": "swiftlang",
+  "name": "swift",
+  "url": "https://github.com/swiftlang/swift",
+  "description": "The Swift Programming Language",
+  "language": "C++",
+  "stars": 69659,
+  "categories": {
+    "github-ranking-cpp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

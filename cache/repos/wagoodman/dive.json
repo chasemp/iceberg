@@ -1,0 +1,12 @@
+{
+  "owner": "wagoodman",
+  "name": "dive",
+  "url": "https://github.com/wagoodman/dive",
+  "description": "A tool for exploring each layer in a docker image",
+  "language": "Go",
+  "stars": 53292,
+  "categories": {
+    "github-ranking-go": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

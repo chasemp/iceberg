@@ -1,0 +1,12 @@
+{
+  "owner": "kavishdevar",
+  "name": "librepods",
+  "url": "https://github.com/kavishdevar/librepods",
+  "description": "AirPods liberated from Apple's ecosystem.",
+  "language": "Kotlin",
+  "stars": 25238,
+  "categories": {
+    "github-ranking-kotlin": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "yahoo",
+  "name": "CMAK",
+  "url": "https://github.com/yahoo/CMAK",
+  "description": "CMAK is a tool for managing Apache Kafka clusters",
+  "language": "Scala",
+  "stars": 11948,
+  "categories": {
+    "github-ranking-scala": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

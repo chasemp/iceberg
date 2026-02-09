@@ -1,0 +1,12 @@
+{
+  "owner": "CocoaPods",
+  "name": "CocoaPods",
+  "url": "https://github.com/CocoaPods/CocoaPods",
+  "description": "The Cocoa Dependency Manager.",
+  "language": "Ruby",
+  "stars": 14797,
+  "categories": {
+    "github-ranking-ruby": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

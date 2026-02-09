@@ -1,0 +1,12 @@
+{
+  "owner": "hadley",
+  "name": "r4ds",
+  "url": "https://github.com/hadley/r4ds",
+  "description": "R for data science: a book",
+  "language": "R",
+  "stars": 4996,
+  "categories": {
+    "github-ranking-r": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "ReactiveX",
+  "name": "RxSwift",
+  "url": "https://github.com/ReactiveX/RxSwift",
+  "description": "Reactive Programming in Swift",
+  "language": "Swift",
+  "stars": 24685,
+  "categories": {
+    "github-ranking-swift": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

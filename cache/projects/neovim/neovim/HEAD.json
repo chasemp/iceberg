@@ -1,0 +1,17 @@
+{
+  "owner": "neovim",
+  "repo": "neovim",
+  "version": "HEAD",
+  "loc": 256026,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T20:13:14.786915+00:00",
+  "repo_url": "https://github.com/neovim/neovim.git",
+  "ref": "HEAD",
+  "commit_hash": "9f77124b78ec12c4128cbdae68d7faea947cd1c8",
+  "clone_duration_seconds": 3.189141035079956,
+  "count_duration_seconds": 0.12689495086669922,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-top-100-stars",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

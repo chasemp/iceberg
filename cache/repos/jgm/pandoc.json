@@ -1,0 +1,12 @@
+{
+  "owner": "jgm",
+  "name": "pandoc",
+  "url": "https://github.com/jgm/pandoc",
+  "description": "Universal markup converter",
+  "language": "Haskell",
+  "stars": 41984,
+  "categories": {
+    "github-ranking-haskell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "nvm-sh",
+  "name": "nvm",
+  "url": "https://github.com/nvm-sh/nvm",
+  "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
+  "language": "Shell",
+  "stars": 91582,
+  "categories": {
+    "github-ranking-shell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

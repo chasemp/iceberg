@@ -1,0 +1,23 @@
+{
+  "owner": "RedHatTraining",
+  "repo": "DO180-apps",
+  "full_name": "RedHatTraining/DO180-apps",
+  "url": "https://github.com/RedHatTraining/DO180-apps",
+  "analysis": {
+    "owner": "RedHatTraining",
+    "repo": "DO180-apps",
+    "version": "HEAD",
+    "loc": 1276,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T20:17:54.946884+00:00",
+    "repo_url": "https://github.com/RedHatTraining/DO180-apps.git",
+    "ref": "HEAD",
+    "commit_hash": "f7cd8963ef353d9173c3a21dcccf402f3616840b",
+    "clone_duration_seconds": 1.118345022201538,
+    "count_duration_seconds": 0.010027170181274414,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-forks",
+    "tracked": false,
+    "maintenance_priority": "low"
+  }
+}

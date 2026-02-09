@@ -1,0 +1,12 @@
+{
+  "owner": "mermaid-js",
+  "name": "mermaid",
+  "url": "https://github.com/mermaid-js/mermaid",
+  "description": "Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown",
+  "language": "TypeScript",
+  "stars": 85915,
+  "categories": {
+    "github-ranking-typescript": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

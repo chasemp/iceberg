@@ -1,0 +1,12 @@
+{
+  "owner": "peass-ng",
+  "name": "PEASS-ng",
+  "url": "https://github.com/peass-ng/PEASS-ng",
+  "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
+  "language": "C#",
+  "stars": 19266,
+  "categories": {
+    "github-ranking-csharp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

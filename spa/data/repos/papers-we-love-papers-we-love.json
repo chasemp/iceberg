@@ -1,0 +1,23 @@
+{
+  "owner": "papers-we-love",
+  "repo": "papers-we-love",
+  "full_name": "papers-we-love/papers-we-love",
+  "url": "https://github.com/papers-we-love/papers-we-love",
+  "analysis": {
+    "owner": "papers-we-love",
+    "repo": "papers-we-love",
+    "version": "HEAD",
+    "loc": 28,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T20:09:47.327627+00:00",
+    "repo_url": "https://github.com/papers-we-love/papers-we-love.git",
+    "ref": "HEAD",
+    "commit_hash": "1346e38b345fec10bd5cf426313edc4895172252",
+    "clone_duration_seconds": 13.352449893951416,
+    "count_duration_seconds": 0.010230064392089844,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-stars",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

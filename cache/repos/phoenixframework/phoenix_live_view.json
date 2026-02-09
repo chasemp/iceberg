@@ -1,0 +1,12 @@
+{
+  "owner": "phoenixframework",
+  "name": "phoenix_live_view",
+  "url": "https://github.com/phoenixframework/phoenix_live_view",
+  "description": "Rich, real-time user experiences with server-rendered HTML",
+  "language": "Elixir",
+  "stars": 6719,
+  "categories": {
+    "github-ranking-elixir": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

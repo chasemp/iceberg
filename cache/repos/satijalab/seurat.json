@@ -1,0 +1,12 @@
+{
+  "owner": "satijalab",
+  "name": "seurat",
+  "url": "https://github.com/satijalab/seurat",
+  "description": "R toolkit for single cell genomics",
+  "language": "R",
+  "stars": 2649,
+  "categories": {
+    "github-ranking-r": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

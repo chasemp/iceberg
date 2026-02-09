@@ -1,0 +1,12 @@
+{
+  "owner": "anthropics",
+  "name": "claude-plugins-official",
+  "url": "https://github.com/anthropics/claude-plugins-official",
+  "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+  "language": "Shell",
+  "stars": 7084,
+  "categories": {
+    "trending-monthly": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

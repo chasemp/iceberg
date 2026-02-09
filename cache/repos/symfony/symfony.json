@@ -1,0 +1,12 @@
+{
+  "owner": "symfony",
+  "name": "symfony",
+  "url": "https://github.com/symfony/symfony",
+  "description": "The Symfony PHP framework",
+  "language": "PHP",
+  "stars": 30931,
+  "categories": {
+    "github-ranking-php": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

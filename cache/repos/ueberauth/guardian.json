@@ -1,0 +1,12 @@
+{
+  "owner": "ueberauth",
+  "name": "guardian",
+  "url": "https://github.com/ueberauth/guardian",
+  "description": "Elixir Authentication",
+  "language": "Elixir",
+  "stars": 3516,
+  "categories": {
+    "github-ranking-elixir": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "guardian",
+  "name": "frontend",
+  "url": "https://github.com/guardian/frontend",
+  "description": "The Guardian DotCom.",
+  "language": "Scala",
+  "stars": 5882,
+  "categories": {
+    "github-ranking-scala": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

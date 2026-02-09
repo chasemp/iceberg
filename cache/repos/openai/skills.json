@@ -1,0 +1,13 @@
+{
+  "owner": "openai",
+  "name": "skills",
+  "url": "https://github.com/openai/skills",
+  "description": "Skills Catalog for Codex",
+  "language": "Python",
+  "stars": 7469,
+  "categories": {
+    "trending-weekly": "2026-02-09",
+    "trending-monthly": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

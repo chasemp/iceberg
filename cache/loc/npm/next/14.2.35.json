@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "next",
+    "version": "14.2.35"
+  },
+  "total_lines": 485,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-09T19:38:58.540506+00:00",
+  "source_url": "https://registry.npmjs.org/next/-/next-14.2.35.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 4.504475116729736,
+  "count_duration_seconds": null
+}

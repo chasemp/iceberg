@@ -1,0 +1,13 @@
+{
+  "owner": "microsoft",
+  "name": "terminal",
+  "url": "https://github.com/microsoft/terminal",
+  "description": "The new Windows Terminal and the original Windows console host, all in the same place!",
+  "language": "C++",
+  "stars": 101754,
+  "categories": {
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-cpp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

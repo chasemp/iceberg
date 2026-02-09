@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "org.bouncycastle:bcpkix-jdk15on",
+    "version": "1.60"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:28:16.568062+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/org.bouncycastle:bcpkix-jdk15on/versions/1.60",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11675620079040527,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "moby",
+  "name": "moby",
+  "url": "https://github.com/moby/moby",
+  "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+  "language": "Go",
+  "stars": 71458,
+  "categories": {
+    "github-ranking-go": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

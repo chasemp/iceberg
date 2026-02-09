@@ -1,0 +1,12 @@
+{
+  "owner": "bagisto",
+  "name": "opensource-ecommerce-mobile-app",
+  "url": "https://github.com/bagisto/opensource-ecommerce-mobile-app",
+  "description": "This open-source mobile ecommerce app seamlessly transforms your Bagisto store into a powerful mobile platform, providing real-time synchronization of products and categories.",
+  "language": "Dart",
+  "stars": 13919,
+  "categories": {
+    "github-ranking-dart": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

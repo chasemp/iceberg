@@ -1,0 +1,13 @@
+{
+  "owner": "spring-projects",
+  "name": "spring-framework",
+  "url": "https://github.com/spring-projects/spring-framework",
+  "description": "Spring Framework",
+  "language": "Java",
+  "stars": 59595,
+  "categories": {
+    "github-ranking-top-100-forks": "2026-02-09",
+    "github-ranking-java": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "dnSpy",
+  "name": "dnSpy",
+  "url": "https://github.com/dnSpy/dnSpy",
+  "description": ".NET debugger and assembly editor",
+  "language": "C#",
+  "stars": 28936,
+  "categories": {
+    "github-ranking-csharp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

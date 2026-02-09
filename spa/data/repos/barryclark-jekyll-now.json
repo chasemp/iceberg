@@ -1,0 +1,23 @@
+{
+  "owner": "barryclark",
+  "repo": "jekyll-now",
+  "full_name": "barryclark/jekyll-now",
+  "url": "https://github.com/barryclark/jekyll-now",
+  "analysis": {
+    "owner": "barryclark",
+    "repo": "jekyll-now",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T20:19:07.775486+00:00",
+    "repo_url": "https://github.com/barryclark/jekyll-now.git",
+    "ref": "HEAD",
+    "commit_hash": "12cb8a2e97c3b63c4bc92d2a1ab050b35bf946b7",
+    "clone_duration_seconds": 1.0602822303771973,
+    "count_duration_seconds": 0.0028650760650634766,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-forks",
+    "tracked": false,
+    "maintenance_priority": "low"
+  }
+}

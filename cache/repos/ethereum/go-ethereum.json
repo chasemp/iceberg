@@ -1,0 +1,12 @@
+{
+  "owner": "ethereum",
+  "name": "go-ethereum",
+  "url": "https://github.com/ethereum/go-ethereum",
+  "description": "Go implementation of the Ethereum protocol",
+  "language": "Go",
+  "stars": 50796,
+  "categories": {
+    "github-ranking-go": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

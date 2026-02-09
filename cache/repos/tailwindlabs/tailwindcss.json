@@ -1,0 +1,12 @@
+{
+  "owner": "tailwindlabs",
+  "name": "tailwindcss",
+  "url": "https://github.com/tailwindlabs/tailwindcss",
+  "description": "A utility-first CSS framework for rapid UI development.",
+  "language": "TypeScript",
+  "stars": 93429,
+  "categories": {
+    "github-ranking-typescript": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

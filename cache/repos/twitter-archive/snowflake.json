@@ -1,0 +1,12 @@
+{
+  "owner": "twitter-archive",
+  "name": "snowflake",
+  "url": "https://github.com/twitter-archive/snowflake",
+  "description": "Snowflake is a network service for generating unique ID numbers at high scale with some simple guarantees.",
+  "language": "Scala",
+  "stars": 7770,
+  "categories": {
+    "github-ranking-scala": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

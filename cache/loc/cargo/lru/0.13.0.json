@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "lru",
+    "version": "0.13.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:18:03.200628+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/lru/versions/0.13.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1186990737915039,
+  "count_duration_seconds": null
+}

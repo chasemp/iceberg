@@ -1,0 +1,12 @@
+{
+  "owner": "SnapKit",
+  "name": "SnapKit",
+  "url": "https://github.com/SnapKit/SnapKit",
+  "description": "A Swift Autolayout DSL for iOS & OS X",
+  "language": "Swift",
+  "stars": 20327,
+  "categories": {
+    "github-ranking-swift": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

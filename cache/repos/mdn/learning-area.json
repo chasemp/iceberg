@@ -1,0 +1,12 @@
+{
+  "owner": "mdn",
+  "name": "learning-area",
+  "url": "https://github.com/mdn/learning-area",
+  "description": "GitHub repo for the MDN Learning Area.",
+  "language": "HTML",
+  "stars": 7526,
+  "categories": {
+    "github-ranking-top-100-forks": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

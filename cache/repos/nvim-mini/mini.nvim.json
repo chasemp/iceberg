@@ -1,0 +1,12 @@
+{
+  "owner": "nvim-mini",
+  "name": "mini.nvim",
+  "url": "https://github.com/nvim-mini/mini.nvim",
+  "description": "Library of 40+ independent Lua modules improving Neovim experience with minimal effort",
+  "language": "Lua",
+  "stars": 8718,
+  "categories": {
+    "github-ranking-lua": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

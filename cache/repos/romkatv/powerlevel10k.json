@@ -1,0 +1,12 @@
+{
+  "owner": "romkatv",
+  "name": "powerlevel10k",
+  "url": "https://github.com/romkatv/powerlevel10k",
+  "description": "A Zsh theme",
+  "language": "Shell",
+  "stars": 52770,
+  "categories": {
+    "github-ranking-shell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

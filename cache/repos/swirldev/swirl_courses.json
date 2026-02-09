@@ -1,0 +1,12 @@
+{
+  "owner": "swirldev",
+  "name": "swirl_courses",
+  "url": "https://github.com/swirldev/swirl_courses",
+  "description": ":mortar_board: A collection of interactive courses for the swirl R package.",
+  "language": "R",
+  "stars": 4521,
+  "categories": {
+    "github-ranking-r": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

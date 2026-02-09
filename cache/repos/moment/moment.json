@@ -1,0 +1,12 @@
+{
+  "owner": "moment",
+  "name": "moment",
+  "url": "https://github.com/moment/moment",
+  "description": "Parse, validate, manipulate, and display dates in javascript.",
+  "language": "JavaScript",
+  "stars": 48073,
+  "categories": {
+    "search": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

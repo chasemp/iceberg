@@ -1,0 +1,16 @@
+{
+  "owner": "jenkins-docs",
+  "repo": "simple-java-maven-app",
+  "full_name": "jenkins-docs/simple-java-maven-app",
+  "root_package": "maven:my-app:1.0-SNAPSHOT",
+  "nodes": [
+    {
+      "id": "maven:my-app:1.0-SNAPSHOT",
+      "system": "maven",
+      "name": "my-app",
+      "version": "1.0-SNAPSHOT"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.151669+00:00"
+}

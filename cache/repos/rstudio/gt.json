@@ -1,0 +1,12 @@
+{
+  "owner": "rstudio",
+  "name": "gt",
+  "url": "https://github.com/rstudio/gt",
+  "description": "Easily generate information-rich, publication-quality tables from R",
+  "language": "R",
+  "stars": 2136,
+  "categories": {
+    "github-ranking-r": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

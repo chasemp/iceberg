@@ -1,0 +1,13 @@
+{
+  "owner": "fatedier",
+  "name": "frp",
+  "url": "https://github.com/fatedier/frp",
+  "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
+  "language": "Go",
+  "stars": 104329,
+  "categories": {
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-go": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

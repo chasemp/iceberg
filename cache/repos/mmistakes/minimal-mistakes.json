@@ -1,0 +1,12 @@
+{
+  "owner": "mmistakes",
+  "name": "minimal-mistakes",
+  "url": "https://github.com/mmistakes/minimal-mistakes",
+  "description": ":triangular_ruler: Jekyll theme for building a personal site, blog, project documentation, or portfolio.",
+  "language": "HTML",
+  "stars": 13390,
+  "categories": {
+    "github-ranking-top-100-forks": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

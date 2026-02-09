@@ -1,0 +1,12 @@
+{
+  "owner": "nightscout",
+  "name": "cgm-remote-monitor",
+  "url": "https://github.com/nightscout/cgm-remote-monitor",
+  "description": "nightscout web monitor",
+  "language": "JavaScript",
+  "stars": 2674,
+  "categories": {
+    "github-ranking-top-100-forks": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

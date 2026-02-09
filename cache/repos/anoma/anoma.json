@@ -1,0 +1,12 @@
+{
+  "owner": "anoma",
+  "name": "anoma",
+  "url": "https://github.com/anoma/anoma",
+  "description": "Reference implementation of Anoma",
+  "language": "Elixir",
+  "stars": 34082,
+  "categories": {
+    "github-ranking-elixir": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

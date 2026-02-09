@@ -1,0 +1,13 @@
+{
+  "owner": "excalidraw",
+  "name": "excalidraw",
+  "url": "https://github.com/excalidraw/excalidraw",
+  "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
+  "language": "TypeScript",
+  "stars": 116288,
+  "categories": {
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-typescript": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

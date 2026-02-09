@@ -1,0 +1,12 @@
+{
+  "owner": "JuliaLang",
+  "name": "julia",
+  "url": "https://github.com/JuliaLang/julia",
+  "description": "The Julia Programming Language",
+  "language": "Julia",
+  "stars": 48334,
+  "categories": {
+    "github-ranking-julia": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

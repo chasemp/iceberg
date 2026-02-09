@@ -1,0 +1,12 @@
+{
+  "owner": "xmonad",
+  "name": "xmonad",
+  "url": "https://github.com/xmonad/xmonad",
+  "description": "The core of xmonad, a small but functional ICCCM-compliant tiling window manager",
+  "language": "Haskell",
+  "stars": 3533,
+  "categories": {
+    "github-ranking-haskell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

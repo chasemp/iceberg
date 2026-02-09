@@ -1,0 +1,12 @@
+{
+  "owner": "FuelLabs",
+  "name": "fuels-rs",
+  "url": "https://github.com/FuelLabs/fuels-rs",
+  "description": "Fuel Network Rust SDK",
+  "language": "Rust",
+  "stars": 43438,
+  "categories": {
+    "github-ranking-rust": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

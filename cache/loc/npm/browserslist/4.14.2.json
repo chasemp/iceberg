@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "browserslist",
+    "version": "4.14.2"
+  },
+  "total_lines": 1685,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-05T22:21:20.012554+00:00",
+  "source_url": "https://registry.npmjs.org/browserslist/-/browserslist-4.14.2.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7107179164886475,
+  "count_duration_seconds": null
+}

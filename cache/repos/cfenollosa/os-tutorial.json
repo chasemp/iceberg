@@ -1,0 +1,12 @@
+{
+  "owner": "cfenollosa",
+  "name": "os-tutorial",
+  "url": "https://github.com/cfenollosa/os-tutorial",
+  "description": "How to create an OS from scratch",
+  "language": "C",
+  "stars": 30139,
+  "categories": {
+    "github-ranking-c": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,22 @@
+{
+  "owner": "rclone",
+  "repo": "rclone",
+  "version": "HEAD",
+  "loc": 274553,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T21:48:02.514594+00:00",
+  "package": {
+    "system": "go",
+    "name": "github.com/rclone/rclone",
+    "version": "v0.0.0"
+  },
+  "repo_url": "https://github.com/rclone/rclone.git",
+  "ref": "HEAD",
+  "commit_hash": "eef0b39a2caf03dc8b14cf2eb69d6c210499aa90",
+  "clone_duration_seconds": 3.937790870666504,
+  "count_duration_seconds": 0.17489409446716309,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-go",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

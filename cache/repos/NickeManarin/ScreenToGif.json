@@ -1,0 +1,12 @@
+{
+  "owner": "NickeManarin",
+  "name": "ScreenToGif",
+  "url": "https://github.com/NickeManarin/ScreenToGif",
+  "description": "\ud83c\udfac ScreenToGif allows you to record a selected area of your screen, edit and save it as a gif or video.",
+  "language": "C#",
+  "stars": 26352,
+  "categories": {
+    "github-ranking-csharp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "DataScienceSpecialization",
+  "name": "courses",
+  "url": "https://github.com/DataScienceSpecialization/courses",
+  "description": "Course materials for the Data Science Specialization: https://www.coursera.org/specialization/jhudatascience/1",
+  "language": "HTML",
+  "stars": 4115,
+  "categories": {
+    "github-ranking-top-100-forks": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "cn.hutool:hutool-all",
+    "version": "5.8.9"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:22:36.153549+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/cn.hutool:hutool-all/versions/5.8.9",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1115260124206543,
+  "count_duration_seconds": null
+}

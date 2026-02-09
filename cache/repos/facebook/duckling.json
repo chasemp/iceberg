@@ -1,0 +1,12 @@
+{
+  "owner": "facebook",
+  "name": "duckling",
+  "url": "https://github.com/facebook/duckling",
+  "description": "Language, engine, and tooling for expressing, testing, and evaluating composable language rules on input strings.",
+  "language": "Haskell",
+  "stars": 4246,
+  "categories": {
+    "github-ranking-haskell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

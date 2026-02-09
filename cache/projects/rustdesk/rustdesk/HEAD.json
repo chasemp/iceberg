@@ -1,0 +1,24 @@
+{
+  "owner": "rustdesk",
+  "repo": "rustdesk",
+  "version": "HEAD",
+  "loc": 124513,
+  "source": "github_clone",
+  "cached_at": "2026-02-05T22:28:21.900864+00:00",
+  "package": {
+    "system": "cargo",
+    "name": "rustdesk",
+    "version": "1.4.5"
+  },
+  "total_loc": 0,
+  "ratio": 0.0,
+  "repo_url": "https://github.com/rustdesk/rustdesk.git",
+  "ref": "HEAD",
+  "commit_hash": "4fa5e99e653c90dd79c5aa2a9ab6df388cc78eea",
+  "clone_duration_seconds": 1.783822774887085,
+  "count_duration_seconds": 0.05396890640258789,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-top-100-stars",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

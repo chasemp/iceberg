@@ -1,0 +1,12 @@
+{
+  "owner": "twitter",
+  "name": "finagle",
+  "url": "https://github.com/twitter/finagle",
+  "description": "A fault tolerant, protocol-agnostic RPC system",
+  "language": "Scala",
+  "stars": 8869,
+  "categories": {
+    "github-ranking-scala": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

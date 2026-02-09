@@ -1,0 +1,12 @@
+{
+  "owner": "meilisearch",
+  "name": "meilisearch",
+  "url": "https://github.com/meilisearch/meilisearch",
+  "description": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
+  "language": "Rust",
+  "stars": 55811,
+  "categories": {
+    "github-ranking-rust": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

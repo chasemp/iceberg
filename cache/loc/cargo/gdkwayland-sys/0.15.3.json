@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "gdkwayland-sys",
+    "version": "0.15.3"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:14:43.070501+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/gdkwayland-sys/versions/0.15.3",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.12880516052246094,
+  "count_duration_seconds": null
+}

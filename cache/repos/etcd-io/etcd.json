@@ -1,0 +1,12 @@
+{
+  "owner": "etcd-io",
+  "name": "etcd",
+  "url": "https://github.com/etcd-io/etcd",
+  "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+  "language": "Go",
+  "stars": 51477,
+  "categories": {
+    "github-ranking-go": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

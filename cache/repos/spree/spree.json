@@ -1,0 +1,12 @@
+{
+  "owner": "spree",
+  "name": "spree",
+  "url": "https://github.com/spree/spree",
+  "description": "An open source eCommerce platform giving you full control and customizability. Modular and API-first. Multi-vendor, multi-tenant, multi-store, multi-currency & multi-language",
+  "language": "Ruby",
+  "stars": 15210,
+  "categories": {
+    "github-ranking-ruby": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

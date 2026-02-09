@@ -1,0 +1,19 @@
+{
+  "owner": "iptv-org",
+  "repo": "iptv",
+  "version": "HEAD",
+  "loc": 2853,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T20:05:20.663202+00:00",
+  "total_loc": 21418,
+  "ratio": 0.882452309340365,
+  "repo_url": "https://github.com/iptv-org/iptv.git",
+  "ref": "HEAD",
+  "commit_hash": "176f2c30d65c7da0cab7cdfc4219a6a95b45e82a",
+  "clone_duration_seconds": 1.2845518589019775,
+  "count_duration_seconds": 0.013273954391479492,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-top-100-stars",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "bevyengine",
+  "name": "bevy",
+  "url": "https://github.com/bevyengine/bevy",
+  "description": "A refreshingly simple data-driven game engine built in Rust",
+  "language": "Rust",
+  "stars": 44547,
+  "categories": {
+    "github-ranking-rust": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

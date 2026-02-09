@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "org.apache.zookeeper:zookeeper",
+    "version": "3.4.6"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:28:16.094878+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/org.apache.zookeeper:zookeeper/versions/3.4.6",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.10704588890075684,
+  "count_duration_seconds": null
+}

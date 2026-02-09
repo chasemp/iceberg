@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "async",
+    "version": "2.6.2"
+  },
+  "total_lines": 3193,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-09T20:28:54.106622+00:00",
+  "source_url": "https://registry.npmjs.org/async/-/async-2.6.2.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.6358897686004639,
+  "count_duration_seconds": null
+}

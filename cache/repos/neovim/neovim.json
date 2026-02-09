@@ -1,0 +1,12 @@
+{
+  "owner": "neovim",
+  "name": "neovim",
+  "url": "https://github.com/neovim/neovim",
+  "description": "Vim-fork focused on extensibility and usability",
+  "language": "Vim Script",
+  "stars": 96320,
+  "categories": {
+    "github-ranking-top-100-stars": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

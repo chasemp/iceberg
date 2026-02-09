@@ -1,0 +1,12 @@
+{
+  "owner": "mitmath",
+  "name": "computational-thinking",
+  "url": "https://github.com/mitmath/computational-thinking",
+  "description": "Course 18.S191 at MIT, Fall 2022 - Introduction to computational thinking with Julia",
+  "language": "Julia",
+  "stars": 2784,
+  "categories": {
+    "github-ranking-julia": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

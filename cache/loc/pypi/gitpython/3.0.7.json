@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "gitpython",
+    "version": "3.0.7"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:28:27.763560+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/gitpython/versions/3.0.7",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.14680886268615723,
+  "count_duration_seconds": null
+}

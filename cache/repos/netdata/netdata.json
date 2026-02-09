@@ -1,0 +1,12 @@
+{
+  "owner": "netdata",
+  "name": "netdata",
+  "url": "https://github.com/netdata/netdata",
+  "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+  "language": "C",
+  "stars": 77682,
+  "categories": {
+    "github-ranking-c": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,13 @@
+{
+  "owner": "jwasham",
+  "repo": "coding-interview-university",
+  "version": "HEAD",
+  "loc": 0,
+  "source": "github_clone",
+  "cached_at": "2026-02-05T22:23:17.944124+00:00",
+  "repo_url": "https://github.com/jwasham/coding-interview-university.git",
+  "ref": "HEAD",
+  "commit_hash": "717298bf219a30d7fb0671285c5f057b1bb74b27",
+  "clone_duration_seconds": 1.447049856185913,
+  "count_duration_seconds": 0.0016548633575439453
+}

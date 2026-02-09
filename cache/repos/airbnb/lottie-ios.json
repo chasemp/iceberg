@@ -1,0 +1,12 @@
+{
+  "owner": "airbnb",
+  "name": "lottie-ios",
+  "url": "https://github.com/airbnb/lottie-ios",
+  "description": "An iOS library to natively render After Effects vector animations",
+  "language": "Swift",
+  "stars": 26659,
+  "categories": {
+    "github-ranking-swift": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

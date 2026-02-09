@@ -1,0 +1,12 @@
+{
+  "owner": "sebastianbergmann",
+  "name": "phpunit",
+  "url": "https://github.com/sebastianbergmann/phpunit",
+  "description": "The PHP Unit Testing framework.",
+  "language": "PHP",
+  "stars": 19994,
+  "categories": {
+    "github-ranking-php": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

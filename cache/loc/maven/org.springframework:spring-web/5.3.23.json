@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "org.springframework:spring-web",
+    "version": "5.3.23"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:22:38.678754+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/org.springframework:spring-web/versions/5.3.23",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.14152979850769043,
+  "count_duration_seconds": null
+}

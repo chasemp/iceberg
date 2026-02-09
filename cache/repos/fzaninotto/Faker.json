@@ -1,0 +1,12 @@
+{
+  "owner": "fzaninotto",
+  "name": "Faker",
+  "url": "https://github.com/fzaninotto/Faker",
+  "description": "Faker is a PHP library that generates fake data for you",
+  "language": "PHP",
+  "stars": 26712,
+  "categories": {
+    "github-ranking-php": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

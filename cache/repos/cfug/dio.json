@@ -1,0 +1,12 @@
+{
+  "owner": "cfug",
+  "name": "dio",
+  "url": "https://github.com/cfug/dio",
+  "description": "A powerful HTTP client for Dart and Flutter, which supports global settings, Interceptors, FormData, aborting and canceling a request, files uploading and downloading, requests timeout, custom adapters, etc.",
+  "language": "Dart",
+  "stars": 12799,
+  "categories": {
+    "github-ranking-dart": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,25 @@
+{
+  "owner": "rust-lang",
+  "repo": "rust",
+  "full_name": "rust-lang/rust",
+  "url": "https://github.com/rust-lang/rust",
+  "analysis": {
+    "owner": "rust-lang",
+    "repo": "rust",
+    "version": "HEAD",
+    "loc": 1739599,
+    "source": "github_clone",
+    "cached_at": "2026-02-05T22:27:51.639082+00:00",
+    "total_loc": 39152,
+    "ratio": 0.022010950380351158,
+    "repo_url": "https://github.com/rust-lang/rust.git",
+    "ref": "HEAD",
+    "commit_hash": "f889772d6500faebcac5bb70fa44b5e6581c38cd",
+    "clone_duration_seconds": 15.898351907730103,
+    "count_duration_seconds": 1.3435840606689453,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-stars",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

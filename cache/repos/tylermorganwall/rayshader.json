@@ -1,0 +1,12 @@
+{
+  "owner": "tylermorganwall",
+  "name": "rayshader",
+  "url": "https://github.com/tylermorganwall/rayshader",
+  "description": "R Package for 2D and 3D mapping and data visualization",
+  "language": "R",
+  "stars": 2146,
+  "categories": {
+    "github-ranking-r": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

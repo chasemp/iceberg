@@ -1,0 +1,16 @@
+{
+  "owner": "goldbergyoni",
+  "repo": "nodebestpractices",
+  "full_name": "goldbergyoni/nodebestpractices",
+  "root_package": "npm:nodebestpractices:1.0.0",
+  "nodes": [
+    {
+      "id": "npm:nodebestpractices:1.0.0",
+      "system": "npm",
+      "name": "nodebestpractices",
+      "version": "1.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.197484+00:00"
+}

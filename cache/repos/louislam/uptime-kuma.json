@@ -1,0 +1,13 @@
+{
+  "owner": "louislam",
+  "name": "uptime-kuma",
+  "url": "https://github.com/louislam/uptime-kuma",
+  "description": "A fancy self-hosted monitoring tool",
+  "language": "JavaScript",
+  "stars": 82563,
+  "categories": {
+    "search": "2026-02-09",
+    "github-ranking-javascript": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

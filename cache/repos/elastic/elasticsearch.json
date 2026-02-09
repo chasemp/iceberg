@@ -1,0 +1,13 @@
+{
+  "owner": "elastic",
+  "name": "elasticsearch",
+  "url": "https://github.com/elastic/elasticsearch",
+  "description": "Free and Open Source, Distributed, RESTful Search Engine",
+  "language": "Java",
+  "stars": 76031,
+  "categories": {
+    "github-ranking-top-100-forks": "2026-02-09",
+    "github-ranking-java": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "discourse",
+  "name": "discourse",
+  "url": "https://github.com/discourse/discourse",
+  "description": "A platform for community discussion. Free, open, simple.",
+  "language": "Ruby",
+  "stars": 46256,
+  "categories": {
+    "github-ranking-ruby": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

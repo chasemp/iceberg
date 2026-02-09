@@ -1,0 +1,12 @@
+{
+  "owner": "android",
+  "name": "nowinandroid",
+  "url": "https://github.com/android/nowinandroid",
+  "description": "A fully functional Android app built entirely with Kotlin and Jetpack Compose",
+  "language": "Kotlin",
+  "stars": 20552,
+  "categories": {
+    "github-ranking-kotlin": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

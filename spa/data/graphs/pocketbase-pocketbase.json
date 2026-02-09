@@ -1,0 +1,16 @@
+{
+  "owner": "pocketbase",
+  "repo": "pocketbase",
+  "full_name": "pocketbase/pocketbase",
+  "root_package": "go:github.com/pocketbase/pocketbase:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/pocketbase/pocketbase:v0.0.0",
+      "system": "go",
+      "name": "github.com/pocketbase/pocketbase",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.184331+00:00"
+}

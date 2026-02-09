@@ -1,0 +1,24 @@
+{
+  "owner": "microsoft",
+  "repo": "Web-Dev-For-Beginners",
+  "version": "HEAD",
+  "loc": 3584,
+  "source": "github_clone",
+  "cached_at": "2026-02-05T22:25:27.325066+00:00",
+  "package": {
+    "system": "npm",
+    "name": "web-dev-for-beginners",
+    "version": "1.0.0"
+  },
+  "total_loc": 253563,
+  "ratio": 0.9860624467716909,
+  "repo_url": "https://github.com/microsoft/Web-Dev-For-Beginners.git",
+  "ref": "HEAD",
+  "commit_hash": "1e73db40e9227b0ac91c1ab2a23bdc77611eda4c",
+  "clone_duration_seconds": 40.76810383796692,
+  "count_duration_seconds": 0.24034905433654785,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "search",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

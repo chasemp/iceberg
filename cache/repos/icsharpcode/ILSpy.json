@@ -1,0 +1,12 @@
+{
+  "owner": "icsharpcode",
+  "name": "ILSpy",
+  "url": "https://github.com/icsharpcode/ILSpy",
+  "description": ".NET Decompiler with support for PDB generation, ReadyToRun, Metadata (&more) - cross-platform!",
+  "language": "C#",
+  "stars": 24555,
+  "categories": {
+    "github-ranking-csharp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

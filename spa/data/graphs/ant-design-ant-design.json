@@ -1,0 +1,16 @@
+{
+  "owner": "ant-design",
+  "repo": "ant-design",
+  "full_name": "ant-design/ant-design",
+  "root_package": "npm:antd:6.2.3",
+  "nodes": [
+    {
+      "id": "npm:antd:6.2.3",
+      "system": "npm",
+      "name": "antd",
+      "version": "6.2.3"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.215206+00:00"
+}

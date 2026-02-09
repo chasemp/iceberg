@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "org.codehaus.plexus:plexus-archiver",
+    "version": "4.2.3"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:28:17.301894+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/org.codehaus.plexus:plexus-archiver/versions/4.2.3",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11646795272827148,
+  "count_duration_seconds": null
+}

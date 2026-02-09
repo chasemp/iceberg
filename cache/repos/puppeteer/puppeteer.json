@@ -1,0 +1,12 @@
+{
+  "owner": "puppeteer",
+  "name": "puppeteer",
+  "url": "https://github.com/puppeteer/puppeteer",
+  "description": "JavaScript API for Chrome and Firefox",
+  "language": "TypeScript",
+  "stars": 93524,
+  "categories": {
+    "github-ranking-typescript": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

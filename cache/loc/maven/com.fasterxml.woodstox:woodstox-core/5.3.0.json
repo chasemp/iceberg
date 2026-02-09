@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "com.fasterxml.woodstox:woodstox-core",
+    "version": "5.3.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:28:09.092057+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/com.fasterxml.woodstox:woodstox-core/versions/5.3.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1029520034790039,
+  "count_duration_seconds": null
+}

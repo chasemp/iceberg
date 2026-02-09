@@ -1,0 +1,12 @@
+{
+  "owner": "jqlang",
+  "name": "jq",
+  "url": "https://github.com/jqlang/jq",
+  "description": "Command-line JSON processor",
+  "language": "C",
+  "stars": 33499,
+  "categories": {
+    "github-ranking-c": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

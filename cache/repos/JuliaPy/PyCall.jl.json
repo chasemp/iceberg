@@ -1,0 +1,12 @@
+{
+  "owner": "JuliaPy",
+  "name": "PyCall.jl",
+  "url": "https://github.com/JuliaPy/PyCall.jl",
+  "description": "Package to call Python functions from the Julia language",
+  "language": "Julia",
+  "stars": 1502,
+  "categories": {
+    "github-ranking-julia": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

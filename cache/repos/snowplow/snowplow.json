@@ -1,0 +1,12 @@
+{
+  "owner": "snowplow",
+  "name": "snowplow",
+  "url": "https://github.com/snowplow/snowplow",
+  "description": "The leader in Customer Data Infrastructure",
+  "language": "Scala",
+  "stars": 7002,
+  "categories": {
+    "github-ranking-scala": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

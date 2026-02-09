@@ -1,0 +1,14 @@
+{
+  "owner": "langchain-ai",
+  "name": "langchain",
+  "url": "https://github.com/langchain-ai/langchain",
+  "description": "\ud83e\udd9c\ud83d\udd17 The platform for reliable agents.",
+  "language": "Python",
+  "stars": 126269,
+  "categories": {
+    "search": "2026-02-09",
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-python": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

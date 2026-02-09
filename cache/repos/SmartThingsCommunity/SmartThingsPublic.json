@@ -1,0 +1,12 @@
+{
+  "owner": "SmartThingsCommunity",
+  "name": "SmartThingsPublic",
+  "url": "https://github.com/SmartThingsCommunity/SmartThingsPublic",
+  "description": "SmartThings open-source DeviceType Handlers and SmartApps code",
+  "language": "Groovy",
+  "stars": 2628,
+  "categories": {
+    "github-ranking-top-100-forks": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

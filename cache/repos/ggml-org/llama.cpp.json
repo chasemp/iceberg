@@ -1,0 +1,12 @@
+{
+  "owner": "ggml-org",
+  "name": "llama.cpp",
+  "url": "https://github.com/ggml-org/llama.cpp",
+  "description": "LLM inference in C/C++",
+  "language": "C++",
+  "stars": 94667,
+  "categories": {
+    "github-ranking-cpp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

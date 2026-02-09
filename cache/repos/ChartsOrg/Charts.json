@@ -1,0 +1,12 @@
+{
+  "owner": "ChartsOrg",
+  "name": "Charts",
+  "url": "https://github.com/ChartsOrg/Charts",
+  "description": "Beautiful charts for iOS/tvOS/OSX! The Apple side of the crossplatform MPAndroidChart.",
+  "language": "Swift",
+  "stars": 28010,
+  "categories": {
+    "github-ranking-swift": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

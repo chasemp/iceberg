@@ -1,0 +1,12 @@
+{
+  "owner": "ggml-org",
+  "name": "whisper.cpp",
+  "url": "https://github.com/ggml-org/whisper.cpp",
+  "description": "Port of OpenAI's Whisper model in C/C++",
+  "language": "C++",
+  "stars": 46559,
+  "categories": {
+    "github-ranking-cpp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "koalaman",
+  "name": "shellcheck",
+  "url": "https://github.com/koalaman/shellcheck",
+  "description": "ShellCheck, a static analysis tool for shell scripts",
+  "language": "Haskell",
+  "stars": 38956,
+  "categories": {
+    "github-ranking-haskell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

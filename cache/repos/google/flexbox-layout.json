@@ -1,0 +1,12 @@
+{
+  "owner": "google",
+  "name": "flexbox-layout",
+  "url": "https://github.com/google/flexbox-layout",
+  "description": "Flexbox for Android",
+  "language": "Kotlin",
+  "stars": 18356,
+  "categories": {
+    "github-ranking-kotlin": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

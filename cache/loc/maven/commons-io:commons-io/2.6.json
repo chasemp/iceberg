@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "commons-io:commons-io",
+    "version": "2.6"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:28:11.415198+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/commons-io:commons-io/versions/2.6",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1359248161315918,
+  "count_duration_seconds": null
+}

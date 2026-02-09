@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "rsa",
+    "version": "0.10.0-rc.10"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:29:51.345345+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/rsa/versions/0.10.0-rc.10",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.12539076805114746,
+  "count_duration_seconds": null
+}

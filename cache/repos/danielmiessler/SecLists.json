@@ -1,0 +1,12 @@
+{
+  "owner": "danielmiessler",
+  "name": "SecLists",
+  "url": "https://github.com/danielmiessler/SecLists",
+  "description": "SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.",
+  "language": "PHP",
+  "stars": 68698,
+  "categories": {
+    "github-ranking-php": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

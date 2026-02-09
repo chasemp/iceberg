@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "webpack",
+    "version": "5.88.1"
+  },
+  "total_lines": 98563,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-09T20:14:57.942766+00:00",
+  "source_url": "https://registry.npmjs.org/webpack/-/webpack-5.88.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 1.0709800720214844,
+  "count_duration_seconds": null
+}

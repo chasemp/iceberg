@@ -1,0 +1,12 @@
+{
+  "owner": "AppFlowy-IO",
+  "name": "AppFlowy",
+  "url": "https://github.com/AppFlowy-IO/AppFlowy",
+  "description": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.",
+  "language": "Dart",
+  "stars": 67999,
+  "categories": {
+    "github-ranking-dart": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

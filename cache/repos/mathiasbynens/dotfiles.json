@@ -1,0 +1,12 @@
+{
+  "owner": "mathiasbynens",
+  "name": "dotfiles",
+  "url": "https://github.com/mathiasbynens/dotfiles",
+  "description": ":wrench: .files, including ~/.macos \u2014 sensible hacker defaults for macOS",
+  "language": "Shell",
+  "stars": 31221,
+  "categories": {
+    "github-ranking-shell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

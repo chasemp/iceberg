@@ -1,0 +1,12 @@
+{
+  "owner": "hrsh7th",
+  "name": "nvim-cmp",
+  "url": "https://github.com/hrsh7th/nvim-cmp",
+  "description": "A completion plugin for neovim coded in Lua.",
+  "language": "Lua",
+  "stars": 9315,
+  "categories": {
+    "github-ranking-lua": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

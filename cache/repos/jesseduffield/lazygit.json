@@ -1,0 +1,12 @@
+{
+  "owner": "jesseduffield",
+  "name": "lazygit",
+  "url": "https://github.com/jesseduffield/lazygit",
+  "description": "simple terminal UI for git commands",
+  "language": "Go",
+  "stars": 71943,
+  "categories": {
+    "github-ranking-go": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

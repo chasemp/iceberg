@@ -1,0 +1,12 @@
+{
+  "owner": "JuliaSymbolics",
+  "name": "Symbolics.jl",
+  "url": "https://github.com/JuliaSymbolics/Symbolics.jl",
+  "description": "Symbolic programming for the next generation of numerical software",
+  "language": "Julia",
+  "stars": 1491,
+  "categories": {
+    "github-ranking-julia": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

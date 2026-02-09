@@ -1,0 +1,12 @@
+{
+  "owner": "prometheus",
+  "name": "prometheus",
+  "url": "https://github.com/prometheus/prometheus",
+  "description": "The Prometheus monitoring system and time series database.",
+  "language": "Go",
+  "stars": 62614,
+  "categories": {
+    "github-ranking-go": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

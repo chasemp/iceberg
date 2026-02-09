@@ -1,0 +1,12 @@
+{
+  "owner": "openssl",
+  "name": "openssl",
+  "url": "https://github.com/openssl/openssl",
+  "description": "TLS/SSL and crypto library",
+  "language": "C",
+  "stars": 29534,
+  "categories": {
+    "github-ranking-c": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

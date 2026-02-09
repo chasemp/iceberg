@@ -1,0 +1,12 @@
+{
+  "owner": "krayin",
+  "name": "laravel-crm",
+  "url": "https://github.com/krayin/laravel-crm",
+  "description": "Free & Opensource Laravel CRM solution for SMEs and Enterprises for complete customer lifecycle management.",
+  "language": "PHP",
+  "stars": 21172,
+  "categories": {
+    "github-ranking-php": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

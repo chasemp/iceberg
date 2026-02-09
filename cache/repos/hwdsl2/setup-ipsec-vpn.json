@@ -1,0 +1,12 @@
+{
+  "owner": "hwdsl2",
+  "name": "setup-ipsec-vpn",
+  "url": "https://github.com/hwdsl2/setup-ipsec-vpn",
+  "description": "Scripts to build your own IPsec VPN server, with IPsec/L2TP, Cisco IPsec and IKEv2",
+  "language": "Shell",
+  "stars": 27364,
+  "categories": {
+    "github-ranking-shell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

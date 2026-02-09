@@ -1,0 +1,14 @@
+{
+  "owner": "freeCodeCamp",
+  "name": "freeCodeCamp",
+  "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+  "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+  "language": "TypeScript",
+  "stars": 436918,
+  "categories": {
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-top-100-forks": "2026-02-09",
+    "github-ranking-typescript": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

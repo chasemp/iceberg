@@ -1,0 +1,12 @@
+{
+  "owner": "idris-lang",
+  "name": "Idris-dev",
+  "url": "https://github.com/idris-lang/Idris-dev",
+  "description": "A Dependently Typed Functional Programming Language",
+  "language": "Haskell",
+  "stars": 3469,
+  "categories": {
+    "github-ranking-haskell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

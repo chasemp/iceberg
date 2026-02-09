@@ -1,0 +1,14 @@
+{
+  "owner": "django",
+  "name": "django",
+  "url": "https://github.com/django/django",
+  "description": "The Web framework for perfectionists with deadlines.",
+  "language": "Python",
+  "stars": 86714,
+  "categories": {
+    "search": "2026-02-09",
+    "github-ranking-top-100-forks": "2026-02-09",
+    "github-ranking-python": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

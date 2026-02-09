@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "flask-cors",
+    "version": "4.0.1"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:29:16.857881+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/flask-cors/versions/4.0.1",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.13124990463256836,
+  "count_duration_seconds": null
+}

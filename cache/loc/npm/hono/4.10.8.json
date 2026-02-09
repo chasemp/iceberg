@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "hono",
+    "version": "4.10.8"
+  },
+  "total_lines": 0,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-09T19:39:48.845715+00:00",
+  "source_url": "https://registry.npmjs.org/hono/-/hono-4.10.8.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.861177921295166,
+  "count_duration_seconds": null
+}

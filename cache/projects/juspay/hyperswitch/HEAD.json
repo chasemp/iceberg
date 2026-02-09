@@ -1,0 +1,20 @@
+{
+  "owner": "juspay",
+  "repo": "hyperswitch",
+  "version": "HEAD",
+  "loc": 875609,
+  "source": "github_clone",
+  "cached_at": "2026-02-05T22:23:10.926389+00:00",
+  "package": {
+    "system": "npm",
+    "name": "hyperswitch",
+    "version": "0.0.0"
+  },
+  "total_loc": 84281,
+  "ratio": 0.08780276906728895,
+  "repo_url": "https://github.com/juspay/hyperswitch.git",
+  "ref": "HEAD",
+  "commit_hash": "8f7e09b88eb018e5aa0f8d5c2b75458d71cad662",
+  "clone_duration_seconds": 12.848837852478027,
+  "count_duration_seconds": 0.6446208953857422
+}

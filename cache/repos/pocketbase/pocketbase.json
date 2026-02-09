@@ -1,0 +1,12 @@
+{
+  "owner": "pocketbase",
+  "name": "pocketbase",
+  "url": "https://github.com/pocketbase/pocketbase",
+  "description": "Open Source realtime backend in 1 file",
+  "language": "Go",
+  "stars": 55963,
+  "categories": {
+    "github-ranking-go": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

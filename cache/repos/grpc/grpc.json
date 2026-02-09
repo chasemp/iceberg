@@ -1,0 +1,12 @@
+{
+  "owner": "grpc",
+  "name": "grpc",
+  "url": "https://github.com/grpc/grpc",
+  "description": "C++ based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)",
+  "language": "C++",
+  "stars": 44327,
+  "categories": {
+    "github-ranking-cpp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

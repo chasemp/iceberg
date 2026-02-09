@@ -1,0 +1,12 @@
+{
+  "owner": "tidyverse",
+  "name": "ggplot2",
+  "url": "https://github.com/tidyverse/ggplot2",
+  "description": "An implementation of the Grammar of Graphics in R",
+  "language": "R",
+  "stars": 6880,
+  "categories": {
+    "github-ranking-r": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

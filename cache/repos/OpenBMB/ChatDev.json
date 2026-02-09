@@ -1,0 +1,12 @@
+{
+  "owner": "OpenBMB",
+  "name": "ChatDev",
+  "url": "https://github.com/OpenBMB/ChatDev",
+  "description": "ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration",
+  "language": "Python",
+  "stars": 30655,
+  "categories": {
+    "trending-weekly": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

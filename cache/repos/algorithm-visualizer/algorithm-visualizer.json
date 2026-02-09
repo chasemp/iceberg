@@ -1,0 +1,12 @@
+{
+  "owner": "algorithm-visualizer",
+  "name": "algorithm-visualizer",
+  "url": "https://github.com/algorithm-visualizer/algorithm-visualizer",
+  "description": ":fireworks:Interactive Online Platform that Visualizes Algorithms from Code",
+  "language": "JavaScript",
+  "stars": 48364,
+  "categories": {
+    "search": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

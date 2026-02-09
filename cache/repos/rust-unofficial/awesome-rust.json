@@ -1,0 +1,12 @@
+{
+  "owner": "rust-unofficial",
+  "name": "awesome-rust",
+  "url": "https://github.com/rust-unofficial/awesome-rust",
+  "description": "A curated list of Rust code and resources.",
+  "language": "Rust",
+  "stars": 55514,
+  "categories": {
+    "github-ranking-rust": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

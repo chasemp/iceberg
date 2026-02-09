@@ -1,0 +1,12 @@
+{
+  "owner": "prettier",
+  "name": "prettier",
+  "url": "https://github.com/prettier/prettier",
+  "description": "Prettier is an opinionated code formatter.",
+  "language": "JavaScript",
+  "stars": 51532,
+  "categories": {
+    "search": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

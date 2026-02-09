@@ -1,0 +1,12 @@
+{
+  "owner": "rapid7",
+  "name": "metasploit-framework",
+  "url": "https://github.com/rapid7/metasploit-framework",
+  "description": "Metasploit Framework",
+  "language": "Ruby",
+  "stars": 37470,
+  "categories": {
+    "github-ranking-ruby": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

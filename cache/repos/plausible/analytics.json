@@ -1,0 +1,12 @@
+{
+  "owner": "plausible",
+  "name": "analytics",
+  "url": "https://github.com/plausible/analytics",
+  "description": "Simple, open source, lightweight and privacy-friendly web analytics alternative to Google Analytics.",
+  "language": "Elixir",
+  "stars": 24194,
+  "categories": {
+    "github-ranking-elixir": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

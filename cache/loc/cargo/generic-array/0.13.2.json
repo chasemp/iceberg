@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "generic-array",
+    "version": "0.13.2"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:27:48.801866+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/generic-array/versions/0.13.2",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1325359344482422,
+  "count_duration_seconds": null
+}

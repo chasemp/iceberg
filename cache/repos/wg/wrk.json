@@ -1,0 +1,12 @@
+{
+  "owner": "wg",
+  "name": "wrk",
+  "url": "https://github.com/wg/wrk",
+  "description": "Modern HTTP benchmarking tool",
+  "language": "C",
+  "stars": 40047,
+  "categories": {
+    "github-ranking-c": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

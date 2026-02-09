@@ -1,0 +1,12 @@
+{
+  "owner": "twitter",
+  "name": "the-algorithm",
+  "url": "https://github.com/twitter/the-algorithm",
+  "description": "Source code for the X Recommendation Algorithm",
+  "language": "Scala",
+  "stars": 72656,
+  "categories": {
+    "github-ranking-scala": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

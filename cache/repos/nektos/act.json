@@ -1,0 +1,12 @@
+{
+  "owner": "nektos",
+  "name": "act",
+  "url": "https://github.com/nektos/act",
+  "description": "Run your GitHub Actions locally \ud83d\ude80",
+  "language": "Go",
+  "stars": 68633,
+  "categories": {
+    "github-ranking-go": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

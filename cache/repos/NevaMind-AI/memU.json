@@ -1,0 +1,13 @@
+{
+  "owner": "NevaMind-AI",
+  "name": "memU",
+  "url": "https://github.com/NevaMind-AI/memU",
+  "description": "Memory for 24/7 proactive agents like openclaw (moltbot, clawdbot).",
+  "language": "Python",
+  "stars": 8592,
+  "categories": {
+    "trending-weekly": "2026-02-09",
+    "trending-monthly": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "rails",
+  "name": "rails",
+  "url": "https://github.com/rails/rails",
+  "description": "Ruby on Rails",
+  "language": "Ruby",
+  "stars": 58181,
+  "categories": {
+    "github-ranking-ruby": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

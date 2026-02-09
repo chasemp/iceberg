@@ -1,0 +1,12 @@
+{
+  "owner": "PowerShell",
+  "name": "PowerShell",
+  "url": "https://github.com/PowerShell/PowerShell",
+  "description": "PowerShell for every system!",
+  "language": "C#",
+  "stars": 51400,
+  "categories": {
+    "github-ranking-csharp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

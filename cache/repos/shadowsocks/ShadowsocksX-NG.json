@@ -1,0 +1,12 @@
+{
+  "owner": "shadowsocks",
+  "name": "ShadowsocksX-NG",
+  "url": "https://github.com/shadowsocks/ShadowsocksX-NG",
+  "description": "Next Generation of ShadowsocksX",
+  "language": "Swift",
+  "stars": 32906,
+  "categories": {
+    "github-ranking-swift": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

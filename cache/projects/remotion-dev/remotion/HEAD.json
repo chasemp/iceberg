@@ -16,5 +16,9 @@
   "ref": "HEAD",
   "commit_hash": "247a924fa691e420fb4e63f69dfdda49d1757bc3",
   "clone_duration_seconds": 49.34914517402649,
-  "count_duration_seconds": 0.5993340015411377
+  "count_duration_seconds": 0.5993340015411377,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "trending-monthly",
+  "tracked": false,
+  "maintenance_priority": "medium"
 }

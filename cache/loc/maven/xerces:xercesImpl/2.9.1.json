@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "xerces:xercesImpl",
+    "version": "2.9.1"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:28:19.341954+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/xerces:xercesImpl/versions/2.9.1",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11811995506286621,
+  "count_duration_seconds": null
+}

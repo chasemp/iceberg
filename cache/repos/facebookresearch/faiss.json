@@ -1,0 +1,12 @@
+{
+  "owner": "facebookresearch",
+  "name": "faiss",
+  "url": "https://github.com/facebookresearch/faiss",
+  "description": "A library for efficient similarity search and clustering of dense vectors.",
+  "language": "C++",
+  "stars": 39037,
+  "categories": {
+    "github-ranking-cpp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

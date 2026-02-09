@@ -1,0 +1,12 @@
+{
+  "owner": "xmake-io",
+  "name": "xmake",
+  "url": "https://github.com/xmake-io/xmake",
+  "description": "\ud83d\udd25 A cross-platform build utility based on Lua",
+  "language": "Lua",
+  "stars": 11738,
+  "categories": {
+    "github-ranking-lua": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

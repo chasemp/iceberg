@@ -1,0 +1,23 @@
+{
+  "owner": "nvim-lua",
+  "repo": "kickstart.nvim",
+  "full_name": "nvim-lua/kickstart.nvim",
+  "url": "https://github.com/nvim-lua/kickstart.nvim",
+  "analysis": {
+    "owner": "nvim-lua",
+    "repo": "kickstart.nvim",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T20:17:25.366002+00:00",
+    "repo_url": "https://github.com/nvim-lua/kickstart.nvim.git",
+    "ref": "HEAD",
+    "commit_hash": "e79572c9e6978787af2bca164a85ab6821caeb7b",
+    "clone_duration_seconds": 0.9344708919525146,
+    "count_duration_seconds": 0.0029633045196533203,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-forks",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

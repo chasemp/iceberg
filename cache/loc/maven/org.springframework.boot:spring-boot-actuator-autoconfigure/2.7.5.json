@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "org.springframework.boot:spring-boot-actuator-autoconfigure",
+    "version": "2.7.5"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:22:38.088633+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/org.springframework.boot:spring-boot-actuator-autoconfigure/versions/2.7.5",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.0935361385345459,
+  "count_duration_seconds": null
+}

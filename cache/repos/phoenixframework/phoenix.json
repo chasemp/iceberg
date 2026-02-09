@@ -1,0 +1,12 @@
+{
+  "owner": "phoenixframework",
+  "name": "phoenix",
+  "url": "https://github.com/phoenixframework/phoenix",
+  "description": "Peace of mind from prototype to production",
+  "language": "Elixir",
+  "stars": 22787,
+  "categories": {
+    "github-ranking-elixir": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

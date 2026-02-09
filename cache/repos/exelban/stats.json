@@ -1,0 +1,12 @@
+{
+  "owner": "exelban",
+  "name": "stats",
+  "url": "https://github.com/exelban/stats",
+  "description": "macOS system monitor in your menu bar",
+  "language": "Swift",
+  "stars": 36333,
+  "categories": {
+    "github-ranking-swift": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

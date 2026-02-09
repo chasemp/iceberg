@@ -1,0 +1,12 @@
+{
+  "owner": "dotnet",
+  "name": "maui",
+  "url": "https://github.com/dotnet/maui",
+  "description": ".NET MAUI is the .NET Multi-platform App UI, a framework for building native device applications spanning mobile, tablet, and desktop.",
+  "language": "C#",
+  "stars": 23164,
+  "categories": {
+    "github-ranking-csharp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

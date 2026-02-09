@@ -1,0 +1,13 @@
+{
+  "owner": "ollama",
+  "name": "ollama",
+  "url": "https://github.com/ollama/ollama",
+  "description": "Get up and running with Kimi-K2.5, GLM-4.7, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+  "language": "Go",
+  "stars": 162189,
+  "categories": {
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-go": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

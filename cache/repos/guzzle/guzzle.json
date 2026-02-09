@@ -1,0 +1,12 @@
+{
+  "owner": "guzzle",
+  "name": "guzzle",
+  "url": "https://github.com/guzzle/guzzle",
+  "description": "Guzzle, an extensible PHP HTTP client",
+  "language": "PHP",
+  "stars": 23452,
+  "categories": {
+    "github-ranking-php": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

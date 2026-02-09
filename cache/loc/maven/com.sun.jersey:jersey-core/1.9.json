@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "com.sun.jersey:jersey-core",
+    "version": "1.9"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:28:10.739633+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/com.sun.jersey:jersey-core/versions/1.9",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11485409736633301,
+  "count_duration_seconds": null
+}

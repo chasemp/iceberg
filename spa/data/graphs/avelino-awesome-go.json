@@ -1,0 +1,16 @@
+{
+  "owner": "avelino",
+  "repo": "awesome-go",
+  "full_name": "avelino/awesome-go",
+  "root_package": "go:github.com/avelino/awesome-go:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/avelino/awesome-go:v0.0.0",
+      "system": "go",
+      "name": "github.com/avelino/awesome-go",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.152726+00:00"
+}

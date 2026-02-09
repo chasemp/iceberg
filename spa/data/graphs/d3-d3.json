@@ -1,0 +1,16 @@
+{
+  "owner": "d3",
+  "repo": "d3",
+  "full_name": "d3/d3",
+  "root_package": "npm:d3:7.9.0",
+  "nodes": [
+    {
+      "id": "npm:d3:7.9.0",
+      "system": "npm",
+      "name": "d3",
+      "version": "7.9.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.194697+00:00"
+}

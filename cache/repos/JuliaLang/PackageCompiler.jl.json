@@ -1,0 +1,12 @@
+{
+  "owner": "JuliaLang",
+  "name": "PackageCompiler.jl",
+  "url": "https://github.com/JuliaLang/PackageCompiler.jl",
+  "description": "Compile your Julia Package",
+  "language": "Julia",
+  "stars": 1526,
+  "categories": {
+    "github-ranking-julia": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "composer",
+  "name": "composer",
+  "url": "https://github.com/composer/composer",
+  "description": "Dependency Manager for PHP",
+  "language": "PHP",
+  "stars": 29317,
+  "categories": {
+    "github-ranking-php": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

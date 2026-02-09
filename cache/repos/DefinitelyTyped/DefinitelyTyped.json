@@ -1,0 +1,12 @@
+{
+  "owner": "DefinitelyTyped",
+  "name": "DefinitelyTyped",
+  "url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+  "description": "The repository for high quality TypeScript type definitions.",
+  "language": "TypeScript",
+  "stars": 50923,
+  "categories": {
+    "github-ranking-top-100-forks": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

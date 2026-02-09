@@ -1,0 +1,28 @@
+{
+  "owner": "eugenp",
+  "repo": "tutorials",
+  "full_name": "eugenp/tutorials",
+  "url": "https://github.com/eugenp/tutorials",
+  "analysis": {
+    "owner": "eugenp",
+    "repo": "tutorials",
+    "version": "HEAD",
+    "loc": 508525,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T20:17:04.142363+00:00",
+    "package": {
+      "system": "maven",
+      "name": "parent-modules",
+      "version": "1.0.0-SNAPSHOT"
+    },
+    "repo_url": "https://github.com/eugenp/tutorials.git",
+    "ref": "HEAD",
+    "commit_hash": "4e4cfae70f467286bf98293a884a6ab9a327f570",
+    "clone_duration_seconds": 14.01917815208435,
+    "count_duration_seconds": 4.213990211486816,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-forks",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "realworld-apps",
+  "repo": "realworld",
+  "version": "HEAD",
+  "loc": 1435,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T20:30:25.250958+00:00",
+  "total_loc": 17416,
+  "ratio": 0.9238767174155217,
+  "repo_url": "https://github.com/realworld-apps/realworld.git",
+  "ref": "HEAD",
+  "commit_hash": "81c9c713ac3771d7d4ae9601748a2a71f7258104",
+  "clone_duration_seconds": 1.2458219528198242,
+  "count_duration_seconds": 0.009792089462280273,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-typescript",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "yetone",
+  "name": "avante.nvim",
+  "url": "https://github.com/yetone/avante.nvim",
+  "description": "Use your Neovim like using Cursor AI IDE!",
+  "language": "Lua",
+  "stars": 17341,
+  "categories": {
+    "github-ranking-lua": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

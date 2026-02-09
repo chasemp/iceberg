@@ -1,0 +1,12 @@
+{
+  "owner": "thangchung",
+  "name": "awesome-dotnet-core",
+  "url": "https://github.com/thangchung/awesome-dotnet-core",
+  "description": ":honeybee: A collection of awesome .NET core libraries, tools, frameworks and software",
+  "language": "C#",
+  "stars": 21075,
+  "categories": {
+    "github-ranking-csharp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

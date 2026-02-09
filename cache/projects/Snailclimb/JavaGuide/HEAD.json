@@ -1,0 +1,20 @@
+{
+  "owner": "Snailclimb",
+  "repo": "JavaGuide",
+  "version": "HEAD",
+  "loc": 1590,
+  "source": "github_clone",
+  "cached_at": "2026-02-05T22:18:35.935029+00:00",
+  "package": {
+    "system": "npm",
+    "name": "javaguide",
+    "version": "2.0.0-alpha.40"
+  },
+  "total_loc": 18638,
+  "ratio": 0.9213960846351592,
+  "repo_url": "https://github.com/Snailclimb/JavaGuide.git",
+  "ref": "HEAD",
+  "commit_hash": "a048c233e7d07ae418c9e00ac84224e9e10568ff",
+  "clone_duration_seconds": 1.6498959064483643,
+  "count_duration_seconds": 0.009084224700927734
+}

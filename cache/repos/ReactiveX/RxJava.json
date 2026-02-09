@@ -1,0 +1,12 @@
+{
+  "owner": "ReactiveX",
+  "name": "RxJava",
+  "url": "https://github.com/ReactiveX/RxJava",
+  "description": "RxJava \u2013 Reactive Extensions for the JVM \u2013 a library for composing asynchronous and event-based programs using observable sequences for the Java VM.",
+  "language": "Java",
+  "stars": 48522,
+  "categories": {
+    "github-ranking-java": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

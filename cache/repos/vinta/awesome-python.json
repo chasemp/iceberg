@@ -1,0 +1,15 @@
+{
+  "owner": "vinta",
+  "name": "awesome-python",
+  "url": "https://github.com/vinta/awesome-python",
+  "description": "An opinionated list of awesome Python frameworks, libraries, software and resources.",
+  "language": "Python",
+  "stars": 282042,
+  "categories": {
+    "search": "2026-02-09",
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-top-100-forks": "2026-02-09",
+    "github-ranking-python": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

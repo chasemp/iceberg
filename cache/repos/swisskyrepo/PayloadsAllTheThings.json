@@ -1,0 +1,12 @@
+{
+  "owner": "swisskyrepo",
+  "name": "PayloadsAllTheThings",
+  "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+  "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
+  "language": "Python",
+  "stars": 75058,
+  "categories": {
+    "search": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

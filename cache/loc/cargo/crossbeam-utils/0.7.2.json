@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "crossbeam-utils",
+    "version": "0.7.2"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:23:04.834869+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/crossbeam-utils/versions/0.7.2",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11800384521484375,
+  "count_duration_seconds": null
+}

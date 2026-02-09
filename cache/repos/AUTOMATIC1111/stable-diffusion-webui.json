@@ -1,0 +1,15 @@
+{
+  "owner": "AUTOMATIC1111",
+  "name": "stable-diffusion-webui",
+  "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+  "description": "Stable Diffusion web UI",
+  "language": "Python",
+  "stars": 160462,
+  "categories": {
+    "search": "2026-02-09",
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-top-100-forks": "2026-02-09",
+    "github-ranking-python": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

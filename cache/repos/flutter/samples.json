@@ -1,0 +1,12 @@
+{
+  "owner": "flutter",
+  "name": "samples",
+  "url": "https://github.com/flutter/samples",
+  "description": "A collection of Flutter examples and demos",
+  "language": "Dart",
+  "stars": 18994,
+  "categories": {
+    "github-ranking-dart": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "astral-sh",
+  "name": "ruff",
+  "url": "https://github.com/astral-sh/ruff",
+  "description": "An extremely fast Python linter and code formatter, written in Rust.",
+  "language": "Rust",
+  "stars": 45648,
+  "categories": {
+    "github-ranking-rust": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

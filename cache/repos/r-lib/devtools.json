@@ -1,0 +1,12 @@
+{
+  "owner": "r-lib",
+  "name": "devtools",
+  "url": "https://github.com/r-lib/devtools",
+  "description": "Tools to make an R developer's life easier",
+  "language": "R",
+  "stars": 2495,
+  "categories": {
+    "github-ranking-r": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

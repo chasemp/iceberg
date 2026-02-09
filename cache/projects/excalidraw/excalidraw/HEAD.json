@@ -1,0 +1,19 @@
+{
+  "owner": "excalidraw",
+  "repo": "excalidraw",
+  "version": "HEAD",
+  "loc": 107986,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T20:04:59.175542+00:00",
+  "total_loc": 362379,
+  "ratio": 0.770420843387582,
+  "repo_url": "https://github.com/excalidraw/excalidraw.git",
+  "ref": "HEAD",
+  "commit_hash": "1c8e8bb0f3909a3d98d9e5cff0efe032ef1ccd67",
+  "clone_duration_seconds": 3.7174501419067383,
+  "count_duration_seconds": 0.07509708404541016,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-top-100-stars",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

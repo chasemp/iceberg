@@ -1,0 +1,12 @@
+{
+  "owner": "hiyouga",
+  "name": "LlamaFactory",
+  "url": "https://github.com/hiyouga/LlamaFactory",
+  "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+  "language": "Python",
+  "stars": 67101,
+  "categories": {
+    "search": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

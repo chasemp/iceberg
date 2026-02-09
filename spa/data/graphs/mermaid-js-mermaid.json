@@ -1,0 +1,16 @@
+{
+  "owner": "mermaid-js",
+  "repo": "mermaid",
+  "full_name": "mermaid-js/mermaid",
+  "root_package": "npm:mermaid-monorepo:10.2.4",
+  "nodes": [
+    {
+      "id": "npm:mermaid-monorepo:10.2.4",
+      "system": "npm",
+      "name": "mermaid-monorepo",
+      "version": "10.2.4"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.173574+00:00"
+}

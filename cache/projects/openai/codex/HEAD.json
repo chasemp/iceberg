@@ -1,0 +1,19 @@
+{
+  "owner": "openai",
+  "repo": "codex",
+  "version": "HEAD",
+  "loc": 209179,
+  "source": "github_clone",
+  "cached_at": "2026-02-05T22:27:14.945879+00:00",
+  "total_loc": 9907,
+  "ratio": 0.04521968542033722,
+  "repo_url": "https://github.com/openai/codex.git",
+  "ref": "HEAD",
+  "commit_hash": "e65f76947f35beabddd16b19d7fabeaa30b70d06",
+  "clone_duration_seconds": 1.8809847831726074,
+  "count_duration_seconds": 0.12806296348571777,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-rust",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "WordPress",
+  "name": "WordPress",
+  "url": "https://github.com/WordPress/WordPress",
+  "description": "WordPress, Git-ified. This repository is just a mirror of the WordPress subversion repository. Please do not send pull requests. Submit pull requests to https://github.com/WordPress/wordpress-develop and patches to https://core.trac.wordpress.org/ instead.",
+  "language": "PHP",
+  "stars": 20873,
+  "categories": {
+    "github-ranking-php": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

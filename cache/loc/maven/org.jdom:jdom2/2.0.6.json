@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "org.jdom:jdom2",
+    "version": "2.0.6"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:21:00.684372+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/org.jdom:jdom2/versions/2.0.6",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11391282081604004,
+  "count_duration_seconds": null
+}

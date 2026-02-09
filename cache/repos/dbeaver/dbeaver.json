@@ -1,0 +1,12 @@
+{
+  "owner": "dbeaver",
+  "name": "dbeaver",
+  "url": "https://github.com/dbeaver/dbeaver",
+  "description": "Free universal database tool and SQL client",
+  "language": "Java",
+  "stars": 48599,
+  "categories": {
+    "github-ranking-java": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

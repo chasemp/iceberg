@@ -1,0 +1,12 @@
+{
+  "owner": "pbatard",
+  "name": "rufus",
+  "url": "https://github.com/pbatard/rufus",
+  "description": "The Reliable USB Formatting Utility",
+  "language": "C",
+  "stars": 34663,
+  "categories": {
+    "github-ranking-c": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

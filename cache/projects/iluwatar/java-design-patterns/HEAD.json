@@ -1,0 +1,22 @@
+{
+  "owner": "iluwatar",
+  "repo": "java-design-patterns",
+  "version": "HEAD",
+  "loc": 29596,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T20:25:33.134872+00:00",
+  "package": {
+    "system": "maven",
+    "name": "java-design-patterns",
+    "version": "1.26.0-SNAPSHOT"
+  },
+  "repo_url": "https://github.com/iluwatar/java-design-patterns.git",
+  "ref": "HEAD",
+  "commit_hash": "a3fcc631672a3e418523af0c61c403caf5c137bf",
+  "clone_duration_seconds": 3.9252264499664307,
+  "count_duration_seconds": 0.40868306159973145,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-top-100-forks",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

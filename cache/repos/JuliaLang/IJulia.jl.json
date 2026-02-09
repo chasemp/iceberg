@@ -1,0 +1,12 @@
+{
+  "owner": "JuliaLang",
+  "name": "IJulia.jl",
+  "url": "https://github.com/JuliaLang/IJulia.jl",
+  "description": "Julia kernel for Jupyter",
+  "language": "Julia",
+  "stars": 2888,
+  "categories": {
+    "github-ranking-julia": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

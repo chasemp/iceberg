@@ -1,0 +1,12 @@
+{
+  "owner": "phillipi",
+  "name": "pix2pix",
+  "url": "https://github.com/phillipi/pix2pix",
+  "description": "Image-to-image translation with conditional adversarial nets",
+  "language": "Lua",
+  "stars": 10602,
+  "categories": {
+    "github-ranking-lua": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "postalserver",
+  "name": "postal",
+  "url": "https://github.com/postalserver/postal",
+  "description": "\ud83d\udcee A fully featured open source mail delivery platform for incoming & outgoing e-mail",
+  "language": "Ruby",
+  "stars": 16288,
+  "categories": {
+    "github-ranking-ruby": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

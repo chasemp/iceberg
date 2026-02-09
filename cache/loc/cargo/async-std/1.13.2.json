@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "async-std",
+    "version": "1.13.2"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:18:02.224046+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/async-std/versions/1.13.2",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11335897445678711,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,17 @@
+{
+  "owner": "lewagon",
+  "repo": "dotfiles",
+  "version": "HEAD",
+  "loc": 65,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T20:23:42.373424+00:00",
+  "repo_url": "https://github.com/lewagon/dotfiles.git",
+  "ref": "HEAD",
+  "commit_hash": "0e5fdfef9de0afbb7078492f0e1b740230df8b89",
+  "clone_duration_seconds": 0.8513188362121582,
+  "count_duration_seconds": 0.0023229122161865234,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-top-100-forks",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

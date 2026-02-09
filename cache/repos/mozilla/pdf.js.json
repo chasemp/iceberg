@@ -1,0 +1,12 @@
+{
+  "owner": "mozilla",
+  "name": "pdf.js",
+  "url": "https://github.com/mozilla/pdf.js",
+  "description": "PDF Reader in JavaScript",
+  "language": "JavaScript",
+  "stars": 52812,
+  "categories": {
+    "search": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

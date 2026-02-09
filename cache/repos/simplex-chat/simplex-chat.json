@@ -1,0 +1,12 @@
+{
+  "owner": "simplex-chat",
+  "name": "simplex-chat",
+  "url": "https://github.com/simplex-chat/simplex-chat",
+  "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps \ud83d\udcf1!",
+  "language": "Haskell",
+  "stars": 10363,
+  "categories": {
+    "github-ranking-haskell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "bagisto",
+  "name": "bagisto",
+  "url": "https://github.com/bagisto/bagisto",
+  "description": "Free and open source laravel eCommerce platform",
+  "language": "PHP",
+  "stars": 25397,
+  "categories": {
+    "github-ranking-php": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

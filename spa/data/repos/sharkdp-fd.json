@@ -1,0 +1,24 @@
+{
+  "owner": "sharkdp",
+  "repo": "fd",
+  "full_name": "sharkdp/fd",
+  "url": "https://github.com/sharkdp/fd",
+  "analysis": {
+    "owner": "sharkdp",
+    "repo": "fd",
+    "version": "HEAD",
+    "loc": 3551,
+    "source": "github_clone",
+    "cached_at": "2026-02-05T22:28:35.743051+00:00",
+    "package": {
+      "system": "cargo",
+      "name": "fd-find",
+      "version": "10.3.0"
+    },
+    "repo_url": "https://github.com/sharkdp/fd.git",
+    "ref": "v10.3.0",
+    "commit_hash": "d38148f0aabdd073b4080cde770f679f3197b920",
+    "clone_duration_seconds": 0.9381711483001709,
+    "count_duration_seconds": 0.0048160552978515625
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "com.google.code.gson:gson",
+    "version": "2.2.4"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:28:09.322583+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/com.google.code.gson:gson/versions/2.2.4",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.10991311073303223,
+  "count_duration_seconds": null
+}

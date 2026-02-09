@@ -1,0 +1,12 @@
+{
+  "owner": "rtyley",
+  "name": "bfg-repo-cleaner",
+  "url": "https://github.com/rtyley/bfg-repo-cleaner",
+  "description": "Removes large or troublesome blobs like git-filter-branch does, but faster. And written in Scala",
+  "language": "Scala",
+  "stars": 11967,
+  "categories": {
+    "github-ranking-scala": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

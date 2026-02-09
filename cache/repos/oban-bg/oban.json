@@ -1,0 +1,12 @@
+{
+  "owner": "oban-bg",
+  "name": "oban",
+  "url": "https://github.com/oban-bg/oban",
+  "description": "\ud83d\udc8e Robust job processing in Elixir, backed by modern PostgreSQL, SQLite3, and MySQL",
+  "language": "Elixir",
+  "stars": 3791,
+  "categories": {
+    "github-ranking-elixir": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

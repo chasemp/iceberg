@@ -1,0 +1,12 @@
+{
+  "owner": "jellyfin",
+  "name": "jellyfin",
+  "url": "https://github.com/jellyfin/jellyfin",
+  "description": "The Free Software Media System - Server Backend & API",
+  "language": "C#",
+  "stars": 48397,
+  "categories": {
+    "github-ranking-csharp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

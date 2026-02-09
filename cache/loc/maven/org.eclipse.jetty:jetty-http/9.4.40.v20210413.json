@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "org.eclipse.jetty:jetty-http",
+    "version": "9.4.40.v20210413"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:28:17.426762+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/org.eclipse.jetty:jetty-http/versions/9.4.40.v20210413",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.12086987495422363,
+  "count_duration_seconds": null
+}

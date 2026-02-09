@@ -1,0 +1,19 @@
+{
+  "owner": "typst",
+  "repo": "typst",
+  "version": "HEAD",
+  "loc": 86969,
+  "source": "github_clone",
+  "cached_at": "2026-02-05T22:31:39.977234+00:00",
+  "total_loc": 0,
+  "ratio": 0.0,
+  "repo_url": "https://github.com/typst/typst.git",
+  "ref": "HEAD",
+  "commit_hash": "97132e28c41a954d8c80098df5fff01133003a72",
+  "clone_duration_seconds": 1.960205078125,
+  "count_duration_seconds": 0.04995107650756836,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-rust",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

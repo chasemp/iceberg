@@ -1,0 +1,12 @@
+{
+  "owner": "microsoft",
+  "name": "SynapseML",
+  "url": "https://github.com/microsoft/SynapseML",
+  "description": "Simple and Distributed Machine Learning",
+  "language": "Scala",
+  "stars": 5198,
+  "categories": {
+    "github-ranking-scala": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "Alamofire",
+  "name": "Alamofire",
+  "url": "https://github.com/Alamofire/Alamofire",
+  "description": "Elegant HTTP Networking in Swift",
+  "language": "Swift",
+  "stars": 42342,
+  "categories": {
+    "github-ranking-swift": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

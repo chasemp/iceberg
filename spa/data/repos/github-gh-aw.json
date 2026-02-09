@@ -1,0 +1,30 @@
+{
+  "owner": "github",
+  "repo": "gh-aw",
+  "full_name": "github/gh-aw",
+  "url": "https://github.com/github/gh-aw",
+  "analysis": {
+    "owner": "github",
+    "repo": "gh-aw",
+    "version": "HEAD",
+    "loc": 388894,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T19:38:09.080003+00:00",
+    "package": {
+      "system": "go",
+      "name": "github.com/github/gh-aw",
+      "version": "v0.0.0"
+    },
+    "total_loc": 9306,
+    "ratio": 0.023370165745856354,
+    "repo_url": "https://github.com/github/gh-aw.git",
+    "ref": "HEAD",
+    "commit_hash": "230cbb59c717a0da2e031aebbc65f6b782e89eec",
+    "clone_duration_seconds": 13.783720970153809,
+    "count_duration_seconds": 0.20131206512451172,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "trending-weekly",
+    "tracked": false,
+    "maintenance_priority": "low"
+  }
+}

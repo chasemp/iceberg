@@ -1,0 +1,15 @@
+{
+  "owner": "trekhleb",
+  "name": "javascript-algorithms",
+  "url": "https://github.com/trekhleb/javascript-algorithms",
+  "description": "\ud83d\udcdd Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
+  "language": "JavaScript",
+  "stars": 195532,
+  "categories": {
+    "search": "2026-02-09",
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-top-100-forks": "2026-02-09",
+    "github-ranking-javascript": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

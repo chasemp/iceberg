@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "io.netty:netty-codec-http2",
+    "version": "4.1.93.Final"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:21:01.281935+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/io.netty:netty-codec-http2/versions/4.1.93.Final",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.12550091743469238,
+  "count_duration_seconds": null
+}

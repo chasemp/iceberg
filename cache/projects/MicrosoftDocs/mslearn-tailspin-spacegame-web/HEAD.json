@@ -1,0 +1,19 @@
+{
+  "owner": "MicrosoftDocs",
+  "repo": "mslearn-tailspin-spacegame-web",
+  "version": "HEAD",
+  "loc": 1073,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T20:24:23.536536+00:00",
+  "total_loc": 44900,
+  "ratio": 0.9766602136036369,
+  "repo_url": "https://github.com/MicrosoftDocs/mslearn-tailspin-spacegame-web.git",
+  "ref": "HEAD",
+  "commit_hash": "d8a0e56340ce985823a6fe3914604322230b2d2a",
+  "clone_duration_seconds": 1.0116851329803467,
+  "count_duration_seconds": 0.007124900817871094,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-top-100-forks",
+  "tracked": false,
+  "maintenance_priority": "low"
+}

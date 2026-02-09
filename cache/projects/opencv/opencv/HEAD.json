@@ -1,0 +1,17 @@
+{
+  "owner": "opencv",
+  "repo": "opencv",
+  "version": "HEAD",
+  "loc": 1306211,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T20:16:10.829628+00:00",
+  "repo_url": "https://github.com/opencv/opencv.git",
+  "ref": "HEAD",
+  "commit_hash": "8ccbf4c5e47a195537d012ebe3dc3a08cd3a32c5",
+  "clone_duration_seconds": 12.171581983566284,
+  "count_duration_seconds": 0.661442756652832,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-top-100-forks",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

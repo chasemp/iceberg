@@ -1,0 +1,12 @@
+{
+  "owner": "caddyserver",
+  "name": "caddy",
+  "url": "https://github.com/caddyserver/caddy",
+  "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+  "language": "Go",
+  "stars": 69719,
+  "categories": {
+    "github-ranking-go": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

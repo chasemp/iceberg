@@ -1,0 +1,12 @@
+{
+  "owner": "jump-dev",
+  "name": "JuMP.jl",
+  "url": "https://github.com/jump-dev/JuMP.jl",
+  "description": "Modeling language for Mathematical Optimization (linear, mixed-integer, conic, semidefinite, nonlinear)",
+  "language": "Julia",
+  "stars": 2404,
+  "categories": {
+    "github-ranking-julia": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

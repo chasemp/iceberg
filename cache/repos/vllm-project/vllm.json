@@ -1,0 +1,12 @@
+{
+  "owner": "vllm-project",
+  "name": "vllm",
+  "url": "https://github.com/vllm-project/vllm",
+  "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+  "language": "Python",
+  "stars": 69902,
+  "categories": {
+    "search": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

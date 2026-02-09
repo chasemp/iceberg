@@ -1,0 +1,12 @@
+{
+  "owner": "minio",
+  "name": "minio",
+  "url": "https://github.com/minio/minio",
+  "description": "MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.",
+  "language": "Go",
+  "stars": 60151,
+  "categories": {
+    "github-ranking-go": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

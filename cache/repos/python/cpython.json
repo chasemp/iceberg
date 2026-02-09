@@ -1,0 +1,13 @@
+{
+  "owner": "python",
+  "name": "cpython",
+  "url": "https://github.com/python/cpython",
+  "description": "The Python programming language",
+  "language": "Python",
+  "stars": 71419,
+  "categories": {
+    "search": "2026-02-09",
+    "github-ranking-top-100-forks": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

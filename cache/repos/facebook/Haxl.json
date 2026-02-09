@@ -1,0 +1,12 @@
+{
+  "owner": "facebook",
+  "name": "Haxl",
+  "url": "https://github.com/facebook/Haxl",
+  "description": "A Haskell library that simplifies access to remote data, such as databases or web-based services.",
+  "language": "Haskell",
+  "stars": 4440,
+  "categories": {
+    "github-ranking-haskell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

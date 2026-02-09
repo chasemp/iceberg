@@ -1,0 +1,23 @@
+{
+  "owner": "godotengine",
+  "repo": "godot",
+  "full_name": "godotengine/godot",
+  "url": "https://github.com/godotengine/godot",
+  "analysis": {
+    "owner": "godotengine",
+    "repo": "godot",
+    "version": "HEAD",
+    "loc": 2911673,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T20:06:48.518681+00:00",
+    "repo_url": "https://github.com/godotengine/godot.git",
+    "ref": "HEAD",
+    "commit_hash": "377b5a31752ad5e9c53733639ba0d263e1158645",
+    "clone_duration_seconds": 15.590170860290527,
+    "count_duration_seconds": 1.169524908065796,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-stars",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

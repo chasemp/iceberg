@@ -1,0 +1,12 @@
+{
+  "owner": "LazyVim",
+  "name": "LazyVim",
+  "url": "https://github.com/LazyVim/LazyVim",
+  "description": "Neovim config for the lazy",
+  "language": "Lua",
+  "stars": 24987,
+  "categories": {
+    "github-ranking-lua": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

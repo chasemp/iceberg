@@ -1,0 +1,112 @@
+[
+  {
+    "name": "rust",
+    "owner": "rust-lang",
+    "url": "https://github.com/rust-lang/rust",
+    "description": "Empowering everyone to build reliable and efficient software.",
+    "language": "Rust",
+    "stars": 110132,
+    "source": "github-ranking-rust",
+    "discovered_at": "2026-02-09T18:31:00.702454+00:00",
+    "search_query": null
+  },
+  {
+    "name": "rustdesk",
+    "owner": "rustdesk",
+    "url": "https://github.com/rustdesk/rustdesk",
+    "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+    "language": "Rust",
+    "stars": 107125,
+    "source": "github-ranking-rust",
+    "discovered_at": "2026-02-09T18:31:00.702526+00:00",
+    "search_query": null
+  },
+  {
+    "name": "deno",
+    "owner": "denoland",
+    "url": "https://github.com/denoland/deno",
+    "description": "A modern runtime for JavaScript and TypeScript.",
+    "language": "Rust",
+    "stars": 106094,
+    "source": "github-ranking-rust",
+    "discovered_at": "2026-02-09T18:31:00.702543+00:00",
+    "search_query": null
+  },
+  {
+    "name": "tauri",
+    "owner": "tauri-apps",
+    "url": "https://github.com/tauri-apps/tauri",
+    "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
+    "language": "Rust",
+    "stars": 102457,
+    "source": "github-ranking-rust",
+    "discovered_at": "2026-02-09T18:31:00.702553+00:00",
+    "search_query": null
+  },
+  {
+    "name": "uv",
+    "owner": "astral-sh",
+    "url": "https://github.com/astral-sh/uv",
+    "description": "An extremely fast Python package and project manager, written in Rust.",
+    "language": "Rust",
+    "stars": 78869,
+    "source": "github-ranking-rust",
+    "discovered_at": "2026-02-09T18:31:00.702562+00:00",
+    "search_query": null
+  },
+  {
+    "name": "zed",
+    "owner": "zed-industries",
+    "url": "https://github.com/zed-industries/zed",
+    "description": "Code at the speed of thought \u2013 Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+    "language": "Rust",
+    "stars": 74984,
+    "source": "github-ranking-rust",
+    "discovered_at": "2026-02-09T18:31:00.702572+00:00",
+    "search_query": null
+  },
+  {
+    "name": "union",
+    "owner": "unionlabs",
+    "url": "https://github.com/unionlabs/union",
+    "description": "The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.",
+    "language": "Rust",
+    "stars": 74335,
+    "source": "github-ranking-rust",
+    "discovered_at": "2026-02-09T18:31:00.702580+00:00",
+    "search_query": null
+  },
+  {
+    "name": "alacritty",
+    "owner": "alacritty",
+    "url": "https://github.com/alacritty/alacritty",
+    "description": "A cross-platform, OpenGL terminal emulator.",
+    "language": "Rust",
+    "stars": 62340,
+    "source": "github-ranking-rust",
+    "discovered_at": "2026-02-09T18:31:00.702587+00:00",
+    "search_query": null
+  },
+  {
+    "name": "sway",
+    "owner": "FuelLabs",
+    "url": "https://github.com/FuelLabs/sway",
+    "description": "\ud83c\udf34 Empowering everyone to build reliable and efficient smart contracts.",
+    "language": "Rust",
+    "stars": 61963,
+    "source": "github-ranking-rust",
+    "discovered_at": "2026-02-09T18:31:00.702595+00:00",
+    "search_query": null
+  },
+  {
+    "name": "rustlings",
+    "owner": "rust-lang",
+    "url": "https://github.com/rust-lang/rustlings",
+    "description": ":crab: Small exercises to get you used to reading and writing Rust code!",
+    "language": "Rust",
+    "stars": 61751,
+    "source": "github-ranking-rust",
+    "discovered_at": "2026-02-09T18:31:00.702603+00:00",
+    "search_query": null
+  }
+]

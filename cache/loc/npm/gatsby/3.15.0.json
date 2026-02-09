@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "gatsby",
+    "version": "3.15.0"
+  },
+  "total_lines": 14710,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-05T22:21:24.106144+00:00",
+  "source_url": "https://registry.npmjs.org/gatsby/-/gatsby-3.15.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 1.7103948593139648,
+  "count_duration_seconds": null
+}

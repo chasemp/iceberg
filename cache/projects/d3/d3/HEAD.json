@@ -1,0 +1,24 @@
+{
+  "owner": "d3",
+  "repo": "d3",
+  "version": "HEAD",
+  "loc": 1422,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T20:05:12.455917+00:00",
+  "package": {
+    "system": "npm",
+    "name": "d3",
+    "version": "7.9.0"
+  },
+  "total_loc": 12058,
+  "ratio": 0.8945103857566765,
+  "repo_url": "https://github.com/d3/d3.git",
+  "ref": "v7.9.0",
+  "commit_hash": "1f8dd3b92960f58726006532c11e9457864513ec",
+  "clone_duration_seconds": 1.1384727954864502,
+  "count_duration_seconds": 0.006819963455200195,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-top-100-stars",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

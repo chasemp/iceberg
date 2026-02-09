@@ -1,0 +1,21 @@
+{
+  "owner": "alacritty",
+  "repo": "alacritty",
+  "full_name": "alacritty/alacritty",
+  "url": "https://github.com/alacritty/alacritty",
+  "analysis": {
+    "owner": "alacritty",
+    "repo": "alacritty",
+    "version": "HEAD",
+    "loc": 23740,
+    "source": "github_clone",
+    "cached_at": "2026-02-05T22:18:43.347105+00:00",
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/alacritty/alacritty.git",
+    "ref": "HEAD",
+    "commit_hash": "4225cea231432fb23442b1da2463b4ec9dfd726c",
+    "clone_duration_seconds": 1.240854024887085,
+    "count_duration_seconds": 0.014801979064941406
+  }
+}

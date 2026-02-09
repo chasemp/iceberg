@@ -1,0 +1,12 @@
+{
+  "owner": "microsoft",
+  "name": "semantic-kernel",
+  "url": "https://github.com/microsoft/semantic-kernel",
+  "description": "Integrate cutting-edge LLM technology quickly and easily into your apps",
+  "language": "C#",
+  "stars": 27191,
+  "categories": {
+    "github-ranking-csharp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

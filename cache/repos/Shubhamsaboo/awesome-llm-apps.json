@@ -1,0 +1,13 @@
+{
+  "owner": "Shubhamsaboo",
+  "name": "awesome-llm-apps",
+  "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+  "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
+  "language": "Python",
+  "stars": 92894,
+  "categories": {
+    "search": "2026-02-09",
+    "github-ranking-python": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

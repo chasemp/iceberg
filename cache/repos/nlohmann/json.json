@@ -1,0 +1,12 @@
+{
+  "owner": "nlohmann",
+  "name": "json",
+  "url": "https://github.com/nlohmann/json",
+  "description": "JSON for Modern C++",
+  "language": "C++",
+  "stars": 48811,
+  "categories": {
+    "github-ranking-cpp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

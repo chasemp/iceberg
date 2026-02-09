@@ -1,0 +1,16 @@
+{
+  "owner": "n8n-io",
+  "repo": "n8n",
+  "full_name": "n8n-io/n8n",
+  "root_package": "npm:n8n-monorepo:2.7.0",
+  "nodes": [
+    {
+      "id": "npm:n8n-monorepo:2.7.0",
+      "system": "npm",
+      "name": "n8n-monorepo",
+      "version": "2.7.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.172294+00:00"
+}

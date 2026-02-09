@@ -1,0 +1,12 @@
+{
+  "owner": "pi-hole",
+  "name": "pi-hole",
+  "url": "https://github.com/pi-hole/pi-hole",
+  "description": "A black hole for Internet advertisements",
+  "language": "Shell",
+  "stars": 55599,
+  "categories": {
+    "github-ranking-shell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

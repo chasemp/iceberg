@@ -1,0 +1,24 @@
+{
+  "owner": "twbs",
+  "repo": "bootstrap",
+  "version": "HEAD",
+  "loc": 5442,
+  "source": "github_clone",
+  "cached_at": "2026-02-05T22:31:32.309724+00:00",
+  "package": {
+    "system": "npm",
+    "name": "bootstrap",
+    "version": "5.3.8"
+  },
+  "total_loc": 42712,
+  "ratio": 0.8869875815093242,
+  "repo_url": "https://github.com/twbs/bootstrap.git",
+  "ref": "v5.3.8",
+  "commit_hash": "25aa8cc0b32f0d1a54be575347e6d84b70b1acd7",
+  "clone_duration_seconds": 1.7402980327606201,
+  "count_duration_seconds": 0.013974905014038086,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-top-100-stars",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

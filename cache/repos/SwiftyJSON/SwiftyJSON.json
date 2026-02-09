@@ -1,0 +1,12 @@
+{
+  "owner": "SwiftyJSON",
+  "name": "SwiftyJSON",
+  "url": "https://github.com/SwiftyJSON/SwiftyJSON",
+  "description": "The better way to deal with JSON data in Swift.",
+  "language": "Swift",
+  "stars": 22993,
+  "categories": {
+    "github-ranking-swift": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

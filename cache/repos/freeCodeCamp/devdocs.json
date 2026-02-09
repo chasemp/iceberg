@@ -1,0 +1,12 @@
+{
+  "owner": "freeCodeCamp",
+  "name": "devdocs",
+  "url": "https://github.com/freeCodeCamp/devdocs",
+  "description": "API Documentation Browser",
+  "language": "Ruby",
+  "stars": 38465,
+  "categories": {
+    "github-ranking-ruby": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

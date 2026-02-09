@@ -1,0 +1,12 @@
+{
+  "owner": "RikkaApps",
+  "name": "Shizuku",
+  "url": "https://github.com/RikkaApps/Shizuku",
+  "description": "Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.",
+  "language": "Kotlin",
+  "stars": 21658,
+  "categories": {
+    "github-ranking-kotlin": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

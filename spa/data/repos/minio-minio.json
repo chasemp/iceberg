@@ -1,0 +1,28 @@
+{
+  "owner": "minio",
+  "repo": "minio",
+  "full_name": "minio/minio",
+  "url": "https://github.com/minio/minio",
+  "analysis": {
+    "owner": "minio",
+    "repo": "minio",
+    "version": "HEAD",
+    "loc": 274736,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T21:46:11.025381+00:00",
+    "package": {
+      "system": "go",
+      "name": "github.com/minio/minio",
+      "version": "v0.0.0"
+    },
+    "repo_url": "https://github.com/minio/minio.git",
+    "ref": "HEAD",
+    "commit_hash": "be7800c8136eadff2ba012412dd6c2e5fdcb548a",
+    "clone_duration_seconds": 3.936264991760254,
+    "count_duration_seconds": 0.12149596214294434,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-go",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

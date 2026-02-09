@@ -1,0 +1,12 @@
+{
+  "owner": "SciML",
+  "name": "DifferentialEquations.jl",
+  "url": "https://github.com/SciML/DifferentialEquations.jl",
+  "description": "Multi-language suite for high-performance solvers of differential equations and scientific machine learning (SciML) components. Ordinary differential equations (ODEs), stochastic differential equations (SDEs), delay differential equations (DDEs), differential-algebraic equations (DAEs), and more in Julia.",
+  "language": "Julia",
+  "stars": 3056,
+  "categories": {
+    "github-ranking-julia": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

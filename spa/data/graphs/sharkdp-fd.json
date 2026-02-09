@@ -1,0 +1,16 @@
+{
+  "owner": "sharkdp",
+  "repo": "fd",
+  "full_name": "sharkdp/fd",
+  "root_package": "cargo:fd-find:10.3.0",
+  "nodes": [
+    {
+      "id": "cargo:fd-find:10.3.0",
+      "system": "cargo",
+      "name": "fd-find",
+      "version": "10.3.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.159526+00:00"
+}

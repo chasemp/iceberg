@@ -1,0 +1,13 @@
+{
+  "owner": "shadcn-ui",
+  "name": "ui",
+  "url": "https://github.com/shadcn-ui/ui",
+  "description": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
+  "language": "TypeScript",
+  "stars": 106318,
+  "categories": {
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-typescript": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

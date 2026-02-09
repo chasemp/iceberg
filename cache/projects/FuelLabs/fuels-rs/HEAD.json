@@ -1,0 +1,13 @@
+{
+  "owner": "FuelLabs",
+  "repo": "fuels-rs",
+  "version": "HEAD",
+  "loc": 24701,
+  "source": "github_clone",
+  "cached_at": "2026-02-05T22:18:11.344507+00:00",
+  "repo_url": "https://github.com/FuelLabs/fuels-rs.git",
+  "ref": "HEAD",
+  "commit_hash": "865e00c295de8b4a0a1ef7ac926c3c8266d5151b",
+  "clone_duration_seconds": 1.1109511852264404,
+  "count_duration_seconds": 0.03445911407470703
+}

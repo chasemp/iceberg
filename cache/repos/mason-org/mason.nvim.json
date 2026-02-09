@@ -1,0 +1,12 @@
+{
+  "owner": "mason-org",
+  "name": "mason.nvim",
+  "url": "https://github.com/mason-org/mason.nvim",
+  "description": "Portable package manager for Neovim that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers, linters, and formatters.",
+  "language": "Lua",
+  "stars": 10007,
+  "categories": {
+    "github-ranking-lua": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

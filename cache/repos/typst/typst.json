@@ -1,0 +1,12 @@
+{
+  "owner": "typst",
+  "name": "typst",
+  "url": "https://github.com/typst/typst",
+  "description": "A markup-based typesetting system that is powerful and easy to learn.",
+  "language": "Rust",
+  "stars": 51143,
+  "categories": {
+    "github-ranking-rust": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

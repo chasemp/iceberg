@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "fsevents",
+    "version": "1.2.7"
+  },
+  "total_lines": 93,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-09T20:28:56.153735+00:00",
+  "source_url": "https://registry.npmjs.org/fsevents/-/fsevents-1.2.7.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.6911149024963379,
+  "count_duration_seconds": null
+}

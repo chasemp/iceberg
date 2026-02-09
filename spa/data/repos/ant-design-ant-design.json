@@ -1,0 +1,28 @@
+{
+  "owner": "ant-design",
+  "repo": "ant-design",
+  "full_name": "ant-design/ant-design",
+  "url": "https://github.com/ant-design/ant-design",
+  "analysis": {
+    "owner": "ant-design",
+    "repo": "ant-design",
+    "version": "HEAD",
+    "loc": 157362,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T20:11:04.466224+00:00",
+    "package": {
+      "system": "npm",
+      "name": "antd",
+      "version": "6.2.3"
+    },
+    "repo_url": "https://github.com/ant-design/ant-design.git",
+    "ref": "HEAD",
+    "commit_hash": "8f723775a7f35f1a79ddcd5af41fb30130690acc",
+    "clone_duration_seconds": 4.1358747482299805,
+    "count_duration_seconds": 0.25312089920043945,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-stars",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

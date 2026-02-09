@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "net.minidev:json-smart",
+    "version": "2.4.2"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:28:12.991145+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/net.minidev:json-smart/versions/2.4.2",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11719489097595215,
+  "count_duration_seconds": null
+}

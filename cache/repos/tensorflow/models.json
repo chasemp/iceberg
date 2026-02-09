@@ -1,0 +1,13 @@
+{
+  "owner": "tensorflow",
+  "name": "models",
+  "url": "https://github.com/tensorflow/models",
+  "description": "Models and examples built with TensorFlow",
+  "language": "Python",
+  "stars": 77694,
+  "categories": {
+    "search": "2026-02-09",
+    "github-ranking-top-100-forks": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

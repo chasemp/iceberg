@@ -1,0 +1,28 @@
+{
+  "owner": "apache",
+  "repo": "dubbo",
+  "full_name": "apache/dubbo",
+  "url": "https://github.com/apache/dubbo",
+  "analysis": {
+    "owner": "apache",
+    "repo": "dubbo",
+    "version": "HEAD",
+    "loc": 194528,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T20:26:18.781935+00:00",
+    "package": {
+      "system": "maven",
+      "name": "apache",
+      "version": "23"
+    },
+    "repo_url": "https://github.com/apache/dubbo.git",
+    "ref": "HEAD",
+    "commit_hash": "678d2a7831a5e0bb5c5b66af8f35b9023ecc353b",
+    "clone_duration_seconds": 3.3495962619781494,
+    "count_duration_seconds": 0.5399138927459717,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-forks",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

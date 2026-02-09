@@ -1,0 +1,16 @@
+{
+  "owner": "DefinitelyTyped",
+  "repo": "DefinitelyTyped",
+  "full_name": "DefinitelyTyped/DefinitelyTyped",
+  "root_package": "npm:definitely-typed:0.0.3",
+  "nodes": [
+    {
+      "id": "npm:definitely-typed:0.0.3",
+      "system": "npm",
+      "name": "definitely-typed",
+      "version": "0.0.3"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.161664+00:00"
+}

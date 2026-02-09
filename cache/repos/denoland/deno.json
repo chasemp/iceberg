@@ -1,0 +1,13 @@
+{
+  "owner": "denoland",
+  "name": "deno",
+  "url": "https://github.com/denoland/deno",
+  "description": "A modern runtime for JavaScript and TypeScript.",
+  "language": "Rust",
+  "stars": 106094,
+  "categories": {
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-rust": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

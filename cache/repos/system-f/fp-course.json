@@ -1,0 +1,12 @@
+{
+  "owner": "system-f",
+  "name": "fp-course",
+  "url": "https://github.com/system-f/fp-course",
+  "description": "Functional Programming Course",
+  "language": "Haskell",
+  "stars": 4232,
+  "categories": {
+    "github-ranking-haskell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

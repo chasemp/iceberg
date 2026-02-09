@@ -1,0 +1,12 @@
+{
+  "owner": "supabase",
+  "name": "realtime",
+  "url": "https://github.com/supabase/realtime",
+  "description": "Broadcast, Presence, and Postgres Changes via WebSockets",
+  "language": "Elixir",
+  "stars": 7482,
+  "categories": {
+    "github-ranking-elixir": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

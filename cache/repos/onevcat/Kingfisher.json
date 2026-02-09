@@ -1,0 +1,12 @@
+{
+  "owner": "onevcat",
+  "name": "Kingfisher",
+  "url": "https://github.com/onevcat/Kingfisher",
+  "description": "A lightweight, pure-Swift library for downloading and caching images from the web.",
+  "language": "Swift",
+  "stars": 24266,
+  "categories": {
+    "github-ranking-swift": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

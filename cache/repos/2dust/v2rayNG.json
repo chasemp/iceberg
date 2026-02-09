@@ -1,0 +1,12 @@
+{
+  "owner": "2dust",
+  "name": "v2rayNG",
+  "url": "https://github.com/2dust/v2rayNG",
+  "description": "A V2Ray client for Android, support Xray core and v2fly core",
+  "language": "Kotlin",
+  "stars": 50751,
+  "categories": {
+    "github-ranking-kotlin": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

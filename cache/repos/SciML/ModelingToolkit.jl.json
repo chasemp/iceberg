@@ -1,0 +1,12 @@
+{
+  "owner": "SciML",
+  "name": "ModelingToolkit.jl",
+  "url": "https://github.com/SciML/ModelingToolkit.jl",
+  "description": "An acausal modeling framework for automatically parallelized scientific machine learning (SciML) in Julia. A computer algebra system for integrated symbolics for physics-informed machine learning and automated transformations of differential equations",
+  "language": "Julia",
+  "stars": 1603,
+  "categories": {
+    "github-ranking-julia": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

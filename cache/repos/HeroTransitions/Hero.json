@@ -1,0 +1,12 @@
+{
+  "owner": "HeroTransitions",
+  "name": "Hero",
+  "url": "https://github.com/HeroTransitions/Hero",
+  "description": "Elegant transition library for iOS & tvOS",
+  "language": "Swift",
+  "stars": 22462,
+  "categories": {
+    "github-ranking-swift": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

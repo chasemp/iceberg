@@ -1,0 +1,30 @@
+{
+  "owner": "pocketbase",
+  "repo": "pocketbase",
+  "full_name": "pocketbase/pocketbase",
+  "url": "https://github.com/pocketbase/pocketbase",
+  "analysis": {
+    "owner": "pocketbase",
+    "repo": "pocketbase",
+    "version": "HEAD",
+    "loc": 102290,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T21:47:19.981816+00:00",
+    "package": {
+      "system": "go",
+      "name": "github.com/pocketbase/pocketbase",
+      "version": "v0.0.0"
+    },
+    "total_loc": 2843,
+    "ratio": 0.027041937355540124,
+    "repo_url": "https://github.com/pocketbase/pocketbase.git",
+    "ref": "HEAD",
+    "commit_hash": "90e9fa705dd6ae998c5d435770146e47a58af2e0",
+    "clone_duration_seconds": 2.7492799758911133,
+    "count_duration_seconds": 0.07354903221130371,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-go",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

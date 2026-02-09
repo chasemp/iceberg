@@ -1,0 +1,16 @@
+{
+  "owner": "tailwindlabs",
+  "repo": "tailwindcss",
+  "full_name": "tailwindlabs/tailwindcss",
+  "root_package": "npm:@tailwindcss/root:1.0.0",
+  "nodes": [
+    {
+      "id": "npm:@tailwindcss/root:1.0.0",
+      "system": "npm",
+      "name": "@tailwindcss/root",
+      "version": "1.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.178789+00:00"
+}

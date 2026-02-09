@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "clipboard",
+    "version": "0.1.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:28:17.130892+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/clipboard/versions/0.1.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11895179748535156,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "chownr",
+    "version": "1.0.1"
+  },
+  "total_lines": 45,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-09T20:28:54.834799+00:00",
+  "source_url": "https://registry.npmjs.org/chownr/-/chownr-1.0.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.6192338466644287,
+  "count_duration_seconds": null
+}

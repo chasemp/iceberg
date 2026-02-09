@@ -1,0 +1,12 @@
+{
+  "owner": "prisma",
+  "name": "prisma1",
+  "url": "https://github.com/prisma/prisma1",
+  "description": "\ud83d\udcbe Database Tools incl. ORM, Migrations and Admin UI (Postgres, MySQL & MongoDB) [deprecated]",
+  "language": "Scala",
+  "stars": 16432,
+  "categories": {
+    "github-ranking-scala": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

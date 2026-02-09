@@ -1,0 +1,17 @@
+{
+  "owner": "TeamNewPipe",
+  "repo": "NewPipe",
+  "version": "HEAD",
+  "loc": 58649,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T21:40:39.225163+00:00",
+  "repo_url": "https://github.com/TeamNewPipe/NewPipe.git",
+  "ref": "HEAD",
+  "commit_hash": "6214ae33f3ee2ca536a51fb950bff31891cba4af",
+  "clone_duration_seconds": 3.9981889724731445,
+  "count_duration_seconds": 0.11942028999328613,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-java",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "nanoid",
+    "version": "4.0.0"
+  },
+  "total_lines": 261,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-09T21:40:25.736432+00:00",
+  "source_url": "https://registry.npmjs.org/nanoid/-/nanoid-4.0.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.5762989521026611,
+  "count_duration_seconds": null
+}

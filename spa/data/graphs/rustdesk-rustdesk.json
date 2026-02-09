@@ -1,0 +1,16 @@
+{
+  "owner": "rustdesk",
+  "repo": "rustdesk",
+  "full_name": "rustdesk/rustdesk",
+  "root_package": "cargo:rustdesk:1.4.5",
+  "nodes": [
+    {
+      "id": "cargo:rustdesk:1.4.5",
+      "system": "cargo",
+      "name": "rustdesk",
+      "version": "1.4.5"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.154947+00:00"
+}

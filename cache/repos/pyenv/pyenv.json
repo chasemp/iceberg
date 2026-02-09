@@ -1,0 +1,12 @@
+{
+  "owner": "pyenv",
+  "name": "pyenv",
+  "url": "https://github.com/pyenv/pyenv",
+  "description": "Simple Python version management",
+  "language": "Shell",
+  "stars": 44233,
+  "categories": {
+    "github-ranking-shell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

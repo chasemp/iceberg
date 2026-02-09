@@ -1,0 +1,13 @@
+{
+  "owner": "microsoft",
+  "name": "TypeScript",
+  "url": "https://github.com/microsoft/TypeScript",
+  "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+  "language": "TypeScript",
+  "stars": 107733,
+  "categories": {
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-typescript": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

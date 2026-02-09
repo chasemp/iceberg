@@ -1,0 +1,12 @@
+{
+  "owner": "FluxML",
+  "name": "Flux.jl",
+  "url": "https://github.com/FluxML/Flux.jl",
+  "description": "Relax! Flux is the ML library that doesn't make you tensor",
+  "language": "Julia",
+  "stars": 4698,
+  "categories": {
+    "github-ranking-julia": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "DigitalPlatDev",
+  "repo": "FreeDomain",
+  "full_name": "DigitalPlatDev/FreeDomain",
+  "url": "https://github.com/DigitalPlatDev/FreeDomain",
+  "analysis": {
+    "owner": "DigitalPlatDev",
+    "repo": "FreeDomain",
+    "version": "HEAD",
+    "loc": 127,
+    "source": "github_clone",
+    "cached_at": "2026-02-05T22:17:54.968080+00:00",
+    "repo_url": "https://github.com/DigitalPlatDev/FreeDomain.git",
+    "ref": "HEAD",
+    "commit_hash": "a83c54da59a8d6b072096703d92294de161d4d3c",
+    "clone_duration_seconds": 1.0504820346832275,
+    "count_duration_seconds": 0.00279998779296875
+  }
+}

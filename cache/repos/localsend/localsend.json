@@ -1,0 +1,12 @@
+{
+  "owner": "localsend",
+  "name": "localsend",
+  "url": "https://github.com/localsend/localsend",
+  "description": "An open-source cross-platform alternative to AirDrop",
+  "language": "Dart",
+  "stars": 74628,
+  "categories": {
+    "github-ranking-dart": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

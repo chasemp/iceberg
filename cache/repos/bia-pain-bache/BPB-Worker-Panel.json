@@ -1,0 +1,12 @@
+{
+  "owner": "bia-pain-bache",
+  "name": "BPB-Worker-Panel",
+  "url": "https://github.com/bia-pain-bache/BPB-Worker-Panel",
+  "description": "A GUI Panel providing Worker subscriptions for VLESS, Trojan and Warp configs alongside chain proxies, offering full DNS, clean IP,  Fragment, Warp, Warp pro and routing settings for cross-platform clients using Amnezia, Wireguard, Sing-box, Clash/Mihomo and Xray cores.",
+  "language": "TypeScript",
+  "stars": 9776,
+  "categories": {
+    "github-ranking-top-100-forks": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

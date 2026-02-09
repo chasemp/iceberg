@@ -1,0 +1,12 @@
+{
+  "owner": "nvim-telescope",
+  "name": "telescope.nvim",
+  "url": "https://github.com/nvim-telescope/telescope.nvim",
+  "description": "Find, Filter, Preview, Pick. All lua, all the time.",
+  "language": "Lua",
+  "stars": 19017,
+  "categories": {
+    "github-ranking-lua": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

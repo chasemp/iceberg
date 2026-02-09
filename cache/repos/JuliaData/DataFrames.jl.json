@@ -1,0 +1,12 @@
+{
+  "owner": "JuliaData",
+  "name": "DataFrames.jl",
+  "url": "https://github.com/JuliaData/DataFrames.jl",
+  "description": "In-memory tabular data in Julia",
+  "language": "Julia",
+  "stars": 1807,
+  "categories": {
+    "github-ranking-julia": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}
