@@ -5,11 +5,11 @@ let state = {
     index: null,
     selectedDimension: null,
     filters: {
-        source: 'all',
-        timeframe: 'all',
-        language: 'all',
-        aiTools: 'all',
-        onlyWithDeps: false  // New: toggle to show only repos with dependencies
+        onlyWithDeps: false,  // Toggle to show only repos with dependencies
+        trending: ['weekly', 'monthly'],  // Selected trending timeframes: 'weekly', 'monthly'
+        stars: ['0-100', '100-1000', '1000-10000', '10000+'],  // Selected star ranges
+        languages: [],  // Selected languages (populated on load with all languages)
+        aiTools: []  // Selected AI tools (empty = show all repos including those without AI tools)
     },
     sort: 'stars-desc',
     searchQuery: '',
@@ -21,15 +21,21 @@ document.addEventListener('DOMContentLoaded', async () => {
     setupEventListeners();
     await loadData();
     renderStatistics();
-    renderDimensions();
     populateLanguageFilter();
+
+    // Initialize dropdown button labels to reflect default selections
+    initializeDropdownLabels();
+
+    // Show all repositories by default
+    await renderFilteredRepositories();
+
+    // Update dropdown counts with initial filter state
+    await updateDropdownCounts();
 
     // Handle initial URL
     const hash = window.location.hash.slice(1); // Remove #
     if (hash) {
         handleHashChange(hash);
-    } else {
-        selectDefaultDimension();
     }
 });
 
@@ -83,65 +89,386 @@ function setupEventListeners() {
         button.addEventListener('click', () => switchTab(button.dataset.tab));
     });
 
-    // Filters
-    document.getElementById('source-filter').addEventListener('change', (e) => {
-        state.filters.source = e.target.value;
-        renderDimensions();
-    });
-
-    document.getElementById('timeframe-filter').addEventListener('change', (e) => {
-        state.filters.timeframe = e.target.value;
-        renderDimensions();
-    });
-
-    document.getElementById('language-filter').addEventListener('change', (e) => {
-        state.filters.language = e.target.value;
-        renderDimensions();
-    });
-
-    document.getElementById('ai-filter').addEventListener('change', (e) => {
-        state.filters.aiTools = e.target.value;
-        renderDimensions();
-    });
-
+    // Sort and search filters
     document.getElementById('sort-select').addEventListener('change', (e) => {
         state.sort = e.target.value;
-        // Re-render current dimension with new sort
-        if (state.selectedDimension) {
-            const dimension = state.index.dimensions.find(d => d.id === state.selectedDimension);
-            if (dimension) {
-                renderRepositories(dimension);
-            }
-        }
+        // Re-render with new sort
+        renderFilteredRepositories();
     });
 
-    document.getElementById('repo-search').addEventListener('input', (e) => {
+    document.getElementById('repo-search').addEventListener('input', async (e) => {
         state.searchQuery = e.target.value;
-        // Re-render current dimension with new search
-        if (state.selectedDimension) {
-            const dimension = state.index.dimensions.find(d => d.id === state.selectedDimension);
-            if (dimension) {
-                renderRepositories(dimension);
-            }
-        }
+        // Re-render with new search
+        await renderFilteredRepositories();
+        await updateDropdownCounts();
     });
 
-    document.getElementById('deps-toggle').addEventListener('change', (e) => {
+    document.getElementById('deps-toggle').addEventListener('change', async (e) => {
         state.filters.onlyWithDeps = e.target.checked;
-        // Re-render current dimension with new filter
-        if (state.selectedDimension) {
-            const dimension = state.index.dimensions.find(d => d.id === state.selectedDimension);
-            if (dimension) {
-                renderRepositories(dimension);
-            }
-        }
+        // Re-render with new filter
+        await renderFilteredRepositories();
+        await updateDropdownCounts();
     });
+
+    // Multiselect dropdowns
+    setupMultiselectDropdowns();
+
+    // Clear and Reset filter buttons
+    document.getElementById('clear-filters-btn').addEventListener('click', clearAllFilters);
+    document.getElementById('reset-filters-btn').addEventListener('click', resetAllFilters);
 
     // Modal close
     document.querySelector('.close').addEventListener('click', closeModal);
     document.getElementById('repo-modal').addEventListener('click', (e) => {
         if (e.target.id === 'repo-modal') closeModal();
     });
+}
+
+// Setup multiselect dropdowns for all filters
+function setupMultiselectDropdowns() {
+    const trendingDropdown = document.querySelector('[data-testid="trending-dropdown"]');
+    const starsDropdown = document.querySelector('[data-testid="stars-dropdown"]');
+    const aiToolsDropdown = document.querySelector('[data-testid="ai-tools-dropdown"]');
+
+    if (trendingDropdown) {
+        setupDropdown(trendingDropdown, 'trending', updateTrendingFilter);
+    }
+
+    if (starsDropdown) {
+        setupDropdown(starsDropdown, 'stars', updateStarsFilter);
+    }
+
+    if (aiToolsDropdown) {
+        setupDropdown(aiToolsDropdown, 'ai-tools', updateAIToolsFilter);
+    }
+
+    // Note: language dropdown is set up in populateLanguageFilter() after options are populated
+
+    // Close dropdowns when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!e.target.closest('.multiselect-dropdown')) {
+            document.querySelectorAll('.multiselect-menu.open').forEach(menu => {
+                menu.classList.remove('open');
+            });
+        }
+    });
+}
+
+function setupDropdown(dropdownElement, filterType, updateCallback) {
+    const button = dropdownElement.querySelector('.multiselect-button');
+    const menu = dropdownElement.querySelector('.multiselect-menu');
+    const checkboxes = menu.querySelectorAll('input[type="checkbox"]');
+
+    // Toggle dropdown
+    button.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const isOpen = menu.classList.contains('open');
+
+        // Close all other dropdowns
+        document.querySelectorAll('.multiselect-menu.open').forEach(m => {
+            if (m !== menu) m.classList.remove('open');
+        });
+
+        // Toggle this dropdown
+        if (isOpen) {
+            menu.classList.remove('open');
+        } else {
+            menu.classList.add('open');
+        }
+    });
+
+    // Handle checkbox changes
+    checkboxes.forEach(checkbox => {
+        checkbox.addEventListener('change', () => {
+            updateCallback();
+            updateDropdownButton(dropdownElement, filterType);
+        });
+    });
+
+    // Prevent menu from closing when clicking inside
+    menu.addEventListener('click', (e) => {
+        e.stopPropagation();
+    });
+}
+
+function updateDropdownButton(dropdownElement, filterType) {
+    const button = dropdownElement.querySelector('.multiselect-button');
+    const label = button.querySelector('.multiselect-label');
+    const menu = dropdownElement.querySelector('.multiselect-menu');
+    const checkboxes = menu.querySelectorAll('input[type="checkbox"]:checked');
+    const count = checkboxes.length;
+
+    if (count === 0) {
+        const placeholders = {
+            'trending': 'Trending',
+            'stars': 'Star ranges',
+            'language': 'Languages',
+            'ai-tools': 'AI Usage'
+        };
+        label.textContent = placeholders[filterType] || 'Select options';
+    } else {
+        const selectedLabels = {
+            'trending': `${count} trending selected`,
+            'stars': `${count} star range${count !== 1 ? 's' : ''}`,
+            'language': `${count} language${count !== 1 ? 's' : ''}`,
+            'ai-tools': `${count} AI Usage${count !== 1 ? 's' : ''}`
+        };
+        label.textContent = selectedLabels[filterType] || `${count} selected`;
+    }
+}
+
+function initializeDropdownLabels() {
+    // Update all dropdown button labels to reflect initial checked state
+    const dropdowns = [
+        { selector: '[data-testid="trending-dropdown"]', type: 'trending' },
+        { selector: '[data-testid="stars-dropdown"]', type: 'stars' },
+        { selector: '[data-testid="ai-tools-dropdown"]', type: 'ai-tools' }
+    ];
+
+    dropdowns.forEach(({ selector, type }) => {
+        const dropdown = document.querySelector(selector);
+        if (dropdown) {
+            updateDropdownButton(dropdown, type);
+        }
+    });
+}
+
+async function updateTrendingFilter() {
+    const menu = document.querySelector('[data-testid="trending-dropdown-menu"]');
+    const checkboxes = menu.querySelectorAll('input[type="checkbox"]:checked');
+    state.filters.trending = Array.from(checkboxes).map(cb => cb.value);
+    await renderFilteredRepositories();
+    await updateDropdownCounts();
+}
+
+async function updateStarsFilter() {
+    const menu = document.querySelector('[data-testid="stars-dropdown-menu"]');
+    const checkboxes = menu.querySelectorAll('input[type="checkbox"]:checked');
+    state.filters.stars = Array.from(checkboxes).map(cb => cb.value);
+    await renderFilteredRepositories();
+    await updateDropdownCounts();
+}
+
+async function updateLanguageFilter() {
+    const menu = document.querySelector('[data-testid="language-dropdown-menu"]');
+    const checkboxes = menu.querySelectorAll('input[type="checkbox"]:checked');
+    state.filters.languages = Array.from(checkboxes).map(cb => cb.value);
+    await renderFilteredRepositories();
+    await updateDropdownCounts();
+}
+
+async function updateAIToolsFilter() {
+    const menu = document.querySelector('[data-testid="ai-tools-dropdown-menu"]');
+    const checkboxes = menu.querySelectorAll('input[type="checkbox"]:checked');
+    state.filters.aiTools = Array.from(checkboxes).map(cb => cb.value);
+    await renderFilteredRepositories();
+    await updateDropdownCounts();
+}
+
+async function clearAllFilters() {
+    // Uncheck all checkboxes in all filter dropdowns
+    document.querySelectorAll('.multiselect-menu input[type="checkbox"]').forEach(cb => {
+        cb.checked = false;
+    });
+
+    // Clear state
+    state.filters.trending = [];
+    state.filters.stars = [];
+    state.filters.languages = [];
+    state.filters.aiTools = [];
+
+    // Update all dropdown button labels
+    updateDropdownButton(document.querySelector('[data-testid="trending-dropdown"]'), 'trending');
+    updateDropdownButton(document.querySelector('[data-testid="stars-dropdown"]'), 'stars');
+    updateDropdownButton(document.querySelector('[data-testid="language-dropdown"]'), 'language');
+    updateDropdownButton(document.querySelector('[data-testid="ai-tools-dropdown"]'), 'ai-tools');
+
+    // Re-render with cleared filters (should show no results)
+    await renderFilteredRepositories();
+    await updateDropdownCounts();
+}
+
+async function resetAllFilters() {
+    // Reset trending filter (weekly, monthly)
+    state.filters.trending = ['weekly', 'monthly'];
+    document.querySelectorAll('[data-testid="trending-dropdown-menu"] input[type="checkbox"]').forEach(cb => {
+        cb.checked = state.filters.trending.includes(cb.value);
+    });
+    updateDropdownButton(document.querySelector('[data-testid="trending-dropdown"]'), 'trending');
+
+    // Reset stars filter (all ranges)
+    state.filters.stars = ['0-100', '100-1000', '1000-10000', '10000+'];
+    document.querySelectorAll('[data-testid="stars-dropdown-menu"] input[type="checkbox"]').forEach(cb => {
+        cb.checked = true;
+    });
+    updateDropdownButton(document.querySelector('[data-testid="stars-dropdown"]'), 'stars');
+
+    // Reset languages filter (all languages)
+    const repos = getAllRepos();
+    const languages = Array.from(new Set(repos.map(r => r.language).filter(Boolean))).sort();
+    state.filters.languages = languages;
+    document.querySelectorAll('[data-testid="language-dropdown-menu"] input[type="checkbox"]').forEach(cb => {
+        cb.checked = true;
+    });
+    updateDropdownButton(document.querySelector('[data-testid="language-dropdown"]'), 'language');
+
+    // Reset AI tools filter (none selected = show all)
+    state.filters.aiTools = [];
+    document.querySelectorAll('[data-testid="ai-tools-dropdown-menu"] input[type="checkbox"]').forEach(cb => {
+        cb.checked = false;
+    });
+    updateDropdownButton(document.querySelector('[data-testid="ai-tools-dropdown"]'), 'ai-tools');
+
+    // Re-render with reset filters
+    await renderFilteredRepositories();
+    await updateDropdownCounts();
+}
+
+async function renderFilteredRepositories() {
+    // Get all repos from all dimensions
+    const allRepos = getAllRepos();
+
+    // If required filters are empty, show no results (user clicked "clear")
+    // Note: AI tools is optional, so not included in this check
+    const requiredFiltersEmpty = state.filters.trending.length === 0 &&
+                                 state.filters.stars.length === 0 &&
+                                 state.filters.languages.length === 0;
+
+    if (requiredFiltersEmpty) {
+        await renderRepositoryList([]);
+        return;
+    }
+
+    // Apply trending filter
+    let filteredRepos = allRepos;
+    if (state.filters.trending.length === 0) {
+        // No trending timeframes selected = filter out all trending repos
+        filteredRepos = filteredRepos.filter(repo => repo.source === 'search');
+    } else {
+        const trendingSources = state.filters.trending.map(t => `trending-${t}`);
+        filteredRepos = filteredRepos.filter(repo => {
+            // If it's a search result, always include it
+            if (repo.source === 'search') return true;
+            // If it's a trending result, check if it matches selected timeframes
+            return trendingSources.includes(repo.source);
+        });
+    }
+
+    // Apply stars filter
+    if (state.filters.stars.length === 0) {
+        // No star ranges selected = filter out all repos
+        filteredRepos = [];
+    } else {
+        filteredRepos = filteredRepos.filter(repo => {
+            const stars = repo.stars || 0;
+            return state.filters.stars.some(range => {
+                if (range === '0-100') return stars >= 0 && stars < 100;
+                if (range === '100-1000') return stars >= 100 && stars < 1000;
+                if (range === '1000-10000') return stars >= 1000 && stars < 10000;
+                if (range === '10000+') return stars >= 10000;
+                return false;
+            });
+        });
+    }
+
+    // Apply other filters (search, language, etc.)
+    filteredRepos = applyAdditionalFilters(filteredRepos);
+
+    // Apply "Only with dependencies" filter (requires async)
+    if (state.filters.onlyWithDeps) {
+        const reposWithDeps = [];
+        for (const repo of filteredRepos) {
+            const hasDeps = await hasActualDependencies(repo);
+            if (hasDeps) {
+                reposWithDeps.push(repo);
+            }
+        }
+        filteredRepos = reposWithDeps;
+    }
+
+    // Sort repos
+    const sortedRepos = sortRepositories(filteredRepos, state.sort);
+
+    // Render the repositories
+    await renderRepositoryList(sortedRepos);
+}
+
+function applyAdditionalFilters(repos) {
+    let filtered = repos;
+
+    // Search filter
+    if (state.searchQuery) {
+        const query = state.searchQuery.toLowerCase();
+        filtered = filtered.filter(repo =>
+            (repo.full_name || '').toLowerCase().includes(query) ||
+            (repo.description || '').toLowerCase().includes(query) ||
+            (repo.language || '').toLowerCase().includes(query)
+        );
+    }
+
+    // Only with dependencies filter - handled in renderRepositories() function
+    // since it requires async fetching of analysis data
+
+    // Language filter (multiselect)
+    if (state.filters.languages.length === 0) {
+        // No languages selected = filter out all repos
+        filtered = [];
+    } else {
+        filtered = filtered.filter(repo => {
+            // Include repos that match selected languages
+            // OR repos without a language (when languages are selected)
+            return state.filters.languages.includes(repo.language) || !repo.language;
+        });
+    }
+
+    // AI tools filter (multiselect)
+    // Note: AI tools filter is optional - empty means "don't filter by AI tools"
+    if (state.filters.aiTools.length > 0) {
+        // If "any" is selected, show all repos with any AI tool
+        if (state.filters.aiTools.includes('any')) {
+            filtered = filtered.filter(repo =>
+                repo.ai_tools && repo.ai_tools.length > 0
+            );
+        } else {
+            // Otherwise, filter by specific tools
+            filtered = filtered.filter(repo =>
+                repo.ai_tools && repo.ai_tools.some(tool =>
+                    state.filters.aiTools.includes(tool.toLowerCase())
+                )
+            );
+        }
+    }
+
+    return filtered;
+}
+
+async function renderRepositoryList(repos) {
+    const container = document.getElementById('repositories-list');
+    const countElement = document.getElementById('results-count-number');
+
+    if (repos.length === 0) {
+        container.innerHTML = '<p class="placeholder">No repositories match the selected filters</p>';
+        countElement.textContent = '0';
+        return;
+    }
+
+    container.innerHTML = '';
+    let renderedCount = 0;
+    for (const repo of repos) {
+        const repoBar = await createRepoBar(repo);
+        if (repoBar) {  // Only append if not null (repos with analysis data)
+            container.appendChild(repoBar);
+            renderedCount++;
+        }
+    }
+
+    // Update results count
+    countElement.textContent = renderedCount.toLocaleString();
+
+    // If no repos were rendered, show a message
+    if (renderedCount === 0) {
+        container.innerHTML = '<p class="placeholder">No repositories with analysis data match the selected filters</p>';
+    }
 }
 
 // Statistics Rendering
@@ -157,9 +484,6 @@ function renderStatistics() {
     const repos = getAllRepos();
     const totalRepos = repos.length;
     const languages = new Set(repos.map(r => r.language).filter(Boolean));
-    const avgStars = totalRepos > 0
-        ? Math.round(repos.reduce((sum, r) => sum + (r.stars || 0), 0) / totalRepos)
-        : 0;
 
     // Count repos with AI tools
     const reposWithAI = repos.filter(r => r.ai_tools && r.ai_tools.length > 0).length;
@@ -167,7 +491,6 @@ function renderStatistics() {
     const stats = [
         { value: totalRepos.toLocaleString(), label: 'Repositories' },
         { value: languages.size.toLocaleString(), label: 'Languages' },
-        { value: avgStars.toLocaleString(), label: 'Avg Stars' },
         { value: reposWithAI.toLocaleString(), label: 'Using AI Tools' },
     ];
 
@@ -181,14 +504,6 @@ function renderStatistics() {
 
 // Data Loading
 async function loadData() {
-    // Show loading state
-    document.getElementById('dimensions-list').innerHTML = `
-        <div class="loading-container">
-            <div class="spinner"></div>
-            <p class="loading-text">Loading discovery data...</p>
-        </div>
-    `;
-
     try {
         const response = await fetch('data/index.json');
         if (!response.ok) throw new Error('Failed to load index.json');
@@ -213,8 +528,7 @@ async function loadData() {
 
     } catch (error) {
         console.error('Error loading data:', error);
-        document.getElementById('dimensions-list').innerHTML =
-            '<p class="placeholder">Failed to load data. Please try again later.</p>';
+        alert('Failed to load data. Please make sure the server is running and data files exist.');
     }
 }
 
@@ -244,21 +558,8 @@ function switchTab(tabName, updateUrl = true) {
 // Dimension Filtering and Rendering
 function getDimensions() {
     if (!state.index || !state.index.dimensions) return [];
-
-    return state.index.dimensions.filter(dimension => {
-        // Source filter
-        if (state.filters.source !== 'all') {
-            if (state.filters.source === 'trending' && !dimension.type === 'trending') return false;
-            if (state.filters.source === 'search' && dimension.type !== 'search') return false;
-        }
-
-        // Timeframe filter (only for trending)
-        if (state.filters.timeframe !== 'all' && dimension.type === 'trending') {
-            if (dimension.timeframe !== state.filters.timeframe) return false;
-        }
-
-        return true;
-    });
+    // Return all dimensions - filtering is now done in renderFilteredRepositories
+    return state.index.dimensions;
 }
 
 function getAllRepos() {
@@ -266,22 +567,25 @@ function getAllRepos() {
     const reposMap = new Map();
 
     dimensions.forEach(dimension => {
-        if (dimension.type === 'trending' && dimension.snapshots) {
-            // Use most recent snapshot
-            const latestSnapshot = dimension.snapshots[dimension.snapshots.length - 1];
-            if (latestSnapshot && latestSnapshot.repos) {
-                latestSnapshot.repos.forEach(repo => {
-                    const key = `${repo.owner}/${repo.name}`;
-                    if (!reposMap.has(key)) {
-                        reposMap.set(key, repo);
-                    }
-                });
-            }
-        } else if (dimension.type === 'search' && dimension.repos) {
+        // Handle all dimension types that have repos
+        if (dimension.repos && Array.isArray(dimension.repos)) {
             dimension.repos.forEach(repo => {
                 const key = `${repo.owner}/${repo.name}`;
                 if (!reposMap.has(key)) {
-                    reposMap.set(key, repo);
+                    // Add source property based on dimension type
+                    let source = dimension.id;
+                    if (dimension.type === 'trending') {
+                        source = `trending-${dimension.timeframe}`;
+                    } else if (dimension.type === 'search') {
+                        source = 'search';
+                    } else if (dimension.type === 'github-ranking') {
+                        source = `github-ranking-${dimension.category}`;
+                    }
+
+                    reposMap.set(key, {
+                        ...repo,
+                        source
+                    });
                 }
             });
         }
@@ -294,15 +598,41 @@ function populateLanguageFilter() {
     const repos = getAllRepos();
     const languages = new Set(repos.map(r => r.language).filter(Boolean));
 
-    const select = document.getElementById('language-filter');
-    select.innerHTML = '<option value="all">All Languages</option>';
+    const menu = document.getElementById('language-menu');
+    if (!menu) return;
 
-    Array.from(languages).sort().forEach(lang => {
-        const option = document.createElement('option');
-        option.value = lang;
-        option.textContent = lang;
-        select.appendChild(option);
+    menu.innerHTML = '';
+
+    const sortedLanguages = Array.from(languages).sort();
+
+    sortedLanguages.forEach(lang => {
+        const label = document.createElement('label');
+        label.className = 'multiselect-option';
+
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.value = lang;
+        checkbox.checked = true;  // Check all by default
+
+        const span = document.createElement('span');
+        span.textContent = lang;
+        span.dataset.originalLabel = lang;  // Store original label for count updates
+
+        label.appendChild(checkbox);
+        label.appendChild(span);
+        menu.appendChild(label);
     });
+
+    // Initialize state with all languages selected
+    state.filters.languages = sortedLanguages;
+
+    // Re-setup the language dropdown after populating
+    const languageDropdown = document.querySelector('[data-testid="language-dropdown"]');
+    if (languageDropdown) {
+        setupDropdown(languageDropdown, 'language', updateLanguageFilter);
+        // Update the button to show selection count
+        updateDropdownButton(languageDropdown, 'language');
+    }
 }
 
 function renderDimensions() {
@@ -350,11 +680,8 @@ function createDimensionCard(dimension) {
 
     meta.appendChild(typeBadge);
 
-    if (dimension.type === 'trending' && dimension.snapshots) {
-        const snapshotCount = document.createElement('span');
-        snapshotCount.textContent = `${dimension.snapshots.length} snapshot${dimension.snapshots.length !== 1 ? 's' : ''}`;
-        meta.appendChild(snapshotCount);
-    } else if (dimension.type === 'search') {
+    // Show repo count for all dimension types
+    if (dimension.count) {
         const repoCount = document.createElement('span');
         repoCount.textContent = `${dimension.count} repos`;
         meta.appendChild(repoCount);
@@ -386,7 +713,7 @@ function formatDimensionTitle(dimension) {
 
 function selectDimension(dimension, updateUrl = true) {
     state.selectedDimension = dimension.id;
-    renderDimensions();
+    // renderDimensions() - not used anymore, we show all repos directly
     renderRepositories(dimension);
 
     // Update URL for shareability
@@ -401,23 +728,15 @@ function selectDefaultDimension() {
 
     // Find trending-monthly dimension
     const monthly = state.index.dimensions.find(d => d.id === 'trending-monthly');
-    if (monthly && monthly.snapshots && monthly.snapshots.length > 0) {
-        // Select the latest snapshot
+    if (monthly && monthly.repos && monthly.repos.length > 0) {
         selectDimension(monthly);
         return;
     }
 
     // Fallback to trending-weekly
     const weekly = state.index.dimensions.find(d => d.id === 'trending-weekly');
-    if (weekly && weekly.snapshots && weekly.snapshots.length > 0) {
+    if (weekly && weekly.repos && weekly.repos.length > 0) {
         selectDimension(weekly);
-        return;
-    }
-
-    // Fallback to trending-daily
-    const daily = state.index.dimensions.find(d => d.id === 'trending-daily');
-    if (daily && daily.snapshots && daily.snapshots.length > 0) {
-        selectDimension(daily);
         return;
     }
 
@@ -436,13 +755,8 @@ async function renderRepositories(dimension) {
 
     let repos = [];
 
-    if (dimension.type === 'trending' && dimension.snapshots) {
-        // Use most recent snapshot
-        const latestSnapshot = dimension.snapshots[dimension.snapshots.length - 1];
-        repos = latestSnapshot ? latestSnapshot.repos : [];
-    } else if (dimension.type === 'search') {
-        repos = dimension.repos || [];
-    }
+    // All dimension types now have repos directly
+    repos = dimension.repos || [];
 
     // Apply language filter
     if (state.filters.language !== 'all') {
@@ -482,15 +796,15 @@ async function renderRepositories(dimension) {
 
     // Apply dependencies filter
     if (state.filters.onlyWithDeps) {
-        // Filter to only show repos that have dependency analysis data
-        const reposWithDepsData = [];
+        // Filter to only show repos that have dependencies (total_loc > 0)
+        const reposWithDeps = [];
         for (const repo of repos) {
-            const hasAnalysis = await hasDepAnalysis(repo);
-            if (hasAnalysis) {
-                reposWithDepsData.push(repo);
+            const hasDeps = await hasActualDependencies(repo);
+            if (hasDeps) {
+                reposWithDeps.push(repo);
             }
         }
-        repos = reposWithDepsData;
+        repos = reposWithDeps;
     }
 
     // Apply sorting
@@ -544,6 +858,18 @@ function sortRepositories(repos, sortBy) {
         case 'stars-asc':
             sorted.sort((a, b) => (a.stars || 0) - (b.stars || 0));
             break;
+        case 'ratio-desc':
+            sorted.sort((a, b) => (b.ratio || 0) - (a.ratio || 0));
+            break;
+        case 'project-loc-desc':
+            sorted.sort((a, b) => (b.project_loc || 0) - (a.project_loc || 0));
+            break;
+        case 'dep-loc-desc':
+            sorted.sort((a, b) => (b.dep_loc || 0) - (a.dep_loc || 0));
+            break;
+        case 'dep-count-desc':
+            sorted.sort((a, b) => (b.dep_count || 0) - (a.dep_count || 0));
+            break;
         case 'name-asc':
             sorted.sort((a, b) => {
                 const nameA = (a.full_name || `${a.owner}/${a.name}`).toLowerCase();
@@ -576,6 +902,217 @@ async function hasDepAnalysis(repo) {
         return data.analysis && data.analysis.total_loc !== null && data.analysis.total_loc !== undefined;
     } catch (error) {
         return false;
+    }
+}
+
+async function hasActualDependencies(repo) {
+    // Check if repo has actual dependencies (total_loc > 0)
+    // Cache the result on the repo object to avoid repeated fetches
+    if (repo._hasDepsCache !== undefined) {
+        return repo._hasDepsCache;
+    }
+
+    const fileName = `${repo.owner}-${repo.name}.json`;
+    try {
+        const response = await fetch(`data/repos/${fileName}`);
+        if (!response.ok) {
+            repo._hasDepsCache = false;
+            return false;
+        }
+        const data = await response.json();
+        const totalLoc = data.analysis?.total_loc;
+        const hasDeps = totalLoc !== null && totalLoc !== undefined && totalLoc > 0;
+        repo._hasDepsCache = hasDeps;
+        return hasDeps;
+    } catch (error) {
+        repo._hasDepsCache = false;
+        return false;
+    }
+}
+
+async function getFilteredReposExcluding(excludeFilterType) {
+    // Get all repos and apply all filters EXCEPT the specified one
+    const allRepos = getAllRepos();
+
+    let filtered = allRepos;
+
+    // Apply trending filter (unless excluded)
+    if (excludeFilterType !== 'trending') {
+        if (state.filters.trending.length === 0) {
+            filtered = filtered.filter(repo => repo.source === 'search');
+        } else {
+            const trendingSources = state.filters.trending.map(t => `trending-${t}`);
+            filtered = filtered.filter(repo => {
+                if (repo.source === 'search') return true;
+                return trendingSources.includes(repo.source);
+            });
+        }
+    }
+
+    // Apply stars filter (unless excluded)
+    if (excludeFilterType !== 'stars') {
+        if (state.filters.stars.length === 0) {
+            filtered = [];
+        } else {
+            filtered = filtered.filter(repo => {
+                const stars = repo.stars || 0;
+                return state.filters.stars.some(range => {
+                    if (range === '0-100') return stars >= 0 && stars < 100;
+                    if (range === '100-1000') return stars >= 100 && stars < 1000;
+                    if (range === '1000-10000') return stars >= 1000 && stars < 10000;
+                    if (range === '10000+') return stars >= 10000;
+                    return false;
+                });
+            });
+        }
+    }
+
+    // Apply language filter (unless excluded)
+    if (excludeFilterType !== 'languages') {
+        if (state.filters.languages.length === 0) {
+            filtered = [];
+        } else {
+            filtered = filtered.filter(repo => {
+                return state.filters.languages.includes(repo.language) || !repo.language;
+            });
+        }
+    }
+
+    // Apply search filter (unless excluded)
+    if (excludeFilterType !== 'search' && state.searchQuery) {
+        const query = state.searchQuery.toLowerCase();
+        filtered = filtered.filter(repo =>
+            (repo.full_name || '').toLowerCase().includes(query) ||
+            (repo.description || '').toLowerCase().includes(query) ||
+            (repo.language || '').toLowerCase().includes(query)
+        );
+    }
+
+    // Apply AI tools filter (unless excluded)
+    if (excludeFilterType !== 'aiTools' && state.filters.aiTools.length > 0) {
+        if (state.filters.aiTools.includes('any')) {
+            filtered = filtered.filter(repo =>
+                repo.ai_tools && repo.ai_tools.length > 0
+            );
+        } else {
+            filtered = filtered.filter(repo =>
+                repo.ai_tools && repo.ai_tools.some(tool =>
+                    state.filters.aiTools.includes(tool.toLowerCase())
+                )
+            );
+        }
+    }
+
+    // Apply "Only with dependencies" filter (unless excluded)
+    if (excludeFilterType !== 'onlyWithDeps' && state.filters.onlyWithDeps) {
+        const reposWithDeps = [];
+        for (const repo of filtered) {
+            const hasDeps = await hasActualDependencies(repo);
+            if (hasDeps) {
+                reposWithDeps.push(repo);
+            }
+        }
+        filtered = reposWithDeps;
+    }
+
+    return filtered;
+}
+
+async function updateDropdownCounts() {
+    // Update counts in all dropdown options based on current filter state
+
+    // Update Language dropdown counts
+    const languageMenu = document.querySelector('[data-testid="language-dropdown-menu"]');
+    if (languageMenu) {
+        const languageOptions = languageMenu.querySelectorAll('.multiselect-option');
+        const baseRepos = await getFilteredReposExcluding('languages');
+
+        for (const option of languageOptions) {
+            const checkbox = option.querySelector('input[type="checkbox"]');
+            const span = option.querySelector('span');
+            const lang = checkbox.value;
+
+            // Count repos that match this language
+            const count = baseRepos.filter(repo => repo.language === lang).length;
+
+            // Update label with count using original label
+            const originalLabel = span.dataset.originalLabel || lang;
+            span.textContent = `${originalLabel} (${count})`;
+        }
+    }
+
+    // Update Trending dropdown counts
+    const trendingMenu = document.querySelector('[data-testid="trending-dropdown-menu"]');
+    if (trendingMenu) {
+        const trendingOptions = trendingMenu.querySelectorAll('.multiselect-option');
+        const baseRepos = await getFilteredReposExcluding('trending');
+
+        for (const option of trendingOptions) {
+            const checkbox = option.querySelector('input[type="checkbox"]');
+            const span = option.querySelector('span');
+            const timeframe = checkbox.value;
+
+            // Count repos from this trending timeframe
+            const count = baseRepos.filter(repo => repo.source === `trending-${timeframe}`).length;
+
+            // Update label with count using original label
+            const originalLabel = span.dataset.originalLabel || timeframe;
+            span.textContent = `${originalLabel} (${count})`;
+        }
+    }
+
+    // Update Stars dropdown counts
+    const starsMenu = document.querySelector('[data-testid="stars-dropdown-menu"]');
+    if (starsMenu) {
+        const starsOptions = starsMenu.querySelectorAll('.multiselect-option');
+        const baseRepos = await getFilteredReposExcluding('stars');
+
+        for (const option of starsOptions) {
+            const checkbox = option.querySelector('input[type="checkbox"]');
+            const span = option.querySelector('span');
+            const range = checkbox.value;
+
+            // Count repos in this star range
+            const count = baseRepos.filter(repo => {
+                const stars = repo.stars || 0;
+                if (range === '0-100') return stars >= 0 && stars < 100;
+                if (range === '100-1000') return stars >= 100 && stars < 1000;
+                if (range === '1000-10000') return stars >= 1000 && stars < 10000;
+                if (range === '10000+') return stars >= 10000;
+                return false;
+            }).length;
+
+            // Update label with count using original label
+            const originalLabel = span.dataset.originalLabel || range;
+            span.textContent = `${originalLabel} (${count})`;
+        }
+    }
+
+    // Update AI Tools dropdown counts
+    const aiToolsMenu = document.querySelector('[data-testid="ai-tools-dropdown-menu"]');
+    if (aiToolsMenu) {
+        const aiToolsOptions = aiToolsMenu.querySelectorAll('.multiselect-option');
+        const baseRepos = await getFilteredReposExcluding('aiTools');
+
+        for (const option of aiToolsOptions) {
+            const checkbox = option.querySelector('input[type="checkbox"]');
+            const span = option.querySelector('span');
+            const tool = checkbox.value;
+
+            // Count repos with this AI tool
+            let count;
+            if (tool === 'any') {
+                count = baseRepos.filter(repo => repo.ai_tools && repo.ai_tools.length > 0).length;
+            } else {
+                count = baseRepos.filter(repo =>
+                    repo.ai_tools && repo.ai_tools.some(t => t.toLowerCase() === tool)
+                ).length;
+            }
+
+            // Update label with count using original label
+            const originalLabel = span.dataset.originalLabel || tool;
+            span.textContent = `${originalLabel} (${count})`;
+        }
     }
 }
 
