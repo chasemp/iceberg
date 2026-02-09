@@ -1,0 +1,16 @@
+{
+  "owner": "microsoft",
+  "repo": "playwright-cli",
+  "full_name": "microsoft/playwright-cli",
+  "root_package": "npm:@playwright/cli:0.1.0",
+  "nodes": [
+    {
+      "id": "npm:@playwright/cli:0.1.0",
+      "system": "npm",
+      "name": "@playwright/cli",
+      "version": "0.1.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.170355+00:00"
+}

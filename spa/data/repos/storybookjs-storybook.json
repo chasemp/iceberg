@@ -1,0 +1,25 @@
+{
+  "owner": "storybookjs",
+  "repo": "storybook",
+  "full_name": "storybookjs/storybook",
+  "url": "https://github.com/storybookjs/storybook",
+  "analysis": {
+    "owner": "storybookjs",
+    "repo": "storybook",
+    "version": "HEAD",
+    "loc": 336531,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T20:29:55.828510+00:00",
+    "total_loc": 552385,
+    "ratio": 0.621414171867758,
+    "repo_url": "https://github.com/storybookjs/storybook.git",
+    "ref": "HEAD",
+    "commit_hash": "5f5ad4e5f3bc90aebce5c241a71ef00cb24bc689",
+    "clone_duration_seconds": 11.569561958312988,
+    "count_duration_seconds": 0.39130091667175293,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-typescript",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "acmesh-official",
+  "name": "acme.sh",
+  "url": "https://github.com/acmesh-official/acme.sh",
+  "description": "A pure Unix shell script ACME client for SSL / TLS certificate automation",
+  "language": "Shell",
+  "stars": 45637,
+  "categories": {
+    "github-ranking-shell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

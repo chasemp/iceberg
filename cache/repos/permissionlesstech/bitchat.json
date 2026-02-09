@@ -1,0 +1,12 @@
+{
+  "owner": "permissionlesstech",
+  "name": "bitchat",
+  "url": "https://github.com/permissionlesstech/bitchat",
+  "description": "bluetooth mesh chat, IRC vibes",
+  "language": "Swift",
+  "stars": 25023,
+  "categories": {
+    "github-ranking-swift": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

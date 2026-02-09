@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "lite-server",
+    "version": "2.6.1"
+  },
+  "total_lines": 79,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-09T20:10:24.380555+00:00",
+  "source_url": "https://registry.npmjs.org/lite-server/-/lite-server-2.6.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.27849316596984863,
+  "count_duration_seconds": null
+}

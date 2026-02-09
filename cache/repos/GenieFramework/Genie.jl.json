@@ -1,0 +1,12 @@
+{
+  "owner": "GenieFramework",
+  "name": "Genie.jl",
+  "url": "https://github.com/GenieFramework/Genie.jl",
+  "description": "\ud83e\udddeThe highly productive Julia web framework",
+  "language": "Julia",
+  "stars": 2386,
+  "categories": {
+    "github-ranking-julia": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "electric-sql",
+  "name": "electric",
+  "url": "https://github.com/electric-sql/electric",
+  "description": "Read-path sync engine for Postgres that handles partial replication, data delivery and fan-out.",
+  "language": "Elixir",
+  "stars": 9862,
+  "categories": {
+    "github-ranking-elixir": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

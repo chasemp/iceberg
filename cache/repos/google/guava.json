@@ -1,0 +1,12 @@
+{
+  "owner": "google",
+  "name": "guava",
+  "url": "https://github.com/google/guava",
+  "description": "Google core libraries for Java",
+  "language": "Java",
+  "stars": 51462,
+  "categories": {
+    "github-ranking-java": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "dotnet",
+  "name": "roslyn",
+  "url": "https://github.com/dotnet/roslyn",
+  "description": "The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs.",
+  "language": "C#",
+  "stars": 20215,
+  "categories": {
+    "github-ranking-csharp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "jonataslaw",
+  "name": "getx",
+  "url": "https://github.com/jonataslaw/getx",
+  "description": "Open screens/snackbars/dialogs/bottomSheets without context, manage states and inject dependencies easily with Get.",
+  "language": "Dart",
+  "stars": 11087,
+  "categories": {
+    "github-ranking-dart": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,14 @@
+{
+  "owner": "microsoft",
+  "name": "vscode",
+  "url": "https://github.com/microsoft/vscode",
+  "description": "Visual Studio Code",
+  "language": "TypeScript",
+  "stars": 181528,
+  "categories": {
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-top-100-forks": "2026-02-09",
+    "github-ranking-typescript": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

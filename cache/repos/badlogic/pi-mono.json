@@ -1,0 +1,13 @@
+{
+  "owner": "badlogic",
+  "name": "pi-mono",
+  "url": "https://github.com/badlogic/pi-mono",
+  "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+  "language": "TypeScript",
+  "stars": 8587,
+  "categories": {
+    "trending-weekly": "2026-02-09",
+    "trending-monthly": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

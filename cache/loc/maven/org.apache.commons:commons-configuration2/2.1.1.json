@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "org.apache.commons:commons-configuration2",
+    "version": "2.1.1"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:28:13.671327+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/org.apache.commons:commons-configuration2/versions/2.1.1",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11683893203735352,
+  "count_duration_seconds": null
+}

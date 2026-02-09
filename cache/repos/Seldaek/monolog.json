@@ -1,0 +1,12 @@
+{
+  "owner": "Seldaek",
+  "name": "monolog",
+  "url": "https://github.com/Seldaek/monolog",
+  "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+  "language": "PHP",
+  "stars": 21388,
+  "categories": {
+    "github-ranking-php": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

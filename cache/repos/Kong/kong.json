@@ -1,0 +1,12 @@
+{
+  "owner": "Kong",
+  "name": "kong",
+  "url": "https://github.com/Kong/kong",
+  "description": "\ud83e\udd8d The API and AI Gateway",
+  "language": "Lua",
+  "stars": 42712,
+  "categories": {
+    "github-ranking-lua": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

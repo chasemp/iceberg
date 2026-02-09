@@ -1,0 +1,12 @@
+{
+  "owner": "jgraph",
+  "name": "drawio-desktop",
+  "url": "https://github.com/jgraph/drawio-desktop",
+  "description": "Official electron build of draw.io",
+  "language": "JavaScript",
+  "stars": 59378,
+  "categories": {
+    "search": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

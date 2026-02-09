@@ -1,0 +1,13 @@
+{
+  "owner": "tobi",
+  "name": "qmd",
+  "url": "https://github.com/tobi/qmd",
+  "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
+  "language": "TypeScript",
+  "stars": 7551,
+  "categories": {
+    "trending-weekly": "2026-02-09",
+    "trending-monthly": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

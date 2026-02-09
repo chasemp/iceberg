@@ -1,0 +1,12 @@
+{
+  "owner": "github",
+  "name": "docs",
+  "url": "https://github.com/github/docs",
+  "description": "The open-source repo for docs.github.com",
+  "language": "TypeScript",
+  "stars": 18898,
+  "categories": {
+    "github-ranking-top-100-forks": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

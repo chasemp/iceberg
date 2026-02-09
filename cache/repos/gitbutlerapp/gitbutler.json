@@ -1,0 +1,12 @@
+{
+  "owner": "gitbutlerapp",
+  "name": "gitbutler",
+  "url": "https://github.com/gitbutlerapp/gitbutler",
+  "description": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte",
+  "language": "Rust",
+  "stars": 18621,
+  "categories": {
+    "trending-weekly": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "junegunn",
+  "name": "fzf",
+  "url": "https://github.com/junegunn/fzf",
+  "description": ":cherry_blossom: A command-line fuzzy finder",
+  "language": "Go",
+  "stars": 77641,
+  "categories": {
+    "github-ranking-go": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

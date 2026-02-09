@@ -1,0 +1,12 @@
+{
+  "owner": "rmcelreath",
+  "name": "rethinking",
+  "url": "https://github.com/rmcelreath/rethinking",
+  "description": "Statistical Rethinking course and book package",
+  "language": "R",
+  "stars": 2340,
+  "categories": {
+    "github-ranking-r": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

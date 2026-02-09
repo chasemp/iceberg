@@ -1,0 +1,17 @@
+{
+  "owner": "justjavac",
+  "repo": "free-programming-books-zh_CN",
+  "version": "HEAD",
+  "loc": 0,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T20:04:22.320845+00:00",
+  "repo_url": "https://github.com/justjavac/free-programming-books-zh_CN.git",
+  "ref": "HEAD",
+  "commit_hash": "2ca0d17c40c04d530938280bfcc0d65174052b27",
+  "clone_duration_seconds": 0.8817648887634277,
+  "count_duration_seconds": 0.0022809505462646484,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-top-100-stars",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

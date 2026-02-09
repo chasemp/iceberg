@@ -1,0 +1,12 @@
+{
+  "owner": "nagadomi",
+  "name": "waifu2x",
+  "url": "https://github.com/nagadomi/waifu2x",
+  "description": "Image Super-Resolution for Anime-Style Art",
+  "language": "Lua",
+  "stars": 28132,
+  "categories": {
+    "github-ranking-lua": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

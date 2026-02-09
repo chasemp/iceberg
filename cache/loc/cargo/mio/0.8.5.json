@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "mio",
+    "version": "0.8.5"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:28:18.980333+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/mio/versions/0.8.5",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11594104766845703,
+  "count_duration_seconds": null
+}

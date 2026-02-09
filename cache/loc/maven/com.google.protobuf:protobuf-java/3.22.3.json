@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "com.google.protobuf:protobuf-java",
+    "version": "3.22.3"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:21:00.810718+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/com.google.protobuf:protobuf-java/versions/3.22.3",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11164593696594238,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "idna",
+    "version": "2.10"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:20:20.062269+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/idna/versions/2.10",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.13049006462097168,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "google",
+  "name": "iosched",
+  "url": "https://github.com/google/iosched",
+  "description": "The Google I/O Android App",
+  "language": "Kotlin",
+  "stars": 21730,
+  "categories": {
+    "github-ranking-kotlin": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

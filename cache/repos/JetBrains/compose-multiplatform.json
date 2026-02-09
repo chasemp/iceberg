@@ -1,0 +1,12 @@
+{
+  "owner": "JetBrains",
+  "name": "compose-multiplatform",
+  "url": "https://github.com/JetBrains/compose-multiplatform",
+  "description": "Compose Multiplatform, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable.",
+  "language": "Kotlin",
+  "stars": 18787,
+  "categories": {
+    "github-ranking-kotlin": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

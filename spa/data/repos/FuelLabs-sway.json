@@ -1,0 +1,21 @@
+{
+  "owner": "FuelLabs",
+  "repo": "sway",
+  "full_name": "FuelLabs/sway",
+  "url": "https://github.com/FuelLabs/sway",
+  "analysis": {
+    "owner": "FuelLabs",
+    "repo": "sway",
+    "version": "HEAD",
+    "loc": 182149,
+    "source": "github_clone",
+    "cached_at": "2026-02-05T22:18:22.508322+00:00",
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/FuelLabs/sway.git",
+    "ref": "HEAD",
+    "commit_hash": "f0a848ddd61ec8a8c677814ec6cfb85e3b31075f",
+    "clone_duration_seconds": 2.843794345855713,
+    "count_duration_seconds": 0.27452802658081055
+  }
+}

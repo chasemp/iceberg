@@ -1,0 +1,22 @@
+{
+  "owner": "syncthing",
+  "repo": "syncthing",
+  "version": "HEAD",
+  "loc": 95791,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T21:42:26.341715+00:00",
+  "package": {
+    "system": "go",
+    "name": "github.com/syncthing/syncthing",
+    "version": "v0.0.0"
+  },
+  "repo_url": "https://github.com/syncthing/syncthing.git",
+  "ref": "HEAD",
+  "commit_hash": "0b5a08c99aff63ba84882030bc09d024755e5db2",
+  "clone_duration_seconds": 1.8829131126403809,
+  "count_duration_seconds": 0.07725381851196289,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-go",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

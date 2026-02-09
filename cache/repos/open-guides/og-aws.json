@@ -1,0 +1,12 @@
+{
+  "owner": "open-guides",
+  "name": "og-aws",
+  "url": "https://github.com/open-guides/og-aws",
+  "description": "\ud83d\udcd9 Amazon Web Services \u2014 a practical guide",
+  "language": "Shell",
+  "stars": 36640,
+  "categories": {
+    "github-ranking-shell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

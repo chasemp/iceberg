@@ -1,0 +1,12 @@
+{
+  "owner": "nextcloud",
+  "name": "server",
+  "url": "https://github.com/nextcloud/server",
+  "description": "\u2601\ufe0f Nextcloud server, a safe home for all your data",
+  "language": "PHP",
+  "stars": 34049,
+  "categories": {
+    "github-ranking-php": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

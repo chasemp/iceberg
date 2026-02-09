@@ -1,0 +1,12 @@
+{
+  "owner": "folke",
+  "name": "lazy.nvim",
+  "url": "https://github.com/folke/lazy.nvim",
+  "description": "\ud83d\udca4 A modern plugin manager for Neovim",
+  "language": "Lua",
+  "stars": 20192,
+  "categories": {
+    "github-ranking-lua": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

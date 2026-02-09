@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "gtk3-macros",
+    "version": "0.15.6"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:14:43.812401+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/gtk3-macros/versions/0.15.6",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1168661117553711,
+  "count_duration_seconds": null
+}

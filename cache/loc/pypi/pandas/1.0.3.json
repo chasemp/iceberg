@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "pandas",
+    "version": "1.0.3"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:22:37.724365+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/pandas/versions/1.0.3",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11376404762268066,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "bilibili",
+  "name": "ijkplayer",
+  "url": "https://github.com/bilibili/ijkplayer",
+  "description": "Android/iOS video player based on FFmpeg n3.4, with MediaCodec, VideoToolbox support.",
+  "language": "C",
+  "stars": 33113,
+  "categories": {
+    "github-ranking-c": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

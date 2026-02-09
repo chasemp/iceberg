@@ -1,0 +1,17 @@
+{
+  "owner": "unionlabs",
+  "repo": "union",
+  "version": "HEAD",
+  "loc": 247120,
+  "source": "github_clone",
+  "cached_at": "2026-02-05T22:32:17.296354+00:00",
+  "repo_url": "https://github.com/unionlabs/union.git",
+  "ref": "HEAD",
+  "commit_hash": "2247aa30a0a3b6e829aad4825f31494004ab99ef",
+  "clone_duration_seconds": 3.0738871097564697,
+  "count_duration_seconds": 0.21052789688110352,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-rust",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

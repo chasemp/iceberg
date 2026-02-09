@@ -1,0 +1,12 @@
+{
+  "owner": "genomicsclass",
+  "name": "labs",
+  "url": "https://github.com/genomicsclass/labs",
+  "description": "Rmd source files for the HarvardX series PH525x",
+  "language": "R",
+  "stars": 2132,
+  "categories": {
+    "github-ranking-r": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

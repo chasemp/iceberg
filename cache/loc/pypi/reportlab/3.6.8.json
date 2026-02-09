@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "reportlab",
+    "version": "3.6.8"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:20:20.670944+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/reportlab/versions/3.6.8",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11707019805908203,
+  "count_duration_seconds": null
+}

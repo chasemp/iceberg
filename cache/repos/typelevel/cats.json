@@ -1,0 +1,12 @@
+{
+  "owner": "typelevel",
+  "name": "cats",
+  "url": "https://github.com/typelevel/cats",
+  "description": "Lightweight, modular, and extensible library for functional programming.",
+  "language": "Scala",
+  "stars": 5411,
+  "categories": {
+    "github-ranking-scala": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

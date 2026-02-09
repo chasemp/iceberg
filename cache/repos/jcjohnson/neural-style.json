@@ -1,0 +1,12 @@
+{
+  "owner": "jcjohnson",
+  "name": "neural-style",
+  "url": "https://github.com/jcjohnson/neural-style",
+  "description": "Torch implementation of neural style algorithm",
+  "language": "Lua",
+  "stars": 18301,
+  "categories": {
+    "github-ranking-lua": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

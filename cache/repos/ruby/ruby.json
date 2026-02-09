@@ -1,0 +1,12 @@
+{
+  "owner": "ruby",
+  "name": "ruby",
+  "url": "https://github.com/ruby/ruby",
+  "description": "The Ruby Programming Language",
+  "language": "Ruby",
+  "stars": 23305,
+  "categories": {
+    "github-ranking-ruby": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

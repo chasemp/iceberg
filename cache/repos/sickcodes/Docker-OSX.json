@@ -1,0 +1,12 @@
+{
+  "owner": "sickcodes",
+  "name": "Docker-OSX",
+  "url": "https://github.com/sickcodes/Docker-OSX",
+  "description": "Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers.",
+  "language": "Shell",
+  "stars": 52131,
+  "categories": {
+    "github-ranking-shell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

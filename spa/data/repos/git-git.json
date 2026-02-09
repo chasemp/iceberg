@@ -1,0 +1,28 @@
+{
+  "owner": "git",
+  "repo": "git",
+  "full_name": "git/git",
+  "url": "https://github.com/git/git",
+  "analysis": {
+    "owner": "git",
+    "repo": "git",
+    "version": "HEAD",
+    "loc": 561690,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T20:24:33.888966+00:00",
+    "package": {
+      "system": "cargo",
+      "name": "gitcore",
+      "version": "0.1.0"
+    },
+    "repo_url": "https://github.com/git/git.git",
+    "ref": "HEAD",
+    "commit_hash": "3e0db84c88c57e70ac8be8c196dfa92c5d656fbc",
+    "clone_duration_seconds": 5.388760089874268,
+    "count_duration_seconds": 0.28862810134887695,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-forks",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "IntersectMBO",
+  "name": "cardano-node",
+  "url": "https://github.com/IntersectMBO/cardano-node",
+  "description": "The core component that is used to participate in a Cardano decentralised blockchain.",
+  "language": "Haskell",
+  "stars": 3181,
+  "categories": {
+    "github-ranking-haskell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

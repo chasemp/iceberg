@@ -1,0 +1,13 @@
+{
+  "owner": "facebook",
+  "name": "react-native",
+  "url": "https://github.com/facebook/react-native",
+  "description": "A framework for building native applications using React",
+  "language": "C++",
+  "stars": 125320,
+  "categories": {
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-cpp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

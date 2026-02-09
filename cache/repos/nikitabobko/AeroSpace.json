@@ -1,0 +1,12 @@
+{
+  "owner": "nikitabobko",
+  "name": "AeroSpace",
+  "url": "https://github.com/nikitabobko/AeroSpace",
+  "description": "AeroSpace is an i3-like tiling window manager for macOS",
+  "language": "Swift",
+  "stars": 18736,
+  "categories": {
+    "github-ranking-swift": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "github",
+  "name": "semantic",
+  "url": "https://github.com/github/semantic",
+  "description": "Parsing, analyzing, and comparing source code across many languages",
+  "language": "Haskell",
+  "stars": 9057,
+  "categories": {
+    "github-ranking-haskell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

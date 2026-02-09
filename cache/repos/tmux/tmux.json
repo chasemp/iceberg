@@ -1,0 +1,12 @@
+{
+  "owner": "tmux",
+  "name": "tmux",
+  "url": "https://github.com/tmux/tmux",
+  "description": "tmux source code",
+  "language": "C",
+  "stars": 41532,
+  "categories": {
+    "github-ranking-c": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

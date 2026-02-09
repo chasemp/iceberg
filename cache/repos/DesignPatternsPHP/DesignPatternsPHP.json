@@ -1,0 +1,12 @@
+{
+  "owner": "DesignPatternsPHP",
+  "name": "DesignPatternsPHP",
+  "url": "https://github.com/DesignPatternsPHP/DesignPatternsPHP",
+  "description": "Sample code for several design patterns in PHP 8.x",
+  "language": "PHP",
+  "stars": 22193,
+  "categories": {
+    "github-ranking-php": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,13 @@
+{
+  "owner": "langgenius",
+  "name": "dify",
+  "url": "https://github.com/langgenius/dify",
+  "description": "Production-ready platform for agentic workflow development.",
+  "language": "TypeScript",
+  "stars": 129096,
+  "categories": {
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-typescript": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

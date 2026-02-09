@@ -1,0 +1,12 @@
+{
+  "owner": "dylanaraps",
+  "name": "pure-bash-bible",
+  "url": "https://github.com/dylanaraps/pure-bash-bible",
+  "description": "\ud83d\udcd6 A collection of pure bash alternatives to external processes.",
+  "language": "Shell",
+  "stars": 41297,
+  "categories": {
+    "github-ranking-shell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "shadowsocks",
+  "name": "shadowsocks-android",
+  "url": "https://github.com/shadowsocks/shadowsocks-android",
+  "description": "A shadowsocks client for Android",
+  "language": "Kotlin",
+  "stars": 36646,
+  "categories": {
+    "github-ranking-kotlin": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

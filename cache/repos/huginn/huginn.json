@@ -1,0 +1,12 @@
+{
+  "owner": "huginn",
+  "name": "huginn",
+  "url": "https://github.com/huginn/huginn",
+  "description": "Create agents that monitor and act on your behalf.  Your agents are standing by!",
+  "language": "Ruby",
+  "stars": 48666,
+  "categories": {
+    "github-ranking-ruby": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

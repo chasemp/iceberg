@@ -1,0 +1,12 @@
+{
+  "owner": "scala",
+  "name": "scala",
+  "url": "https://github.com/scala/scala",
+  "description": "Scala 2 compiler and standard library. Scala 2 bugs at https://github.com/scala/bug; Scala 3 at https://github.com/scala/scala3",
+  "language": "Scala",
+  "stars": 14435,
+  "categories": {
+    "github-ranking-scala": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

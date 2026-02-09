@@ -1,0 +1,12 @@
+{
+  "owner": "labmlai",
+  "name": "annotated_deep_learning_paper_implementations",
+  "url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+  "description": "\ud83e\uddd1\u200d\ud83c\udfeb 60+ Implementations/tutorials of deep learning papers with side-by-side notes \ud83d\udcdd; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gans(cyclegan, stylegan2, ...), \ud83c\udfae reinforcement learning (ppo, dqn), capsnet, distillation, ... \ud83e\udde0",
+  "language": "Python",
+  "stars": 65705,
+  "categories": {
+    "search": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

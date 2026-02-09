@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "atty",
+    "version": "0.2.11"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:17:31.899756+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/atty/versions/0.2.11",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1260080337524414,
+  "count_duration_seconds": null
+}

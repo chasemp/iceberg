@@ -1,0 +1,30 @@
+{
+  "owner": "microsoft",
+  "repo": "vscode",
+  "full_name": "microsoft/vscode",
+  "url": "https://github.com/microsoft/vscode",
+  "analysis": {
+    "owner": "microsoft",
+    "repo": "vscode",
+    "version": "HEAD",
+    "loc": 1127805,
+    "source": "github_clone",
+    "cached_at": "2026-02-05T22:25:44.654231+00:00",
+    "package": {
+      "system": "npm",
+      "name": "code-oss-dev",
+      "version": "1.110.0"
+    },
+    "total_loc": 134909,
+    "ratio": 0.10684050386706728,
+    "repo_url": "https://github.com/microsoft/vscode.git",
+    "ref": "HEAD",
+    "commit_hash": "d37ccd6067376f5267f0770fc09bf5133a1f9f50",
+    "clone_duration_seconds": 5.397617816925049,
+    "count_duration_seconds": 0.5993640422821045,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-stars",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "yihui",
+  "name": "knitr",
+  "url": "https://github.com/yihui/knitr",
+  "description": "A general-purpose tool for dynamic report generation in R",
+  "language": "R",
+  "stars": 2444,
+  "categories": {
+    "github-ranking-r": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

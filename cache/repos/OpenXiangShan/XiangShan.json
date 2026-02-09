@@ -1,0 +1,12 @@
+{
+  "owner": "OpenXiangShan",
+  "name": "XiangShan",
+  "url": "https://github.com/OpenXiangShan/XiangShan",
+  "description": "Open-source high-performance RISC-V processor",
+  "language": "Scala",
+  "stars": 6872,
+  "categories": {
+    "github-ranking-scala": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

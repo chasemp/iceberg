@@ -1,0 +1,13 @@
+{
+  "owner": "practical-tutorials",
+  "repo": "project-based-learning",
+  "version": "HEAD",
+  "loc": 0,
+  "source": "github_clone",
+  "cached_at": "2026-02-05T22:27:24.794777+00:00",
+  "repo_url": "https://github.com/practical-tutorials/project-based-learning.git",
+  "ref": "HEAD",
+  "commit_hash": "243d33995fc5a616010fced6c9e131090e8e1a39",
+  "clone_duration_seconds": 0.862109899520874,
+  "count_duration_seconds": 0.0018510818481445312
+}

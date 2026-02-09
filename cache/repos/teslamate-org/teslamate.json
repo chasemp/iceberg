@@ -1,0 +1,12 @@
+{
+  "owner": "teslamate-org",
+  "name": "teslamate",
+  "url": "https://github.com/teslamate-org/teslamate",
+  "description": "A self-hosted data logger for your Tesla  \ud83d\ude98 [main maintainer=@JakobLichterfeld]",
+  "language": "Elixir",
+  "stars": 7613,
+  "categories": {
+    "github-ranking-elixir": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

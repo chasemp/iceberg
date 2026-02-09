@@ -1,0 +1,12 @@
+{
+  "owner": "commercialhaskell",
+  "name": "stack",
+  "url": "https://github.com/commercialhaskell/stack",
+  "description": "The Haskell Tool Stack",
+  "language": "Haskell",
+  "stars": 4048,
+  "categories": {
+    "github-ranking-haskell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "plotly",
+  "name": "plotly.R",
+  "url": "https://github.com/plotly/plotly.R",
+  "description": "An interactive graphing library for R",
+  "language": "R",
+  "stars": 2655,
+  "categories": {
+    "github-ranking-r": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

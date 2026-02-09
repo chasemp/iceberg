@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "pypdf2",
+    "version": "2.12.1"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:20:18.795460+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/pypdf2/versions/2.12.1",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11906099319458008,
+  "count_duration_seconds": null
+}

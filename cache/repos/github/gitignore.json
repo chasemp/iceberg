@@ -1,0 +1,13 @@
+{
+  "owner": "github",
+  "name": "gitignore",
+  "url": "https://github.com/github/gitignore",
+  "description": "A collection of useful .gitignore templates",
+  "language": "None",
+  "stars": 172325,
+  "categories": {
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-top-100-forks": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

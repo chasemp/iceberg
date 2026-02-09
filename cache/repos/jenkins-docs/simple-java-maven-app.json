@@ -1,0 +1,12 @@
+{
+  "owner": "jenkins-docs",
+  "name": "simple-java-maven-app",
+  "url": "https://github.com/jenkins-docs/simple-java-maven-app",
+  "description": "For an introductory tutorial on how to use Jenkins to build a simple Java application with Maven.",
+  "language": "Shell",
+  "stars": 524,
+  "categories": {
+    "github-ranking-top-100-forks": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

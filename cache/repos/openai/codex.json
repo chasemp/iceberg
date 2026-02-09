@@ -1,0 +1,12 @@
+{
+  "owner": "openai",
+  "name": "codex",
+  "url": "https://github.com/openai/codex",
+  "description": "Lightweight coding agent that runs in your terminal",
+  "language": "Rust",
+  "stars": 59594,
+  "categories": {
+    "github-ranking-rust": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

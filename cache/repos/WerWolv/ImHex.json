@@ -1,0 +1,12 @@
+{
+  "owner": "WerWolv",
+  "name": "ImHex",
+  "url": "https://github.com/WerWolv/ImHex",
+  "description": "\ud83d\udd0d A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
+  "language": "C++",
+  "stars": 52561,
+  "categories": {
+    "github-ranking-cpp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

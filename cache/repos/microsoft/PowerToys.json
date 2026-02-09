@@ -1,0 +1,13 @@
+{
+  "owner": "microsoft",
+  "name": "PowerToys",
+  "url": "https://github.com/microsoft/PowerToys",
+  "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+  "language": "C#",
+  "stars": 129142,
+  "categories": {
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-csharp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,17 @@
+{
+  "owner": "bitcoin",
+  "repo": "bitcoin",
+  "version": "HEAD",
+  "loc": 485041,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T20:18:57.734244+00:00",
+  "repo_url": "https://github.com/bitcoin/bitcoin.git",
+  "ref": "HEAD",
+  "commit_hash": "64294c89094d5ab10d87236729cc267fde0a24ca",
+  "clone_duration_seconds": 2.950518846511841,
+  "count_duration_seconds": 0.21219301223754883,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-top-100-forks",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

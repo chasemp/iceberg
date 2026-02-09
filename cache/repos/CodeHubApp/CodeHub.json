@@ -1,0 +1,12 @@
+{
+  "owner": "CodeHubApp",
+  "name": "CodeHub",
+  "url": "https://github.com/CodeHubApp/CodeHub",
+  "description": "CodeHub is an iOS application written using Xamarin",
+  "language": "C#",
+  "stars": 22670,
+  "categories": {
+    "github-ranking-csharp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

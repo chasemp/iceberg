@@ -1,0 +1,12 @@
+{
+  "owner": "NationalSecurityAgency",
+  "name": "ghidra",
+  "url": "https://github.com/NationalSecurityAgency/ghidra",
+  "description": "Ghidra is a software reverse engineering (SRE) framework",
+  "language": "Java",
+  "stars": 64200,
+  "categories": {
+    "github-ranking-java": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

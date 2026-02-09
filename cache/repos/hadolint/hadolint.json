@@ -1,0 +1,12 @@
+{
+  "owner": "hadolint",
+  "name": "hadolint",
+  "url": "https://github.com/hadolint/hadolint",
+  "description": "Dockerfile linter, validate inline bash, written in Haskell",
+  "language": "Haskell",
+  "stars": 11926,
+  "categories": {
+    "github-ranking-haskell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

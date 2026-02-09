@@ -1,0 +1,15 @@
+{
+  "owner": "public-apis",
+  "name": "public-apis",
+  "url": "https://github.com/public-apis/public-apis",
+  "description": "A collective list of free APIs",
+  "language": "Python",
+  "stars": 396614,
+  "categories": {
+    "github-ranking-python": "2026-02-09",
+    "github-ranking-top-100-stars": "2026-02-09",
+    "search": "2026-02-09",
+    "github-ranking-top-100-forks": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "tracing-subscriber",
+    "version": "0.3.18"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:24:13.566430+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/tracing-subscriber/versions/0.3.18",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11292600631713867,
+  "count_duration_seconds": null
+}

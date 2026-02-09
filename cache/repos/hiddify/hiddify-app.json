@@ -1,0 +1,12 @@
+{
+  "owner": "hiddify",
+  "name": "hiddify-app",
+  "url": "https://github.com/hiddify/hiddify-app",
+  "description": "Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It\u2019s an open-source, secure and ad-free.",
+  "language": "Dart",
+  "stars": 25789,
+  "categories": {
+    "github-ranking-dart": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,15 @@
+{
+  "owner": "facebook",
+  "name": "create-react-app",
+  "url": "https://github.com/facebook/create-react-app",
+  "description": "Set up a modern web app by running one command.",
+  "language": "JavaScript",
+  "stars": 103946,
+  "categories": {
+    "search": "2026-02-09",
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-top-100-forks": "2026-02-09",
+    "github-ranking-javascript": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

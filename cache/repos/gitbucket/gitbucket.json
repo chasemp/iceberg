@@ -1,0 +1,12 @@
+{
+  "owner": "gitbucket",
+  "name": "gitbucket",
+  "url": "https://github.com/gitbucket/gitbucket",
+  "description": "A Git platform powered by Scala with easy installation, high extensibility & GitHub API compatibility",
+  "language": "Scala",
+  "stars": 9346,
+  "categories": {
+    "github-ranking-scala": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "pnpm",
+    "version": "8.3.1"
+  },
+  "total_lines": 12,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-09T20:30:09.829920+00:00",
+  "source_url": "https://registry.npmjs.org/pnpm/-/pnpm-8.3.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 1.9349639415740967,
+  "count_duration_seconds": null
+}

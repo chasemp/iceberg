@@ -1,0 +1,24 @@
+{
+  "owner": "nightscout",
+  "repo": "cgm-remote-monitor",
+  "version": "HEAD",
+  "loc": 28610,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T20:14:12.161177+00:00",
+  "package": {
+    "system": "npm",
+    "name": "nightscout",
+    "version": "15.0.3"
+  },
+  "total_loc": 199500,
+  "ratio": 0.8745780544474158,
+  "repo_url": "https://github.com/nightscout/cgm-remote-monitor.git",
+  "ref": "HEAD",
+  "commit_hash": "91cd601038a3bce00f92655cc6b1cc02fa3589d3",
+  "clone_duration_seconds": 1.4692659378051758,
+  "count_duration_seconds": 0.031101226806640625,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-top-100-forks",
+  "tracked": false,
+  "maintenance_priority": "low"
+}

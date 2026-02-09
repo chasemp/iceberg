@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "org.apache.tomcat.embed:tomcat-embed-core",
+    "version": "9.0.68"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:22:37.526474+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/org.apache.tomcat.embed:tomcat-embed-core/versions/9.0.68",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.13585686683654785,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "DevToys-app",
+  "name": "DevToys",
+  "url": "https://github.com/DevToys-app/DevToys",
+  "description": "A Swiss Army knife for developers.",
+  "language": "C#",
+  "stars": 30932,
+  "categories": {
+    "github-ranking-csharp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

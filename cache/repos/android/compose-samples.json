@@ -1,0 +1,12 @@
+{
+  "owner": "android",
+  "name": "compose-samples",
+  "url": "https://github.com/android/compose-samples",
+  "description": "Official Jetpack Compose samples.",
+  "language": "Kotlin",
+  "stars": 22865,
+  "categories": {
+    "github-ranking-kotlin": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

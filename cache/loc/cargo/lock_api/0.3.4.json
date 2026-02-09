@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "lock_api",
+    "version": "0.3.4"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:23:05.189902+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/lock_api/versions/0.3.4",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1261751651763916,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "krispo",
+  "name": "awesome-haskell",
+  "url": "https://github.com/krispo/awesome-haskell",
+  "description": "A collection of awesome Haskell links, frameworks, libraries and software. Inspired by awesome projects line.",
+  "language": "Haskell",
+  "stars": 3326,
+  "categories": {
+    "github-ranking-haskell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

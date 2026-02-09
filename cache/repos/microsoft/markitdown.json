@@ -1,0 +1,13 @@
+{
+  "owner": "microsoft",
+  "name": "markitdown",
+  "url": "https://github.com/microsoft/markitdown",
+  "description": "Python tool for converting files and office documents to Markdown.",
+  "language": "Python",
+  "stars": 86599,
+  "categories": {
+    "search": "2026-02-09",
+    "github-ranking-python": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

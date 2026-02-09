@@ -1,0 +1,12 @@
+{
+  "owner": "neovim",
+  "name": "nvim-lspconfig",
+  "url": "https://github.com/neovim/nvim-lspconfig",
+  "description": "Quickstart configs for Nvim LSP",
+  "language": "Lua",
+  "stars": 13311,
+  "categories": {
+    "github-ranking-lua": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

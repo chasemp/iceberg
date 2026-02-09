@@ -1,0 +1,12 @@
+{
+  "owner": "marticliment",
+  "name": "UniGetUI",
+  "url": "https://github.com/marticliment/UniGetUI",
+  "description": "UniGetUI: The Graphical Interface for your package managers. Could be terribly described as a package manager manager to manage your package managers",
+  "language": "C#",
+  "stars": 20776,
+  "categories": {
+    "github-ranking-csharp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

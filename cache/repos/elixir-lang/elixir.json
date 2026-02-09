@@ -1,0 +1,12 @@
+{
+  "owner": "elixir-lang",
+  "name": "elixir",
+  "url": "https://github.com/elixir-lang/elixir",
+  "description": "Elixir is a dynamic, functional language for building scalable and maintainable applications",
+  "language": "Elixir",
+  "stars": 26352,
+  "categories": {
+    "github-ranking-elixir": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

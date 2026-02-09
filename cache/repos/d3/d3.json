@@ -1,0 +1,13 @@
+{
+  "owner": "d3",
+  "name": "d3",
+  "url": "https://github.com/d3/d3",
+  "description": "Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:",
+  "language": "Shell",
+  "stars": 112283,
+  "categories": {
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-shell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

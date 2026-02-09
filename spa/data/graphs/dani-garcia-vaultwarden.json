@@ -1,0 +1,16 @@
+{
+  "owner": "dani-garcia",
+  "repo": "vaultwarden",
+  "full_name": "dani-garcia/vaultwarden",
+  "root_package": "cargo:vaultwarden:1.0.0",
+  "nodes": [
+    {
+      "id": "cargo:vaultwarden:1.0.0",
+      "system": "cargo",
+      "name": "vaultwarden",
+      "version": "1.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.189233+00:00"
+}

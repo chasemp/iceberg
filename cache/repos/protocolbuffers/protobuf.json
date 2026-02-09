@@ -1,0 +1,12 @@
+{
+  "owner": "protocolbuffers",
+  "name": "protobuf",
+  "url": "https://github.com/protocolbuffers/protobuf",
+  "description": "Protocol Buffers - Google's data interchange format",
+  "language": "C++",
+  "stars": 70663,
+  "categories": {
+    "github-ranking-cpp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

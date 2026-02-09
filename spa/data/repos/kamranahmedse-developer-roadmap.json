@@ -1,0 +1,30 @@
+{
+  "owner": "kamranahmedse",
+  "repo": "developer-roadmap",
+  "full_name": "kamranahmedse/developer-roadmap",
+  "url": "https://github.com/kamranahmedse/developer-roadmap",
+  "analysis": {
+    "owner": "kamranahmedse",
+    "repo": "developer-roadmap",
+    "version": "HEAD",
+    "loc": 64281,
+    "source": "github_clone",
+    "cached_at": "2026-02-05T22:23:47.759322+00:00",
+    "package": {
+      "system": "npm",
+      "name": "roadmap.sh",
+      "version": "1.0.0"
+    },
+    "total_loc": 114164,
+    "ratio": 0.6397713581215501,
+    "repo_url": "https://github.com/kamranahmedse/developer-roadmap.git",
+    "ref": "HEAD",
+    "commit_hash": "74e2a71058020aec5c66a6c255b5fe82cae83ed9",
+    "clone_duration_seconds": 11.52836298942566,
+    "count_duration_seconds": 0.11573028564453125,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-stars",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

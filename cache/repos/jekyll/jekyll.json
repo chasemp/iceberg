@@ -1,0 +1,12 @@
+{
+  "owner": "jekyll",
+  "name": "jekyll",
+  "url": "https://github.com/jekyll/jekyll",
+  "description": ":globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby",
+  "language": "Ruby",
+  "stars": 51417,
+  "categories": {
+    "github-ranking-ruby": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

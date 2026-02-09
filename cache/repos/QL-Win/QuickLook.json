@@ -1,0 +1,12 @@
+{
+  "owner": "QL-Win",
+  "name": "QuickLook",
+  "url": "https://github.com/QL-Win/QuickLook",
+  "description": "Bring macOS \u201cQuick Look\u201d feature to Windows",
+  "language": "C#",
+  "stars": 22318,
+  "categories": {
+    "github-ranking-csharp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "koreader",
+  "name": "koreader",
+  "url": "https://github.com/koreader/koreader",
+  "description": "An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices",
+  "language": "Lua",
+  "stars": 25318,
+  "categories": {
+    "github-ranking-lua": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

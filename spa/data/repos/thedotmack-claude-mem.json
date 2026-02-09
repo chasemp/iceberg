@@ -19,6 +19,10 @@
     "ref": "v9.0.12",
     "commit_hash": "a16b25275e5f56b6d35d5fcf1a8324b8670792c8",
     "clone_duration_seconds": 1.5243031978607178,
-    "count_duration_seconds": 0.03636932373046875
+    "count_duration_seconds": 0.03636932373046875,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "trending-weekly",
+    "tracked": false,
+    "maintenance_priority": "medium"
   }
 }

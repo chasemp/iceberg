@@ -1,0 +1,16 @@
+{
+  "owner": "PanJiaChen",
+  "repo": "vue-element-admin",
+  "full_name": "PanJiaChen/vue-element-admin",
+  "root_package": "npm:vue-element-admin:4.4.0",
+  "nodes": [
+    {
+      "id": "npm:vue-element-admin:4.4.0",
+      "system": "npm",
+      "name": "vue-element-admin",
+      "version": "4.4.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.177978+00:00"
+}

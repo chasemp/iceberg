@@ -1,0 +1,12 @@
+{
+  "owner": "google",
+  "name": "leveldb",
+  "url": "https://github.com/google/leveldb",
+  "description": "LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.",
+  "language": "C++",
+  "stars": 38811,
+  "categories": {
+    "github-ranking-cpp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

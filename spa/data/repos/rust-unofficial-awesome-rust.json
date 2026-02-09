@@ -1,0 +1,30 @@
+{
+  "owner": "rust-unofficial",
+  "repo": "awesome-rust",
+  "full_name": "rust-unofficial/awesome-rust",
+  "url": "https://github.com/rust-unofficial/awesome-rust",
+  "analysis": {
+    "owner": "rust-unofficial",
+    "repo": "awesome-rust",
+    "version": "HEAD",
+    "loc": 944,
+    "source": "github_clone",
+    "cached_at": "2026-02-05T22:28:06.930630+00:00",
+    "package": {
+      "system": "cargo",
+      "name": "awesome-rust",
+      "version": "0.1.0"
+    },
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/rust-unofficial/awesome-rust.git",
+    "ref": "HEAD",
+    "commit_hash": "d38607c00b4000e723d9c729dedcc71caaeded5c",
+    "clone_duration_seconds": 0.8997743129730225,
+    "count_duration_seconds": 0.002569913864135742,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-rust",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

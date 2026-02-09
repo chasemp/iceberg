@@ -1,0 +1,30 @@
+{
+  "owner": "clash-verge-rev",
+  "repo": "clash-verge-rev",
+  "full_name": "clash-verge-rev/clash-verge-rev",
+  "url": "https://github.com/clash-verge-rev/clash-verge-rev",
+  "analysis": {
+    "owner": "clash-verge-rev",
+    "repo": "clash-verge-rev",
+    "version": "HEAD",
+    "loc": 55254,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T20:13:01.740089+00:00",
+    "package": {
+      "system": "npm",
+      "name": "clash-verge",
+      "version": "2.4.5"
+    },
+    "total_loc": 46801,
+    "ratio": 0.4585860565381412,
+    "repo_url": "https://github.com/clash-verge-rev/clash-verge-rev.git",
+    "ref": "v2.4.5",
+    "commit_hash": "4e7cdbfcc0e2162ee5824684452ebd4651e7077d",
+    "clone_duration_seconds": 1.9889640808105469,
+    "count_duration_seconds": 0.04244875907897949,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-stars",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

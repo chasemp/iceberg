@@ -1,0 +1,16 @@
+{
+  "owner": "microsoft",
+  "repo": "generative-ai-for-beginners",
+  "full_name": "microsoft/generative-ai-for-beginners",
+  "root_package": "npm:generative-ai-for-beginners:1.0.0",
+  "nodes": [
+    {
+      "id": "npm:generative-ai-for-beginners:1.0.0",
+      "system": "npm",
+      "name": "generative-ai-for-beginners",
+      "version": "1.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.171075+00:00"
+}

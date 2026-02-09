@@ -1,0 +1,12 @@
+{
+  "owner": "vapor",
+  "name": "vapor",
+  "url": "https://github.com/vapor/vapor",
+  "description": "\ud83d\udca7 A server-side Swift HTTP web framework.",
+  "language": "Swift",
+  "stars": 25962,
+  "categories": {
+    "github-ranking-swift": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "CodeEditApp",
+  "name": "CodeEdit",
+  "url": "https://github.com/CodeEditApp/CodeEdit",
+  "description": "\ud83d\udcdd CodeEdit App for macOS \u2013 Elevate your code editing experience. Open source, free forever.",
+  "language": "Swift",
+  "stars": 22660,
+  "categories": {
+    "github-ranking-swift": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "mxgmn",
+  "name": "WaveFunctionCollapse",
+  "url": "https://github.com/mxgmn/WaveFunctionCollapse",
+  "description": "Bitmap & tilemap generation from a single example with the help of ideas from quantum mechanics",
+  "language": "C#",
+  "stars": 24666,
+  "categories": {
+    "github-ranking-csharp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

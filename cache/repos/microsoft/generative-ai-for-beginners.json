@@ -1,0 +1,13 @@
+{
+  "owner": "microsoft",
+  "name": "generative-ai-for-beginners",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners",
+  "description": "21 Lessons, Get Started Building with Generative AI",
+  "language": "Jupyter Notebook",
+  "stars": 106224,
+  "categories": {
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-top-100-forks": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

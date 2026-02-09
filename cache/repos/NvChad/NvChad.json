@@ -1,0 +1,12 @@
+{
+  "owner": "NvChad",
+  "name": "NvChad",
+  "url": "https://github.com/NvChad/NvChad",
+  "description": "Blazing fast Neovim framework providing solid defaults and a beautiful UI, enhancing your neovim experience.",
+  "language": "Lua",
+  "stars": 27841,
+  "categories": {
+    "github-ranking-lua": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

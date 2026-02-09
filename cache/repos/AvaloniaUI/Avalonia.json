@@ -1,0 +1,12 @@
+{
+  "owner": "AvaloniaUI",
+  "name": "Avalonia",
+  "url": "https://github.com/AvaloniaUI/Avalonia",
+  "description": "Develop Desktop, Embedded, Mobile and WebAssembly apps with C# and XAML. The most popular .NET UI client technology",
+  "language": "C#",
+  "stars": 30021,
+  "categories": {
+    "github-ranking-csharp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

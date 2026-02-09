@@ -1,0 +1,14 @@
+{
+  "owner": "anuraghazra",
+  "name": "github-readme-stats",
+  "url": "https://github.com/anuraghazra/github-readme-stats",
+  "description": ":zap: Dynamically generated stats for your github readmes",
+  "language": "JavaScript",
+  "stars": 78282,
+  "categories": {
+    "search": "2026-02-09",
+    "github-ranking-top-100-forks": "2026-02-09",
+    "github-ranking-javascript": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

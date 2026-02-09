@@ -1,0 +1,12 @@
+{
+  "owner": "chatwoot",
+  "name": "chatwoot",
+  "url": "https://github.com/chatwoot/chatwoot",
+  "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. \ud83d\udd25\ud83d\udcac",
+  "language": "Ruby",
+  "stars": 27209,
+  "categories": {
+    "github-ranking-ruby": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "termux",
+  "name": "termux-app",
+  "url": "https://github.com/termux/termux-app",
+  "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+  "language": "Java",
+  "stars": 50360,
+  "categories": {
+    "github-ranking-java": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

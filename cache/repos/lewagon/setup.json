@@ -1,0 +1,12 @@
+{
+  "owner": "lewagon",
+  "name": "setup",
+  "url": "https://github.com/lewagon/setup",
+  "description": "Setup instructions for Le Wagon's students on their first day of AI Software Development Bootcamp",
+  "language": "Ruby",
+  "stars": 19514,
+  "categories": {
+    "github-ranking-ruby": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

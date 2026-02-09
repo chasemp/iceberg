@@ -1,0 +1,12 @@
+{
+  "owner": "base",
+  "name": "node",
+  "url": "https://github.com/base/node",
+  "description": "Everything required to run your own Base node",
+  "language": "Go",
+  "stars": 68783,
+  "categories": {
+    "github-ranking-go": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

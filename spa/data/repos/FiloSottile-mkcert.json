@@ -1,0 +1,28 @@
+{
+  "owner": "FiloSottile",
+  "repo": "mkcert",
+  "full_name": "FiloSottile/mkcert",
+  "url": "https://github.com/FiloSottile/mkcert",
+  "analysis": {
+    "owner": "FiloSottile",
+    "repo": "mkcert",
+    "version": "HEAD",
+    "loc": 1136,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T21:46:20.688392+00:00",
+    "package": {
+      "system": "go",
+      "name": "filippo.io/mkcert",
+      "version": "v0.0.0"
+    },
+    "repo_url": "https://github.com/FiloSottile/mkcert.git",
+    "ref": "HEAD",
+    "commit_hash": "1c1dc4ed27ed5936046b6398d39cab4d657a2d8e",
+    "clone_duration_seconds": 0.8692910671234131,
+    "count_duration_seconds": 0.003674030303955078,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-go",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

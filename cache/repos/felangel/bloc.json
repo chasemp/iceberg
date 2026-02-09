@@ -1,0 +1,12 @@
+{
+  "owner": "felangel",
+  "name": "bloc",
+  "url": "https://github.com/felangel/bloc",
+  "description": "A predictable state management library that helps implement the BLoC design pattern",
+  "language": "Dart",
+  "stars": 12389,
+  "categories": {
+    "github-ranking-dart": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

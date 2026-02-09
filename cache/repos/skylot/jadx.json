@@ -1,0 +1,12 @@
+{
+  "owner": "skylot",
+  "name": "jadx",
+  "url": "https://github.com/skylot/jadx",
+  "description": "Dex to Java decompiler",
+  "language": "Java",
+  "stars": 47236,
+  "categories": {
+    "github-ranking-java": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

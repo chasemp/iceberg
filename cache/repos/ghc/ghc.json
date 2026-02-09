@@ -1,0 +1,12 @@
+{
+  "owner": "ghc",
+  "name": "ghc",
+  "url": "https://github.com/ghc/ghc",
+  "description": "Mirror of the Glasgow Haskell Compiler. Please submit issues and patches to GHC's Gitlab instance (https://gitlab.haskell.org/ghc/ghc). First time contributors are encouraged to get started with the newcomers info (https://gitlab.haskell.org/ghc/ghc/wikis/contributing).",
+  "language": "Haskell",
+  "stars": 3211,
+  "categories": {
+    "github-ranking-haskell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

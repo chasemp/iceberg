@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "net2",
+    "version": "0.2.39"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:23:05.511710+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/net2/versions/0.2.39",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11749410629272461,
+  "count_duration_seconds": null
+}

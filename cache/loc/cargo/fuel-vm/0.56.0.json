@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "fuel-vm",
+    "version": "0.56.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:18:02.842412+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/fuel-vm/versions/0.56.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1251211166381836,
+  "count_duration_seconds": null
+}

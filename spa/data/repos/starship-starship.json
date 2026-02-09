@@ -1,0 +1,30 @@
+{
+  "owner": "starship",
+  "repo": "starship",
+  "full_name": "starship/starship",
+  "url": "https://github.com/starship/starship",
+  "analysis": {
+    "owner": "starship",
+    "repo": "starship",
+    "version": "HEAD",
+    "loc": 39028,
+    "source": "github_clone",
+    "cached_at": "2026-02-05T22:28:46.599041+00:00",
+    "package": {
+      "system": "cargo",
+      "name": "starship",
+      "version": "1.24.2"
+    },
+    "total_loc": 11980,
+    "ratio": 0.23486511919698871,
+    "repo_url": "https://github.com/starship/starship.git",
+    "ref": "v1.24.2",
+    "commit_hash": "33f7077fbe9d7f30476c96645e482be323d42566",
+    "clone_duration_seconds": 1.8162879943847656,
+    "count_duration_seconds": 0.028923988342285156,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-rust",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "fastlane",
+  "name": "fastlane",
+  "url": "https://github.com/fastlane/fastlane",
+  "description": "\ud83d\ude80 The easiest way to automate building and releasing your iOS and Android apps",
+  "language": "Ruby",
+  "stars": 40972,
+  "categories": {
+    "github-ranking-ruby": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

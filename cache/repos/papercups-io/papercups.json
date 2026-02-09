@@ -1,0 +1,12 @@
+{
+  "owner": "papercups-io",
+  "name": "papercups",
+  "url": "https://github.com/papercups-io/papercups",
+  "description": "Open-source live customer chat",
+  "language": "Elixir",
+  "stars": 5920,
+  "categories": {
+    "github-ranking-elixir": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

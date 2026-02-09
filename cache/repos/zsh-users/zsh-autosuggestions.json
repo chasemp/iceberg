@@ -1,0 +1,12 @@
+{
+  "owner": "zsh-users",
+  "name": "zsh-autosuggestions",
+  "url": "https://github.com/zsh-users/zsh-autosuggestions",
+  "description": "Fish-like autosuggestions for zsh",
+  "language": "Shell",
+  "stars": 34804,
+  "categories": {
+    "github-ranking-shell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

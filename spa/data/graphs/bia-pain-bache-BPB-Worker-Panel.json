@@ -1,0 +1,16 @@
+{
+  "owner": "bia-pain-bache",
+  "repo": "BPB-Worker-Panel",
+  "full_name": "bia-pain-bache/BPB-Worker-Panel",
+  "root_package": "npm:bpb-panel:4.1.0",
+  "nodes": [
+    {
+      "id": "npm:bpb-panel:4.1.0",
+      "system": "npm",
+      "name": "bpb-panel",
+      "version": "4.1.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.189736+00:00"
+}

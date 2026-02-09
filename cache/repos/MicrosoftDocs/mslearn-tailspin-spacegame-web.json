@@ -1,0 +1,12 @@
+{
+  "owner": "MicrosoftDocs",
+  "name": "mslearn-tailspin-spacegame-web",
+  "url": "https://github.com/MicrosoftDocs/mslearn-tailspin-spacegame-web",
+  "description": "Code used in Microsoft Learn modules to support Azure DevOps",
+  "language": "Shell",
+  "stars": 212,
+  "categories": {
+    "github-ranking-top-100-forks": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

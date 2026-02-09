@@ -1,0 +1,12 @@
+{
+  "owner": "starship",
+  "name": "starship",
+  "url": "https://github.com/starship/starship",
+  "description": "\u2604\ud83c\udf0c\ufe0f  The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
+  "language": "Rust",
+  "stars": 53994,
+  "categories": {
+    "github-ranking-rust": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "crossbeam-channel",
+    "version": "0.5.12"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:24:03.153854+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/crossbeam-channel/versions/0.5.12",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.12327885627746582,
+  "count_duration_seconds": null
+}

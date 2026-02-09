@@ -1,0 +1,13 @@
+{
+  "owner": "apache",
+  "name": "dubbo",
+  "url": "https://github.com/apache/dubbo",
+  "description": "The java implementation of Apache Dubbo. An RPC and microservice framework.",
+  "language": "Java",
+  "stars": 41722,
+  "categories": {
+    "github-ranking-top-100-forks": "2026-02-09",
+    "github-ranking-java": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

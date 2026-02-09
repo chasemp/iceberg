@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "org.assertj:assertj-core",
+    "version": "3.20.2"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:28:16.322259+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/org.assertj:assertj-core/versions/3.20.2",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11357688903808594,
+  "count_duration_seconds": null
+}

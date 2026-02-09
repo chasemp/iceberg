@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "org.xerial.snappy:snappy-java",
+    "version": "1.0.4.1"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:28:18.836172+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/org.xerial.snappy:snappy-java/versions/1.0.4.1",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1712801456451416,
+  "count_duration_seconds": null
+}

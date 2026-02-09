@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "com.jayway.jsonpath:json-path",
+    "version": "2.7.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:22:36.731750+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/com.jayway.jsonpath:json-path/versions/2.7.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11317300796508789,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,16 @@
+{
+  "owner": "apache",
+  "repo": "dubbo",
+  "full_name": "apache/dubbo",
+  "root_package": "maven:apache:23",
+  "nodes": [
+    {
+      "id": "maven:apache:23",
+      "system": "maven",
+      "name": "apache",
+      "version": "23"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.212141+00:00"
+}

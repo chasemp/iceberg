@@ -1,0 +1,12 @@
+{
+  "owner": "topjohnwu",
+  "name": "Magisk",
+  "url": "https://github.com/topjohnwu/Magisk",
+  "description": "The Magic Mask for Android",
+  "language": "Rust",
+  "stars": 58593,
+  "categories": {
+    "github-ranking-rust": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

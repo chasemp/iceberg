@@ -1,0 +1,16 @@
+{
+  "owner": "macrozheng",
+  "repo": "mall",
+  "full_name": "macrozheng/mall",
+  "root_package": "maven:mall:1.0-SNAPSHOT",
+  "nodes": [
+    {
+      "id": "maven:mall:1.0-SNAPSHOT",
+      "system": "maven",
+      "name": "mall",
+      "version": "1.0-SNAPSHOT"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.167835+00:00"
+}

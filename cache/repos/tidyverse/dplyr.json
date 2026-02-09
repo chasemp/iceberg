@@ -1,0 +1,12 @@
+{
+  "owner": "tidyverse",
+  "name": "dplyr",
+  "url": "https://github.com/tidyverse/dplyr",
+  "description": "dplyr: A grammar of data manipulation",
+  "language": "R",
+  "stars": 4996,
+  "categories": {
+    "github-ranking-r": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

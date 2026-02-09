@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "algoliasearch-helper",
+    "version": "3.10.0"
+  },
+  "total_lines": 3283,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-09T20:04:32.544487+00:00",
+  "source_url": "https://registry.npmjs.org/algoliasearch-helper/-/algoliasearch-helper-3.10.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.8142499923706055,
+  "count_duration_seconds": null
+}

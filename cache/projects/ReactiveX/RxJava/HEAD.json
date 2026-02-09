@@ -1,0 +1,17 @@
+{
+  "owner": "ReactiveX",
+  "repo": "RxJava",
+  "version": "HEAD",
+  "loc": 101167,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T21:39:19.265962+00:00",
+  "repo_url": "https://github.com/ReactiveX/RxJava.git",
+  "ref": "HEAD",
+  "commit_hash": "175d1ad994e7975e1cb3401cc827a336efeecf6b",
+  "clone_duration_seconds": 1.9395501613616943,
+  "count_duration_seconds": 0.10036373138427734,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-java",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "trustwallet",
+  "name": "assets",
+  "url": "https://github.com/trustwallet/assets",
+  "description": "A comprehensive, up-to-date collection of information about several thousands (!) of crypto tokens.",
+  "language": "Go",
+  "stars": 5222,
+  "categories": {
+    "github-ranking-top-100-forks": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

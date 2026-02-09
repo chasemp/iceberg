@@ -1,0 +1,24 @@
+{
+  "owner": "mermaid-js",
+  "repo": "mermaid",
+  "version": "HEAD",
+  "loc": 50577,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T20:30:16.310217+00:00",
+  "package": {
+    "system": "npm",
+    "name": "mermaid-monorepo",
+    "version": "10.2.4"
+  },
+  "total_loc": 220694,
+  "ratio": 0.8135554482417952,
+  "repo_url": "https://github.com/mermaid-js/mermaid.git",
+  "ref": "v10.2.4",
+  "commit_hash": "453b337e6e0e6f02357293764c27c29c236fe848",
+  "clone_duration_seconds": 1.6671719551086426,
+  "count_duration_seconds": 0.04613900184631348,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-typescript",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

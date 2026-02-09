@@ -1,0 +1,12 @@
+{
+  "owner": "sdiehl",
+  "name": "write-you-a-haskell",
+  "url": "https://github.com/sdiehl/write-you-a-haskell",
+  "description": "Building a modern functional compiler from first principles. (http://dev.stephendiehl.com/fun/)",
+  "language": "Haskell",
+  "stars": 3519,
+  "categories": {
+    "github-ranking-haskell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

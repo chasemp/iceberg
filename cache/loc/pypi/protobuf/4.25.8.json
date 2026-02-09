@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "protobuf",
+    "version": "4.25.8"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T19:38:53.040110+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/protobuf/versions/4.25.8",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1113579273223877,
+  "count_duration_seconds": null
+}

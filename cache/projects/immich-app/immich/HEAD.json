@@ -1,0 +1,24 @@
+{
+  "owner": "immich-app",
+  "repo": "immich",
+  "version": "HEAD",
+  "loc": 113146,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T20:29:20.642233+00:00",
+  "package": {
+    "system": "npm",
+    "name": "immich-monorepo",
+    "version": "2.5.5"
+  },
+  "total_loc": 75540,
+  "ratio": 0.4003476675535016,
+  "repo_url": "https://github.com/immich-app/immich.git",
+  "ref": "v2.5.5",
+  "commit_hash": "ff9052f7f5e7a8e2244eaaeeb9d556ddc6da8100",
+  "clone_duration_seconds": 8.869415044784546,
+  "count_duration_seconds": 0.1558992862701416,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-typescript",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

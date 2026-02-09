@@ -1,0 +1,23 @@
+{
+  "owner": "microsoft",
+  "repo": "terminal",
+  "full_name": "microsoft/terminal",
+  "url": "https://github.com/microsoft/terminal",
+  "analysis": {
+    "owner": "microsoft",
+    "repo": "terminal",
+    "version": "HEAD",
+    "loc": 222620,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T20:09:58.417389+00:00",
+    "repo_url": "https://github.com/microsoft/terminal.git",
+    "ref": "HEAD",
+    "commit_hash": "3e912e78a755e41e7c949c2d4a9772a81adc6072",
+    "clone_duration_seconds": 4.250740051269531,
+    "count_duration_seconds": 0.21129775047302246,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-stars",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "lencx",
+  "name": "ChatGPT",
+  "url": "https://github.com/lencx/ChatGPT",
+  "description": "\ud83d\udd2e ChatGPT Desktop Application (Mac, Windows and Linux)",
+  "language": "Rust",
+  "stars": 54392,
+  "categories": {
+    "github-ranking-rust": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

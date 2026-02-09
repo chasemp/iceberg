@@ -1,0 +1,12 @@
+{
+  "owner": "FFmpeg",
+  "name": "FFmpeg",
+  "url": "https://github.com/FFmpeg/FFmpeg",
+  "description": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
+  "language": "C",
+  "stars": 57036,
+  "categories": {
+    "github-ranking-c": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

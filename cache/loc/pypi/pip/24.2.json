@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "pip",
+    "version": "24.2"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:19:18.005250+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/pip/versions/24.2",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.12178897857666016,
+  "count_duration_seconds": null
+}

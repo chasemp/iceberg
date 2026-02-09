@@ -1,0 +1,16 @@
+{
+  "owner": "ollama",
+  "repo": "ollama",
+  "full_name": "ollama/ollama",
+  "root_package": "go:github.com/ollama/ollama:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/ollama/ollama:v0.0.0",
+      "system": "go",
+      "name": "github.com/ollama/ollama",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.205800+00:00"
+}

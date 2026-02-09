@@ -1,0 +1,12 @@
+{
+  "owner": "usememos",
+  "name": "memos",
+  "url": "https://github.com/usememos/memos",
+  "description": "An open-source, self-hosted note-taking service. Your thoughts, your data, your control \u2014 no tracking, no ads, no subscription fees.",
+  "language": "Go",
+  "stars": 56700,
+  "categories": {
+    "github-ranking-go": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

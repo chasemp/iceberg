@@ -1,0 +1,12 @@
+{
+  "owner": "Homebrew",
+  "name": "homebrew-core",
+  "url": "https://github.com/Homebrew/homebrew-core",
+  "description": "\ud83c\udf7b Default formulae for the missing package manager for macOS (or Linux)",
+  "language": "Ruby",
+  "stars": 15013,
+  "categories": {
+    "github-ranking-ruby": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

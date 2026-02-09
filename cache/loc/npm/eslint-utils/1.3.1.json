@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "eslint-utils",
+    "version": "1.3.1"
+  },
+  "total_lines": 1966,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-09T20:28:55.346273+00:00",
+  "source_url": "https://registry.npmjs.org/eslint-utils/-/eslint-utils-1.3.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.3848719596862793,
+  "count_duration_seconds": null
+}

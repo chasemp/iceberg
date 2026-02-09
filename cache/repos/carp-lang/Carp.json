@@ -1,0 +1,12 @@
+{
+  "owner": "carp-lang",
+  "name": "Carp",
+  "url": "https://github.com/carp-lang/Carp",
+  "description": "A statically typed lisp, without a GC, for real-time applications.",
+  "language": "Haskell",
+  "stars": 5807,
+  "categories": {
+    "github-ranking-haskell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

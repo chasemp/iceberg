@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "org.bitbucket.b_c:jose4j",
+    "version": "0.9.5"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:21:00.569426+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/org.bitbucket.b_c:jose4j/versions/0.9.5",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11507582664489746,
+  "count_duration_seconds": null
+}

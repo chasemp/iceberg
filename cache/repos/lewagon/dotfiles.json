@@ -1,0 +1,12 @@
+{
+  "owner": "lewagon",
+  "name": "dotfiles",
+  "url": "https://github.com/lewagon/dotfiles",
+  "description": "Default configuration for Le Wagon's students",
+  "language": "Shell",
+  "stars": 21673,
+  "categories": {
+    "github-ranking-top-100-forks": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

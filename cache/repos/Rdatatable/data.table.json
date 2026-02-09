@@ -1,0 +1,12 @@
+{
+  "owner": "Rdatatable",
+  "name": "data.table",
+  "url": "https://github.com/Rdatatable/data.table",
+  "description": "R's data.table package extends data.frame:",
+  "language": "R",
+  "stars": 3849,
+  "categories": {
+    "github-ranking-r": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

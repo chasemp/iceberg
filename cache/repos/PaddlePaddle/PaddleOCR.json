@@ -1,0 +1,12 @@
+{
+  "owner": "PaddlePaddle",
+  "name": "PaddleOCR",
+  "url": "https://github.com/PaddlePaddle/PaddleOCR",
+  "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+  "language": "Python",
+  "stars": 70486,
+  "categories": {
+    "search": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

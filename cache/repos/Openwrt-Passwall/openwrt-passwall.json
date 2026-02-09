@@ -1,0 +1,12 @@
+{
+  "owner": "Openwrt-Passwall",
+  "name": "openwrt-passwall",
+  "url": "https://github.com/Openwrt-Passwall/openwrt-passwall",
+  "description": "None",
+  "language": "Lua",
+  "stars": 9246,
+  "categories": {
+    "github-ranking-lua": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

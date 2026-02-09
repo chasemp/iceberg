@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "wasmtime",
+    "version": "34.0.2"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:18:19.932521+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/wasmtime/versions/34.0.2",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.12244391441345215,
+  "count_duration_seconds": null
+}

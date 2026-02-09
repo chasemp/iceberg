@@ -1,0 +1,16 @@
+{
+  "owner": "traefik",
+  "repo": "traefik",
+  "full_name": "traefik/traefik",
+  "root_package": "go:github.com/traefik/traefik/v3:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/traefik/traefik/v3:v0.0.0",
+      "system": "go",
+      "name": "github.com/traefik/traefik/v3",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.214043+00:00"
+}

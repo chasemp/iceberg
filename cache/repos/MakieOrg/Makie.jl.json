@@ -1,0 +1,12 @@
+{
+  "owner": "MakieOrg",
+  "name": "Makie.jl",
+  "url": "https://github.com/MakieOrg/Makie.jl",
+  "description": "Interactive data visualizations and plotting in Julia",
+  "language": "Julia",
+  "stars": 2708,
+  "categories": {
+    "github-ranking-julia": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

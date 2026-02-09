@@ -1,0 +1,13 @@
+{
+  "owner": "electron",
+  "name": "electron",
+  "url": "https://github.com/electron/electron",
+  "description": ":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS",
+  "language": "C++",
+  "stars": 120046,
+  "categories": {
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-cpp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

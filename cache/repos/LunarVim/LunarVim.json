@@ -1,0 +1,12 @@
+{
+  "owner": "LunarVim",
+  "name": "LunarVim",
+  "url": "https://github.com/LunarVim/LunarVim",
+  "description": "\ud83c\udf19 LunarVim is an IDE layer for Neovim. Completely free and community driven.",
+  "language": "Lua",
+  "stars": 19218,
+  "categories": {
+    "github-ranking-lua": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

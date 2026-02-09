@@ -1,0 +1,12 @@
+{
+  "owner": "apple",
+  "name": "container",
+  "url": "https://github.com/apple/container",
+  "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+  "language": "Swift",
+  "stars": 24195,
+  "categories": {
+    "github-ranking-swift": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

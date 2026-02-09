@@ -1,0 +1,19 @@
+{
+  "owner": "github",
+  "repo": "gitignore",
+  "full_name": "github/gitignore",
+  "url": "https://github.com/github/gitignore",
+  "analysis": {
+    "owner": "github",
+    "repo": "gitignore",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-05T22:21:52.964763+00:00",
+    "repo_url": "https://github.com/github/gitignore.git",
+    "ref": "HEAD",
+    "commit_hash": "53fee13f20a05efc93ef4edcad0c62863520e268",
+    "clone_duration_seconds": 0.9337811470031738,
+    "count_duration_seconds": 0.0037009716033935547
+  }
+}

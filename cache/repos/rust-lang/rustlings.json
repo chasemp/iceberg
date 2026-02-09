@@ -1,0 +1,12 @@
+{
+  "owner": "rust-lang",
+  "name": "rustlings",
+  "url": "https://github.com/rust-lang/rustlings",
+  "description": ":crab: Small exercises to get you used to reading and writing Rust code!",
+  "language": "Rust",
+  "stars": 61751,
+  "categories": {
+    "github-ranking-rust": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

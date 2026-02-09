@@ -1,0 +1,12 @@
+{
+  "owner": "valinet",
+  "name": "ExplorerPatcher",
+  "url": "https://github.com/valinet/ExplorerPatcher",
+  "description": "This project aims to enhance the working environment on Windows",
+  "language": "C",
+  "stars": 31470,
+  "categories": {
+    "github-ranking-c": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

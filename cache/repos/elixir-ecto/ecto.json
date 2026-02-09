@@ -1,0 +1,12 @@
+{
+  "owner": "elixir-ecto",
+  "name": "ecto",
+  "url": "https://github.com/elixir-ecto/ecto",
+  "description": "A toolkit for data mapping and language integrated query.",
+  "language": "Elixir",
+  "stars": 6433,
+  "categories": {
+    "github-ranking-elixir": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

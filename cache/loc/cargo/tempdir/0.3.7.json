@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "tempdir",
+    "version": "0.3.7"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:17:32.276088+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/tempdir/versions/0.3.7",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1282670497894287,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "files-community",
+  "name": "Files",
+  "url": "https://github.com/files-community/Files",
+  "description": "A modern file manager that helps users organize their files and folders.",
+  "language": "C#",
+  "stars": 41773,
+  "categories": {
+    "github-ranking-csharp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

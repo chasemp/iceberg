@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "fastify",
+    "version": "5.7.2"
+  },
+  "total_lines": 9744,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-05T22:21:21.665631+00:00",
+  "source_url": "https://registry.npmjs.org/fastify/-/fastify-5.7.2.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.6522829532623291,
+  "count_duration_seconds": null
+}

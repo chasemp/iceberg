@@ -1,0 +1,23 @@
+{
+  "owner": "TheOdinProject",
+  "repo": "css-exercises",
+  "full_name": "TheOdinProject/css-exercises",
+  "url": "https://github.com/TheOdinProject/css-exercises",
+  "analysis": {
+    "owner": "TheOdinProject",
+    "repo": "css-exercises",
+    "version": "HEAD",
+    "loc": 46,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T20:13:39.606666+00:00",
+    "repo_url": "https://github.com/TheOdinProject/css-exercises.git",
+    "ref": "HEAD",
+    "commit_hash": "6de89c74cd20ce06c0333a0ecb5e9dd17862398c",
+    "clone_duration_seconds": 1.315587043762207,
+    "count_duration_seconds": 0.0064411163330078125,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-forks",
+    "tracked": false,
+    "maintenance_priority": "low"
+  }
+}

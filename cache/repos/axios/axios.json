@@ -1,0 +1,14 @@
+{
+  "owner": "axios",
+  "name": "axios",
+  "url": "https://github.com/axios/axios",
+  "description": "Promise based HTTP client for the browser and node.js",
+  "language": "JavaScript",
+  "stars": 108570,
+  "categories": {
+    "search": "2026-02-09",
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-javascript": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

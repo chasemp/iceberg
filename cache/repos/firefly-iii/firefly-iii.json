@@ -1,0 +1,12 @@
+{
+  "owner": "firefly-iii",
+  "name": "firefly-iii",
+  "url": "https://github.com/firefly-iii/firefly-iii",
+  "description": "Firefly III: a personal finances manager",
+  "language": "PHP",
+  "stars": 22322,
+  "categories": {
+    "github-ranking-php": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,14 @@
+{
+  "owner": "Comfy-Org",
+  "name": "ComfyUI",
+  "url": "https://github.com/Comfy-Org/ComfyUI",
+  "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+  "language": "Python",
+  "stars": 102787,
+  "categories": {
+    "search": "2026-02-09",
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-python": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

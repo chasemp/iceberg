@@ -1,0 +1,12 @@
+{
+  "owner": "VSCodium",
+  "name": "vscodium",
+  "url": "https://github.com/VSCodium/vscodium",
+  "description": "binary releases of VS Code without MS branding/telemetry/licensing",
+  "language": "Shell",
+  "stars": 30088,
+  "categories": {
+    "github-ranking-shell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

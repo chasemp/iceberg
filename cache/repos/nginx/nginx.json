@@ -1,0 +1,12 @@
+{
+  "owner": "nginx",
+  "name": "nginx",
+  "url": "https://github.com/nginx/nginx",
+  "description": "The official NGINX Open Source repository.",
+  "language": "C",
+  "stars": 29297,
+  "categories": {
+    "github-ranking-c": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

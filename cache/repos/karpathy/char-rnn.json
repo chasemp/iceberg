@@ -1,0 +1,12 @@
+{
+  "owner": "karpathy",
+  "name": "char-rnn",
+  "url": "https://github.com/karpathy/char-rnn",
+  "description": "Multi-layer Recurrent Neural Networks (LSTM, GRU, RNN) for character-level language models in Torch",
+  "language": "Lua",
+  "stars": 11971,
+  "categories": {
+    "github-ranking-lua": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

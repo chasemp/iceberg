@@ -1,0 +1,21 @@
+{
+  "owner": "FuelLabs",
+  "repo": "fuel-core",
+  "full_name": "FuelLabs/fuel-core",
+  "url": "https://github.com/FuelLabs/fuel-core",
+  "analysis": {
+    "owner": "FuelLabs",
+    "repo": "fuel-core",
+    "version": "HEAD",
+    "loc": 122445,
+    "source": "github_clone",
+    "cached_at": "2026-02-05T22:18:06.285258+00:00",
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/FuelLabs/fuel-core.git",
+    "ref": "HEAD",
+    "commit_hash": "697e692a08f90380f3f573e0d01d9ca813534be2",
+    "clone_duration_seconds": 1.9160330295562744,
+    "count_duration_seconds": 0.06430697441101074
+  }
+}

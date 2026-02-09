@@ -1,0 +1,12 @@
+{
+  "owner": "bcit-ci",
+  "name": "CodeIgniter",
+  "url": "https://github.com/bcit-ci/CodeIgniter",
+  "description": "Open Source PHP Framework (originally from EllisLab)",
+  "language": "PHP",
+  "stars": 18225,
+  "categories": {
+    "github-ranking-php": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

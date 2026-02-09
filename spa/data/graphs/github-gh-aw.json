@@ -1,0 +1,16 @@
+{
+  "owner": "github",
+  "repo": "gh-aw",
+  "full_name": "github/gh-aw",
+  "root_package": "go:github.com/github/gh-aw:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/github/gh-aw:v0.0.0",
+      "system": "go",
+      "name": "github.com/github/gh-aw",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.191850+00:00"
+}

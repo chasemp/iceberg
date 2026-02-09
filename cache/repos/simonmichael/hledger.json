@@ -1,0 +1,12 @@
+{
+  "owner": "simonmichael",
+  "name": "hledger",
+  "url": "https://github.com/simonmichael/hledger",
+  "description": "Robust, fast, intuitive plain text accounting tool with CLI, TUI and web interfaces.",
+  "language": "Haskell",
+  "stars": 3856,
+  "categories": {
+    "github-ranking-haskell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

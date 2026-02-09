@@ -1,0 +1,28 @@
+{
+  "owner": "TheAlgorithms",
+  "repo": "Java",
+  "full_name": "TheAlgorithms/Java",
+  "url": "https://github.com/TheAlgorithms/Java",
+  "analysis": {
+    "owner": "TheAlgorithms",
+    "repo": "Java",
+    "version": "HEAD",
+    "loc": 43132,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T21:31:44.250173+00:00",
+    "package": {
+      "system": "maven",
+      "name": "Java",
+      "version": "1.0-SNAPSHOT"
+    },
+    "repo_url": "https://github.com/TheAlgorithms/Java.git",
+    "ref": "HEAD",
+    "commit_hash": "8403b8feb198ce250a1e2aef4416216154300961",
+    "clone_duration_seconds": 1.8305768966674805,
+    "count_duration_seconds": 0.0968620777130127,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-java",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

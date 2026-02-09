@@ -1,0 +1,14 @@
+{
+  "owner": "521xueweihan",
+  "name": "HelloGitHub",
+  "url": "https://github.com/521xueweihan/HelloGitHub",
+  "description": ":octocat: \u5206\u4eab GitHub \u4e0a\u6709\u8da3\u3001\u5165\u95e8\u7ea7\u7684\u5f00\u6e90\u9879\u76ee\u3002Share interesting, entry-level open source projects on GitHub.",
+  "language": "Python",
+  "stars": 142563,
+  "categories": {
+    "search": "2026-02-09",
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-python": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

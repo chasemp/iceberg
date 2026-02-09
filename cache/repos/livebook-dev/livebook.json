@@ -1,0 +1,12 @@
+{
+  "owner": "livebook-dev",
+  "name": "livebook",
+  "url": "https://github.com/livebook-dev/livebook",
+  "description": "Automate code & data workflows with interactive Elixir notebooks",
+  "language": "Elixir",
+  "stars": 5694,
+  "categories": {
+    "github-ranking-elixir": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

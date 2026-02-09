@@ -1,0 +1,12 @@
+{
+  "owner": "AstroNvim",
+  "name": "AstroNvim",
+  "url": "https://github.com/AstroNvim/AstroNvim",
+  "description": "AstroNvim is an aesthetic and feature-rich neovim config that is extensible and easy to use with a great set of plugins",
+  "language": "Lua",
+  "stars": 14098,
+  "categories": {
+    "github-ranking-lua": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "ocornut",
+  "name": "imgui",
+  "url": "https://github.com/ocornut/imgui",
+  "description": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies",
+  "language": "C++",
+  "stars": 71229,
+  "categories": {
+    "github-ranking-cpp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

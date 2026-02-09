@@ -1,0 +1,12 @@
+{
+  "owner": "playframework",
+  "name": "playframework",
+  "url": "https://github.com/playframework/playframework",
+  "description": "The Community Maintained High Velocity Web Framework For Java and Scala.",
+  "language": "Scala",
+  "stars": 12624,
+  "categories": {
+    "github-ranking-scala": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

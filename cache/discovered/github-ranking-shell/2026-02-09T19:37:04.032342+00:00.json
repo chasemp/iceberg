@@ -1,0 +1,233 @@
+[
+  {
+    "name": "nvm",
+    "owner": "nvm-sh",
+    "url": "https://github.com/nvm-sh/nvm",
+    "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
+    "language": "Shell",
+    "stars": 91582,
+    "source": "github-ranking-shell",
+    "discovered_at": "2026-02-09T19:37:03.408704+00:00",
+    "search_query": null
+  },
+  {
+    "name": "claude-code",
+    "owner": "anthropics",
+    "url": "https://github.com/anthropics/claude-code",
+    "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+    "language": "Shell",
+    "stars": 65405,
+    "source": "github-ranking-shell",
+    "discovered_at": "2026-02-09T19:37:03.408709+00:00",
+    "search_query": null
+  },
+  {
+    "name": "leetcode-master",
+    "owner": "youngyangyang04",
+    "url": "https://github.com/youngyangyang04/leetcode-master",
+    "description": "\u300a\u4ee3\u7801\u968f\u60f3\u5f55\u300bLeetCode \u5237\u9898\u653b\u7565\uff1a200\u9053\u7ecf\u5178\u9898\u76ee\u5237\u9898\u987a\u5e8f\uff0c\u517160w\u5b57\u7684\u8be6\u7ec6\u56fe\u89e3\uff0c\u89c6\u9891\u96be\u70b9\u5256\u6790\uff0c50\u4f59\u5f20\u601d\u7ef4\u5bfc\u56fe\uff0c\u652f\u6301C++\uff0cJava\uff0cPython\uff0cGo\uff0cJavaScript\u7b49\u591a\u8bed\u8a00\u7248\u672c\uff0c\u4ece\u6b64\u7b97\u6cd5\u5b66\u4e60\u4e0d\u518d\u8ff7\u832b\uff01\ud83d\udd25\ud83d\udd25 \u6765\u770b\u770b\uff0c\u4f60\u4f1a\u53d1\u73b0\u76f8\u89c1\u6068\u665a\uff01\ud83d\ude80",
+    "language": "Shell",
+    "stars": 60292,
+    "source": "github-ranking-shell",
+    "discovered_at": "2026-02-09T19:37:03.408714+00:00",
+    "search_query": null
+  },
+  {
+    "name": "pi-hole",
+    "owner": "pi-hole",
+    "url": "https://github.com/pi-hole/pi-hole",
+    "description": "A black hole for Internet advertisements",
+    "language": "Shell",
+    "stars": 55599,
+    "source": "github-ranking-shell",
+    "discovered_at": "2026-02-09T19:37:03.408718+00:00",
+    "search_query": null
+  },
+  {
+    "name": "powerlevel10k",
+    "owner": "romkatv",
+    "url": "https://github.com/romkatv/powerlevel10k",
+    "description": "A Zsh theme",
+    "language": "Shell",
+    "stars": 52770,
+    "source": "github-ranking-shell",
+    "discovered_at": "2026-02-09T19:37:03.408723+00:00",
+    "search_query": null
+  },
+  {
+    "name": "Docker-OSX",
+    "owner": "sickcodes",
+    "url": "https://github.com/sickcodes/Docker-OSX",
+    "description": "Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers.",
+    "language": "Shell",
+    "stars": 52131,
+    "source": "github-ranking-shell",
+    "discovered_at": "2026-02-09T19:37:03.408727+00:00",
+    "search_query": null
+  },
+  {
+    "name": "windows",
+    "owner": "dockur",
+    "url": "https://github.com/dockur/windows",
+    "description": "Windows inside a Docker container.",
+    "language": "Shell",
+    "stars": 49886,
+    "source": "github-ranking-shell",
+    "discovered_at": "2026-02-09T19:37:03.408731+00:00",
+    "search_query": null
+  },
+  {
+    "name": "acme.sh",
+    "owner": "acmesh-official",
+    "url": "https://github.com/acmesh-official/acme.sh",
+    "description": "A pure Unix shell script ACME client for SSL / TLS certificate automation",
+    "language": "Shell",
+    "stars": 45637,
+    "source": "github-ranking-shell",
+    "discovered_at": "2026-02-09T19:37:03.408739+00:00",
+    "search_query": null
+  },
+  {
+    "name": "pyenv",
+    "owner": "pyenv",
+    "url": "https://github.com/pyenv/pyenv",
+    "description": "Simple Python version management",
+    "language": "Shell",
+    "stars": 44233,
+    "source": "github-ranking-shell",
+    "discovered_at": "2026-02-09T19:37:03.408743+00:00",
+    "search_query": null
+  },
+  {
+    "name": "pure-bash-bible",
+    "owner": "dylanaraps",
+    "url": "https://github.com/dylanaraps/pure-bash-bible",
+    "description": "\ud83d\udcd6 A collection of pure bash alternatives to external processes.",
+    "language": "Shell",
+    "stars": 41297,
+    "source": "github-ranking-shell",
+    "discovered_at": "2026-02-09T19:37:03.408747+00:00",
+    "search_query": null
+  },
+  {
+    "name": "node",
+    "owner": "inkonchain",
+    "url": "https://github.com/inkonchain/node",
+    "description": "How to run an Ink Node",
+    "language": "Shell",
+    "stars": 36816,
+    "source": "github-ranking-shell",
+    "discovered_at": "2026-02-09T19:37:03.408751+00:00",
+    "search_query": null
+  },
+  {
+    "name": "og-aws",
+    "owner": "open-guides",
+    "url": "https://github.com/open-guides/og-aws",
+    "description": "\ud83d\udcd9 Amazon Web Services \u2014 a practical guide",
+    "language": "Shell",
+    "stars": 36640,
+    "source": "github-ranking-shell",
+    "discovered_at": "2026-02-09T19:37:03.408755+00:00",
+    "search_query": null
+  },
+  {
+    "name": "zsh-autosuggestions",
+    "owner": "zsh-users",
+    "url": "https://github.com/zsh-users/zsh-autosuggestions",
+    "description": "Fish-like autosuggestions for zsh",
+    "language": "Shell",
+    "stars": 34804,
+    "source": "github-ranking-shell",
+    "discovered_at": "2026-02-09T19:37:03.408759+00:00",
+    "search_query": null
+  },
+  {
+    "name": "Mole",
+    "owner": "tw93",
+    "url": "https://github.com/tw93/Mole",
+    "description": "\ud83d\udc39 Deep clean and optimize your Mac.",
+    "language": "Shell",
+    "stars": 33921,
+    "source": "github-ranking-shell",
+    "discovered_at": "2026-02-09T19:37:03.408763+00:00",
+    "search_query": null
+  },
+  {
+    "name": "dokku",
+    "owner": "dokku",
+    "url": "https://github.com/dokku/dokku",
+    "description": "A docker-powered PaaS that helps you build and manage the lifecycle of applications",
+    "language": "Shell",
+    "stars": 31869,
+    "source": "github-ranking-shell",
+    "discovered_at": "2026-02-09T19:37:03.408767+00:00",
+    "search_query": null
+  },
+  {
+    "name": "dotfiles",
+    "owner": "mathiasbynens",
+    "url": "https://github.com/mathiasbynens/dotfiles",
+    "description": ":wrench: .files, including ~/.macos \u2014 sensible hacker defaults for macOS",
+    "language": "Shell",
+    "stars": 31221,
+    "source": "github-ranking-shell",
+    "discovered_at": "2026-02-09T19:37:03.408772+00:00",
+    "search_query": null
+  },
+  {
+    "name": "vscodium",
+    "owner": "VSCodium",
+    "url": "https://github.com/VSCodium/vscodium",
+    "description": "binary releases of VS Code without MS branding/telemetry/licensing",
+    "language": "Shell",
+    "stars": 30088,
+    "source": "github-ranking-shell",
+    "discovered_at": "2026-02-09T19:37:03.408776+00:00",
+    "search_query": null
+  },
+  {
+    "name": "90DaysOfDevOps",
+    "owner": "MichaelCade",
+    "url": "https://github.com/MichaelCade/90DaysOfDevOps",
+    "description": "This repository started out as a learning in public project for myself and has now become a structured learning map for many in the community. We have 3 years under our belt covering all things DevOps, including Principles, Processes, Tooling and Use Cases surrounding this vast topic.",
+    "language": "Shell",
+    "stars": 29320,
+    "source": "github-ranking-shell",
+    "discovered_at": "2026-02-09T19:37:03.408780+00:00",
+    "search_query": null
+  },
+  {
+    "name": "programmer-job-blacklist",
+    "owner": "shengxinjing",
+    "url": "https://github.com/shengxinjing/programmer-job-blacklist",
+    "description": ":see_no_evil:\u7a0b\u5e8f\u5458\u627e\u5de5\u4f5c\u9ed1\u540d\u5355\uff0c\u6362\u5de5\u4f5c\u548c\u5f53\u6280\u672f\u5408\u4f19\u4eba\u9700\u8c28\u614e\u554a \u66f4\u65b0\u6709\u8d5e",
+    "language": "Shell",
+    "stars": 28460,
+    "source": "github-ranking-shell",
+    "discovered_at": "2026-02-09T19:37:03.408784+00:00",
+    "search_query": null
+  },
+  {
+    "name": "v2ray",
+    "owner": "233boy",
+    "url": "https://github.com/233boy/v2ray",
+    "description": "\u6700\u597d\u7528\u7684 V2Ray \u4e00\u952e\u5b89\u88c5\u811a\u672c & \u7ba1\u7406\u811a\u672c",
+    "language": "Shell",
+    "stars": 28115,
+    "source": "github-ranking-shell",
+    "discovered_at": "2026-02-09T19:37:03.408788+00:00",
+    "search_query": null
+  },
+  {
+    "name": "setup-ipsec-vpn",
+    "owner": "hwdsl2",
+    "url": "https://github.com/hwdsl2/setup-ipsec-vpn",
+    "description": "Scripts to build your own IPsec VPN server, with IPsec/L2TP, Cisco IPsec and IKEv2",
+    "language": "Shell",
+    "stars": 27364,
+    "source": "github-ranking-shell",
+    "discovered_at": "2026-02-09T19:37:03.408792+00:00",
+    "search_query": null
+  }
+]

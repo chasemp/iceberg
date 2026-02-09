@@ -1,0 +1,12 @@
+{
+  "owner": "rstudio",
+  "name": "shiny",
+  "url": "https://github.com/rstudio/shiny",
+  "description": "Easy interactive web applications with R",
+  "language": "R",
+  "stars": 5599,
+  "categories": {
+    "github-ranking-r": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

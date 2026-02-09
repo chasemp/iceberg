@@ -1,0 +1,12 @@
+{
+  "owner": "twitter",
+  "name": "AnomalyDetection",
+  "url": "https://github.com/twitter/AnomalyDetection",
+  "description": "Anomaly Detection with R",
+  "language": "R",
+  "stars": 3611,
+  "categories": {
+    "github-ranking-r": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

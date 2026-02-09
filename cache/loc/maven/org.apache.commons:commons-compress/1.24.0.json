@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "org.apache.commons:commons-compress",
+    "version": "1.24.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:28:13.333488+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/org.apache.commons:commons-compress/versions/1.24.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11582803726196289,
+  "count_duration_seconds": null
+}

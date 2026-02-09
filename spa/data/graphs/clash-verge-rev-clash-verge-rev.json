@@ -1,0 +1,16 @@
+{
+  "owner": "clash-verge-rev",
+  "repo": "clash-verge-rev",
+  "full_name": "clash-verge-rev/clash-verge-rev",
+  "root_package": "npm:clash-verge:2.4.5",
+  "nodes": [
+    {
+      "id": "npm:clash-verge:2.4.5",
+      "system": "npm",
+      "name": "clash-verge",
+      "version": "2.4.5"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.157990+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "io.github.classgraph:classgraph",
+    "version": "4.8.83"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:22:36.850832+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/io.github.classgraph:classgraph/versions/4.8.83",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1184089183807373,
+  "count_duration_seconds": null
+}

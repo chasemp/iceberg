@@ -1,0 +1,12 @@
+{
+  "owner": "ReactiveCocoa",
+  "name": "ReactiveCocoa",
+  "url": "https://github.com/ReactiveCocoa/ReactiveCocoa",
+  "description": "Cocoa framework and Obj-C dynamism bindings for ReactiveSwift.",
+  "language": "Swift",
+  "stars": 19884,
+  "categories": {
+    "github-ranking-swift": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

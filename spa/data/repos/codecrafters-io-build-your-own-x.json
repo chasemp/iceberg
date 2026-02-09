@@ -1,0 +1,19 @@
+{
+  "owner": "codecrafters-io",
+  "repo": "build-your-own-x",
+  "full_name": "codecrafters-io/build-your-own-x",
+  "url": "https://github.com/codecrafters-io/build-your-own-x",
+  "analysis": {
+    "owner": "codecrafters-io",
+    "repo": "build-your-own-x",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-05T22:19:54.096086+00:00",
+    "repo_url": "https://github.com/codecrafters-io/build-your-own-x.git",
+    "ref": "HEAD",
+    "commit_hash": "76d1a261bdc64450b5a7a5cd5cf2c46153367e21",
+    "clone_duration_seconds": 0.8331689834594727,
+    "count_duration_seconds": 0.001695871353149414
+  }
+}

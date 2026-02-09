@@ -1,0 +1,12 @@
+{
+  "owner": "nothings",
+  "name": "stb",
+  "url": "https://github.com/nothings/stb",
+  "description": "stb single-file public domain libraries for C/C++",
+  "language": "C",
+  "stars": 32425,
+  "categories": {
+    "github-ranking-c": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

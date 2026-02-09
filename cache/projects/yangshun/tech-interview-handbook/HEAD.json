@@ -1,0 +1,15 @@
+{
+  "owner": "yangshun",
+  "repo": "tech-interview-handbook",
+  "version": "HEAD",
+  "loc": 34660,
+  "source": "github_clone",
+  "cached_at": "2026-02-05T22:32:53.759758+00:00",
+  "total_loc": 473856,
+  "ratio": 0.9318408860291515,
+  "repo_url": "https://github.com/yangshun/tech-interview-handbook.git",
+  "ref": "HEAD",
+  "commit_hash": "0c3369896c26f8c0a0ef1cd95a18b028bc54143d",
+  "clone_duration_seconds": 2.280766248703003,
+  "count_duration_seconds": 0.03240966796875
+}

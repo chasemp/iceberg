@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "instant",
+    "version": "0.1.13"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:18:02.963802+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/instant/versions/0.1.13",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11965203285217285,
+  "count_duration_seconds": null
+}

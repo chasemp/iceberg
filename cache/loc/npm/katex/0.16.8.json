@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "katex",
+    "version": "0.16.8"
+  },
+  "total_lines": 18064,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-09T20:14:49.228969+00:00",
+  "source_url": "https://registry.npmjs.org/katex/-/katex-0.16.8.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 1.0219428539276123,
+  "count_duration_seconds": null
+}

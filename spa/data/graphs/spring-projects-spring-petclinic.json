@@ -1,0 +1,16 @@
+{
+  "owner": "spring-projects",
+  "repo": "spring-petclinic",
+  "full_name": "spring-projects/spring-petclinic",
+  "root_package": "maven:spring-boot-starter-parent:4.0.1",
+  "nodes": [
+    {
+      "id": "maven:spring-boot-starter-parent:4.0.1",
+      "system": "maven",
+      "name": "spring-boot-starter-parent",
+      "version": "4.0.1"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.150285+00:00"
+}

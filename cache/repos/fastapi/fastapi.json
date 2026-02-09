@@ -1,0 +1,14 @@
+{
+  "owner": "fastapi",
+  "name": "fastapi",
+  "url": "https://github.com/fastapi/fastapi",
+  "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+  "language": "Python",
+  "stars": 94919,
+  "categories": {
+    "search": "2026-02-09",
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-python": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

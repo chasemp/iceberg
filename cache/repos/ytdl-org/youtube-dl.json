@@ -1,0 +1,14 @@
+{
+  "owner": "ytdl-org",
+  "name": "youtube-dl",
+  "url": "https://github.com/ytdl-org/youtube-dl",
+  "description": "Command-line program to download videos from YouTube.com and other video sites",
+  "language": "Python",
+  "stars": 139636,
+  "categories": {
+    "search": "2026-02-09",
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-python": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

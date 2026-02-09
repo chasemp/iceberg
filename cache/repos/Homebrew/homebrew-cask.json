@@ -1,0 +1,12 @@
+{
+  "owner": "Homebrew",
+  "name": "homebrew-cask",
+  "url": "https://github.com/Homebrew/homebrew-cask",
+  "description": "\ud83c\udf7b A CLI workflow for the administration of macOS applications distributed as binaries",
+  "language": "Ruby",
+  "stars": 21814,
+  "categories": {
+    "github-ranking-ruby": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

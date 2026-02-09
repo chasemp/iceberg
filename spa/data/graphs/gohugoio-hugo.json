@@ -1,0 +1,16 @@
+{
+  "owner": "gohugoio",
+  "repo": "hugo",
+  "full_name": "gohugoio/hugo",
+  "root_package": "go:github.com/gohugoio/hugo:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/gohugoio/hugo:v0.0.0",
+      "system": "go",
+      "name": "github.com/gohugoio/hugo",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.188146+00:00"
+}

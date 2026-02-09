@@ -1,0 +1,12 @@
+{
+  "owner": "kingToolbox",
+  "name": "WindTerm",
+  "url": "https://github.com/kingToolbox/WindTerm",
+  "description": "A professional cross-platform SSH/Sftp/Shell/Telnet/Tmux/Serial terminal.",
+  "language": "C",
+  "stars": 29702,
+  "categories": {
+    "github-ranking-c": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

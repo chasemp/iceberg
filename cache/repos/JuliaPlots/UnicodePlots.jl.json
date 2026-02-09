@@ -1,0 +1,12 @@
+{
+  "owner": "JuliaPlots",
+  "name": "UnicodePlots.jl",
+  "url": "https://github.com/JuliaPlots/UnicodePlots.jl",
+  "description": "Unicode-based scientific plotting for working in the terminal",
+  "language": "Julia",
+  "stars": 1516,
+  "categories": {
+    "github-ranking-julia": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

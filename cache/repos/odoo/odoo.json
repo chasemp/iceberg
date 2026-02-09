@@ -1,0 +1,12 @@
+{
+  "owner": "odoo",
+  "name": "odoo",
+  "url": "https://github.com/odoo/odoo",
+  "description": "Odoo. Open Source Apps To Grow Your Business.",
+  "language": "Python",
+  "stars": 48900,
+  "categories": {
+    "github-ranking-top-100-forks": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

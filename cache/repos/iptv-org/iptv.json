@@ -1,0 +1,13 @@
+{
+  "owner": "iptv-org",
+  "name": "iptv",
+  "url": "https://github.com/iptv-org/iptv",
+  "description": "Collection of publicly available IPTV channels from all over the world",
+  "language": "TypeScript",
+  "stars": 111275,
+  "categories": {
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-typescript": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "dockur",
+  "name": "windows",
+  "url": "https://github.com/dockur/windows",
+  "description": "Windows inside a Docker container.",
+  "language": "Shell",
+  "stars": 49886,
+  "categories": {
+    "github-ranking-shell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "lichess-org",
+  "name": "lila",
+  "url": "https://github.com/lichess-org/lila",
+  "description": "\u265e lichess.org: the forever free, adless and open source chess server \u265e",
+  "language": "Scala",
+  "stars": 17715,
+  "categories": {
+    "github-ranking-scala": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

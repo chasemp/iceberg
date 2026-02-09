@@ -1,0 +1,16 @@
+{
+  "owner": "git",
+  "repo": "git",
+  "full_name": "git/git",
+  "root_package": "cargo:gitcore:0.1.0",
+  "nodes": [
+    {
+      "id": "cargo:gitcore:0.1.0",
+      "system": "cargo",
+      "name": "gitcore",
+      "version": "0.1.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-09T22:00:19.213150+00:00"
+}

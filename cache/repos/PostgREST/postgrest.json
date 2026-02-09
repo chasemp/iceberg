@@ -1,0 +1,12 @@
+{
+  "owner": "PostgREST",
+  "name": "postgrest",
+  "url": "https://github.com/PostgREST/postgrest",
+  "description": "REST API for any Postgres database",
+  "language": "Haskell",
+  "stars": 26480,
+  "categories": {
+    "github-ranking-haskell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

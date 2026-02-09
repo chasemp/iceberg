@@ -1,0 +1,12 @@
+{
+  "owner": "ventoy",
+  "name": "Ventoy",
+  "url": "https://github.com/ventoy/Ventoy",
+  "description": "A new bootable USB solution.",
+  "language": "C",
+  "stars": 74368,
+  "categories": {
+    "github-ranking-c": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "sharkdp",
+  "name": "bat",
+  "url": "https://github.com/sharkdp/bat",
+  "description": "A cat(1) clone with wings.",
+  "language": "Rust",
+  "stars": 57035,
+  "categories": {
+    "github-ranking-rust": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "com.google.guava:guava",
+    "version": "28.2-jre"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:28:09.798558+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/com.google.guava:guava/versions/28.2-jre",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.12527728080749512,
+  "count_duration_seconds": null
+}

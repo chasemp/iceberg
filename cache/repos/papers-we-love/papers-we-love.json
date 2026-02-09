@@ -1,0 +1,13 @@
+{
+  "owner": "papers-we-love",
+  "name": "papers-we-love",
+  "url": "https://github.com/papers-we-love/papers-we-love",
+  "description": "Papers from the computer science community to read and discuss.",
+  "language": "Shell",
+  "stars": 103116,
+  "categories": {
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-shell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

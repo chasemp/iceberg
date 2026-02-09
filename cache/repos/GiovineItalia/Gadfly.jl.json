@@ -1,0 +1,12 @@
+{
+  "owner": "GiovineItalia",
+  "name": "Gadfly.jl",
+  "url": "https://github.com/GiovineItalia/Gadfly.jl",
+  "description": "Crafty statistical graphics for Julia.",
+  "language": "Julia",
+  "stars": 1923,
+  "categories": {
+    "github-ranking-julia": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

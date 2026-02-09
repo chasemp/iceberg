@@ -1,0 +1,24 @@
+{
+  "owner": "n8n-io",
+  "repo": "n8n",
+  "version": "HEAD",
+  "loc": 1124699,
+  "source": "github_clone",
+  "cached_at": "2026-02-05T22:26:09.544921+00:00",
+  "package": {
+    "system": "npm",
+    "name": "n8n-monorepo",
+    "version": "2.7.0"
+  },
+  "total_loc": 1202212,
+  "ratio": 0.5166557723952485,
+  "repo_url": "https://github.com/n8n-io/n8n.git",
+  "ref": "HEAD",
+  "commit_hash": "5e7983f08d094b7d33cdad491495e52a2ff2f391",
+  "clone_duration_seconds": 6.030221939086914,
+  "count_duration_seconds": 0.7622449398040771,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-top-100-stars",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

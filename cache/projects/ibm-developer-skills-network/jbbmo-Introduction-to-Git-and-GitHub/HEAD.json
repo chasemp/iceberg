@@ -1,0 +1,17 @@
+{
+  "owner": "ibm-developer-skills-network",
+  "repo": "jbbmo-Introduction-to-Git-and-GitHub",
+  "version": "HEAD",
+  "loc": 16,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T20:22:46.554133+00:00",
+  "repo_url": "https://github.com/ibm-developer-skills-network/jbbmo-Introduction-to-Git-and-GitHub.git",
+  "ref": "HEAD",
+  "commit_hash": "83026bb2b9688feea1dea289ca22efd7209440dd",
+  "clone_duration_seconds": 0.8869497776031494,
+  "count_duration_seconds": 0.0019440650939941406,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-top-100-forks",
+  "tracked": false,
+  "maintenance_priority": "low"
+}

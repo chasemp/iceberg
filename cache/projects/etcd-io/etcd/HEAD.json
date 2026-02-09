@@ -1,0 +1,22 @@
+{
+  "owner": "etcd-io",
+  "repo": "etcd",
+  "version": "HEAD",
+  "loc": 142400,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T21:48:49.228082+00:00",
+  "package": {
+    "system": "go",
+    "name": "go.etcd.io/etcd/v3",
+    "version": "v0.0.0"
+  },
+  "repo_url": "https://github.com/etcd-io/etcd.git",
+  "ref": "HEAD",
+  "commit_hash": "c736cca4dca6e583ab3ac5c7286cdec3485a6c2e",
+  "clone_duration_seconds": 3.6317219734191895,
+  "count_duration_seconds": 0.11856985092163086,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-go",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

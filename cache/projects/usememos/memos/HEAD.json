@@ -1,0 +1,24 @@
+{
+  "owner": "usememos",
+  "repo": "memos",
+  "version": "HEAD",
+  "loc": 59924,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T21:46:47.556280+00:00",
+  "package": {
+    "system": "go",
+    "name": "github.com/usememos/memos",
+    "version": "v0.0.0"
+  },
+  "total_loc": 18393,
+  "ratio": 0.23485322471494055,
+  "repo_url": "https://github.com/usememos/memos.git",
+  "ref": "HEAD",
+  "commit_hash": "2b19d8a9695f58c5d9f9f6f2e41291983cea9159",
+  "clone_duration_seconds": 1.3560049533843994,
+  "count_duration_seconds": 0.06687688827514648,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-go",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

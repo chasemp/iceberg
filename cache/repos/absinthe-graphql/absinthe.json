@@ -1,0 +1,12 @@
+{
+  "owner": "absinthe-graphql",
+  "name": "absinthe",
+  "url": "https://github.com/absinthe-graphql/absinthe",
+  "description": "The GraphQL toolkit for Elixir",
+  "language": "Elixir",
+  "stars": 4393,
+  "categories": {
+    "github-ranking-elixir": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

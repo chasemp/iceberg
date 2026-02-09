@@ -1,0 +1,12 @@
+{
+  "owner": "TeamNewPipe",
+  "name": "NewPipe",
+  "url": "https://github.com/TeamNewPipe/NewPipe",
+  "description": "A libre lightweight streaming front-end for Android.",
+  "language": "Java",
+  "stars": 37079,
+  "categories": {
+    "github-ranking-java": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

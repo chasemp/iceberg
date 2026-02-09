@@ -1,0 +1,23 @@
+{
+  "owner": "jlord",
+  "repo": "patchwork",
+  "full_name": "jlord/patchwork",
+  "url": "https://github.com/jlord/patchwork",
+  "analysis": {
+    "owner": "jlord",
+    "repo": "patchwork",
+    "version": "HEAD",
+    "loc": 5,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T20:18:01.705201+00:00",
+    "repo_url": "https://github.com/jlord/patchwork.git",
+    "ref": "HEAD",
+    "commit_hash": "7421236abab70728b92d1990cb0e15f6c175045f",
+    "clone_duration_seconds": 2.7442941665649414,
+    "count_duration_seconds": 0.06986379623413086,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-forks",
+    "tracked": false,
+    "maintenance_priority": "low"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "Mintplex-Labs",
+  "name": "anything-llm",
+  "url": "https://github.com/Mintplex-Labs/anything-llm",
+  "description": "The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility,  and more.",
+  "language": "JavaScript",
+  "stars": 54386,
+  "categories": {
+    "search": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "io.netty:netty-handler",
+    "version": "4.1.110.Final"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:21:00.347164+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/io.netty:netty-handler/versions/4.1.110.Final",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11779403686523438,
+  "count_duration_seconds": null
+}

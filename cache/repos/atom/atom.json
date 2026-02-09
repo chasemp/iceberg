@@ -1,0 +1,12 @@
+{
+  "owner": "atom",
+  "name": "atom",
+  "url": "https://github.com/atom/atom",
+  "description": ":atom: The hackable text editor",
+  "language": "JavaScript",
+  "stars": 61011,
+  "categories": {
+    "search": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "ReVanced",
+  "name": "revanced-manager",
+  "url": "https://github.com/ReVanced/revanced-manager",
+  "description": "\ud83d\udc8a Application to use ReVanced on Android",
+  "language": "Dart",
+  "stars": 25777,
+  "categories": {
+    "github-ranking-dart": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

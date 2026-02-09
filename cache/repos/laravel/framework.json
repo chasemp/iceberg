@@ -1,0 +1,12 @@
+{
+  "owner": "laravel",
+  "name": "framework",
+  "url": "https://github.com/laravel/framework",
+  "description": "Laravel is a web application framework with expressive, elegant syntax.",
+  "language": "PHP",
+  "stars": 34484,
+  "categories": {
+    "github-ranking-php": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

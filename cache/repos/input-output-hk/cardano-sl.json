@@ -1,0 +1,12 @@
+{
+  "owner": "input-output-hk",
+  "name": "cardano-sl",
+  "url": "https://github.com/input-output-hk/cardano-sl",
+  "description": "Cryptographic currency implementing Ouroboros PoS protocol",
+  "language": "Haskell",
+  "stars": 3769,
+  "categories": {
+    "github-ranking-haskell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

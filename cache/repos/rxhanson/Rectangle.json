@@ -1,0 +1,12 @@
+{
+  "owner": "rxhanson",
+  "name": "Rectangle",
+  "url": "https://github.com/rxhanson/Rectangle",
+  "description": "Move and resize windows on macOS with keyboard shortcuts and snap areas",
+  "language": "Swift",
+  "stars": 28368,
+  "categories": {
+    "github-ranking-swift": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

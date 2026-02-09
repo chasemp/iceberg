@@ -1,0 +1,12 @@
+{
+  "owner": "hashicorp",
+  "name": "vagrant",
+  "url": "https://github.com/hashicorp/vagrant",
+  "description": "Vagrant is a tool for building and distributing development environments.",
+  "language": "Ruby",
+  "stars": 27242,
+  "categories": {
+    "github-ranking-ruby": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

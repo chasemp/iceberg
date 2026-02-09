@@ -1,0 +1,24 @@
+{
+  "owner": "macrozheng",
+  "repo": "mall",
+  "version": "HEAD",
+  "loc": 65702,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T20:22:41.680417+00:00",
+  "package": {
+    "system": "maven",
+    "name": "mall",
+    "version": "1.0-SNAPSHOT"
+  },
+  "total_loc": 0,
+  "ratio": 0.0,
+  "repo_url": "https://github.com/macrozheng/mall.git",
+  "ref": "HEAD",
+  "commit_hash": "8f5ceef44cbde2c5e770775c2c767b67549e53fb",
+  "clone_duration_seconds": 2.0333240032196045,
+  "count_duration_seconds": 0.060044050216674805,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-top-100-forks",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

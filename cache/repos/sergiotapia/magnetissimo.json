@@ -1,0 +1,12 @@
+{
+  "owner": "sergiotapia",
+  "name": "magnetissimo",
+  "url": "https://github.com/sergiotapia/magnetissimo",
+  "description": "Web application that indexes all popular torrent sites, and saves it to the local database.",
+  "language": "Elixir",
+  "stars": 3075,
+  "categories": {
+    "github-ranking-elixir": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

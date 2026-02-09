@@ -1,0 +1,19 @@
+{
+  "owner": "qmk",
+  "repo": "qmk_firmware",
+  "version": "HEAD",
+  "loc": 367093,
+  "source": "github_clone",
+  "cached_at": "2026-02-09T20:17:46.897003+00:00",
+  "total_loc": 2843,
+  "ratio": 0.007685113100644436,
+  "repo_url": "https://github.com/qmk/qmk_firmware.git",
+  "ref": "HEAD",
+  "commit_hash": "b6d46cdc47d420d80c2c15e62c2b70c771166687",
+  "clone_duration_seconds": 8.275547981262207,
+  "count_duration_seconds": 2.2164809703826904,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-top-100-forks",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

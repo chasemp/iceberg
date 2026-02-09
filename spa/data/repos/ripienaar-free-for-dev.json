@@ -1,0 +1,23 @@
+{
+  "owner": "ripienaar",
+  "repo": "free-for-dev",
+  "full_name": "ripienaar/free-for-dev",
+  "url": "https://github.com/ripienaar/free-for-dev",
+  "analysis": {
+    "owner": "ripienaar",
+    "repo": "free-for-dev",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T20:04:17.707946+00:00",
+    "repo_url": "https://github.com/ripienaar/free-for-dev.git",
+    "ref": "HEAD",
+    "commit_hash": "21bb04e96499f56107d5789b4ab76c048139b2d3",
+    "clone_duration_seconds": 0.9110209941864014,
+    "count_duration_seconds": 0.00160980224609375,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-stars",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

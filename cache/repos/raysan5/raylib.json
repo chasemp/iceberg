@@ -1,0 +1,12 @@
+{
+  "owner": "raysan5",
+  "name": "raylib",
+  "url": "https://github.com/raysan5/raylib",
+  "description": "A simple and easy-to-use library to enjoy videogames programming",
+  "language": "C",
+  "stars": 30842,
+  "categories": {
+    "github-ranking-c": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

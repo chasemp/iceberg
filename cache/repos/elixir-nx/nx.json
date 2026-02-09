@@ -1,0 +1,12 @@
+{
+  "owner": "elixir-nx",
+  "name": "nx",
+  "url": "https://github.com/elixir-nx/nx",
+  "description": "Multi-dimensional arrays (tensors) and numerical definitions for Elixir",
+  "language": "Elixir",
+  "stars": 2855,
+  "categories": {
+    "github-ranking-elixir": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

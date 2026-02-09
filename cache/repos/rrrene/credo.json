@@ -1,0 +1,12 @@
+{
+  "owner": "rrrene",
+  "name": "credo",
+  "url": "https://github.com/rrrene/credo",
+  "description": "A static code analysis tool for the Elixir language with a focus on code consistency and teaching.",
+  "language": "Elixir",
+  "stars": 5140,
+  "categories": {
+    "github-ranking-elixir": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

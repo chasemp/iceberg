@@ -1,0 +1,12 @@
+{
+  "owner": "purescript",
+  "name": "purescript",
+  "url": "https://github.com/purescript/purescript",
+  "description": "A strongly-typed language that compiles to JavaScript",
+  "language": "Haskell",
+  "stars": 8824,
+  "categories": {
+    "github-ranking-haskell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

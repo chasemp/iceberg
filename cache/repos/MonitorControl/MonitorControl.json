@@ -1,0 +1,12 @@
+{
+  "owner": "MonitorControl",
+  "name": "MonitorControl",
+  "url": "https://github.com/MonitorControl/MonitorControl",
+  "description": "\ud83d\udda5 Control your display's brightness & volume on your Mac as if it was a native Apple Display. Use Apple Keyboard keys or custom shortcuts. Shows the native macOS OSDs.",
+  "language": "Swift",
+  "stars": 32354,
+  "categories": {
+    "github-ranking-swift": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

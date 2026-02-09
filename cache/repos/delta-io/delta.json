@@ -1,0 +1,12 @@
+{
+  "owner": "delta-io",
+  "name": "delta",
+  "url": "https://github.com/delta-io/delta",
+  "description": "An open-source storage framework that enables building a Lakehouse architecture with compute engines including Spark, PrestoDB, Flink, Trino, and Hive and APIs",
+  "language": "Scala",
+  "stars": 8574,
+  "categories": {
+    "github-ranking-scala": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

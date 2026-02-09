@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "io.netty:netty-common",
+    "version": "4.1.110.Final"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:21:00.228383+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/io.netty:netty-common/versions/4.1.110.Final",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.10785603523254395,
+  "count_duration_seconds": null
+}

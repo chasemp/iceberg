@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "tauri-plugin-shell",
+    "version": "2.0.0-beta.9"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:24:13.451582+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/tauri-plugin-shell/versions/2.0.0-beta.9",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1267857551574707,
+  "count_duration_seconds": null
+}

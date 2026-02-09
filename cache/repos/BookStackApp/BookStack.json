@@ -1,0 +1,12 @@
+{
+  "owner": "BookStackApp",
+  "name": "BookStack",
+  "url": "https://github.com/BookStackApp/BookStack",
+  "description": "A platform to create documentation/wiki content built with PHP & Laravel",
+  "language": "PHP",
+  "stars": 18230,
+  "categories": {
+    "github-ranking-php": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

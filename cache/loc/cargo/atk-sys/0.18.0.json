@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "atk-sys",
+    "version": "0.18.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:24:12.122492+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/atk-sys/versions/0.18.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11859703063964844,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "mpv-player",
+  "name": "mpv",
+  "url": "https://github.com/mpv-player/mpv",
+  "description": "\ud83c\udfa5 Command line media player",
+  "language": "C",
+  "stars": 33950,
+  "categories": {
+    "github-ranking-c": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

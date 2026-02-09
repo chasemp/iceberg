@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "org.eclipse.jetty:jetty-webapp",
+    "version": "9.4.40.v20210413"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:28:17.685278+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/org.eclipse.jetty:jetty-webapp/versions/9.4.40.v20210413",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11256861686706543,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "IndrajeetPatil",
+  "name": "ggstatsplot",
+  "url": "https://github.com/IndrajeetPatil/ggstatsplot",
+  "description": "Enhancing {ggplot2} plots with statistical analysis \ud83d\udcca\ud83d\udce3",
+  "language": "R",
+  "stars": 2153,
+  "categories": {
+    "github-ranking-r": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

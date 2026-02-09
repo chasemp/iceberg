@@ -1,0 +1,23 @@
+{
+  "owner": "microsoft",
+  "repo": "PowerToys",
+  "full_name": "microsoft/PowerToys",
+  "url": "https://github.com/microsoft/PowerToys",
+  "analysis": {
+    "owner": "microsoft",
+    "repo": "PowerToys",
+    "version": "HEAD",
+    "loc": 456239,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T19:42:03.611146+00:00",
+    "repo_url": "https://github.com/microsoft/PowerToys.git",
+    "ref": "HEAD",
+    "commit_hash": "7477b561a174975f04844bdb25b406dc732145ba",
+    "clone_duration_seconds": 10.684278011322021,
+    "count_duration_seconds": 0.5871539115905762,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-stars",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

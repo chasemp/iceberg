@@ -1,0 +1,12 @@
+{
+  "owner": "digitallyinduced",
+  "name": "ihp",
+  "url": "https://github.com/digitallyinduced/ihp",
+  "description": "\ud83d\udd25 The fastest way to build type safe web apps. IHP is a new batteries-included web framework optimized for longterm productivity and programmer happiness",
+  "language": "Haskell",
+  "stars": 5212,
+  "categories": {
+    "github-ranking-haskell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

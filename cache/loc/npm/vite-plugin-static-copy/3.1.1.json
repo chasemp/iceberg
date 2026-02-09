@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "vite-plugin-static-copy",
+    "version": "3.1.1"
+  },
+  "total_lines": 0,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-05T22:19:01.247214+00:00",
+  "source_url": "https://registry.npmjs.org/vite-plugin-static-copy/-/vite-plugin-static-copy-3.1.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.5485529899597168,
+  "count_duration_seconds": null
+}

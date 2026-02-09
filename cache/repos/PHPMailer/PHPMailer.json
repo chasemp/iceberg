@@ -1,0 +1,12 @@
+{
+  "owner": "PHPMailer",
+  "name": "PHPMailer",
+  "url": "https://github.com/PHPMailer/PHPMailer",
+  "description": "The classic email sending library for PHP",
+  "language": "PHP",
+  "stars": 21999,
+  "categories": {
+    "github-ranking-php": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

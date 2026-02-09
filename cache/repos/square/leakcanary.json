@@ -1,0 +1,12 @@
+{
+  "owner": "square",
+  "name": "leakcanary",
+  "url": "https://github.com/square/leakcanary",
+  "description": "A memory leak detection library for Android.",
+  "language": "Kotlin",
+  "stars": 29883,
+  "categories": {
+    "github-ranking-kotlin": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

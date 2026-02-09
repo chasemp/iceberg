@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "io.projectreactor.netty:reactor-netty-http",
+    "version": "1.0.45"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:28:12.630306+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/io.projectreactor.netty:reactor-netty-http/versions/1.0.45",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11525392532348633,
+  "count_duration_seconds": null
+}

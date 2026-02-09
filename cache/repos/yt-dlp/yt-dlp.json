@@ -1,0 +1,14 @@
+{
+  "owner": "yt-dlp",
+  "name": "yt-dlp",
+  "url": "https://github.com/yt-dlp/yt-dlp",
+  "description": "A feature-rich command-line audio/video downloader",
+  "language": "Python",
+  "stars": 146373,
+  "categories": {
+    "search": "2026-02-09",
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-python": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

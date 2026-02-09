@@ -1,0 +1,12 @@
+{
+  "owner": "huiyadanli",
+  "name": "RevokeMsgPatcher",
+  "url": "https://github.com/huiyadanli/RevokeMsgPatcher",
+  "description": ":trollface: A hex editor for WeChat/QQ/TIM - PC\u7248\u5fae\u4fe1/QQ/TIM\u9632\u64a4\u56de\u8865\u4e01\uff08\u6211\u5df2\u7ecf\u770b\u5230\u4e86\uff0c\u64a4\u56de\u4e5f\u6ca1\u7528\u4e86\uff09",
+  "language": "C#",
+  "stars": 36754,
+  "categories": {
+    "github-ranking-csharp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

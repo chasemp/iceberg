@@ -1,0 +1,12 @@
+{
+  "owner": "jquery",
+  "name": "jquery",
+  "url": "https://github.com/jquery/jquery",
+  "description": "jQuery JavaScript Library",
+  "language": "JavaScript",
+  "stars": 59838,
+  "categories": {
+    "search": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

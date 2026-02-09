@@ -1,0 +1,14 @@
+{
+  "owner": "vuejs",
+  "name": "vue",
+  "url": "https://github.com/vuejs/vue",
+  "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
+  "language": "TypeScript",
+  "stars": 209904,
+  "categories": {
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-top-100-forks": "2026-02-09",
+    "github-ranking-typescript": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

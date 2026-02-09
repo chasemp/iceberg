@@ -1,0 +1,12 @@
+{
+  "owner": "x64dbg",
+  "name": "x64dbg",
+  "url": "https://github.com/x64dbg/x64dbg",
+  "description": "An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis.",
+  "language": "C++",
+  "stars": 47706,
+  "categories": {
+    "github-ranking-cpp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

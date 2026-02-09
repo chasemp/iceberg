@@ -1,0 +1,12 @@
+{
+  "owner": "firezone",
+  "name": "firezone",
+  "url": "https://github.com/firezone/firezone",
+  "description": "Enterprise-ready zero-trust access platform built on WireGuard\u00ae.",
+  "language": "Elixir",
+  "stars": 8393,
+  "categories": {
+    "github-ranking-elixir": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

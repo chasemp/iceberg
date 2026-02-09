@@ -1,0 +1,12 @@
+{
+  "owner": "elm",
+  "name": "compiler",
+  "url": "https://github.com/elm/compiler",
+  "description": "Compiler for Elm, a functional language for reliable webapps.",
+  "language": "Haskell",
+  "stars": 7748,
+  "categories": {
+    "github-ranking-haskell": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "syncthing",
+  "name": "syncthing",
+  "url": "https://github.com/syncthing/syncthing",
+  "description": "Open Source Continuous File Synchronization",
+  "language": "Go",
+  "stars": 79734,
+  "categories": {
+    "github-ranking-go": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

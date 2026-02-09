@@ -1,0 +1,12 @@
+{
+  "owner": "Homebrew",
+  "name": "brew",
+  "url": "https://github.com/Homebrew/brew",
+  "description": "\ud83c\udf7a The missing package manager for macOS (or Linux)",
+  "language": "Ruby",
+  "stars": 46541,
+  "categories": {
+    "github-ranking-ruby": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

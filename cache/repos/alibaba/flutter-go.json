@@ -1,0 +1,12 @@
+{
+  "owner": "alibaba",
+  "name": "flutter-go",
+  "url": "https://github.com/alibaba/flutter-go",
+  "description": "flutter \u5f00\u53d1\u8005\u5e2e\u52a9 APP\uff0c\u5305\u542b flutter \u5e38\u7528 140+ \u7ec4\u4ef6\u7684demo \u6f14\u793a\u4e0e\u4e2d\u6587\u6587\u6863",
+  "language": "Dart",
+  "stars": 23742,
+  "categories": {
+    "github-ranking-dart": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

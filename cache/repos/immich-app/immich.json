@@ -1,0 +1,12 @@
+{
+  "owner": "immich-app",
+  "name": "immich",
+  "url": "https://github.com/immich-app/immich",
+  "description": "High performance self-hosted photo and video management solution.",
+  "language": "TypeScript",
+  "stars": 92018,
+  "categories": {
+    "github-ranking-typescript": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

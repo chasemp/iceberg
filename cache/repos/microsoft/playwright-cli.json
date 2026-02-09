@@ -1,0 +1,12 @@
+{
+  "owner": "microsoft",
+  "name": "playwright-cli",
+  "url": "https://github.com/microsoft/playwright-cli",
+  "description": "CLI for common Playwright actions. Record and generate Playwright code, inspect selectors and take screenshots.",
+  "language": "JavaScript",
+  "stars": 2828,
+  "categories": {
+    "trending-weekly": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

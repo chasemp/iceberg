@@ -1,0 +1,16 @@
+{
+  "owner": "openclaw",
+  "name": "openclaw",
+  "url": "https://github.com/openclaw/openclaw",
+  "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e",
+  "language": "TypeScript",
+  "stars": 177096,
+  "categories": {
+    "trending-weekly": "2026-02-09",
+    "trending-monthly": "2026-02-09",
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-top-100-forks": "2026-02-09",
+    "github-ranking-typescript": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,25 @@
+{
+  "owner": "spring-projects",
+  "repo": "spring-boot",
+  "full_name": "spring-projects/spring-boot",
+  "url": "https://github.com/spring-projects/spring-boot",
+  "analysis": {
+    "owner": "spring-projects",
+    "repo": "spring-boot",
+    "version": "HEAD",
+    "loc": 219085,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T20:18:23.079185+00:00",
+    "total_loc": 4645,
+    "ratio": 0.020761632324677065,
+    "repo_url": "https://github.com/spring-projects/spring-boot.git",
+    "ref": "HEAD",
+    "commit_hash": "12c6292708d60d5a6870a44264908f3d24c22b1b",
+    "clone_duration_seconds": 5.387060165405273,
+    "count_duration_seconds": 1.2616000175476074,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-forks",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

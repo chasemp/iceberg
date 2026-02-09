@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "rustix",
+    "version": "0.37.19"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:14:44.170108+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/rustix/versions/0.37.19",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11778521537780762,
+  "count_duration_seconds": null
+}

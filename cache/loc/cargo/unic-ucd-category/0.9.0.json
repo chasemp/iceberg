@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "unic-ucd-category",
+    "version": "0.9.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:19:00.570261+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/unic-ucd-category/versions/0.9.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.10950517654418945,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,23 @@
+{
+  "owner": "spring-projects",
+  "repo": "spring-framework",
+  "full_name": "spring-projects/spring-framework",
+  "url": "https://github.com/spring-projects/spring-framework",
+  "analysis": {
+    "owner": "spring-projects",
+    "repo": "spring-framework",
+    "version": "HEAD",
+    "loc": 390884,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T20:18:48.501019+00:00",
+    "repo_url": "https://github.com/spring-projects/spring-framework.git",
+    "ref": "HEAD",
+    "commit_hash": "e22b1648bffa7b55350b4fed55dbb79bf3bd29d6",
+    "clone_duration_seconds": 6.286288022994995,
+    "count_duration_seconds": 0.8016750812530518,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-forks",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

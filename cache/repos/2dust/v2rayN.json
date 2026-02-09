@@ -1,0 +1,13 @@
+{
+  "owner": "2dust",
+  "name": "v2rayN",
+  "url": "https://github.com/2dust/v2rayN",
+  "description": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others",
+  "language": "C#",
+  "stars": 96477,
+  "categories": {
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-csharp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

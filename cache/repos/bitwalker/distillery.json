@@ -1,0 +1,12 @@
+{
+  "owner": "bitwalker",
+  "name": "distillery",
+  "url": "https://github.com/bitwalker/distillery",
+  "description": "Simplify deployments in Elixir with OTP releases!",
+  "language": "Elixir",
+  "stars": 2967,
+  "categories": {
+    "github-ranking-elixir": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

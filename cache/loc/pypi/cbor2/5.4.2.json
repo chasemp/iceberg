@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "cbor2",
+    "version": "5.4.2"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-09T20:20:19.278093+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/cbor2/versions/5.4.2",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11414289474487305,
+  "count_duration_seconds": null
+}

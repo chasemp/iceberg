@@ -1,0 +1,12 @@
+{
+  "owner": "TuringLang",
+  "name": "Turing.jl",
+  "url": "https://github.com/TuringLang/Turing.jl",
+  "description": "Bayesian inference with probabilistic programming.",
+  "language": "Julia",
+  "stars": 2203,
+  "categories": {
+    "github-ranking-julia": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

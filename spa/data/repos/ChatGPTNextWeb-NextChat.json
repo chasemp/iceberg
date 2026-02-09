@@ -1,0 +1,25 @@
+{
+  "owner": "ChatGPTNextWeb",
+  "repo": "NextChat",
+  "full_name": "ChatGPTNextWeb/NextChat",
+  "url": "https://github.com/ChatGPTNextWeb/NextChat",
+  "analysis": {
+    "owner": "ChatGPTNextWeb",
+    "repo": "NextChat",
+    "version": "HEAD",
+    "loc": 37812,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T20:15:00.612448+00:00",
+    "total_loc": 182889,
+    "ratio": 0.8286731822692239,
+    "repo_url": "https://github.com/ChatGPTNextWeb/NextChat.git",
+    "ref": "HEAD",
+    "commit_hash": "c3b8c1587c04fff05f7b42276a43016e87771527",
+    "clone_duration_seconds": 1.4565038681030273,
+    "count_duration_seconds": 0.021852970123291016,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-forks",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

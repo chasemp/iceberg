@@ -1,0 +1,13 @@
+{
+  "owner": "godotengine",
+  "name": "godot",
+  "url": "https://github.com/godotengine/godot",
+  "description": "Godot Engine \u2013 Multi-platform 2D and 3D game engine",
+  "language": "C++",
+  "stars": 106470,
+  "categories": {
+    "github-ranking-top-100-stars": "2026-02-09",
+    "github-ranking-cpp": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

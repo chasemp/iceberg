@@ -1,0 +1,12 @@
+{
+  "owner": "elixir-plug",
+  "name": "plug",
+  "url": "https://github.com/elixir-plug/plug",
+  "description": "Compose web applications with functions",
+  "language": "Elixir",
+  "stars": 2984,
+  "categories": {
+    "github-ranking-elixir": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

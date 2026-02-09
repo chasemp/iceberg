@@ -1,0 +1,23 @@
+{
+  "owner": "jtleek",
+  "repo": "datasharing",
+  "full_name": "jtleek/datasharing",
+  "url": "https://github.com/jtleek/datasharing",
+  "analysis": {
+    "owner": "jtleek",
+    "repo": "datasharing",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T20:13:19.760037+00:00",
+    "repo_url": "https://github.com/jtleek/datasharing.git",
+    "ref": "HEAD",
+    "commit_hash": "df97230f037c212d8a07cdaf9216348c63644c9b",
+    "clone_duration_seconds": 0.90407395362854,
+    "count_duration_seconds": 0.0014870166778564453,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-forks",
+    "tracked": false,
+    "maintenance_priority": "low"
+  }
+}

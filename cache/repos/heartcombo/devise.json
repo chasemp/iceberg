@@ -1,0 +1,12 @@
+{
+  "owner": "heartcombo",
+  "name": "devise",
+  "url": "https://github.com/heartcombo/devise",
+  "description": "Flexible authentication solution for Rails with Warden.",
+  "language": "Ruby",
+  "stars": 24333,
+  "categories": {
+    "github-ranking-ruby": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

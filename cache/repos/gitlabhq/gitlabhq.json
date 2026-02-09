@@ -1,0 +1,12 @@
+{
+  "owner": "gitlabhq",
+  "name": "gitlabhq",
+  "url": "https://github.com/gitlabhq/gitlabhq",
+  "description": "GitLab CE Mirror \\",
+  "language": "Ruby",
+  "stars": 24246,
+  "categories": {
+    "github-ranking-ruby": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

@@ -1,0 +1,17 @@
+{
+  "owner": "awesome-selfhosted",
+  "repo": "awesome-selfhosted",
+  "version": "HEAD",
+  "loc": 0,
+  "source": "github_clone",
+  "cached_at": "2026-02-05T22:19:35.622972+00:00",
+  "repo_url": "https://github.com/awesome-selfhosted/awesome-selfhosted.git",
+  "ref": "HEAD",
+  "commit_hash": "198f8bbee4604effedeb6105a799d8df86a782ac",
+  "clone_duration_seconds": 0.8930912017822266,
+  "count_duration_seconds": 0.0015277862548828125,
+  "last_discovered": "2026-02-09",
+  "discovery_source": "github-ranking-top-100-stars",
+  "tracked": false,
+  "maintenance_priority": "medium"
+}

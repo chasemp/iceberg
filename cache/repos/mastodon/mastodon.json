@@ -1,0 +1,12 @@
+{
+  "owner": "mastodon",
+  "name": "mastodon",
+  "url": "https://github.com/mastodon/mastodon",
+  "description": "Your self-hosted, globally interconnected microblogging community",
+  "language": "Ruby",
+  "stars": 49624,
+  "categories": {
+    "github-ranking-ruby": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

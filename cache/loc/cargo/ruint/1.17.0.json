@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "ruint",
+    "version": "1.17.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:18:03.465718+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/ruint/versions/1.17.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11973881721496582,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "engine.io",
+    "version": "6.2.1"
+  },
+  "total_lines": 2,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-09T20:14:03.586689+00:00",
+  "source_url": "https://registry.npmjs.org/engine.io/-/engine.io-6.2.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7008621692657471,
+  "count_duration_seconds": null
+}

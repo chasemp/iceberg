@@ -1,0 +1,12 @@
+{
+  "owner": "filamentphp",
+  "name": "filament",
+  "url": "https://github.com/filamentphp/filament",
+  "description": "A powerful open source UI framework for Laravel \u2022 Build and ship admin panels & apps fast with Livewire",
+  "language": "PHP",
+  "stars": 29119,
+  "categories": {
+    "github-ranking-php": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

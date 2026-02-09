@@ -1,0 +1,12 @@
+{
+  "owner": "afollestad",
+  "name": "material-dialogs",
+  "url": "https://github.com/afollestad/material-dialogs",
+  "description": "\ud83d\ude0d A beautiful, fluid, and extensible dialogs API for Kotlin & Android.",
+  "language": "Kotlin",
+  "stars": 19645,
+  "categories": {
+    "github-ranking-kotlin": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

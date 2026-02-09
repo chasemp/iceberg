@@ -1,0 +1,12 @@
+{
+  "owner": "apache",
+  "name": "predictionio",
+  "url": "https://github.com/apache/predictionio",
+  "description": "PredictionIO, a machine learning server for developers and ML engineers.",
+  "language": "Scala",
+  "stars": 12534,
+  "categories": {
+    "github-ranking-scala": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

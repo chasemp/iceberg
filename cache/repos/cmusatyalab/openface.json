@@ -1,0 +1,12 @@
+{
+  "owner": "cmusatyalab",
+  "name": "openface",
+  "url": "https://github.com/cmusatyalab/openface",
+  "description": "Face recognition with deep neural networks.",
+  "language": "Lua",
+  "stars": 15400,
+  "categories": {
+    "github-ranking-lua": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

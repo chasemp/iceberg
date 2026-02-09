@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "jinja2",
+    "version": "3.0.3"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-05T22:30:55.019201+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/jinja2/versions/3.0.3",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1184391975402832,
+  "count_duration_seconds": null
+}

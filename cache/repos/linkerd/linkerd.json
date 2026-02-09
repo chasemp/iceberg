@@ -1,0 +1,12 @@
+{
+  "owner": "linkerd",
+  "name": "linkerd",
+  "url": "https://github.com/linkerd/linkerd",
+  "description": "Old repo for Linkerd 1.x. See the linkerd2 repo for Linkerd   2.x.",
+  "language": "Scala",
+  "stars": 5336,
+  "categories": {
+    "github-ranking-scala": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

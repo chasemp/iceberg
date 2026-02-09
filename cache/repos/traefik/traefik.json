@@ -1,0 +1,12 @@
+{
+  "owner": "traefik",
+  "name": "traefik",
+  "url": "https://github.com/traefik/traefik",
+  "description": "The Cloud Native Application Proxy",
+  "language": "Go",
+  "stars": 61517,
+  "categories": {
+    "github-ranking-go": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

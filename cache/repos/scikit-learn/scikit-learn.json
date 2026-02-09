@@ -1,0 +1,13 @@
+{
+  "owner": "scikit-learn",
+  "name": "scikit-learn",
+  "url": "https://github.com/scikit-learn/scikit-learn",
+  "description": "scikit-learn: machine learning in Python",
+  "language": "Python",
+  "stars": 64957,
+  "categories": {
+    "search": "2026-02-09",
+    "github-ranking-top-100-forks": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

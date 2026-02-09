@@ -1,0 +1,12 @@
+{
+  "owner": "thomasp85",
+  "name": "patchwork",
+  "url": "https://github.com/thomasp85/patchwork",
+  "description": "The Composer of ggplots",
+  "language": "R",
+  "stars": 2585,
+  "categories": {
+    "github-ranking-r": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

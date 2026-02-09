@@ -1,0 +1,12 @@
+{
+  "owner": "signalapp",
+  "name": "Signal-Android",
+  "url": "https://github.com/signalapp/Signal-Android",
+  "description": "A private messenger for Android.",
+  "language": "Kotlin",
+  "stars": 28292,
+  "categories": {
+    "github-ranking-kotlin": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}

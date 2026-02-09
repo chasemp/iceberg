@@ -1,0 +1,28 @@
+{
+  "owner": "goldbergyoni",
+  "repo": "nodebestpractices",
+  "full_name": "goldbergyoni/nodebestpractices",
+  "url": "https://github.com/goldbergyoni/nodebestpractices",
+  "analysis": {
+    "owner": "goldbergyoni",
+    "repo": "nodebestpractices",
+    "version": "HEAD",
+    "loc": 47,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T20:09:14.639403+00:00",
+    "package": {
+      "system": "npm",
+      "name": "nodebestpractices",
+      "version": "1.0.0"
+    },
+    "repo_url": "https://github.com/goldbergyoni/nodebestpractices.git",
+    "ref": "HEAD",
+    "commit_hash": "c0b71ccf3a134443635da6886423b44e31e65a73",
+    "clone_duration_seconds": 1.8049888610839844,
+    "count_duration_seconds": 0.007732868194580078,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-stars",
+    "tracked": false,
+    "maintenance_priority": "medium"
+  }
+}

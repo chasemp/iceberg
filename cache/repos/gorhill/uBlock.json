@@ -1,0 +1,12 @@
+{
+  "owner": "gorhill",
+  "name": "uBlock",
+  "url": "https://github.com/gorhill/uBlock",
+  "description": "uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.",
+  "language": "JavaScript",
+  "stars": 61422,
+  "categories": {
+    "search": "2026-02-09"
+  },
+  "last_discovered": "2026-02-09"
+}
