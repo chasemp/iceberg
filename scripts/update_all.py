@@ -2,7 +2,7 @@
 """Run the complete data update workflow locally.
 
 This script replicates the GitHub Actions workflow for local development:
-1. Fetch trending repos (daily, weekly, monthly)
+1. Fetch trending repos (weekly, monthly)
 2. Fetch search queries (highly starred, by language)
 3. Analyze all discovered repos
 4. Export data for SPA
@@ -72,21 +72,14 @@ def main() -> int:
     # Track success/failure
     failures = []
 
-    # 1. Fetch trending repos (daily)
-    if not run_command(
-        ["iceberg", "fetch", "--source", "trending", "--since", "daily", "--limit", "25"],
-        "Fetch trending repos (daily)",
-    ):
-        failures.append("Fetch trending daily")
-
-    # 2. Fetch trending repos (weekly)
+    # 1. Fetch trending repos (weekly)
     if not run_command(
         ["iceberg", "fetch", "--source", "trending", "--since", "weekly", "--limit", "25"],
         "Fetch trending repos (weekly)",
     ):
         failures.append("Fetch trending weekly")
 
-    # 3. Fetch trending repos (monthly)
+    # 2. Fetch trending repos (monthly)
     if not run_command(
         ["iceberg", "fetch", "--source", "trending", "--since", "monthly", "--limit", "25"],
         "Fetch trending repos (monthly)",

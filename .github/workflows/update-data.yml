@@ -30,10 +30,6 @@ jobs:
         run: |
           pip install -e .
 
-      - name: Fetch trending repos (daily)
-        run: |
-          iceberg fetch --source trending --since daily --limit 25
-
       - name: Fetch trending repos (weekly)
         run: |
           iceberg fetch --source trending --since weekly --limit 25

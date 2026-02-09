@@ -68,13 +68,13 @@ def parse_trending_html(html: str) -> list[dict[str, Any]]:
 
 def fetch_trending_repos(
     limit: int = 10,
-    since: Literal["daily", "weekly", "monthly"] = "daily",
+    since: Literal["weekly", "monthly"] = "monthly",
 ) -> list[DiscoveredRepo]:
     """Fetch trending repos with timeframe support.
 
     Args:
         limit: Maximum number of repos to return
-        since: Timeframe for trending (daily, weekly, or monthly)
+        since: Timeframe for trending (weekly or monthly)
 
     Returns:
         List of DiscoveredRepo instances with appropriate source tag
@@ -84,12 +84,9 @@ def fetch_trending_repos(
     """
     try:
         # Build URL and determine source based on timeframe
-        if since == "daily":
-            url = "https://github.com/trending"
-            source: Literal["trending-daily", "trending-weekly", "trending-monthly"] = "trending-daily"
-        elif since == "weekly":
+        if since == "weekly":
             url = "https://github.com/trending?since=weekly"
-            source = "trending-weekly"
+            source: str = "trending-weekly"
         else:  # monthly
             url = "https://github.com/trending?since=monthly"
             source = "trending-monthly"

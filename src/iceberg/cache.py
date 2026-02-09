@@ -307,3 +307,150 @@ def load_discovered_repos(
 
     data = json.loads(cache_file.read_text())
     return [DiscoveredRepo.model_validate(item) for item in data]
+
+
+# ============================================================================
+# Repo Metadata Functions (Discovery Info with Categories)
+# ============================================================================
+
+def save_repo_metadata(
+    repo: DiscoveredRepo,
+    category: str,
+    cache_dir: Path | None = None,
+) -> None:
+    """Save or update repository discovery metadata.
+
+    Tracks which categories a repo was discovered in. A repo can be in multiple
+    categories (e.g., Top-100-stars AND Python AND monthly trending).
+
+    Args:
+        repo: Discovered repository
+        category: Category it was found in (e.g., "github-ranking-python", "trending-monthly")
+        cache_dir: Optional cache directory
+
+    Cache structure:
+        cache/repos/{owner}/{repo}.json
+        {
+            "owner": "...",
+            "name": "...",
+            "url": "...",
+            "description": "...",
+            "language": "...",
+            "stars": 12345,
+            "categories": {
+                "github-ranking-python": "2026-02-09",
+                "trending-monthly": "2026-02-09"
+            },
+            "last_discovered": "2026-02-09"
+        }
+    """
+    if cache_dir is None:
+        cache_dir = get_default_cache_dir()
+
+    repo_dir = cache_dir / "repos" / repo.owner
+    repo_dir.mkdir(parents=True, exist_ok=True)
+
+    repo_file = repo_dir / f"{repo.name}.json"
+
+    today = datetime.now(timezone.utc).date().isoformat()
+
+    # Load existing metadata if present
+    if repo_file.exists():
+        existing_data = json.loads(repo_file.read_text())
+        categories = existing_data.get("categories", {})
+    else:
+        categories = {}
+
+    # Update category with discovery date
+    categories[category] = today
+
+    # Build metadata
+    metadata = {
+        "owner": repo.owner,
+        "name": repo.name,
+        "url": str(repo.url),
+        "description": repo.description,
+        "language": repo.language,
+        "stars": repo.stars,
+        "categories": categories,
+        "last_discovered": today,
+    }
+
+    repo_file.write_text(json.dumps(metadata, indent=2))
+
+
+def load_repo_metadata(
+    owner: str,
+    name: str,
+    cache_dir: Path | None = None,
+) -> dict[str, Any] | None:
+    """Load repository discovery metadata.
+
+    Args:
+        owner: Repository owner
+        name: Repository name
+        cache_dir: Optional cache directory
+
+    Returns:
+        Repository metadata dict or None if not found
+    """
+    if cache_dir is None:
+        cache_dir = get_default_cache_dir()
+
+    repo_file = cache_dir / "repos" / owner / f"{name}.json"
+
+    if not repo_file.exists():
+        return None
+
+    return json.loads(repo_file.read_text())
+
+
+def list_all_repos(
+    cache_dir: Path | None = None,
+) -> list[dict[str, Any]]:
+    """List all discovered repositories.
+
+    Args:
+        cache_dir: Optional cache directory
+
+    Returns:
+        List of repository metadata dicts
+    """
+    if cache_dir is None:
+        cache_dir = get_default_cache_dir()
+
+    repos_dir = cache_dir / "repos"
+
+    if not repos_dir.exists():
+        return []
+
+    all_repos = []
+    for owner_dir in repos_dir.iterdir():
+        if not owner_dir.is_dir():
+            continue
+
+        for repo_file in owner_dir.glob("*.json"):
+            metadata = json.loads(repo_file.read_text())
+            all_repos.append(metadata)
+
+    return all_repos
+
+
+def get_repos_by_category(
+    category: str,
+    cache_dir: Path | None = None,
+) -> list[dict[str, Any]]:
+    """Get all repos that were discovered in a specific category.
+
+    Args:
+        category: Category to filter by (e.g., "github-ranking-python")
+        cache_dir: Optional cache directory
+
+    Returns:
+        List of repository metadata dicts
+    """
+    all_repos = list_all_repos(cache_dir=cache_dir)
+    return [
+        repo for repo in all_repos
+        if category in repo.get("categories", {})
+    ]

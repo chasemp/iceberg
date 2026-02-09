@@ -9,11 +9,17 @@ from typing import Literal
 import typer
 
 from iceberg.calculator import calculate_transitive_loc
-from iceberg.cache import get_default_cache_dir, save_discovered_repos, save_trending_repos
+from iceberg.cache import (
+    get_default_cache_dir,
+    save_discovered_repos,
+    save_repo_metadata,
+    save_trending_repos,
+)
 from iceberg.depsdev import DepsDevError, get_dependencies, get_project_loc
 from iceberg.detector import detect_package
 from iceberg.export import export_all
 from iceberg.github import fetch_trending_repos
+from iceberg.github_ranking import fetch_github_ranking
 from iceberg.github_search import build_search_query, search_repositories
 from iceberg.models import PackageIdentifier
 from iceberg.sbom import analyze_from_manifest
@@ -23,12 +29,15 @@ app = typer.Typer()
 
 @app.command()
 def fetch(
-    limit: int = typer.Option(10, help="Number of repositories to fetch"),
-    source: Literal["trending", "search"] = typer.Option(
-        "trending", help="Repository source (trending or search)"
+    limit: int = typer.Option(25, help="Number of repositories to fetch"),
+    source: Literal["trending", "search", "github-ranking"] = typer.Option(
+        "trending", help="Repository source (trending, search, or github-ranking)"
     ),
-    since: Literal["daily", "weekly", "monthly"] = typer.Option(
-        "daily", help="Trending timeframe (with --source trending)"
+    since: Literal["weekly", "monthly"] = typer.Option(
+        "monthly", help="Trending timeframe (with --source trending)"
+    ),
+    category: str = typer.Option(
+        "Top-100-stars", help="Category for github-ranking (e.g., Python, JavaScript, Top-100-stars)"
     ),
     stars: str | None = typer.Option(
         None, help="Star count filter, e.g., '>1000' (with --source search)"
@@ -51,7 +60,7 @@ def fetch(
     json_output: bool = typer.Option(False, "--json", help="Output as JSON"),
     cache_dir: Path | None = typer.Option(None, help="Cache directory path"),
 ) -> None:
-    """Fetch repositories from trending or search.
+    """Fetch repositories from trending, search, or github-ranking.
 
     Examples:
       iceberg fetch --limit 10
@@ -59,6 +68,8 @@ def fetch(
       iceberg fetch --source search --stars ">10000" --limit 50
       iceberg fetch --source search --language python --stars ">5000"
       iceberg fetch --source search --query "language:rust stars:>1000"
+      iceberg fetch --source github-ranking --category Python --limit 50
+      iceberg fetch --source github-ranking --category Top-100-stars --limit 100
 
     Use --analyze to automatically analyze each fetched repository.
     Results are cached, so re-running will skip already analyzed repos.
@@ -70,6 +81,8 @@ def fetch(
         # Fetch repos based on source
         if source == "trending":
             repos = fetch_trending_repos(limit=limit, since=since)
+        elif source == "github-ranking":
+            repos = fetch_github_ranking(category=category, limit=limit)
         else:  # search
             query_str = query or build_search_query(
                 stars=stars, language=language, created=created, pushed=pushed
@@ -78,6 +91,10 @@ def fetch(
             repos = search_repositories(query_str, limit=limit, token=token)
 
         save_discovered_repos(repos, cache_dir=cache_dir)
+
+        # Also save to new repo metadata structure
+        for repo in repos:
+            save_repo_metadata(repo, repo.source, cache_dir=cache_dir)
 
         if json_output:
             data = [repo.model_dump(mode="json") for repo in repos]
@@ -92,6 +109,9 @@ def fetch(
                         typer.echo(f"Fetched {len(repos)} {timeframe} trending repositories (GitHub only shows ~{len(repos)} on trending page)")
                     else:
                         typer.echo(f"Fetched {len(repos)} {timeframe} trending repositories")
+                elif repo_source.startswith("github-ranking"):
+                    category_name = repo_source.replace("github-ranking-", "")
+                    typer.echo(f"Fetched {len(repos)} repositories from GitHub-Ranking ({category_name})")
                 elif repo_source == "search":
                     typer.echo(f"Fetched {len(repos)} repositories from search")
                     if repos[0].search_query:

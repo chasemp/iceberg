@@ -16,6 +16,8 @@ from typing import Any
 
 from iceberg.cache import (
     get_default_cache_dir,
+    get_repos_by_category,
+    list_all_repos,
     load_dependencies,
     load_discovered_repos,
     load_project_loc,
@@ -30,7 +32,7 @@ def export_discovery_index(
     """Export index of all discovery dimensions and their repositories.
 
     Creates a structured index showing what repos were discovered through
-    each dimension (trending-daily, trending-weekly, search queries, etc.)
+    each category (trending-weekly, github-ranking-python, etc.)
 
     Args:
         output_dir: Directory to write JSON files
@@ -43,36 +45,31 @@ def export_discovery_index(
         {
           "dimensions": [
             {
-              "id": "trending-daily",
+              "id": "trending-monthly",
               "type": "trending",
-              "timeframe": "daily",
-              "snapshots": [
-                {
-                  "date": "2026-02-02",
-                  "count": 25,
-                  "repos": [...]
-                }
-              ]
+              "timeframe": "monthly",
+              "count": 25,
+              "repos": [...]
             },
             {
-              "id": "search:stars>10000",
-              "type": "search",
-              "query": "stars:>10000",
+              "id": "github-ranking-python",
+              "type": "github-ranking",
+              "category": "python",
               "count": 50,
               "repos": [...]
             }
           ],
-          "generated_at": "2026-02-02T12:00:00Z"
+          "generated_at": "2026-02-09T12:00:00Z"
         }
     """
     if cache_dir is None:
         cache_dir = get_default_cache_dir()
 
-    discovered_dir = cache_dir / "discovered"
+    repos_dir = cache_dir / "repos"
 
     dimensions: list[dict[str, Any]] = []
 
-    if not discovered_dir.exists():
+    if not repos_dir.exists():
         index: dict[str, Any] = {
             "dimensions": dimensions,
             "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -82,49 +79,50 @@ def export_discovery_index(
         output_file.write_text(json.dumps(index, indent=2))
         return {"dimensions_exported": 0, "output_file": str(output_file)}
 
-    # Scan all source directories
-    for source_dir in discovered_dir.iterdir():
-        if not source_dir.is_dir():
+    # Get all repos and extract unique categories
+    all_repos = list_all_repos(cache_dir=cache_dir)
+
+    # Collect all unique categories
+    all_categories: set[str] = set()
+    for repo in all_repos:
+        all_categories.update(repo.get("categories", {}).keys())
+
+    # Create a dimension for each category
+    for category in sorted(all_categories):
+        # Get repos in this category
+        category_repos = [
+            repo for repo in all_repos
+            if category in repo.get("categories", {})
+        ]
+
+        # Build repo summaries with analysis data
+        repo_summaries = [
+            summary for repo in category_repos
+            if (summary := _repo_summary_from_metadata(repo, cache_dir)) is not None
+        ]
+
+        if not repo_summaries:
             continue
 
-        source = source_dir.name
+        # Determine dimension type and metadata
+        dimension: dict[str, Any] = {
+            "id": category,
+            "count": len(repo_summaries),
+            "repos": repo_summaries,
+        }
 
-        if source.startswith("trending"):
-            # Trending dimensions: one snapshot per date
-            snapshots = []
-            for cache_file in sorted(source_dir.glob("*.json")):
-                date = cache_file.stem
-                repos = load_discovered_repos(source, date, cache_dir=cache_dir)
-                if repos:
-                    snapshots.append({
-                        "date": date,
-                        "count": len(repos),
-                        "repos": [_repo_summary(repo, cache_dir) for repo in repos],
-                    })
+        if category.startswith("trending-"):
+            dimension["type"] = "trending"
+            dimension["timeframe"] = category.replace("trending-", "")
+        elif category.startswith("github-ranking-"):
+            dimension["type"] = "github-ranking"
+            dimension["category"] = category.replace("github-ranking-", "")
+        elif category == "search":
+            dimension["type"] = "search"
+        else:
+            dimension["type"] = "other"
 
-            if snapshots:
-                dimensions.append({
-                    "id": source,
-                    "type": "trending",
-                    "timeframe": source.replace("trending-", ""),
-                    "snapshots": snapshots,
-                })
-
-        elif source == "search":
-            # Search dimensions: one entry per query hash
-            for cache_file in source_dir.glob("*.json"):
-                data = json.loads(cache_file.read_text())
-                if data:
-                    repos = [DiscoveredRepo.model_validate(item) for item in data]
-                    query = repos[0].search_query if repos else "unknown"
-
-                    dimensions.append({
-                        "id": f"search:{query}",
-                        "type": "search",
-                        "query": query,
-                        "count": len(repos),
-                        "repos": [_repo_summary(repo, cache_dir) for repo in repos],
-                    })
+        dimensions.append(dimension)
 
     index = {
         "dimensions": dimensions,
@@ -142,8 +140,25 @@ def export_discovery_index(
     }
 
 
-def _repo_summary(repo: DiscoveredRepo, cache_dir: Path) -> dict[str, Any]:
-    """Create a summary dict of a repo for index files."""
+def _repo_summary(repo: DiscoveredRepo, cache_dir: Path) -> dict[str, Any] | None:
+    """Create a summary dict of a repo for index files.
+
+    Returns None if the repo has zero LoC (no actual code), so it can be filtered out.
+    """
+    # Check if repo has actual code (LoC > 0)
+    projects_dir = cache_dir / "projects" / repo.owner / repo.name
+    if projects_dir.exists():
+        head_file = projects_dir / "HEAD.json"
+        if head_file.exists():
+            try:
+                analysis = json.loads(head_file.read_text())
+                loc = analysis.get("loc", 0)
+                # Skip repos with zero LoC (documentation repos, awesome lists, etc.)
+                if loc == 0:
+                    return None
+            except (json.JSONDecodeError, IOError):
+                pass  # If we can't read it, include the repo anyway
+
     summary: dict[str, Any] = {
         "owner": repo.owner,
         "name": repo.name,
@@ -155,18 +170,94 @@ def _repo_summary(repo: DiscoveredRepo, cache_dir: Path) -> dict[str, Any]:
         "discovered_at": repo.discovered_at,
     }
 
-    # Try to add AI tools info from analysis if available
-    projects_dir = cache_dir / "projects" / repo.owner / repo.name
+    # Try to add analysis data for sorting
     if projects_dir.exists():
-        # Look for HEAD.json first, then any version file
         head_file = projects_dir / "HEAD.json"
         if head_file.exists():
             try:
                 analysis = json.loads(head_file.read_text())
+
+                # Add AI tools info
                 if "ai_tools" in analysis and analysis["ai_tools"]:
                     summary["ai_tools"] = analysis["ai_tools"]
+
+                # Add analysis metrics for sorting
+                if "loc" in analysis:
+                    summary["project_loc"] = analysis["loc"]
+                if "total_loc" in analysis:
+                    summary["dep_loc"] = analysis["total_loc"]
+                if "ratio" in analysis:
+                    summary["ratio"] = analysis["ratio"]
+                if "dependencies" in analysis and isinstance(analysis["dependencies"], dict):
+                    summary["dep_count"] = len(analysis["dependencies"])
+
             except (json.JSONDecodeError, IOError):
-                pass  # If we can't read it, just skip AI tools info
+                pass  # If we can't read it, just skip
+
+    return summary
+
+
+def _repo_summary_from_metadata(repo_metadata: dict[str, Any], cache_dir: Path) -> dict[str, Any] | None:
+    """Create a summary dict from repo metadata (new cache structure).
+
+    Returns None if the repo has zero LoC (no actual code), so it can be filtered out.
+
+    Args:
+        repo_metadata: Repository metadata dict from cache/repos/
+        cache_dir: Cache directory path
+    """
+    owner = repo_metadata["owner"]
+    name = repo_metadata["name"]
+
+    # Check if repo has actual code (LoC > 0)
+    projects_dir = cache_dir / "projects" / owner / name
+    if projects_dir.exists():
+        head_file = projects_dir / "HEAD.json"
+        if head_file.exists():
+            try:
+                analysis = json.loads(head_file.read_text())
+                loc = analysis.get("loc", 0)
+                # Skip repos with zero LoC (documentation repos, awesome lists, etc.)
+                if loc == 0:
+                    return None
+            except (json.JSONDecodeError, IOError):
+                pass  # If we can't read it, include the repo anyway
+
+    summary: dict[str, Any] = {
+        "owner": owner,
+        "name": name,
+        "full_name": f"{owner}/{name}",
+        "url": repo_metadata["url"],
+        "description": repo_metadata["description"],
+        "language": repo_metadata["language"],
+        "stars": repo_metadata["stars"],
+        "discovered_at": repo_metadata["last_discovered"],
+        "categories": list(repo_metadata.get("categories", {}).keys()),
+    }
+
+    # Try to add analysis data for sorting
+    if projects_dir.exists():
+        head_file = projects_dir / "HEAD.json"
+        if head_file.exists():
+            try:
+                analysis = json.loads(head_file.read_text())
+
+                # Add AI tools info
+                if "ai_tools" in analysis and analysis["ai_tools"]:
+                    summary["ai_tools"] = analysis["ai_tools"]
+
+                # Add analysis metrics for sorting
+                if "loc" in analysis:
+                    summary["project_loc"] = analysis["loc"]
+                if "total_loc" in analysis:
+                    summary["dep_loc"] = analysis["total_loc"]
+                if "ratio" in analysis:
+                    summary["ratio"] = analysis["ratio"]
+                if "dependencies" in analysis and isinstance(analysis["dependencies"], dict):
+                    summary["dep_count"] = len(analysis["dependencies"])
+
+            except (json.JSONDecodeError, IOError):
+                pass  # If we can't read it, just skip
 
     return summary
 
