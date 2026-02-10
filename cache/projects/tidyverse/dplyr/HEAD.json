@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 1387,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:32:57.381513+00:00",
+  "cached_at": "2026-02-10T23:09:48.454017+00:00",
   "repo_url": "https://github.com/tidyverse/dplyr.git",
   "ref": "HEAD",
   "commit_hash": "8748225b372bd773e754b23a06dcfd4d64e27cfe",
-  "clone_duration_seconds": 0.8583576679229736,
-  "count_duration_seconds": 0.006185293197631836
+  "clone_duration_seconds": 1.1871349811553955,
+  "count_duration_seconds": 0.006815910339355469
 }

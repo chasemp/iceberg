@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 0,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:33:13.839473+00:00",
+  "cached_at": "2026-02-10T23:10:03.995580+00:00",
   "repo_url": "https://github.com/rmcelreath/stat_rethinking_2022.git",
   "ref": "HEAD",
   "commit_hash": "b75c45b35d383866aab52623c4e5dc52be78beee",
-  "clone_duration_seconds": 1.2352204322814941,
-  "count_duration_seconds": 0.0015375614166259766
+  "clone_duration_seconds": 1.8289668560028076,
+  "count_duration_seconds": 0.001978158950805664
 }

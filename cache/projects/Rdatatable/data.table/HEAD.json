@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 20964,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:33:28.426522+00:00",
+  "cached_at": "2026-02-10T23:10:16.358576+00:00",
   "repo_url": "https://github.com/Rdatatable/data.table.git",
   "ref": "HEAD",
   "commit_hash": "1bd88cbcc806bdaa2aa276e12c78fb4ba13cb645",
-  "clone_duration_seconds": 1.373328447341919,
-  "count_duration_seconds": 0.015698909759521484
+  "clone_duration_seconds": 1.8083930015563965,
+  "count_duration_seconds": 0.017802000045776367
 }
