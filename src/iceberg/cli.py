@@ -530,10 +530,6 @@ def list_tracked(
         raise typer.Exit(1)
 
 
-if __name__ == "__main__":
-    app()
-
-
 
 @app.command()
 def export(
@@ -560,3 +556,6 @@ def export(
         typer.echo(f"Error exporting data: {e}", err=True)
         raise typer.Exit(1)
 
+
+if __name__ == "__main__":
+    app()
