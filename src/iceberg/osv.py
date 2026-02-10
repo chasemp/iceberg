@@ -59,8 +59,10 @@ def run_osv_scanner(repo_path: Path) -> str | None:
         result = subprocess.run(
             [
                 "osv-scanner",
+                "scan",
+                "source",
                 "--format=json",
-                "--recursive",
+                "-r",
                 str(repo_path),
             ],
             capture_output=True,
