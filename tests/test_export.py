@@ -4,29 +4,34 @@ from pathlib import Path
 from tests.factories import create_discovered_repo
 
 
-def test_export_discovery_index_creates_structured_output(tmp_path: Path) -> None:
-    from datetime import datetime, timezone
+def _create_analysis(cache_dir: Path, owner: str, name: str, loc: int = 10000, **extra: object) -> None:
+    """Create a minimal analysis file for a repo in the cache."""
+    projects_dir = cache_dir / "projects" / owner / name
+    projects_dir.mkdir(parents=True)
+    analysis = {"owner": owner, "repo": name, "version": "HEAD", "loc": loc, **extra}
+    (projects_dir / "HEAD.json").write_text(json.dumps(analysis))
 
-    from iceberg.cache import save_discovered_repos
+
+def test_export_discovery_index_creates_structured_output(tmp_path: Path) -> None:
+    from iceberg.cache import save_repo_metadata
     from iceberg.export import export_discovery_index
 
-    # Create some test data
+    cache_dir = tmp_path / "cache"
     repos = [
         create_discovered_repo(name="repo1", owner="owner1", source="trending-daily", stars=1000),
         create_discovered_repo(name="repo2", owner="owner2", source="trending-daily", stars=2000),
     ]
 
-    cache_dir = tmp_path / "cache"
-    save_discovered_repos(repos, cache_dir=cache_dir)
+    for repo in repos:
+        save_repo_metadata(repo, repo.source, cache_dir=cache_dir)
+        _create_analysis(cache_dir, repo.owner, repo.name)
 
-    # Export
     output_dir = tmp_path / "export"
     result = export_discovery_index(output_dir, cache_dir=cache_dir)
 
     assert result["dimensions_exported"] == 1
     assert (output_dir / "index.json").exists()
 
-    # Verify structure
     index = json.loads((output_dir / "index.json").read_text())
     assert "dimensions" in index
     assert "generated_at" in index
@@ -36,39 +41,30 @@ def test_export_discovery_index_creates_structured_output(tmp_path: Path) -> Non
     assert dimension["id"] == "trending-daily"
     assert dimension["type"] == "trending"
     assert dimension["timeframe"] == "daily"
-    assert len(dimension["snapshots"]) == 1
-
-    snapshot = dimension["snapshots"][0]
-    assert snapshot["count"] == 2
-    assert len(snapshot["repos"]) == 2
-    assert snapshot["repos"][0]["name"] == "repo1"
-    assert snapshot["repos"][0]["stars"] == 1000
+    assert dimension["count"] == 2
+    assert len(dimension["repos"]) == 2
+    repo_names = {r["name"] for r in dimension["repos"]}
+    assert repo_names == {"repo1", "repo2"}
+    repo1 = next(r for r in dimension["repos"] if r["name"] == "repo1")
+    assert repo1["stars"] == 1000
 
 
 def test_export_discovery_index_with_multiple_dimensions(tmp_path: Path) -> None:
-    from iceberg.cache import save_discovered_repos
+    from iceberg.cache import save_repo_metadata
     from iceberg.export import export_discovery_index
 
-    # Create trending-daily
-    daily_repos = [create_discovered_repo(name="daily1", source="trending-daily")]
     cache_dir = tmp_path / "cache"
-    save_discovered_repos(daily_repos, cache_dir=cache_dir)
 
-    # Create trending-weekly
-    weekly_repos = [create_discovered_repo(name="weekly1", source="trending-weekly")]
-    save_discovered_repos(weekly_repos, cache_dir=cache_dir)
-
-    # Create search
+    daily_repos = [create_discovered_repo(name="daily1", owner="d1", source="trending-daily")]
+    weekly_repos = [create_discovered_repo(name="weekly1", owner="w1", source="trending-weekly")]
     search_repos = [
-        create_discovered_repo(
-            name="search1",
-            source="search",
-            search_query="stars:>10000",
-        )
+        create_discovered_repo(name="search1", owner="s1", source="search", search_query="stars:>10000")
     ]
-    save_discovered_repos(search_repos, cache_dir=cache_dir)
 
-    # Export
+    for repo in daily_repos + weekly_repos + search_repos:
+        save_repo_metadata(repo, repo.source, cache_dir=cache_dir)
+        _create_analysis(cache_dir, repo.owner, repo.name)
+
     output_dir = tmp_path / "export"
     result = export_discovery_index(output_dir, cache_dir=cache_dir)
 
@@ -78,29 +74,18 @@ def test_export_discovery_index_with_multiple_dimensions(tmp_path: Path) -> None
     dimension_ids = {d["id"] for d in index["dimensions"]}
     assert "trending-daily" in dimension_ids
     assert "trending-weekly" in dimension_ids
-    assert any("search:" in d_id for d_id in dimension_ids)
+    assert "search" in dimension_ids
 
 
 def test_export_repository_details_creates_per_repo_files(tmp_path: Path) -> None:
     from iceberg.export import export_repository_details
 
-    # Create test project data
     cache_dir = tmp_path / "cache"
-    projects_dir = cache_dir / "projects" / "facebook" / "react"
-    projects_dir.mkdir(parents=True)
+    _create_analysis(
+        cache_dir, "facebook", "react", loc=50000,
+        source="github_clone", cached_at="2026-02-02T12:00:00Z",
+    )
 
-    analysis = {
-        "owner": "facebook",
-        "repo": "react",
-        "version": "HEAD",
-        "loc": 50000,
-        "source": "github_clone",
-        "cached_at": "2026-02-02T12:00:00Z",
-    }
-
-    (projects_dir / "HEAD.json").write_text(json.dumps(analysis))
-
-    # Export
     output_dir = tmp_path / "export"
     result = export_repository_details(output_dir, cache_dir=cache_dir)
 
@@ -117,20 +102,14 @@ def test_export_repository_details_creates_per_repo_files(tmp_path: Path) -> Non
 
 
 def test_export_all_runs_all_exports(tmp_path: Path) -> None:
-    from iceberg.cache import save_discovered_repos
+    from iceberg.cache import save_repo_metadata
     from iceberg.export import export_all
 
-    # Create test data
-    repos = [create_discovered_repo(name="test", source="trending-daily")]
     cache_dir = tmp_path / "cache"
-    save_discovered_repos(repos, cache_dir=cache_dir)
+    repo = create_discovered_repo(name="test", source="trending-daily")
+    save_repo_metadata(repo, repo.source, cache_dir=cache_dir)
+    _create_analysis(cache_dir, repo.owner, repo.name, loc=1000)
 
-    # Create project data
-    projects_dir = cache_dir / "projects" / "owner" / "test"
-    projects_dir.mkdir(parents=True)
-    (projects_dir / "HEAD.json").write_text(json.dumps({"loc": 1000}))
-
-    # Export all
     output_dir = tmp_path / "export"
     results = export_all(output_dir, cache_dir=cache_dir)
 
@@ -157,58 +136,87 @@ def test_export_handles_empty_cache(tmp_path: Path) -> None:
 
 def test_export_discovery_index_includes_ai_tools(tmp_path: Path) -> None:
     """Test that AI tools information is included in repo summaries."""
-    from iceberg.cache import save_discovered_repos
+    from iceberg.cache import save_repo_metadata
     from iceberg.export import export_discovery_index
 
-    # Create discovered repos
+    cache_dir = tmp_path / "cache"
     repos = [
         create_discovered_repo(name="repo-with-ai", owner="owner1", source="trending-daily", stars=1000),
         create_discovered_repo(name="repo-without-ai", owner="owner2", source="trending-daily", stars=2000),
     ]
 
-    cache_dir = tmp_path / "cache"
-    save_discovered_repos(repos, cache_dir=cache_dir)
+    for repo in repos:
+        save_repo_metadata(repo, repo.source, cache_dir=cache_dir)
 
-    # Create analyzed project data with AI tools for first repo
-    projects_dir = cache_dir / "projects" / "owner1" / "repo-with-ai"
-    projects_dir.mkdir(parents=True)
-    analysis_with_ai = {
-        "owner": "owner1",
-        "repo": "repo-with-ai",
-        "version": "HEAD",
-        "loc": 50000,
-        "ai_tools": ["Claude", "GitHub Copilot"],
-        "source": "github_clone",
-        "cached_at": "2026-02-02T12:00:00Z",
-    }
-    (projects_dir / "HEAD.json").write_text(json.dumps(analysis_with_ai))
+    _create_analysis(
+        cache_dir, "owner1", "repo-with-ai", loc=50000,
+        ai_tools=["Claude", "GitHub Copilot"],
+        source="github_clone", cached_at="2026-02-02T12:00:00Z",
+    )
+    _create_analysis(
+        cache_dir, "owner2", "repo-without-ai", loc=30000,
+        source="github_clone", cached_at="2026-02-02T12:00:00Z",
+    )
 
-    # Create analyzed project data without AI tools for second repo
-    projects_dir2 = cache_dir / "projects" / "owner2" / "repo-without-ai"
-    projects_dir2.mkdir(parents=True)
-    analysis_without_ai = {
-        "owner": "owner2",
-        "repo": "repo-without-ai",
-        "version": "HEAD",
-        "loc": 30000,
-        "source": "github_clone",
-        "cached_at": "2026-02-02T12:00:00Z",
-    }
-    (projects_dir2 / "HEAD.json").write_text(json.dumps(analysis_without_ai))
-
-    # Export
     output_dir = tmp_path / "export"
     result = export_discovery_index(output_dir, cache_dir=cache_dir)
 
-    # Verify
     index = json.loads((output_dir / "index.json").read_text())
-    snapshot = index["dimensions"][0]["snapshots"][0]
+    assert len(index["dimensions"]) == 1
 
-    # First repo should have ai_tools
-    repo1 = next(r for r in snapshot["repos"] if r["name"] == "repo-with-ai")
+    dimension = index["dimensions"][0]
+    repo1 = next(r for r in dimension["repos"] if r["name"] == "repo-with-ai")
     assert "ai_tools" in repo1
     assert repo1["ai_tools"] == ["Claude", "GitHub Copilot"]
 
-    # Second repo should not have ai_tools field (or it should be empty)
-    repo2 = next(r for r in snapshot["repos"] if r["name"] == "repo-without-ai")
+    repo2 = next(r for r in dimension["repos"] if r["name"] == "repo-without-ai")
     assert repo2.get("ai_tools") is None or repo2.get("ai_tools") == []
+
+
+def test_export_skips_repos_without_analysis(tmp_path: Path) -> None:
+    """Repos discovered but never analyzed should not appear in the index."""
+    from iceberg.cache import save_repo_metadata
+    from iceberg.export import export_discovery_index
+
+    cache_dir = tmp_path / "cache"
+    analyzed = create_discovered_repo(name="analyzed", owner="a", source="trending-daily")
+    unanalyzed = create_discovered_repo(name="unanalyzed", owner="b", source="trending-daily")
+
+    for repo in [analyzed, unanalyzed]:
+        save_repo_metadata(repo, repo.source, cache_dir=cache_dir)
+
+    _create_analysis(cache_dir, "a", "analyzed", loc=5000)
+
+    output_dir = tmp_path / "export"
+    export_discovery_index(output_dir, cache_dir=cache_dir)
+
+    index = json.loads((output_dir / "index.json").read_text())
+    dimension = index["dimensions"][0]
+    repo_names = [r["name"] for r in dimension["repos"]]
+    assert "analyzed" in repo_names
+    assert "unanalyzed" not in repo_names
+
+
+def test_export_skips_repos_with_zero_loc(tmp_path: Path) -> None:
+    """Repos with loc=0 (documentation-only) should not appear in the index."""
+    from iceberg.cache import save_repo_metadata
+    from iceberg.export import export_discovery_index
+
+    cache_dir = tmp_path / "cache"
+    real_repo = create_discovered_repo(name="real", owner="a", source="trending-daily")
+    doc_repo = create_discovered_repo(name="docs", owner="b", source="trending-daily")
+
+    for repo in [real_repo, doc_repo]:
+        save_repo_metadata(repo, repo.source, cache_dir=cache_dir)
+
+    _create_analysis(cache_dir, "a", "real", loc=5000)
+    _create_analysis(cache_dir, "b", "docs", loc=0)
+
+    output_dir = tmp_path / "export"
+    export_discovery_index(output_dir, cache_dir=cache_dir)
+
+    index = json.loads((output_dir / "index.json").read_text())
+    dimension = index["dimensions"][0]
+    repo_names = [r["name"] for r in dimension["repos"]]
+    assert "real" in repo_names
+    assert "docs" not in repo_names

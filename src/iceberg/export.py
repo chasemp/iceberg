@@ -143,21 +143,21 @@ def export_discovery_index(
 def _repo_summary(repo: DiscoveredRepo, cache_dir: Path) -> dict[str, Any] | None:
     """Create a summary dict of a repo for index files.
 
-    Returns None if the repo has zero LoC (no actual code), so it can be filtered out.
+    Returns None if the repo has no analysis data or zero LoC, so it can be filtered out.
     """
-    # Check if repo has actual code (LoC > 0)
+    # Check if repo has analysis with actual code (LoC > 0)
     projects_dir = cache_dir / "projects" / repo.owner / repo.name
-    if projects_dir.exists():
-        head_file = projects_dir / "HEAD.json"
-        if head_file.exists():
-            try:
-                analysis = json.loads(head_file.read_text())
-                loc = analysis.get("loc", 0)
-                # Skip repos with zero LoC (documentation repos, awesome lists, etc.)
-                if loc == 0:
-                    return None
-            except (json.JSONDecodeError, IOError):
-                pass  # If we can't read it, include the repo anyway
+    head_file = projects_dir / "HEAD.json" if projects_dir.exists() else None
+    if not head_file or not head_file.exists():
+        return None
+
+    try:
+        analysis = json.loads(head_file.read_text())
+        loc = analysis.get("loc", 0)
+        if loc == 0:
+            return None
+    except (json.JSONDecodeError, IOError):
+        return None
 
     summary: dict[str, Any] = {
         "owner": repo.owner,
@@ -200,7 +200,7 @@ def _repo_summary(repo: DiscoveredRepo, cache_dir: Path) -> dict[str, Any] | Non
 def _repo_summary_from_metadata(repo_metadata: dict[str, Any], cache_dir: Path) -> dict[str, Any] | None:
     """Create a summary dict from repo metadata (new cache structure).
 
-    Returns None if the repo has zero LoC (no actual code), so it can be filtered out.
+    Returns None if the repo has no analysis data or zero LoC, so it can be filtered out.
 
     Args:
         repo_metadata: Repository metadata dict from cache/repos/
@@ -209,19 +209,19 @@ def _repo_summary_from_metadata(repo_metadata: dict[str, Any], cache_dir: Path) 
     owner = repo_metadata["owner"]
     name = repo_metadata["name"]
 
-    # Check if repo has actual code (LoC > 0)
+    # Check if repo has analysis with actual code (LoC > 0)
     projects_dir = cache_dir / "projects" / owner / name
-    if projects_dir.exists():
-        head_file = projects_dir / "HEAD.json"
-        if head_file.exists():
-            try:
-                analysis = json.loads(head_file.read_text())
-                loc = analysis.get("loc", 0)
-                # Skip repos with zero LoC (documentation repos, awesome lists, etc.)
-                if loc == 0:
-                    return None
-            except (json.JSONDecodeError, IOError):
-                pass  # If we can't read it, include the repo anyway
+    head_file = projects_dir / "HEAD.json" if projects_dir.exists() else None
+    if not head_file or not head_file.exists():
+        return None
+
+    try:
+        analysis = json.loads(head_file.read_text())
+        loc = analysis.get("loc", 0)
+        if loc == 0:
+            return None
+    except (json.JSONDecodeError, IOError):
+        return None
 
     summary: dict[str, Any] = {
         "owner": owner,
