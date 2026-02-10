@@ -377,3 +377,70 @@ def test_analyze_repository_checkouts_release_tag_when_version_detected(
     # First attempt should be with the version tag (v1.2.3 or 1.2.3)
     first_ref = checkout_ref_called_with[0]
     assert first_ref in ["v1.2.3", "1.2.3"]
+
+
+def test_analyze_repository_force_bypasses_cache(
+    httpx_mock: HTTPXMock, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """Test that force=True re-analyzes even when cache exists."""
+    import json
+    from iceberg.calculator import analyze_repository
+
+    # Pre-populate cache with stale data (no ai_markers, no total_loc)
+    projects_dir = tmp_path / "projects" / "owner" / "repo"
+    projects_dir.mkdir(parents=True)
+    (projects_dir / "HEAD.json").write_text(json.dumps({
+        "owner": "owner", "repo": "repo", "version": "HEAD",
+        "loc": 5000, "source": "github_clone",
+        "cached_at": "2026-01-01T00:00:00Z",
+    }))
+
+    clone_called = []
+
+    def mock_clone_repository(
+        owner: str, name: str, target_dir: Path | None = None, ref: str | None = None
+    ) -> dict:
+        clone_called.append(True)
+        return {
+            "duration_seconds": 1.0,
+            "repo_url": f"https://github.com/{owner}/{name}.git",
+            "ref": ref or "HEAD",
+            "commit_hash": "def456",
+        }
+
+    def mock_count_repo_loc(repo_dir: Path) -> dict:
+        return {"loc": 8000, "duration_seconds": 0.5}
+
+    def mock_run_osv_scanner(repo_path: Path) -> str | None:
+        return None
+
+    def mock_detect_package(owner: str, repo: str) -> None:
+        return None
+
+    def mock_detect_ai_markers(owner: str, repo: str) -> dict:
+        return {"claude": True, "cursor": False, "copilot": False, "aider": False,
+                "windsurf": False, "cline": False, "codex": False, "generic_ai": False}
+
+    monkeypatch.setattr("iceberg.calculator.clone_repository", mock_clone_repository)
+    monkeypatch.setattr("iceberg.calculator.count_repo_loc", mock_count_repo_loc)
+    monkeypatch.setattr("iceberg.calculator.run_osv_scanner", mock_run_osv_scanner)
+    monkeypatch.setattr("iceberg.calculator.detect_package", mock_detect_package)
+    monkeypatch.setattr("iceberg.calculator.detect_ai_markers", mock_detect_ai_markers)
+
+    # Without force — returns cached (stale) data
+    result_cached = analyze_repository("owner", "repo", cache_dir=tmp_path)
+    assert result_cached is not None
+    assert result_cached["loc"] == 5000
+    assert len(clone_called) == 0  # Should not have cloned
+
+    # With force — re-analyzes
+    result_fresh = analyze_repository("owner", "repo", cache_dir=tmp_path, force=True)
+    assert result_fresh is not None
+    assert len(clone_called) == 1  # Should have cloned
+    assert result_fresh["project_loc"] == 8000  # New LoC from fresh analysis
+
+    # Verify the saved cache file was updated
+    updated = json.loads((projects_dir / "HEAD.json").read_text())
+    assert updated["loc"] == 8000
+    assert updated["ai_markers"]["claude"] is True
+    assert "Claude" in updated["ai_tools"]

@@ -126,23 +126,27 @@ def deduplicate_repos(repos: list[DiscoveredRepo]) -> list[DiscoveredRepo]:
 
 
 def should_analyze(
-    repo: DiscoveredRepo, 
+    repo: DiscoveredRepo,
     cache_dir: Path,
-    verbose: bool = False
+    verbose: bool = False,
+    force: bool = False,
 ) -> tuple[bool, str]:
     """Determine if a repo should be analyzed.
-    
+
     Returns:
         (should_analyze: bool, reason: str)
     """
+    if force:
+        return (True, "forced re-analysis")
+
     repo_name = f"{repo.owner}/{repo.name}"
-    
+
     # Check if already cached
     cached = load_project_loc(repo.owner, repo.name, "HEAD", cache_dir=cache_dir)
-    
+
     if not cached:
         return (True, "new repo")
-    
+
     # Check if analyzed very recently (< 24h)
     cached_at = cached.get("cached_at")
     if cached_at:
@@ -168,6 +172,7 @@ def should_analyze(
 def main():
     """Run discovery workflow."""
     verbose = "-v" in sys.argv or "--verbose" in sys.argv
+    force = "--force" in sys.argv
 
     # Parse analyze-limit argument
     analyze_limit = None  # None means "all repos"
@@ -187,6 +192,8 @@ def main():
     print(f"Date: {today}")
     if analyze_limit is not None:
         print(f"Analyze limit: {analyze_limit} repos")
+    if force:
+        print("Mode: FORCE (re-analyzing all repos)")
     print("=" * 60)
     print()
     
@@ -242,7 +249,7 @@ def main():
         repo_name = f"{repo.owner}/{repo.name}"
 
         # Determine if we should analyze
-        should_analyze_result, reason = should_analyze(repo, cache_dir, verbose)
+        should_analyze_result, reason = should_analyze(repo, cache_dir, verbose, force)
 
         if not should_analyze_result:
             print(f"⏭️  {repo_name} - {reason}")
@@ -257,6 +264,7 @@ def main():
                 repo=repo.name,
                 cache_dir=cache_dir,
                 verbose=verbose,
+                force=force,
             )
             
             if result:

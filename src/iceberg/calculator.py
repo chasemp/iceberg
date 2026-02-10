@@ -110,6 +110,7 @@ def analyze_repository(
     package_spec: str | None = None,
     cache_dir: Path | None = None,
     verbose: bool = False,
+    force: bool = False,
 ) -> dict[str, Any] | None:
     """Analyze a repository and calculate its iceberg ratio.
 
@@ -125,16 +126,18 @@ def analyze_repository(
         package_spec: Optional package spec (system:name:version), auto-detect if None
         cache_dir: Cache directory
         verbose: If True, log fallback attempts and reasons
+        force: If True, skip cache and re-analyze from scratch
 
     Returns:
         Dict with analysis results or None if project LoC can't be determined
     """
     # Check if already analyzed (using HEAD as default version)
-    cached = load_project_loc(owner, repo, "HEAD", cache_dir=cache_dir)
-    if cached:
-        if verbose:
-            print(f"    [cache] Using cached analysis for {owner}/{repo}")
-        return cached
+    if not force:
+        cached = load_project_loc(owner, repo, "HEAD", cache_dir=cache_dir)
+        if cached:
+            if verbose:
+                print(f"    [cache] Using cached analysis for {owner}/{repo}")
+            return cached
 
     # Step 1: Try to detect package version before cloning (for release tag checkout)
     pkg: PackageIdentifier | None = None

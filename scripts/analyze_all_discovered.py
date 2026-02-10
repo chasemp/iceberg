@@ -125,6 +125,7 @@ def main() -> int:
                 package_spec=None,  # Auto-detect
                 cache_dir=cache_dir,
                 verbose=verbose,
+                force=force,
             )
 
             if result:
