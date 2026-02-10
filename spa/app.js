@@ -13,7 +13,8 @@ let state = {
     },
     sort: 'stars-desc',
     searchQuery: '',
-    rankings: null
+    rankings: null,
+    analysisRepoCount: null  // Set after first render to track repos with analysis data
 };
 
 // Initialize app
@@ -339,40 +340,13 @@ async function renderFilteredRepositories() {
         return;
     }
 
-    // Apply trending filter
-    let filteredRepos = allRepos;
-    if (state.filters.trending.length === 0) {
-        // No trending timeframes selected = filter out all trending repos
-        filteredRepos = filteredRepos.filter(repo => repo.source === 'search');
-    } else {
-        const trendingSources = state.filters.trending.map(t => `trending-${t}`);
-        filteredRepos = filteredRepos.filter(repo => {
-            // If it's a search result, always include it
-            if (repo.source === 'search') return true;
-            // If it's a trending result, check if it matches selected timeframes
-            return trendingSources.includes(repo.source);
-        });
-    }
-
-    // Apply stars filter
-    if (state.filters.stars.length === 0) {
-        // No star ranges selected = filter out all repos
-        filteredRepos = [];
-    } else {
-        filteredRepos = filteredRepos.filter(repo => {
-            const stars = repo.stars || 0;
-            return state.filters.stars.some(range => {
-                if (range === '0-100') return stars >= 0 && stars < 100;
-                if (range === '100-1000') return stars >= 100 && stars < 1000;
-                if (range === '1000-10000') return stars >= 1000 && stars < 10000;
-                if (range === '10000+') return stars >= 10000;
-                return false;
-            });
-        });
-    }
-
-    // Apply other filters (search, language, etc.)
-    filteredRepos = applyAdditionalFilters(filteredRepos);
+    let filteredRepos = applyAllFilters(allRepos, {
+        trending: state.filters.trending,
+        stars: state.filters.stars,
+        languages: state.filters.languages,
+        searchQuery: state.searchQuery,
+        aiTools: state.filters.aiTools
+    });
 
     // Apply "Only with dependencies" filter (requires async)
     if (state.filters.onlyWithDeps) {
@@ -393,54 +367,6 @@ async function renderFilteredRepositories() {
     await renderRepositoryList(sortedRepos);
 }
 
-function applyAdditionalFilters(repos) {
-    let filtered = repos;
-
-    // Search filter
-    if (state.searchQuery) {
-        const query = state.searchQuery.toLowerCase();
-        filtered = filtered.filter(repo =>
-            (repo.full_name || '').toLowerCase().includes(query) ||
-            (repo.description || '').toLowerCase().includes(query) ||
-            (repo.language || '').toLowerCase().includes(query)
-        );
-    }
-
-    // Only with dependencies filter - handled in renderRepositories() function
-    // since it requires async fetching of analysis data
-
-    // Language filter (multiselect)
-    if (state.filters.languages.length === 0) {
-        // No languages selected = filter out all repos
-        filtered = [];
-    } else {
-        filtered = filtered.filter(repo => {
-            // Include repos that match selected languages
-            // OR repos without a language (when languages are selected)
-            return state.filters.languages.includes(repo.language) || !repo.language;
-        });
-    }
-
-    // AI tools filter (multiselect)
-    // Note: AI tools filter is optional - empty means "don't filter by AI tools"
-    if (state.filters.aiTools.length > 0) {
-        // If "any" is selected, show all repos with any AI tool
-        if (state.filters.aiTools.includes('any')) {
-            filtered = filtered.filter(repo =>
-                repo.ai_tools && repo.ai_tools.length > 0
-            );
-        } else {
-            // Otherwise, filter by specific tools
-            filtered = filtered.filter(repo =>
-                repo.ai_tools && repo.ai_tools.some(tool =>
-                    state.filters.aiTools.includes(tool.toLowerCase())
-                )
-            );
-        }
-    }
-
-    return filtered;
-}
 
 async function renderRepositoryList(repos) {
     const container = document.getElementById('repositories-list');
@@ -465,6 +391,11 @@ async function renderRepositoryList(repos) {
     // Update results count
     countElement.textContent = renderedCount.toLocaleString();
 
+    if (state.analysisRepoCount === null) {
+        state.analysisRepoCount = renderedCount;
+        renderStatistics();
+    }
+
     // If no repos were rendered, show a message
     if (renderedCount === 0) {
         container.innerHTML = '<p class="placeholder">No repositories with analysis data match the selected filters</p>';
@@ -482,7 +413,7 @@ function renderStatistics() {
 
     // Calculate aggregate statistics
     const repos = getAllRepos();
-    const totalRepos = repos.length;
+    const totalRepos = state.analysisRepoCount !== null ? state.analysisRepoCount : repos.length;
     const languages = new Set(repos.map(r => r.language).filter(Boolean));
 
     // Count repos with AI tools
@@ -563,35 +494,7 @@ function getDimensions() {
 }
 
 function getAllRepos() {
-    const dimensions = getDimensions();
-    const reposMap = new Map();
-
-    dimensions.forEach(dimension => {
-        // Handle all dimension types that have repos
-        if (dimension.repos && Array.isArray(dimension.repos)) {
-            dimension.repos.forEach(repo => {
-                const key = `${repo.owner}/${repo.name}`;
-                if (!reposMap.has(key)) {
-                    // Add source property based on dimension type
-                    let source = dimension.id;
-                    if (dimension.type === 'trending') {
-                        source = `trending-${dimension.timeframe}`;
-                    } else if (dimension.type === 'search') {
-                        source = 'search';
-                    } else if (dimension.type === 'github-ranking') {
-                        source = `github-ranking-${dimension.category}`;
-                    }
-
-                    reposMap.set(key, {
-                        ...repo,
-                        source
-                    });
-                }
-            });
-        }
-    });
-
-    return Array.from(reposMap.values());
+    return deduplicateRepos(getDimensions());
 }
 
 function populateLanguageFilter() {
@@ -931,79 +834,25 @@ async function hasActualDependencies(repo) {
 }
 
 async function getFilteredReposExcluding(excludeFilterType) {
-    // Get all repos and apply all filters EXCEPT the specified one
     const allRepos = getAllRepos();
-
     let filtered = allRepos;
 
-    // Apply trending filter (unless excluded)
     if (excludeFilterType !== 'trending') {
-        if (state.filters.trending.length === 0) {
-            filtered = filtered.filter(repo => repo.source === 'search');
-        } else {
-            const trendingSources = state.filters.trending.map(t => `trending-${t}`);
-            filtered = filtered.filter(repo => {
-                if (repo.source === 'search') return true;
-                return trendingSources.includes(repo.source);
-            });
-        }
+        filtered = filterByTrending(filtered, state.filters.trending);
     }
-
-    // Apply stars filter (unless excluded)
     if (excludeFilterType !== 'stars') {
-        if (state.filters.stars.length === 0) {
-            filtered = [];
-        } else {
-            filtered = filtered.filter(repo => {
-                const stars = repo.stars || 0;
-                return state.filters.stars.some(range => {
-                    if (range === '0-100') return stars >= 0 && stars < 100;
-                    if (range === '100-1000') return stars >= 100 && stars < 1000;
-                    if (range === '1000-10000') return stars >= 1000 && stars < 10000;
-                    if (range === '10000+') return stars >= 10000;
-                    return false;
-                });
-            });
-        }
+        filtered = filterByStars(filtered, state.filters.stars);
     }
-
-    // Apply language filter (unless excluded)
     if (excludeFilterType !== 'languages') {
-        if (state.filters.languages.length === 0) {
-            filtered = [];
-        } else {
-            filtered = filtered.filter(repo => {
-                return state.filters.languages.includes(repo.language) || !repo.language;
-            });
-        }
+        filtered = filterByLanguage(filtered, state.filters.languages);
+    }
+    if (excludeFilterType !== 'search') {
+        filtered = filterBySearch(filtered, state.searchQuery);
+    }
+    if (excludeFilterType !== 'aiTools') {
+        filtered = filterByAiTools(filtered, state.filters.aiTools);
     }
 
-    // Apply search filter (unless excluded)
-    if (excludeFilterType !== 'search' && state.searchQuery) {
-        const query = state.searchQuery.toLowerCase();
-        filtered = filtered.filter(repo =>
-            (repo.full_name || '').toLowerCase().includes(query) ||
-            (repo.description || '').toLowerCase().includes(query) ||
-            (repo.language || '').toLowerCase().includes(query)
-        );
-    }
-
-    // Apply AI tools filter (unless excluded)
-    if (excludeFilterType !== 'aiTools' && state.filters.aiTools.length > 0) {
-        if (state.filters.aiTools.includes('any')) {
-            filtered = filtered.filter(repo =>
-                repo.ai_tools && repo.ai_tools.length > 0
-            );
-        } else {
-            filtered = filtered.filter(repo =>
-                repo.ai_tools && repo.ai_tools.some(tool =>
-                    state.filters.aiTools.includes(tool.toLowerCase())
-                )
-            );
-        }
-    }
-
-    // Apply "Only with dependencies" filter (unless excluded)
     if (excludeFilterType !== 'onlyWithDeps' && state.filters.onlyWithDeps) {
         const reposWithDeps = [];
         for (const repo of filtered) {
@@ -1053,7 +902,7 @@ async function updateDropdownCounts() {
             const timeframe = checkbox.value;
 
             // Count repos from this trending timeframe
-            const count = baseRepos.filter(repo => repo.source === `trending-${timeframe}`).length;
+            const count = baseRepos.filter(repo => repo.sources.includes(`trending-${timeframe}`)).length;
 
             // Update label with count using original label
             const originalLabel = span.dataset.originalLabel || timeframe;
