@@ -532,6 +532,44 @@ def list_tracked(
 
 
 @app.command()
+def backfill_ai(
+    force: bool = typer.Option(False, "--force", help="Re-run detection even for repos that already have markers"),
+    verbose: bool = typer.Option(False, "-v", "--verbose", help="Show progress for each repo"),
+    cache_dir: Path | None = typer.Option(None, help="Cache directory path"),
+) -> None:
+    """Backfill AI tool marker detection for analyzed repos.
+
+    Scans all analyzed repositories and runs AI marker detection
+    for any that don't have ai_markers data yet.
+
+    Use --force to re-run detection on all repos (e.g., after adding new markers).
+    """
+    from iceberg.ai_markers import backfill_ai_markers
+
+    try:
+        if cache_dir is None:
+            cache_dir = get_default_cache_dir()
+
+        typer.echo("Backfilling AI tool markers...")
+        if force:
+            typer.echo("(force mode: re-running all detections)")
+
+        stats = backfill_ai_markers(cache_dir, force=force, verbose=verbose)
+
+        typer.echo(f"\nDone!")
+        typer.echo(f"  Total repos: {stats['total']}")
+        typer.echo(f"  Scanned: {stats['total'] - stats['skipped']}")
+        typer.echo(f"  Skipped (already had markers): {stats['skipped']}")
+        typer.echo(f"  AI tools detected: {stats['detected']}")
+        if stats['errors'] > 0:
+            typer.echo(f"  Errors: {stats['errors']}")
+
+    except Exception as e:
+        typer.echo(f"Error: {e}", err=True)
+        raise typer.Exit(1)
+
+
+@app.command()
 def export(
     output_dir: Path = typer.Option("./spa/data", help="Output directory for exported JSON files"),
     cache_dir: Path | None = typer.Option(None, help="Cache directory path"),
