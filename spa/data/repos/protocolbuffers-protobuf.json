@@ -1,0 +1,19 @@
+{
+  "owner": "protocolbuffers",
+  "repo": "protobuf",
+  "full_name": "protocolbuffers/protobuf",
+  "url": "https://github.com/protocolbuffers/protobuf",
+  "analysis": {
+    "owner": "protocolbuffers",
+    "repo": "protobuf",
+    "version": "HEAD",
+    "loc": 591310,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:39:16.062921+00:00",
+    "repo_url": "https://github.com/protocolbuffers/protobuf.git",
+    "ref": "HEAD",
+    "commit_hash": "eedd2068760c946996f3095286492afc0460695a",
+    "clone_duration_seconds": 1.5964703559875488,
+    "count_duration_seconds": 0.30826473236083984
+  }
+}

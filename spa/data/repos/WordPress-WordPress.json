@@ -1,0 +1,19 @@
+{
+  "owner": "WordPress",
+  "repo": "WordPress",
+  "full_name": "WordPress/WordPress",
+  "url": "https://github.com/WordPress/WordPress",
+  "analysis": {
+    "owner": "WordPress",
+    "repo": "WordPress",
+    "version": "HEAD",
+    "loc": 487990,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:07:26.001494+00:00",
+    "repo_url": "https://github.com/WordPress/WordPress.git",
+    "ref": "HEAD",
+    "commit_hash": "9d235f6c2d41e5d0f5a6b1a80d5ebd5673d09f0c",
+    "clone_duration_seconds": 3.741124391555786,
+    "count_duration_seconds": 0.35352134704589844
+  }
+}

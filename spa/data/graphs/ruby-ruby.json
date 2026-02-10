@@ -1,0 +1,16 @@
+{
+  "owner": "ruby",
+  "repo": "ruby",
+  "full_name": "ruby/ruby",
+  "root_package": "cargo:ruby:0.0.0",
+  "nodes": [
+    {
+      "id": "cargo:ruby:0.0.0",
+      "system": "cargo",
+      "name": "ruby",
+      "version": "0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-10T07:49:02.456503+00:00"
+}

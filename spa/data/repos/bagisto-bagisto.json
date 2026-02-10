@@ -1,0 +1,19 @@
+{
+  "owner": "bagisto",
+  "repo": "bagisto",
+  "full_name": "bagisto/bagisto",
+  "url": "https://github.com/bagisto/bagisto",
+  "analysis": {
+    "owner": "bagisto",
+    "repo": "bagisto",
+    "version": "HEAD",
+    "loc": 287189,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:05:59.356480+00:00",
+    "repo_url": "https://github.com/bagisto/bagisto.git",
+    "ref": "HEAD",
+    "commit_hash": "34e29f6d34f163b3a93b74fae1b303e084c34acb",
+    "clone_duration_seconds": 2.585583209991455,
+    "count_duration_seconds": 0.27019596099853516
+  }
+}

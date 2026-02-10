@@ -1,0 +1,13 @@
+{
+  "owner": "RikkaApps",
+  "repo": "Shizuku",
+  "version": "HEAD",
+  "loc": 6977,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:44:10.425669+00:00",
+  "repo_url": "https://github.com/RikkaApps/Shizuku.git",
+  "ref": "HEAD",
+  "commit_hash": "b844bc491f1790c72328e1a8e5b2349f8978f0ea",
+  "clone_duration_seconds": 0.708216667175293,
+  "count_duration_seconds": 0.023569822311401367
+}

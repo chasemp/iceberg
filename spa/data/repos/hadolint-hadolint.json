@@ -1,0 +1,19 @@
+{
+  "owner": "hadolint",
+  "repo": "hadolint",
+  "full_name": "hadolint/hadolint",
+  "url": "https://github.com/hadolint/hadolint",
+  "analysis": {
+    "owner": "hadolint",
+    "repo": "hadolint",
+    "version": "HEAD",
+    "loc": 108,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:18:28.581630+00:00",
+    "repo_url": "https://github.com/hadolint/hadolint.git",
+    "ref": "HEAD",
+    "commit_hash": "0d4f787e3f8211457c4423febc24680a313c43d0",
+    "clone_duration_seconds": 0.6252627372741699,
+    "count_duration_seconds": 0.0031728744506835938
+  }
+}

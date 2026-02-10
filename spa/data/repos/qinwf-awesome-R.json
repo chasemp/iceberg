@@ -1,0 +1,19 @@
+{
+  "owner": "qinwf",
+  "repo": "awesome-R",
+  "full_name": "qinwf/awesome-R",
+  "url": "https://github.com/qinwf/awesome-R",
+  "analysis": {
+    "owner": "qinwf",
+    "repo": "awesome-R",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:32:35.419610+00:00",
+    "repo_url": "https://github.com/qinwf/awesome-R.git",
+    "ref": "HEAD",
+    "commit_hash": "e58c6d6f41795c133ae0a6e455a1727b021c8445",
+    "clone_duration_seconds": 0.47910237312316895,
+    "count_duration_seconds": 0.0009944438934326172
+  }
+}

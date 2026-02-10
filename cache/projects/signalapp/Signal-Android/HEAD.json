@@ -1,0 +1,13 @@
+{
+  "owner": "signalapp",
+  "repo": "Signal-Android",
+  "version": "HEAD",
+  "loc": 511668,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:43:16.981861+00:00",
+  "repo_url": "https://github.com/signalapp/Signal-Android.git",
+  "ref": "HEAD",
+  "commit_hash": "472d86acc01c1cd80e640a8494cf22eecc6f1d9f",
+  "clone_duration_seconds": 8.04250168800354,
+  "count_duration_seconds": 0.46095848083496094
+}

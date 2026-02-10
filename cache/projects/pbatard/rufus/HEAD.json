@@ -1,0 +1,13 @@
+{
+  "owner": "pbatard",
+  "repo": "rufus",
+  "version": "HEAD",
+  "loc": 122377,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:36:54.421994+00:00",
+  "repo_url": "https://github.com/pbatard/rufus.git",
+  "ref": "HEAD",
+  "commit_hash": "cac828621acd8b6e446f2e256ecd6ae90fc103a3",
+  "clone_duration_seconds": 1.5202867984771729,
+  "count_duration_seconds": 0.07504415512084961
+}

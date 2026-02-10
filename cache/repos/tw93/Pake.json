@@ -4,9 +4,10 @@
   "url": "https://github.com/tw93/Pake",
   "description": "\ud83e\udd31\ud83c\udffb Turn any webpage into a desktop app with one command.",
   "language": "Rust",
-  "stars": 45644,
+  "stars": 45660,
   "categories": {
-    "github-ranking-rust": "2026-02-09"
+    "github-ranking-rust": "2026-02-09",
+    "search": "2026-02-10"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

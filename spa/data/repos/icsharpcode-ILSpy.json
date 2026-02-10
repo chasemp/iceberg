@@ -1,0 +1,19 @@
+{
+  "owner": "icsharpcode",
+  "repo": "ILSpy",
+  "full_name": "icsharpcode/ILSpy",
+  "url": "https://github.com/icsharpcode/ILSpy",
+  "analysis": {
+    "owner": "icsharpcode",
+    "repo": "ILSpy",
+    "version": "HEAD",
+    "loc": 221293,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:16:03.545465+00:00",
+    "repo_url": "https://github.com/icsharpcode/ILSpy.git",
+    "ref": "HEAD",
+    "commit_hash": "d8c619d2ad6f851df0534ff9b963e01ce7ba7404",
+    "clone_duration_seconds": 1.4646039009094238,
+    "count_duration_seconds": 0.136519193649292
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "owner": "PowerShell",
+  "repo": "PowerShell",
+  "version": "HEAD",
+  "loc": 484969,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:14:12.472858+00:00",
+  "repo_url": "https://github.com/PowerShell/PowerShell.git",
+  "ref": "HEAD",
+  "commit_hash": "42371b881c8189e871761e11d584e35acb139f64",
+  "clone_duration_seconds": 2.8417868614196777,
+  "count_duration_seconds": 0.2807118892669678
+}

@@ -1,0 +1,13 @@
+{
+  "owner": "IndrajeetPatil",
+  "repo": "ggstatsplot",
+  "version": "HEAD",
+  "loc": 1,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:35:06.302692+00:00",
+  "repo_url": "https://github.com/IndrajeetPatil/ggstatsplot.git",
+  "ref": "HEAD",
+  "commit_hash": "f9c993a405580ead83ef32ca3e8d2626871aab5d",
+  "clone_duration_seconds": 1.4391567707061768,
+  "count_duration_seconds": 0.00475764274597168
+}

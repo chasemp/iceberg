@@ -1,0 +1,13 @@
+{
+  "owner": "xmake-io",
+  "repo": "xmake",
+  "version": "HEAD",
+  "loc": 19230,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:48:09.443800+00:00",
+  "repo_url": "https://github.com/xmake-io/xmake.git",
+  "ref": "HEAD",
+  "commit_hash": "ee98b61be7054e1b8b8e2668b67c662ba12e264b",
+  "clone_duration_seconds": 1.6384222507476807,
+  "count_duration_seconds": 0.12131667137145996
+}

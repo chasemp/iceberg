@@ -1,0 +1,13 @@
+{
+  "owner": "phillipi",
+  "repo": "pix2pix",
+  "version": "HEAD",
+  "loc": 326,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:48:17.431943+00:00",
+  "repo_url": "https://github.com/phillipi/pix2pix.git",
+  "ref": "HEAD",
+  "commit_hash": "89ff2a81ce441fbe1f1b13eca463b87f1e539df8",
+  "clone_duration_seconds": 0.7171938419342041,
+  "count_duration_seconds": 0.0019366741180419922
+}

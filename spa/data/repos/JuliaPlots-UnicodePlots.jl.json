@@ -1,0 +1,19 @@
+{
+  "owner": "JuliaPlots",
+  "repo": "UnicodePlots.jl",
+  "full_name": "JuliaPlots/UnicodePlots.jl",
+  "url": "https://github.com/JuliaPlots/UnicodePlots.jl",
+  "analysis": {
+    "owner": "JuliaPlots",
+    "repo": "UnicodePlots.jl",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:10:32.888882+00:00",
+    "repo_url": "https://github.com/JuliaPlots/UnicodePlots.jl.git",
+    "ref": "HEAD",
+    "commit_hash": "8fa90b08144ae454dfa095d059c8c5e1f19d9798",
+    "clone_duration_seconds": 0.8587646484375,
+    "count_duration_seconds": 0.008828163146972656
+  }
+}

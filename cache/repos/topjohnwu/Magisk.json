@@ -4,9 +4,10 @@
   "url": "https://github.com/topjohnwu/Magisk",
   "description": "The Magic Mask for Android",
   "language": "Rust",
-  "stars": 58593,
+  "stars": 58626,
   "categories": {
-    "github-ranking-rust": "2026-02-09"
+    "github-ranking-rust": "2026-02-09",
+    "search": "2026-02-10"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

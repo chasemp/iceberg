@@ -1,0 +1,13 @@
+{
+  "owner": "fastlane",
+  "repo": "fastlane",
+  "version": "HEAD",
+  "loc": 90310,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:22:32.218902+00:00",
+  "repo_url": "https://github.com/fastlane/fastlane.git",
+  "ref": "HEAD",
+  "commit_hash": "ccd96dc712861c7efacdd7a7337de56e67fe6498",
+  "clone_duration_seconds": 2.1956100463867188,
+  "count_duration_seconds": 0.12210369110107422
+}

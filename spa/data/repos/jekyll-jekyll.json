@@ -1,0 +1,19 @@
+{
+  "owner": "jekyll",
+  "repo": "jekyll",
+  "full_name": "jekyll/jekyll",
+  "url": "https://github.com/jekyll/jekyll",
+  "analysis": {
+    "owner": "jekyll",
+    "repo": "jekyll",
+    "version": "HEAD",
+    "loc": 8884,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:21:43.124333+00:00",
+    "repo_url": "https://github.com/jekyll/jekyll.git",
+    "ref": "HEAD",
+    "commit_hash": "b49aa9b707fb8f276348bdd82c1ff0f3c0feaa88",
+    "clone_duration_seconds": 0.9740221500396729,
+    "count_duration_seconds": 0.019381284713745117
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "owner": "wanghongenpin",
+  "repo": "proxypin",
+  "version": "HEAD",
+  "loc": 6279,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:32:05.049926+00:00",
+  "repo_url": "https://github.com/wanghongenpin/proxypin.git",
+  "ref": "HEAD",
+  "commit_hash": "a3e744ee2eb654d95940d6002501267325b496fe",
+  "clone_duration_seconds": 1.0019607543945312,
+  "count_duration_seconds": 0.015844345092773438
+}

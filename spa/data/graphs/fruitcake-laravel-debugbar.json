@@ -1,0 +1,16 @@
+{
+  "owner": "fruitcake",
+  "repo": "laravel-debugbar",
+  "full_name": "fruitcake/laravel-debugbar",
+  "root_package": "npm:php-debugbar:1.0.0",
+  "nodes": [
+    {
+      "id": "npm:php-debugbar:1.0.0",
+      "system": "npm",
+      "name": "php-debugbar",
+      "version": "1.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-10T07:49:02.416190+00:00"
+}

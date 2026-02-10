@@ -1,0 +1,19 @@
+{
+  "owner": "lichess-org",
+  "repo": "lila",
+  "full_name": "lichess-org/lila",
+  "url": "https://github.com/lichess-org/lila",
+  "analysis": {
+    "owner": "lichess-org",
+    "repo": "lila",
+    "version": "HEAD",
+    "loc": 225899,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:25:51.089363+00:00",
+    "repo_url": "https://github.com/lichess-org/lila.git",
+    "ref": "HEAD",
+    "commit_hash": "7dd15202584fa6af80e68637119c99b4737bfc7f",
+    "clone_duration_seconds": 8.660934686660767,
+    "count_duration_seconds": 0.3300795555114746
+  }
+}

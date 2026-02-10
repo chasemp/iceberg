@@ -1,0 +1,13 @@
+{
+  "owner": "tylermorganwall",
+  "repo": "rayshader",
+  "version": "HEAD",
+  "loc": 1993,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:35:15.338395+00:00",
+  "repo_url": "https://github.com/tylermorganwall/rayshader.git",
+  "ref": "HEAD",
+  "commit_hash": "e02280f58bfdfdb0d51c01a59637df15d9e34927",
+  "clone_duration_seconds": 2.6205692291259766,
+  "count_duration_seconds": 0.008944034576416016
+}

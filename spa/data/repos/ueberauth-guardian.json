@@ -1,0 +1,19 @@
+{
+  "owner": "ueberauth",
+  "repo": "guardian",
+  "full_name": "ueberauth/guardian",
+  "url": "https://github.com/ueberauth/guardian",
+  "analysis": {
+    "owner": "ueberauth",
+    "repo": "guardian",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:02:47.076192+00:00",
+    "repo_url": "https://github.com/ueberauth/guardian.git",
+    "ref": "HEAD",
+    "commit_hash": "09be7ddf773119104284a8812db615b4ff6c7dae",
+    "clone_duration_seconds": 0.6042125225067139,
+    "count_duration_seconds": 0.002384662628173828
+  }
+}

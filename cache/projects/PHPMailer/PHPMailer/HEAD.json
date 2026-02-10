@@ -1,0 +1,13 @@
+{
+  "owner": "PHPMailer",
+  "repo": "PHPMailer",
+  "version": "HEAD",
+  "loc": 5674,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:06:46.727856+00:00",
+  "repo_url": "https://github.com/PHPMailer/PHPMailer.git",
+  "ref": "HEAD",
+  "commit_hash": "f90510c59adf0b22dc381416cb0414a42a5fd36e",
+  "clone_duration_seconds": 0.7165284156799316,
+  "count_duration_seconds": 0.009230375289916992
+}

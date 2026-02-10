@@ -1,0 +1,19 @@
+{
+  "owner": "tmux",
+  "repo": "tmux",
+  "full_name": "tmux/tmux",
+  "url": "https://github.com/tmux/tmux",
+  "analysis": {
+    "owner": "tmux",
+    "repo": "tmux",
+    "version": "HEAD",
+    "loc": 72521,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:36:17.510833+00:00",
+    "repo_url": "https://github.com/tmux/tmux.git",
+    "ref": "HEAD",
+    "commit_hash": "615c27c11789948df2db09e113e882f82dfb3e1c",
+    "clone_duration_seconds": 0.9540247917175293,
+    "count_duration_seconds": 0.03484797477722168
+  }
+}

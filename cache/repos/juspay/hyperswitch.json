@@ -1,0 +1,12 @@
+{
+  "owner": "juspay",
+  "name": "hyperswitch",
+  "url": "https://github.com/juspay/hyperswitch",
+  "description": "An open source payments switch written in Rust to make payments fast, reliable and affordable",
+  "language": "Rust",
+  "stars": 40152,
+  "categories": {
+    "search": "2026-02-10"
+  },
+  "last_discovered": "2026-02-10"
+}

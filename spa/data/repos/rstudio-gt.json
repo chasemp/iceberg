@@ -1,0 +1,19 @@
+{
+  "owner": "rstudio",
+  "repo": "gt",
+  "full_name": "rstudio/gt",
+  "url": "https://github.com/rstudio/gt",
+  "analysis": {
+    "owner": "rstudio",
+    "repo": "gt",
+    "version": "HEAD",
+    "loc": 109,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:35:26.359988+00:00",
+    "repo_url": "https://github.com/rstudio/gt.git",
+    "ref": "HEAD",
+    "commit_hash": "94d774caa53f2764410f93bc8a3d444fc2cfdce1",
+    "clone_duration_seconds": 4.574322938919067,
+    "count_duration_seconds": 0.012810707092285156
+  }
+}

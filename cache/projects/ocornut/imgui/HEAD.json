@@ -1,0 +1,13 @@
+{
+  "owner": "ocornut",
+  "repo": "imgui",
+  "version": "HEAD",
+  "loc": 65366,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:39:07.905761+00:00",
+  "repo_url": "https://github.com/ocornut/imgui.git",
+  "ref": "HEAD",
+  "commit_hash": "1bcc23ef123869240971427902b32109c8157e24",
+  "clone_duration_seconds": 0.8283796310424805,
+  "count_duration_seconds": 0.034134864807128906
+}

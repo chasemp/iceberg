@@ -1,0 +1,13 @@
+{
+  "owner": "SnapKit",
+  "repo": "SnapKit",
+  "version": "HEAD",
+  "loc": 2636,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T06:59:44.049110+00:00",
+  "repo_url": "https://github.com/SnapKit/SnapKit.git",
+  "ref": "HEAD",
+  "commit_hash": "19f59a63f0faac287f4e59986959859d81ec851c",
+  "clone_duration_seconds": 0.5320188999176025,
+  "count_duration_seconds": 0.004776477813720703
+}

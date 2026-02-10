@@ -1,0 +1,18 @@
+{
+  "owner": "dotnet",
+  "repo": "aspnetcore",
+  "version": "HEAD",
+  "loc": 546831,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:14:40.980911+00:00",
+  "package": {
+    "system": "npm",
+    "name": "@microsoft/aspnetcore",
+    "version": "1.0.0"
+  },
+  "repo_url": "https://github.com/dotnet/aspnetcore.git",
+  "ref": "HEAD",
+  "commit_hash": "6e66a7e9675623c87eba309082bf95d92195d4c0",
+  "clone_duration_seconds": 5.39396858215332,
+  "count_duration_seconds": 0.7193479537963867
+}

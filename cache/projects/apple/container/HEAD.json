@@ -1,0 +1,13 @@
+{
+  "owner": "apple",
+  "repo": "container",
+  "version": "HEAD",
+  "loc": 30007,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T06:59:06.167909+00:00",
+  "repo_url": "https://github.com/apple/container.git",
+  "ref": "HEAD",
+  "commit_hash": "cf9b335aa1236f06c7bb30901c44024cababc2cc",
+  "clone_duration_seconds": 0.9157426357269287,
+  "count_duration_seconds": 0.02860260009765625
+}

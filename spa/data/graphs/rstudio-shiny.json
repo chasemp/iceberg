@@ -1,0 +1,16 @@
+{
+  "owner": "rstudio",
+  "repo": "shiny",
+  "full_name": "rstudio/shiny",
+  "root_package": "npm:@posit/shiny:1.12.1-alpha.9000",
+  "nodes": [
+    {
+      "id": "npm:@posit/shiny:1.12.1-alpha.9000",
+      "system": "npm",
+      "name": "@posit/shiny",
+      "version": "1.12.1-alpha.9000"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-10T07:49:02.417376+00:00"
+}

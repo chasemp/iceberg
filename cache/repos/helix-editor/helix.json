@@ -1,0 +1,12 @@
+{
+  "owner": "helix-editor",
+  "name": "helix",
+  "url": "https://github.com/helix-editor/helix",
+  "description": "A post-modern modal text editor.",
+  "language": "Rust",
+  "stars": 42861,
+  "categories": {
+    "search": "2026-02-10"
+  },
+  "last_discovered": "2026-02-10"
+}

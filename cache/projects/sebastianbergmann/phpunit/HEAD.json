@@ -1,0 +1,13 @@
+{
+  "owner": "sebastianbergmann",
+  "repo": "phpunit",
+  "version": "HEAD",
+  "loc": 48416,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:07:34.810912+00:00",
+  "repo_url": "https://github.com/sebastianbergmann/phpunit.git",
+  "ref": "HEAD",
+  "commit_hash": "118f59956cf89692a84dcc4e669b61a96fab5145",
+  "clone_duration_seconds": 2.091904401779175,
+  "count_duration_seconds": 0.10926604270935059
+}

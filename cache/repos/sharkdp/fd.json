@@ -1,0 +1,12 @@
+{
+  "owner": "sharkdp",
+  "name": "fd",
+  "url": "https://github.com/sharkdp/fd",
+  "description": "A simple, fast and user-friendly alternative to 'find'",
+  "language": "Rust",
+  "stars": 41525,
+  "categories": {
+    "search": "2026-02-10"
+  },
+  "last_discovered": "2026-02-10"
+}

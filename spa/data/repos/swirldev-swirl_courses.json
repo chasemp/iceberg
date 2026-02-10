@@ -1,0 +1,19 @@
+{
+  "owner": "swirldev",
+  "repo": "swirl_courses",
+  "full_name": "swirldev/swirl_courses",
+  "url": "https://github.com/swirldev/swirl_courses",
+  "analysis": {
+    "owner": "swirldev",
+    "repo": "swirl_courses",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:33:06.399706+00:00",
+    "repo_url": "https://github.com/swirldev/swirl_courses.git",
+    "ref": "HEAD",
+    "commit_hash": "aec0230bfe2885e40927ff79032003fb10aa5a5c",
+    "clone_duration_seconds": 1.9295010566711426,
+    "count_duration_seconds": 0.009448766708374023
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "owner": "valinet",
+  "repo": "ExplorerPatcher",
+  "version": "HEAD",
+  "loc": 36750,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:37:38.608606+00:00",
+  "repo_url": "https://github.com/valinet/ExplorerPatcher.git",
+  "ref": "HEAD",
+  "commit_hash": "738479020b4cca11b0dace83cdda344c4e95db3e",
+  "clone_duration_seconds": 1.0600621700286865,
+  "count_duration_seconds": 0.021922588348388672
+}

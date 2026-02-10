@@ -4,11 +4,12 @@
   "url": "https://github.com/tensorflow/tensorflow",
   "description": "An Open Source Machine Learning Framework for Everyone",
   "language": "C++",
-  "stars": 193667,
+  "stars": 193680,
   "categories": {
     "github-ranking-top-100-stars": "2026-02-09",
     "github-ranking-top-100-forks": "2026-02-09",
-    "github-ranking-cpp": "2026-02-09"
+    "github-ranking-cpp": "2026-02-09",
+    "search": "2026-02-10"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

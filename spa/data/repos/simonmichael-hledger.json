@@ -1,0 +1,19 @@
+{
+  "owner": "simonmichael",
+  "repo": "hledger",
+  "full_name": "simonmichael/hledger",
+  "url": "https://github.com/simonmichael/hledger",
+  "analysis": {
+    "owner": "simonmichael",
+    "repo": "hledger",
+    "version": "HEAD",
+    "loc": 18576,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:20:13.769138+00:00",
+    "repo_url": "https://github.com/simonmichael/hledger.git",
+    "ref": "HEAD",
+    "commit_hash": "ff93dcab5ad2cfc725e5db7081c5587257e7d10e",
+    "clone_duration_seconds": 1.3246378898620605,
+    "count_duration_seconds": 0.027505159378051758
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "utmapp",
+  "repo": "UTM",
+  "full_name": "utmapp/UTM",
+  "url": "https://github.com/utmapp/UTM",
+  "analysis": {
+    "owner": "utmapp",
+    "repo": "UTM",
+    "version": "HEAD",
+    "loc": 45842,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T06:57:37.684441+00:00",
+    "repo_url": "https://github.com/utmapp/UTM.git",
+    "ref": "HEAD",
+    "commit_hash": "8d34e35bf665869cd8e6d782db67e740f9f7aba2",
+    "clone_duration_seconds": 1.3516449928283691,
+    "count_duration_seconds": 0.03747916221618652
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "satijalab",
+  "repo": "seurat",
+  "full_name": "satijalab/seurat",
+  "url": "https://github.com/satijalab/seurat",
+  "analysis": {
+    "owner": "satijalab",
+    "repo": "seurat",
+    "version": "HEAD",
+    "loc": 2269,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:34:17.276628+00:00",
+    "repo_url": "https://github.com/satijalab/seurat.git",
+    "ref": "HEAD",
+    "commit_hash": "1693636c68cc9e2fcd495da2f8df58ec75e60d6c",
+    "clone_duration_seconds": 1.127990484237671,
+    "count_duration_seconds": 0.0062711238861083984
+  }
+}

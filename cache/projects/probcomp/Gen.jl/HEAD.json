@@ -1,0 +1,13 @@
+{
+  "owner": "probcomp",
+  "repo": "Gen.jl",
+  "version": "HEAD",
+  "loc": 0,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:09:54.629433+00:00",
+  "repo_url": "https://github.com/probcomp/Gen.jl.git",
+  "ref": "HEAD",
+  "commit_hash": "027dbc6e71cec3e281b335292c57ad776a8bf9db",
+  "clone_duration_seconds": 0.9168317317962646,
+  "count_duration_seconds": 0.003473997116088867
+}

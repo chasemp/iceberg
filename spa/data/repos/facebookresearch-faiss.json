@@ -1,0 +1,19 @@
+{
+  "owner": "facebookresearch",
+  "repo": "faiss",
+  "full_name": "facebookresearch/faiss",
+  "url": "https://github.com/facebookresearch/faiss",
+  "analysis": {
+    "owner": "facebookresearch",
+    "repo": "faiss",
+    "version": "HEAD",
+    "loc": 97324,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:41:08.150908+00:00",
+    "repo_url": "https://github.com/facebookresearch/faiss.git",
+    "ref": "HEAD",
+    "commit_hash": "53cb3a8b231bdd2d82637a6126c8d3e27c18a217",
+    "clone_duration_seconds": 1.111968994140625,
+    "count_duration_seconds": 0.06281352043151855
+  }
+}

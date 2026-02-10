@@ -1,0 +1,19 @@
+{
+  "owner": "symfony",
+  "repo": "symfony",
+  "full_name": "symfony/symfony",
+  "url": "https://github.com/symfony/symfony",
+  "analysis": {
+    "owner": "symfony",
+    "repo": "symfony",
+    "version": "HEAD",
+    "loc": 1616295,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:05:15.837561+00:00",
+    "repo_url": "https://github.com/symfony/symfony.git",
+    "ref": "HEAD",
+    "commit_hash": "b4ef904ac04c056b53b057db0dff68779cff23ee",
+    "clone_duration_seconds": 5.7761008739471436,
+    "count_duration_seconds": 1.2250194549560547
+  }
+}

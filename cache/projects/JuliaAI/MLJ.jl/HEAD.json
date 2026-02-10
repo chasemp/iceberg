@@ -1,0 +1,13 @@
+{
+  "owner": "JuliaAI",
+  "repo": "MLJ.jl",
+  "version": "HEAD",
+  "loc": 0,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:09:47.156045+00:00",
+  "repo_url": "https://github.com/JuliaAI/MLJ.jl.git",
+  "ref": "HEAD",
+  "commit_hash": "2478264a530c95d65349cee539f06e220e505777",
+  "clone_duration_seconds": 1.204869270324707,
+  "count_duration_seconds": 0.003019094467163086
+}

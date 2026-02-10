@@ -1,0 +1,13 @@
+{
+  "owner": "linkerd",
+  "repo": "linkerd",
+  "version": "HEAD",
+  "loc": 43745,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:28:49.549371+00:00",
+  "repo_url": "https://github.com/linkerd/linkerd.git",
+  "ref": "HEAD",
+  "commit_hash": "ea82499d386e44e8958be58e0386f593e639645b",
+  "clone_duration_seconds": 1.081453800201416,
+  "count_duration_seconds": 0.09531140327453613
+}

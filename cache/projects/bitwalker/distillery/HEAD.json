@@ -1,0 +1,13 @@
+{
+  "owner": "bitwalker",
+  "repo": "distillery",
+  "version": "HEAD",
+  "loc": 1096,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:03:16.590265+00:00",
+  "repo_url": "https://github.com/bitwalker/distillery.git",
+  "ref": "HEAD",
+  "commit_hash": "3ab4d6146c7bc18139ed75d330e4fbb0fceb7591",
+  "clone_duration_seconds": 0.7671492099761963,
+  "count_duration_seconds": 0.008157491683959961
+}

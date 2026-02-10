@@ -1,0 +1,13 @@
+{
+  "owner": "dokku",
+  "repo": "dokku",
+  "version": "HEAD",
+  "loc": 23928,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:12:55.361498+00:00",
+  "repo_url": "https://github.com/dokku/dokku.git",
+  "ref": "HEAD",
+  "commit_hash": "ed4b0c844a54db75e81c1dd76f90c64dfc34d0c1",
+  "clone_duration_seconds": 1.1861460208892822,
+  "count_duration_seconds": 0.037848472595214844
+}

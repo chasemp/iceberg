@@ -1,0 +1,13 @@
+{
+  "owner": "jellyfin",
+  "repo": "jellyfin",
+  "version": "HEAD",
+  "loc": 169937,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:14:20.694270+00:00",
+  "repo_url": "https://github.com/jellyfin/jellyfin.git",
+  "ref": "HEAD",
+  "commit_hash": "de36952f5378d5af28aa9edc660f47cd47a2f218",
+  "clone_duration_seconds": 1.4630517959594727,
+  "count_duration_seconds": 0.1613924503326416
+}

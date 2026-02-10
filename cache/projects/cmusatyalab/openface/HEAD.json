@@ -1,0 +1,13 @@
+{
+  "owner": "cmusatyalab",
+  "repo": "openface",
+  "version": "HEAD",
+  "loc": 4453,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:47:32.045344+00:00",
+  "repo_url": "https://github.com/cmusatyalab/openface.git",
+  "ref": "HEAD",
+  "commit_hash": "051475225b5ae335918621077313085bbb7ab5a0",
+  "clone_duration_seconds": 1.3767952919006348,
+  "count_duration_seconds": 0.008019447326660156
+}

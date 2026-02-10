@@ -1,0 +1,18 @@
+{
+  "owner": "phoenixframework",
+  "repo": "phoenix",
+  "version": "HEAD",
+  "loc": 6263,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:00:37.478763+00:00",
+  "package": {
+    "system": "npm",
+    "name": "phoenix",
+    "version": "1.8.3"
+  },
+  "repo_url": "https://github.com/phoenixframework/phoenix.git",
+  "ref": "v1.8.3",
+  "commit_hash": "07fc5ac215b61849ba54c4cc506dbb1b5248d6d3",
+  "clone_duration_seconds": 1.041999101638794,
+  "count_duration_seconds": 0.013097524642944336
+}

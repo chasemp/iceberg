@@ -1,0 +1,13 @@
+{
+  "owner": "jqlang",
+  "repo": "jq",
+  "version": "HEAD",
+  "loc": 18237,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:37:09.349465+00:00",
+  "repo_url": "https://github.com/jqlang/jq.git",
+  "ref": "HEAD",
+  "commit_hash": "b33a7634ba34ffa7ce7368cc0ebf5ca40b54c7e6",
+  "clone_duration_seconds": 0.8285703659057617,
+  "count_duration_seconds": 0.014228582382202148
+}

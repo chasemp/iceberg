@@ -1,0 +1,19 @@
+{
+  "owner": "delta-io",
+  "repo": "delta",
+  "full_name": "delta-io/delta",
+  "url": "https://github.com/delta-io/delta",
+  "analysis": {
+    "owner": "delta-io",
+    "repo": "delta",
+    "version": "HEAD",
+    "loc": 169907,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:27:16.885380+00:00",
+    "repo_url": "https://github.com/delta-io/delta.git",
+    "ref": "HEAD",
+    "commit_hash": "7cea83630000a7880f0f3591c184b67125d4783c",
+    "clone_duration_seconds": 2.332932233810425,
+    "count_duration_seconds": 0.2433457374572754
+  }
+}

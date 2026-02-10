@@ -1,0 +1,13 @@
+{
+  "owner": "rrrene",
+  "repo": "credo",
+  "version": "HEAD",
+  "loc": 0,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:02:01.885331+00:00",
+  "repo_url": "https://github.com/rrrene/credo.git",
+  "ref": "HEAD",
+  "commit_hash": "0cfeba513f76b074a9be9913003115b9df9ada60",
+  "clone_duration_seconds": 0.8190476894378662,
+  "count_duration_seconds": 0.009424924850463867
+}

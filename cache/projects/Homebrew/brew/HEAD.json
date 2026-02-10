@@ -1,0 +1,13 @@
+{
+  "owner": "Homebrew",
+  "repo": "brew",
+  "version": "HEAD",
+  "loc": 87716,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:22:09.360345+00:00",
+  "repo_url": "https://github.com/Homebrew/brew.git",
+  "ref": "HEAD",
+  "commit_hash": "ea0351ca9dda55624657ee78812f399c6c0e8113",
+  "clone_duration_seconds": 1.4388177394866943,
+  "count_duration_seconds": 0.09511637687683105
+}

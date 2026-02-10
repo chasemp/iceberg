@@ -4,10 +4,10 @@
   "url": "https://github.com/thedotmack/claude-mem",
   "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
   "language": "TypeScript",
-  "stars": 26166,
+  "stars": 26444,
   "categories": {
-    "trending-weekly": "2026-02-09",
-    "trending-monthly": "2026-02-09"
+    "trending-weekly": "2026-02-10",
+    "trending-monthly": "2026-02-10"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

@@ -1,0 +1,19 @@
+{
+  "owner": "JetBrains",
+  "repo": "compose-multiplatform",
+  "full_name": "JetBrains/compose-multiplatform",
+  "url": "https://github.com/JetBrains/compose-multiplatform",
+  "analysis": {
+    "owner": "JetBrains",
+    "repo": "compose-multiplatform",
+    "version": "HEAD",
+    "loc": 60705,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:44:41.622604+00:00",
+    "repo_url": "https://github.com/JetBrains/compose-multiplatform.git",
+    "ref": "HEAD",
+    "commit_hash": "e86dee51956b5aa20525cfb365fc765264c43bf0",
+    "clone_duration_seconds": 2.238441228866577,
+    "count_duration_seconds": 0.16052007675170898
+  }
+}

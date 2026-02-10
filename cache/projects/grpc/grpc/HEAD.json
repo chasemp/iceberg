@@ -1,0 +1,13 @@
+{
+  "owner": "grpc",
+  "repo": "grpc",
+  "version": "HEAD",
+  "loc": 453926,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:40:38.427603+00:00",
+  "repo_url": "https://github.com/grpc/grpc.git",
+  "ref": "HEAD",
+  "commit_hash": "649ad69ce1f81ed1483f14d29698c95982ca723a",
+  "clone_duration_seconds": 4.064311742782593,
+  "count_duration_seconds": 0.5228619575500488
+}

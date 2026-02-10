@@ -1,0 +1,19 @@
+{
+  "owner": "prisma",
+  "repo": "prisma1",
+  "full_name": "prisma/prisma1",
+  "url": "https://github.com/prisma/prisma1",
+  "analysis": {
+    "owner": "prisma",
+    "repo": "prisma1",
+    "version": "HEAD",
+    "loc": 55968,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:26:00.602793+00:00",
+    "repo_url": "https://github.com/prisma/prisma1.git",
+    "ref": "HEAD",
+    "commit_hash": "bc4beb2369c87289d9d408dac7cdc95a3780a358",
+    "clone_duration_seconds": 2.0620217323303223,
+    "count_duration_seconds": 0.15378260612487793
+  }
+}

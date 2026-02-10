@@ -1,0 +1,13 @@
+{
+  "owner": "alibaba",
+  "repo": "flutter-go",
+  "version": "HEAD",
+  "loc": 107,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:30:13.098371+00:00",
+  "repo_url": "https://github.com/alibaba/flutter-go.git",
+  "ref": "HEAD",
+  "commit_hash": "a41b2124278e9f17d222ec1cea2ace3042be03f7",
+  "clone_duration_seconds": 1.6466150283813477,
+  "count_duration_seconds": 0.016569852828979492
+}

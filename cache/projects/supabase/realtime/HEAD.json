@@ -1,0 +1,13 @@
+{
+  "owner": "supabase",
+  "repo": "realtime",
+  "version": "HEAD",
+  "loc": 329,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:01:24.220897+00:00",
+  "repo_url": "https://github.com/supabase/realtime.git",
+  "ref": "HEAD",
+  "commit_hash": "9c969edcd9f2c881e2921258ef2a05e5012fd2ee",
+  "clone_duration_seconds": 0.797745943069458,
+  "count_duration_seconds": 0.008786678314208984
+}

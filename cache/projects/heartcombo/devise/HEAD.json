@@ -1,0 +1,13 @@
+{
+  "owner": "heartcombo",
+  "repo": "devise",
+  "version": "HEAD",
+  "loc": 3758,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:23:40.476673+00:00",
+  "repo_url": "https://github.com/heartcombo/devise.git",
+  "ref": "HEAD",
+  "commit_hash": "c51da69d04caacfa2ef32240796b668bc134265f",
+  "clone_duration_seconds": 0.6503763198852539,
+  "count_duration_seconds": 0.011114358901977539
+}

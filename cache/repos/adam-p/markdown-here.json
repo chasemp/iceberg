@@ -4,9 +4,9 @@
   "url": "https://github.com/adam-p/markdown-here",
   "description": "Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending.",
   "language": "JavaScript",
-  "stars": 60133,
+  "stars": 60130,
   "categories": {
-    "search": "2026-02-09"
+    "search": "2026-02-10"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

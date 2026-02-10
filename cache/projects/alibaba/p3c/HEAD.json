@@ -1,0 +1,13 @@
+{
+  "owner": "alibaba",
+  "repo": "p3c",
+  "version": "HEAD",
+  "loc": 10258,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:42:52.317813+00:00",
+  "repo_url": "https://github.com/alibaba/p3c.git",
+  "ref": "HEAD",
+  "commit_hash": "6c59c8c36ecd8722c712d5685b8c3822c1c8b030",
+  "clone_duration_seconds": 0.9431638717651367,
+  "count_duration_seconds": 0.02098250389099121
+}

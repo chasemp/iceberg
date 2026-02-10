@@ -1,0 +1,19 @@
+{
+  "owner": "folke",
+  "repo": "lazy.nvim",
+  "full_name": "folke/lazy.nvim",
+  "url": "https://github.com/folke/lazy.nvim",
+  "analysis": {
+    "owner": "folke",
+    "repo": "lazy.nvim",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:46:38.163702+00:00",
+    "repo_url": "https://github.com/folke/lazy.nvim.git",
+    "ref": "HEAD",
+    "commit_hash": "306a05526ada86a7b30af95c5cc81ffba93fef97",
+    "clone_duration_seconds": 0.6063096523284912,
+    "count_duration_seconds": 0.0022454261779785156
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "owner": "seven1m",
+  "repo": "30-days-of-elixir",
+  "version": "HEAD",
+  "loc": 0,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:03:01.660941+00:00",
+  "repo_url": "https://github.com/seven1m/30-days-of-elixir.git",
+  "ref": "HEAD",
+  "commit_hash": "88503ac0cd8e15a9514cb5c73c95f50b22df442f",
+  "clone_duration_seconds": 0.55892014503479,
+  "count_duration_seconds": 0.0012278556823730469
+}

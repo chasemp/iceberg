@@ -1,0 +1,13 @@
+{
+  "owner": "bcit-ci",
+  "repo": "CodeIgniter",
+  "version": "HEAD",
+  "loc": 30013,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:08:06.657858+00:00",
+  "repo_url": "https://github.com/bcit-ci/CodeIgniter.git",
+  "ref": "HEAD",
+  "commit_hash": "3658d731eaabe6117298a105ffb5b9dd59e190ce",
+  "clone_duration_seconds": 1.0721940994262695,
+  "count_duration_seconds": 0.02982783317565918
+}

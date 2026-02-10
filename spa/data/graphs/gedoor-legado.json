@@ -1,0 +1,16 @@
+{
+  "owner": "gedoor",
+  "repo": "legado",
+  "full_name": "gedoor/legado",
+  "root_package": "npm:legado:1.0.0",
+  "nodes": [
+    {
+      "id": "npm:legado:1.0.0",
+      "system": "npm",
+      "name": "legado",
+      "version": "1.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-10T07:49:02.439355+00:00"
+}

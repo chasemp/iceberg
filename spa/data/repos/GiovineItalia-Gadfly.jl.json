@@ -1,0 +1,19 @@
+{
+  "owner": "GiovineItalia",
+  "repo": "Gadfly.jl",
+  "full_name": "GiovineItalia/Gadfly.jl",
+  "url": "https://github.com/GiovineItalia/Gadfly.jl",
+  "analysis": {
+    "owner": "GiovineItalia",
+    "repo": "Gadfly.jl",
+    "version": "HEAD",
+    "loc": 783,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:09:39.453344+00:00",
+    "repo_url": "https://github.com/GiovineItalia/Gadfly.jl.git",
+    "ref": "HEAD",
+    "commit_hash": "12ea910af76688431d0aa35a7bd60bb06ad5832b",
+    "clone_duration_seconds": 0.7666633129119873,
+    "count_duration_seconds": 0.003892183303833008
+  }
+}

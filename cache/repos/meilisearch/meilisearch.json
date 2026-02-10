@@ -4,9 +4,10 @@
   "url": "https://github.com/meilisearch/meilisearch",
   "description": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
   "language": "Rust",
-  "stars": 55811,
+  "stars": 55835,
   "categories": {
-    "github-ranking-rust": "2026-02-09"
+    "github-ranking-rust": "2026-02-09",
+    "search": "2026-02-10"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

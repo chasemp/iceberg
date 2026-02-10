@@ -1,0 +1,13 @@
+{
+  "owner": "exelban",
+  "repo": "stats",
+  "version": "HEAD",
+  "loc": 29546,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T06:57:21.231000+00:00",
+  "repo_url": "https://github.com/exelban/stats.git",
+  "ref": "HEAD",
+  "commit_hash": "5d035a73d3b24b984baf8443fc9a31577129b25c",
+  "clone_duration_seconds": 1.9140715599060059,
+  "count_duration_seconds": 0.024572134017944336
+}

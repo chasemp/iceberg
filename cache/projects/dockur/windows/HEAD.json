@@ -1,0 +1,13 @@
+{
+  "owner": "dockur",
+  "repo": "windows",
+  "version": "HEAD",
+  "loc": 3650,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:11:55.452417+00:00",
+  "repo_url": "https://github.com/dockur/windows.git",
+  "ref": "HEAD",
+  "commit_hash": "588969ae5f7ca7d9c9cade09e47adbe057775e0e",
+  "clone_duration_seconds": 0.6582088470458984,
+  "count_duration_seconds": 0.004007577896118164
+}

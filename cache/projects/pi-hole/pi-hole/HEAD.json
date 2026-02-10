@@ -1,0 +1,13 @@
+{
+  "owner": "pi-hole",
+  "repo": "pi-hole",
+  "version": "HEAD",
+  "loc": 4595,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:11:32.558922+00:00",
+  "repo_url": "https://github.com/pi-hole/pi-hole.git",
+  "ref": "HEAD",
+  "commit_hash": "5a23c9c366b465438871693f3c4f172b4e4d4fa1",
+  "clone_duration_seconds": 0.5727791786193848,
+  "count_duration_seconds": 0.0050563812255859375
+}

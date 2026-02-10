@@ -4,9 +4,10 @@
   "url": "https://github.com/alacritty/alacritty",
   "description": "A cross-platform, OpenGL terminal emulator.",
   "language": "Rust",
-  "stars": 62340,
+  "stars": 62357,
   "categories": {
-    "github-ranking-rust": "2026-02-09"
+    "github-ranking-rust": "2026-02-09",
+    "search": "2026-02-10"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

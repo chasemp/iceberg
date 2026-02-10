@@ -1,0 +1,13 @@
+{
+  "owner": "pppscn",
+  "repo": "SmsForwarder",
+  "version": "HEAD",
+  "loc": 37350,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:43:39.794278+00:00",
+  "repo_url": "https://github.com/pppscn/SmsForwarder.git",
+  "ref": "HEAD",
+  "commit_hash": "0a06824d3ecddbd18a085773e29ffe9a3ae57bfc",
+  "clone_duration_seconds": 1.5002751350402832,
+  "count_duration_seconds": 0.03896760940551758
+}

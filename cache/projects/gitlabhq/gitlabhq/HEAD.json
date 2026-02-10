@@ -1,0 +1,13 @@
+{
+  "owner": "gitlabhq",
+  "repo": "gitlabhq",
+  "version": "HEAD",
+  "loc": 812587,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:24:07.251362+00:00",
+  "repo_url": "https://github.com/gitlabhq/gitlabhq.git",
+  "ref": "HEAD",
+  "commit_hash": "c8a9c7dc746377af6ad0c42b2ea9cdf54470c32b",
+  "clone_duration_seconds": 18.470008850097656,
+  "count_duration_seconds": 1.8325526714324951
+}

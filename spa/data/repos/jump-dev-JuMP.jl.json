@@ -1,0 +1,19 @@
+{
+  "owner": "jump-dev",
+  "repo": "JuMP.jl",
+  "full_name": "jump-dev/JuMP.jl",
+  "url": "https://github.com/jump-dev/JuMP.jl",
+  "analysis": {
+    "owner": "jump-dev",
+    "repo": "JuMP.jl",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:09:09.681752+00:00",
+    "repo_url": "https://github.com/jump-dev/JuMP.jl.git",
+    "ref": "HEAD",
+    "commit_hash": "0372302fd7453fd618b4d65c3d78df8ff5447f90",
+    "clone_duration_seconds": 1.140556812286377,
+    "count_duration_seconds": 0.00418543815612793
+  }
+}

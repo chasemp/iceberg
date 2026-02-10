@@ -1,0 +1,13 @@
+{
+  "owner": "fpinscala",
+  "repo": "fpinscala",
+  "version": "HEAD",
+  "loc": 6824,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:28:34.023284+00:00",
+  "repo_url": "https://github.com/fpinscala/fpinscala.git",
+  "ref": "HEAD",
+  "commit_hash": "7ed63bf0e1e61aefef430d12f0fc64190a2e3aef",
+  "clone_duration_seconds": 0.7167203426361084,
+  "count_duration_seconds": 0.012329578399658203
+}

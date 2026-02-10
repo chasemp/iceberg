@@ -1,0 +1,19 @@
+{
+  "owner": "swiftlang",
+  "repo": "swift",
+  "full_name": "swiftlang/swift",
+  "url": "https://github.com/swiftlang/swift",
+  "analysis": {
+    "owner": "swiftlang",
+    "repo": "swift",
+    "version": "HEAD",
+    "loc": 1512924,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:39:34.188295+00:00",
+    "repo_url": "https://github.com/swiftlang/swift.git",
+    "ref": "HEAD",
+    "commit_hash": "d347a022b5f071368a7edf1fdd1ca0d4b603a444",
+    "clone_duration_seconds": 10.666635990142822,
+    "count_duration_seconds": 1.2682170867919922
+  }
+}

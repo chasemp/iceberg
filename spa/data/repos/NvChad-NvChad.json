@@ -1,0 +1,19 @@
+{
+  "owner": "NvChad",
+  "repo": "NvChad",
+  "full_name": "NvChad/NvChad",
+  "url": "https://github.com/NvChad/NvChad",
+  "analysis": {
+    "owner": "NvChad",
+    "repo": "NvChad",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:46:14.527309+00:00",
+    "repo_url": "https://github.com/NvChad/NvChad.git",
+    "ref": "HEAD",
+    "commit_hash": "f437558f23c8f50c36cd09748121ab2c822e8ec9",
+    "clone_duration_seconds": 0.5512666702270508,
+    "count_duration_seconds": 0.0011370182037353516
+  }
+}

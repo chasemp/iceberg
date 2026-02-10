@@ -1,0 +1,13 @@
+{
+  "owner": "rails",
+  "repo": "rails",
+  "version": "HEAD",
+  "loc": 125193,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:21:28.281927+00:00",
+  "repo_url": "https://github.com/rails/rails.git",
+  "ref": "HEAD",
+  "commit_hash": "e0e483e08821c9aae353d56e3c1da8980bd95e10",
+  "clone_duration_seconds": 2.1794471740722656,
+  "count_duration_seconds": 0.19916391372680664
+}

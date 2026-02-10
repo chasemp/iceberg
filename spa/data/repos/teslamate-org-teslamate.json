@@ -1,0 +1,19 @@
+{
+  "owner": "teslamate-org",
+  "repo": "teslamate",
+  "full_name": "teslamate-org/teslamate",
+  "url": "https://github.com/teslamate-org/teslamate",
+  "analysis": {
+    "owner": "teslamate-org",
+    "repo": "teslamate",
+    "version": "HEAD",
+    "loc": 864,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:01:16.827018+00:00",
+    "repo_url": "https://github.com/teslamate-org/teslamate.git",
+    "ref": "HEAD",
+    "commit_hash": "f3c73f25ae2c613353a7dea0baa241005ce9b27b",
+    "clone_duration_seconds": 1.5833847522735596,
+    "count_duration_seconds": 0.010102510452270508
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "ChartsOrg",
+  "repo": "Charts",
+  "full_name": "ChartsOrg/Charts",
+  "url": "https://github.com/ChartsOrg/Charts",
+  "analysis": {
+    "owner": "ChartsOrg",
+    "repo": "Charts",
+    "version": "HEAD",
+    "loc": 21574,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T06:58:08.825702+00:00",
+    "repo_url": "https://github.com/ChartsOrg/Charts.git",
+    "ref": "HEAD",
+    "commit_hash": "86929ffb26280d49777e8b2c2311daa419747a49",
+    "clone_duration_seconds": 1.4009325504302979,
+    "count_duration_seconds": 0.02478790283203125
+  }
+}

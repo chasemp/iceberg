@@ -1,0 +1,19 @@
+{
+  "owner": "mossr",
+  "repo": "BeautifulAlgorithms.jl",
+  "full_name": "mossr/BeautifulAlgorithms.jl",
+  "url": "https://github.com/mossr/BeautifulAlgorithms.jl",
+  "analysis": {
+    "owner": "mossr",
+    "repo": "BeautifulAlgorithms.jl",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:11:10.229490+00:00",
+    "repo_url": "https://github.com/mossr/BeautifulAlgorithms.jl.git",
+    "ref": "HEAD",
+    "commit_hash": "83b78eefc2713fc776d6eed9aaddaf13839f1940",
+    "clone_duration_seconds": 1.3753631114959717,
+    "count_duration_seconds": 0.0023512840270996094
+  }
+}

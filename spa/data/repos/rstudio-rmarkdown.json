@@ -1,0 +1,19 @@
+{
+  "owner": "rstudio",
+  "repo": "rmarkdown",
+  "full_name": "rstudio/rmarkdown",
+  "url": "https://github.com/rstudio/rmarkdown",
+  "analysis": {
+    "owner": "rstudio",
+    "repo": "rmarkdown",
+    "version": "HEAD",
+    "loc": 20640,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:34:01.588182+00:00",
+    "repo_url": "https://github.com/rstudio/rmarkdown.git",
+    "ref": "HEAD",
+    "commit_hash": "bc5593cf120e8d1f94fc66ee72bf3141eea55aca",
+    "clone_duration_seconds": 1.0204229354858398,
+    "count_duration_seconds": 0.018049240112304688
+  }
+}

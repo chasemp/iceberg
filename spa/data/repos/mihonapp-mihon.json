@@ -1,0 +1,19 @@
+{
+  "owner": "mihonapp",
+  "repo": "mihon",
+  "full_name": "mihonapp/mihon",
+  "url": "https://github.com/mihonapp/mihon",
+  "analysis": {
+    "owner": "mihonapp",
+    "repo": "mihon",
+    "version": "HEAD",
+    "loc": 72915,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:44:56.581307+00:00",
+    "repo_url": "https://github.com/mihonapp/mihon.git",
+    "ref": "HEAD",
+    "commit_hash": "d17976c91068944be1a5cba9a959c3763f589590",
+    "clone_duration_seconds": 1.5462827682495117,
+    "count_duration_seconds": 0.09548115730285645
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "owner": "dotnet",
+  "repo": "roslyn",
+  "version": "HEAD",
+  "loc": 4582998,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:17:49.624485+00:00",
+  "repo_url": "https://github.com/dotnet/roslyn.git",
+  "ref": "HEAD",
+  "commit_hash": "0437444d32e2b799d5755b54890f870c820d7c61",
+  "clone_duration_seconds": 21.511117696762085,
+  "count_duration_seconds": 2.4988369941711426
+}

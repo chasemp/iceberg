@@ -1,0 +1,13 @@
+{
+  "owner": "dylanaraps",
+  "repo": "pure-bash-bible",
+  "version": "HEAD",
+  "loc": 203,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:12:18.148845+00:00",
+  "repo_url": "https://github.com/dylanaraps/pure-bash-bible.git",
+  "ref": "HEAD",
+  "commit_hash": "8c19d0b482b04d8d50fb72b4c5148b41ce605c6d",
+  "clone_duration_seconds": 0.5034651756286621,
+  "count_duration_seconds": 0.0013322830200195312
+}

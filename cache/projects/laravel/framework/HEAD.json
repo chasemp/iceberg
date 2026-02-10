@@ -1,0 +1,13 @@
+{
+  "owner": "laravel",
+  "repo": "framework",
+  "version": "HEAD",
+  "loc": 119362,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:04:44.719219+00:00",
+  "repo_url": "https://github.com/laravel/framework.git",
+  "ref": "HEAD",
+  "commit_hash": "e2da3e64615341fe298c7015aa20404781c9eabb",
+  "clone_duration_seconds": 1.7947413921356201,
+  "count_duration_seconds": 0.15709495544433594
+}

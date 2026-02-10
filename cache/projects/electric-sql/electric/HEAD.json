@@ -1,0 +1,13 @@
+{
+  "owner": "electric-sql",
+  "repo": "electric",
+  "version": "HEAD",
+  "loc": 23969,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:00:58.749044+00:00",
+  "repo_url": "https://github.com/electric-sql/electric.git",
+  "ref": "HEAD",
+  "commit_hash": "7ba32193cc9f970835acdcb2de48101f1a812ae9",
+  "clone_duration_seconds": 7.431636333465576,
+  "count_duration_seconds": 0.061234474182128906
+}

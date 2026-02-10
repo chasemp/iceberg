@@ -1,0 +1,13 @@
+{
+  "owner": "BeyondDimension",
+  "repo": "SteamTools",
+  "version": "HEAD",
+  "loc": 68004,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:16:11.994982+00:00",
+  "repo_url": "https://github.com/BeyondDimension/SteamTools.git",
+  "ref": "HEAD",
+  "commit_hash": "c96c30fa400e001af12c027c78c9366600bf8ba3",
+  "clone_duration_seconds": 1.6974191665649414,
+  "count_duration_seconds": 0.10433626174926758
+}

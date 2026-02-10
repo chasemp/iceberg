@@ -1,0 +1,19 @@
+{
+  "owner": "jcjohnson",
+  "repo": "neural-style",
+  "full_name": "jcjohnson/neural-style",
+  "url": "https://github.com/jcjohnson/neural-style",
+  "analysis": {
+    "owner": "jcjohnson",
+    "repo": "neural-style",
+    "version": "HEAD",
+    "loc": 72,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:46:59.741761+00:00",
+    "repo_url": "https://github.com/jcjohnson/neural-style.git",
+    "ref": "HEAD",
+    "commit_hash": "07c4b8299f8fbdafec0c514fc820ff1d7ff62e46",
+    "clone_duration_seconds": 1.3812484741210938,
+    "count_duration_seconds": 0.0016834735870361328
+  }
+}

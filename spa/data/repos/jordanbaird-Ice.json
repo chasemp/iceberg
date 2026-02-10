@@ -1,0 +1,19 @@
+{
+  "owner": "jordanbaird",
+  "repo": "Ice",
+  "full_name": "jordanbaird/Ice",
+  "url": "https://github.com/jordanbaird/Ice",
+  "analysis": {
+    "owner": "jordanbaird",
+    "repo": "Ice",
+    "version": "HEAD",
+    "loc": 13401,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T06:58:35.267757+00:00",
+    "repo_url": "https://github.com/jordanbaird/Ice.git",
+    "ref": "HEAD",
+    "commit_hash": "11edd39115f3f43a83ae114b5348df6a0e1741cf",
+    "clone_duration_seconds": 1.3574225902557373,
+    "count_duration_seconds": 0.013345956802368164
+  }
+}

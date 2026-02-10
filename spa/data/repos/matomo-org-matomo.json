@@ -1,0 +1,24 @@
+{
+  "owner": "matomo-org",
+  "repo": "matomo",
+  "full_name": "matomo-org/matomo",
+  "url": "https://github.com/matomo-org/matomo",
+  "analysis": {
+    "owner": "matomo-org",
+    "repo": "matomo",
+    "version": "HEAD",
+    "loc": 276376,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:07:06.329767+00:00",
+    "package": {
+      "system": "npm",
+      "name": "matomo",
+      "version": "1.0.0"
+    },
+    "repo_url": "https://github.com/matomo-org/matomo.git",
+    "ref": "HEAD",
+    "commit_hash": "317214a254a8f0611e728d9c0fbb6325974d479c",
+    "clone_duration_seconds": 5.489120244979858,
+    "count_duration_seconds": 0.4123554229736328
+  }
+}

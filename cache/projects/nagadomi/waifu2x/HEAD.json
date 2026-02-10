@@ -1,0 +1,13 @@
+{
+  "owner": "nagadomi",
+  "repo": "waifu2x",
+  "version": "HEAD",
+  "loc": 807,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:46:07.236652+00:00",
+  "repo_url": "https://github.com/nagadomi/waifu2x.git",
+  "ref": "HEAD",
+  "commit_hash": "cc385f97a9debfe611316aabfd5d8bb30ba2dbeb",
+  "clone_duration_seconds": 47.367494106292725,
+  "count_duration_seconds": 0.005407094955444336
+}

@@ -4,9 +4,10 @@
   "url": "https://github.com/FuelLabs/sway",
   "description": "\ud83c\udf34 Empowering everyone to build reliable and efficient smart contracts.",
   "language": "Rust",
-  "stars": 61963,
+  "stars": 61961,
   "categories": {
-    "github-ranking-rust": "2026-02-09"
+    "github-ranking-rust": "2026-02-09",
+    "search": "2026-02-10"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

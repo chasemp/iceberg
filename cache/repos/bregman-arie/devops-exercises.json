@@ -4,9 +4,9 @@
   "url": "https://github.com/bregman-arie/devops-exercises",
   "description": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
   "language": "Python",
-  "stars": 80909,
+  "stars": 80918,
   "categories": {
-    "search": "2026-02-09"
+    "search": "2026-02-10"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

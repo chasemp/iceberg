@@ -1,0 +1,16 @@
+{
+  "owner": "forem",
+  "repo": "forem",
+  "full_name": "forem/forem",
+  "root_package": "npm:dev.to:1.0.0",
+  "nodes": [
+    {
+      "id": "npm:dev.to:1.0.0",
+      "system": "npm",
+      "name": "dev.to",
+      "version": "1.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-10T07:49:02.480749+00:00"
+}

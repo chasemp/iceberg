@@ -4,10 +4,10 @@
   "url": "https://github.com/KeygraphHQ/shannon",
   "description": "Fully autonomous AI hacker to find actual exploits in your web apps. Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW Benchmark.",
   "language": "TypeScript",
-  "stars": 16950,
+  "stars": 18078,
   "categories": {
-    "trending-weekly": "2026-02-09",
-    "trending-monthly": "2026-02-09"
+    "trending-weekly": "2026-02-10",
+    "trending-monthly": "2026-02-10"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

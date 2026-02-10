@@ -1,0 +1,13 @@
+{
+  "owner": "inkonchain",
+  "repo": "node",
+  "version": "HEAD",
+  "loc": 194,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:12:25.171325+00:00",
+  "repo_url": "https://github.com/inkonchain/node.git",
+  "ref": "HEAD",
+  "commit_hash": "8b7947a74b77da6cfdf589991db02205c0125f82",
+  "clone_duration_seconds": 0.49428224563598633,
+  "count_duration_seconds": 0.001967906951904297
+}

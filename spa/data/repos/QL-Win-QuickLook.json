@@ -1,0 +1,19 @@
+{
+  "owner": "QL-Win",
+  "repo": "QuickLook",
+  "full_name": "QL-Win/QuickLook",
+  "url": "https://github.com/QL-Win/QuickLook",
+  "analysis": {
+    "owner": "QL-Win",
+    "repo": "QuickLook",
+    "version": "HEAD",
+    "loc": 32890,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:17:00.624686+00:00",
+    "repo_url": "https://github.com/QL-Win/QuickLook.git",
+    "ref": "HEAD",
+    "commit_hash": "a0546b6391ce8284463691f9181175eb7e92c694",
+    "clone_duration_seconds": 1.518979787826538,
+    "count_duration_seconds": 0.06684398651123047
+  }
+}

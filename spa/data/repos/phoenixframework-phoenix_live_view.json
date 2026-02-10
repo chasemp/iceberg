@@ -1,0 +1,24 @@
+{
+  "owner": "phoenixframework",
+  "repo": "phoenix_live_view",
+  "full_name": "phoenixframework/phoenix_live_view",
+  "url": "https://github.com/phoenixframework/phoenix_live_view",
+  "analysis": {
+    "owner": "phoenixframework",
+    "repo": "phoenix_live_view",
+    "version": "HEAD",
+    "loc": 27786,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:01:31.074637+00:00",
+    "package": {
+      "system": "npm",
+      "name": "phoenix_live_view",
+      "version": "1.2.0-dev"
+    },
+    "repo_url": "https://github.com/phoenixframework/phoenix_live_view.git",
+    "ref": "HEAD",
+    "commit_hash": "03320071c5b83481afd5f64488c7123399f117c8",
+    "clone_duration_seconds": 0.9765903949737549,
+    "count_duration_seconds": 0.015323638916015625
+  }
+}

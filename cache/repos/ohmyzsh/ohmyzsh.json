@@ -4,11 +4,12 @@
   "url": "https://github.com/ohmyzsh/ohmyzsh",
   "description": "\ud83d\ude43   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
   "language": "Shell",
-  "stars": 184575,
+  "stars": 184599,
   "categories": {
     "github-ranking-top-100-stars": "2026-02-09",
     "github-ranking-top-100-forks": "2026-02-09",
-    "github-ranking-shell": "2026-02-09"
+    "github-ranking-shell": "2026-02-09",
+    "search": "2026-02-10"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

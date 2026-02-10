@@ -1,0 +1,12 @@
+{
+  "owner": "lapce",
+  "name": "lapce",
+  "url": "https://github.com/lapce/lapce",
+  "description": "Lightning-fast and Powerful Code Editor written in Rust",
+  "language": "Rust",
+  "stars": 38046,
+  "categories": {
+    "search": "2026-02-10"
+  },
+  "last_discovered": "2026-02-10"
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "commercialhaskell",
+  "repo": "stack",
+  "full_name": "commercialhaskell/stack",
+  "url": "https://github.com/commercialhaskell/stack",
+  "analysis": {
+    "owner": "commercialhaskell",
+    "repo": "stack",
+    "version": "HEAD",
+    "loc": 882,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:20:05.926075+00:00",
+    "repo_url": "https://github.com/commercialhaskell/stack.git",
+    "ref": "HEAD",
+    "commit_hash": "41c4ac8884dc9fed8f26afce8c26f295a41e1cb9",
+    "clone_duration_seconds": 1.218665599822998,
+    "count_duration_seconds": 0.02741527557373047
+  }
+}

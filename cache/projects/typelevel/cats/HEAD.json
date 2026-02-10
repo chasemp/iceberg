@@ -1,0 +1,13 @@
+{
+  "owner": "typelevel",
+  "repo": "cats",
+  "version": "HEAD",
+  "loc": 35327,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:28:41.816923+00:00",
+  "repo_url": "https://github.com/typelevel/cats.git",
+  "ref": "HEAD",
+  "commit_hash": "2e090df09c67aa6f69ed71a373c1aa33a4824f91",
+  "clone_duration_seconds": 1.143176794052124,
+  "count_duration_seconds": 0.06334543228149414
+}

@@ -1,0 +1,13 @@
+{
+  "owner": "huginn",
+  "repo": "huginn",
+  "version": "HEAD",
+  "loc": 17464,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:22:01.186677+00:00",
+  "repo_url": "https://github.com/huginn/huginn.git",
+  "ref": "HEAD",
+  "commit_hash": "ac933cf5263b05499c3297b483a29483dfd4c803",
+  "clone_duration_seconds": 1.134528636932373,
+  "count_duration_seconds": 0.028102397918701172
+}

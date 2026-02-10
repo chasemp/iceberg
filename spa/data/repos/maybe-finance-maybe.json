@@ -1,0 +1,24 @@
+{
+  "owner": "maybe-finance",
+  "repo": "maybe",
+  "full_name": "maybe-finance/maybe",
+  "url": "https://github.com/maybe-finance/maybe",
+  "analysis": {
+    "owner": "maybe-finance",
+    "repo": "maybe",
+    "version": "HEAD",
+    "loc": 24120,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:21:35.156710+00:00",
+    "package": {
+      "system": "npm",
+      "name": "maybe",
+      "version": "1.0.0"
+    },
+    "repo_url": "https://github.com/maybe-finance/maybe.git",
+    "ref": "HEAD",
+    "commit_hash": "77b5469832758d1cbee1a940f3012a1ae1c74cd3",
+    "clone_duration_seconds": 0.917635440826416,
+    "count_duration_seconds": 0.053080081939697266
+  }
+}
