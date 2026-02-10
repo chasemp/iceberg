@@ -261,7 +261,7 @@ def analyze_repository(
                         print(f"    [osv] ✗ No dependencies found in SBOM")
             else:
                 if verbose:
-                    print(f"    [osv] ✗ osv-scanner not available or failed")
+                    print(f"    [osv] No lockfiles found (no dependency data)")
 
             # Step 3: Detect AI markers
             if verbose:
