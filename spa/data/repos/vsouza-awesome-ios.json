@@ -1,0 +1,19 @@
+{
+  "owner": "vsouza",
+  "repo": "awesome-ios",
+  "full_name": "vsouza/awesome-ios",
+  "url": "https://github.com/vsouza/awesome-ios",
+  "analysis": {
+    "owner": "vsouza",
+    "repo": "awesome-ios",
+    "version": "HEAD",
+    "loc": 1,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T06:56:53.978098+00:00",
+    "repo_url": "https://github.com/vsouza/awesome-ios.git",
+    "ref": "HEAD",
+    "commit_hash": "99286fc03962be2fe9e9e2f50582dce45c0aebec",
+    "clone_duration_seconds": 0.6558363437652588,
+    "count_duration_seconds": 0.0012660026550292969
+  }
+}

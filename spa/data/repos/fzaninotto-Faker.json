@@ -1,0 +1,19 @@
+{
+  "owner": "fzaninotto",
+  "repo": "Faker",
+  "full_name": "fzaninotto/Faker",
+  "url": "https://github.com/fzaninotto/Faker",
+  "analysis": {
+    "owner": "fzaninotto",
+    "repo": "Faker",
+    "version": "HEAD",
+    "loc": 104129,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:05:49.342899+00:00",
+    "repo_url": "https://github.com/fzaninotto/Faker.git",
+    "ref": "HEAD",
+    "commit_hash": "5ffe7db6c80f441f150fc88008d64e64af66634b",
+    "clone_duration_seconds": 1.3443663120269775,
+    "count_duration_seconds": 0.07526063919067383
+  }
+}

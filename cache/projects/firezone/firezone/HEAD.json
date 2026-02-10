@@ -1,0 +1,13 @@
+{
+  "owner": "firezone",
+  "repo": "firezone",
+  "version": "HEAD",
+  "loc": 70147,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:01:08.555735+00:00",
+  "repo_url": "https://github.com/firezone/firezone.git",
+  "ref": "HEAD",
+  "commit_hash": "3aa8c6f97b0027912ace8253c0a44138b8427938",
+  "clone_duration_seconds": 3.0319762229919434,
+  "count_duration_seconds": 0.11044716835021973
+}

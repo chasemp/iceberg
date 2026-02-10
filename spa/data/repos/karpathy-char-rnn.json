@@ -1,0 +1,19 @@
+{
+  "owner": "karpathy",
+  "repo": "char-rnn",
+  "full_name": "karpathy/char-rnn",
+  "url": "https://github.com/karpathy/char-rnn",
+  "analysis": {
+    "owner": "karpathy",
+    "repo": "char-rnn",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:48:01.147500+00:00",
+    "repo_url": "https://github.com/karpathy/char-rnn.git",
+    "ref": "HEAD",
+    "commit_hash": "6f9487a6fe5b420b7ca9afb0d7c078e37c1d1b4e",
+    "clone_duration_seconds": 0.8065690994262695,
+    "count_duration_seconds": 0.0011181831359863281
+  }
+}

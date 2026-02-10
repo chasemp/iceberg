@@ -3,11 +3,12 @@
   "name": "gitignore",
   "url": "https://github.com/github/gitignore",
   "description": "A collection of useful .gitignore templates",
-  "language": "None",
-  "stars": 172325,
+  "language": null,
+  "stars": 172350,
   "categories": {
     "github-ranking-top-100-stars": "2026-02-09",
-    "github-ranking-top-100-forks": "2026-02-09"
+    "github-ranking-top-100-forks": "2026-02-09",
+    "search": "2026-02-10"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

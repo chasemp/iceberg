@@ -1,0 +1,19 @@
+{
+  "owner": "anoma",
+  "repo": "anoma",
+  "full_name": "anoma/anoma",
+  "url": "https://github.com/anoma/anoma",
+  "analysis": {
+    "owner": "anoma",
+    "repo": "anoma",
+    "version": "HEAD",
+    "loc": 33,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:00:13.992973+00:00",
+    "repo_url": "https://github.com/anoma/anoma.git",
+    "ref": "HEAD",
+    "commit_hash": "1636e63022f47b9150780767812c74c66ba7b02f",
+    "clone_duration_seconds": 0.925142765045166,
+    "count_duration_seconds": 0.007863521575927734
+  }
+}

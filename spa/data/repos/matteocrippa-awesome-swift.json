@@ -1,0 +1,19 @@
+{
+  "owner": "matteocrippa",
+  "repo": "awesome-swift",
+  "full_name": "matteocrippa/awesome-swift",
+  "url": "https://github.com/matteocrippa/awesome-swift",
+  "analysis": {
+    "owner": "matteocrippa",
+    "repo": "awesome-swift",
+    "version": "HEAD",
+    "loc": 1340,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:23:33.086634+00:00",
+    "repo_url": "https://github.com/matteocrippa/awesome-swift.git",
+    "ref": "HEAD",
+    "commit_hash": "eb8b6b8c1f6afcee703abd59ec8344e176c8f914",
+    "clone_duration_seconds": 0.6874208450317383,
+    "count_duration_seconds": 0.0017559528350830078
+  }
+}

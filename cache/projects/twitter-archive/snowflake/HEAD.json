@@ -1,0 +1,13 @@
+{
+  "owner": "twitter-archive",
+  "repo": "snowflake",
+  "version": "HEAD",
+  "loc": 0,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:27:24.099398+00:00",
+  "repo_url": "https://github.com/twitter-archive/snowflake.git",
+  "ref": "HEAD",
+  "commit_hash": "ec40836e3f47af92cf0c83cbb4187c529d7e7fa5",
+  "clone_duration_seconds": 0.48296666145324707,
+  "count_duration_seconds": 0.0009267330169677734
+}

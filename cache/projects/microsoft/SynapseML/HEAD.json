@@ -1,0 +1,13 @@
+{
+  "owner": "microsoft",
+  "repo": "SynapseML",
+  "version": "HEAD",
+  "loc": 47056,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:28:57.618179+00:00",
+  "repo_url": "https://github.com/microsoft/SynapseML.git",
+  "ref": "HEAD",
+  "commit_hash": "a381dd235fbeaa68c5cda55aec32b6154b3d0c7c",
+  "clone_duration_seconds": 1.5182485580444336,
+  "count_duration_seconds": 0.10063004493713379
+}

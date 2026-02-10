@@ -1,0 +1,19 @@
+{
+  "owner": "xiaoyaocz",
+  "repo": "dart_simple_live",
+  "full_name": "xiaoyaocz/dart_simple_live",
+  "url": "https://github.com/xiaoyaocz/dart_simple_live",
+  "analysis": {
+    "owner": "xiaoyaocz",
+    "repo": "dart_simple_live",
+    "version": "HEAD",
+    "loc": 1049,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:31:26.534447+00:00",
+    "repo_url": "https://github.com/xiaoyaocz/dart_simple_live.git",
+    "ref": "HEAD",
+    "commit_hash": "ba828e6783b176ea5709fcd09f0eb01dfaceeb51",
+    "clone_duration_seconds": 0.9160406589508057,
+    "count_duration_seconds": 0.014742136001586914
+  }
+}

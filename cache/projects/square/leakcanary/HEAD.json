@@ -1,0 +1,13 @@
+{
+  "owner": "square",
+  "repo": "leakcanary",
+  "version": "HEAD",
+  "loc": 30825,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:43:02.313160+00:00",
+  "repo_url": "https://github.com/square/leakcanary.git",
+  "ref": "HEAD",
+  "commit_hash": "6de01db2235d952e1bb0a00f10a4a804a8ae04ff",
+  "clone_duration_seconds": 3.1982595920562744,
+  "count_duration_seconds": 0.05614948272705078
+}

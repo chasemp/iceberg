@@ -4,11 +4,12 @@
   "url": "https://github.com/kamranahmedse/developer-roadmap",
   "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
   "language": "TypeScript",
-  "stars": 348764,
+  "stars": 348828,
   "categories": {
     "github-ranking-top-100-stars": "2026-02-09",
     "github-ranking-top-100-forks": "2026-02-09",
-    "github-ranking-typescript": "2026-02-09"
+    "github-ranking-typescript": "2026-02-09",
+    "search": "2026-02-10"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

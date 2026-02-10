@@ -1,0 +1,19 @@
+{
+  "owner": "CodeHubApp",
+  "repo": "CodeHub",
+  "full_name": "CodeHubApp/CodeHub",
+  "url": "https://github.com/CodeHubApp/CodeHub",
+  "analysis": {
+    "owner": "CodeHubApp",
+    "repo": "CodeHub",
+    "version": "HEAD",
+    "loc": 25442,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:16:52.529727+00:00",
+    "repo_url": "https://github.com/CodeHubApp/CodeHub.git",
+    "ref": "HEAD",
+    "commit_hash": "7c7df03cdee9f60de64a33b551d0fbc2ac9979d6",
+    "clone_duration_seconds": 1.517150640487671,
+    "count_duration_seconds": 0.028125286102294922
+  }
+}

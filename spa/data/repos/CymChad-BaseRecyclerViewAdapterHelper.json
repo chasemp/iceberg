@@ -1,0 +1,19 @@
+{
+  "owner": "CymChad",
+  "repo": "BaseRecyclerViewAdapterHelper",
+  "full_name": "CymChad/BaseRecyclerViewAdapterHelper",
+  "url": "https://github.com/CymChad/BaseRecyclerViewAdapterHelper",
+  "analysis": {
+    "owner": "CymChad",
+    "repo": "BaseRecyclerViewAdapterHelper",
+    "version": "HEAD",
+    "loc": 5609,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:43:31.863339+00:00",
+    "repo_url": "https://github.com/CymChad/BaseRecyclerViewAdapterHelper.git",
+    "ref": "HEAD",
+    "commit_hash": "f8e3bf662a6efab665436f275be48e148e54a38d",
+    "clone_duration_seconds": 0.8363385200500488,
+    "count_duration_seconds": 0.01243281364440918
+  }
+}

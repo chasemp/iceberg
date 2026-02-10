@@ -1,0 +1,19 @@
+{
+  "owner": "felangel",
+  "repo": "bloc",
+  "full_name": "felangel/bloc",
+  "url": "https://github.com/felangel/bloc",
+  "analysis": {
+    "owner": "felangel",
+    "repo": "bloc",
+    "version": "HEAD",
+    "loc": 3158,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:31:57.739518+00:00",
+    "repo_url": "https://github.com/felangel/bloc.git",
+    "ref": "HEAD",
+    "commit_hash": "3a4418b5c03f92884afde23d2738ee448185ff40",
+    "clone_duration_seconds": 1.7751283645629883,
+    "count_duration_seconds": 0.04207253456115723
+  }
+}

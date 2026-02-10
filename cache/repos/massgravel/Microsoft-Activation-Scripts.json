@@ -4,9 +4,10 @@
   "url": "https://github.com/massgravel/Microsoft-Activation-Scripts",
   "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
   "language": "Batchfile",
-  "stars": 165351,
+  "stars": 165471,
   "categories": {
-    "github-ranking-top-100-stars": "2026-02-09"
+    "github-ranking-top-100-stars": "2026-02-09",
+    "search": "2026-02-10"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

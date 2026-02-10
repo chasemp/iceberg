@@ -4,9 +4,10 @@
   "url": "https://github.com/lencx/ChatGPT",
   "description": "\ud83d\udd2e ChatGPT Desktop Application (Mac, Windows and Linux)",
   "language": "Rust",
-  "stars": 54392,
+  "stars": 54391,
   "categories": {
-    "github-ranking-rust": "2026-02-09"
+    "github-ranking-rust": "2026-02-09",
+    "search": "2026-02-10"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

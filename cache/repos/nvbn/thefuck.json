@@ -4,11 +4,11 @@
   "url": "https://github.com/nvbn/thefuck",
   "description": "Magnificent app which corrects your previous console command.",
   "language": "Python",
-  "stars": 95428,
+  "stars": 95437,
   "categories": {
-    "search": "2026-02-09",
+    "search": "2026-02-10",
     "github-ranking-top-100-stars": "2026-02-09",
     "github-ranking-python": "2026-02-09"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

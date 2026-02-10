@@ -1,0 +1,19 @@
+{
+  "owner": "purescript",
+  "repo": "purescript",
+  "full_name": "purescript/purescript",
+  "url": "https://github.com/purescript/purescript",
+  "analysis": {
+    "owner": "purescript",
+    "repo": "purescript",
+    "version": "HEAD",
+    "loc": 492,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:18:56.125178+00:00",
+    "repo_url": "https://github.com/purescript/purescript.git",
+    "ref": "HEAD",
+    "commit_hash": "8ac0fb2962a7df318a74216872465dc2868c6064",
+    "clone_duration_seconds": 0.9925482273101807,
+    "count_duration_seconds": 0.03334236145019531
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "owner": "unisonweb",
+  "repo": "unison",
+  "version": "HEAD",
+  "loc": 308,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:19:11.775421+00:00",
+  "repo_url": "https://github.com/unisonweb/unison.git",
+  "ref": "HEAD",
+  "commit_hash": "90c33b60b76767f459ee7d3de9b21b3d0289539f",
+  "clone_duration_seconds": 1.3182954788208008,
+  "count_duration_seconds": 0.038904666900634766
+}

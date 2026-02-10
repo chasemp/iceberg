@@ -4,10 +4,10 @@
   "url": "https://github.com/openai/whisper",
   "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
   "language": "Python",
-  "stars": 94351,
+  "stars": 94400,
   "categories": {
-    "search": "2026-02-09",
+    "search": "2026-02-10",
     "github-ranking-python": "2026-02-09"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

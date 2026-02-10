@@ -1,0 +1,13 @@
+{
+  "owner": "dotnet-architecture",
+  "repo": "eShopOnContainers",
+  "version": "HEAD",
+  "loc": 0,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:16:18.926024+00:00",
+  "repo_url": "https://github.com/dotnet-architecture/eShopOnContainers.git",
+  "ref": "HEAD",
+  "commit_hash": "0d329b713e95674f7471255908759362568166ea",
+  "clone_duration_seconds": 0.4472174644470215,
+  "count_duration_seconds": 0.0009052753448486328
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "BookStackApp",
+  "repo": "BookStack",
+  "full_name": "BookStackApp/BookStack",
+  "url": "https://github.com/BookStackApp/BookStack",
+  "analysis": {
+    "owner": "BookStackApp",
+    "repo": "BookStack",
+    "version": "HEAD",
+    "loc": 164898,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:07:58.534435+00:00",
+    "repo_url": "https://github.com/BookStackApp/BookStack.git",
+    "ref": "HEAD",
+    "commit_hash": "5e12b678c78735ea20d73445a159f0df5bb45080",
+    "clone_duration_seconds": 1.6212077140808105,
+    "count_duration_seconds": 0.1657116413116455
+  }
+}

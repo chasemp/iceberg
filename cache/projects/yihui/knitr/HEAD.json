@@ -1,0 +1,13 @@
+{
+  "owner": "yihui",
+  "repo": "knitr",
+  "version": "HEAD",
+  "loc": 8,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:34:39.385632+00:00",
+  "repo_url": "https://github.com/yihui/knitr.git",
+  "ref": "HEAD",
+  "commit_hash": "846a7db02f01086042ea0aae71dd2bebe6de091a",
+  "clone_duration_seconds": 0.7781758308410645,
+  "count_duration_seconds": 0.0039119720458984375
+}

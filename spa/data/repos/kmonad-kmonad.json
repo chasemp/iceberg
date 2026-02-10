@@ -1,0 +1,19 @@
+{
+  "owner": "kmonad",
+  "repo": "kmonad",
+  "full_name": "kmonad/kmonad",
+  "url": "https://github.com/kmonad/kmonad",
+  "analysis": {
+    "owner": "kmonad",
+    "repo": "kmonad",
+    "version": "HEAD",
+    "loc": 611,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:19:35.882965+00:00",
+    "repo_url": "https://github.com/kmonad/kmonad.git",
+    "ref": "HEAD",
+    "commit_hash": "796299a41fdcac5798b8f496a523f1793d8c1421",
+    "clone_duration_seconds": 0.6212072372436523,
+    "count_duration_seconds": 0.0031490325927734375
+  }
+}

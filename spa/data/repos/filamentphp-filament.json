@@ -1,0 +1,19 @@
+{
+  "owner": "filamentphp",
+  "repo": "filament",
+  "full_name": "filamentphp/filament",
+  "url": "https://github.com/filamentphp/filament",
+  "analysis": {
+    "owner": "filamentphp",
+    "repo": "filament",
+    "version": "HEAD",
+    "loc": 248316,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:05:40.971581+00:00",
+    "repo_url": "https://github.com/filamentphp/filament.git",
+    "ref": "HEAD",
+    "commit_hash": "9b53d6b3f1a734720960718c52ada793418267ee",
+    "clone_duration_seconds": 3.8593945503234863,
+    "count_duration_seconds": 0.4035067558288574
+  }
+}

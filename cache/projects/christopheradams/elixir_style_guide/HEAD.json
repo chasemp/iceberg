@@ -1,0 +1,13 @@
+{
+  "owner": "christopheradams",
+  "repo": "elixir_style_guide",
+  "version": "HEAD",
+  "loc": 0,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:02:16.692047+00:00",
+  "repo_url": "https://github.com/christopheradams/elixir_style_guide.git",
+  "ref": "HEAD",
+  "commit_hash": "1f2fdf68fe54af49a92bf7c1e876dd7fc8c8b149",
+  "clone_duration_seconds": 0.4492623805999756,
+  "count_duration_seconds": 0.0009171962738037109
+}

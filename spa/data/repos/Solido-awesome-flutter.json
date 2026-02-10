@@ -1,0 +1,19 @@
+{
+  "owner": "Solido",
+  "repo": "awesome-flutter",
+  "full_name": "Solido/awesome-flutter",
+  "url": "https://github.com/Solido/awesome-flutter",
+  "analysis": {
+    "owner": "Solido",
+    "repo": "awesome-flutter",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:29:22.105033+00:00",
+    "repo_url": "https://github.com/Solido/awesome-flutter.git",
+    "ref": "HEAD",
+    "commit_hash": "516dea32cf1bd4b822c1d7d35d7940c9598a22f1",
+    "clone_duration_seconds": 0.7871487140655518,
+    "count_duration_seconds": 0.001058340072631836
+  }
+}

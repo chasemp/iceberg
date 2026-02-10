@@ -1,0 +1,19 @@
+{
+  "owner": "nothings",
+  "repo": "stb",
+  "full_name": "nothings/stb",
+  "url": "https://github.com/nothings/stb",
+  "analysis": {
+    "owner": "nothings",
+    "repo": "stb",
+    "version": "HEAD",
+    "loc": 53737,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:37:23.819689+00:00",
+    "repo_url": "https://github.com/nothings/stb.git",
+    "ref": "HEAD",
+    "commit_hash": "f1c79c02822848a9bed4315b12c8c8f3761e1296",
+    "clone_duration_seconds": 0.907548189163208,
+    "count_duration_seconds": 0.02518486976623535
+  }
+}

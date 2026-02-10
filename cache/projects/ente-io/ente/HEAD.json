@@ -1,0 +1,13 @@
+{
+  "owner": "ente-io",
+  "repo": "ente",
+  "version": "HEAD",
+  "loc": 140644,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:30:04.530782+00:00",
+  "repo_url": "https://github.com/ente-io/ente.git",
+  "ref": "HEAD",
+  "commit_hash": "8001c9035de3aaaccc3add20f5ede21dce72dc5f",
+  "clone_duration_seconds": 4.539214611053467,
+  "count_duration_seconds": 0.20700931549072266
+}

@@ -1,0 +1,18 @@
+{
+  "owner": "forem",
+  "repo": "forem",
+  "version": "HEAD",
+  "loc": 105777,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:24:31.568434+00:00",
+  "package": {
+    "system": "npm",
+    "name": "dev.to",
+    "version": "1.0.0"
+  },
+  "repo_url": "https://github.com/forem/forem.git",
+  "ref": "HEAD",
+  "commit_hash": "5f668a1bfd7ffa6a04d2a4080c5b81542d5452e3",
+  "clone_duration_seconds": 5.0344767570495605,
+  "count_duration_seconds": 0.2116718292236328
+}

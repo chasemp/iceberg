@@ -1,0 +1,13 @@
+{
+  "owner": "bagisto",
+  "repo": "opensource-ecommerce-mobile-app",
+  "version": "HEAD",
+  "loc": 8385,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:31:34.322068+00:00",
+  "repo_url": "https://github.com/bagisto/opensource-ecommerce-mobile-app.git",
+  "ref": "HEAD",
+  "commit_hash": "4d052b5e5c5d1e09c9323dad215a5c1415267161",
+  "clone_duration_seconds": 1.1768522262573242,
+  "count_duration_seconds": 0.04924464225769043
+}

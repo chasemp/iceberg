@@ -1,0 +1,19 @@
+{
+  "owner": "square",
+  "repo": "picasso",
+  "full_name": "square/picasso",
+  "url": "https://github.com/square/picasso",
+  "analysis": {
+    "owner": "square",
+    "repo": "picasso",
+    "version": "HEAD",
+    "loc": 5716,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:44:33.100693+00:00",
+    "repo_url": "https://github.com/square/picasso.git",
+    "ref": "HEAD",
+    "commit_hash": "e94d6116e3fff99b3932103e0ab22ff5b44a1273",
+    "clone_duration_seconds": 1.5579619407653809,
+    "count_duration_seconds": 0.011001348495483398
+  }
+}

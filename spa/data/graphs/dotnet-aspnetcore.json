@@ -1,0 +1,16 @@
+{
+  "owner": "dotnet",
+  "repo": "aspnetcore",
+  "full_name": "dotnet/aspnetcore",
+  "root_package": "npm:@microsoft/aspnetcore:1.0.0",
+  "nodes": [
+    {
+      "id": "npm:@microsoft/aspnetcore:1.0.0",
+      "system": "npm",
+      "name": "@microsoft/aspnetcore",
+      "version": "1.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-10T07:49:02.498337+00:00"
+}

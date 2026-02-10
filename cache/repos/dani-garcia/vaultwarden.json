@@ -4,9 +4,10 @@
   "url": "https://github.com/dani-garcia/vaultwarden",
   "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
   "language": "Rust",
-  "stars": 54692,
+  "stars": 54757,
   "categories": {
-    "github-ranking-rust": "2026-02-09"
+    "github-ranking-rust": "2026-02-09",
+    "search": "2026-02-10"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

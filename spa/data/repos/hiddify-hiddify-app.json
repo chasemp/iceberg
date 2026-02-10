@@ -1,0 +1,19 @@
+{
+  "owner": "hiddify",
+  "repo": "hiddify-app",
+  "full_name": "hiddify/hiddify-app",
+  "url": "https://github.com/hiddify/hiddify-app",
+  "analysis": {
+    "owner": "hiddify",
+    "repo": "hiddify-app",
+    "version": "HEAD",
+    "loc": 4627,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:29:45.915684+00:00",
+    "repo_url": "https://github.com/hiddify/hiddify-app.git",
+    "ref": "HEAD",
+    "commit_hash": "15bce4449e7cb4a96977152dd3d43e58a3418975",
+    "clone_duration_seconds": 1.0470423698425293,
+    "count_duration_seconds": 0.035685062408447266
+  }
+}

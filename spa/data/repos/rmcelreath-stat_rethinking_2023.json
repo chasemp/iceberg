@@ -1,0 +1,19 @@
+{
+  "owner": "rmcelreath",
+  "repo": "stat_rethinking_2023",
+  "full_name": "rmcelreath/stat_rethinking_2023",
+  "url": "https://github.com/rmcelreath/stat_rethinking_2023",
+  "analysis": {
+    "owner": "rmcelreath",
+    "repo": "stat_rethinking_2023",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:34:50.445546+00:00",
+    "repo_url": "https://github.com/rmcelreath/stat_rethinking_2023.git",
+    "ref": "HEAD",
+    "commit_hash": "492bede99d5ed909eb1167534dd3fbe5d07b3c8e",
+    "clone_duration_seconds": 4.497169733047485,
+    "count_duration_seconds": 0.001787424087524414
+  }
+}

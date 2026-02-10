@@ -1,0 +1,13 @@
+{
+  "owner": "2dust",
+  "repo": "v2rayNG",
+  "version": "HEAD",
+  "loc": 11783,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:42:00.685719+00:00",
+  "repo_url": "https://github.com/2dust/v2rayNG.git",
+  "ref": "HEAD",
+  "commit_hash": "f9f0c905a45f2dbb89052004f902a896bdbfc2e8",
+  "clone_duration_seconds": 0.6904428005218506,
+  "count_duration_seconds": 0.016264677047729492
+}

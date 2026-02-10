@@ -1,0 +1,13 @@
+{
+  "owner": "github",
+  "repo": "semantic",
+  "version": "HEAD",
+  "loc": 60,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:18:48.193293+00:00",
+  "repo_url": "https://github.com/github/semantic.git",
+  "ref": "HEAD",
+  "commit_hash": "d1d07eb6228bca1f4e886d649996f27906f61d42",
+  "clone_duration_seconds": 1.0971922874450684,
+  "count_duration_seconds": 0.03480672836303711
+}

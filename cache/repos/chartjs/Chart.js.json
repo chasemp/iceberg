@@ -4,10 +4,10 @@
   "url": "https://github.com/chartjs/Chart.js",
   "description": "Simple HTML5 Charts using the <canvas> tag",
   "language": "JavaScript",
-  "stars": 67110,
+  "stars": 67115,
   "categories": {
-    "search": "2026-02-09",
+    "search": "2026-02-10",
     "github-ranking-javascript": "2026-02-09"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

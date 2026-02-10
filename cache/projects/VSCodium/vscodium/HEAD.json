@@ -1,0 +1,13 @@
+{
+  "owner": "VSCodium",
+  "repo": "vscodium",
+  "version": "HEAD",
+  "loc": 2247,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:13:11.952322+00:00",
+  "repo_url": "https://github.com/VSCodium/vscodium.git",
+  "ref": "HEAD",
+  "commit_hash": "91d172cd420a65a2c3d25f7865b180024d21c00b",
+  "clone_duration_seconds": 1.9715449810028076,
+  "count_duration_seconds": 0.008513212203979492
+}

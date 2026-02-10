@@ -1,0 +1,13 @@
+{
+  "owner": "r-lib",
+  "repo": "devtools",
+  "version": "HEAD",
+  "loc": 0,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:34:32.264791+00:00",
+  "repo_url": "https://github.com/r-lib/devtools.git",
+  "ref": "HEAD",
+  "commit_hash": "d613fe627bc4579076f1bee2ca0ed4a4f04f0fa5",
+  "clone_duration_seconds": 0.8036918640136719,
+  "count_duration_seconds": 0.005277156829833984
+}

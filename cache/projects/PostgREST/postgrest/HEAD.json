@@ -1,0 +1,13 @@
+{
+  "owner": "PostgREST",
+  "repo": "postgrest",
+  "version": "HEAD",
+  "loc": 338,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:18:21.442333+00:00",
+  "repo_url": "https://github.com/PostgREST/postgrest.git",
+  "ref": "HEAD",
+  "commit_hash": "99984d328e04735b8e745ff4deac72ef2ab3c848",
+  "clone_duration_seconds": 0.9626879692077637,
+  "count_duration_seconds": 0.0066111087799072266
+}

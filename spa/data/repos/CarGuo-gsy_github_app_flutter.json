@@ -1,0 +1,19 @@
+{
+  "owner": "CarGuo",
+  "repo": "gsy_github_app_flutter",
+  "full_name": "CarGuo/gsy_github_app_flutter",
+  "url": "https://github.com/CarGuo/gsy_github_app_flutter",
+  "analysis": {
+    "owner": "CarGuo",
+    "repo": "gsy_github_app_flutter",
+    "version": "HEAD",
+    "loc": 82,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:31:03.355643+00:00",
+    "repo_url": "https://github.com/CarGuo/gsy_github_app_flutter.git",
+    "ref": "HEAD",
+    "commit_hash": "2351bd59a6e09ceada35570955053d6716c1abb4",
+    "clone_duration_seconds": 1.3282389640808105,
+    "count_duration_seconds": 0.008002758026123047
+  }
+}

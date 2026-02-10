@@ -1,0 +1,16 @@
+{
+  "owner": "shengxinjing",
+  "repo": "programmer-job-blacklist",
+  "full_name": "shengxinjing/programmer-job-blacklist",
+  "root_package": "npm:programmer-job-blacklist:1.0.0",
+  "nodes": [
+    {
+      "id": "npm:programmer-job-blacklist:1.0.0",
+      "system": "npm",
+      "name": "programmer-job-blacklist",
+      "version": "1.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-10T07:49:02.420648+00:00"
+}

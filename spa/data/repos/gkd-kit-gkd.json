@@ -1,0 +1,19 @@
+{
+  "owner": "gkd-kit",
+  "repo": "gkd",
+  "full_name": "gkd-kit/gkd",
+  "url": "https://github.com/gkd-kit/gkd",
+  "analysis": {
+    "owner": "gkd-kit",
+    "repo": "gkd",
+    "version": "HEAD",
+    "loc": 32705,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:42:45.124880+00:00",
+    "repo_url": "https://github.com/gkd-kit/gkd.git",
+    "ref": "HEAD",
+    "commit_hash": "159d4ba8024061fe5c6fbbe984f23951127f9887",
+    "clone_duration_seconds": 0.7946598529815674,
+    "count_duration_seconds": 0.03063368797302246
+  }
+}

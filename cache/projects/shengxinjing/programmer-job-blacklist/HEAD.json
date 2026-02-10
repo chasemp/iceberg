@@ -1,0 +1,18 @@
+{
+  "owner": "shengxinjing",
+  "repo": "programmer-job-blacklist",
+  "version": "HEAD",
+  "loc": 256,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:13:40.681976+00:00",
+  "package": {
+    "system": "npm",
+    "name": "programmer-job-blacklist",
+    "version": "1.0.0"
+  },
+  "repo_url": "https://github.com/shengxinjing/programmer-job-blacklist.git",
+  "ref": "HEAD",
+  "commit_hash": "dd45e502195558af54e56fe12b37a40d57d42063",
+  "clone_duration_seconds": 0.6399030685424805,
+  "count_duration_seconds": 0.002508401870727539
+}

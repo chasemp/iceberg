@@ -1,0 +1,13 @@
+{
+  "owner": "kieraneglin",
+  "repo": "pinchflat",
+  "version": "HEAD",
+  "loc": 496,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:02:09.600948+00:00",
+  "repo_url": "https://github.com/kieraneglin/pinchflat.git",
+  "ref": "HEAD",
+  "commit_hash": "67d8bd5598f4461c5435bcc66fc8d02b00c607cb",
+  "clone_duration_seconds": 1.0929021835327148,
+  "count_duration_seconds": 0.01612710952758789
+}

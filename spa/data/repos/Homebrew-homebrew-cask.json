@@ -1,0 +1,19 @@
+{
+  "owner": "Homebrew",
+  "repo": "homebrew-cask",
+  "full_name": "Homebrew/homebrew-cask",
+  "url": "https://github.com/Homebrew/homebrew-cask",
+  "analysis": {
+    "owner": "Homebrew",
+    "repo": "homebrew-cask",
+    "version": "HEAD",
+    "loc": 155948,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:24:40.132416+00:00",
+    "repo_url": "https://github.com/Homebrew/homebrew-cask.git",
+    "ref": "HEAD",
+    "commit_hash": "fbd4dfd9d2ab54966f824824d80d9068841252cd",
+    "clone_duration_seconds": 1.6246867179870605,
+    "count_duration_seconds": 0.33353424072265625
+  }
+}

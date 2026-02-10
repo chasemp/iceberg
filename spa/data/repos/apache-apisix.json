@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "repo": "apisix",
+  "full_name": "apache/apisix",
+  "url": "https://github.com/apache/apisix",
+  "analysis": {
+    "owner": "apache",
+    "repo": "apisix",
+    "version": "HEAD",
+    "loc": 11394,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:47:14.904149+00:00",
+    "repo_url": "https://github.com/apache/apisix.git",
+    "ref": "HEAD",
+    "commit_hash": "d6e288b0f3941f559415cf600ec00a03f826626c",
+    "clone_duration_seconds": 1.8743252754211426,
+    "count_duration_seconds": 0.03188967704772949
+  }
+}

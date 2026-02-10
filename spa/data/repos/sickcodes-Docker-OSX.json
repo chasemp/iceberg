@@ -1,0 +1,19 @@
+{
+  "owner": "sickcodes",
+  "repo": "Docker-OSX",
+  "full_name": "sickcodes/Docker-OSX",
+  "url": "https://github.com/sickcodes/Docker-OSX",
+  "analysis": {
+    "owner": "sickcodes",
+    "repo": "Docker-OSX",
+    "version": "HEAD",
+    "loc": 1023,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:11:47.928691+00:00",
+    "repo_url": "https://github.com/sickcodes/Docker-OSX.git",
+    "ref": "HEAD",
+    "commit_hash": "aa05a2c9a06aabfc8542c1c373ad1ad0af74ede3",
+    "clone_duration_seconds": 1.1544201374053955,
+    "count_duration_seconds": 0.0024569034576416016
+  }
+}

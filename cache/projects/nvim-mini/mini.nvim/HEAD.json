@@ -1,0 +1,13 @@
+{
+  "owner": "nvim-mini",
+  "repo": "mini.nvim",
+  "version": "HEAD",
+  "loc": 291,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:48:55.623281+00:00",
+  "repo_url": "https://github.com/nvim-mini/mini.nvim.git",
+  "ref": "HEAD",
+  "commit_hash": "8c40d95931cbe6138391af9180e59439ed2e69df",
+  "clone_duration_seconds": 1.2812995910644531,
+  "count_duration_seconds": 0.029471158981323242
+}

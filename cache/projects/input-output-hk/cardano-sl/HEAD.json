@@ -1,0 +1,13 @@
+{
+  "owner": "input-output-hk",
+  "repo": "cardano-sl",
+  "version": "HEAD",
+  "loc": 2776,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:20:21.964344+00:00",
+  "repo_url": "https://github.com/input-output-hk/cardano-sl.git",
+  "ref": "HEAD",
+  "commit_hash": "1499214d93767b703b9599369a431e67d83f10a2",
+  "clone_duration_seconds": 1.6196269989013672,
+  "count_duration_seconds": 0.04021763801574707
+}

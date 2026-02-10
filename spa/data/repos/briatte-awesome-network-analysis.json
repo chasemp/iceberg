@@ -1,0 +1,19 @@
+{
+  "owner": "briatte",
+  "repo": "awesome-network-analysis",
+  "full_name": "briatte/awesome-network-analysis",
+  "url": "https://github.com/briatte/awesome-network-analysis",
+  "analysis": {
+    "owner": "briatte",
+    "repo": "awesome-network-analysis",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:33:20.780041+00:00",
+    "repo_url": "https://github.com/briatte/awesome-network-analysis.git",
+    "ref": "HEAD",
+    "commit_hash": "30f7abce7fc45bb95346acd691758e7ffef54c15",
+    "clone_duration_seconds": 0.6704020500183105,
+    "count_duration_seconds": 0.0008919239044189453
+  }
+}

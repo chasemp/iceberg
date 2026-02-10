@@ -1,0 +1,13 @@
+{
+  "owner": "zhongyang219",
+  "repo": "TrafficMonitor",
+  "version": "HEAD",
+  "loc": 30632,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:40:46.076656+00:00",
+  "repo_url": "https://github.com/zhongyang219/TrafficMonitor.git",
+  "ref": "HEAD",
+  "commit_hash": "9fc3dc9c5574e12e662f632b399be2b018e790b0",
+  "clone_duration_seconds": 1.0312514305114746,
+  "count_duration_seconds": 0.026953697204589844
+}

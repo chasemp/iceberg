@@ -1,0 +1,16 @@
+{
+  "owner": "ggml-org",
+  "repo": "llama.cpp",
+  "full_name": "ggml-org/llama.cpp",
+  "root_package": "pypi:llama-cpp-scripts:0.0.0",
+  "nodes": [
+    {
+      "id": "pypi:llama-cpp-scripts:0.0.0",
+      "system": "pypi",
+      "name": "llama-cpp-scripts",
+      "version": "0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-10T07:49:02.423056+00:00"
+}

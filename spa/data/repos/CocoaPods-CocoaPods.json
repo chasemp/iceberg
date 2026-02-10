@@ -1,0 +1,19 @@
+{
+  "owner": "CocoaPods",
+  "repo": "CocoaPods",
+  "full_name": "CocoaPods/CocoaPods",
+  "url": "https://github.com/CocoaPods/CocoaPods",
+  "analysis": {
+    "owner": "CocoaPods",
+    "repo": "CocoaPods",
+    "version": "HEAD",
+    "loc": 14304,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:25:25.916846+00:00",
+    "repo_url": "https://github.com/CocoaPods/CocoaPods.git",
+    "ref": "HEAD",
+    "commit_hash": "458dd19585c03d706c2dc23238afd3845a4c6000",
+    "clone_duration_seconds": 2.8747150897979736,
+    "count_duration_seconds": 0.2891697883605957
+  }
+}

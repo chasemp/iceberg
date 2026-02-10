@@ -1,0 +1,13 @@
+{
+  "owner": "ReVanced",
+  "repo": "revanced-manager",
+  "version": "HEAD",
+  "loc": 623,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:29:53.539961+00:00",
+  "repo_url": "https://github.com/ReVanced/revanced-manager.git",
+  "ref": "HEAD",
+  "commit_hash": "3da2b49dad594b749832271920184195806e3409",
+  "clone_duration_seconds": 1.5069987773895264,
+  "count_duration_seconds": 0.006045341491699219
+}

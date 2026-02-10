@@ -1,0 +1,18 @@
+{
+  "owner": "gedoor",
+  "repo": "legado",
+  "version": "HEAD",
+  "loc": 118016,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:42:22.451859+00:00",
+  "package": {
+    "system": "npm",
+    "name": "legado",
+    "version": "1.0.0"
+  },
+  "repo_url": "https://github.com/gedoor/legado.git",
+  "ref": "HEAD",
+  "commit_hash": "f49043ceaa2ee396199179e2f244adac8ff0ac1f",
+  "clone_duration_seconds": 1.332669734954834,
+  "count_duration_seconds": 0.10834145545959473
+}

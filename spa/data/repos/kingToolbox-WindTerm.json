@@ -1,0 +1,19 @@
+{
+  "owner": "kingToolbox",
+  "repo": "WindTerm",
+  "full_name": "kingToolbox/WindTerm",
+  "url": "https://github.com/kingToolbox/WindTerm",
+  "analysis": {
+    "owner": "kingToolbox",
+    "repo": "WindTerm",
+    "version": "HEAD",
+    "loc": 118220,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:38:16.656635+00:00",
+    "repo_url": "https://github.com/kingToolbox/WindTerm.git",
+    "ref": "HEAD",
+    "commit_hash": "a8336c1d1e3dd1a981500dae8ef9eb42066de95f",
+    "clone_duration_seconds": 1.0204966068267822,
+    "count_duration_seconds": 0.05190730094909668
+  }
+}

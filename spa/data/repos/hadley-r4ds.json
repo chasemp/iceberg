@@ -1,0 +1,19 @@
+{
+  "owner": "hadley",
+  "repo": "r4ds",
+  "full_name": "hadley/r4ds",
+  "url": "https://github.com/hadley/r4ds",
+  "analysis": {
+    "owner": "hadley",
+    "repo": "r4ds",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:32:50.186968+00:00",
+    "repo_url": "https://github.com/hadley/r4ds.git",
+    "ref": "HEAD",
+    "commit_hash": "aea4641215c7531af8c780e41ad89b1e938f2b5e",
+    "clone_duration_seconds": 1.5366041660308838,
+    "count_duration_seconds": 0.0029265880584716797
+  }
+}

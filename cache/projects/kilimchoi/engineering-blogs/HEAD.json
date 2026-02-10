@@ -1,0 +1,13 @@
+{
+  "owner": "kilimchoi",
+  "repo": "engineering-blogs",
+  "version": "HEAD",
+  "loc": 107,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:22:59.486234+00:00",
+  "repo_url": "https://github.com/kilimchoi/engineering-blogs.git",
+  "ref": "HEAD",
+  "commit_hash": "50eab27eb2833dbf910ed4c79651bc1213c8a743",
+  "clone_duration_seconds": 0.5663127899169922,
+  "count_duration_seconds": 0.0011279582977294922
+}

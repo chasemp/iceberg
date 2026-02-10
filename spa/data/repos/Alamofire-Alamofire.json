@@ -1,0 +1,19 @@
+{
+  "owner": "Alamofire",
+  "repo": "Alamofire",
+  "full_name": "Alamofire/Alamofire",
+  "url": "https://github.com/Alamofire/Alamofire",
+  "analysis": {
+    "owner": "Alamofire",
+    "repo": "Alamofire",
+    "version": "HEAD",
+    "loc": 28959,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T06:57:11.931523+00:00",
+    "repo_url": "https://github.com/Alamofire/Alamofire.git",
+    "ref": "HEAD",
+    "commit_hash": "f73a2fcb60198ef2b92dc3b6074b18f98ccee875",
+    "clone_duration_seconds": 1.1440117359161377,
+    "count_duration_seconds": 0.026027202606201172
+  }
+}

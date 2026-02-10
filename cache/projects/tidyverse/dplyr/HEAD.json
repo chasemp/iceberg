@@ -1,0 +1,13 @@
+{
+  "owner": "tidyverse",
+  "repo": "dplyr",
+  "version": "HEAD",
+  "loc": 1387,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:32:57.381513+00:00",
+  "repo_url": "https://github.com/tidyverse/dplyr.git",
+  "ref": "HEAD",
+  "commit_hash": "8748225b372bd773e754b23a06dcfd4d64e27cfe",
+  "clone_duration_seconds": 0.8583576679229736,
+  "count_duration_seconds": 0.006185293197631836
+}

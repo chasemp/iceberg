@@ -1,0 +1,19 @@
+{
+  "owner": "flutter",
+  "repo": "samples",
+  "full_name": "flutter/samples",
+  "url": "https://github.com/flutter/samples",
+  "analysis": {
+    "owner": "flutter",
+    "repo": "samples",
+    "version": "HEAD",
+    "loc": 30917,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:30:46.896116+00:00",
+    "repo_url": "https://github.com/flutter/samples.git",
+    "ref": "HEAD",
+    "commit_hash": "e61e3a96adabf35ff66b66c6f6ee3087e80147ec",
+    "clone_duration_seconds": 2.027611255645752,
+    "count_duration_seconds": 0.15572857856750488
+  }
+}

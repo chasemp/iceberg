@@ -1,0 +1,13 @@
+{
+  "owner": "ThePrimeagen",
+  "repo": "harpoon",
+  "version": "HEAD",
+  "loc": 0,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:48:47.922873+00:00",
+  "repo_url": "https://github.com/ThePrimeagen/harpoon.git",
+  "ref": "HEAD",
+  "commit_hash": "1bc17e3e42ea3c46b33c0bbad6a880792692a1b3",
+  "clone_duration_seconds": 1.8750627040863037,
+  "count_duration_seconds": 0.0014619827270507812
+}

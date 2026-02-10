@@ -1,0 +1,13 @@
+{
+  "owner": "microsoft",
+  "repo": "semantic-kernel",
+  "version": "HEAD",
+  "loc": 328309,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:15:39.356971+00:00",
+  "repo_url": "https://github.com/microsoft/semantic-kernel.git",
+  "ref": "HEAD",
+  "commit_hash": "c4d0a623f22a9a138e98759127525ce9d47d3607",
+  "clone_duration_seconds": 2.6604912281036377,
+  "count_duration_seconds": 0.37430596351623535
+}

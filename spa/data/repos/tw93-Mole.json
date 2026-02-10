@@ -1,0 +1,24 @@
+{
+  "owner": "tw93",
+  "repo": "Mole",
+  "full_name": "tw93/Mole",
+  "url": "https://github.com/tw93/Mole",
+  "analysis": {
+    "owner": "tw93",
+    "repo": "Mole",
+    "version": "HEAD",
+    "loc": 23036,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:12:47.453342+00:00",
+    "package": {
+      "system": "go",
+      "name": "github.com/tw93/mole",
+      "version": "v0.0.0"
+    },
+    "repo_url": "https://github.com/tw93/Mole.git",
+    "ref": "HEAD",
+    "commit_hash": "9aa5a0a69d6c00afc0c3cc5528689e8d84b1b077",
+    "clone_duration_seconds": 0.7513458728790283,
+    "count_duration_seconds": 0.013762235641479492
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "owner": "pyenv",
+  "repo": "pyenv",
+  "version": "HEAD",
+  "loc": 1136,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:12:11.074390+00:00",
+  "repo_url": "https://github.com/pyenv/pyenv.git",
+  "ref": "HEAD",
+  "commit_hash": "b2a43bbcdb59c8b3ffb1f2b66eb89475cef75b78",
+  "clone_duration_seconds": 0.7927582263946533,
+  "count_duration_seconds": 0.032721757888793945
+}

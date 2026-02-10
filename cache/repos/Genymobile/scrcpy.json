@@ -4,10 +4,11 @@
   "url": "https://github.com/Genymobile/scrcpy",
   "description": "Display and control your Android device",
   "language": "C",
-  "stars": 135375,
+  "stars": 135422,
   "categories": {
     "github-ranking-top-100-stars": "2026-02-09",
-    "github-ranking-c": "2026-02-09"
+    "github-ranking-c": "2026-02-09",
+    "search": "2026-02-10"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

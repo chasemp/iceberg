@@ -1,0 +1,13 @@
+{
+  "owner": "rtyley",
+  "repo": "bfg-repo-cleaner",
+  "version": "HEAD",
+  "loc": 1526,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:26:43.549467+00:00",
+  "repo_url": "https://github.com/rtyley/bfg-repo-cleaner.git",
+  "ref": "HEAD",
+  "commit_hash": "1bd9715198dd53cdffa6512a5f3af3f04f82b803",
+  "clone_duration_seconds": 0.7851428985595703,
+  "count_duration_seconds": 0.008128643035888672
+}

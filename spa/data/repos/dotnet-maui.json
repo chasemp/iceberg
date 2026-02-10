@@ -1,0 +1,19 @@
+{
+  "owner": "dotnet",
+  "repo": "maui",
+  "full_name": "dotnet/maui",
+  "url": "https://github.com/dotnet/maui",
+  "analysis": {
+    "owner": "dotnet",
+    "repo": "maui",
+    "version": "HEAD",
+    "loc": 464852,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:16:43.774428+00:00",
+    "repo_url": "https://github.com/dotnet/maui.git",
+    "ref": "HEAD",
+    "commit_hash": "0942bb9224ed09cc1f279d3c7f1bbb2884b36f0f",
+    "clone_duration_seconds": 17.872376918792725,
+    "count_duration_seconds": 0.6272857189178467
+  }
+}

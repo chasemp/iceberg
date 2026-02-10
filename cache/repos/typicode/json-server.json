@@ -4,10 +4,10 @@
   "url": "https://github.com/typicode/json-server",
   "description": "Get a full fake REST API with zero coding in less than 30 seconds (seriously)",
   "language": "JavaScript",
-  "stars": 75632,
+  "stars": 75630,
   "categories": {
-    "search": "2026-02-09",
+    "search": "2026-02-10",
     "github-ranking-javascript": "2026-02-09"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

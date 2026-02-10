@@ -1,0 +1,19 @@
+{
+  "owner": "neovim",
+  "repo": "nvim-lspconfig",
+  "full_name": "neovim/nvim-lspconfig",
+  "url": "https://github.com/neovim/nvim-lspconfig",
+  "analysis": {
+    "owner": "neovim",
+    "repo": "nvim-lspconfig",
+    "version": "HEAD",
+    "loc": 80,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:47:46.108304+00:00",
+    "repo_url": "https://github.com/neovim/nvim-lspconfig.git",
+    "ref": "HEAD",
+    "commit_hash": "66fd02ad1c7ea31616d3ca678fa04e6d0b360824",
+    "clone_duration_seconds": 0.7818427085876465,
+    "count_duration_seconds": 0.0074083805084228516
+  }
+}

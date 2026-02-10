@@ -1,0 +1,19 @@
+{
+  "owner": "snowplow",
+  "repo": "snowplow",
+  "full_name": "snowplow/snowplow",
+  "url": "https://github.com/snowplow/snowplow",
+  "analysis": {
+    "owner": "snowplow",
+    "repo": "snowplow",
+    "version": "HEAD",
+    "loc": 941,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:27:31.580749+00:00",
+    "repo_url": "https://github.com/snowplow/snowplow.git",
+    "ref": "HEAD",
+    "commit_hash": "794d14f107b1a26fd1712f2ef6a102d4974230f5",
+    "clone_duration_seconds": 0.7038724422454834,
+    "count_duration_seconds": 0.005889177322387695
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "owner": "x64dbg",
+  "repo": "x64dbg",
+  "version": "HEAD",
+  "loc": 204058,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:39:58.058817+00:00",
+  "repo_url": "https://github.com/x64dbg/x64dbg.git",
+  "ref": "HEAD",
+  "commit_hash": "c64f7784ab26b68482facf2a57e7689e4ab0defb",
+  "clone_duration_seconds": 1.3797492980957031,
+  "count_duration_seconds": 0.14646625518798828
+}

@@ -1,0 +1,16 @@
+{
+  "owner": "blueimp",
+  "repo": "jQuery-File-Upload",
+  "full_name": "blueimp/jQuery-File-Upload",
+  "root_package": "npm:blueimp-file-upload:10.32.0",
+  "nodes": [
+    {
+      "id": "npm:blueimp-file-upload:10.32.0",
+      "system": "npm",
+      "name": "blueimp-file-upload",
+      "version": "10.32.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-10T07:49:02.485061+00:00"
+}

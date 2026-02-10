@@ -1,0 +1,13 @@
+{
+  "owner": "plausible",
+  "repo": "analytics",
+  "version": "HEAD",
+  "loc": 21472,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:00:30.922192+00:00",
+  "repo_url": "https://github.com/plausible/analytics.git",
+  "ref": "HEAD",
+  "commit_hash": "7fb699318b4f590f5b3f60bd2b0de0939f4d1569",
+  "clone_duration_seconds": 1.3249380588531494,
+  "count_duration_seconds": 0.04092526435852051
+}

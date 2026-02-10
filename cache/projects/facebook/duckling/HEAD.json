@@ -1,0 +1,13 @@
+{
+  "owner": "facebook",
+  "repo": "duckling",
+  "version": "HEAD",
+  "loc": 0,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:19:50.713926+00:00",
+  "repo_url": "https://github.com/facebook/duckling.git",
+  "ref": "HEAD",
+  "commit_hash": "51d66f2140c773911ee65ec5bd22ce8fb3fe12dc",
+  "clone_duration_seconds": 1.1954150199890137,
+  "count_duration_seconds": 0.027836084365844727
+}

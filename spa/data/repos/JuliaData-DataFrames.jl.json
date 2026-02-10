@@ -1,0 +1,19 @@
+{
+  "owner": "JuliaData",
+  "repo": "DataFrames.jl",
+  "full_name": "JuliaData/DataFrames.jl",
+  "url": "https://github.com/JuliaData/DataFrames.jl",
+  "analysis": {
+    "owner": "JuliaData",
+    "repo": "DataFrames.jl",
+    "version": "HEAD",
+    "loc": 15,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:10:01.958399+00:00",
+    "repo_url": "https://github.com/JuliaData/DataFrames.jl.git",
+    "ref": "HEAD",
+    "commit_hash": "9a5854f14224762e481ca1e36c7e86bc2d81944d",
+    "clone_duration_seconds": 0.8560657501220703,
+    "count_duration_seconds": 0.0024933815002441406
+  }
+}

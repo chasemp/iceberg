@@ -1,0 +1,13 @@
+{
+  "owner": "freeCodeCamp",
+  "repo": "devdocs",
+  "version": "HEAD",
+  "loc": 42147,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:22:40.710509+00:00",
+  "repo_url": "https://github.com/freeCodeCamp/devdocs.git",
+  "ref": "HEAD",
+  "commit_hash": "c7973164127fe21a5776b13453b1f37881d940a7",
+  "clone_duration_seconds": 1.2220759391784668,
+  "count_duration_seconds": 0.07369184494018555
+}

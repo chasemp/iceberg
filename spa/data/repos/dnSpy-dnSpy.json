@@ -1,0 +1,19 @@
+{
+  "owner": "dnSpy",
+  "repo": "dnSpy",
+  "full_name": "dnSpy/dnSpy",
+  "url": "https://github.com/dnSpy/dnSpy",
+  "analysis": {
+    "owner": "dnSpy",
+    "repo": "dnSpy",
+    "version": "HEAD",
+    "loc": 400624,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:15:29.783879+00:00",
+    "repo_url": "https://github.com/dnSpy/dnSpy.git",
+    "ref": "HEAD",
+    "commit_hash": "2b6dcfaf602fb8ca6462b8b6237fdfc0c74ad994",
+    "clone_duration_seconds": 2.2974770069122314,
+    "count_duration_seconds": 0.32728028297424316
+  }
+}

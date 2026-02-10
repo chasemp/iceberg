@@ -4,10 +4,10 @@
   "url": "https://github.com/expressjs/express",
   "description": "Fast, unopinionated, minimalist web framework for node.",
   "language": "JavaScript",
-  "stars": 68680,
+  "stars": 68682,
   "categories": {
-    "search": "2026-02-09",
+    "search": "2026-02-10",
     "github-ranking-javascript": "2026-02-09"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

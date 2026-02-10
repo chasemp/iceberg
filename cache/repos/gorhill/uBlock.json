@@ -4,9 +4,9 @@
   "url": "https://github.com/gorhill/uBlock",
   "description": "uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.",
   "language": "JavaScript",
-  "stars": 61422,
+  "stars": 61426,
   "categories": {
-    "search": "2026-02-09"
+    "search": "2026-02-10"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

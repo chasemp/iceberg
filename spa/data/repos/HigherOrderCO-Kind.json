@@ -1,0 +1,19 @@
+{
+  "owner": "HigherOrderCO",
+  "repo": "Kind",
+  "full_name": "HigherOrderCO/Kind",
+  "url": "https://github.com/HigherOrderCO/Kind",
+  "analysis": {
+    "owner": "HigherOrderCO",
+    "repo": "Kind",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:20:29.303125+00:00",
+    "repo_url": "https://github.com/HigherOrderCO/Kind.git",
+    "ref": "HEAD",
+    "commit_hash": "5cfff210b3aeed01ebd73b2364cf9e5d2df658af",
+    "clone_duration_seconds": 0.6112260818481445,
+    "count_duration_seconds": 0.001107931137084961
+  }
+}

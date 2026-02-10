@@ -1,0 +1,19 @@
+{
+  "owner": "livewire",
+  "repo": "livewire",
+  "full_name": "livewire/livewire",
+  "url": "https://github.com/livewire/livewire",
+  "analysis": {
+    "owner": "livewire",
+    "repo": "livewire",
+    "version": "HEAD",
+    "loc": 67829,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:06:23.550732+00:00",
+    "repo_url": "https://github.com/livewire/livewire.git",
+    "ref": "HEAD",
+    "commit_hash": "4697085e02a1f5f11410a1b5962400e3539f8843",
+    "clone_duration_seconds": 1.3665142059326172,
+    "count_duration_seconds": 0.06656527519226074
+  }
+}

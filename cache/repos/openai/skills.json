@@ -4,10 +4,10 @@
   "url": "https://github.com/openai/skills",
   "description": "Skills Catalog for Codex",
   "language": "Python",
-  "stars": 7469,
+  "stars": 7657,
   "categories": {
-    "trending-weekly": "2026-02-09",
-    "trending-monthly": "2026-02-09"
+    "trending-weekly": "2026-02-10",
+    "trending-monthly": "2026-02-10"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

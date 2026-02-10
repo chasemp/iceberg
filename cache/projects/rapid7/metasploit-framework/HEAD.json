@@ -1,0 +1,13 @@
+{
+  "owner": "rapid7",
+  "repo": "metasploit-framework",
+  "version": "HEAD",
+  "loc": 1214742,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:22:52.119864+00:00",
+  "repo_url": "https://github.com/rapid7/metasploit-framework.git",
+  "ref": "HEAD",
+  "commit_hash": "cfb84831887f282ac87e9ff1b01c09a13b7495b8",
+  "clone_duration_seconds": 4.044309139251709,
+  "count_duration_seconds": 0.9219188690185547
+}

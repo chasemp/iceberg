@@ -1,0 +1,13 @@
+{
+  "owner": "composer",
+  "repo": "composer",
+  "version": "HEAD",
+  "loc": 43737,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:05:30.246163+00:00",
+  "repo_url": "https://github.com/composer/composer.git",
+  "ref": "HEAD",
+  "commit_hash": "09a63cc31bb0fbcb051624ebf6a250905d883c10",
+  "clone_duration_seconds": 1.2064759731292725,
+  "count_duration_seconds": 0.04261374473571777
+}

@@ -4,11 +4,11 @@
   "url": "https://github.com/anomalyco/opencode",
   "description": "The open source coding agent.",
   "language": "TypeScript",
-  "stars": 100530,
+  "stars": 101358,
   "categories": {
-    "trending-monthly": "2026-02-09",
+    "trending-monthly": "2026-02-10",
     "github-ranking-top-100-stars": "2026-02-09",
     "github-ranking-typescript": "2026-02-09"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

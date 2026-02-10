@@ -1,0 +1,19 @@
+{
+  "owner": "nlohmann",
+  "repo": "json",
+  "full_name": "nlohmann/json",
+  "url": "https://github.com/nlohmann/json",
+  "analysis": {
+    "owner": "nlohmann",
+    "repo": "json",
+    "version": "HEAD",
+    "loc": 38556,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:39:50.433190+00:00",
+    "repo_url": "https://github.com/nlohmann/json.git",
+    "ref": "HEAD",
+    "commit_hash": "904592d2a86bae5d9c191cdcb8f8fd9b136f71fa",
+    "clone_duration_seconds": 1.128676176071167,
+    "count_duration_seconds": 0.03914308547973633
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "playframework",
+  "repo": "playframework",
+  "full_name": "playframework/playframework",
+  "url": "https://github.com/playframework/playframework",
+  "analysis": {
+    "owner": "playframework",
+    "repo": "playframework",
+    "version": "HEAD",
+    "loc": 69213,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:26:28.228333+00:00",
+    "repo_url": "https://github.com/playframework/playframework.git",
+    "ref": "HEAD",
+    "commit_hash": "39165e5f9ffba5e675b11848a2b4803dbb174c5e",
+    "clone_duration_seconds": 1.5397365093231201,
+    "count_duration_seconds": 0.22269868850708008
+  }
+}

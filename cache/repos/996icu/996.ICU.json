@@ -3,10 +3,11 @@
   "name": "996.ICU",
   "url": "https://github.com/996icu/996.ICU",
   "description": "Repo for counting stars and contributing. Press F to pay respect to glorious developers.",
-  "language": "None",
-  "stars": 275465,
+  "language": null,
+  "stars": 275467,
   "categories": {
-    "github-ranking-top-100-stars": "2026-02-09"
+    "github-ranking-top-100-stars": "2026-02-09",
+    "search": "2026-02-10"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

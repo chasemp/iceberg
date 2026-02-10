@@ -1,0 +1,13 @@
+{
+  "owner": "JuliaPlots",
+  "repo": "Plots.jl",
+  "version": "HEAD",
+  "loc": 70,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:09:32.140152+00:00",
+  "repo_url": "https://github.com/JuliaPlots/Plots.jl.git",
+  "ref": "HEAD",
+  "commit_hash": "9de399859af6b33cf3d1b9340b1864d13b661da5",
+  "clone_duration_seconds": 1.039856195449829,
+  "count_duration_seconds": 0.005166053771972656
+}

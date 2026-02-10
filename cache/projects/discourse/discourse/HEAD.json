@@ -1,0 +1,13 @@
+{
+  "owner": "discourse",
+  "repo": "discourse",
+  "version": "HEAD",
+  "loc": 438197,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:22:22.885324+00:00",
+  "repo_url": "https://github.com/discourse/discourse.git",
+  "ref": "HEAD",
+  "commit_hash": "e26bc210a6d04d0244e40e1558f1d226f1655b03",
+  "clone_duration_seconds": 6.150147914886475,
+  "count_duration_seconds": 0.6840119361877441
+}

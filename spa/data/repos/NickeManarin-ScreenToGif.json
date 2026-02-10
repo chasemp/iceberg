@@ -1,0 +1,19 @@
+{
+  "owner": "NickeManarin",
+  "repo": "ScreenToGif",
+  "full_name": "NickeManarin/ScreenToGif",
+  "url": "https://github.com/NickeManarin/ScreenToGif",
+  "analysis": {
+    "owner": "NickeManarin",
+    "repo": "ScreenToGif",
+    "version": "HEAD",
+    "loc": 60775,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:15:47.593079+00:00",
+    "repo_url": "https://github.com/NickeManarin/ScreenToGif.git",
+    "ref": "HEAD",
+    "commit_hash": "ce4b527c04f11e5d71a8733338fb82d50eedd5c5",
+    "clone_duration_seconds": 1.2768046855926514,
+    "count_duration_seconds": 0.05442690849304199
+  }
+}

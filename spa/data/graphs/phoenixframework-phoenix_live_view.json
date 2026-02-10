@@ -1,0 +1,16 @@
+{
+  "owner": "phoenixframework",
+  "repo": "phoenix_live_view",
+  "full_name": "phoenixframework/phoenix_live_view",
+  "root_package": "npm:phoenix_live_view:1.2.0-dev",
+  "nodes": [
+    {
+      "id": "npm:phoenix_live_view:1.2.0-dev",
+      "system": "npm",
+      "name": "phoenix_live_view",
+      "version": "1.2.0-dev"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-10T07:49:02.500202+00:00"
+}

@@ -3,10 +3,11 @@
   "name": "awesome-selfhosted",
   "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
   "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
-  "language": "None",
-  "stars": 272322,
+  "language": null,
+  "stars": 272500,
   "categories": {
-    "github-ranking-top-100-stars": "2026-02-09"
+    "github-ranking-top-100-stars": "2026-02-09",
+    "search": "2026-02-10"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

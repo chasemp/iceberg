@@ -1,0 +1,13 @@
+{
+  "owner": "php",
+  "repo": "php-src",
+  "version": "HEAD",
+  "loc": 1585549,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:36:46.141586+00:00",
+  "repo_url": "https://github.com/php/php-src.git",
+  "ref": "HEAD",
+  "commit_hash": "a760cf73f040897e2b00e816708b80a4e8716053",
+  "clone_duration_seconds": 6.724632978439331,
+  "count_duration_seconds": 0.8194913864135742
+}

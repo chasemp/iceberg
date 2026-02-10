@@ -1,0 +1,19 @@
+{
+  "owner": "android",
+  "repo": "architecture-samples",
+  "full_name": "android/architecture-samples",
+  "url": "https://github.com/android/architecture-samples",
+  "analysis": {
+    "owner": "android",
+    "repo": "architecture-samples",
+    "version": "HEAD",
+    "loc": 3541,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:42:15.131589+00:00",
+    "repo_url": "https://github.com/android/architecture-samples.git",
+    "ref": "HEAD",
+    "commit_hash": "ee66e1526b84c026615df032c705842b7d2a521f",
+    "clone_duration_seconds": 0.8401749134063721,
+    "count_duration_seconds": 0.00847625732421875
+  }
+}

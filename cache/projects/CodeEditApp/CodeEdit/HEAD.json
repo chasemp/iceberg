@@ -1,0 +1,13 @@
+{
+  "owner": "CodeEditApp",
+  "repo": "CodeEdit",
+  "version": "HEAD",
+  "loc": 43825,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T06:59:21.282645+00:00",
+  "repo_url": "https://github.com/CodeEditApp/CodeEdit.git",
+  "ref": "HEAD",
+  "commit_hash": "cec6287a49a0a460cd7cab17f254eebc3ada828e",
+  "clone_duration_seconds": 1.2059309482574463,
+  "count_duration_seconds": 0.057601213455200195
+}

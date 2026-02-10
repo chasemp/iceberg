@@ -1,0 +1,19 @@
+{
+  "owner": "open-guides",
+  "repo": "og-aws",
+  "full_name": "open-guides/og-aws",
+  "url": "https://github.com/open-guides/og-aws",
+  "analysis": {
+    "owner": "open-guides",
+    "repo": "og-aws",
+    "version": "HEAD",
+    "loc": 14,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:12:32.502423+00:00",
+    "repo_url": "https://github.com/open-guides/og-aws.git",
+    "ref": "HEAD",
+    "commit_hash": "cde02946c221492d46c03777de41894b88b7d1ff",
+    "clone_duration_seconds": 0.8293070793151855,
+    "count_duration_seconds": 0.0013127326965332031
+  }
+}

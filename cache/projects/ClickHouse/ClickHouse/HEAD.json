@@ -1,0 +1,13 @@
+{
+  "owner": "ClickHouse",
+  "repo": "ClickHouse",
+  "version": "HEAD",
+  "loc": 1473722,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:40:26.833611+00:00",
+  "repo_url": "https://github.com/ClickHouse/ClickHouse.git",
+  "ref": "HEAD",
+  "commit_hash": "ab0428554885e3b1d52419801b34f6d1a2fe3a8f",
+  "clone_duration_seconds": 12.810184001922607,
+  "count_duration_seconds": 1.1982386112213135
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "peass-ng",
+  "repo": "PEASS-ng",
+  "full_name": "peass-ng/PEASS-ng",
+  "url": "https://github.com/peass-ng/PEASS-ng",
+  "analysis": {
+    "owner": "peass-ng",
+    "repo": "PEASS-ng",
+    "version": "HEAD",
+    "loc": 152119,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:17:58.633864+00:00",
+    "repo_url": "https://github.com/peass-ng/PEASS-ng.git",
+    "ref": "HEAD",
+    "commit_hash": "c1bf38a8abbd69bff169e257e89c5cca91fca4e5",
+    "clone_duration_seconds": 1.7254576683044434,
+    "count_duration_seconds": 0.14185881614685059
+  }
+}

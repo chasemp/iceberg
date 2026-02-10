@@ -1,0 +1,13 @@
+{
+  "owner": "jgm",
+  "repo": "pandoc",
+  "version": "HEAD",
+  "loc": 1947,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:18:06.789612+00:00",
+  "repo_url": "https://github.com/jgm/pandoc.git",
+  "ref": "HEAD",
+  "commit_hash": "f9fb410cd962d0ca17d8de849e3839ca4dcece2f",
+  "clone_duration_seconds": 1.6857631206512451,
+  "count_duration_seconds": 0.04133200645446777
+}

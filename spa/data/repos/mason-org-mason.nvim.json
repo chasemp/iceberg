@@ -1,0 +1,19 @@
+{
+  "owner": "mason-org",
+  "repo": "mason.nvim",
+  "full_name": "mason-org/mason.nvim",
+  "url": "https://github.com/mason-org/mason.nvim",
+  "analysis": {
+    "owner": "mason-org",
+    "repo": "mason.nvim",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:48:24.391153+00:00",
+    "repo_url": "https://github.com/mason-org/mason.nvim.git",
+    "ref": "HEAD",
+    "commit_hash": "44d1e90e1f66e077268191e3ee9d2ac97cc18e65",
+    "clone_duration_seconds": 0.5992693901062012,
+    "count_duration_seconds": 0.004487514495849609
+  }
+}

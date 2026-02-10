@@ -1,0 +1,19 @@
+{
+  "owner": "mathiasbynens",
+  "repo": "dotfiles",
+  "full_name": "mathiasbynens/dotfiles",
+  "url": "https://github.com/mathiasbynens/dotfiles",
+  "analysis": {
+    "owner": "mathiasbynens",
+    "repo": "dotfiles",
+    "version": "HEAD",
+    "loc": 89,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:13:02.670012+00:00",
+    "repo_url": "https://github.com/mathiasbynens/dotfiles.git",
+    "ref": "HEAD",
+    "commit_hash": "b7c7894e7bb2de5d60bfb9a2f5e46d01a61300ea",
+    "clone_duration_seconds": 0.5491039752960205,
+    "count_duration_seconds": 0.0016326904296875
+  }
+}

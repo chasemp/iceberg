@@ -1,0 +1,19 @@
+{
+  "owner": "AstroNvim",
+  "repo": "AstroNvim",
+  "full_name": "AstroNvim/AstroNvim",
+  "url": "https://github.com/AstroNvim/AstroNvim",
+  "analysis": {
+    "owner": "AstroNvim",
+    "repo": "AstroNvim",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:47:39.008746+00:00",
+    "repo_url": "https://github.com/AstroNvim/AstroNvim.git",
+    "ref": "HEAD",
+    "commit_hash": "7fd58328e2bc91d5cad606ee48fdf924fca6ea3e",
+    "clone_duration_seconds": 0.6612343788146973,
+    "count_duration_seconds": 0.001743316650390625
+  }
+}

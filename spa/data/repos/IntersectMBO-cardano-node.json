@@ -1,0 +1,19 @@
+{
+  "owner": "IntersectMBO",
+  "repo": "cardano-node",
+  "full_name": "IntersectMBO/cardano-node",
+  "url": "https://github.com/IntersectMBO/cardano-node",
+  "analysis": {
+    "owner": "IntersectMBO",
+    "repo": "cardano-node",
+    "version": "HEAD",
+    "loc": 13508,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:21:19.520467+00:00",
+    "repo_url": "https://github.com/IntersectMBO/cardano-node.git",
+    "ref": "HEAD",
+    "commit_hash": "6c809637bad5eb749609d76d4d31433202e091e7",
+    "clone_duration_seconds": 1.3710651397705078,
+    "count_duration_seconds": 0.028992414474487305
+  }
+}

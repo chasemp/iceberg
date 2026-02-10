@@ -1,0 +1,19 @@
+{
+  "owner": "TuringLang",
+  "repo": "Turing.jl",
+  "full_name": "TuringLang/Turing.jl",
+  "url": "https://github.com/TuringLang/Turing.jl",
+  "analysis": {
+    "owner": "TuringLang",
+    "repo": "Turing.jl",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:09:24.590564+00:00",
+    "repo_url": "https://github.com/TuringLang/Turing.jl.git",
+    "ref": "HEAD",
+    "commit_hash": "9be3ed55203b73dc98c990ca9b096a5f518c0ddf",
+    "clone_duration_seconds": 0.6854190826416016,
+    "count_duration_seconds": 0.0021834373474121094
+  }
+}

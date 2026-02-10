@@ -1,0 +1,19 @@
+{
+  "owner": "spree",
+  "repo": "spree",
+  "full_name": "spree/spree",
+  "url": "https://github.com/spree/spree",
+  "analysis": {
+    "owner": "spree",
+    "repo": "spree",
+    "version": "HEAD",
+    "loc": 58403,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:25:05.352968+00:00",
+    "repo_url": "https://github.com/spree/spree.git",
+    "ref": "HEAD",
+    "commit_hash": "3bd8613729a91487cb63e2c4c5beeb2e6357fe95",
+    "clone_duration_seconds": 3.7221484184265137,
+    "count_duration_seconds": 0.14526748657226562
+  }
+}

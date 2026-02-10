@@ -1,0 +1,19 @@
+{
+  "owner": "monicahq",
+  "repo": "monica",
+  "full_name": "monicahq/monica",
+  "url": "https://github.com/monicahq/monica",
+  "analysis": {
+    "owner": "monicahq",
+    "repo": "monica",
+    "version": "HEAD",
+    "loc": 63698,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:06:08.147160+00:00",
+    "repo_url": "https://github.com/monicahq/monica.git",
+    "ref": "HEAD",
+    "commit_hash": "e08e91734170b6bbd582cb578532c3948196124e",
+    "clone_duration_seconds": 1.6280419826507568,
+    "count_duration_seconds": 0.10959458351135254
+  }
+}

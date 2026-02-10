@@ -1,0 +1,13 @@
+{
+  "owner": "yetone",
+  "repo": "avante.nvim",
+  "version": "HEAD",
+  "loc": 4408,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:47:06.630863+00:00",
+  "repo_url": "https://github.com/yetone/avante.nvim.git",
+  "ref": "HEAD",
+  "commit_hash": "d80b7966c0505809e83e408353bbe8cb3394936d",
+  "clone_duration_seconds": 0.6735594272613525,
+  "count_duration_seconds": 0.00685572624206543
+}

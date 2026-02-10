@@ -1,0 +1,13 @@
+{
+  "owner": "genomicsclass",
+  "repo": "labs",
+  "version": "HEAD",
+  "loc": 6,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:35:33.748791+00:00",
+  "repo_url": "https://github.com/genomicsclass/labs.git",
+  "ref": "HEAD",
+  "commit_hash": "970015761a00d84868a6fb3960fb0a7dd5975cb4",
+  "clone_duration_seconds": 0.9401354789733887,
+  "count_duration_seconds": 0.003277301788330078
+}

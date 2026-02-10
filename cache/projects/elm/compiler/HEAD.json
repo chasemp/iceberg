@@ -1,0 +1,13 @@
+{
+  "owner": "elm",
+  "repo": "compiler",
+  "version": "HEAD",
+  "loc": 155,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:19:03.720310+00:00",
+  "repo_url": "https://github.com/elm/compiler.git",
+  "ref": "HEAD",
+  "commit_hash": "cce7a8bbd8fe690fc83fa795f8d7e02505d1f25f",
+  "clone_duration_seconds": 0.8466486930847168,
+  "count_duration_seconds": 0.005309104919433594
+}

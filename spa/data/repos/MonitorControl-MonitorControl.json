@@ -1,0 +1,19 @@
+{
+  "owner": "MonitorControl",
+  "repo": "MonitorControl",
+  "full_name": "MonitorControl/MonitorControl",
+  "url": "https://github.com/MonitorControl/MonitorControl",
+  "analysis": {
+    "owner": "MonitorControl",
+    "repo": "MonitorControl",
+    "version": "HEAD",
+    "loc": 4954,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T06:57:45.376934+00:00",
+    "repo_url": "https://github.com/MonitorControl/MonitorControl.git",
+    "ref": "HEAD",
+    "commit_hash": "fc19ce2bd2767182a8a061e8d1ea10990239b41d",
+    "clone_duration_seconds": 1.1357152462005615,
+    "count_duration_seconds": 0.00651097297668457
+  }
+}

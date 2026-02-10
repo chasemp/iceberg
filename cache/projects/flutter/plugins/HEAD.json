@@ -1,0 +1,13 @@
+{
+  "owner": "flutter",
+  "repo": "plugins",
+  "version": "HEAD",
+  "loc": 32251,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:30:55.295963+00:00",
+  "repo_url": "https://github.com/flutter/plugins.git",
+  "ref": "HEAD",
+  "commit_hash": "557d3284ac9dda32a1106bb75be8a23bdccd2f96",
+  "clone_duration_seconds": 1.7165696620941162,
+  "count_duration_seconds": 0.15795016288757324
+}

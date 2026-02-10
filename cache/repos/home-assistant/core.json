@@ -4,11 +4,11 @@
   "url": "https://github.com/home-assistant/core",
   "description": ":house_with_garden: Open source home automation that puts local control and privacy first.",
   "language": "Python",
-  "stars": 84702,
+  "stars": 84731,
   "categories": {
-    "search": "2026-02-09",
+    "search": "2026-02-10",
     "github-ranking-top-100-forks": "2026-02-09",
     "github-ranking-python": "2026-02-09"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-10"
 }

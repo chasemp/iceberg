@@ -1,0 +1,19 @@
+{
+  "owner": "scala",
+  "repo": "scala3",
+  "full_name": "scala/scala3",
+  "url": "https://github.com/scala/scala3",
+  "analysis": {
+    "owner": "scala",
+    "repo": "scala3",
+    "version": "HEAD",
+    "loc": 245507,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:28:13.086216+00:00",
+    "repo_url": "https://github.com/scala/scala3.git",
+    "ref": "HEAD",
+    "commit_hash": "f9a3b901eef39bd1e13eb3c19dd121b9614c2826",
+    "clone_duration_seconds": 3.317354917526245,
+    "count_duration_seconds": 0.5591428279876709
+  }
+}

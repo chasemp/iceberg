@@ -1,0 +1,19 @@
+{
+  "owner": "ghc",
+  "repo": "ghc",
+  "full_name": "ghc/ghc",
+  "url": "https://github.com/ghc/ghc",
+  "analysis": {
+    "owner": "ghc",
+    "repo": "ghc",
+    "version": "HEAD",
+    "loc": 92177,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:21:11.027752+00:00",
+    "repo_url": "https://github.com/ghc/ghc.git",
+    "ref": "HEAD",
+    "commit_hash": "89898ce6706e5a5e92081cea60f3eeabeda08242",
+    "clone_duration_seconds": 5.050771474838257,
+    "count_duration_seconds": 0.3311021327972412
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "owner": "livebook-dev",
+  "repo": "livebook",
+  "version": "HEAD",
+  "loc": 12229,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:01:54.497107+00:00",
+  "repo_url": "https://github.com/livebook-dev/livebook.git",
+  "ref": "HEAD",
+  "commit_hash": "c70c4d9ff5ba63aa6136eebe22df578d8704398f",
+  "clone_duration_seconds": 1.5851399898529053,
+  "count_duration_seconds": 0.033246755599975586
+}

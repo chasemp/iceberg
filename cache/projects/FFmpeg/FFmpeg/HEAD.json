@@ -1,0 +1,13 @@
+{
+  "owner": "FFmpeg",
+  "repo": "FFmpeg",
+  "version": "HEAD",
+  "loc": 1279170,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:36:10.150304+00:00",
+  "repo_url": "https://github.com/FFmpeg/FFmpeg.git",
+  "ref": "HEAD",
+  "commit_hash": "38230db7b908af34315cffe848a83989dbe1678e",
+  "clone_duration_seconds": 2.16390061378479,
+  "count_duration_seconds": 0.6462857723236084
+}

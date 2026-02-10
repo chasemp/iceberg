@@ -1,0 +1,19 @@
+{
+  "owner": "plotly",
+  "repo": "plotly.R",
+  "full_name": "plotly/plotly.R",
+  "url": "https://github.com/plotly/plotly.R",
+  "analysis": {
+    "owner": "plotly",
+    "repo": "plotly.R",
+    "version": "HEAD",
+    "loc": 754,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T07:34:09.596474+00:00",
+    "repo_url": "https://github.com/plotly/plotly.R.git",
+    "ref": "HEAD",
+    "commit_hash": "f7acae4ff05741866ef105ea46c9a775a06308a1",
+    "clone_duration_seconds": 1.5809378623962402,
+    "count_duration_seconds": 0.039496660232543945
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "owner": "elixir-nx",
+  "repo": "nx",
+  "version": "HEAD",
+  "loc": 1968,
+  "source": "github_clone",
+  "cached_at": "2026-02-10T07:03:25.205754+00:00",
+  "repo_url": "https://github.com/elixir-nx/nx.git",
+  "ref": "HEAD",
+  "commit_hash": "bd34234bc2d55e8a15498db3dca59d8e57943430",
+  "clone_duration_seconds": 1.013347864151001,
+  "count_duration_seconds": 0.005599260330200195
+}
