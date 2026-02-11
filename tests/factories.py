@@ -8,7 +8,7 @@ def create_discovered_repo(
     description: str | None = "A test repo",
     language: str | None = "Python",
     stars: int = 100,
-    source: str = "trending-daily",
+    source: str = "trending-monthly",
     discovered_at: str = "2026-02-02T12:00:00Z",
     search_query: str | None = None,
 ) -> DiscoveredRepo:
@@ -40,7 +40,7 @@ def create_trending_repo(
         description=description,
         language=language,
         stars=stars,
-        source="trending-daily",
+        source="trending-monthly",
         discovered_at="2026-02-02T12:00:00Z",
     )
 

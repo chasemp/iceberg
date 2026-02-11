@@ -282,7 +282,7 @@ def load_discovered_repos(
     """Load discovered repos by source and identifier.
 
     Args:
-        source: Source type (trending-daily, trending-weekly, trending-monthly, search)
+        source: Source type (trending-monthly, search, github-ranking-python)
         identifier: Date for trending (2026-02-02) or query for search
         cache_dir: Optional cache directory path
 

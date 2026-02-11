@@ -12,7 +12,7 @@ class DiscoveredRepo(BaseModel):
     description: str | None
     language: str | None
     stars: int
-    source: str  # Source identifier (e.g., "trending-daily", "search", "github-ranking-python")
+    source: str  # Source identifier (e.g., "trending-monthly", "search", "github-ranking-python")
     discovered_at: str
     search_query: str | None = None
 

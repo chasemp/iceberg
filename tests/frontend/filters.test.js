@@ -22,7 +22,7 @@ function makeRepo(overrides) {
 describe('deduplicateRepos', () => {
     test('assigns source based on dimension type', () => {
         const dimensions = [
-            { type: 'trending', timeframe: 'weekly', repos: [{ owner: 'a', name: 'b', stars: 100 }] },
+            { type: 'trending', timeframe: 'monthly', repos: [{ owner: 'a', name: 'b', stars: 100 }] },
             { type: 'search', id: 'search-1', repos: [{ owner: 'c', name: 'd', stars: 200 }] },
             { type: 'github-ranking', category: 'python', id: 'rank-py', repos: [{ owner: 'e', name: 'f', stars: 300 }] },
         ];
@@ -30,7 +30,7 @@ describe('deduplicateRepos', () => {
         const repos = deduplicateRepos(dimensions);
 
         expect(repos).toHaveLength(3);
-        expect(repos.find(r => r.owner === 'a').sources).toEqual(['trending-weekly']);
+        expect(repos.find(r => r.owner === 'a').sources).toEqual(['trending-monthly']);
         expect(repos.find(r => r.owner === 'c').sources).toEqual(['search']);
         expect(repos.find(r => r.owner === 'e').sources).toEqual(['github-ranking-python']);
     });
@@ -38,14 +38,14 @@ describe('deduplicateRepos', () => {
     test('accumulates multiple sources for the same repo', () => {
         const dimensions = [
             { type: 'github-ranking', category: 'python', id: 'rank-py', repos: [{ owner: 'a', name: 'b', stars: 100 }] },
-            { type: 'trending', timeframe: 'weekly', repos: [{ owner: 'a', name: 'b', stars: 100 }] },
+            { type: 'trending', timeframe: 'monthly', repos: [{ owner: 'a', name: 'b', stars: 100 }] },
             { type: 'search', id: 'search-1', repos: [{ owner: 'a', name: 'b', stars: 100 }] },
         ];
 
         const repos = deduplicateRepos(dimensions);
 
         expect(repos).toHaveLength(1);
-        expect(repos[0].sources).toEqual(['github-ranking-python', 'trending-weekly', 'search']);
+        expect(repos[0].sources).toEqual(['github-ranking-python', 'trending-monthly', 'search']);
     });
 
     test('deduplicates by owner/name key', () => {
@@ -70,7 +70,7 @@ describe('deduplicateRepos', () => {
 
     test('skips dimensions without repos array', () => {
         const dimensions = [
-            { type: 'trending', timeframe: 'weekly' },
+            { type: 'trending', timeframe: 'monthly' },
             { type: 'search', id: 's', repos: [{ owner: 'a', name: 'b', stars: 1 }] },
         ];
 
@@ -86,7 +86,7 @@ describe('filterByTrending', () => {
             makeRepo({ owner: 'c', sources: ['github-ranking-top-100-stars', 'search'] }),
         ];
 
-        const result = filterByTrending(repos, ['weekly']);
+        const result = filterByTrending(repos, ['monthly']);
         expect(result).toHaveLength(3);
     });
 
@@ -102,18 +102,18 @@ describe('filterByTrending', () => {
 
     test('trending-only repos are gated by selected timeframes', () => {
         const repos = [
-            makeRepo({ owner: 'a', sources: ['trending-weekly'] }),
-            makeRepo({ owner: 'b', sources: ['trending-monthly'] }),
+            makeRepo({ owner: 'a', sources: ['trending-monthly'] }),
+            makeRepo({ owner: 'b', sources: ['search'] }),
         ];
 
-        const result = filterByTrending(repos, ['weekly']);
-        expect(result).toHaveLength(1);
+        const result = filterByTrending(repos, ['monthly']);
+        expect(result).toHaveLength(2);
         expect(result[0].owner).toBe('a');
     });
 
     test('trending-only repos are excluded when no trending selected', () => {
         const repos = [
-            makeRepo({ owner: 'a', sources: ['trending-weekly'] }),
+            makeRepo({ owner: 'a', sources: ['trending-monthly'] }),
             makeRepo({ owner: 'b', sources: ['trending-monthly'] }),
         ];
 
@@ -123,20 +123,20 @@ describe('filterByTrending', () => {
 
     test('multi-source repos with trending + ranking pass through regardless of trending selection', () => {
         const repos = [
-            makeRepo({ owner: 'a', sources: ['trending-weekly', 'github-ranking-python'] }),
+            makeRepo({ owner: 'a', sources: ['trending-monthly', 'github-ranking-python'] }),
         ];
 
         const result = filterByTrending(repos, ['monthly']);
         expect(result).toHaveLength(1);
     });
 
-    test('all trending timeframes can be selected', () => {
+    test('monthly trending repos pass with monthly selected', () => {
         const repos = [
-            makeRepo({ owner: 'a', sources: ['trending-weekly'] }),
+            makeRepo({ owner: 'a', sources: ['trending-monthly'] }),
             makeRepo({ owner: 'b', sources: ['trending-monthly'] }),
         ];
 
-        const result = filterByTrending(repos, ['weekly', 'monthly']);
+        const result = filterByTrending(repos, ['monthly']);
         expect(result).toHaveLength(2);
     });
 });
@@ -345,22 +345,22 @@ describe('filterByAiTools', () => {
 describe('applyAllFilters', () => {
     test('applies all filters with AND logic', () => {
         const repos = [
-            makeRepo({ owner: 'a', sources: ['trending-weekly'], stars: 5000, language: 'Python' }),
+            makeRepo({ owner: 'a', sources: ['trending-monthly'], stars: 5000, language: 'Python' }),
             makeRepo({ owner: 'b', sources: ['trending-monthly'], stars: 500, language: 'Python' }),
             makeRepo({ owner: 'c', sources: ['github-ranking-python'], stars: 5000, language: 'Rust' }),
             makeRepo({ owner: 'd', sources: ['github-ranking-rust'], stars: 50000, language: 'Rust' }),
         ];
 
         const result = applyAllFilters(repos, {
-            trending: ['weekly'],
+            trending: ['monthly'],
             stars: ['1000-10000'],
             languages: ['Python', 'Rust'],
             searchQuery: '',
             aiTools: []
         });
 
-        // a: trending-weekly (only trending, passes weekly) + 5000 stars (passes 1K-10K) + Python (passes) = YES
-        // b: trending-monthly (only trending, fails weekly) = NO
+        // a: trending-monthly (only trending, passes monthly) + 5000 stars (passes 1K-10K) + Python (passes) = YES
+        // b: trending-monthly (only trending, passes monthly) + 500 stars (fails 1K-10K) = NO
         // c: ranking (non-trending, passes) + 5000 (passes 1K-10K) + Rust (passes) = YES
         // d: ranking (non-trending, passes) + 50000 (fails 1K-10K) = NO
         expect(result).toHaveLength(2);
@@ -371,11 +371,11 @@ describe('applyAllFilters', () => {
         const repos = [
             makeRepo({ owner: 'a', sources: ['github-ranking-python'], stars: 50000, language: 'Python' }),
             makeRepo({ owner: 'b', sources: ['search'], stars: 500, language: 'Rust' }),
-            makeRepo({ owner: 'c', sources: ['trending-weekly'], stars: 5000, language: 'Go' }),
+            makeRepo({ owner: 'c', sources: ['trending-monthly'], stars: 5000, language: 'Go' }),
         ];
 
         const result = applyAllFilters(repos, {
-            trending: ['weekly', 'monthly'],
+            trending: ['monthly'],
             stars: ['0-100', '100-1000', '1000-10000', '10000+'],
             languages: ['Python', 'Rust', 'Go'],
             searchQuery: '',
@@ -392,7 +392,7 @@ describe('applyAllFilters', () => {
         ];
 
         const result = applyAllFilters(repos, {
-            trending: ['weekly', 'monthly'],
+            trending: ['monthly'],
             stars: ['0-100', '100-1000', '1000-10000', '10000+'],
             languages: ['JavaScript'],
             searchQuery: 'react',

@@ -12,7 +12,7 @@ def test_trending_repo_validates_with_valid_data() -> None:
         description="A test repo",
         language="Python",
         stars=100,
-        source="trending-daily",
+        source="trending-monthly",
         discovered_at="2026-02-02T12:00:00Z",
     )
 
@@ -31,7 +31,7 @@ def test_trending_repo_is_frozen() -> None:
         description="A test repo",
         language="Python",
         stars=100,
-        source="trending-daily",
+        source="trending-monthly",
         discovered_at="2026-02-02T12:00:00Z",
     )
 
@@ -49,7 +49,7 @@ def test_trending_repo_allows_none_for_optional_fields() -> None:
         description=None,
         language=None,
         stars=0,
-        source="trending-daily",
+        source="trending-monthly",
         discovered_at="2026-02-02T12:00:00Z",
     )
 
@@ -187,29 +187,13 @@ def test_discovered_repo_validates_with_source_field() -> None:
         description="A test repo",
         language="Python",
         stars=100,
-        source="trending-daily",
+        source="trending-monthly",
         discovered_at="2026-02-02T12:00:00Z",
     )
 
     assert repo.name == "example"
-    assert repo.source == "trending-daily"
+    assert repo.source == "trending-monthly"
     assert repo.discovered_at == "2026-02-02T12:00:00Z"
-
-
-def test_discovered_repo_rejects_invalid_source() -> None:
-    from iceberg.models import DiscoveredRepo
-
-    with pytest.raises(ValidationError):
-        DiscoveredRepo(
-            name="example",
-            owner="owner",
-            url="https://github.com/owner/example",
-            description="A test repo",
-            language="Python",
-            stars=100,
-            source="invalid-source",  # type: ignore[arg-type]
-            discovered_at="2026-02-02T12:00:00Z",
-        )
 
 
 def test_discovered_repo_with_search_query() -> None:
@@ -241,12 +225,12 @@ def test_trending_repo_alias_works() -> None:
         description="A test repo",
         language="Python",
         stars=100,
-        source="trending-daily",
+        source="trending-monthly",
         discovered_at="2026-02-02T12:00:00Z",
     )
 
     assert repo.name == "example"
-    assert repo.source == "trending-daily"
+    assert repo.source == "trending-monthly"
 
 
 def test_discovered_repo_is_frozen() -> None:
@@ -259,7 +243,7 @@ def test_discovered_repo_is_frozen() -> None:
         description="A test repo",
         language="Python",
         stars=100,
-        source="trending-daily",
+        source="trending-monthly",
         discovered_at="2026-02-02T12:00:00Z",
     )
 
@@ -287,5 +271,5 @@ def test_create_trending_repo_factory_backward_compatible() -> None:
     repo = create_trending_repo(name="test")
 
     assert repo.name == "test"
-    assert repo.source == "trending-daily"
+    assert repo.source == "trending-monthly"
     assert repo.discovered_at == "2026-02-02T12:00:00Z"

@@ -6,7 +6,7 @@ let state = {
     selectedDimension: null,
     filters: {
         onlyWithDeps: false,  // Toggle to show only repos with dependencies
-        trending: ['weekly', 'monthly'],  // Selected trending timeframes: 'weekly', 'monthly'
+        trending: ['monthly'],  // Selected trending timeframes: 'monthly'
         stars: ['0-100', '100-1000', '1000-10000', '10000+'],  // Selected star ranges
         languages: [],  // Selected languages (populated on load with all languages)
         aiTools: []  // Selected AI tools (empty = show all repos including those without AI tools)
@@ -290,8 +290,8 @@ async function clearAllFilters() {
 }
 
 async function resetAllFilters() {
-    // Reset trending filter (weekly, monthly)
-    state.filters.trending = ['weekly', 'monthly'];
+    // Reset trending filter (monthly)
+    state.filters.trending = ['monthly'];
     document.querySelectorAll('[data-testid="trending-dropdown-menu"] input[type="checkbox"]').forEach(cb => {
         cb.checked = state.filters.trending.includes(cb.value);
     });
@@ -636,10 +636,10 @@ function selectDefaultDimension() {
         return;
     }
 
-    // Fallback to trending-weekly
-    const weekly = state.index.dimensions.find(d => d.id === 'trending-weekly');
-    if (weekly && weekly.repos && weekly.repos.length > 0) {
-        selectDimension(weekly);
+    // Fallback to trending-monthly
+    const monthly = state.index.dimensions.find(d => d.id === 'trending-monthly');
+    if (monthly && monthly.repos && monthly.repos.length > 0) {
+        selectDimension(monthly);
         return;
     }
 

@@ -1,127 +1,115 @@
-# Repository Tracking and Updates
+# Repository Tracking
 
-Iceberg now supports tracking repositories for continuous updates and detecting when cached data is stale.
+Track specific repositories for priority analysis with shorter staleness thresholds.
 
 ## Quick Start
 
 ```bash
-# Track a specific repository
+# Track a repository
 iceberg track facebook/react
-
-# Check all repos for updates
-python scripts/analyze_all_discovered.py --update
-
-# Update only tracked repos
-python scripts/update_tracked.py
 
 # List tracked repos
 iceberg list-tracked
+
+# Check project status
+iceberg status
+
+# Run analysis (tracked repos get priority)
+iceberg run-analysis -v
 ```
 
-## Features Overview
+## How It Works
 
-### 1. Manual Tracking
-Add specific repos to monitor continuously, beyond trending/search.
+Tracking is stored as a `"tracked"` category in the repo's metadata file (`cache/repos/{owner}/{repo}.json`), alongside discovery sources:
 
-### 2. Update Detection  
-Compare cached commit hashes with current HEAD to detect stale data.
+```json
+{
+  "owner": "facebook",
+  "name": "react",
+  "stars": 242901,
+  "categories": {
+    "search": "2026-02-10",
+    "github-ranking-top-100-stars": "2026-02-09",
+    "tracked": "2026-02-11"
+  }
+}
+```
 
-### 3. Smart Re-analysis
-Only re-analyze repos when new commits are detected.
+Tracked repos get:
+- **Shorter staleness threshold**: 24 hours (vs 7 days for popular, 30 for regular)
+- **Higher priority**: Analyzed first in each batch
+- **Visibility**: Shown in `iceberg status` output
 
 ## Commands
 
-### Track Repositories
-
+### Track a Repository
 ```bash
-# Add to tracking list
 iceberg track owner/repo
+```
 
-# Remove from tracking
+If the repo doesn't have metadata yet (not previously discovered), a minimal metadata file is created.
+
+### Untrack a Repository
+```bash
 iceberg untrack owner/repo
+```
 
-# List all tracked
+Removes the `"tracked"` category but preserves all other metadata and discovery sources.
+
+### List Tracked Repos
+```bash
 iceberg list-tracked
 iceberg list-tracked --json
 ```
 
-### Update Repositories
-
+### Check Status
 ```bash
-# Check discovered repos for updates
-python scripts/analyze_all_discovered.py --update
-
-# Update tracked repos only
-python scripts/update_tracked.py
-
-# Force re-analysis (all repos)
-python scripts/analyze_all_discovered.py --force
+iceberg status
 ```
+
+Shows tracked count alongside discovered, analyzed, and exported counts.
+
+## Staleness Tiers
+
+Configured in `config/staleness.json`:
+
+| Tier | Condition | Max Age | Priority |
+|------|-----------|---------|----------|
+| **Tracked** | has "tracked" category | 24 hours | Highest |
+| Popular | stars >= 10,000 | 7 days | Medium |
+| Regular | everything else | 30 days | Lowest |
+
+When `iceberg run-analysis` runs, it processes repos in tier order: all stale tracked repos first, then popular, then regular.
 
 ## Workflow Integration
 
-Recommended daily workflow:
+The daily analysis workflow (`analyze.yml`) automatically handles tracked repos with priority. No separate workflow needed.
 
 ```bash
-#!/bin/bash
-
-# Fetch new trending repos
-iceberg fetch --source trending --since daily --limit 25
-
-# Check for updates
-python scripts/analyze_all_discovered.py --update
-python scripts/update_tracked.py
-
-# Export to SPA
-iceberg export
-
-# Commit changes (if using GitHub Pages)
-git add cache spa/data
-git commit -m "Update analysis data"
-git push
+# Tracked repos analyzed first, then popular, then regular
+iceberg run-analysis --batch-size 25 -v
 ```
 
-## How Update Detection Works
-
-1. **Fetch current HEAD**: Get latest commit hash from GitHub
-2. **Compare with cache**: Check cached commit hash
-3. **Detect changes**: If different, re-analysis needed
-4. **Update**: Clone and analyze new version
-
-## Storage
-
-Tracked repos stored in `cache/tracked.json`:
-
-```json
-{
-  "repositories": [
-    {
-      "owner": "facebook",
-      "repo": "react", 
-      "added_at": "2026-02-02T23:00:00+00:00"
-    }
-  ],
-  "updated_at": "2026-02-02T23:00:00+00:00"
-}
+To force immediate re-analysis of everything:
+```bash
+iceberg run-analysis --force --batch-size 10 -v
 ```
-
-## Best Practices
-
-- **Set GITHUB_TOKEN** for higher rate limits
-- **Track selectively** - focus on important repos
-- **Run --update daily** to keep data fresh
-- **Use --force sparingly** - it re-analyzes everything
 
 ## Troubleshooting
 
-**"could not fetch current HEAD"**
-- Network issue or GitHub rate limit
-- Set GITHUB_TOKEN environment variable
+**"not being tracked"**
+- Check spelling: `iceberg list-tracked`
+- Re-track: `iceberg track owner/repo`
+
+**Tracked repo not analyzed**
+- Check batch size: tracked repos are prioritized but still limited by `--batch-size`
+- Force it: `iceberg run-analysis --force --batch-size 5 -v`
 
 **Update not detected**
 - Force re-analysis: `iceberg analyze owner/repo`
 - Or clear cache: `rm -rf cache/projects/owner/repo`
 
-**Too slow**
-- Focus on tracked repos: `python scripts/update_tracked.py`
-- Use --update less frequently (e.g., weekly)
+## See Also
+
+- [Workflows Guide](WORKFLOWS.md) - Workflow details
+- [Architecture Guide](ARCHITECTURE.md) - System architecture

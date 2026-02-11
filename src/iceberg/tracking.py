@@ -1,4 +1,8 @@
-"""Repository tracking for continuous updates."""
+"""Repository tracking for continuous updates.
+
+Tracking is stored as a 'tracked' category in repo metadata
+(cache/repos/{owner}/{repo}.json), just like discovery sources.
+"""
 
 import json
 from datetime import datetime, timezone
@@ -9,69 +13,115 @@ from iceberg.cache import get_default_cache_dir, load_project_loc
 from iceberg.github_loc import get_current_head_hash
 
 
-def get_tracked_file(cache_dir: Path | None = None) -> Path:
-    """Get path to tracked repositories file."""
-    if cache_dir is None:
-        cache_dir = get_default_cache_dir()
-    return cache_dir / "tracked.json"
+def _get_repo_metadata_path(owner: str, repo: str, cache_dir: Path) -> Path:
+    return cache_dir / "repos" / owner / f"{repo}.json"
+
+
+def _load_repo_metadata(owner: str, repo: str, cache_dir: Path) -> dict[str, Any] | None:
+    path = _get_repo_metadata_path(owner, repo, cache_dir)
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text())
+    except (json.JSONDecodeError, IOError):
+        return None
+
+
+def _save_repo_metadata(owner: str, repo: str, cache_dir: Path, data: dict[str, Any]) -> None:
+    path = _get_repo_metadata_path(owner, repo, cache_dir)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, indent=2))
 
 
 def load_tracked_repos(cache_dir: Path | None = None) -> list[dict[str, str]]:
     """Load list of tracked repositories.
-    
+
+    Scans all repo metadata files for repos with 'tracked' in categories.
+
     Returns:
-        List of dicts with 'owner' and 'repo' keys
+        List of dicts with 'owner', 'repo', and 'added_at' keys
     """
-    tracked_file = get_tracked_file(cache_dir)
-    
-    if not tracked_file.exists():
+    if cache_dir is None:
+        cache_dir = get_default_cache_dir()
+
+    repos_dir = cache_dir / "repos"
+    if not repos_dir.exists():
         return []
-    
-    data: dict[str, Any] = json.loads(tracked_file.read_text())
-    return data.get("repositories", [])
 
+    tracked = []
+    for owner_dir in repos_dir.iterdir():
+        if not owner_dir.is_dir():
+            continue
+        for repo_file in owner_dir.iterdir():
+            if not repo_file.name.endswith(".json"):
+                continue
+            try:
+                data = json.loads(repo_file.read_text())
+                categories = data.get("categories", {})
+                if "tracked" in categories:
+                    tracked.append({
+                        "owner": data.get("owner", owner_dir.name),
+                        "repo": data.get("name", repo_file.stem),
+                        "added_at": categories["tracked"],
+                    })
+            except (json.JSONDecodeError, IOError):
+                continue
 
-def save_tracked_repos(repos: list[dict[str, str]], cache_dir: Path | None = None) -> None:
-    """Save list of tracked repositories."""
-    tracked_file = get_tracked_file(cache_dir)
-    tracked_file.parent.mkdir(parents=True, exist_ok=True)
-    
-    data = {
-        "repositories": repos,
-        "updated_at": datetime.now(timezone.utc).isoformat(),
-    }
-    
-    tracked_file.write_text(json.dumps(data, indent=2))
+    return tracked
 
 
 def save_tracked_repo(owner: str, repo: str, cache_dir: Path | None = None) -> None:
-    """Add a repository to tracking list."""
-    repos = load_tracked_repos(cache_dir)
-    
-    # Check if already tracked
-    if any(r["owner"] == owner and r["repo"] == repo for r in repos):
+    """Add a repository to tracking by adding 'tracked' to its categories."""
+    if cache_dir is None:
+        cache_dir = get_default_cache_dir()
+
+    today = datetime.now(timezone.utc).date().isoformat()
+    data = _load_repo_metadata(owner, repo, cache_dir)
+
+    if data is None:
+        data = {
+            "owner": owner,
+            "name": repo,
+            "categories": {},
+        }
+
+    categories = data.get("categories", {})
+    if "tracked" in categories:
         return
-    
-    repos.append({
-        "owner": owner,
-        "repo": repo,
-        "added_at": datetime.now(timezone.utc).isoformat(),
-    })
-    
-    save_tracked_repos(repos, cache_dir)
+
+    categories["tracked"] = today
+    data["categories"] = categories
+    _save_repo_metadata(owner, repo, cache_dir, data)
 
 
 def remove_tracked_repo(owner: str, repo: str, cache_dir: Path | None = None) -> None:
-    """Remove a repository from tracking list."""
-    repos = load_tracked_repos(cache_dir)
-    repos = [r for r in repos if not (r["owner"] == owner and r["repo"] == repo)]
-    save_tracked_repos(repos, cache_dir)
+    """Remove a repository from tracking by removing 'tracked' from its categories."""
+    if cache_dir is None:
+        cache_dir = get_default_cache_dir()
+
+    data = _load_repo_metadata(owner, repo, cache_dir)
+    if data is None:
+        return
+
+    categories = data.get("categories", {})
+    if "tracked" not in categories:
+        return
+
+    del categories["tracked"]
+    data["categories"] = categories
+    _save_repo_metadata(owner, repo, cache_dir, data)
 
 
 def is_repo_tracked(owner: str, repo: str, cache_dir: Path | None = None) -> bool:
     """Check if a repository is being tracked."""
-    repos = load_tracked_repos(cache_dir)
-    return any(r["owner"] == owner and r["repo"] == repo for r in repos)
+    if cache_dir is None:
+        cache_dir = get_default_cache_dir()
+
+    data = _load_repo_metadata(owner, repo, cache_dir)
+    if data is None:
+        return False
+
+    return "tracked" in data.get("categories", {})
 
 
 def needs_update(owner: str, repo: str, cache_dir: Path | None = None) -> tuple[bool, str | None]:

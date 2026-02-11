@@ -175,14 +175,14 @@ def test_save_discovered_repos_creates_source_directory(tmp_path: Path) -> None:
     from iceberg.cache import save_discovered_repos
 
     repos = [
-        create_discovered_repo(name="repo1", source="trending-daily"),
-        create_discovered_repo(name="repo2", source="trending-daily"),
+        create_discovered_repo(name="repo1", source="trending-monthly"),
+        create_discovered_repo(name="repo2", source="trending-monthly"),
     ]
 
     save_discovered_repos(repos, cache_dir=tmp_path)
 
     today = datetime.now(timezone.utc).date().isoformat()
-    cache_file = tmp_path / "discovered" / "trending-daily" / f"{today}.json"
+    cache_file = tmp_path / "discovered" / "trending-monthly" / f"{today}.json"
 
     assert cache_file.exists()
 
@@ -213,19 +213,19 @@ def test_load_discovered_repos_by_source_and_date(tmp_path: Path) -> None:
     from iceberg.cache import load_discovered_repos, save_discovered_repos
 
     repos = [
-        create_discovered_repo(name="repo1", source="trending-daily", stars=1000),
-        create_discovered_repo(name="repo2", source="trending-daily", stars=2000),
+        create_discovered_repo(name="repo1", source="trending-monthly", stars=1000),
+        create_discovered_repo(name="repo2", source="trending-monthly", stars=2000),
     ]
 
     save_discovered_repos(repos, cache_dir=tmp_path)
 
     today = datetime.now(timezone.utc).date().isoformat()
-    loaded = load_discovered_repos("trending-daily", today, cache_dir=tmp_path)
+    loaded = load_discovered_repos("trending-monthly", today, cache_dir=tmp_path)
 
     assert loaded is not None
     assert len(loaded) == 2
     assert loaded[0].name == "repo1"
-    assert loaded[0].source == "trending-daily"
+    assert loaded[0].source == "trending-monthly"
     assert loaded[1].stars == 2000
 
 
@@ -251,7 +251,7 @@ def test_load_discovered_repos_with_search_query(tmp_path: Path) -> None:
 def test_load_discovered_repos_returns_none_when_missing(tmp_path: Path) -> None:
     from iceberg.cache import load_discovered_repos
 
-    loaded = load_discovered_repos("trending-daily", "2026-01-01", cache_dir=tmp_path)
+    loaded = load_discovered_repos("trending-monthly", "2026-01-01", cache_dir=tmp_path)
 
     assert loaded is None
 
@@ -259,22 +259,22 @@ def test_load_discovered_repos_returns_none_when_missing(tmp_path: Path) -> None
 def test_discovered_repos_cache_isolation(tmp_path: Path) -> None:
     from iceberg.cache import load_discovered_repos, save_discovered_repos
 
-    # Save to trending-daily
-    daily_repos = [create_discovered_repo(name="repo1", source="trending-daily")]
-    save_discovered_repos(daily_repos, cache_dir=tmp_path)
+    # Save to trending-monthly
+    monthly_repos = [create_discovered_repo(name="repo1", source="trending-monthly")]
+    save_discovered_repos(monthly_repos, cache_dir=tmp_path)
 
-    # Save to trending-weekly
-    weekly_repos = [create_discovered_repo(name="repo2", source="trending-weekly")]
-    save_discovered_repos(weekly_repos, cache_dir=tmp_path)
+    # Save to search
+    search_repos = [create_discovered_repo(name="repo2", source="search", search_query="stars:>5000")]
+    save_discovered_repos(search_repos, cache_dir=tmp_path)
 
     # Verify they don't collide
     today = datetime.now(timezone.utc).date().isoformat()
-    loaded_daily = load_discovered_repos("trending-daily", today, cache_dir=tmp_path)
-    loaded_weekly = load_discovered_repos("trending-weekly", today, cache_dir=tmp_path)
+    loaded_monthly = load_discovered_repos("trending-monthly", today, cache_dir=tmp_path)
+    loaded_search = load_discovered_repos("search", "stars:>5000", cache_dir=tmp_path)
 
-    assert loaded_daily is not None
-    assert loaded_weekly is not None
-    assert loaded_daily[0].name == "repo1"
-    assert loaded_weekly[0].name == "repo2"
+    assert loaded_monthly is not None
+    assert loaded_search is not None
+    assert loaded_monthly[0].name == "repo1"
+    assert loaded_search[0].name == "repo2"
 
 

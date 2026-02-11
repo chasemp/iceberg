@@ -150,7 +150,7 @@ def test_fetch_trending_repos_makes_http_request(httpx_mock: HTTPXMock) -> None:
     from iceberg.github import fetch_trending_repos
 
     httpx_mock.add_response(
-        url="https://github.com/trending",
+        url="https://github.com/trending?since=monthly",
         text=load_fixture("github_trending.html"),
     )
 
@@ -158,7 +158,7 @@ def test_fetch_trending_repos_makes_http_request(httpx_mock: HTTPXMock) -> None:
 
     assert len(repos) == 2
     assert isinstance(repos[0], DiscoveredRepo)
-    assert repos[0].source == "trending-daily"
+    assert repos[0].source == "trending-monthly"
     assert repos[0].discovered_at is not None
     assert repos[0].search_query is None
 
@@ -167,7 +167,7 @@ def test_fetch_trending_repos_respects_limit(httpx_mock: HTTPXMock) -> None:
     from iceberg.github import fetch_trending_repos
 
     httpx_mock.add_response(
-        url="https://github.com/trending",
+        url="https://github.com/trending?since=monthly",
         text=load_fixture("github_trending.html"),
     )
 
@@ -175,7 +175,7 @@ def test_fetch_trending_repos_respects_limit(httpx_mock: HTTPXMock) -> None:
 
     assert len(repos) == 1
     assert repos[0].name == "repo1"
-    assert repos[0].source == "trending-daily"
+    assert repos[0].source == "trending-monthly"
 
 
 def test_fetch_trending_repos_handles_network_error(httpx_mock: HTTPXMock) -> None:
@@ -189,22 +189,7 @@ def test_fetch_trending_repos_handles_network_error(httpx_mock: HTTPXMock) -> No
     assert "Failed to fetch trending repos" in str(exc_info.value)
 
 
-def test_fetch_trending_repos_with_weekly_timeframe(httpx_mock: HTTPXMock) -> None:
-    from iceberg.github import fetch_trending_repos
-
-    httpx_mock.add_response(
-        url="https://github.com/trending?since=weekly",
-        text=load_fixture("github_trending.html"),
-    )
-
-    repos = fetch_trending_repos(since="weekly", limit=10)
-
-    assert len(repos) == 2
-    assert repos[0].source == "trending-weekly"
-    assert repos[0].discovered_at is not None
-
-
-def test_fetch_trending_repos_with_monthly_timeframe(httpx_mock: HTTPXMock) -> None:
+def test_fetch_trending_repos_fetches_monthly(httpx_mock: HTTPXMock) -> None:
     from iceberg.github import fetch_trending_repos
 
     httpx_mock.add_response(
@@ -212,22 +197,8 @@ def test_fetch_trending_repos_with_monthly_timeframe(httpx_mock: HTTPXMock) -> N
         text=load_fixture("github_trending.html"),
     )
 
-    repos = fetch_trending_repos(since="monthly", limit=10)
+    repos = fetch_trending_repos(limit=10)
 
     assert len(repos) == 2
     assert repos[0].source == "trending-monthly"
     assert repos[0].discovered_at is not None
-
-
-def test_fetch_trending_repos_defaults_to_daily(httpx_mock: HTTPXMock) -> None:
-    from iceberg.github import fetch_trending_repos
-
-    httpx_mock.add_response(
-        url="https://github.com/trending",
-        text=load_fixture("github_trending.html"),
-    )
-
-    repos = fetch_trending_repos()
-
-    assert len(repos) == 2
-    assert repos[0].source == "trending-daily"

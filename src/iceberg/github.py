@@ -1,6 +1,6 @@
 import re
 from datetime import datetime, timezone
-from typing import Any, Literal
+from typing import Any
 
 import httpx
 from bs4 import BeautifulSoup
@@ -68,28 +68,21 @@ def parse_trending_html(html: str) -> list[dict[str, Any]]:
 
 def fetch_trending_repos(
     limit: int = 10,
-    since: Literal["weekly", "monthly"] = "monthly",
 ) -> list[DiscoveredRepo]:
-    """Fetch trending repos with timeframe support.
+    """Fetch monthly trending repos from GitHub.
 
     Args:
         limit: Maximum number of repos to return
-        since: Timeframe for trending (weekly or monthly)
 
     Returns:
-        List of DiscoveredRepo instances with appropriate source tag
+        List of DiscoveredRepo instances with source "trending-monthly"
 
     Raises:
         GitHubError: When fetching fails
     """
     try:
-        # Build URL and determine source based on timeframe
-        if since == "weekly":
-            url = "https://github.com/trending?since=weekly"
-            source: str = "trending-weekly"
-        else:  # monthly
-            url = "https://github.com/trending?since=monthly"
-            source = "trending-monthly"
+        url = "https://github.com/trending?since=monthly"
+        source = "trending-monthly"
 
         response = httpx.get(url, timeout=30.0, follow_redirects=True)
         response.raise_for_status()

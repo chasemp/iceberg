@@ -1,367 +1,238 @@
-# Discovery and Maintenance Workflows
+# Discovery, Analysis, and Publish Workflows
 
-Iceberg separates data collection into two distinct workflows: **Discovery** (find new) and **Maintenance** (keep fresh).
+Iceberg uses three distinct workflow streams: **Discovery** (find repos), **Analysis** (analyze stale repos), and **Publish** (deploy SPA).
 
 ## Architecture Overview
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                    DISCOVERY RUN                         │
-│                     (Daily)                              │
-├─────────────────────────────────────────────────────────┤
-│ 1. Fetch trending (daily, weekly, monthly)              │
-│ 2. Fetch search queries (stars>10k, languages)          │
-│ 3. Dedupe → ~50-100 unique repos                        │
-│ 4. For each repo:                                        │
-│    • NEW → analyze                                       │
-│    • EXISTS + in today's batch → check updates          │
-│    • EXISTS + analyzed < 24h → skip                     │
-│ 5. Mark with discovery metadata                         │
-└─────────────────────────────────────────────────────────┘
-
-┌─────────────────────────────────────────────────────────┐
-│                   MAINTENANCE RUN                        │
-│                 (Weekly/Monthly)                         │
-├─────────────────────────────────────────────────────────┤
-│ 1. Load ALL cached repos                                │
-│ 2. Filter by staleness:                                 │
-│    • Skip if analyzed < 24h                             │
-│    • Skip if in yesterday's discovery                   │
-│    • Prioritize: tracked > popular > regular            │
-│ 3. Check for updates (HEAD comparison)                  │
-│ 4. Re-analyze stale repos (max 200/run)                 │
-│ 5. Batch with rate limiting                             │
-└─────────────────────────────────────────────────────────┘
++-----------------------------------------------------+
+|                   DISCOVERY                          |
+|                  (Weekly)                            |
++-----------------------------------------------------+
+| 1. Fetch trending (monthly)                         |
+| 2. Fetch search queries (stars>10k, languages)      |
+| 3. Fetch GitHub-Ranking (top repos by language)     |
+| 4. Dedupe -> ~400-700 unique repos                  |
+| 5. Save metadata to cache/repos/                    |
++-----------------------------------------------------+
+                         |
+                         v
++-----------------------------------------------------+
+|                   ANALYSIS                           |
+|                   (Daily)                            |
++-----------------------------------------------------+
+| 1. Load ALL repos from cache/repos/                 |
+| 2. Check staleness (config/staleness.json):         |
+|    - Tracked: > 24h                                 |
+|    - Popular (stars>10k): > 7 days                  |
+|    - Regular: > 30 days                             |
+| 3. Prioritize: tracked > popular > regular          |
+| 4. Analyze up to batch-size (default 25)            |
+| 5. Rate limit: 2s pause every 10 repos              |
++-----------------------------------------------------+
+                         |
+                         v
++-----------------------------------------------------+
+|                   PUBLISH                            |
+|              (After analysis)                        |
++-----------------------------------------------------+
+| 1. Export data to SPA format                        |
+| 2. Deploy to GitHub Pages                           |
++-----------------------------------------------------+
 ```
 
-## Staleness Strategy
+## Staleness Configuration
 
-### Tracked Repos (Manual)
-```
-Check: Daily
-Update if: > 1 day old AND HEAD changed
-Priority: Highest
-```
-
-### Popular Repos (stars > 10k)
-```
-Check: Weekly  
-Update if: > 7 days old
-Priority: Medium
-```
-
-### Regular Repos
-```
-Check: Monthly
-Update if: > 30 days old
-Priority: Low
-```
-
-### Old Discoveries (> 90 days)
-```
-Check: Quarterly
-Update if: > 90 days old
-Priority: Lowest
-```
-
-## Metadata Fields
-
-Added to `cache/projects/owner/repo/HEAD.json`:
+All staleness thresholds are in `config/staleness.json`:
 
 ```json
 {
-  "owner": "facebook",
-  "repo": "react",
-  "loc": 50000,
-  "cached_at": "2026-02-02T12:00:00Z",
-  "commit_hash": "abc12345",
-  
-  // Discovery metadata
-  "last_discovered": "2026-02-02",
-  "discovery_source": "trending-weekly",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "tiers": {
+    "tracked": { "max_age_hours": 24 },
+    "popular": { "stars_threshold": 10000, "max_age_days": 7 },
+    "regular": { "max_age_days": 30 }
+  },
+  "min_age_hours": 1,
+  "batch_pause_every_n": 10,
+  "batch_pause_seconds": 2,
+  "default_batch_size": 25
 }
 ```
 
-## Usage
+### Tier Determination
 
-### Daily Discovery
+A repo's tier is determined in this order:
+1. **Tracked** - repo has "tracked" in its categories (`iceberg track owner/repo`)
+2. **Popular** - stars >= `stars_threshold` (default 10,000)
+3. **Regular** - everything else
+
+## CLI Commands
+
+### Discovery
 ```bash
-# Run discovery (finds new + updates current batch)
-python scripts/run_discovery.py
-
-# With verbose output
-python scripts/run_discovery.py --verbose
+# Run discovery (fetch from all sources, dedupe, save)
+iceberg discover -v
 ```
 
 **Output:**
 ```
-🔍 DISCOVERY RUN
-Date: 2026-02-02
-============================================================
-
-📡 Fetching discovery sources...
-  Fetching trending daily...
-  ✓ Got 25 repos from trending daily
-  Fetching trending weekly...
-  ✓ Got 25 repos from trending weekly
+Fetching discovery sources...
+  Fetching trending monthly...
+  Got 25 repos from trending monthly
   ...
 
-📊 Total repos fetched: 175
-📊 Unique repos: 87
-
-🔬 ANALYZING REPOS
-============================================================
-
-⏭️  facebook/react - analyzed 2.3h ago
-🔍 new-org/new-repo - new repo
-  ✓ Analyzed: 12,000 LoC
-  ✓ Dependencies: 850,000 LoC
-
-🔄 old-org/stale-repo - needs update: new commits
-  ✓ Updated: 5,000 LoC
-
-📊 DISCOVERY SUMMARY
-============================================================
-Discovered: 87 unique repos
-Analyzed: 23
-Skipped: 62
-Errors: 2
+Discovery complete:
+  Total fetched:  850
+  Unique repos:   670
+  Sources saved:  12
 ```
 
-### Weekly/Monthly Maintenance
+### Analysis
 ```bash
-# Run maintenance (checks all cached repos)
-python scripts/run_maintenance.py
+# Default: analyze up to 25 stale repos
+iceberg run-analysis -v
 
-# Limit updates per run
-python scripts/run_maintenance.py --max-updates=100
+# Custom batch size
+iceberg run-analysis --batch-size 50 -v
 
-# With verbose output
-python scripts/run_maintenance.py --verbose
+# Force re-analysis (ignore staleness)
+iceberg run-analysis --force --batch-size 10 -v
 ```
 
 **Output:**
 ```
-🔧 MAINTENANCE RUN
-Date: 2026-02-09 10:00:00 UTC
-Max updates: 200
-============================================================
+Loading discovered repositories...
+Found 670 repos in cache
 
-📂 Loading cached repositories...
-Loaded 1,234 cached repos
+Stale: 45, Skipped: 625
+Analyzing: 25 (batch size: 25)
 
-🔍 Filtering by staleness criteria...
-Found 156 stale repos
+[1/25] facebook/react (tracked) - tracked, 2.1 days old
+  Analyzed: 50,000 LoC
+  Dependencies: 850,000 LoC
 
-📊 Prioritizing by maintenance strategy...
-  Tracked: 10
-  High priority: 5
-  Medium priority: 45
-  Low priority: 96
+[2/25] microsoft/vscode (popular) - popular, 8.3 days old
+  Analyzed: 1,200,000 LoC
+  ...
 
-🔄 UPDATING REPOS
-============================================================
-
-🔄 tracked/repo - new commits (cached: abc12345, current: def67890)
-  ✓ Updated: 15,000 LoC
-  ✓ Dependencies: 2,500,000 LoC
-
-⏭️  popular/repo - up to date
-
-📊 MAINTENANCE SUMMARY
-============================================================
-Total cached: 1,234
-Checked for staleness: 156
-Updated: 45
-Skipped (up to date): 101
-Errors: 10
+Analysis complete:
+  Analyzed:   25
+  Errors:     2
+  Skipped:    625
+  Remaining:  18
 ```
 
-## Recommended Schedules
-
-### GitHub Actions (Automated)
-
-```yaml
-# .github/workflows/discovery.yml
-name: Daily Discovery
-on:
-  schedule:
-    - cron: '0 6 * * *'  # 6 AM UTC daily
-jobs:
-  discover:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Run discovery
-        run: python scripts/run_discovery.py
-      - name: Export to SPA
-        run: python -m iceberg.cli export
-      - name: Commit changes
-        run: |
-          git add cache spa/data
-          git commit -m "Daily discovery $(date +%Y-%m-%d)" || exit 0
-          git push
-```
-
-```yaml
-# .github/workflows/maintenance.yml
-name: Weekly Maintenance
-on:
-  schedule:
-    - cron: '0 8 * * 0'  # 8 AM UTC Sundays
-jobs:
-  maintain:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Run maintenance
-        run: python scripts/run_maintenance.py --max-updates=200
-      - name: Export to SPA
-        run: python -m iceberg.cli export
-      - name: Commit changes
-        run: |
-          git add cache spa/data
-          git commit -m "Weekly maintenance $(date +%Y-%m-%d)" || exit 0
-          git push
-```
-
-### Manual (Local Development)
-
+### Status
 ```bash
-# Monday: Discovery
-python scripts/run_discovery.py
+# Quick overview
+iceberg status
 
-# Sunday: Maintenance  
-python scripts/run_maintenance.py
+# Per-repo age details
+iceberg status -v
 
-# After either: Export
-python -m iceberg.cli export
-
-# Optional: Commit
-git add cache spa/data
-git commit -m "Update data"
-git push
+# Machine-readable
+iceberg status --json
 ```
 
-## Comparison: Old vs New
+**Output:**
+```
+Iceberg Status
+========================================
+Discovered repos:     670
+Analyzed repos:       624 (93.1%)
+  With dependencies:  147
+  With AI markers:    22
+Exported to SPA:      587
+Tracked repos:        3
 
-### Before (Single Script)
+Analysis age:
+     < 1 day:  45 repos
+    1-7 days:  200 repos
+   7-30 days:  340 repos
+   > 30 days:  39 repos
+  Oldest: owner/repo (42.1 days ago)
+```
+
+### Tracking
 ```bash
-# analyze_all_discovered.py
-# - Checks ALL discovered repos every time
-# - No distinction between new and updates
-# - No prioritization
-# - Can re-analyze same repos repeatedly
+# Track a repo (adds "tracked" category to its metadata)
+iceberg track facebook/react
+
+# List tracked repos
+iceberg list-tracked
+
+# Untrack
+iceberg untrack facebook/react
 ```
 
-### After (Separated Workflows)
+Tracked repos are stored as a `"tracked"` category in `cache/repos/{owner}/{repo}.json`, alongside discovery sources like `"github-ranking-top-100-stars"` or `"search"`.
+
+## GitHub Actions Workflows
+
+### discover.yml (Weekly, Monday 6 AM UTC)
 ```bash
-# Discovery: Focuses on today's batch
-python scripts/run_discovery.py
-# - Only touches repos in today's discovery
-# - Marks with metadata
-# - Fast (50-100 repos)
-
-# Maintenance: Handles entire dataset
-python scripts/run_maintenance.py
-# - Checks ALL repos
-# - Filtered by staleness
-# - Prioritized updates
-# - Configurable batch size
+iceberg discover -v
+git add cache/discovered/ cache/repos/
+git commit && git push
 ```
 
-## Decision Tree
+### analyze.yml (Daily, 7 AM UTC)
+```bash
+iceberg run-analysis --batch-size 25 -v
+iceberg export
+git add cache/projects/ cache/loc/ spa/data/
+git commit && git push
+```
 
-**When to run Discovery?**
-- ✅ Daily (automated)
-- ✅ After fetching new trending/search results
-- ✅ Want to find new repos
+Supports `workflow_dispatch` inputs: `force` (bool), `batch_size` (string).
 
-**When to run Maintenance?**
-- ✅ Weekly (tracked + popular repos)
-- ✅ Monthly (all repos)
-- ✅ After clearing cache
-- ✅ Want to freshen entire dataset
-
-**When to use old scripts?**
-- `analyze_all_discovered.py` → Use for one-time backfill
-- `update_tracked.py` → Use for quick tracked-only updates
+### publish.yml (After analysis + push to spa/**)
+```bash
+iceberg export
+# Deploy to GitHub Pages
+```
 
 ## Rate Limiting
 
-Both scripts respect GitHub rate limits:
-
-**Without token:**
-```
-- 60 requests/hour
-- ~1 repo/minute
-```
-
-**With token:**
-```bash
-export GITHUB_TOKEN=ghp_your_token_here
-
-# Now: 5000 requests/hour
-# ~80 repos/minute
-```
+**GitHub API:**
+- Without token: 60 requests/hour
+- With token: 5,000 requests/hour
 
 **Built-in rate limiting:**
-- Discovery: No delays (processes current batch only)
-- Maintenance: 2s pause every 10 updates
+- Analysis: 2s pause every 10 repos (configurable in staleness.json)
+
+```bash
+export GITHUB_TOKEN=ghp_your_token_here
+```
 
 ## Troubleshooting
 
-### Discovery runs too slow
-**Problem:** Fetching many sources
-**Solution:** Reduce sources in `run_discovery.py`
-```python
-# Comment out less important sources
-# for timeframe in ["daily", "weekly", "monthly"]:
-for timeframe in ["daily"]:  # Just daily
-```
-
-### Maintenance runs too long
-**Problem:** Too many stale repos
-**Solution:** Reduce max-updates
+### Analysis runs too long
+Reduce batch size:
 ```bash
-python scripts/run_maintenance.py --max-updates=50
+iceberg run-analysis --batch-size 10 -v
 ```
 
 ### Repos not updating
-**Problem:** Staleness threshold not met
-**Solution:** 
-- Check metadata: `cat cache/projects/owner/repo/HEAD.json`
-- Force update: `iceberg analyze owner/repo`
-- Or adjust thresholds in `run_maintenance.py`
+Check staleness:
+```bash
+iceberg status -v  # Shows per-repo age
+```
+
+Force re-analysis:
+```bash
+iceberg run-analysis --force --batch-size 5 -v
+```
+
+Or adjust thresholds in `config/staleness.json`.
 
 ### Rate limit exceeded
-**Problem:** Too many requests
-**Solution:**
 - Set `GITHUB_TOKEN`
-- Reduce `max-updates`
+- Reduce `--batch-size`
 - Space out runs
-
-## Advanced: Custom Staleness
-
-Edit `scripts/run_maintenance.py`:
-
-```python
-def should_check_for_updates(repo: dict[str, Any]) -> tuple[bool, str]:
-    # ...
-    
-    # Custom: Check tracked repos every 6 hours
-    if tracked and days_old > 0.25:  # 0.25 days = 6 hours
-        return (True, f"tracked, {days_old:.1f} days old")
-    
-    # Custom: Aggressive updates for high-priority
-    elif priority == "high" and days_old > 3:
-        return (True, f"high priority, {days_old:.1f} days old")
-```
 
 ## See Also
 
-- [Tracking Guide](TRACKING.md) - Manual repo tracking
+- [Tracking Guide](TRACKING.md) - Repository tracking
+- [Architecture Guide](ARCHITECTURE.md) - System architecture
 - [Main README](../README.md) - Getting started
-- [CLI Reference](CLI.md) - All commands

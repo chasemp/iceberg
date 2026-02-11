@@ -48,7 +48,7 @@ def test_fetch_with_analyze_flag(httpx_mock: HTTPXMock, tmp_path: Path, monkeypa
     </article>
     """
     httpx_mock.add_response(
-        url="https://github.com/trending",
+        url="https://github.com/trending?since=monthly",
         text=trending_html,
     )
 
@@ -73,7 +73,8 @@ version = "1.0.0"
     # Mock AI marker checks (all 404)
     for path in ["CLAUDE.md", ".claude/CLAUDE.md", ".clauderc", ".cursor/", ".cursorrules",
                  ".github/copilot-instructions.md", ".aider/", ".aider.conf.yml",
-                 "AI_INSTRUCTIONS.md", "AGENTS.md", ".ai/"]:
+                 "AI_INSTRUCTIONS.md", "AGENTS.md", ".ai/",
+                 ".windsurfrules", ".clinerules", ".cline/", ".codex/", "GEMINI.md"]:
         for branch in ["main", "master"]:
             httpx_mock.add_response(
                 url=f"https://api.github.com/repos/owner/repo/contents/{path}?ref={branch}",
@@ -130,7 +131,7 @@ def test_fetch_analyze_skips_already_analyzed(httpx_mock: HTTPXMock, tmp_path: P
     </article>
     """
     httpx_mock.add_response(
-        url="https://github.com/trending",
+        url="https://github.com/trending?since=monthly",
         text=trending_html,
     )
 

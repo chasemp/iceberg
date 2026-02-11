@@ -33,9 +33,6 @@ def fetch(
     source: Literal["trending", "search", "github-ranking"] = typer.Option(
         "trending", help="Repository source (trending, search, or github-ranking)"
     ),
-    since: Literal["weekly", "monthly"] = typer.Option(
-        "monthly", help="Trending timeframe (with --source trending)"
-    ),
     category: str = typer.Option(
         "Top-100-stars", help="Category for github-ranking (e.g., Python, JavaScript, Top-100-stars)"
     ),
@@ -64,7 +61,6 @@ def fetch(
 
     Examples:
       iceberg fetch --limit 10
-      iceberg fetch --source trending --since weekly --limit 25
       iceberg fetch --source search --stars ">10000" --limit 50
       iceberg fetch --source search --language python --stars ">5000"
       iceberg fetch --source search --query "language:rust stars:>1000"
@@ -80,7 +76,7 @@ def fetch(
 
         # Fetch repos based on source
         if source == "trending":
-            repos = fetch_trending_repos(limit=limit, since=since)
+            repos = fetch_trending_repos(limit=limit)
         elif source == "github-ranking":
             repos = fetch_github_ranking(category=category, limit=limit)
         else:  # search
@@ -592,6 +588,309 @@ def export(
         
     except Exception as e:
         typer.echo(f"Error exporting data: {e}", err=True)
+        raise typer.Exit(1)
+
+
+@app.command()
+def discover(
+    verbose: bool = typer.Option(False, "-v", "--verbose", help="Verbose output"),
+    cache_dir: Path | None = typer.Option(None, help="Cache directory path"),
+) -> None:
+    """Discover repositories from trending, search, and ranking sources.
+
+    Fetches repos from all discovery sources, deduplicates them,
+    and saves metadata. Does NOT analyze repos.
+
+    Example: iceberg discover -v
+    """
+    from iceberg.discovery import run_discovery
+
+    try:
+        if cache_dir is None:
+            cache_dir = get_default_cache_dir()
+
+        def log(msg: str) -> None:
+            if verbose:
+                typer.echo(msg)
+
+        results = run_discovery(cache_dir=cache_dir, verbose=verbose, log=log)
+
+        typer.echo(f"\nDiscovery complete:")
+        typer.echo(f"  Total fetched:  {results['total_fetched']}")
+        typer.echo(f"  Unique repos:   {results['unique_repos']}")
+        typer.echo(f"  Sources saved:  {results['sources_saved']}")
+
+        if verbose:
+            typer.echo(f"\nBy source:")
+            for source, count in sorted(results["sources"].items()):
+                typer.echo(f"  {source}: {count}")
+
+    except Exception as e:
+        typer.echo(f"Error: {e}", err=True)
+        raise typer.Exit(1)
+
+
+@app.command()
+def run_analysis(
+    batch_size: int = typer.Option(25, "--batch-size", help="Max repos to analyze per run"),
+    force: bool = typer.Option(False, "--force", help="Force re-analysis regardless of staleness"),
+    verbose: bool = typer.Option(False, "-v", "--verbose", help="Verbose output"),
+    cache_dir: Path | None = typer.Option(None, help="Cache directory path"),
+) -> None:
+    """Analyze repos that are new or have stale analysis data.
+
+    Checks all discovered repos against staleness thresholds from
+    config/staleness.json. Analyzes up to --batch-size repos per run.
+
+    Examples:
+      iceberg run-analysis -v
+      iceberg run-analysis --batch-size 50
+      iceberg run-analysis --force --batch-size 10 -v
+    """
+    import time
+
+    from iceberg.cache import list_all_repos, load_project_loc, save_project_loc
+    from iceberg.calculator import analyze_repository
+    from iceberg.staleness import (
+        determine_tier,
+        is_stale,
+        load_staleness_config,
+        prioritize_repos,
+    )
+
+    try:
+        if cache_dir is None:
+            cache_dir = get_default_cache_dir()
+
+        config = load_staleness_config()
+
+        typer.echo(f"Loading discovered repositories...")
+        all_repos = list_all_repos(cache_dir=cache_dir)
+        typer.echo(f"Found {len(all_repos)} repos in cache")
+
+        if force:
+            typer.echo("Mode: FORCE (re-analyzing all repos)")
+
+        candidates = []
+        skipped = 0
+        for repo_meta in all_repos:
+            owner = repo_meta["owner"]
+            name = repo_meta["name"]
+
+            stale, reason = is_stale(owner, name, cache_dir=cache_dir, config=config, force=force)
+            if stale:
+                tier = determine_tier(owner, name, cache_dir=cache_dir, config=config)
+                candidates.append({"owner": owner, "name": name, "tier": tier, "reason": reason})
+            else:
+                skipped += 1
+                if verbose:
+                    typer.echo(f"  skip {owner}/{name} - {reason}")
+
+        candidates = prioritize_repos(candidates)
+        to_analyze = candidates[:batch_size]
+
+        typer.echo(f"\nStale: {len(candidates)}, Skipped: {skipped}")
+        typer.echo(f"Analyzing: {len(to_analyze)} (batch size: {batch_size})\n")
+
+        analyzed = 0
+        errors = 0
+        pause_every = config.get("batch_pause_every_n", 10)
+        pause_seconds = config.get("batch_pause_seconds", 2)
+
+        for i, candidate in enumerate(to_analyze):
+            owner = candidate["owner"]
+            name = candidate["name"]
+            tier = candidate["tier"]
+            reason = candidate["reason"]
+
+            typer.echo(f"[{i+1}/{len(to_analyze)}] {owner}/{name} ({tier}) - {reason}")
+
+            try:
+                result = analyze_repository(
+                    owner=owner,
+                    repo=name,
+                    cache_dir=cache_dir,
+                    verbose=verbose,
+                    force=force,
+                )
+
+                if result:
+                    project_loc = result.get("project_loc") or result.get("loc", 0)
+                    typer.echo(f"  Analyzed: {project_loc:,} LoC")
+                    if "total_loc" in result:
+                        typer.echo(f"  Dependencies: {result['total_loc']:,} LoC")
+                    analyzed += 1
+                else:
+                    typer.echo(f"  Failed to analyze")
+                    errors += 1
+
+            except Exception as e:
+                typer.echo(f"  Error: {e}")
+                errors += 1
+
+            if pause_every and (i + 1) % pause_every == 0 and i + 1 < len(to_analyze):
+                time.sleep(pause_seconds)
+
+        typer.echo(f"\nAnalysis complete:")
+        typer.echo(f"  Analyzed:   {analyzed}")
+        typer.echo(f"  Errors:     {errors}")
+        typer.echo(f"  Skipped:    {skipped}")
+        typer.echo(f"  Remaining:  {max(0, len(candidates) - batch_size)}")
+
+    except Exception as e:
+        typer.echo(f"Error: {e}", err=True)
+        raise typer.Exit(1)
+
+
+@app.command()
+def status(
+    verbose: bool = typer.Option(False, "-v", "--verbose", help="Show per-repo age details"),
+    json_output: bool = typer.Option(False, "--json", help="Output as JSON"),
+    cache_dir: Path | None = typer.Option(None, help="Cache directory path"),
+) -> None:
+    """Show project status: repos known, analyzed, exported, and analysis age.
+
+    Examples:
+      iceberg status
+      iceberg status -v
+      iceberg status --json
+    """
+    from datetime import datetime, timezone
+
+    from iceberg.cache import list_all_repos, load_project_loc
+    from iceberg.tracking import load_tracked_repos
+
+    try:
+        if cache_dir is None:
+            cache_dir = get_default_cache_dir()
+
+        discovered = list_all_repos(cache_dir=cache_dir)
+        tracked = load_tracked_repos(cache_dir=cache_dir)
+
+        analyzed_count = 0
+        with_deps = 0
+        with_ai = 0
+        age_buckets = {"< 1 day": 0, "1-7 days": 0, "7-30 days": 0, "> 30 days": 0}
+        oldest_repo = None
+        oldest_days = 0.0
+        repo_ages: list[dict] = []
+
+        projects_dir = cache_dir / "projects"
+        if projects_dir.exists():
+            for owner_dir in projects_dir.iterdir():
+                if not owner_dir.is_dir():
+                    continue
+                for repo_dir in owner_dir.iterdir():
+                    if not repo_dir.is_dir():
+                        continue
+                    head_file = repo_dir / "HEAD.json"
+                    if not head_file.exists():
+                        continue
+
+                    try:
+                        data = json.loads(head_file.read_text())
+                    except (json.JSONDecodeError, IOError):
+                        continue
+
+                    loc = data.get("loc", 0)
+                    if loc == 0:
+                        continue
+
+                    analyzed_count += 1
+                    if data.get("total_loc"):
+                        with_deps += 1
+                    if data.get("ai_markers"):
+                        with_ai += 1
+
+                    cached_at = data.get("cached_at")
+                    if cached_at:
+                        try:
+                            cached_time = datetime.fromisoformat(
+                                cached_at.replace("Z", "+00:00")
+                            )
+                            age_days = (
+                                datetime.now(timezone.utc) - cached_time
+                            ).total_seconds() / 86400
+
+                            if age_days < 1:
+                                age_buckets["< 1 day"] += 1
+                            elif age_days < 7:
+                                age_buckets["1-7 days"] += 1
+                            elif age_days < 30:
+                                age_buckets["7-30 days"] += 1
+                            else:
+                                age_buckets["> 30 days"] += 1
+
+                            owner = owner_dir.name
+                            name = repo_dir.name
+                            repo_ages.append(
+                                {"repo": f"{owner}/{name}", "age_days": age_days}
+                            )
+
+                            if age_days > oldest_days:
+                                oldest_days = age_days
+                                oldest_repo = f"{owner}/{name}"
+                        except Exception:
+                            age_buckets["> 30 days"] += 1
+
+        spa_index = cache_dir.parent / "spa" / "data" / "index.json"
+        exported_count = 0
+        if spa_index.exists():
+            try:
+                index_data = json.loads(spa_index.read_text())
+                seen = set()
+                for dim in index_data.get("dimensions", []):
+                    for repo in dim.get("repos", []):
+                        key = f"{repo.get('owner')}/{repo.get('name')}"
+                        seen.add(key)
+                exported_count = len(seen)
+            except (json.JSONDecodeError, IOError):
+                pass
+
+        if json_output:
+            result = {
+                "discovered": len(discovered),
+                "analyzed": analyzed_count,
+                "with_dependencies": with_deps,
+                "with_ai_markers": with_ai,
+                "exported": exported_count,
+                "tracked": len(tracked),
+                "age_buckets": age_buckets,
+                "oldest": {"repo": oldest_repo, "age_days": round(oldest_days, 1)},
+            }
+            if verbose:
+                result["repos"] = sorted(repo_ages, key=lambda r: -r["age_days"])
+            typer.echo(json.dumps(result, indent=2))
+            return
+
+        typer.echo("Iceberg Status")
+        typer.echo("=" * 40)
+        typer.echo(f"Discovered repos:     {len(discovered)}")
+        pct_analyzed = (
+            f"({analyzed_count / len(discovered) * 100:.1f}%)"
+            if discovered
+            else ""
+        )
+        typer.echo(f"Analyzed repos:       {analyzed_count} {pct_analyzed}")
+        typer.echo(f"  With dependencies:  {with_deps}")
+        typer.echo(f"  With AI markers:    {with_ai}")
+        typer.echo(f"Exported to SPA:      {exported_count}")
+        typer.echo(f"Tracked repos:        {len(tracked)}")
+        typer.echo("")
+        typer.echo("Analysis age:")
+        for bucket, count in age_buckets.items():
+            typer.echo(f"  {bucket:>10s}:  {count} repos")
+        if oldest_repo:
+            typer.echo(f"  Oldest: {oldest_repo} ({oldest_days:.1f} days ago)")
+
+        if verbose:
+            typer.echo(f"\nPer-repo details (oldest first):")
+            repo_ages.sort(key=lambda r: -r["age_days"])
+            for entry in repo_ages:
+                typer.echo(f"  {entry['age_days']:6.1f}d  {entry['repo']}")
+
+    except Exception as e:
+        typer.echo(f"Error: {e}", err=True)
         raise typer.Exit(1)
 
 

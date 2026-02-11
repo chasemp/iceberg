@@ -18,8 +18,8 @@ def test_export_discovery_index_creates_structured_output(tmp_path: Path) -> Non
 
     cache_dir = tmp_path / "cache"
     repos = [
-        create_discovered_repo(name="repo1", owner="owner1", source="trending-daily", stars=1000),
-        create_discovered_repo(name="repo2", owner="owner2", source="trending-daily", stars=2000),
+        create_discovered_repo(name="repo1", owner="owner1", source="trending-monthly", stars=1000),
+        create_discovered_repo(name="repo2", owner="owner2", source="trending-monthly", stars=2000),
     ]
 
     for repo in repos:
@@ -38,9 +38,9 @@ def test_export_discovery_index_creates_structured_output(tmp_path: Path) -> Non
     assert len(index["dimensions"]) == 1
 
     dimension = index["dimensions"][0]
-    assert dimension["id"] == "trending-daily"
+    assert dimension["id"] == "trending-monthly"
     assert dimension["type"] == "trending"
-    assert dimension["timeframe"] == "daily"
+    assert dimension["timeframe"] == "monthly"
     assert dimension["count"] == 2
     assert len(dimension["repos"]) == 2
     repo_names = {r["name"] for r in dimension["repos"]}
@@ -55,13 +55,13 @@ def test_export_discovery_index_with_multiple_dimensions(tmp_path: Path) -> None
 
     cache_dir = tmp_path / "cache"
 
-    daily_repos = [create_discovered_repo(name="daily1", owner="d1", source="trending-daily")]
-    weekly_repos = [create_discovered_repo(name="weekly1", owner="w1", source="trending-weekly")]
+    monthly_repos = [create_discovered_repo(name="monthly1", owner="m1", source="trending-monthly")]
+    ranking_repos = [create_discovered_repo(name="ranking1", owner="r1", source="github-ranking")]
     search_repos = [
         create_discovered_repo(name="search1", owner="s1", source="search", search_query="stars:>10000")
     ]
 
-    for repo in daily_repos + weekly_repos + search_repos:
+    for repo in monthly_repos + ranking_repos + search_repos:
         save_repo_metadata(repo, repo.source, cache_dir=cache_dir)
         _create_analysis(cache_dir, repo.owner, repo.name)
 
@@ -72,8 +72,8 @@ def test_export_discovery_index_with_multiple_dimensions(tmp_path: Path) -> None
 
     index = json.loads((output_dir / "index.json").read_text())
     dimension_ids = {d["id"] for d in index["dimensions"]}
-    assert "trending-daily" in dimension_ids
-    assert "trending-weekly" in dimension_ids
+    assert "trending-monthly" in dimension_ids
+    assert "github-ranking" in dimension_ids
     assert "search" in dimension_ids
 
 
@@ -106,7 +106,7 @@ def test_export_all_runs_all_exports(tmp_path: Path) -> None:
     from iceberg.export import export_all
 
     cache_dir = tmp_path / "cache"
-    repo = create_discovered_repo(name="test", source="trending-daily")
+    repo = create_discovered_repo(name="test", source="trending-monthly")
     save_repo_metadata(repo, repo.source, cache_dir=cache_dir)
     _create_analysis(cache_dir, repo.owner, repo.name, loc=1000)
 
@@ -141,8 +141,8 @@ def test_export_discovery_index_includes_ai_tools(tmp_path: Path) -> None:
 
     cache_dir = tmp_path / "cache"
     repos = [
-        create_discovered_repo(name="repo-with-ai", owner="owner1", source="trending-daily", stars=1000),
-        create_discovered_repo(name="repo-without-ai", owner="owner2", source="trending-daily", stars=2000),
+        create_discovered_repo(name="repo-with-ai", owner="owner1", source="trending-monthly", stars=1000),
+        create_discovered_repo(name="repo-without-ai", owner="owner2", source="trending-monthly", stars=2000),
     ]
 
     for repo in repos:
@@ -179,8 +179,8 @@ def test_export_skips_repos_without_analysis(tmp_path: Path) -> None:
     from iceberg.export import export_discovery_index
 
     cache_dir = tmp_path / "cache"
-    analyzed = create_discovered_repo(name="analyzed", owner="a", source="trending-daily")
-    unanalyzed = create_discovered_repo(name="unanalyzed", owner="b", source="trending-daily")
+    analyzed = create_discovered_repo(name="analyzed", owner="a", source="trending-monthly")
+    unanalyzed = create_discovered_repo(name="unanalyzed", owner="b", source="trending-monthly")
 
     for repo in [analyzed, unanalyzed]:
         save_repo_metadata(repo, repo.source, cache_dir=cache_dir)
@@ -203,8 +203,8 @@ def test_export_skips_repos_with_zero_loc(tmp_path: Path) -> None:
     from iceberg.export import export_discovery_index
 
     cache_dir = tmp_path / "cache"
-    real_repo = create_discovered_repo(name="real", owner="a", source="trending-daily")
-    doc_repo = create_discovered_repo(name="docs", owner="b", source="trending-daily")
+    real_repo = create_discovered_repo(name="real", owner="a", source="trending-monthly")
+    doc_repo = create_discovered_repo(name="docs", owner="b", source="trending-monthly")
 
     for repo in [real_repo, doc_repo]:
         save_repo_metadata(repo, repo.source, cache_dir=cache_dir)

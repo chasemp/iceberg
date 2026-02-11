@@ -32,7 +32,7 @@ def export_discovery_index(
     """Export index of all discovery dimensions and their repositories.
 
     Creates a structured index showing what repos were discovered through
-    each category (trending-weekly, github-ranking-python, etc.)
+    each category (trending-monthly, github-ranking-python, etc.)
 
     Args:
         output_dir: Directory to write JSON files

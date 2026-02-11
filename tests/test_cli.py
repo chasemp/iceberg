@@ -32,7 +32,7 @@ def test_fetch_command_fetches_and_caches(httpx_mock: HTTPXMock, tmp_path: Path)
     """
 
     httpx_mock.add_response(
-        url="https://github.com/trending",
+        url="https://github.com/trending?since=monthly",
         text=html,
     )
 
@@ -40,7 +40,7 @@ def test_fetch_command_fetches_and_caches(httpx_mock: HTTPXMock, tmp_path: Path)
     result = runner.invoke(app, ["fetch", "--cache-dir", str(tmp_path)])
 
     assert result.exit_code == 0
-    assert "Fetched 1 daily trending" in result.stdout
+    assert "Fetched 1 monthly trending" in result.stdout
 
 
 def test_fetch_command_respects_limit(httpx_mock: HTTPXMock, tmp_path: Path) -> None:
@@ -66,7 +66,7 @@ def test_fetch_command_respects_limit(httpx_mock: HTTPXMock, tmp_path: Path) -> 
     """
 
     httpx_mock.add_response(
-        url="https://github.com/trending",
+        url="https://github.com/trending?since=monthly",
         text=html,
     )
 
@@ -74,7 +74,7 @@ def test_fetch_command_respects_limit(httpx_mock: HTTPXMock, tmp_path: Path) -> 
     result = runner.invoke(app, ["fetch", "--limit", "1", "--cache-dir", str(tmp_path)])
 
     assert result.exit_code == 0
-    assert "Fetched 1 daily trending" in result.stdout
+    assert "Fetched 1 monthly trending" in result.stdout
 
 
 def test_fetch_command_json_output(httpx_mock: HTTPXMock, tmp_path: Path) -> None:
@@ -95,7 +95,7 @@ def test_fetch_command_json_output(httpx_mock: HTTPXMock, tmp_path: Path) -> Non
     """
 
     httpx_mock.add_response(
-        url="https://github.com/trending",
+        url="https://github.com/trending?since=monthly",
         text=html,
     )
 
@@ -228,32 +228,6 @@ def test_analyze_command_handles_missing_project_loc(
     assert result.exit_code == 0
 
 
-def test_fetch_command_with_weekly_timeframe(httpx_mock: HTTPXMock, tmp_path: Path) -> None:
-    from iceberg.cli import app
-
-    html = """
-    <article class="Box-row">
-      <h2 class="h3 lh-condensed">
-        <a href="/owner/repo">repo</a>
-      </h2>
-      <div class="f6 color-fg-muted mt-2">
-        <span class="d-inline-block mr-3"><svg aria-label="star"></svg>1000</span>
-      </div>
-    </article>
-    """
-
-    httpx_mock.add_response(
-        url="https://github.com/trending?since=weekly",
-        text=html,
-    )
-
-    runner = CliRunner()
-    result = runner.invoke(app, ["fetch", "--source", "trending", "--since", "weekly", "--cache-dir", str(tmp_path)])
-
-    assert result.exit_code == 0
-    assert "Fetched 1 weekly trending" in result.stdout
-
-
 def test_fetch_command_with_search_source(httpx_mock: HTTPXMock, tmp_path: Path) -> None:
     from iceberg.cli import app
 
@@ -288,7 +262,7 @@ def test_fetch_command_with_custom_search_query(httpx_mock: HTTPXMock, tmp_path:
     from iceberg.cli import app
 
     httpx_mock.add_response(
-        url="https://api.github.com/search/repositories?q=language%3Apython+stars%3A%3E5000&per_page=10&page=1",
+        url="https://api.github.com/search/repositories?q=language:python stars:>5000&per_page=10&page=1",
         json={
             "items": [
                 {
@@ -306,7 +280,7 @@ def test_fetch_command_with_custom_search_query(httpx_mock: HTTPXMock, tmp_path:
     runner = CliRunner()
     result = runner.invoke(
         app,
-        ["fetch", "--source", "search", "--query", "language:python stars:>5000", "--cache-dir", str(tmp_path)],
+        ["fetch", "--source", "search", "--query", "language:python stars:>5000", "--limit", "10", "--cache-dir", str(tmp_path)],
     )
 
     assert result.exit_code == 0
