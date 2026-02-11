@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "idna",
+    "version": "0.3.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-10T23:13:13.699169+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/idna/versions/0.3.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11626982688903809,
+  "count_duration_seconds": null
+}

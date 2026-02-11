@@ -2,12 +2,12 @@
   "owner": "Openwrt-Passwall",
   "repo": "openwrt-passwall",
   "version": "HEAD",
-  "loc": 5396,
+  "loc": 5410,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:48:38.639372+00:00",
+  "cached_at": "2026-02-10T23:18:14.866081+00:00",
   "repo_url": "https://github.com/Openwrt-Passwall/openwrt-passwall.git",
   "ref": "HEAD",
-  "commit_hash": "c9f20487308e66c342d628d116a0ab8af7fb707c",
-  "clone_duration_seconds": 0.8770921230316162,
-  "count_duration_seconds": 0.007380008697509766
+  "commit_hash": "24a98b6124658c690ff5969fd35738938a564b21",
+  "clone_duration_seconds": 1.1219639778137207,
+  "count_duration_seconds": 0.011425018310546875
 }

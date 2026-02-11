@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 5716,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:44:33.100693+00:00",
+  "cached_at": "2026-02-11T15:38:56.723459+00:00",
   "repo_url": "https://github.com/square/picasso.git",
   "ref": "HEAD",
   "commit_hash": "e94d6116e3fff99b3932103e0ab22ff5b44a1273",
-  "clone_duration_seconds": 1.5579619407653809,
-  "count_duration_seconds": 0.011001348495483398
+  "clone_duration_seconds": 1.1835217475891113,
+  "count_duration_seconds": 0.01874518394470215
 }

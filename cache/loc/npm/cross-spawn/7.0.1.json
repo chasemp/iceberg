@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "cross-spawn",
+    "version": "7.0.1"
+  },
+  "total_lines": 190,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-11T15:08:36.077773+00:00",
+  "source_url": "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.5552351474761963,
+  "count_duration_seconds": null
+}

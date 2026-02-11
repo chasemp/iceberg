@@ -2,18 +2,14 @@
   "owner": "topjohnwu",
   "repo": "Magisk",
   "version": "HEAD",
-  "loc": 38871,
+  "loc": 38894,
   "source": "github_clone",
-  "cached_at": "2026-02-05T22:29:54.197732+00:00",
+  "cached_at": "2026-02-11T15:31:39.848308+00:00",
   "total_loc": 0,
   "ratio": 0.0,
   "repo_url": "https://github.com/topjohnwu/Magisk.git",
   "ref": "HEAD",
-  "commit_hash": "e872fafd8b01031dbc51a922a687673ea5810f6b",
-  "clone_duration_seconds": 1.3989408016204834,
-  "count_duration_seconds": 0.0356748104095459,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-rust",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "commit_hash": "9ee6a6b3d7a34adfc340cd6eababdbf3b2aa6b10",
+  "clone_duration_seconds": 1.2971270084381104,
+  "count_duration_seconds": 0.056568145751953125
 }

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "urijs",
+    "version": "1.17.1"
+  },
+  "total_lines": 2997,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-11T00:35:20.514992+00:00",
+  "source_url": "https://registry.npmjs.org/urijs/-/urijs-1.17.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.6680569648742676,
+  "count_duration_seconds": null
+}

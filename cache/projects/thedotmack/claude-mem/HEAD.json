@@ -2,21 +2,17 @@
   "owner": "thedotmack",
   "repo": "claude-mem",
   "version": "HEAD",
-  "loc": 28744,
+  "loc": 31215,
   "source": "github_clone",
-  "cached_at": "2026-02-02T23:15:08.135560+00:00",
+  "cached_at": "2026-02-10T23:52:01.997106+00:00",
   "package": {
     "system": "npm",
     "name": "claude-mem",
-    "version": "9.0.12"
+    "version": "9.1.1"
   },
   "repo_url": "https://github.com/thedotmack/claude-mem.git",
-  "ref": "v9.0.12",
-  "commit_hash": "a16b25275e5f56b6d35d5fcf1a8324b8670792c8",
-  "clone_duration_seconds": 1.5243031978607178,
-  "count_duration_seconds": 0.03636932373046875,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "trending-weekly",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "ref": "v9.1.1",
+  "commit_hash": "5969d670d083abef4a37dad501a251bd546d3d78",
+  "clone_duration_seconds": 1.454118013381958,
+  "count_duration_seconds": 0.03624725341796875
 }

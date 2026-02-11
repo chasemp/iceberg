@@ -4,14 +4,10 @@
   "version": "HEAD",
   "loc": 0,
   "source": "github_clone",
-  "cached_at": "2026-02-09T20:13:45.296495+00:00",
+  "cached_at": "2026-02-11T15:45:01.965916+00:00",
   "repo_url": "https://github.com/SmartThingsCommunity/SmartThingsPublic.git",
   "ref": "HEAD",
   "commit_hash": "eb3cee1775bc55148813909aa9e891631de1e2e8",
-  "clone_duration_seconds": 1.5737860202789307,
-  "count_duration_seconds": 0.08711123466491699,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-top-100-forks",
-  "tracked": false,
-  "maintenance_priority": "low"
+  "clone_duration_seconds": 1.4684128761291504,
+  "count_duration_seconds": 0.08736681938171387
 }

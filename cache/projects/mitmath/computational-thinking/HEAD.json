@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 128,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:08:53.559670+00:00",
+  "cached_at": "2026-02-10T23:25:16.304913+00:00",
   "repo_url": "https://github.com/mitmath/computational-thinking.git",
   "ref": "HEAD",
   "commit_hash": "bbcbde01e2d31ef9207c9bc99a021fbc234ab63b",
-  "clone_duration_seconds": 1.3874833583831787,
-  "count_duration_seconds": 0.0025086402893066406
+  "clone_duration_seconds": 1.866744041442871,
+  "count_duration_seconds": 0.00408482551574707
 }

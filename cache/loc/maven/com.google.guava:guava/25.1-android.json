@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "com.google.guava:guava",
+    "version": "25.1-android"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-11T15:35:25.441024+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/com.google.guava:guava/versions/25.1-android",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.15272212028503418,
+  "count_duration_seconds": null
+}

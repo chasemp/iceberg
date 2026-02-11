@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "junit:junit",
+    "version": "4.11"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-11T15:36:50.478083+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/junit:junit/versions/4.11",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1095280647277832,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "com.squareup.okio:okio",
+    "version": "2.8.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-11T15:37:23.923636+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/com.squareup.okio:okio/versions/2.8.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11672711372375488,
+  "count_duration_seconds": null
+}

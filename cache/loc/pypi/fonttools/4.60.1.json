@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "fonttools",
+    "version": "4.60.1"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-11T00:00:00.357919+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/fonttools/versions/4.60.1",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11472415924072266,
+  "count_duration_seconds": null
+}

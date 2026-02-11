@@ -4,15 +4,17 @@
   "version": "HEAD",
   "loc": 250952,
   "source": "github_clone",
-  "cached_at": "2026-02-05T06:49:58.158557+00:00",
+  "cached_at": "2026-02-10T23:55:37.447378+00:00",
   "package": {
     "system": "npm",
     "name": "root",
     "version": "1.48.0"
   },
+  "total_loc": 36940,
+  "ratio": 0.12831200589109806,
   "repo_url": "https://github.com/likec4/likec4.git",
   "ref": "v1.48.0",
   "commit_hash": "e4a1e652b38ea01aaf2e90d5728606f5e5785c25",
-  "clone_duration_seconds": 2.374079704284668,
-  "count_duration_seconds": 0.3431992530822754
+  "clone_duration_seconds": 3.9981088638305664,
+  "count_duration_seconds": 0.49510812759399414
 }

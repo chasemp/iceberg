@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 34555,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:43:56.239464+00:00",
+  "cached_at": "2026-02-11T15:38:20.031464+00:00",
   "repo_url": "https://github.com/android/compose-samples.git",
   "ref": "HEAD",
   "commit_hash": "460a3ae1ef3167b8ac0e3ac1460269bfcb720d3f",
-  "clone_duration_seconds": 3.0207865238189697,
-  "count_duration_seconds": 0.04871034622192383
+  "clone_duration_seconds": 7.130109071731567,
+  "count_duration_seconds": 0.055027008056640625
 }

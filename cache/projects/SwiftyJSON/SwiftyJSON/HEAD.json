@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 3477,
   "source": "github_clone",
-  "cached_at": "2026-02-10T06:59:13.295694+00:00",
+  "cached_at": "2026-02-11T00:13:55.068026+00:00",
   "repo_url": "https://github.com/SwiftyJSON/SwiftyJSON.git",
   "ref": "HEAD",
   "commit_hash": "815b78ea730128ba36175d82a547b3d782f17e77",
-  "clone_duration_seconds": 0.5742981433868408,
-  "count_duration_seconds": 0.004294395446777344
+  "clone_duration_seconds": 0.9550888538360596,
+  "count_duration_seconds": 0.007253885269165039
 }

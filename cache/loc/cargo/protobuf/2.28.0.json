@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "protobuf",
+    "version": "2.28.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-11T15:11:28.112956+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/protobuf/versions/2.28.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.12459707260131836,
+  "count_duration_seconds": null
+}

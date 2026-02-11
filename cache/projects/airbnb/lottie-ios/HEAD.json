@@ -4,7 +4,7 @@
   "version": "HEAD",
   "loc": 26487,
   "source": "github_clone",
-  "cached_at": "2026-02-10T06:58:19.832043+00:00",
+  "cached_at": "2026-02-11T00:13:01.199918+00:00",
   "package": {
     "system": "npm",
     "name": "lottie-ios",
@@ -13,6 +13,6 @@
   "repo_url": "https://github.com/airbnb/lottie-ios.git",
   "ref": "HEAD",
   "commit_hash": "c4e8dd239e3ea332a46c3bfdc6d06e3dff0812b7",
-  "clone_duration_seconds": 4.928692102432251,
-  "count_duration_seconds": 0.04862546920776367
+  "clone_duration_seconds": 12.431060075759888,
+  "count_duration_seconds": 0.0461423397064209
 }

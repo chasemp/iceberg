@@ -4,14 +4,10 @@
   "version": "HEAD",
   "loc": 0,
   "source": "github_clone",
-  "cached_at": "2026-02-09T20:05:04.173957+00:00",
+  "cached_at": "2026-02-10T23:40:08.935780+00:00",
   "repo_url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools.git",
   "ref": "HEAD",
   "commit_hash": "bbad8adb7125c45678a375869fe8cfe51a3e857a",
-  "clone_duration_seconds": 1.1209750175476074,
-  "count_duration_seconds": 0.005544900894165039,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-top-100-stars",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "clone_duration_seconds": 1.0789110660552979,
+  "count_duration_seconds": 0.007124900817871094
 }

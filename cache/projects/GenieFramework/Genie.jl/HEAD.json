@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 3044,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:09:17.451058+00:00",
+  "cached_at": "2026-02-10T23:25:41.053928+00:00",
   "repo_url": "https://github.com/GenieFramework/Genie.jl.git",
   "ref": "HEAD",
   "commit_hash": "7d62cb364214d1209dc24ce1fffbfae2a97b188f",
-  "clone_duration_seconds": 1.3009884357452393,
-  "count_duration_seconds": 0.0063631534576416016
+  "clone_duration_seconds": 1.997070074081421,
+  "count_duration_seconds": 0.008112907409667969
 }

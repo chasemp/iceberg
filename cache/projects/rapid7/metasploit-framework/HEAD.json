@@ -2,12 +2,12 @@
   "owner": "rapid7",
   "repo": "metasploit-framework",
   "version": "HEAD",
-  "loc": 1214742,
+  "loc": 1215025,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:22:52.119864+00:00",
+  "cached_at": "2026-02-11T00:37:44.692526+00:00",
   "repo_url": "https://github.com/rapid7/metasploit-framework.git",
   "ref": "HEAD",
-  "commit_hash": "cfb84831887f282ac87e9ff1b01c09a13b7495b8",
-  "clone_duration_seconds": 4.044309139251709,
-  "count_duration_seconds": 0.9219188690185547
+  "commit_hash": "336a7710fb877a6854890fac76b0bd0246e34811",
+  "clone_duration_seconds": 15.261711835861206,
+  "count_duration_seconds": 3.0853848457336426
 }

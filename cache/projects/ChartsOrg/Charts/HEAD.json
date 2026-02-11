@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 21574,
   "source": "github_clone",
-  "cached_at": "2026-02-10T06:58:08.825702+00:00",
+  "cached_at": "2026-02-11T00:12:42.482780+00:00",
   "repo_url": "https://github.com/ChartsOrg/Charts.git",
   "ref": "HEAD",
   "commit_hash": "86929ffb26280d49777e8b2c2311daa419747a49",
-  "clone_duration_seconds": 1.4009325504302979,
-  "count_duration_seconds": 0.02478790283203125
+  "clone_duration_seconds": 2.4546170234680176,
+  "count_duration_seconds": 0.03647613525390625
 }

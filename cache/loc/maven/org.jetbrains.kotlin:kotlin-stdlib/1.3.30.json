@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "org.jetbrains.kotlin:kotlin-stdlib",
+    "version": "1.3.30"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-11T15:36:50.726166+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/org.jetbrains.kotlin:kotlin-stdlib/versions/1.3.30",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11652278900146484,
+  "count_duration_seconds": null
+}

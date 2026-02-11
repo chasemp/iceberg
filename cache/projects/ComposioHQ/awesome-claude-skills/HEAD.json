@@ -4,14 +4,10 @@
   "version": "HEAD",
   "loc": 12732,
   "source": "github_clone",
-  "cached_at": "2026-02-02T23:23:24.559690+00:00",
+  "cached_at": "2026-02-11T00:02:40.722043+00:00",
   "repo_url": "https://github.com/ComposioHQ/awesome-claude-skills.git",
   "ref": "HEAD",
-  "commit_hash": "362d35428562ad05d1faa1767abaf39d6e3a8e7a",
-  "clone_duration_seconds": 1.4331870079040527,
-  "count_duration_seconds": 0.014611005783081055,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "trending-monthly",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "commit_hash": "e762a98bd93f34c22926c7cf6ae7c9bb59ea9d5b",
+  "clone_duration_seconds": 1.6243619918823242,
+  "count_duration_seconds": 0.08676981925964355
 }

@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 15,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:12:39.531235+00:00",
+  "cached_at": "2026-02-11T15:03:31.930672+00:00",
   "repo_url": "https://github.com/zsh-users/zsh-autosuggestions.git",
   "ref": "HEAD",
   "commit_hash": "85919cd1ffa7d2d5412f6d3fe437ebdbeeec4fc5",
-  "clone_duration_seconds": 0.5539219379425049,
-  "count_duration_seconds": 0.0018393993377685547
+  "clone_duration_seconds": 1.0953137874603271,
+  "count_duration_seconds": 0.003732919692993164
 }

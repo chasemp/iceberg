@@ -2,28 +2,17 @@
   "owner": "open-telemetry",
   "repo": "opentelemetry-collector-contrib",
   "version": "HEAD",
-  "loc": 992499,
+  "loc": 997093,
   "source": "github_clone",
-  "cached_at": "2026-02-05T06:49:37.655550+00:00",
+  "cached_at": "2026-02-11T00:05:53.574726+00:00",
   "package": {
     "system": "go",
     "name": "github.com/open-telemetry/opentelemetry-collector-contrib",
     "version": "v0.0.0"
   },
-  "ai_markers": {
-    "claude": true,
-    "cursor": false,
-    "copilot": false,
-    "aider": false,
-    "generic_ai": true
-  },
-  "ai_tools": [
-    "Claude",
-    "AI Tools"
-  ],
   "repo_url": "https://github.com/open-telemetry/opentelemetry-collector-contrib.git",
   "ref": "HEAD",
-  "commit_hash": "839f0ee0e81cc8935c1e4212dab88bf20c9a7e74",
-  "clone_duration_seconds": 3.9020185470581055,
-  "count_duration_seconds": 0.7458853721618652
+  "commit_hash": "22b8bc4343d9ece940389e6c65cb9d8be1de9159",
+  "clone_duration_seconds": 5.140232086181641,
+  "count_duration_seconds": 2.303987979888916
 }

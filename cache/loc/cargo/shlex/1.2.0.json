@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "shlex",
+    "version": "1.2.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-11T15:11:28.523816+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/shlex/versions/1.2.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1201019287109375,
+  "count_duration_seconds": null
+}

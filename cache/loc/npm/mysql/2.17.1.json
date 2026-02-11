@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "mysql",
+    "version": "2.17.1"
+  },
+  "total_lines": 6745,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-11T00:28:42.136825+00:00",
+  "source_url": "https://registry.npmjs.org/mysql/-/mysql-2.17.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.8397748470306396,
+  "count_duration_seconds": null
+}

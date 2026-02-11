@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 0,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:03:09.006395+00:00",
+  "cached_at": "2026-02-11T15:10:24.802907+00:00",
   "repo_url": "https://github.com/elixir-plug/plug.git",
   "ref": "HEAD",
   "commit_hash": "200d432d51032318a470c5e0e4233065a36edc44",
-  "clone_duration_seconds": 0.7363438606262207,
-  "count_duration_seconds": 0.002565622329711914
+  "clone_duration_seconds": 0.9312682151794434,
+  "count_duration_seconds": 0.005141019821166992
 }

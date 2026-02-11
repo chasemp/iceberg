@@ -4,10 +4,12 @@
   "version": "HEAD",
   "loc": 74718,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:29:14.786735+00:00",
+  "cached_at": "2026-02-11T15:11:33.674430+00:00",
+  "total_loc": 0,
+  "ratio": 0.0,
   "repo_url": "https://github.com/AppFlowy-IO/AppFlowy.git",
   "ref": "HEAD",
   "commit_hash": "bbe886fcdd5295ff49aaeec883181c67ca89ec29",
-  "clone_duration_seconds": 2.310685634613037,
-  "count_duration_seconds": 0.1336686611175537
+  "clone_duration_seconds": 4.691448926925659,
+  "count_duration_seconds": 0.19828200340270996
 }

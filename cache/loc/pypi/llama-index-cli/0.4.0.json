@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "llama-index-cli",
+    "version": "0.4.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-10T23:15:36.730536+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/llama-index-cli/versions/0.4.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.12834787368774414,
+  "count_duration_seconds": null
+}

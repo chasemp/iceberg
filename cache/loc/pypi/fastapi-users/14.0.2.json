@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "fastapi-users",
+    "version": "14.0.2"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-10T23:52:37.732270+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/fastapi-users/versions/14.0.2",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.10809707641601562,
+  "count_duration_seconds": null
+}

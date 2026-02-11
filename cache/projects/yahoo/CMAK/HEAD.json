@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 13794,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:26:50.934327+00:00",
+  "cached_at": "2026-02-11T00:30:13.858421+00:00",
   "repo_url": "https://github.com/yahoo/CMAK.git",
   "ref": "HEAD",
   "commit_hash": "30abfde3d303134db171f140784c5d506885eaf8",
-  "clone_duration_seconds": 0.8164522647857666,
-  "count_duration_seconds": 0.013350486755371094
+  "clone_duration_seconds": 1.4764111042022705,
+  "count_duration_seconds": 0.01623392105102539
 }

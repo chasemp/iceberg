@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 7908,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:06:54.445733+00:00",
+  "cached_at": "2026-02-10T23:22:37.132733+00:00",
   "repo_url": "https://github.com/Seldaek/monolog.git",
   "ref": "HEAD",
   "commit_hash": "cb44e4a2eb355ded395275551d32d63a4ed393f2",
-  "clone_duration_seconds": 0.863079309463501,
-  "count_duration_seconds": 0.01169443130493164
+  "clone_duration_seconds": 1.1889359951019287,
+  "count_duration_seconds": 0.014422178268432617
 }

@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 2571,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:19:19.353112+00:00",
+  "cached_at": "2026-02-11T00:08:38.108347+00:00",
   "repo_url": "https://github.com/carp-lang/Carp.git",
   "ref": "HEAD",
   "commit_hash": "62adb3012bdbfec0ca00a22939d89fad0eccc863",
-  "clone_duration_seconds": 0.9985332489013672,
-  "count_duration_seconds": 0.0071811676025390625
+  "clone_duration_seconds": 1.320812702178955,
+  "count_duration_seconds": 0.010030031204223633
 }

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "cryptography",
+    "version": "46.0.4"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-11T00:16:43.871056+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/cryptography/versions/46.0.4",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1646280288696289,
+  "count_duration_seconds": null
+}

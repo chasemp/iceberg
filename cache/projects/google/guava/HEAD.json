@@ -2,9 +2,9 @@
   "owner": "google",
   "repo": "guava",
   "version": "HEAD",
-  "loc": 269568,
+  "loc": 269558,
   "source": "github_clone",
-  "cached_at": "2026-02-09T21:38:58.983224+00:00",
+  "cached_at": "2026-02-11T15:42:07.787062+00:00",
   "package": {
     "system": "maven",
     "name": "guava-parent",
@@ -12,11 +12,7 @@
   },
   "repo_url": "https://github.com/google/guava.git",
   "ref": "HEAD",
-  "commit_hash": "a8436d13c5cd99600cbcb27493be373b7ba4dba2",
-  "clone_duration_seconds": 2.461190938949585,
-  "count_duration_seconds": 0.24408984184265137,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-java",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "commit_hash": "3b2163af00867341c162fe26148a6c53a736bc8d",
+  "clone_duration_seconds": 2.378302812576294,
+  "count_duration_seconds": 0.26036810874938965
 }

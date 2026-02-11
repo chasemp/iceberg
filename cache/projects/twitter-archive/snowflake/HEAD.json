@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 0,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:27:24.099398+00:00",
+  "cached_at": "2026-02-11T00:30:59.415433+00:00",
   "repo_url": "https://github.com/twitter-archive/snowflake.git",
   "ref": "HEAD",
   "commit_hash": "ec40836e3f47af92cf0c83cbb4187c529d7e7fa5",
-  "clone_duration_seconds": 0.48296666145324707,
-  "count_duration_seconds": 0.0009267330169677734
+  "clone_duration_seconds": 0.8659200668334961,
+  "count_duration_seconds": 0.0024421215057373047
 }

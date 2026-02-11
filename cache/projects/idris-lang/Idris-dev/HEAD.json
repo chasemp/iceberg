@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 8526,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:20:51.693819+00:00",
+  "cached_at": "2026-02-11T00:10:32.950841+00:00",
   "repo_url": "https://github.com/idris-lang/Idris-dev.git",
   "ref": "HEAD",
   "commit_hash": "fc50b6fd9f67a0f499d08b5b81fff139a080cb2d",
-  "clone_duration_seconds": 1.3062467575073242,
-  "count_duration_seconds": 0.03673434257507324
+  "clone_duration_seconds": 1.5712451934814453,
+  "count_duration_seconds": 0.05826163291931152
 }

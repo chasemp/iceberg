@@ -4,10 +4,12 @@
   "version": "HEAD",
   "loc": 5892,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:29:38.611898+00:00",
+  "cached_at": "2026-02-11T15:12:04.230314+00:00",
+  "total_loc": 0,
+  "ratio": 0.0,
   "repo_url": "https://github.com/chen08209/FlClash.git",
   "ref": "HEAD",
   "commit_hash": "672eaccd35dcd84f7a0492638adc779a3fd97735",
-  "clone_duration_seconds": 2.193709135055542,
-  "count_duration_seconds": 0.015716552734375
+  "clone_duration_seconds": 3.1299359798431396,
+  "count_duration_seconds": 0.026205062866210938
 }

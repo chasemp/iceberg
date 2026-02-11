@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 32705,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:42:45.124880+00:00",
+  "cached_at": "2026-02-11T15:36:41.828156+00:00",
   "repo_url": "https://github.com/gkd-kit/gkd.git",
   "ref": "HEAD",
   "commit_hash": "159d4ba8024061fe5c6fbbe984f23951127f9887",
-  "clone_duration_seconds": 0.7946598529815674,
-  "count_duration_seconds": 0.03063368797302246
+  "clone_duration_seconds": 1.1708259582519531,
+  "count_duration_seconds": 0.040823936462402344
 }

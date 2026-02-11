@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "astro",
+    "version": "5.12.8"
+  },
+  "total_lines": 2224,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-11T15:11:48.392468+00:00",
+  "source_url": "https://registry.npmjs.org/astro/-/astro-5.12.8.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 1.314823865890503,
+  "count_duration_seconds": null
+}

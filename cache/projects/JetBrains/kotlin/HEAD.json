@@ -2,12 +2,14 @@
   "owner": "JetBrains",
   "repo": "kotlin",
   "version": "HEAD",
-  "loc": 2834556,
+  "loc": 2837538,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:41:50.620039+00:00",
+  "cached_at": "2026-02-11T15:35:32.489943+00:00",
+  "total_loc": 602480,
+  "ratio": 0.17513861846071735,
   "repo_url": "https://github.com/JetBrains/kotlin.git",
   "ref": "HEAD",
-  "commit_hash": "67ac90ce0868ee0c9cd08d72460f16efecded549",
-  "clone_duration_seconds": 23.840239763259888,
-  "count_duration_seconds": 4.763554334640503
+  "commit_hash": "7169974ae2dde194b981aff6ce455a808fed14a9",
+  "clone_duration_seconds": 36.080355167388916,
+  "count_duration_seconds": 7.4665610790252686
 }

@@ -2,16 +2,12 @@
   "owner": "godotengine",
   "repo": "godot",
   "version": "HEAD",
-  "loc": 2911673,
+  "loc": 2911846,
   "source": "github_clone",
-  "cached_at": "2026-02-09T20:06:48.518681+00:00",
+  "cached_at": "2026-02-10T23:42:32.926408+00:00",
   "repo_url": "https://github.com/godotengine/godot.git",
   "ref": "HEAD",
-  "commit_hash": "377b5a31752ad5e9c53733639ba0d263e1158645",
-  "clone_duration_seconds": 15.590170860290527,
-  "count_duration_seconds": 1.169524908065796,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-top-100-stars",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "commit_hash": "92a90a8e6f23a42281b41bfbf01257156f1c1407",
+  "clone_duration_seconds": 15.265565156936646,
+  "count_duration_seconds": 1.1642918586730957
 }

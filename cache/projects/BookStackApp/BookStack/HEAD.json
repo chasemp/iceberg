@@ -4,10 +4,12 @@
   "version": "HEAD",
   "loc": 164898,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:07:58.534435+00:00",
+  "cached_at": "2026-02-10T23:24:23.467884+00:00",
+  "total_loc": 2769,
+  "ratio": 0.016514877704020468,
   "repo_url": "https://github.com/BookStackApp/BookStack.git",
   "ref": "HEAD",
   "commit_hash": "5e12b678c78735ea20d73445a159f0df5bb45080",
-  "clone_duration_seconds": 1.6212077140808105,
-  "count_duration_seconds": 0.1657116413116455
+  "clone_duration_seconds": 2.017594814300537,
+  "count_duration_seconds": 0.2138080596923828
 }

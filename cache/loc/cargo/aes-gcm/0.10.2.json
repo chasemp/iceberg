@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "aes-gcm",
+    "version": "0.10.2"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-11T15:11:27.149861+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/aes-gcm/versions/0.10.2",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.10376501083374023,
+  "count_duration_seconds": null
+}

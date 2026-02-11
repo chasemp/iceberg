@@ -4,7 +4,7 @@
   "version": "HEAD",
   "loc": 6963,
   "source": "github_clone",
-  "cached_at": "2026-02-09T20:19:30.322885+00:00",
+  "cached_at": "2026-02-11T15:55:44.639028+00:00",
   "package": {
     "system": "npm",
     "name": "bpb-panel",
@@ -13,10 +13,6 @@
   "repo_url": "https://github.com/bia-pain-bache/BPB-Worker-Panel.git",
   "ref": "v4.1.0",
   "commit_hash": "70c59a61245486aeedced7e7b93ccc899fab5be1",
-  "clone_duration_seconds": 1.0493597984313965,
-  "count_duration_seconds": 0.009829044342041016,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-top-100-forks",
-  "tracked": false,
-  "maintenance_priority": "low"
+  "clone_duration_seconds": 1.2121038436889648,
+  "count_duration_seconds": 0.02646780014038086
 }

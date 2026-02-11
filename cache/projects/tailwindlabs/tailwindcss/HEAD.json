@@ -4,21 +4,15 @@
   "version": "HEAD",
   "loc": 2827,
   "source": "github_clone",
-  "cached_at": "2026-02-09T20:29:03.163270+00:00",
+  "cached_at": "2026-02-10T23:50:13.826640+00:00",
   "package": {
     "system": "npm",
     "name": "@tailwindcss/root",
     "version": "1.0.0"
   },
-  "total_loc": 65258,
-  "ratio": 0.9584783726224573,
   "repo_url": "https://github.com/tailwindlabs/tailwindcss.git",
   "ref": "v1.0.0",
   "commit_hash": "46f1f97245379dc15c5721f75bda2ecffb8f659c",
-  "clone_duration_seconds": 1.001274824142456,
-  "count_duration_seconds": 0.010977029800415039,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-typescript",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "clone_duration_seconds": 1.1631059646606445,
+  "count_duration_seconds": 0.010889053344726562
 }

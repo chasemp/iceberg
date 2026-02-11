@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "es5-ext",
+    "version": "0.10.30"
+  },
+  "total_lines": 11480,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-11T00:11:04.385778+00:00",
+  "source_url": "https://registry.npmjs.org/es5-ext/-/es5-ext-0.10.30.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 1.808682918548584,
+  "count_duration_seconds": null
+}

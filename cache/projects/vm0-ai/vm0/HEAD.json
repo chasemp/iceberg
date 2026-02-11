@@ -2,22 +2,14 @@
   "owner": "vm0-ai",
   "repo": "vm0",
   "version": "HEAD",
-  "loc": 77726,
+  "loc": 90463,
   "source": "github_clone",
-  "cached_at": "2026-02-04T06:41:39.036007+00:00",
-  "ai_markers": {
-    "claude": true,
-    "cursor": false,
-    "copilot": false,
-    "aider": false,
-    "generic_ai": false
-  },
-  "ai_tools": [
-    "Claude"
-  ],
+  "cached_at": "2026-02-10T23:59:36.175179+00:00",
+  "total_loc": 50635,
+  "ratio": 0.35886405193553417,
   "repo_url": "https://github.com/vm0-ai/vm0.git",
   "ref": "HEAD",
-  "commit_hash": "d863602615a76a618b8c855f0df5797a3f42b57d",
-  "clone_duration_seconds": 1.017899990081787,
-  "count_duration_seconds": 0.0859980583190918
+  "commit_hash": "7a5e01395c083b497b38ff3c1b36a3a15b0c6828",
+  "clone_duration_seconds": 2.346039056777954,
+  "count_duration_seconds": 0.1407301425933838
 }

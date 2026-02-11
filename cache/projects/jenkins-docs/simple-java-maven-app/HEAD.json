@@ -4,7 +4,7 @@
   "version": "HEAD",
   "loc": 32,
   "source": "github_clone",
-  "cached_at": "2026-02-09T20:19:20.942684+00:00",
+  "cached_at": "2026-02-11T15:55:31.350716+00:00",
   "package": {
     "system": "maven",
     "name": "my-app",
@@ -13,10 +13,6 @@
   "repo_url": "https://github.com/jenkins-docs/simple-java-maven-app.git",
   "ref": "HEAD",
   "commit_hash": "a7628c67744b5352aa8085f509d8b49d8a90cd40",
-  "clone_duration_seconds": 0.9326410293579102,
-  "count_duration_seconds": 0.0027260780334472656,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-top-100-forks",
-  "tracked": false,
-  "maintenance_priority": "low"
+  "clone_duration_seconds": 0.9199728965759277,
+  "count_duration_seconds": 0.006897926330566406
 }

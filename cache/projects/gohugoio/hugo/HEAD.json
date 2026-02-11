@@ -2,32 +2,17 @@
   "owner": "gohugoio",
   "repo": "hugo",
   "version": "HEAD",
-  "loc": 166807,
+  "loc": 166816,
   "source": "github_clone",
-  "cached_at": "2026-02-09T21:41:54.258421+00:00",
+  "cached_at": "2026-02-11T15:22:12.829938+00:00",
   "package": {
     "system": "go",
     "name": "github.com/gohugoio/hugo",
     "version": "v0.0.0"
   },
-  "ai_markers": {
-    "claude": true,
-    "cursor": false,
-    "copilot": false,
-    "aider": false,
-    "generic_ai": true
-  },
-  "ai_tools": [
-    "Claude",
-    "AI Tools"
-  ],
   "repo_url": "https://github.com/gohugoio/hugo.git",
   "ref": "HEAD",
-  "commit_hash": "ee91280412078dd0c12e701891c68a1e6f550ff1",
-  "clone_duration_seconds": 3.865142822265625,
-  "count_duration_seconds": 0.1476292610168457,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-go",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "commit_hash": "e2776593c01f0f625cfed78093696ccb51535600",
+  "clone_duration_seconds": 3.0266597270965576,
+  "count_duration_seconds": 0.14934611320495605
 }

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "yargs-parser",
+    "version": "13.1.1"
+  },
+  "total_lines": 713,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-11T00:09:59.869424+00:00",
+  "source_url": "https://registry.npmjs.org/yargs-parser/-/yargs-parser-13.1.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.5027809143066406,
+  "count_duration_seconds": null
+}

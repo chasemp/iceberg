@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "highlight.js",
+    "version": "9.15.10"
+  },
+  "total_lines": 20783,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-11T15:08:36.876834+00:00",
+  "source_url": "https://registry.npmjs.org/highlight.js/-/highlight.js-9.15.10.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.6827890872955322,
+  "count_duration_seconds": null
+}

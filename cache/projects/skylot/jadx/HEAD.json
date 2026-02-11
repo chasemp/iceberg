@@ -4,14 +4,10 @@
   "version": "HEAD",
   "loc": 120724,
   "source": "github_clone",
-  "cached_at": "2026-02-09T21:39:26.070993+00:00",
+  "cached_at": "2026-02-11T15:42:35.330515+00:00",
   "repo_url": "https://github.com/skylot/jadx.git",
   "ref": "HEAD",
   "commit_hash": "f0da4867035bc280147905a8b49f1832aaa754e4",
-  "clone_duration_seconds": 1.884951114654541,
-  "count_duration_seconds": 0.17843389511108398,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-java",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "clone_duration_seconds": 1.7657508850097656,
+  "count_duration_seconds": 0.1859300136566162
 }

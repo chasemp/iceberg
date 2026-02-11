@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 0,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:10:40.098162+00:00",
+  "cached_at": "2026-02-10T23:26:51.252708+00:00",
   "repo_url": "https://github.com/svaksha/Julia.jl.git",
   "ref": "HEAD",
   "commit_hash": "c3985aeb1eb78fcde4648887dc5f6c7960503aa1",
-  "clone_duration_seconds": 0.698498010635376,
-  "count_duration_seconds": 0.0012431144714355469
+  "clone_duration_seconds": 0.9889199733734131,
+  "count_duration_seconds": 0.002579927444458008
 }

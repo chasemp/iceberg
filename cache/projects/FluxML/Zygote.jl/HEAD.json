@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 0,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:10:17.233111+00:00",
+  "cached_at": "2026-02-10T23:26:32.465048+00:00",
   "repo_url": "https://github.com/FluxML/Zygote.jl.git",
   "ref": "HEAD",
   "commit_hash": "4bc302230e84268cdd3d3aadc366cc3fc38dfa2f",
-  "clone_duration_seconds": 0.7161967754364014,
-  "count_duration_seconds": 0.0020411014556884766
+  "clone_duration_seconds": 0.9478011131286621,
+  "count_duration_seconds": 0.0038709640502929688
 }

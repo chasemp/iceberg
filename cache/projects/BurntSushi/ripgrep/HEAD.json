@@ -4,7 +4,7 @@
   "version": "HEAD",
   "loc": 32051,
   "source": "github_clone",
-  "cached_at": "2026-02-05T22:17:41.789254+00:00",
+  "cached_at": "2026-02-11T15:31:18.477979+00:00",
   "package": {
     "system": "cargo",
     "name": "ripgrep",
@@ -13,6 +13,6 @@
   "repo_url": "https://github.com/BurntSushi/ripgrep.git",
   "ref": "HEAD",
   "commit_hash": "0a88cccd5188074de96f54a4b6b44a63971ac157",
-  "clone_duration_seconds": 1.0695319175720215,
-  "count_duration_seconds": 0.01402902603149414
+  "clone_duration_seconds": 1.1859478950500488,
+  "count_duration_seconds": 0.021598100662231445
 }

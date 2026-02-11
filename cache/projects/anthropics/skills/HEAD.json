@@ -2,16 +2,12 @@
   "owner": "anthropics",
   "repo": "skills",
   "version": "HEAD",
-  "loc": 9001,
+  "loc": 10122,
   "source": "github_clone",
-  "cached_at": "2026-02-02T23:19:04.870999+00:00",
+  "cached_at": "2026-02-11T00:15:36.750909+00:00",
   "repo_url": "https://github.com/anthropics/skills.git",
   "ref": "HEAD",
-  "commit_hash": "69c0b1a0674149f27b61b2635f935524b6add202",
-  "clone_duration_seconds": 1.1912319660186768,
-  "count_duration_seconds": 0.0118408203125,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "trending-monthly",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "commit_hash": "1ed29a03dc852d30fa6ef2ca53a67dc2c2c2c563",
+  "clone_duration_seconds": 1.3561859130859375,
+  "count_duration_seconds": 0.01522207260131836
 }

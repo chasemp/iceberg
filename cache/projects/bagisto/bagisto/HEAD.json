@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 287189,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:05:59.356480+00:00",
+  "cached_at": "2026-02-10T23:21:28.679970+00:00",
   "repo_url": "https://github.com/bagisto/bagisto.git",
   "ref": "HEAD",
   "commit_hash": "34e29f6d34f163b3a93b74fae1b303e084c34acb",
-  "clone_duration_seconds": 2.585583209991455,
-  "count_duration_seconds": 0.27019596099853516
+  "clone_duration_seconds": 4.085912704467773,
+  "count_duration_seconds": 0.3038008213043213
 }

@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 374516,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:26:59.364810+00:00",
+  "cached_at": "2026-02-11T00:30:21.430078+00:00",
   "repo_url": "https://github.com/gitbucket/gitbucket.git",
   "ref": "HEAD",
   "commit_hash": "3826b690cfba07b966c15c4a298171c21f6703d8",
-  "clone_duration_seconds": 1.385040283203125,
-  "count_duration_seconds": 0.15528011322021484
+  "clone_duration_seconds": 1.7465181350708008,
+  "count_duration_seconds": 0.12860918045043945
 }

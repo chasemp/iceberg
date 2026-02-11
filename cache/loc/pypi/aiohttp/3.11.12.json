@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "aiohttp",
+    "version": "3.11.12"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-10T23:15:36.211648+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/aiohttp/versions/3.11.12",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11638808250427246,
+  "count_duration_seconds": null
+}

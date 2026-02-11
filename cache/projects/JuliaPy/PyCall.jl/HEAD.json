@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 8,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:10:47.408660+00:00",
+  "cached_at": "2026-02-10T23:26:57.232661+00:00",
   "repo_url": "https://github.com/JuliaPy/PyCall.jl.git",
   "ref": "HEAD",
   "commit_hash": "2f600fbebee50ab0672e153455e3c0fda1694fba",
-  "clone_duration_seconds": 0.78920578956604,
-  "count_duration_seconds": 0.0016112327575683594
+  "clone_duration_seconds": 0.9176630973815918,
+  "count_duration_seconds": 0.003426074981689453
 }

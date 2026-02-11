@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "llama-index",
+    "version": "0.12.16"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-10T23:15:36.600013+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/llama-index/versions/0.12.16",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.12785887718200684,
+  "count_duration_seconds": null
+}

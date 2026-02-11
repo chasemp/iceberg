@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "azure-core",
+    "version": "1.36.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-11T00:34:11.202294+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/azure-core/versions/1.36.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.14122486114501953,
+  "count_duration_seconds": null
+}

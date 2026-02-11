@@ -2,9 +2,9 @@
   "owner": "karpathy",
   "repo": "nanochat",
   "version": "HEAD",
-  "loc": 6174,
+  "loc": 6453,
   "source": "github_clone",
-  "cached_at": "2026-02-02T23:17:29.634179+00:00",
+  "cached_at": "2026-02-10T23:58:40.827253+00:00",
   "package": {
     "system": "pypi",
     "name": "nanochat",
@@ -14,11 +14,7 @@
   "ratio": 0.0,
   "repo_url": "https://github.com/karpathy/nanochat.git",
   "ref": "HEAD",
-  "commit_hash": "72b9064f9dbb75f9755c483d55c977335cba2728",
-  "clone_duration_seconds": 1.0433018207550049,
-  "count_duration_seconds": 0.006798267364501953,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "trending-weekly",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "commit_hash": "2f096867244e3d00a50284d1be05fa3f5dcfb84b",
+  "clone_duration_seconds": 1.1974399089813232,
+  "count_duration_seconds": 0.006971836090087891
 }

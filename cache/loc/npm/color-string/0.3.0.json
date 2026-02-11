@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "color-string",
+    "version": "0.3.0"
+  },
+  "total_lines": 191,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-11T00:09:48.918266+00:00",
+  "source_url": "https://registry.npmjs.org/color-string/-/color-string-0.3.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7762370109558105,
+  "count_duration_seconds": null
+}

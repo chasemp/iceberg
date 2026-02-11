@@ -2,27 +2,19 @@
   "owner": "ankitects",
   "repo": "anki",
   "version": "HEAD",
-  "loc": 109552,
+  "loc": 109637,
   "source": "github_clone",
-  "cached_at": "2026-02-05T06:49:30.434900+00:00",
+  "cached_at": "2026-02-11T00:04:29.887608+00:00",
   "package": {
     "system": "npm",
     "name": "anki",
     "version": "0.1.0"
   },
-  "ai_markers": {
-    "claude": true,
-    "cursor": false,
-    "copilot": false,
-    "aider": false,
-    "generic_ai": false
-  },
-  "ai_tools": [
-    "Claude"
-  ],
+  "total_loc": 17640,
+  "ratio": 0.13859534715620261,
   "repo_url": "https://github.com/ankitects/anki.git",
   "ref": "HEAD",
-  "commit_hash": "5d9d864514b9a4ac7d4688fac390c22db91d4abe",
-  "clone_duration_seconds": 0.6908657550811768,
-  "count_duration_seconds": 0.08340120315551758
+  "commit_hash": "3d813c83c3b72e23abaa69361d0e0a6f7624166c",
+  "clone_duration_seconds": 1.7348310947418213,
+  "count_duration_seconds": 0.10971689224243164
 }

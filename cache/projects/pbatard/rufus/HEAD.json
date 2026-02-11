@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 122377,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:36:54.421994+00:00",
+  "cached_at": "2026-02-11T15:00:11.072993+00:00",
   "repo_url": "https://github.com/pbatard/rufus.git",
   "ref": "HEAD",
-  "commit_hash": "cac828621acd8b6e446f2e256ecd6ae90fc103a3",
-  "clone_duration_seconds": 1.5202867984771729,
-  "count_duration_seconds": 0.07504415512084961
+  "commit_hash": "8b2a5b8514ef1f814ea95e78ca3f162477bf5a2d",
+  "clone_duration_seconds": 1.9033160209655762,
+  "count_duration_seconds": 0.07573103904724121
 }

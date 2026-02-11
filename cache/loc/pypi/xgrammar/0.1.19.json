@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "xgrammar",
+    "version": "0.1.19"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-11T00:34:13.844823+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/xgrammar/versions/0.1.19",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.14873814582824707,
+  "count_duration_seconds": null
+}

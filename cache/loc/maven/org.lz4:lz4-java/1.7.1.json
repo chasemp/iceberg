@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "org.lz4:lz4-java",
+    "version": "1.7.1"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-11T15:35:26.468539+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/org.lz4:lz4-java/versions/1.7.1",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.13881206512451172,
+  "count_duration_seconds": null
+}

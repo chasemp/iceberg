@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "failure",
+    "version": "0.1.8"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-10T23:13:13.582334+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/failure/versions/0.1.8",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.10662508010864258,
+  "count_duration_seconds": null
+}

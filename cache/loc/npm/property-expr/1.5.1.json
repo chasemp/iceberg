@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "property-expr",
+    "version": "1.5.1"
+  },
+  "total_lines": 264,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-11T00:28:51.822899+00:00",
+  "source_url": "https://registry.npmjs.org/property-expr/-/property-expr-1.5.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.6059560775756836,
+  "count_duration_seconds": null
+}

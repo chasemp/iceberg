@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 16349,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:44:18.106071+00:00",
+  "cached_at": "2026-02-11T15:38:42.730101+00:00",
   "repo_url": "https://github.com/android/nowinandroid.git",
   "ref": "HEAD",
   "commit_hash": "5ba16edde991ab39bec27283a85072b5d3750be8",
-  "clone_duration_seconds": 1.5431978702545166,
-  "count_duration_seconds": 0.05568742752075195
+  "clone_duration_seconds": 2.6456499099731445,
+  "count_duration_seconds": 0.10829591751098633
 }

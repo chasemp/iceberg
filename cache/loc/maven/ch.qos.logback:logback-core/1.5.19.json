@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "ch.qos.logback:logback-core",
+    "version": "1.5.19"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-11T15:35:24.893734+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/ch.qos.logback:logback-core/versions/1.5.19",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.12309026718139648,
+  "count_duration_seconds": null
+}

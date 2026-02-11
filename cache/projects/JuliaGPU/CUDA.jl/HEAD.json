@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 0,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:11:17.665015+00:00",
+  "cached_at": "2026-02-10T23:27:23.096293+00:00",
   "repo_url": "https://github.com/JuliaGPU/CUDA.jl.git",
   "ref": "HEAD",
   "commit_hash": "69db5484546bb542da1d4f801aa8f21ba70adc4f",
-  "clone_duration_seconds": 0.9728751182556152,
-  "count_duration_seconds": 0.006086111068725586
+  "clone_duration_seconds": 1.2831518650054932,
+  "count_duration_seconds": 0.010392904281616211
 }

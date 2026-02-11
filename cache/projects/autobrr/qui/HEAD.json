@@ -2,19 +2,19 @@
   "owner": "autobrr",
   "repo": "qui",
   "version": "HEAD",
-  "loc": 183805,
+  "loc": 189402,
   "source": "github_clone",
-  "cached_at": "2026-02-02T23:17:00.798685+00:00",
+  "cached_at": "2026-02-10T23:58:08.877453+00:00",
   "package": {
     "system": "go",
     "name": "github.com/autobrr/qui",
     "version": "v0.0.0"
   },
-  "total_loc": 76086,
-  "ratio": 0.29276119603987827,
+  "total_loc": 48346,
+  "ratio": 0.20334976529771018,
   "repo_url": "https://github.com/autobrr/qui.git",
   "ref": "HEAD",
-  "commit_hash": "342643e780b9c2dd7a39485ad1d10b7294641e6e",
-  "clone_duration_seconds": 1.794036865234375,
-  "count_duration_seconds": 0.09009075164794922
+  "commit_hash": "e7cc489a9f0f183fbaa6718babddedb314d8b302",
+  "clone_duration_seconds": 1.8623321056365967,
+  "count_duration_seconds": 0.0881950855255127
 }

@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 4237,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:36:32.427678+00:00",
+  "cached_at": "2026-02-11T14:59:41.849127+00:00",
   "repo_url": "https://github.com/wg/wrk.git",
   "ref": "HEAD",
   "commit_hash": "a211dd5a7050b1f9e8a9870b95513060e72ac4a0",
-  "clone_duration_seconds": 1.156632661819458,
-  "count_duration_seconds": 0.004036426544189453
+  "clone_duration_seconds": 1.690546989440918,
+  "count_duration_seconds": 0.0045130252838134766
 }

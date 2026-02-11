@@ -4,7 +4,7 @@
   "version": "HEAD",
   "loc": 66637,
   "source": "github_clone",
-  "cached_at": "2026-02-09T21:42:46.699610+00:00",
+  "cached_at": "2026-02-11T15:22:59.898864+00:00",
   "package": {
     "system": "go",
     "name": "github.com/jesseduffield/lazygit",
@@ -13,10 +13,6 @@
   "repo_url": "https://github.com/jesseduffield/lazygit.git",
   "ref": "HEAD",
   "commit_hash": "1d0db51caf3d280a53f027ef049355fc9e0c57e8",
-  "clone_duration_seconds": 2.244112014770508,
-  "count_duration_seconds": 0.09273123741149902,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-go",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "clone_duration_seconds": 2.2116379737854004,
+  "count_duration_seconds": 0.10687088966369629
 }

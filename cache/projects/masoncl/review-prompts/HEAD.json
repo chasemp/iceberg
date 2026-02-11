@@ -2,12 +2,12 @@
   "owner": "masoncl",
   "repo": "review-prompts",
   "version": "HEAD",
-  "loc": 2145,
+  "loc": 2247,
   "source": "github_clone",
-  "cached_at": "2026-02-04T06:41:25.058370+00:00",
+  "cached_at": "2026-02-10T23:59:04.636174+00:00",
   "repo_url": "https://github.com/masoncl/review-prompts.git",
   "ref": "HEAD",
-  "commit_hash": "2139c82e29bb6d62acac0a9f8ee39947b240e922",
-  "clone_duration_seconds": 0.31337404251098633,
-  "count_duration_seconds": 0.0031342506408691406
+  "commit_hash": "bcc8778995108d9b4e919e117d92c486670ce5d2",
+  "clone_duration_seconds": 0.9406380653381348,
+  "count_duration_seconds": 0.005418062210083008
 }

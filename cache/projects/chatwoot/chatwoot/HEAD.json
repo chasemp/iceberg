@@ -4,25 +4,17 @@
   "version": "HEAD",
   "loc": 89668,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:23:24.896555+00:00",
+  "cached_at": "2026-02-11T00:38:56.372089+00:00",
   "package": {
     "system": "npm",
     "name": "@chatwoot/chatwoot",
     "version": "4.10.1"
   },
-  "ai_markers": {
-    "claude": false,
-    "cursor": false,
-    "copilot": false,
-    "aider": false,
-    "generic_ai": true
-  },
-  "ai_tools": [
-    "AI Tools"
-  ],
+  "total_loc": 31018,
+  "ratio": 0.2570140695689641,
   "repo_url": "https://github.com/chatwoot/chatwoot.git",
   "ref": "v4.10.1",
   "commit_hash": "1345f6796609d867a2ef8f0b6c968eb63a54e8aa",
-  "clone_duration_seconds": 3.846850872039795,
-  "count_duration_seconds": 0.20354461669921875
+  "clone_duration_seconds": 8.098046064376831,
+  "count_duration_seconds": 0.3146190643310547
 }

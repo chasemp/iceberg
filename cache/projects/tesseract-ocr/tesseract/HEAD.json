@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 141191,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:39:00.652966+00:00",
+  "cached_at": "2026-02-11T15:17:26.788424+00:00",
   "repo_url": "https://github.com/tesseract-ocr/tesseract.git",
   "ref": "HEAD",
   "commit_hash": "7feafb3d722b05abfaed0baca14f7ef14842f761",
-  "clone_duration_seconds": 1.2353570461273193,
-  "count_duration_seconds": 0.07552480697631836
+  "clone_duration_seconds": 1.516225814819336,
+  "count_duration_seconds": 0.07386183738708496
 }

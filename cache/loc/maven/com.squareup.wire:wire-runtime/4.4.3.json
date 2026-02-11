@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "com.squareup.wire:wire-runtime",
+    "version": "4.4.3"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-11T15:37:24.372119+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/com.squareup.wire:wire-runtime/versions/4.4.3",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11525297164916992,
+  "count_duration_seconds": null
+}

@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 0,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:30:30.026103+00:00",
+  "cached_at": "2026-02-11T15:13:42.515388+00:00",
   "repo_url": "https://github.com/iampawan/FlutterExampleApps.git",
   "ref": "HEAD",
   "commit_hash": "d60252c8728726414562c4d389bce24f80e09c26",
-  "clone_duration_seconds": 1.785447359085083,
-  "count_duration_seconds": 0.0012781620025634766
+  "clone_duration_seconds": 3.455122947692871,
+  "count_duration_seconds": 0.0018439292907714844
 }

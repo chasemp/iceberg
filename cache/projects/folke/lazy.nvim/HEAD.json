@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 0,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:46:38.163702+00:00",
+  "cached_at": "2026-02-10T23:14:44.530023+00:00",
   "repo_url": "https://github.com/folke/lazy.nvim.git",
   "ref": "HEAD",
   "commit_hash": "306a05526ada86a7b30af95c5cc81ffba93fef97",
-  "clone_duration_seconds": 0.6063096523284912,
-  "count_duration_seconds": 0.0022454261779785156
+  "clone_duration_seconds": 0.9637923240661621,
+  "count_duration_seconds": 0.004280805587768555
 }

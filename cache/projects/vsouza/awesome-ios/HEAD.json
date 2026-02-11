@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 1,
   "source": "github_clone",
-  "cached_at": "2026-02-10T06:56:53.978098+00:00",
+  "cached_at": "2026-02-11T00:11:31.650499+00:00",
   "repo_url": "https://github.com/vsouza/awesome-ios.git",
   "ref": "HEAD",
   "commit_hash": "99286fc03962be2fe9e9e2f50582dce45c0aebec",
-  "clone_duration_seconds": 0.6558363437652588,
-  "count_duration_seconds": 0.0012660026550292969
+  "clone_duration_seconds": 1.0265169143676758,
+  "count_duration_seconds": 0.003030061721801758
 }

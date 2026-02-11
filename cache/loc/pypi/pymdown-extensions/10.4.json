@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "pymdown-extensions",
+    "version": "10.4"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-11T15:37:06.723892+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/pymdown-extensions/versions/10.4",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1373307704925537,
+  "count_duration_seconds": null
+}

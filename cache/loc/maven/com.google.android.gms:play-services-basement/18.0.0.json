@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "com.google.android.gms:play-services-basement",
+    "version": "18.0.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-11T15:37:23.272881+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/com.google.android.gms:play-services-basement/versions/18.0.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11357331275939941,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "lief",
+    "version": "0.15.1"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-10T23:13:13.355221+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/lief/versions/0.15.1",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.18814587593078613,
+  "count_duration_seconds": null
+}

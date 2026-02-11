@@ -4,10 +4,12 @@
   "version": "HEAD",
   "loc": 6978,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:02:25.035901+00:00",
+  "cached_at": "2026-02-11T15:09:42.859699+00:00",
+  "total_loc": 144133,
+  "ratio": 0.9538220248691359,
   "repo_url": "https://github.com/blockscout/blockscout.git",
   "ref": "HEAD",
-  "commit_hash": "1af3717b7f388401067bd3fce5184de140d08854",
-  "clone_duration_seconds": 1.7549712657928467,
-  "count_duration_seconds": 0.05770397186279297
+  "commit_hash": "1b493cb1c9e001b69f29491234c4c743b4dc9c51",
+  "clone_duration_seconds": 2.7437119483947754,
+  "count_duration_seconds": 0.09879398345947266
 }

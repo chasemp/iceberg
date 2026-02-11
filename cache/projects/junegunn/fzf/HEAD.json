@@ -4,7 +4,7 @@
   "version": "HEAD",
   "loc": 24505,
   "source": "github_clone",
-  "cached_at": "2026-02-09T21:42:34.882040+00:00",
+  "cached_at": "2026-02-11T15:22:47.170620+00:00",
   "package": {
     "system": "go",
     "name": "github.com/junegunn/fzf",
@@ -13,10 +13,6 @@
   "repo_url": "https://github.com/junegunn/fzf.git",
   "ref": "HEAD",
   "commit_hash": "0e859a18ed399dc4d9d15be6e462f6c4b4e02358",
-  "clone_duration_seconds": 1.0533108711242676,
-  "count_duration_seconds": 0.012769699096679688,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-go",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "clone_duration_seconds": 0.9816529750823975,
+  "count_duration_seconds": 0.016101837158203125
 }

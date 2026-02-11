@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "mout",
+    "version": "1.1.0"
+  },
+  "total_lines": 7461,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-11T15:10:34.592793+00:00",
+  "source_url": "https://registry.npmjs.org/mout/-/mout-1.1.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.9888210296630859,
+  "count_duration_seconds": null
+}

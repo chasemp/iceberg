@@ -2,9 +2,9 @@
   "owner": "ggml-org",
   "repo": "llama.cpp",
   "version": "HEAD",
-  "loc": 295014,
+  "loc": 297922,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:38:45.308089+00:00",
+  "cached_at": "2026-02-11T15:16:39.611506+00:00",
   "package": {
     "system": "pypi",
     "name": "llama-cpp-scripts",
@@ -12,7 +12,7 @@
   },
   "repo_url": "https://github.com/ggml-org/llama.cpp.git",
   "ref": "HEAD",
-  "commit_hash": "66d403c48098a999406c4850b9d7e6256b73d6da",
-  "clone_duration_seconds": 3.2553744316101074,
-  "count_duration_seconds": 0.1723041534423828
+  "commit_hash": "53de59f67dfd17fe9df32bf48e0df757e833419f",
+  "clone_duration_seconds": 4.365084886550903,
+  "count_duration_seconds": 0.13335084915161133
 }

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "sanitize-html",
+    "version": "2.4.0"
+  },
+  "total_lines": 593,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-11T15:08:48.163059+00:00",
+  "source_url": "https://registry.npmjs.org/sanitize-html/-/sanitize-html-2.4.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7546432018280029,
+  "count_duration_seconds": null
+}

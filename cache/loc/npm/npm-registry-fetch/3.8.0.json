@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "npm-registry-fetch",
+    "version": "3.8.0"
+  },
+  "total_lines": 504,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-11T00:28:27.085705+00:00",
+  "source_url": "https://registry.npmjs.org/npm-registry-fetch/-/npm-registry-fetch-3.8.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.8981850147247314,
+  "count_duration_seconds": null
+}

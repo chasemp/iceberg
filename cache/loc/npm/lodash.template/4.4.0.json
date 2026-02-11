@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "lodash.template",
+    "version": "4.4.0"
+  },
+  "total_lines": 360,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-11T00:09:53.348291+00:00",
+  "source_url": "https://registry.npmjs.org/lodash.template/-/lodash.template-4.4.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.8583626747131348,
+  "count_duration_seconds": null
+}

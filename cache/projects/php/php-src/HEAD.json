@@ -2,12 +2,12 @@
   "owner": "php",
   "repo": "php-src",
   "version": "HEAD",
-  "loc": 1585549,
+  "loc": 1585519,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:36:46.141586+00:00",
+  "cached_at": "2026-02-11T15:00:01.621142+00:00",
   "repo_url": "https://github.com/php/php-src.git",
   "ref": "HEAD",
-  "commit_hash": "a760cf73f040897e2b00e816708b80a4e8716053",
-  "clone_duration_seconds": 6.724632978439331,
-  "count_duration_seconds": 0.8194913864135742
+  "commit_hash": "66d908f112f309c19392e00fbff9a2d0f473c1eb",
+  "clone_duration_seconds": 9.652050971984863,
+  "count_duration_seconds": 0.6697840690612793
 }

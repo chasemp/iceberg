@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "react-dev-utils",
+    "version": "10.2.1"
+  },
+  "total_lines": 2119,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-11T15:08:47.272595+00:00",
+  "source_url": "https://registry.npmjs.org/react-dev-utils/-/react-dev-utils-10.2.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.48072385787963867,
+  "count_duration_seconds": null
+}

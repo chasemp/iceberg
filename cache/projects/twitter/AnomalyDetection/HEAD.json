@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 0,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:33:54.190937+00:00",
+  "cached_at": "2026-02-10T23:10:46.991747+00:00",
   "repo_url": "https://github.com/twitter/AnomalyDetection.git",
   "ref": "HEAD",
   "commit_hash": "1f5deaa1609f8f1964c1e905c7a8ad2d1d0dc718",
-  "clone_duration_seconds": 0.7839632034301758,
-  "count_duration_seconds": 0.0013480186462402344
+  "clone_duration_seconds": 1.1321706771850586,
+  "count_duration_seconds": 0.0031800270080566406
 }

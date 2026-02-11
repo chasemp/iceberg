@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "fastapi-sso",
+    "version": "0.16.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-11T00:34:11.371204+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/fastapi-sso/versions/0.16.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.16498398780822754,
+  "count_duration_seconds": null
+}

@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 319748,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:40:06.618969+00:00",
+  "cached_at": "2026-02-11T15:19:27.976244+00:00",
   "repo_url": "https://github.com/ggml-org/whisper.cpp.git",
   "ref": "HEAD",
   "commit_hash": "764482c3175d9c3bc6089c1ec84df7d1b9537d83",
-  "clone_duration_seconds": 1.578723669052124,
-  "count_duration_seconds": 0.15748310089111328
+  "clone_duration_seconds": 1.9905979633331299,
+  "count_duration_seconds": 0.11475300788879395
 }

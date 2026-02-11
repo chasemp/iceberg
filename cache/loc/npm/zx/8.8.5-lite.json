@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "zx",
+    "version": "8.8.5-lite"
+  },
+  "total_lines": 0,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-10T23:55:33.428175+00:00",
+  "source_url": "https://registry.npmjs.org/zx/-/zx-8.8.5-lite.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.6455340385437012,
+  "count_duration_seconds": null
+}

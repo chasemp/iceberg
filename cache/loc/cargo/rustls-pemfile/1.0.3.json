@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "rustls-pemfile",
+    "version": "1.0.3"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-11T15:11:28.401126+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/rustls-pemfile/versions/1.0.3",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.157210111618042,
+  "count_duration_seconds": null
+}

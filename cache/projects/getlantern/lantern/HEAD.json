@@ -2,9 +2,9 @@
   "owner": "getlantern",
   "repo": "lantern",
   "version": "HEAD",
-  "loc": 14865,
+  "loc": 14885,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:31:11.436500+00:00",
+  "cached_at": "2026-02-11T15:14:55.211312+00:00",
   "package": {
     "system": "go",
     "name": "github.com/getlantern/lantern",
@@ -12,7 +12,7 @@
   },
   "repo_url": "https://github.com/getlantern/lantern.git",
   "ref": "HEAD",
-  "commit_hash": "1b129cbd53471d0bcf61e8085670616fd3cd61f4",
-  "clone_duration_seconds": 1.3840458393096924,
-  "count_duration_seconds": 0.023972511291503906
+  "commit_hash": "bd4049f0466f473b5ea40a2aa60e6ad9e01d0b3b",
+  "clone_duration_seconds": 2.0866551399230957,
+  "count_duration_seconds": 0.03530526161193848
 }

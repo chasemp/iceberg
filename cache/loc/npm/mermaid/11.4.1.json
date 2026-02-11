@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "mermaid",
+    "version": "11.4.1"
+  },
+  "total_lines": 0,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-11T15:09:05.650591+00:00",
+  "source_url": "https://registry.npmjs.org/mermaid/-/mermaid-11.4.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 1.9635827541351318,
+  "count_duration_seconds": null
+}

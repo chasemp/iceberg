@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 0,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:18:14.043669+00:00",
+  "cached_at": "2026-02-11T00:07:24.937915+00:00",
   "repo_url": "https://github.com/koalaman/shellcheck.git",
   "ref": "HEAD",
   "commit_hash": "29f0d8d12a893e2e52acc0195162dead604e57e2",
-  "clone_duration_seconds": 0.7347686290740967,
-  "count_duration_seconds": 0.0021414756774902344
+  "clone_duration_seconds": 1.1414430141448975,
+  "count_duration_seconds": 0.006717205047607422
 }

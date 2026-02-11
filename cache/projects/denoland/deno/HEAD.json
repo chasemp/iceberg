@@ -2,28 +2,14 @@
   "owner": "denoland",
   "repo": "deno",
   "version": "HEAD",
-  "loc": 594453,
+  "loc": 614139,
   "source": "github_clone",
-  "cached_at": "2026-02-05T22:20:18.430936+00:00",
+  "cached_at": "2026-02-10T23:44:37.132975+00:00",
   "total_loc": 0,
   "ratio": 0.0,
-  "ai_markers": {
-    "claude": true,
-    "cursor": false,
-    "copilot": false,
-    "aider": false,
-    "generic_ai": false
-  },
-  "ai_tools": [
-    "Claude"
-  ],
   "repo_url": "https://github.com/denoland/deno.git",
   "ref": "HEAD",
-  "commit_hash": "42f9bf7b2a7de796ae47c5eb33866ddb1d08f4d7",
-  "clone_duration_seconds": 6.815249919891357,
-  "count_duration_seconds": 0.4310178756713867,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-top-100-stars",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "commit_hash": "1f36bf720d0458285b6893339c9cbd300104e4cf",
+  "clone_duration_seconds": 5.9307639598846436,
+  "count_duration_seconds": 0.555814266204834
 }

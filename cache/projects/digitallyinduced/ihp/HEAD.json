@@ -4,10 +4,12 @@
   "version": "HEAD",
   "loc": 3002,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:19:28.665433+00:00",
+  "cached_at": "2026-02-11T00:08:51.532481+00:00",
+  "total_loc": 10728,
+  "ratio": 0.7813546977421705,
   "repo_url": "https://github.com/digitallyinduced/ihp.git",
   "ref": "HEAD",
-  "commit_hash": "173994fb144f364da0f990bd920d6ad593a211d7",
-  "clone_duration_seconds": 2.0330073833465576,
-  "count_duration_seconds": 0.016692161560058594
+  "commit_hash": "29853090c2d96aa8025d2cbe982e7e90cb89f6a0",
+  "clone_duration_seconds": 3.4413630962371826,
+  "count_duration_seconds": 0.0240781307220459
 }

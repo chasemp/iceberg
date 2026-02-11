@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 0,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:11:02.352874+00:00",
+  "cached_at": "2026-02-10T23:27:09.490673+00:00",
   "repo_url": "https://github.com/nealmckee/penumbra.git",
   "ref": "HEAD",
   "commit_hash": "b2a4b15c10b14fdd990d0bdc29e7b044afc718af",
-  "clone_duration_seconds": 0.7753126621246338,
-  "count_duration_seconds": 0.0018262863159179688
+  "clone_duration_seconds": 1.1073081493377686,
+  "count_duration_seconds": 0.002496004104614258
 }

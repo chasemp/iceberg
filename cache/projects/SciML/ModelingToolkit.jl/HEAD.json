@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 0,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:10:09.422440+00:00",
+  "cached_at": "2026-02-10T23:26:26.317876+00:00",
   "repo_url": "https://github.com/SciML/ModelingToolkit.jl.git",
   "ref": "HEAD",
-  "commit_hash": "b8b5c3dbe0fb5373995793e0c918492b5a1c0fbd",
-  "clone_duration_seconds": 0.9493660926818848,
-  "count_duration_seconds": 0.004592180252075195
+  "commit_hash": "2c8504b5e16b44fa46bc3ed8bbdd92d5abdf6e34",
+  "clone_duration_seconds": 1.2419559955596924,
+  "count_duration_seconds": 0.007414102554321289
 }

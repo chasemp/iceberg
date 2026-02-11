@@ -2,9 +2,9 @@
   "owner": "netbirdio",
   "repo": "netbird",
   "version": "HEAD",
-  "loc": 235049,
+  "loc": 236324,
   "source": "github_clone",
-  "cached_at": "2026-02-02T23:16:09.004766+00:00",
+  "cached_at": "2026-02-10T23:57:15.223577+00:00",
   "package": {
     "system": "go",
     "name": "github.com/netbirdio/netbird",
@@ -12,7 +12,7 @@
   },
   "repo_url": "https://github.com/netbirdio/netbird.git",
   "ref": "HEAD",
-  "commit_hash": "b20d4849720754928ce08a88d8970877a5b0daa5",
-  "clone_duration_seconds": 1.675835132598877,
-  "count_duration_seconds": 0.17258095741271973
+  "commit_hash": "fc88399c232efe88b736dd41e248a8f809bdd837",
+  "clone_duration_seconds": 1.8009002208709717,
+  "count_duration_seconds": 0.16190290451049805
 }

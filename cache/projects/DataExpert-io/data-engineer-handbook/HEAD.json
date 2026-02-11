@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 483,
   "source": "github_clone",
-  "cached_at": "2026-02-07T06:34:05.619235+00:00",
+  "cached_at": "2026-02-10T23:56:26.286187+00:00",
   "repo_url": "https://github.com/DataExpert-io/data-engineer-handbook.git",
   "ref": "HEAD",
   "commit_hash": "1b448e60110b324df0d9cc481ad64adb4b66039b",
-  "clone_duration_seconds": 3.1426820755004883,
-  "count_duration_seconds": 0.003829479217529297
+  "clone_duration_seconds": 6.72690486907959,
+  "count_duration_seconds": 0.005089998245239258
 }

@@ -4,10 +4,12 @@
   "version": "HEAD",
   "loc": 3158,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:31:57.739518+00:00",
+  "cached_at": "2026-02-11T15:15:46.575392+00:00",
+  "total_loc": 20185,
+  "ratio": 0.8647131902497537,
   "repo_url": "https://github.com/felangel/bloc.git",
   "ref": "HEAD",
   "commit_hash": "3a4418b5c03f92884afde23d2738ee448185ff40",
-  "clone_duration_seconds": 1.7751283645629883,
-  "count_duration_seconds": 0.04207253456115723
+  "clone_duration_seconds": 2.9306981563568115,
+  "count_duration_seconds": 0.08719730377197266
 }

@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 69213,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:26:28.228333+00:00",
+  "cached_at": "2026-02-11T00:29:42.359735+00:00",
   "repo_url": "https://github.com/playframework/playframework.git",
   "ref": "HEAD",
   "commit_hash": "39165e5f9ffba5e675b11848a2b4803dbb174c5e",
-  "clone_duration_seconds": 1.5397365093231201,
-  "count_duration_seconds": 0.22269868850708008
+  "clone_duration_seconds": 2.0480141639709473,
+  "count_duration_seconds": 0.3718709945678711
 }

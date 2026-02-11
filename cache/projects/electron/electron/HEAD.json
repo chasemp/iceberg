@@ -2,23 +2,19 @@
   "owner": "electron",
   "repo": "electron",
   "version": "HEAD",
-  "loc": 38016,
+  "loc": 38018,
   "source": "github_clone",
-  "cached_at": "2026-02-09T20:04:12.829347+00:00",
+  "cached_at": "2026-02-10T23:39:10.211910+00:00",
   "package": {
     "system": "npm",
     "name": "@electron-ci/dev-root",
     "version": "0.0.0-development"
   },
   "total_loc": 148920,
-  "ratio": 0.7966362819360637,
+  "ratio": 0.7966277589361178,
   "repo_url": "https://github.com/electron/electron.git",
   "ref": "HEAD",
-  "commit_hash": "fd0108907a1623433f3aaf2ece4bca318f60873a",
-  "clone_duration_seconds": 2.8774490356445312,
-  "count_duration_seconds": 0.11347579956054688,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-top-100-stars",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "commit_hash": "57a6e430252a6ca1cbc3f24a5de39e779fdf985e",
+  "clone_duration_seconds": 3.089509963989258,
+  "count_duration_seconds": 0.11511778831481934
 }

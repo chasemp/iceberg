@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "postcss",
+    "version": "8.3.6"
+  },
+  "total_lines": 4023,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-11T15:08:42.867879+00:00",
+  "source_url": "https://registry.npmjs.org/postcss/-/postcss-8.3.6.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 1.230400800704956,
+  "count_duration_seconds": null
+}

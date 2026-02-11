@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "pillow",
+    "version": "12.0.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-11T15:37:25.588402+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/pillow/versions/12.0.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11905026435852051,
+  "count_duration_seconds": null
+}

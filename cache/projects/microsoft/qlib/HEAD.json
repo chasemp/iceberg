@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 54291,
   "source": "github_clone",
-  "cached_at": "2026-02-05T06:49:46.373298+00:00",
+  "cached_at": "2026-02-11T00:06:49.653291+00:00",
   "repo_url": "https://github.com/microsoft/qlib.git",
   "ref": "HEAD",
   "commit_hash": "8fd6d5ca7eab59a69bf5c62f84e8b4e2a4e8910b",
-  "clone_duration_seconds": 0.48537445068359375,
-  "count_duration_seconds": 0.03889751434326172
+  "clone_duration_seconds": 1.641129970550537,
+  "count_duration_seconds": 0.045332908630371094
 }

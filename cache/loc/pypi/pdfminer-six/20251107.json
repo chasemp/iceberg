@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "pdfminer-six",
+    "version": "20251107"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-10T23:52:37.845290+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/pdfminer-six/versions/20251107",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11093902587890625,
+  "count_duration_seconds": null
+}

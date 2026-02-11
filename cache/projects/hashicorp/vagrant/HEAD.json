@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 56028,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:23:15.114398+00:00",
+  "cached_at": "2026-02-11T00:38:38.782812+00:00",
   "repo_url": "https://github.com/hashicorp/vagrant.git",
   "ref": "HEAD",
   "commit_hash": "92e88862e72c93a0aadf8a49d6c1595b141a75e0",
-  "clone_duration_seconds": 1.2345294952392578,
-  "count_duration_seconds": 0.09128403663635254
+  "clone_duration_seconds": 1.7990801334381104,
+  "count_duration_seconds": 0.28905200958251953
 }

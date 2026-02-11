@@ -4,7 +4,7 @@
   "version": "HEAD",
   "loc": 1005,
   "source": "github_clone",
-  "cached_at": "2026-02-05T22:19:30.683254+00:00",
+  "cached_at": "2026-02-10T23:34:48.559540+00:00",
   "package": {
     "system": "go",
     "name": "github.com/avelino/awesome-go",
@@ -13,6 +13,6 @@
   "repo_url": "https://github.com/avelino/awesome-go.git",
   "ref": "HEAD",
   "commit_hash": "65f8c31475303fc09d9a27107172e569c50ea537",
-  "clone_duration_seconds": 1.0827131271362305,
-  "count_duration_seconds": 0.0027048587799072266
+  "clone_duration_seconds": 1.3957037925720215,
+  "count_duration_seconds": 0.004705905914306641
 }

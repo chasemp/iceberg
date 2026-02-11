@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "bytes",
+    "version": "1.4.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-10T23:13:13.475292+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/bytes/versions/1.4.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11677408218383789,
+  "count_duration_seconds": null
+}

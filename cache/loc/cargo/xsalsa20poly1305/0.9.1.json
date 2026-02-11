@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "xsalsa20poly1305",
+    "version": "0.9.1"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-11T15:13:08.134951+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/xsalsa20poly1305/versions/0.9.1",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1437671184539795,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "starlette",
+    "version": "0.45.3"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-10T23:15:37.373496+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/starlette/versions/0.45.3",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.12870025634765625,
+  "count_duration_seconds": null
+}

@@ -4,7 +4,7 @@
   "version": "HEAD",
   "loc": 6010,
   "source": "github_clone",
-  "cached_at": "2026-02-09T20:25:39.841775+00:00",
+  "cached_at": "2026-02-11T16:04:27.491787+00:00",
   "package": {
     "system": "npm",
     "name": "libretv",
@@ -15,10 +15,6 @@
   "repo_url": "https://github.com/LibreSpark/LibreTV.git",
   "ref": "HEAD",
   "commit_hash": "78ee8bbacc6494b58d0d03e4a1d3879f4cf5ccee",
-  "clone_duration_seconds": 1.0660836696624756,
-  "count_duration_seconds": 0.007605075836181641,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-top-100-forks",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "clone_duration_seconds": 1.1044178009033203,
+  "count_duration_seconds": 0.01004171371459961
 }

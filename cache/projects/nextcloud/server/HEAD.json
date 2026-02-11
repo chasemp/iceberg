@@ -2,17 +2,19 @@
   "owner": "nextcloud",
   "repo": "server",
   "version": "HEAD",
-  "loc": 557297,
+  "loc": 557510,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:05:01.399748+00:00",
+  "cached_at": "2026-02-10T23:20:23.522523+00:00",
   "package": {
     "system": "npm",
     "name": "nextcloud",
     "version": "1.0.0"
   },
+  "total_loc": 49435,
+  "ratio": 0.0814488956989513,
   "repo_url": "https://github.com/nextcloud/server.git",
   "ref": "HEAD",
-  "commit_hash": "d65aa0b7c33ac59827dd0b1fc15f077226802dcc",
-  "clone_duration_seconds": 9.847836256027222,
-  "count_duration_seconds": 0.638056755065918
+  "commit_hash": "feaebeb97ec158860675f6d070b468ff0974fc40",
+  "clone_duration_seconds": 17.643971920013428,
+  "count_duration_seconds": 0.7910099029541016
 }

@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 32227,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:17:18.616759+00:00",
+  "cached_at": "2026-02-11T00:26:21.349921+00:00",
   "repo_url": "https://github.com/marticliment/UniGetUI.git",
   "ref": "HEAD",
   "commit_hash": "b1f81589a1c797623266f5e4fbdacfce679e02f5",
-  "clone_duration_seconds": 4.448468208312988,
-  "count_duration_seconds": 0.04250931739807129
+  "clone_duration_seconds": 10.067208290100098,
+  "count_duration_seconds": 0.035951852798461914
 }

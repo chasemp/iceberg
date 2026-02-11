@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 27349,
   "source": "github_clone",
-  "cached_at": "2026-02-05T22:18:28.743364+00:00",
+  "cached_at": "2026-02-10T23:36:24.029108+00:00",
   "repo_url": "https://github.com/Genymobile/scrcpy.git",
   "ref": "HEAD",
   "commit_hash": "c8c1316db9adefca6aae054be936049c2f8e02f1",
-  "clone_duration_seconds": 1.1156370639801025,
-  "count_duration_seconds": 0.01996898651123047
+  "clone_duration_seconds": 1.0792922973632812,
+  "count_duration_seconds": 0.03146982192993164
 }

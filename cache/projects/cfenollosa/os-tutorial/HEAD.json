@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 2829,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:38:08.587605+00:00",
+  "cached_at": "2026-02-11T15:01:34.920136+00:00",
   "repo_url": "https://github.com/cfenollosa/os-tutorial.git",
   "ref": "HEAD",
   "commit_hash": "8002382ee56f876119f77217220b8a5034e9bac1",
-  "clone_duration_seconds": 0.5741643905639648,
-  "count_duration_seconds": 0.009745359420776367
+  "clone_duration_seconds": 0.9241580963134766,
+  "count_duration_seconds": 0.01697397232055664
 }

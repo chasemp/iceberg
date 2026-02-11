@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "com.google.guava:guava",
+    "version": "20.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-11T15:35:25.285327+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/com.google.guava:guava/versions/20.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.12855911254882812,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "karma",
+    "version": "5.0.4"
+  },
+  "total_lines": 9379,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-11T00:32:44.963436+00:00",
+  "source_url": "https://registry.npmjs.org/karma/-/karma-5.0.4.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.6402978897094727,
+  "count_duration_seconds": null
+}

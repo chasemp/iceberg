@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 45529,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:37:31.358580+00:00",
+  "cached_at": "2026-02-11T15:00:47.081342+00:00",
   "repo_url": "https://github.com/lizongying/my-tv.git",
   "ref": "HEAD",
   "commit_hash": "d65ac508eb56d454d565d7a53df35fa4d5403720",
-  "clone_duration_seconds": 1.3201549053192139,
-  "count_duration_seconds": 0.032338619232177734
+  "clone_duration_seconds": 1.9792819023132324,
+  "count_duration_seconds": 0.027637004852294922
 }

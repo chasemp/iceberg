@@ -4,10 +4,12 @@
   "version": "HEAD",
   "loc": 63698,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:06:08.147160+00:00",
+  "cached_at": "2026-02-10T23:21:41.838220+00:00",
+  "total_loc": 39736,
+  "ratio": 0.384167681806756,
   "repo_url": "https://github.com/monicahq/monica.git",
   "ref": "HEAD",
   "commit_hash": "e08e91734170b6bbd582cb578532c3948196124e",
-  "clone_duration_seconds": 1.6280419826507568,
-  "count_duration_seconds": 0.10959458351135254
+  "clone_duration_seconds": 2.304250717163086,
+  "count_duration_seconds": 0.17860198020935059
 }

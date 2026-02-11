@@ -4,7 +4,7 @@
   "version": "HEAD",
   "loc": 8704,
   "source": "github_clone",
-  "cached_at": "2026-02-02T23:22:24.012609+00:00",
+  "cached_at": "2026-02-11T00:18:47.523657+00:00",
   "package": {
     "system": "npm",
     "name": "web-check",
@@ -15,6 +15,6 @@
   "repo_url": "https://github.com/Lissy93/web-check.git",
   "ref": "HEAD",
   "commit_hash": "aac6121e81dd757797a769894197aaa27ef0c879",
-  "clone_duration_seconds": 3.3929150104522705,
-  "count_duration_seconds": 0.012247800827026367
+  "clone_duration_seconds": 3.5194509029388428,
+  "count_duration_seconds": 0.012102842330932617
 }

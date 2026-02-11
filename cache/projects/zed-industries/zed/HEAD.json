@@ -2,18 +2,12 @@
   "owner": "zed-industries",
   "repo": "zed",
   "version": "HEAD",
-  "loc": 879144,
+  "loc": 890434,
   "source": "github_clone",
-  "cached_at": "2026-02-05T22:33:07.405874+00:00",
-  "total_loc": 1040,
-  "ratio": 0.001181571126037283,
+  "cached_at": "2026-02-11T15:29:36.792789+00:00",
   "repo_url": "https://github.com/zed-industries/zed.git",
   "ref": "HEAD",
-  "commit_hash": "e4d82099ebe01b32db4c74af9cde2db72a0c44b6",
-  "clone_duration_seconds": 4.245791912078857,
-  "count_duration_seconds": 0.28250908851623535,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-rust",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "commit_hash": "4ed2b3d04139fc15a50a535ddfae30ffbd70263f",
+  "clone_duration_seconds": 4.589268922805786,
+  "count_duration_seconds": 0.36438894271850586
 }

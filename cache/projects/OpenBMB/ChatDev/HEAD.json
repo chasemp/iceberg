@@ -2,23 +2,19 @@
   "owner": "OpenBMB",
   "repo": "ChatDev",
   "version": "HEAD",
-  "loc": 22370,
+  "loc": 22545,
   "source": "github_clone",
-  "cached_at": "2026-02-02T23:16:44.879924+00:00",
+  "cached_at": "2026-02-10T23:57:56.994283+00:00",
   "package": {
     "system": "pypi",
     "name": "DevAll",
     "version": "0.1.0"
   },
   "total_loc": 41152,
-  "ratio": 0.6478385441264444,
+  "ratio": 0.6460586840824528,
   "repo_url": "https://github.com/OpenBMB/ChatDev.git",
   "ref": "HEAD",
-  "commit_hash": "a96d633dff3e0dbfe466d468dc550e417af3e937",
-  "clone_duration_seconds": 12.556429862976074,
-  "count_duration_seconds": 0.021819114685058594,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "trending-weekly",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "commit_hash": "85b8d25d43e405f5d479f56797dffead229f7a23",
+  "clone_duration_seconds": 14.777477264404297,
+  "count_duration_seconds": 0.025290966033935547
 }

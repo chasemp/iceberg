@@ -4,14 +4,10 @@
   "version": "HEAD",
   "loc": 0,
   "source": "github_clone",
-  "cached_at": "2026-02-09T20:07:38.458393+00:00",
+  "cached_at": "2026-02-10T23:42:54.277241+00:00",
   "repo_url": "https://github.com/Hack-with-Github/Awesome-Hacking.git",
   "ref": "HEAD",
   "commit_hash": "5a02f846e8fc5cf0d64e175f52e06b72df950d28",
-  "clone_duration_seconds": 0.8985700607299805,
-  "count_duration_seconds": 0.0027811527252197266,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-top-100-stars",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "clone_duration_seconds": 0.8652439117431641,
+  "count_duration_seconds": 0.0020189285278320312
 }

@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 10024,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:24:55.136723+00:00",
+  "cached_at": "2026-02-11T00:42:44.845510+00:00",
   "repo_url": "https://github.com/postalserver/postal.git",
   "ref": "HEAD",
   "commit_hash": "d532922ff7f51e096a69fd97a2f0a37386e60243",
-  "clone_duration_seconds": 0.9076249599456787,
-  "count_duration_seconds": 0.02045917510986328
+  "clone_duration_seconds": 1.3484790325164795,
+  "count_duration_seconds": 0.03005194664001465
 }

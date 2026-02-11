@@ -4,16 +4,12 @@
   "version": "HEAD",
   "loc": 24528,
   "source": "github_clone",
-  "cached_at": "2026-02-09T21:40:17.254131+00:00",
+  "cached_at": "2026-02-11T15:43:25.439053+00:00",
   "total_loc": 0,
   "ratio": 0.0,
   "repo_url": "https://github.com/PhilJay/MPAndroidChart.git",
   "ref": "HEAD",
   "commit_hash": "9c7275a0596a7ac0e50ca566e680f7f9d73607af",
-  "clone_duration_seconds": 1.626844882965088,
-  "count_duration_seconds": 0.026165008544921875,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-java",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "clone_duration_seconds": 1.6334638595581055,
+  "count_duration_seconds": 0.03226518630981445
 }

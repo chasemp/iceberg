@@ -4,7 +4,7 @@
   "version": "HEAD",
   "loc": 20869,
   "source": "github_clone",
-  "cached_at": "2026-02-09T20:09:29.917152+00:00",
+  "cached_at": "2026-02-10T23:45:05.906648+00:00",
   "package": {
     "system": "go",
     "name": "github.com/fatedier/frp",
@@ -13,10 +13,6 @@
   "repo_url": "https://github.com/fatedier/frp.git",
   "ref": "HEAD",
   "commit_hash": "519368b1fd22bd180baba3da6f4c3f46816f600b",
-  "clone_duration_seconds": 1.1084098815917969,
-  "count_duration_seconds": 0.03237795829772949,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-top-100-stars",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "clone_duration_seconds": 1.7533330917358398,
+  "count_duration_seconds": 0.03342795372009277
 }

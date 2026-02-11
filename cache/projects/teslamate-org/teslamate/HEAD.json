@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 864,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:01:16.827018+00:00",
+  "cached_at": "2026-02-11T15:08:01.875693+00:00",
   "repo_url": "https://github.com/teslamate-org/teslamate.git",
   "ref": "HEAD",
-  "commit_hash": "f3c73f25ae2c613353a7dea0baa241005ce9b27b",
-  "clone_duration_seconds": 1.5833847522735596,
-  "count_duration_seconds": 0.010102510452270508
+  "commit_hash": "65ec1a030f54917e328ac0e5e049e4209b6e1d1c",
+  "clone_duration_seconds": 3.3880293369293213,
+  "count_duration_seconds": 0.013569831848144531
 }

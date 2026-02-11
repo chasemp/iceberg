@@ -4,14 +4,10 @@
   "version": "HEAD",
   "loc": 321,
   "source": "github_clone",
-  "cached_at": "2026-02-09T20:19:13.653601+00:00",
+  "cached_at": "2026-02-11T15:55:20.759780+00:00",
   "repo_url": "https://github.com/leereilly/swot.git",
   "ref": "HEAD",
   "commit_hash": "ae78ccc3e799430160debd215095af2f2e2878de",
-  "clone_duration_seconds": 2.062258005142212,
-  "count_duration_seconds": 0.08287906646728516,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-top-100-forks",
-  "tracked": false,
-  "maintenance_priority": "low"
+  "clone_duration_seconds": 6.675320863723755,
+  "count_duration_seconds": 0.30814409255981445
 }

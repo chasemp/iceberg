@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 152160,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:18:40.439109+00:00",
+  "cached_at": "2026-02-11T00:08:01.200805+00:00",
   "repo_url": "https://github.com/simplex-chat/simplex-chat.git",
   "ref": "HEAD",
   "commit_hash": "27874014345049f304241fe28acd7467343aa7ed",
-  "clone_duration_seconds": 5.038254022598267,
-  "count_duration_seconds": 0.13415312767028809
+  "clone_duration_seconds": 12.514039993286133,
+  "count_duration_seconds": 0.13810300827026367
 }

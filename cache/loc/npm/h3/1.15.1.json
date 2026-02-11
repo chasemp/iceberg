@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "h3",
+    "version": "1.15.1"
+  },
+  "total_lines": 0,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-11T00:30:46.948507+00:00",
+  "source_url": "https://registry.npmjs.org/h3/-/h3-1.15.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.804739236831665,
+  "count_duration_seconds": null
+}

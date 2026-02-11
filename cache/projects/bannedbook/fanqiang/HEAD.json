@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 76193,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:42:31.265128+00:00",
+  "cached_at": "2026-02-11T15:36:28.650367+00:00",
   "repo_url": "https://github.com/bannedbook/fanqiang.git",
   "ref": "HEAD",
   "commit_hash": "4fb92ca46f2412a7f7aa8a3dc621984ad8ffcb13",
-  "clone_duration_seconds": 2.643364906311035,
-  "count_duration_seconds": 0.09648942947387695
+  "clone_duration_seconds": 7.068351984024048,
+  "count_duration_seconds": 0.1082448959350586
 }

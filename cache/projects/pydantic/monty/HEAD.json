@@ -2,28 +2,19 @@
   "owner": "pydantic",
   "repo": "monty",
   "version": "HEAD",
-  "loc": 46156,
+  "loc": 46767,
   "source": "github_clone",
-  "cached_at": "2026-02-09T06:57:08.107442+00:00",
+  "cached_at": "2026-02-11T00:03:13.455439+00:00",
   "package": {
     "system": "pypi",
     "name": "monty-workspace",
     "version": "0"
   },
-  "ai_markers": {
-    "claude": true,
-    "cursor": false,
-    "copilot": false,
-    "aider": false,
-    "generic_ai": true
-  },
-  "ai_tools": [
-    "Claude",
-    "AI Tools"
-  ],
+  "total_loc": 17416,
+  "ratio": 0.2713491111353474,
   "repo_url": "https://github.com/pydantic/monty.git",
   "ref": "HEAD",
-  "commit_hash": "6c277bcf2c530bfc449174c9b14213a5f88add26",
-  "clone_duration_seconds": 0.46982455253601074,
-  "count_duration_seconds": 0.040784358978271484
+  "commit_hash": "50cd46d98fb8d1431e2253e95b5612d6afa29c7f",
+  "clone_duration_seconds": 1.5236642360687256,
+  "count_duration_seconds": 0.05147981643676758
 }

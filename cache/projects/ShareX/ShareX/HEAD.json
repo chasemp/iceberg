@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 128054,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:14:57.501887+00:00",
+  "cached_at": "2026-02-11T00:22:10.018604+00:00",
   "repo_url": "https://github.com/ShareX/ShareX.git",
   "ref": "HEAD",
   "commit_hash": "15b88a42b589e4980df826a519cbc9833de492e0",
-  "clone_duration_seconds": 1.8592748641967773,
-  "count_duration_seconds": 0.1385352611541748
+  "clone_duration_seconds": 2.480823040008545,
+  "count_duration_seconds": 0.11098694801330566
 }

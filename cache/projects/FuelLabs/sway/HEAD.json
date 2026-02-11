@@ -4,12 +4,10 @@
   "version": "HEAD",
   "loc": 182149,
   "source": "github_clone",
-  "cached_at": "2026-02-05T22:18:22.508322+00:00",
-  "total_loc": 0,
-  "ratio": 0.0,
+  "cached_at": "2026-02-11T15:31:03.398862+00:00",
   "repo_url": "https://github.com/FuelLabs/sway.git",
   "ref": "HEAD",
-  "commit_hash": "f0a848ddd61ec8a8c677814ec6cfb85e3b31075f",
-  "clone_duration_seconds": 2.843794345855713,
-  "count_duration_seconds": 0.27452802658081055
+  "commit_hash": "c6d0d12a0d43505ed016d1bddeeb19b2bd67ea8f",
+  "clone_duration_seconds": 3.8298377990722656,
+  "count_duration_seconds": 0.45067691802978516
 }

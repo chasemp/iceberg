@@ -4,7 +4,7 @@
   "version": "HEAD",
   "loc": 55254,
   "source": "github_clone",
-  "cached_at": "2026-02-09T20:13:01.740089+00:00",
+  "cached_at": "2026-02-10T23:48:47.204263+00:00",
   "package": {
     "system": "npm",
     "name": "clash-verge",
@@ -15,10 +15,6 @@
   "repo_url": "https://github.com/clash-verge-rev/clash-verge-rev.git",
   "ref": "v2.4.5",
   "commit_hash": "4e7cdbfcc0e2162ee5824684452ebd4651e7077d",
-  "clone_duration_seconds": 1.9889640808105469,
-  "count_duration_seconds": 0.04244875907897949,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-top-100-stars",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "clone_duration_seconds": 3.2163503170013428,
+  "count_duration_seconds": 0.04584813117980957
 }

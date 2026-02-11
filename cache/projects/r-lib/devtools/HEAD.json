@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 0,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:34:32.264791+00:00",
+  "cached_at": "2026-02-10T23:11:20.782026+00:00",
   "repo_url": "https://github.com/r-lib/devtools.git",
   "ref": "HEAD",
-  "commit_hash": "d613fe627bc4579076f1bee2ca0ed4a4f04f0fa5",
-  "clone_duration_seconds": 0.8036918640136719,
-  "count_duration_seconds": 0.005277156829833984
+  "commit_hash": "c01724755fdd70fba8bd693b7ce2ec18e4f301d5",
+  "clone_duration_seconds": 1.0505459308624268,
+  "count_duration_seconds": 0.008635997772216797
 }

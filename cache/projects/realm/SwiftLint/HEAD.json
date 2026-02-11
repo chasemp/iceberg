@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 72725,
   "source": "github_clone",
-  "cached_at": "2026-02-10T06:59:59.043408+00:00",
+  "cached_at": "2026-02-11T00:14:40.023162+00:00",
   "repo_url": "https://github.com/realm/SwiftLint.git",
   "ref": "HEAD",
-  "commit_hash": "6a4fc9037f0595111d33ab2a3b7a79256f17830c",
-  "clone_duration_seconds": 1.0088775157928467,
-  "count_duration_seconds": 0.06374597549438477
+  "commit_hash": "26bd3b71d2b5bed43eb4685032e8461e82992486",
+  "clone_duration_seconds": 1.391554832458496,
+  "count_duration_seconds": 0.08479905128479004
 }

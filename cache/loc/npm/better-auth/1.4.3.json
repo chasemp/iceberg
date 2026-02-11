@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "better-auth",
+    "version": "1.4.3"
+  },
+  "total_lines": 0,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-11T15:07:09.901463+00:00",
+  "source_url": "https://registry.npmjs.org/better-auth/-/better-auth-1.4.3.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 1.1992568969726562,
+  "count_duration_seconds": null
+}

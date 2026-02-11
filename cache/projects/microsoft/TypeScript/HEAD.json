@@ -4,7 +4,7 @@
   "version": "HEAD",
   "loc": 335979,
   "source": "github_clone",
-  "cached_at": "2026-02-09T20:05:49.663451+00:00",
+  "cached_at": "2026-02-10T23:41:22.637743+00:00",
   "package": {
     "system": "npm",
     "name": "typescript",
@@ -12,11 +12,7 @@
   },
   "repo_url": "https://github.com/microsoft/TypeScript.git",
   "ref": "HEAD",
-  "commit_hash": "87aa917befa8f6182f5535df3c77287209692a04",
-  "clone_duration_seconds": 21.35219717025757,
-  "count_duration_seconds": 0.9678969383239746,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-top-100-stars",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "commit_hash": "cdb583a81357553fd72faedc6602c3f2516490fc",
+  "clone_duration_seconds": 15.687467098236084,
+  "count_duration_seconds": 0.9592499732971191
 }

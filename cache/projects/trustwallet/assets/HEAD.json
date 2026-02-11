@@ -4,7 +4,7 @@
   "version": "HEAD",
   "loc": 1606,
   "source": "github_clone",
-  "cached_at": "2026-02-09T20:27:33.991476+00:00",
+  "cached_at": "2026-02-11T16:06:41.913676+00:00",
   "package": {
     "system": "go",
     "name": "github.com/trustwallet/assets",
@@ -12,11 +12,7 @@
   },
   "repo_url": "https://github.com/trustwallet/assets.git",
   "ref": "HEAD",
-  "commit_hash": "4979e997574b7b06928b7697441b85714156b1f8",
-  "clone_duration_seconds": 58.318191051483154,
-  "count_duration_seconds": 2.1726880073547363,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-top-100-forks",
-  "tracked": false,
-  "maintenance_priority": "low"
+  "commit_hash": "2b12f9e38db288175b93d15a53a7a597f65846a9",
+  "clone_duration_seconds": 59.905585289001465,
+  "count_duration_seconds": 5.661640167236328
 }

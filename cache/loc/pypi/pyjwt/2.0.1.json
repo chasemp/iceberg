@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "pyjwt",
+    "version": "2.0.1"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-11T15:21:00.797723+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/pyjwt/versions/2.0.1",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.12999606132507324,
+  "count_duration_seconds": null
+}

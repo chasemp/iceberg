@@ -4,14 +4,10 @@
   "version": "HEAD",
   "loc": 5,
   "source": "github_clone",
-  "cached_at": "2026-02-09T20:09:09.054751+00:00",
+  "cached_at": "2026-02-10T23:44:44.098086+00:00",
   "repo_url": "https://github.com/GrowingGit/GitHub-Chinese-Top-Charts.git",
   "ref": "HEAD",
   "commit_hash": "0403f534a33853d75a053fbe085a4d144bb56bf3",
-  "clone_duration_seconds": 1.1993768215179443,
-  "count_duration_seconds": 0.00494384765625,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-top-100-stars",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "clone_duration_seconds": 1.2067298889160156,
+  "count_duration_seconds": 0.004054069519042969
 }

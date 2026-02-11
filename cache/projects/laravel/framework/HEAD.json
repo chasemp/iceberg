@@ -2,12 +2,12 @@
   "owner": "laravel",
   "repo": "framework",
   "version": "HEAD",
-  "loc": 119362,
+  "loc": 119472,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:04:44.719219+00:00",
+  "cached_at": "2026-02-10T23:19:52.782154+00:00",
   "repo_url": "https://github.com/laravel/framework.git",
   "ref": "HEAD",
-  "commit_hash": "e2da3e64615341fe298c7015aa20404781c9eabb",
-  "clone_duration_seconds": 1.7947413921356201,
-  "count_duration_seconds": 0.15709495544433594
+  "commit_hash": "391d5401826dfa1825f382c25149f89c09133bf0",
+  "clone_duration_seconds": 3.652132749557495,
+  "count_duration_seconds": 0.21255898475646973
 }

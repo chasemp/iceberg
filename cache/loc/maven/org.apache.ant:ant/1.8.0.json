@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "org.apache.ant:ant",
+    "version": "1.8.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-11T15:35:25.941051+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/org.apache.ant:ant/versions/1.8.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.12970590591430664,
+  "count_duration_seconds": null
+}

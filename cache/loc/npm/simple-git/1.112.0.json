@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "simple-git",
+    "version": "1.112.0"
+  },
+  "total_lines": 1725,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-11T00:28:54.992185+00:00",
+  "source_url": "https://registry.npmjs.org/simple-git/-/simple-git-1.112.0.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.9482340812683105,
+  "count_duration_seconds": null
+}

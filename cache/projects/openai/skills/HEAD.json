@@ -2,12 +2,12 @@
   "owner": "openai",
   "repo": "skills",
   "version": "HEAD",
-  "loc": 13307,
+  "loc": 7598,
   "source": "github_clone",
-  "cached_at": "2026-02-04T06:41:30.046297+00:00",
+  "cached_at": "2026-02-10T23:51:56.171658+00:00",
   "repo_url": "https://github.com/openai/skills.git",
   "ref": "HEAD",
-  "commit_hash": "f46b2535abfc2ec4b383ba0da47a0357abfa198c",
-  "clone_duration_seconds": 0.4899930953979492,
-  "count_duration_seconds": 0.01963019371032715
+  "commit_hash": "4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc",
+  "clone_duration_seconds": 1.176649808883667,
+  "count_duration_seconds": 0.036370038986206055
 }

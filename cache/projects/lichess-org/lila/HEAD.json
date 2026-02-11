@@ -2,12 +2,14 @@
   "owner": "lichess-org",
   "repo": "lila",
   "version": "HEAD",
-  "loc": 225899,
+  "loc": 225922,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:25:51.089363+00:00",
+  "cached_at": "2026-02-11T00:27:54.275010+00:00",
+  "total_loc": 23142,
+  "ratio": 0.09291587704365144,
   "repo_url": "https://github.com/lichess-org/lila.git",
   "ref": "HEAD",
-  "commit_hash": "7dd15202584fa6af80e68637119c99b4737bfc7f",
-  "clone_duration_seconds": 8.660934686660767,
-  "count_duration_seconds": 0.3300795555114746
+  "commit_hash": "fe9070b594c9e572eb83f8655414092bd9953f8b",
+  "clone_duration_seconds": 12.222626686096191,
+  "count_duration_seconds": 0.8768739700317383
 }

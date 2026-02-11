@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 44799,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:27:47.106711+00:00",
+  "cached_at": "2026-02-11T00:31:26.459887+00:00",
   "repo_url": "https://github.com/gatling/gatling.git",
   "ref": "HEAD",
   "commit_hash": "563981687c53d8cfede44d3702e70b907c697d31",
-  "clone_duration_seconds": 1.0518617630004883,
-  "count_duration_seconds": 0.09635543823242188
+  "clone_duration_seconds": 1.3498849868774414,
+  "count_duration_seconds": 0.12016510963439941
 }

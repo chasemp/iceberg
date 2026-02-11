@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "transformers",
+    "version": "4.51.3"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-10T23:15:37.502923+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/transformers/versions/4.51.3",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.12655210494995117,
+  "count_duration_seconds": null
+}

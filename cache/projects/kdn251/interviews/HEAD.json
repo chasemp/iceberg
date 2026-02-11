@@ -4,14 +4,10 @@
   "version": "HEAD",
   "loc": 11579,
   "source": "github_clone",
-  "cached_at": "2026-02-09T21:32:03.121875+00:00",
+  "cached_at": "2026-02-11T15:41:31.578298+00:00",
   "repo_url": "https://github.com/kdn251/interviews.git",
   "ref": "HEAD",
   "commit_hash": "03fdcb2703ce72dc0606748733d0c13f09d41d21",
-  "clone_duration_seconds": 9.911509990692139,
-  "count_duration_seconds": 0.05225801467895508,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-java",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "clone_duration_seconds": 2.067018985748291,
+  "count_duration_seconds": 0.046803951263427734
 }

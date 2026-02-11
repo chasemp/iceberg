@@ -2,12 +2,12 @@
   "owner": "home-assistant",
   "repo": "addons",
   "version": "HEAD",
-  "loc": 1434,
+  "loc": 1435,
   "source": "github_clone",
-  "cached_at": "2026-02-09T06:57:22.322024+00:00",
+  "cached_at": "2026-02-11T00:04:10.905039+00:00",
   "repo_url": "https://github.com/home-assistant/addons.git",
   "ref": "HEAD",
-  "commit_hash": "da709c6c77357c74bd7e2f1a1449156e8ec94ede",
-  "clone_duration_seconds": 0.3992626667022705,
-  "count_duration_seconds": 0.018410444259643555
+  "commit_hash": "f1bcb608182875c861b72771cd93deb9bfbbc73f",
+  "clone_duration_seconds": 1.241023063659668,
+  "count_duration_seconds": 0.02764105796813965
 }

@@ -4,15 +4,17 @@
   "version": "HEAD",
   "loc": 4431,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:05:22.513081+00:00",
+  "cached_at": "2026-02-10T23:20:47.455500+00:00",
   "package": {
     "system": "npm",
     "name": "blueimp-file-upload",
     "version": "10.32.0"
   },
+  "total_loc": 30863,
+  "ratio": 0.8744545815152717,
   "repo_url": "https://github.com/blueimp/jQuery-File-Upload.git",
   "ref": "v10.32.0",
   "commit_hash": "0c85627dfb551e2ce25b82cddef557069bd803ed",
-  "clone_duration_seconds": 0.7459182739257812,
-  "count_duration_seconds": 0.0042836666107177734
+  "clone_duration_seconds": 1.0821077823638916,
+  "count_duration_seconds": 0.0069010257720947266
 }

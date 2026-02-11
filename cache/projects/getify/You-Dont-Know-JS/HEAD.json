@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 0,
   "source": "github_clone",
-  "cached_at": "2026-02-05T22:21:47.787350+00:00",
+  "cached_at": "2026-02-10T23:32:00.689809+00:00",
   "repo_url": "https://github.com/getify/You-Dont-Know-JS.git",
   "ref": "HEAD",
   "commit_hash": "044120ef55564939cd35f5ddaf3f6c0a45d7b02c",
-  "clone_duration_seconds": 1.414024829864502,
-  "count_duration_seconds": 0.0026259422302246094
+  "clone_duration_seconds": 1.3670217990875244,
+  "count_duration_seconds": 0.0031533241271972656
 }

@@ -4,10 +4,12 @@
   "version": "HEAD",
   "loc": 5276,
   "source": "github_clone",
-  "cached_at": "2026-02-06T06:44:05.274223+00:00",
+  "cached_at": "2026-02-10T23:55:22.932794+00:00",
+  "total_loc": 0,
+  "ratio": 0.0,
   "repo_url": "https://github.com/ZeroTworu/anet.git",
   "ref": "HEAD",
-  "commit_hash": "3c857e6418100f11a6749599b62a5e4fd8112757",
-  "clone_duration_seconds": 0.17877840995788574,
-  "count_duration_seconds": 0.007378816604614258
+  "commit_hash": "954db32e05291c1897ef3b13d6f11d0e94e75910",
+  "clone_duration_seconds": 1.1343989372253418,
+  "count_duration_seconds": 0.009980916976928711
 }

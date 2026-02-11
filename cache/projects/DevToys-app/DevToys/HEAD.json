@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 37065,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:15:10.791653+00:00",
+  "cached_at": "2026-02-11T00:22:28.368430+00:00",
   "repo_url": "https://github.com/DevToys-app/DevToys.git",
   "ref": "HEAD",
   "commit_hash": "290b0ae0c397b53875ed7ed874898a8da3b5646f",
-  "clone_duration_seconds": 5.527165412902832,
-  "count_duration_seconds": 0.06322145462036133
+  "clone_duration_seconds": 11.22329306602478,
+  "count_duration_seconds": 0.0850682258605957
 }

@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 0,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:10:54.668619+00:00",
+  "cached_at": "2026-02-10T23:27:03.278902+00:00",
   "repo_url": "https://github.com/JuliaSymbolics/Symbolics.jl.git",
   "ref": "HEAD",
   "commit_hash": "d8dea3f7004c0b05ed27aa756ac203fc0ec232fc",
-  "clone_duration_seconds": 0.6971664428710938,
-  "count_duration_seconds": 0.003307342529296875
+  "clone_duration_seconds": 1.0143320560455322,
+  "count_duration_seconds": 0.005483150482177734
 }

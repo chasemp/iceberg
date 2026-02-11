@@ -2,23 +2,17 @@
   "owner": "go-gitea",
   "repo": "gitea",
   "version": "HEAD",
-  "loc": 310802,
+  "loc": 311045,
   "source": "github_clone",
-  "cached_at": "2026-02-09T21:48:15.871760+00:00",
+  "cached_at": "2026-02-11T15:27:41.920885+00:00",
   "package": {
     "system": "pypi",
     "name": "gitea",
     "version": "0.0.0"
   },
-  "total_loc": 9306,
-  "ratio": 0.029071438389543527,
   "repo_url": "https://github.com/go-gitea/gitea.git",
   "ref": "HEAD",
-  "commit_hash": "94437eadd980965238885f22424200562dc4a908",
-  "clone_duration_seconds": 3.9571030139923096,
-  "count_duration_seconds": 0.3968491554260254,
-  "last_discovered": "2026-02-09",
-  "discovery_source": "github-ranking-go",
-  "tracked": false,
-  "maintenance_priority": "medium"
+  "commit_hash": "3754e9dd12f9adb8e9129cd7dcbc68de2cf529cc",
+  "clone_duration_seconds": 3.498958110809326,
+  "count_duration_seconds": 0.40006494522094727
 }

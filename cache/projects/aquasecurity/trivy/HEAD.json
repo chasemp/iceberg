@@ -2,9 +2,9 @@
   "owner": "aquasecurity",
   "repo": "trivy",
   "version": "HEAD",
-  "loc": 226957,
+  "loc": 227216,
   "source": "github_clone",
-  "cached_at": "2026-02-06T06:43:59.875733+00:00",
+  "cached_at": "2026-02-10T23:54:42.408535+00:00",
   "package": {
     "system": "go",
     "name": "github.com/aquasecurity/trivy",
@@ -12,7 +12,7 @@
   },
   "repo_url": "https://github.com/aquasecurity/trivy.git",
   "ref": "HEAD",
-  "commit_hash": "82019c37f28fd9594371f2ee1a45e360cade35c6",
-  "clone_duration_seconds": 1.9339203834533691,
-  "count_duration_seconds": 0.20880532264709473
+  "commit_hash": "0f0d6dbff4825f7b0ea7744b2229e0157af52972",
+  "clone_duration_seconds": 7.002048969268799,
+  "count_duration_seconds": 0.29128503799438477
 }

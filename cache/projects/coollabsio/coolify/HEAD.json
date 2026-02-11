@@ -4,10 +4,12 @@
   "version": "HEAD",
   "loc": 153145,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:04:36.120095+00:00",
+  "cached_at": "2026-02-10T23:19:41.009350+00:00",
+  "total_loc": 8154,
+  "ratio": 0.05055208029807996,
   "repo_url": "https://github.com/coollabsio/coolify.git",
   "ref": "HEAD",
   "commit_hash": "548dc515179b0beee3d0387c922c56ba364b9cb0",
-  "clone_duration_seconds": 1.8767330646514893,
-  "count_duration_seconds": 0.15456128120422363
+  "clone_duration_seconds": 3.5208797454833984,
+  "count_duration_seconds": 0.18781709671020508
 }

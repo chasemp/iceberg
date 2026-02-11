@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "cached-path-relative",
+    "version": "1.0.1"
+  },
+  "total_lines": 20,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-11T00:11:02.453654+00:00",
+  "source_url": "https://registry.npmjs.org/cached-path-relative/-/cached-path-relative-1.0.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7863650321960449,
+  "count_duration_seconds": null
+}

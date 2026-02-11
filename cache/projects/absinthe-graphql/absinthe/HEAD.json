@@ -4,10 +4,10 @@
   "version": "HEAD",
   "loc": 0,
   "source": "github_clone",
-  "cached_at": "2026-02-10T07:02:32.759958+00:00",
+  "cached_at": "2026-02-11T15:09:50.108732+00:00",
   "repo_url": "https://github.com/absinthe-graphql/absinthe.git",
   "ref": "HEAD",
   "commit_hash": "c7451ec04d6d1e89f802fedcf0c3754bbfb7dfb0",
-  "clone_duration_seconds": 0.8939800262451172,
-  "count_duration_seconds": 0.009628534317016602
+  "clone_duration_seconds": 1.2029831409454346,
+  "count_duration_seconds": 0.01586604118347168
 }

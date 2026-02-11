@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "vue",
+    "version": "2.7.16"
+  },
+  "total_lines": 19636,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-10T23:20:19.291062+00:00",
+  "source_url": "https://registry.npmjs.org/vue/-/vue-2.7.16.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.7387778759002686,
+  "count_duration_seconds": null
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "fickling",
+    "version": "0.1.5"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-11T00:34:11.716419+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/fickling/versions/0.1.5",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1922900676727295,
+  "count_duration_seconds": null
+}
