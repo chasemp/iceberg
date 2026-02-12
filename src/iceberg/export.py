@@ -141,63 +141,6 @@ def export_discovery_index(
     }
 
 
-def _repo_summary(repo: DiscoveredRepo, cache_dir: Path) -> dict[str, Any] | None:
-    """Create a summary dict of a repo for index files.
-
-    Returns None if the repo has no analysis data or zero LoC, so it can be filtered out.
-    """
-    # Check if repo has analysis with actual code (LoC > 0)
-    projects_dir = cache_dir / "projects" / repo.owner / repo.name
-    head_file = projects_dir / "HEAD.json" if projects_dir.exists() else None
-    if not head_file or not head_file.exists():
-        return None
-
-    try:
-        analysis = json.loads(head_file.read_text())
-        loc = analysis.get("loc", 0)
-        if loc == 0:
-            return None
-    except (json.JSONDecodeError, IOError):
-        return None
-
-    summary: dict[str, Any] = {
-        "owner": repo.owner,
-        "name": repo.name,
-        "full_name": f"{repo.owner}/{repo.name}",
-        "url": str(repo.url),
-        "description": repo.description,
-        "language": repo.language,
-        "stars": repo.stars,
-        "discovered_at": repo.discovered_at,
-    }
-
-    # Try to add analysis data for sorting
-    if projects_dir.exists():
-        head_file = projects_dir / "HEAD.json"
-        if head_file.exists():
-            try:
-                analysis = json.loads(head_file.read_text())
-
-                # Add AI tools info
-                if "ai_tools" in analysis and analysis["ai_tools"]:
-                    summary["ai_tools"] = analysis["ai_tools"]
-
-                # Add analysis metrics for sorting
-                if "loc" in analysis:
-                    summary["project_loc"] = analysis["loc"]
-                if "total_loc" in analysis:
-                    summary["dep_loc"] = analysis["total_loc"]
-                if "ratio" in analysis:
-                    summary["ratio"] = analysis["ratio"]
-                if "dependencies" in analysis and isinstance(analysis["dependencies"], dict):
-                    summary["dep_count"] = len(analysis["dependencies"])
-
-            except (json.JSONDecodeError, IOError):
-                pass  # If we can't read it, just skip
-
-    return summary
-
-
 def _repo_summary_from_metadata(repo_metadata: dict[str, Any], cache_dir: Path) -> dict[str, Any] | None:
     """Create a summary dict from repo metadata (new cache structure).
 
