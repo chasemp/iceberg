@@ -78,3 +78,68 @@ def test_list_cached_project_versions(tmp_path: Path) -> None:
     assert "v1.0.0" in versions
     assert "v2.0.0" in versions
     assert "v2.1.0" in versions
+
+
+def test_load_repo_metadata_returns_metadata_when_exists(tmp_path: Path) -> None:
+    """Test loading repository metadata when file exists."""
+    from iceberg.cache import load_repo_metadata, save_repo_metadata
+    from iceberg.models import DiscoveredRepo
+
+    repo = DiscoveredRepo(
+        name="react",
+        owner="facebook",
+        url="https://github.com/facebook/react",
+        description="A JavaScript library for building user interfaces",
+        language="JavaScript",
+        stars=200000,
+        source="trending-monthly",
+        discovered_at="2026-02-12T12:00:00Z",
+    )
+
+    save_repo_metadata(repo, "trending-monthly", cache_dir=tmp_path)
+
+    loaded = load_repo_metadata("facebook", "react", cache_dir=tmp_path)
+
+    assert loaded is not None
+    assert loaded["owner"] == "facebook"
+    assert loaded["name"] == "react"
+    assert loaded["stars"] == 200000
+
+
+def test_load_repo_metadata_returns_none_when_missing(tmp_path: Path) -> None:
+    """Test loading repository metadata returns None when file doesn't exist."""
+    from iceberg.cache import load_repo_metadata
+
+    result = load_repo_metadata("nonexistent", "repo", cache_dir=tmp_path)
+
+    assert result is None
+
+
+def test_load_repo_metadata_returns_none_on_json_decode_error(tmp_path: Path) -> None:
+    """Test loading repository metadata returns None when JSON is corrupted."""
+    from iceberg.cache import load_repo_metadata
+
+    repo_dir = tmp_path / "repos" / "facebook"
+    repo_dir.mkdir(parents=True)
+    repo_file = repo_dir / "react.json"
+    repo_file.write_text("{ invalid json }")
+
+    result = load_repo_metadata("facebook", "react", cache_dir=tmp_path)
+
+    assert result is None
+
+
+def test_load_repo_metadata_returns_none_on_io_error(tmp_path: Path) -> None:
+    """Test loading repository metadata returns None when file cannot be read."""
+    from iceberg.cache import load_repo_metadata
+    from unittest.mock import patch
+
+    repo_dir = tmp_path / "repos" / "facebook"
+    repo_dir.mkdir(parents=True)
+    repo_file = repo_dir / "react.json"
+    repo_file.write_text('{"owner": "facebook", "name": "react"}')
+
+    with patch("pathlib.Path.read_text", side_effect=IOError("Permission denied")):
+        result = load_repo_metadata("facebook", "react", cache_dir=tmp_path)
+
+    assert result is None

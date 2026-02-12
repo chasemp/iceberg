@@ -402,7 +402,7 @@ def load_repo_metadata(
         cache_dir: Optional cache directory
 
     Returns:
-        Repository metadata dict or None if not found
+        Repository metadata dict or None if not found or corrupted
     """
     if cache_dir is None:
         cache_dir = get_default_cache_dir()
@@ -412,7 +412,10 @@ def load_repo_metadata(
     if not repo_file.exists():
         return None
 
-    return json.loads(repo_file.read_text())
+    try:
+        return json.loads(repo_file.read_text())
+    except (json.JSONDecodeError, IOError):
+        return None
 
 
 def list_all_repos(
