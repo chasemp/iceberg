@@ -541,3 +541,46 @@ def get_repos_by_category(
         repo for repo in all_repos
         if category in repo.get("categories", {})
     ]
+
+
+def list_all_repos_typed(
+    cache_dir: Path | None = None,
+) -> list[RepositoryMetadata]:
+    """List all discovered repositories as typed models.
+
+    Args:
+        cache_dir: Optional cache directory
+
+    Returns:
+        List of RepositoryMetadata instances
+    """
+    repos_dict = list_all_repos(cache_dir=cache_dir)
+    typed_repos = []
+
+    for repo in repos_dict:
+        try:
+            typed_repos.append(_metadata_to_model(repo))
+        except (KeyError, ValueError, TypeError):
+            continue  # Skip invalid entries
+
+    return typed_repos
+
+
+def get_repos_by_category_typed(
+    category: str,
+    cache_dir: Path | None = None,
+) -> list[RepositoryMetadata]:
+    """Get all repos in a specific category as typed models.
+
+    Args:
+        category: Category to filter by (e.g., "github-ranking-python")
+        cache_dir: Optional cache directory
+
+    Returns:
+        List of RepositoryMetadata instances
+    """
+    all_repos = list_all_repos_typed(cache_dir=cache_dir)
+    return [
+        repo for repo in all_repos
+        if category in repo.categories
+    ]

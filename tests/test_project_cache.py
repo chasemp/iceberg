@@ -219,3 +219,80 @@ def test_save_repo_metadata_accepts_repository_metadata_model(tmp_path: Path) ->
     assert "new-category" in loaded.categories
     assert "trending-monthly" in loaded.categories
     assert loaded.last_discovered == "2026-02-10"
+
+
+def test_list_all_repos_typed_returns_models(tmp_path: Path) -> None:
+    """Test listing all repositories as typed models."""
+    from iceberg.cache import list_all_repos_typed, save_repo_metadata
+    from iceberg.models import DiscoveredRepo
+
+    repos = [
+        DiscoveredRepo(
+            name="repo1",
+            owner="owner1",
+            url="https://github.com/owner1/repo1",
+            description="First repo",
+            language="Python",
+            stars=100,
+            source="trending-monthly",
+            discovered_at="2026-02-12T12:00:00Z",
+        ),
+        DiscoveredRepo(
+            name="repo2",
+            owner="owner2",
+            url="https://github.com/owner2/repo2",
+            description="Second repo",
+            language="JavaScript",
+            stars=200,
+            source="search",
+            discovered_at="2026-02-12T12:00:00Z",
+        ),
+    ]
+
+    for repo in repos:
+        save_repo_metadata(repo, repo.source, cache_dir=tmp_path)
+
+    all_repos = list_all_repos_typed(cache_dir=tmp_path)
+
+    assert len(all_repos) == 2
+    names = {r.name for r in all_repos}
+    assert names == {"repo1", "repo2"}
+    assert all(hasattr(r, "categories") for r in all_repos)
+
+
+def test_get_repos_by_category_typed_filters_by_category(tmp_path: Path) -> None:
+    """Test getting repositories by category as typed models."""
+    from iceberg.cache import get_repos_by_category_typed, save_repo_metadata
+    from iceberg.models import DiscoveredRepo
+
+    repos = [
+        DiscoveredRepo(
+            name="trending-repo",
+            owner="owner1",
+            url="https://github.com/owner1/trending-repo",
+            description="Trending",
+            language="Python",
+            stars=1000,
+            source="trending-monthly",
+            discovered_at="2026-02-12T12:00:00Z",
+        ),
+        DiscoveredRepo(
+            name="search-repo",
+            owner="owner2",
+            url="https://github.com/owner2/search-repo",
+            description="Search result",
+            language="JavaScript",
+            stars=500,
+            source="search",
+            discovered_at="2026-02-12T12:00:00Z",
+        ),
+    ]
+
+    for repo in repos:
+        save_repo_metadata(repo, repo.source, cache_dir=tmp_path)
+
+    trending_repos = get_repos_by_category_typed("trending-monthly", cache_dir=tmp_path)
+
+    assert len(trending_repos) == 1
+    assert trending_repos[0].name == "trending-repo"
+    assert "trending-monthly" in trending_repos[0].categories
