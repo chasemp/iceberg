@@ -20,6 +20,25 @@ class DiscoveredRepo(BaseModel):
 TrendingRepo = DiscoveredRepo
 
 
+class RepositoryMetadata(BaseModel):
+    """Repository metadata aggregated across multiple discovery events.
+
+    This represents the cached metadata structure that tracks a repository
+    across multiple categories and discovery dates.
+    """
+
+    model_config = ConfigDict(frozen=True)
+
+    name: str
+    owner: str
+    url: HttpUrl
+    description: str | None
+    language: str | None
+    stars: int
+    categories: dict[str, str]  # Maps category -> date discovered
+    last_discovered: str
+
+
 class PackageIdentifier(BaseModel):
     model_config = ConfigDict(frozen=True)
 

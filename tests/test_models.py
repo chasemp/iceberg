@@ -273,3 +273,110 @@ def test_create_trending_repo_factory_backward_compatible() -> None:
     assert repo.name == "test"
     assert repo.source == "trending-monthly"
     assert repo.discovered_at == "2026-02-02T12:00:00Z"
+
+
+def test_repository_metadata_validates_with_valid_data() -> None:
+    """Test RepositoryMetadata validates with complete data."""
+    from iceberg.models import RepositoryMetadata
+
+    metadata = RepositoryMetadata(
+        name="react",
+        owner="facebook",
+        url="https://github.com/facebook/react",
+        description="A JavaScript library for building user interfaces",
+        language="JavaScript",
+        stars=220000,
+        categories={"trending-monthly": "2026-02-09", "github-ranking": "2026-02-10"},
+        last_discovered="2026-02-10",
+    )
+
+    assert metadata.name == "react"
+    assert metadata.owner == "facebook"
+    assert metadata.stars == 220000
+    assert "trending-monthly" in metadata.categories
+    assert metadata.last_discovered == "2026-02-10"
+
+
+def test_repository_metadata_allows_none_for_optional_fields() -> None:
+    """Test RepositoryMetadata accepts None for description and language."""
+    from iceberg.models import RepositoryMetadata
+
+    metadata = RepositoryMetadata(
+        name="test",
+        owner="owner",
+        url="https://github.com/owner/test",
+        description=None,
+        language=None,
+        stars=100,
+        categories={"search": "2026-02-09"},
+        last_discovered="2026-02-09",
+    )
+
+    assert metadata.description is None
+    assert metadata.language is None
+
+
+def test_repository_metadata_is_frozen() -> None:
+    """Test RepositoryMetadata is immutable."""
+    from iceberg.models import RepositoryMetadata
+
+    metadata = RepositoryMetadata(
+        name="react",
+        owner="facebook",
+        url="https://github.com/facebook/react",
+        description="A JavaScript library",
+        language="JavaScript",
+        stars=220000,
+        categories={"trending-monthly": "2026-02-09"},
+        last_discovered="2026-02-09",
+    )
+
+    with pytest.raises(ValidationError):
+        metadata.stars = 300000  # type: ignore[misc]
+
+
+def test_repository_metadata_requires_all_mandatory_fields() -> None:
+    """Test RepositoryMetadata rejects missing required fields."""
+    from iceberg.models import RepositoryMetadata
+
+    with pytest.raises(ValidationError):
+        RepositoryMetadata(  # type: ignore[call-arg]
+            name="react",
+            owner="facebook",
+            # missing url, stars, categories, last_discovered
+        )
+
+
+def test_repository_metadata_with_empty_categories() -> None:
+    """Test RepositoryMetadata accepts empty categories dict."""
+    from iceberg.models import RepositoryMetadata
+
+    metadata = RepositoryMetadata(
+        name="test",
+        owner="owner",
+        url="https://github.com/owner/test",
+        description="Test repo",
+        language="Python",
+        stars=50,
+        categories={},
+        last_discovered="2026-02-09",
+    )
+
+    assert metadata.categories == {}
+
+
+def test_repository_metadata_validates_url_format() -> None:
+    """Test RepositoryMetadata validates HttpUrl format."""
+    from iceberg.models import RepositoryMetadata
+
+    with pytest.raises(ValidationError):
+        RepositoryMetadata(
+            name="test",
+            owner="owner",
+            url="not-a-valid-url",  # type: ignore[arg-type]
+            description="Test",
+            language="Python",
+            stars=100,
+            categories={"search": "2026-02-09"},
+            last_discovered="2026-02-09",
+        )
