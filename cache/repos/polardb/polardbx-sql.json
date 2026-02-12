@@ -1,0 +1,19 @@
+{
+  "owner": "polardb",
+  "name": "polardbx-sql",
+  "full_name": "polardb/polardbx-sql",
+  "url": "https://github.com/polardb/polardbx-sql",
+  "description": "PolarDB-X is a cloud native distributed SQL Database designed for high concurrency, massive storage, complex querying scenarios.",
+  "language": null,
+  "stars": 1663,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.159896+00:00"
+  },
+  "cncf": {
+    "name": "PolarDB",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.159897+00:00"
+  }
+}

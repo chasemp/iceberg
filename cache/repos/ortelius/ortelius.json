@@ -1,0 +1,19 @@
+{
+  "owner": "ortelius",
+  "name": "ortelius",
+  "full_name": "ortelius/ortelius",
+  "url": "https://github.com/ortelius/ortelius",
+  "description": "The mission of the Ortelius community is to expose weak links in the software supply chain by continuously gathering and analyzing software supply chain intelligence introduced across the DevOps pipeline and connected to your deployed environments.",
+  "language": null,
+  "stars": 380,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.153084+00:00"
+  },
+  "cncf": {
+    "name": "Ortelius",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.153085+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "skywalking",
+  "full_name": "apache/skywalking",
+  "url": "https://github.com/apache/skywalking",
+  "description": "APM, Application Performance Monitoring System",
+  "language": null,
+  "stars": 24696,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.181408+00:00"
+  },
+  "cncf": {
+    "name": "SkyWalking",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.181409+00:00"
+  }
+}

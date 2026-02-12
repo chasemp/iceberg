@@ -1,0 +1,19 @@
+{
+  "owner": "WAVM",
+  "name": "WAVM",
+  "full_name": "WAVM/WAVM",
+  "url": "https://github.com/WAVM/WAVM",
+  "description": "WebAssembly Virtual Machine",
+  "language": null,
+  "stars": 2748,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.213636+00:00"
+  },
+  "cncf": {
+    "name": "WAVM",
+    "category": "Wasm",
+    "subcategory": "Runtimes",
+    "imported_at": "2026-02-11T23:30:15.213637+00:00"
+  }
+}

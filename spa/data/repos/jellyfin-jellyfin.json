@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 169937,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:14:20.694270+00:00",
+    "cached_at": "2026-02-11T00:21:11.860349+00:00",
     "repo_url": "https://github.com/jellyfin/jellyfin.git",
     "ref": "HEAD",
-    "commit_hash": "de36952f5378d5af28aa9edc660f47cd47a2f218",
-    "clone_duration_seconds": 1.4630517959594727,
-    "count_duration_seconds": 0.1613924503326416
+    "commit_hash": "8b5914001d63de809122997a9bb6d9253bfef850",
+    "clone_duration_seconds": 3.1010429859161377,
+    "count_duration_seconds": 0.6063671112060547,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

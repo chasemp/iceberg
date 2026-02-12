@@ -4,9 +4,16 @@
   "url": "https://github.com/grpc/grpc",
   "description": "C++ based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)",
   "language": "C++",
-  "stars": 44327,
+  "stars": 44312,
   "categories": {
-    "github-ranking-cpp": "2026-02-09"
+    "github-ranking-cpp": "2026-02-09",
+    "tracked": "2026-02-11T23:30:15.064855+00:00"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-09",
+  "cncf": {
+    "name": "gRPC",
+    "category": "Orchestration & Management",
+    "subcategory": "Remote Procedure Call",
+    "imported_at": "2026-02-11T23:30:15.064858+00:00"
+  }
 }

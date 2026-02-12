@@ -4,10 +4,17 @@
   "url": "https://github.com/elastic/elasticsearch",
   "description": "Free and Open Source, Distributed, RESTful Search Engine",
   "language": "Java",
-  "stars": 76031,
+  "stars": 76018,
   "categories": {
     "github-ranking-top-100-forks": "2026-02-09",
-    "github-ranking-java": "2026-02-09"
+    "github-ranking-java": "2026-02-09",
+    "tracked": "2026-02-11T23:30:15.045360+00:00"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-09",
+  "cncf": {
+    "name": "Elastic",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.045363+00:00"
+  }
 }

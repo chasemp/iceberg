@@ -1,0 +1,19 @@
+{
+  "owner": "graphite-project",
+  "name": "graphite-web",
+  "full_name": "graphite-project/graphite-web",
+  "url": "https://github.com/graphite-project/graphite-web",
+  "description": "A highly scalable real-time graphing system",
+  "language": null,
+  "stars": 6066,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.063448+00:00"
+  },
+  "cncf": {
+    "name": "Graphite",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.063449+00:00"
+  }
+}

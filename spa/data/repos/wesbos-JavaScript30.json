@@ -9,15 +9,21 @@
     "version": "HEAD",
     "loc": 460,
     "source": "github_clone",
-    "cached_at": "2026-02-09T20:18:37.036119+00:00",
+    "cached_at": "2026-02-11T15:54:09.139416+00:00",
     "repo_url": "https://github.com/wesbos/JavaScript30.git",
     "ref": "HEAD",
     "commit_hash": "a23f7ec27479ffb23f473693d3565e9aac813299",
-    "clone_duration_seconds": 4.148046970367432,
-    "count_duration_seconds": 0.005649089813232422,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-top-100-forks",
-    "tracked": false,
-    "maintenance_priority": "medium"
+    "clone_duration_seconds": 4.737214803695679,
+    "count_duration_seconds": 0.005272865295410156,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

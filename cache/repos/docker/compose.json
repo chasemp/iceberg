@@ -1,0 +1,19 @@
+{
+  "owner": "docker",
+  "name": "compose",
+  "full_name": "docker/compose",
+  "url": "https://github.com/docker/compose",
+  "description": "Define and run multi-container applications with Docker",
+  "language": null,
+  "stars": 36947,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.041032+00:00"
+  },
+  "cncf": {
+    "name": "Docker Compose",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.041235+00:00"
+  }
+}

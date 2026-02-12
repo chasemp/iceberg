@@ -1,0 +1,19 @@
+{
+  "owner": "ydb-platform",
+  "name": "ydb",
+  "full_name": "ydb-platform/ydb",
+  "url": "https://github.com/ydb-platform/ydb",
+  "description": "YDB is an open source Distributed SQL Database that combines high availability and scalability with strong consistency and ACID transactions",
+  "language": null,
+  "stars": 4670,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.216813+00:00"
+  },
+  "cncf": {
+    "name": "YDB",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.216814+00:00"
+  }
+}

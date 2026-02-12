@@ -1,0 +1,19 @@
+{
+  "owner": "KusionStack",
+  "name": "kusion",
+  "full_name": "KusionStack/kusion",
+  "url": "https://github.com/KusionStack/kusion",
+  "description": "Declarative Intent Driven Platform Orchestrator for Internal Developer Platform (IDP).",
+  "language": null,
+  "stars": 1265,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.122692+00:00"
+  },
+  "cncf": {
+    "name": "KusionStack",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.122693+00:00"
+  }
+}

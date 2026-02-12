@@ -1,0 +1,19 @@
+{
+  "owner": "Checkmarx",
+  "name": "kics",
+  "full_name": "Checkmarx/kics",
+  "url": "https://github.com/Checkmarx/kics",
+  "description": "Find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code with KICS by Checkmarx.",
+  "language": null,
+  "stars": 2569,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.094209+00:00"
+  },
+  "cncf": {
+    "name": "KICS",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.094210+00:00"
+  }
+}

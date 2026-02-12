@@ -1,0 +1,19 @@
+{
+  "owner": "infracost",
+  "name": "infracost",
+  "full_name": "infracost/infracost",
+  "url": "https://github.com/infracost/infracost",
+  "description": "Cloud cost estimates for Terraform in pull requests\ud83d\udcb0\ud83d\udcc9 Shift FinOps Left!",
+  "language": null,
+  "stars": 12071,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.081601+00:00"
+  },
+  "cncf": {
+    "name": "Infracost",
+    "category": "Observability and Analysis",
+    "subcategory": "Continuous Optimization",
+    "imported_at": "2026-02-11T23:30:15.081602+00:00"
+  }
+}

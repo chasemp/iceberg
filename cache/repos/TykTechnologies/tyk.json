@@ -1,0 +1,19 @@
+{
+  "owner": "TykTechnologies",
+  "name": "tyk",
+  "full_name": "TykTechnologies/tyk",
+  "url": "https://github.com/TykTechnologies/tyk",
+  "description": "Tyk Open Source API Gateway written in Go, supporting REST, GraphQL, TCP and gRPC protocols",
+  "language": null,
+  "stars": 10622,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.204264+00:00"
+  },
+  "cncf": {
+    "name": "Tyk",
+    "category": "Orchestration & Management",
+    "subcategory": "API Gateway",
+    "imported_at": "2026-02-11T23:30:15.204265+00:00"
+  }
+}

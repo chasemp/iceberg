@@ -1,0 +1,19 @@
+{
+  "owner": "kubetail-org",
+  "name": "kubetail",
+  "full_name": "kubetail-org/kubetail",
+  "url": "https://github.com/kubetail-org/kubetail",
+  "description": "Real-time logging dashboard for Kubernetes. View logs in a terminal or a browser. Run anywhere - desktop, cluster, docker.",
+  "language": null,
+  "stars": 1603,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.119723+00:00"
+  },
+  "cncf": {
+    "name": "Kubetail",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.119724+00:00"
+  }
+}

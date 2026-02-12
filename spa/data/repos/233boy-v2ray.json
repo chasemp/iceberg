@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 2711,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:13:47.697706+00:00",
+    "cached_at": "2026-02-11T15:05:45.278305+00:00",
     "repo_url": "https://github.com/233boy/v2ray.git",
     "ref": "HEAD",
     "commit_hash": "707ecf7601ff49f91c2d12dd22b98e8f89588d1c",
-    "clone_duration_seconds": 0.543424129486084,
-    "count_duration_seconds": 0.0030791759490966797
+    "clone_duration_seconds": 1.0949480533599854,
+    "count_duration_seconds": 0.003392934799194336,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

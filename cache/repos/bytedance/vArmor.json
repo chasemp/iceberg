@@ -1,0 +1,19 @@
+{
+  "owner": "bytedance",
+  "name": "vArmor",
+  "full_name": "bytedance/vArmor",
+  "url": "https://github.com/bytedance/vArmor",
+  "description": "vArmor is a cloud native container sandbox system based on AppArmor/BPF/Seccomp. It also includes multiple built-in protection rules that are ready to use out of the box.",
+  "language": null,
+  "stars": 438,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.206460+00:00"
+  },
+  "cncf": {
+    "name": "vArmor",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.206461+00:00"
+  }
+}

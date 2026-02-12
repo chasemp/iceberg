@@ -1,0 +1,19 @@
+{
+  "owner": "mweagle",
+  "name": "Sparta",
+  "full_name": "mweagle/Sparta",
+  "url": "https://github.com/mweagle/Sparta",
+  "description": "go microservices, powered by AWS Lambda",
+  "language": null,
+  "stars": 715,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.184732+00:00"
+  },
+  "cncf": {
+    "name": "Sparta",
+    "category": "Serverless",
+    "subcategory": "Framework",
+    "imported_at": "2026-02-11T23:30:15.184733+00:00"
+  }
+}

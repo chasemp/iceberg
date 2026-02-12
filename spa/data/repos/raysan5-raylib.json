@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 263805,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:38:01.470876+00:00",
+    "cached_at": "2026-02-11T15:01:28.759100+00:00",
     "repo_url": "https://github.com/raysan5/raylib.git",
     "ref": "HEAD",
-    "commit_hash": "4b01c23ba678d4c1243fcc6ecc4672df9fe71872",
-    "clone_duration_seconds": 3.2967214584350586,
-    "count_duration_seconds": 0.12685275077819824
+    "commit_hash": "919ad68ca71fc2f4c173694e163f3df21edefca0",
+    "clone_duration_seconds": 4.535909175872803,
+    "count_duration_seconds": 0.08470988273620605,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

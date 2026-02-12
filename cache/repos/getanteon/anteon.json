@@ -1,0 +1,19 @@
+{
+  "owner": "getanteon",
+  "name": "anteon",
+  "full_name": "getanteon/anteon",
+  "url": "https://github.com/getanteon/anteon",
+  "description": "Anteon (formerly Ddosify): eBPF-based Kubernetes Monitoring and Performance Testing",
+  "language": null,
+  "stars": 8544,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.901893+00:00"
+  },
+  "cncf": {
+    "name": "Anteon",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:14.901894+00:00"
+  }
+}

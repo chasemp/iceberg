@@ -1,0 +1,19 @@
+{
+  "owner": "cedar-policy",
+  "name": "cedar",
+  "full_name": "cedar-policy/cedar",
+  "url": "https://github.com/cedar-policy/cedar",
+  "description": "Implementation of the Cedar Policy Language",
+  "language": null,
+  "stars": 1296,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.979277+00:00"
+  },
+  "cncf": {
+    "name": "Cedar",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:14.979278+00:00"
+  }
+}

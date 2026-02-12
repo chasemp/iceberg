@@ -1,0 +1,19 @@
+{
+  "owner": "screwdriver-cd",
+  "name": "screwdriver",
+  "full_name": "screwdriver-cd/screwdriver",
+  "url": "https://github.com/screwdriver-cd/screwdriver",
+  "description": "An open source build platform designed for continuous delivery.",
+  "language": null,
+  "stars": 1045,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.174128+00:00"
+  },
+  "cncf": {
+    "name": "Screwdriver",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.174129+00:00"
+  }
+}

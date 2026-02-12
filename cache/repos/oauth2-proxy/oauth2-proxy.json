@@ -1,0 +1,19 @@
+{
+  "owner": "oauth2-proxy",
+  "name": "oauth2-proxy",
+  "full_name": "oauth2-proxy/oauth2-proxy",
+  "url": "https://github.com/oauth2-proxy/oauth2-proxy",
+  "description": "A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.",
+  "language": null,
+  "stars": 13795,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.142983+00:00"
+  },
+  "cncf": {
+    "name": "OAuth2 Proxy",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.142984+00:00"
+  }
+}

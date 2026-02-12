@@ -1,0 +1,19 @@
+{
+  "owner": "rancher",
+  "name": "rancher",
+  "full_name": "rancher/rancher",
+  "url": "https://github.com/rancher/rancher",
+  "description": "Complete container management platform",
+  "language": null,
+  "stars": 25328,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.167894+00:00"
+  },
+  "cncf": {
+    "name": "Rancher Kubernetes",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Distribution",
+    "imported_at": "2026-02-11T23:30:15.167895+00:00"
+  }
+}

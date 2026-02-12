@@ -1,0 +1,19 @@
+{
+  "owner": "vmware-labs",
+  "name": "webassembly-language-runtimes",
+  "full_name": "vmware-labs/webassembly-language-runtimes",
+  "url": "https://github.com/vmware-labs/webassembly-language-runtimes",
+  "description": "Wasm Language Runtimes provides popular language runtimes (Ruby, Python, \u2026) precompiled to WebAssembly that are tested for compatibility and kept up to date when new versions of upstream languages are released",
+  "language": null,
+  "stars": 362,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.214297+00:00"
+  },
+  "cncf": {
+    "name": "WebAssembly Language runtimes for Python and PHP by VMware Labs",
+    "category": "Wasm",
+    "subcategory": "Languages",
+    "imported_at": "2026-02-11T23:30:15.214298+00:00"
+  }
+}

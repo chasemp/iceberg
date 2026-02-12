@@ -1,0 +1,19 @@
+{
+  "owner": "saltstack",
+  "name": "salt",
+  "full_name": "saltstack/salt",
+  "url": "https://github.com/saltstack/salt",
+  "description": "Software to automate the management and configuration of infrastructure and applications at scale.",
+  "language": null,
+  "stars": 15189,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.172731+00:00"
+  },
+  "cncf": {
+    "name": "Salt Project",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.172732+00:00"
+  }
+}

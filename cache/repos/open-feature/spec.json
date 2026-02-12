@@ -1,0 +1,19 @@
+{
+  "owner": "open-feature",
+  "name": "spec",
+  "full_name": "open-feature/spec",
+  "url": "https://github.com/open-feature/spec",
+  "description": "OpenFeature specification",
+  "language": null,
+  "stars": 1050,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.147355+00:00"
+  },
+  "cncf": {
+    "name": "OpenFeature",
+    "category": "Observability and Analysis",
+    "subcategory": "Feature Flagging",
+    "imported_at": "2026-02-11T23:30:15.147356+00:00"
+  }
+}

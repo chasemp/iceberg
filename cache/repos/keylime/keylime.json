@@ -1,0 +1,19 @@
+{
+  "owner": "keylime",
+  "name": "keylime",
+  "full_name": "keylime/keylime",
+  "url": "https://github.com/keylime/keylime",
+  "description": "A CNCF Project to Bootstrap & Maintain Trust on the Edge / Cloud and IoT",
+  "language": null,
+  "stars": 510,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.093545+00:00"
+  },
+  "cncf": {
+    "name": "Keylime",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.093546+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "service-mesh-performance",
+  "name": "service-mesh-performance",
+  "full_name": "service-mesh-performance/service-mesh-performance",
+  "url": "https://github.com/service-mesh-performance/service-mesh-performance",
+  "description": "Standardizing Cloud Native Value Measurement",
+  "language": null,
+  "stars": 311,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.177744+00:00"
+  },
+  "cncf": {
+    "name": "Service Mesh Performance",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Mesh",
+    "imported_at": "2026-02-11T23:30:15.177745+00:00"
+  }
+}

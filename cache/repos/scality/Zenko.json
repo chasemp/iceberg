@@ -1,0 +1,19 @@
+{
+  "owner": "scality",
+  "name": "Zenko",
+  "full_name": "scality/Zenko",
+  "url": "https://github.com/scality/Zenko",
+  "description": "Zenko is the open source multi-cloud data controller: own and keep control of your data on any cloud.",
+  "language": null,
+  "stars": 655,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.218285+00:00"
+  },
+  "cncf": {
+    "name": "Zenko",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "imported_at": "2026-02-11T23:30:15.218286+00:00"
+  }
+}

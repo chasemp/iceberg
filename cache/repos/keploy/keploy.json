@@ -1,0 +1,19 @@
+{
+  "owner": "keploy",
+  "name": "keploy",
+  "full_name": "keploy/keploy",
+  "url": "https://github.com/keploy/keploy",
+  "description": "API, Integration, E2E Testing Agent for Developers that actually work. Generate tests, mocks/stubs for your APIs!",
+  "language": null,
+  "stars": 15647,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.092605+00:00"
+  },
+  "cncf": {
+    "name": "Keploy",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.092606+00:00"
+  }
+}

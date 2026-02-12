@@ -1,0 +1,19 @@
+{
+  "owner": "grafana",
+  "name": "loki",
+  "full_name": "grafana/loki",
+  "url": "https://github.com/grafana/loki",
+  "description": "Like Prometheus, but for logs.",
+  "language": null,
+  "stars": 27551,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.062356+00:00"
+  },
+  "cncf": {
+    "name": "Grafana Loki",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.062357+00:00"
+  }
+}

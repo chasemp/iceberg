@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "zookeeper",
+  "full_name": "apache/zookeeper",
+  "url": "https://github.com/apache/zookeeper",
+  "description": "Apache ZooKeeper",
+  "language": null,
+  "stars": 12719,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.909204+00:00"
+  },
+  "cncf": {
+    "name": "Apache Zookeeper",
+    "category": "Orchestration & Management",
+    "subcategory": "Coordination & Service Discovery",
+    "imported_at": "2026-02-11T23:30:14.909205+00:00"
+  }
+}

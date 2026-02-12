@@ -1,0 +1,19 @@
+{
+  "owner": "NVIDIA",
+  "name": "Megatron-LM",
+  "full_name": "NVIDIA/Megatron-LM",
+  "url": "https://github.com/NVIDIA/Megatron-LM",
+  "description": "Ongoing research training transformer models at scale",
+  "language": null,
+  "stars": 15147,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.130644+00:00"
+  },
+  "cncf": {
+    "name": "Megatron-LM",
+    "category": "CNAI",
+    "subcategory": "Distributed Training",
+    "imported_at": "2026-02-11T23:30:15.130645+00:00"
+  }
+}

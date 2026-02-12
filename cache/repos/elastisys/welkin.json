@@ -1,0 +1,19 @@
+{
+  "owner": "elastisys",
+  "name": "welkin",
+  "full_name": "elastisys/welkin",
+  "url": "https://github.com/elastisys/welkin",
+  "description": "Public entrypoint repository for Welkin -- the application platform for software critical to society",
+  "language": null,
+  "stars": 0,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.045811+00:00"
+  },
+  "cncf": {
+    "name": "Elastisys Welkin\u00ae based on Kubespray",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Distribution",
+    "imported_at": "2026-02-11T23:30:15.045812+00:00"
+  }
+}

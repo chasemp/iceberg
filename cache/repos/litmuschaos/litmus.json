@@ -1,0 +1,19 @@
+{
+  "owner": "litmuschaos",
+  "name": "litmus",
+  "full_name": "litmuschaos/litmus",
+  "url": "https://github.com/litmuschaos/litmus",
+  "description": "Litmus helps  SREs and developers practice chaos engineering in a Cloud-native way. Chaos experiments are published at the ChaosHub  (https://hub.litmuschaos.io). Community notes is at https://hackmd.io/a4Zu_sH4TZGeih-xCimi3Q",
+  "language": null,
+  "stars": 5178,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.126727+00:00"
+  },
+  "cncf": {
+    "name": "Litmus",
+    "category": "Observability and Analysis",
+    "subcategory": "Chaos Engineering",
+    "imported_at": "2026-02-11T23:30:15.126728+00:00"
+  }
+}

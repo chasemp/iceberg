@@ -1,0 +1,19 @@
+{
+  "owner": "gradle",
+  "name": "gradle",
+  "full_name": "gradle/gradle",
+  "url": "https://github.com/gradle/gradle",
+  "description": "Adaptable, fast automation for all",
+  "language": null,
+  "stars": 18346,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.061825+00:00"
+  },
+  "cncf": {
+    "name": "Gradle Build Tool",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.061827+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "WebAssembly",
+  "name": "wabt",
+  "full_name": "WebAssembly/wabt",
+  "url": "https://github.com/WebAssembly/wabt",
+  "description": "The WebAssembly Binary Toolkit",
+  "language": null,
+  "stars": 7843,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.209752+00:00"
+  },
+  "cncf": {
+    "name": "wasm2c",
+    "category": "Wasm",
+    "subcategory": "Tooling",
+    "imported_at": "2026-02-11T23:30:15.211870+00:00"
+  }
+}

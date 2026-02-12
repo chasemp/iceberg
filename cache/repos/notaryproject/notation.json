@@ -1,0 +1,19 @@
+{
+  "owner": "notaryproject",
+  "name": "notation",
+  "full_name": "notaryproject/notation",
+  "url": "https://github.com/notaryproject/notation",
+  "description": "A CLI tool to sign and verify artifacts",
+  "language": null,
+  "stars": 460,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.142169+00:00"
+  },
+  "cncf": {
+    "name": "Notary Project",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.142170+00:00"
+  }
+}

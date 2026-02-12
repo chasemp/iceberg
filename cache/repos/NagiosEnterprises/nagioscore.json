@@ -1,0 +1,19 @@
+{
+  "owner": "NagiosEnterprises",
+  "name": "nagioscore",
+  "full_name": "NagiosEnterprises/nagioscore",
+  "url": "https://github.com/NagiosEnterprises/nagioscore",
+  "description": "Nagios Core",
+  "language": null,
+  "stars": 1944,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.138046+00:00"
+  },
+  "cncf": {
+    "name": "Nagios",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.138047+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "vscode-kubernetes-tools",
+  "name": "vscode-kubernetes-tools",
+  "full_name": "vscode-kubernetes-tools/vscode-kubernetes-tools",
+  "url": "https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools",
+  "description": "Kubernetes extension for Visual Studio Code",
+  "language": null,
+  "stars": 748,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.208161+00:00"
+  },
+  "cncf": {
+    "name": "Visual Studio Code Kubernetes Tools",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.208162+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "replicatedhq",
+  "name": "kots",
+  "full_name": "replicatedhq/kots",
+  "url": "https://github.com/replicatedhq/kots",
+  "description": "KOTS provides the framework, tools and integrations that enable the delivery and management of 3rd-party Kubernetes applications, a.k.a. Kubernetes Off-The-Shelf (KOTS) Software.",
+  "language": null,
+  "stars": 938,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.098876+00:00"
+  },
+  "cncf": {
+    "name": "KOTS",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.098877+00:00"
+  }
+}

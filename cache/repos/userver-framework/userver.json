@@ -1,0 +1,19 @@
+{
+  "owner": "userver-framework",
+  "name": "userver",
+  "full_name": "userver-framework/userver",
+  "url": "https://github.com/userver-framework/userver",
+  "description": "Production-ready C++ Asynchronous Framework with rich functionality",
+  "language": null,
+  "stars": 2800,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.205512+00:00"
+  },
+  "cncf": {
+    "name": "userver",
+    "category": "App Definition and Development",
+    "subcategory": "Streaming & Messaging",
+    "imported_at": "2026-02-11T23:30:15.205513+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "emqx",
+  "name": "emqx",
+  "full_name": "emqx/emqx",
+  "url": "https://github.com/emqx/emqx",
+  "description": "The most scalable and reliable MQTT broker for AI, IoT, IIoT and connected vehicles",
+  "language": null,
+  "stars": 15903,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.046547+00:00"
+  },
+  "cncf": {
+    "name": "EMQX",
+    "category": "App Definition and Development",
+    "subcategory": "Streaming & Messaging",
+    "imported_at": "2026-02-11T23:30:15.046548+00:00"
+  }
+}

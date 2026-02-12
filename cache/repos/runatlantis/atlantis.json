@@ -1,0 +1,19 @@
+{
+  "owner": "runatlantis",
+  "name": "atlantis",
+  "full_name": "runatlantis/atlantis",
+  "url": "https://github.com/runatlantis/atlantis",
+  "description": "Terraform Pull Request Automation",
+  "language": null,
+  "stars": 8811,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.916755+00:00"
+  },
+  "cncf": {
+    "name": "Atlantis",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:14.916756+00:00"
+  }
+}

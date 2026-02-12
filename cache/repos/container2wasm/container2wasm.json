@@ -1,0 +1,19 @@
+{
+  "owner": "container2wasm",
+  "name": "container2wasm",
+  "full_name": "container2wasm/container2wasm",
+  "url": "https://github.com/container2wasm/container2wasm",
+  "description": "Container to WASM converter",
+  "language": null,
+  "stars": 2542,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.994337+00:00"
+  },
+  "cncf": {
+    "name": "container2wasm",
+    "category": "Wasm",
+    "subcategory": "Orchestration & Management",
+    "imported_at": "2026-02-11T23:30:14.994338+00:00"
+  }
+}

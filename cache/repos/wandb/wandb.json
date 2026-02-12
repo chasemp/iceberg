@@ -1,0 +1,19 @@
+{
+  "owner": "wandb",
+  "name": "wandb",
+  "full_name": "wandb/wandb",
+  "url": "https://github.com/wandb/wandb",
+  "description": "The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production.",
+  "language": null,
+  "stars": 10811,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.214683+00:00"
+  },
+  "cncf": {
+    "name": "Weight and Biases (wandb)",
+    "category": "CNAI",
+    "subcategory": "Workload Observability",
+    "imported_at": "2026-02-11T23:30:15.214684+00:00"
+  }
+}

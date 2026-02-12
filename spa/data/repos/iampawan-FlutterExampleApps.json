@@ -1,0 +1,29 @@
+{
+  "owner": "iampawan",
+  "repo": "FlutterExampleApps",
+  "full_name": "iampawan/FlutterExampleApps",
+  "url": "https://github.com/iampawan/FlutterExampleApps",
+  "analysis": {
+    "owner": "iampawan",
+    "repo": "FlutterExampleApps",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:13:42.515388+00:00",
+    "repo_url": "https://github.com/iampawan/FlutterExampleApps.git",
+    "ref": "HEAD",
+    "commit_hash": "d60252c8728726414562c4d389bce24f80e09c26",
+    "clone_duration_seconds": 3.455122947692871,
+    "count_duration_seconds": 0.0018439292907714844,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

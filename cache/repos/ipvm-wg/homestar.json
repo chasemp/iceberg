@@ -1,0 +1,19 @@
+{
+  "owner": "ipvm-wg",
+  "name": "homestar",
+  "full_name": "ipvm-wg/homestar",
+  "url": "https://github.com/ipvm-wg/homestar",
+  "description": "Homestar is the individual node that makes up the Everywhere Computer network (similar to how IPFS Kubo, Iroh, Nabu, or other implementation nodes make up the IPFS network). It's written in Rust and is designed for performance and composability.",
+  "language": null,
+  "stars": 253,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.075110+00:00"
+  },
+  "cncf": {
+    "name": "homestar",
+    "category": "Wasm",
+    "subcategory": "Application Frameworks",
+    "imported_at": "2026-02-11T23:30:15.075111+00:00"
+  }
+}

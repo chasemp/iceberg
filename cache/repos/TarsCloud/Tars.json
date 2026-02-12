@@ -1,0 +1,19 @@
+{
+  "owner": "TarsCloud",
+  "name": "Tars",
+  "full_name": "TarsCloud/Tars",
+  "url": "https://github.com/TarsCloud/Tars",
+  "description": "Tars is a high-performance RPC framework based on name service and Tars protocol, also integrated administration platform, and implemented hosting-service via flexible schedule.",
+  "language": null,
+  "stars": 10072,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.193167+00:00"
+  },
+  "cncf": {
+    "name": "TARS",
+    "category": "Orchestration & Management",
+    "subcategory": "Remote Procedure Call",
+    "imported_at": "2026-02-11T23:30:15.193168+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "KWasm",
+  "name": "kwasm-operator",
+  "full_name": "KWasm/kwasm-operator",
+  "url": "https://github.com/KWasm/kwasm-operator",
+  "description": "This Kubernetes Operators installs WebAssembly support on your Kubernetes Nodes",
+  "language": null,
+  "stars": 240,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.123194+00:00"
+  },
+  "cncf": {
+    "name": "Kwasm",
+    "category": "Wasm",
+    "subcategory": "Orchestration & Management",
+    "imported_at": "2026-02-11T23:30:15.123196+00:00"
+  }
+}

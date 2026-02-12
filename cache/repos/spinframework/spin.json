@@ -1,0 +1,19 @@
+{
+  "owner": "spinframework",
+  "name": "spin",
+  "full_name": "spinframework/spin",
+  "url": "https://github.com/spinframework/spin",
+  "description": "Spin is the open source developer tool for building and running serverless applications powered by WebAssembly.",
+  "language": null,
+  "stars": 6284,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.186489+00:00"
+  },
+  "cncf": {
+    "name": "Spin",
+    "category": "Wasm",
+    "subcategory": "Application Frameworks",
+    "imported_at": "2026-02-11T23:30:15.186490+00:00"
+  }
+}

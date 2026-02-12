@@ -1,0 +1,19 @@
+{
+  "owner": "chroma-core",
+  "name": "chroma",
+  "full_name": "chroma-core/chroma",
+  "url": "https://github.com/chroma-core/chroma",
+  "description": "Open-source search and retrieval database for AI applications.",
+  "language": null,
+  "stars": 25993,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.984753+00:00"
+  },
+  "cncf": {
+    "name": "Chroma",
+    "category": "CNAI",
+    "subcategory": "Vector Databases",
+    "imported_at": "2026-02-11T23:30:14.984754+00:00"
+  }
+}

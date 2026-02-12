@@ -1,0 +1,19 @@
+{
+  "owner": "flomesh-io",
+  "name": "fsm",
+  "full_name": "flomesh-io/fsm",
+  "url": "https://github.com/flomesh-io/fsm",
+  "description": "Lightweight service mesh for Kubernetes East-West and North-South traffic management, uses eBPF for layer4  and pipy proxy for layer7 traffic management, support multi cluster network. ",
+  "language": null,
+  "stars": 69,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.053790+00:00"
+  },
+  "cncf": {
+    "name": "Flomesh Service Mesh (FSM)",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Mesh",
+    "imported_at": "2026-02-11T23:30:15.053791+00:00"
+  }
+}

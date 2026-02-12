@@ -1,0 +1,19 @@
+{
+  "owner": "wazero",
+  "name": "wazero",
+  "full_name": "wazero/wazero",
+  "url": "https://github.com/wazero/wazero",
+  "description": "wazero: the zero dependency WebAssembly runtime for Go developers",
+  "language": null,
+  "stars": 5921,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.213812+00:00"
+  },
+  "cncf": {
+    "name": "Wazero",
+    "category": "Wasm",
+    "subcategory": "Runtimes",
+    "imported_at": "2026-02-11T23:30:15.213813+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "grafana",
+  "name": "pyroscope",
+  "full_name": "grafana/pyroscope",
+  "url": "https://github.com/grafana/pyroscope",
+  "description": "Continuous Profiling Platform. Debug performance issues down to a single line of code",
+  "language": null,
+  "stars": 11181,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.062653+00:00"
+  },
+  "cncf": {
+    "name": "Grafana Pyroscope",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.062654+00:00"
+  }
+}

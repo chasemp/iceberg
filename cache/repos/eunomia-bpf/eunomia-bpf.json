@@ -1,0 +1,19 @@
+{
+  "owner": "eunomia-bpf",
+  "name": "eunomia-bpf",
+  "full_name": "eunomia-bpf/eunomia-bpf",
+  "url": "https://github.com/eunomia-bpf/eunomia-bpf",
+  "description": "A Tool to make Build and Run eBPF programs easier",
+  "language": null,
+  "stars": 845,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.048705+00:00"
+  },
+  "cncf": {
+    "name": "eunomia-bpf",
+    "category": "Wasm",
+    "subcategory": "Application Frameworks",
+    "imported_at": "2026-02-11T23:30:15.048706+00:00"
+  }
+}

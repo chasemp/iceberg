@@ -1,0 +1,19 @@
+{
+  "owner": "spiffe",
+  "name": "spiffe",
+  "full_name": "spiffe/spiffe",
+  "url": "https://github.com/spiffe/spiffe",
+  "description": "The SPIFFE Project",
+  "language": null,
+  "stars": 1701,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.186267+00:00"
+  },
+  "cncf": {
+    "name": "SPIFFE",
+    "category": "Provisioning",
+    "subcategory": "Key Management",
+    "imported_at": "2026-02-11T23:30:15.186268+00:00"
+  }
+}

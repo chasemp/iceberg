@@ -1,0 +1,19 @@
+{
+  "owner": "networkservicemesh",
+  "name": "api",
+  "full_name": "networkservicemesh/api",
+  "url": "https://github.com/networkservicemesh/api",
+  "description": "CNCF is an open source software foundation that hosts and nurtures projects like Kubernetes and Prometheus.",
+  "language": null,
+  "stars": 15,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.139637+00:00"
+  },
+  "cncf": {
+    "name": "Network Service Mesh",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Network",
+    "imported_at": "2026-02-11T23:30:15.139638+00:00"
+  }
+}

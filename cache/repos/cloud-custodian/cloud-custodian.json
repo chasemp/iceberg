@@ -1,0 +1,19 @@
+{
+  "owner": "cloud-custodian",
+  "name": "cloud-custodian",
+  "full_name": "cloud-custodian/cloud-custodian",
+  "url": "https://github.com/cloud-custodian/cloud-custodian",
+  "description": "Rules engine for cloud security, cost optimization, and governance, DSL in yaml for policies to query, filter, and take actions on resources",
+  "language": null,
+  "stars": 5919,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.986526+00:00"
+  },
+  "cncf": {
+    "name": "Cloud Custodian",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:14.986527+00:00"
+  }
+}

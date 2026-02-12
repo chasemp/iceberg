@@ -1,0 +1,19 @@
+{
+  "owner": "chaosblade-io",
+  "name": "chaosblade",
+  "full_name": "chaosblade-io/chaosblade",
+  "url": "https://github.com/chaosblade-io/chaosblade",
+  "description": "An easy to use and powerful chaos engineering experiment toolkit.\uff08\u963f\u91cc\u5df4\u5df4\u5f00\u6e90\u7684\u4e00\u6b3e\u7b80\u5355\u6613\u7528\u3001\u529f\u80fd\u5f3a\u5927\u7684\u6df7\u6c8c\u5b9e\u9a8c\u6ce8\u5165\u5de5\u5177\uff09",
+  "language": null,
+  "stars": 6289,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.982159+00:00"
+  },
+  "cncf": {
+    "name": "Chaosblade",
+    "category": "Observability and Analysis",
+    "subcategory": "Chaos Engineering",
+    "imported_at": "2026-02-11T23:30:14.982160+00:00"
+  }
+}

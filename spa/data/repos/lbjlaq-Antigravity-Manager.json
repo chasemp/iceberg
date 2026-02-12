@@ -1,0 +1,36 @@
+{
+  "owner": "lbjlaq",
+  "repo": "Antigravity-Manager",
+  "full_name": "lbjlaq/Antigravity-Manager",
+  "url": "https://github.com/lbjlaq/Antigravity-Manager",
+  "analysis": {
+    "owner": "lbjlaq",
+    "repo": "Antigravity-Manager",
+    "version": "HEAD",
+    "loc": 56116,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:17:55.012710+00:00",
+    "package": {
+      "system": "npm",
+      "name": "antigravity-tools",
+      "version": "4.1.13"
+    },
+    "total_loc": 12149,
+    "ratio": 0.17796821211455358,
+    "repo_url": "https://github.com/lbjlaq/Antigravity-Manager.git",
+    "ref": "v4.1.13",
+    "commit_hash": "03cfd13d3cf8359517620cf8f70c476baee2ce0a",
+    "clone_duration_seconds": 2.6133038997650146,
+    "count_duration_seconds": 0.03207588195800781,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

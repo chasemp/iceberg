@@ -4,9 +4,16 @@
   "url": "https://github.com/minio/minio",
   "description": "MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.",
   "language": "Go",
-  "stars": 60151,
+  "stars": 60112,
   "categories": {
-    "github-ranking-go": "2026-02-09"
+    "github-ranking-go": "2026-02-09",
+    "tracked": "2026-02-11T23:30:15.134938+00:00"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-09",
+  "cncf": {
+    "name": "MinIO",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "imported_at": "2026-02-11T23:30:15.134940+00:00"
+  }
 }

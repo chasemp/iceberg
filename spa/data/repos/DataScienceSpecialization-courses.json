@@ -9,15 +9,21 @@
     "version": "HEAD",
     "loc": 43522,
     "source": "github_clone",
-    "cached_at": "2026-02-09T20:21:34.451665+00:00",
+    "cached_at": "2026-02-11T15:58:17.897311+00:00",
     "repo_url": "https://github.com/DataScienceSpecialization/courses.git",
     "ref": "HEAD",
     "commit_hash": "ce683213546009429c7b911812175446aad5d78a",
-    "clone_duration_seconds": 41.718878984451294,
-    "count_duration_seconds": 0.4446902275085449,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-top-100-forks",
-    "tracked": false,
-    "maintenance_priority": "low"
+    "clone_duration_seconds": 60.01575994491577,
+    "count_duration_seconds": 1.9851269721984863,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "owner": "inlets",
+  "name": "inlets-pro",
+  "full_name": "inlets/inlets-pro",
+  "url": "https://github.com/inlets/inlets-pro",
+  "description": "Secure HTTP and TCP tunnels that just work",
+  "language": null,
+  "stars": 566,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.081884+00:00"
+  },
+  "cncf": {
+    "name": "Inlets",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Proxy",
+    "imported_at": "2026-02-11T23:30:15.081886+00:00"
+  }
+}

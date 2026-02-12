@@ -1,0 +1,19 @@
+{
+  "owner": "operator-framework",
+  "name": "operator-sdk",
+  "full_name": "operator-framework/operator-sdk",
+  "url": "https://github.com/operator-framework/operator-sdk",
+  "description": "SDK for building Kubernetes applications. Provides high level APIs, useful abstractions, and project scaffolding.",
+  "language": null,
+  "stars": 7603,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.152200+00:00"
+  },
+  "cncf": {
+    "name": "Operator Framework",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.152201+00:00"
+  }
+}

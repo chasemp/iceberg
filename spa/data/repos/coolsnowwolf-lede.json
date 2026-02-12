@@ -7,13 +7,23 @@
     "owner": "coolsnowwolf",
     "repo": "lede",
     "version": "HEAD",
-    "loc": 1191497,
+    "loc": 1191699,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:37:51.423008+00:00",
+    "cached_at": "2026-02-11T15:01:14.852154+00:00",
     "repo_url": "https://github.com/coolsnowwolf/lede.git",
     "ref": "HEAD",
-    "commit_hash": "61a0f15aa51f56d9ffe227f6256229fe16061b20",
-    "clone_duration_seconds": 5.489897012710571,
-    "count_duration_seconds": 0.6954817771911621
+    "commit_hash": "891709bceff40b88b1b65935b34b42f73bebbef6",
+    "clone_duration_seconds": 8.906789779663086,
+    "count_duration_seconds": 0.6815879344940186,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

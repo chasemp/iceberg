@@ -1,0 +1,19 @@
+{
+  "owner": "theforeman",
+  "name": "foreman",
+  "full_name": "theforeman/foreman",
+  "url": "https://github.com/theforeman/foreman",
+  "description": "an application that automates the lifecycle of servers ",
+  "language": null,
+  "stars": 2818,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.054994+00:00"
+  },
+  "cncf": {
+    "name": "Foreman",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.054995+00:00"
+  }
+}

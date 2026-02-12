@@ -1,0 +1,19 @@
+{
+  "owner": "jupyter",
+  "name": "jupyter",
+  "full_name": "jupyter/jupyter",
+  "url": "https://github.com/jupyter/jupyter",
+  "description": "Jupyter metapackage for installation and documentation",
+  "language": null,
+  "stars": 15283,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.162447+00:00"
+  },
+  "cncf": {
+    "name": "Project Jupyter",
+    "category": "CNAI",
+    "subcategory": "Data Science",
+    "imported_at": "2026-02-11T23:30:15.162448+00:00"
+  }
+}

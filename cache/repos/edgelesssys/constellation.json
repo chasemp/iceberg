@@ -1,0 +1,19 @@
+{
+  "owner": "edgelesssys",
+  "name": "constellation",
+  "full_name": "edgelesssys/constellation",
+  "url": "https://github.com/edgelesssys/constellation",
+  "description": "Constellation is a Kubernetes distribution for confidential computing, securing entire clusters on untrusted infrastructure.  Constellation is in maintenance mode. New development continues in Contrast, which provides workload-level confidential computing using Confidential Containers.  \ud83d\udc49 https://github.com/edgelesssys/contrast",
+  "language": null,
+  "stars": 1102,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.992805+00:00"
+  },
+  "cncf": {
+    "name": "Constellation",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Distribution",
+    "imported_at": "2026-02-11T23:30:14.992807+00:00"
+  }
+}

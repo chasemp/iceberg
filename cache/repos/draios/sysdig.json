@@ -1,0 +1,19 @@
+{
+  "owner": "draios",
+  "name": "sysdig",
+  "full_name": "draios/sysdig",
+  "url": "https://github.com/draios/sysdig",
+  "description": "Linux system exploration and troubleshooting tool with first class support for containers",
+  "language": null,
+  "stars": 8193,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.192328+00:00"
+  },
+  "cncf": {
+    "name": "sysdig",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.192329+00:00"
+  }
+}

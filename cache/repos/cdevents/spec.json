@@ -1,0 +1,19 @@
+{
+  "owner": "cdevents",
+  "name": "spec",
+  "full_name": "cdevents/spec",
+  "url": "https://github.com/cdevents/spec",
+  "description": "A common specification for Continuous Delivery events",
+  "language": null,
+  "stars": 157,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.978325+00:00"
+  },
+  "cncf": {
+    "name": "CDEvents",
+    "category": "App Definition and Development",
+    "subcategory": "Streaming & Messaging",
+    "imported_at": "2026-02-11T23:30:14.978327+00:00"
+  }
+}

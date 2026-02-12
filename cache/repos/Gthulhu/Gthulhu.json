@@ -1,0 +1,19 @@
+{
+  "owner": "Gthulhu",
+  "name": "Gthulhu",
+  "full_name": "Gthulhu/Gthulhu",
+  "url": "https://github.com/Gthulhu/Gthulhu",
+  "description": "Gthulhu optimizes cloud-native workloads using the Linux Scheduler Extension for different application scenarios.",
+  "language": null,
+  "stars": 370,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.065339+00:00"
+  },
+  "cncf": {
+    "name": "Gthulhu",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.065340+00:00"
+  }
+}

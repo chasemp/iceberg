@@ -1,0 +1,19 @@
+{
+  "owner": "wasmCloud",
+  "name": "wasmCloud",
+  "full_name": "wasmCloud/wasmCloud",
+  "url": "https://github.com/wasmCloud/wasmCloud",
+  "description": "wasmCloud is an open source Cloud Native Computing Foundation (CNCF) project that enables teams to build, manage, and scale polyglot apps across any cloud, K8s, or edge.",
+  "language": null,
+  "stars": 2214,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.212220+00:00"
+  },
+  "cncf": {
+    "name": "wasmCloud (Wasm)",
+    "category": "Wasm",
+    "subcategory": "Application Frameworks",
+    "imported_at": "2026-02-11T23:30:15.212443+00:00"
+  }
+}

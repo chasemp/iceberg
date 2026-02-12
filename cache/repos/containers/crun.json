@@ -1,0 +1,19 @@
+{
+  "owner": "containers",
+  "name": "crun",
+  "full_name": "containers/crun",
+  "url": "https://github.com/containers/crun",
+  "description": "A fast and lightweight fully featured OCI runtime and C library for running containers",
+  "language": null,
+  "stars": 3762,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.034407+00:00"
+  },
+  "cncf": {
+    "name": "crun",
+    "category": "Wasm",
+    "subcategory": "Orchestration & Management",
+    "imported_at": "2026-02-11T23:30:15.034408+00:00"
+  }
+}

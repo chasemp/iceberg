@@ -1,0 +1,19 @@
+{
+  "owner": "ray-project",
+  "name": "kuberay",
+  "full_name": "ray-project/kuberay",
+  "url": "https://github.com/ray-project/kuberay",
+  "description": "A toolkit to run Ray applications on Kubernetes",
+  "language": null,
+  "stars": 2309,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.115434+00:00"
+  },
+  "cncf": {
+    "name": "Kuberay",
+    "category": "CNAI",
+    "subcategory": "General Orchestration",
+    "imported_at": "2026-02-11T23:30:15.115435+00:00"
+  }
+}

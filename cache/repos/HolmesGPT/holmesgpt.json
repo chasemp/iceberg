@@ -1,0 +1,19 @@
+{
+  "owner": "HolmesGPT",
+  "name": "holmesgpt",
+  "full_name": "HolmesGPT/holmesgpt",
+  "url": "https://github.com/HolmesGPT/holmesgpt",
+  "description": "Your 24/7 On-Call AI Agent - Solve Alerts Faster with Automatic Correlations, Investigations, and More",
+  "language": null,
+  "stars": 1826,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.074407+00:00"
+  },
+  "cncf": {
+    "name": "HolmesGPT",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.074408+00:00"
+  }
+}

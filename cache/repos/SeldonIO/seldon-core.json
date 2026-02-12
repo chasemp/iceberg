@@ -1,0 +1,19 @@
+{
+  "owner": "SeldonIO",
+  "name": "seldon-core",
+  "full_name": "SeldonIO/seldon-core",
+  "url": "https://github.com/SeldonIO/seldon-core",
+  "description": "An MLOps framework to package, deploy, monitor and manage thousands of production machine learning models",
+  "language": null,
+  "stars": 4715,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.175723+00:00"
+  },
+  "cncf": {
+    "name": "Seldon",
+    "category": "CNAI",
+    "subcategory": "ML Serving",
+    "imported_at": "2026-02-11T23:30:15.175724+00:00"
+  }
+}

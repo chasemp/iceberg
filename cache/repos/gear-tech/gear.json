@@ -1,0 +1,19 @@
+{
+  "owner": "gear-tech",
+  "name": "gear",
+  "full_name": "gear-tech/gear",
+  "url": "https://github.com/gear-tech/gear",
+  "description": "Web3 Ultimate Execution Engine",
+  "language": null,
+  "stars": 254,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.056773+00:00"
+  },
+  "cncf": {
+    "name": "GEAR",
+    "category": "Wasm",
+    "subcategory": "Decentralized Platforms",
+    "imported_at": "2026-02-11T23:30:15.056775+00:00"
+  }
+}

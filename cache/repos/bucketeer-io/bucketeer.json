@@ -1,0 +1,19 @@
+{
+  "owner": "bucketeer-io",
+  "name": "bucketeer",
+  "full_name": "bucketeer-io/bucketeer",
+  "url": "https://github.com/bucketeer-io/bucketeer",
+  "description": "Feature Flag Management and A/B Testing platform",
+  "language": null,
+  "stars": 458,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.952265+00:00"
+  },
+  "cncf": {
+    "name": "Bucketeer",
+    "category": "Observability and Analysis",
+    "subcategory": "Feature Flagging",
+    "imported_at": "2026-02-11T23:30:14.952266+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "teamcode-inc",
+  "name": "kubeorbit",
+  "full_name": "teamcode-inc/kubeorbit",
+  "url": "https://github.com/teamcode-inc/kubeorbit",
+  "description": "Test your application on Kubernetes in a brand new simple way\u26a1 \u8f7b\u91cf\u9ad8\u6548\u7684\u5fae\u670d\u52a1\u672c\u5730\u8054\u8c03\u6d4b\u8bd5\u5de5\u5177",
+  "language": null,
+  "stars": 458,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.115193+00:00"
+  },
+  "cncf": {
+    "name": "KubeOrbit",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.115194+00:00"
+  }
+}

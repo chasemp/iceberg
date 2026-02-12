@@ -1,0 +1,29 @@
+{
+  "owner": "kovidgoyal",
+  "repo": "calibre",
+  "full_name": "kovidgoyal/calibre",
+  "url": "https://github.com/kovidgoyal/calibre",
+  "analysis": {
+    "owner": "kovidgoyal",
+    "repo": "calibre",
+    "version": "HEAD",
+    "loc": 520214,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:58:50.928331+00:00",
+    "repo_url": "https://github.com/kovidgoyal/calibre.git",
+    "ref": "HEAD",
+    "commit_hash": "62a9c3e374397e4b40ab18fca574e7e9b6a0fa27",
+    "clone_duration_seconds": 4.115964889526367,
+    "count_duration_seconds": 0.24946188926696777,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

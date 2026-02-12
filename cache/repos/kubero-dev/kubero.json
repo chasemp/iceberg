@@ -1,0 +1,19 @@
+{
+  "owner": "kubero-dev",
+  "name": "kubero",
+  "full_name": "kubero-dev/kubero",
+  "url": "https://github.com/kubero-dev/kubero",
+  "description": "A free and self-hosted PaaS alternative to Heroku / Netlify / Coolify / Vercel / Dokku / Portainer running on Kubernetes",
+  "language": null,
+  "stars": 4131,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.117321+00:00"
+  },
+  "cncf": {
+    "name": "Kubero",
+    "category": "Platform",
+    "subcategory": "PaaS/Container Service",
+    "imported_at": "2026-02-11T23:30:15.117323+00:00"
+  }
+}

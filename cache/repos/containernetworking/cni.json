@@ -1,0 +1,19 @@
+{
+  "owner": "containernetworking",
+  "name": "cni",
+  "full_name": "containernetworking/cni",
+  "url": "https://github.com/containernetworking/cni",
+  "description": "Container Network Interface - networking for Linux containers",
+  "language": null,
+  "stars": 5956,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.993426+00:00"
+  },
+  "cncf": {
+    "name": "Container Network Interface (CNI)",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Network",
+    "imported_at": "2026-02-11T23:30:14.993429+00:00"
+  }
+}

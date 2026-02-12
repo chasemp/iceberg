@@ -1,0 +1,16 @@
+{
+  "owner": "bytedance",
+  "repo": "UI-TARS-desktop",
+  "full_name": "bytedance/UI-TARS-desktop",
+  "root_package": "npm:monorepo:0.0.1",
+  "nodes": [
+    {
+      "id": "npm:monorepo:0.0.1",
+      "system": "npm",
+      "name": "monorepo",
+      "version": "0.0.1"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-12T15:02:43.154357+00:00"
+}

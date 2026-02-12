@@ -1,0 +1,19 @@
+{
+  "owner": "dotnet",
+  "name": "runtime",
+  "full_name": "dotnet/runtime",
+  "url": "https://github.com/dotnet/runtime",
+  "description": ".NET is a cross-platform runtime for cloud, mobile, desktop, and IoT apps.",
+  "language": null,
+  "stars": 17515,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.895802+00:00"
+  },
+  "cncf": {
+    "name": ".NET",
+    "category": "Wasm",
+    "subcategory": "Languages",
+    "imported_at": "2026-02-11T23:30:14.895805+00:00"
+  }
+}

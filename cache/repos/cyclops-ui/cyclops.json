@@ -1,0 +1,19 @@
+{
+  "owner": "cyclops-ui",
+  "name": "cyclops",
+  "full_name": "cyclops-ui/cyclops",
+  "url": "https://github.com/cyclops-ui/cyclops",
+  "description": "Developer Friendly Kubernetes \ud83d\udc41\ufe0f",
+  "language": null,
+  "stars": 3312,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.035791+00:00"
+  },
+  "cncf": {
+    "name": "Cyclops",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.035793+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "kubefleet-dev",
+  "name": "kubefleet",
+  "full_name": "kubefleet-dev/kubefleet",
+  "url": "https://github.com/kubefleet-dev/kubefleet",
+  "description": "KubeFleet is an open-source Kubernetes multi-cluster application management solution.",
+  "language": null,
+  "stars": 131,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.111970+00:00"
+  },
+  "cncf": {
+    "name": "KubeFleet",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.111971+00:00"
+  }
+}

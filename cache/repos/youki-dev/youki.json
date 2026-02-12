@@ -1,0 +1,19 @@
+{
+  "owner": "youki-dev",
+  "name": "youki",
+  "full_name": "youki-dev/youki",
+  "url": "https://github.com/youki-dev/youki",
+  "description": "A container runtime written in Rust",
+  "language": null,
+  "stars": 7223,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.217385+00:00"
+  },
+  "cncf": {
+    "name": "youki (wasm)",
+    "category": "Wasm",
+    "subcategory": "Orchestration & Management",
+    "imported_at": "2026-02-11T23:30:15.217537+00:00"
+  }
+}

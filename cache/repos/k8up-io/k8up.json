@@ -1,0 +1,19 @@
+{
+  "owner": "k8up-io",
+  "name": "k8up",
+  "full_name": "k8up-io/k8up",
+  "url": "https://github.com/k8up-io/k8up",
+  "description": "Kubernetes and OpenShift Backup Operator",
+  "language": null,
+  "stars": 902,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.086984+00:00"
+  },
+  "cncf": {
+    "name": "K8up",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "imported_at": "2026-02-11T23:30:15.086985+00:00"
+  }
+}

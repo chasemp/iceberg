@@ -1,0 +1,19 @@
+{
+  "owner": "InftyAI",
+  "name": "llmaz",
+  "full_name": "InftyAI/llmaz",
+  "url": "https://github.com/InftyAI/llmaz",
+  "description": "\u2638\ufe0f Easy, advanced inference platform for large language models on Kubernetes. \ud83c\udf1f Star to support our work!",
+  "language": null,
+  "stars": 288,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.126978+00:00"
+  },
+  "cncf": {
+    "name": "llmaz",
+    "category": "CNAI",
+    "subcategory": "ML Serving",
+    "imported_at": "2026-02-11T23:30:15.126979+00:00"
+  }
+}

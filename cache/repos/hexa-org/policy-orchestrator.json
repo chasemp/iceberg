@@ -1,0 +1,19 @@
+{
+  "owner": "hexa-org",
+  "name": "policy-orchestrator",
+  "full_name": "hexa-org/policy-orchestrator",
+  "url": "https://github.com/hexa-org/policy-orchestrator",
+  "description": "Hexa Policy Orchestrator enables you to manage all of your access policies consistently across software providers.",
+  "language": null,
+  "stars": 105,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.073858+00:00"
+  },
+  "cncf": {
+    "name": "Hexa",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.073859+00:00"
+  }
+}

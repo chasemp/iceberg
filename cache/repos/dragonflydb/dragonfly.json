@@ -1,0 +1,19 @@
+{
+  "owner": "dragonflydb",
+  "name": "dragonfly",
+  "full_name": "dragonflydb/dragonfly",
+  "url": "https://github.com/dragonflydb/dragonfly",
+  "description": "A modern replacement for Redis and Memcached",
+  "language": null,
+  "stars": 29918,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.042138+00:00"
+  },
+  "cncf": {
+    "name": "DragonflyDB",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.042139+00:00"
+  }
+}

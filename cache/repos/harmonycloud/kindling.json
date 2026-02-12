@@ -1,0 +1,19 @@
+{
+  "owner": "harmonycloud",
+  "name": "kindling",
+  "full_name": "harmonycloud/kindling",
+  "url": "https://github.com/harmonycloud/kindling",
+  "description": "eBPF-based Cloud Native Monitoring Tool",
+  "language": null,
+  "stars": 1055,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.068256+00:00"
+  },
+  "cncf": {
+    "name": "harmonycloud",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.068258+00:00"
+  }
+}

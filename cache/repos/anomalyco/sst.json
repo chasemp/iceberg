@@ -1,0 +1,19 @@
+{
+  "owner": "anomalyco",
+  "name": "sst",
+  "full_name": "anomalyco/sst",
+  "url": "https://github.com/anomalyco/sst",
+  "description": "Build full-stack apps on your own infrastructure.",
+  "language": null,
+  "stars": 25415,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.188110+00:00"
+  },
+  "cncf": {
+    "name": "SST",
+    "category": "Serverless",
+    "subcategory": "Framework",
+    "imported_at": "2026-02-11T23:30:15.188111+00:00"
+  }
+}

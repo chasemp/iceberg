@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "kafka",
+  "full_name": "apache/kafka",
+  "url": "https://github.com/apache/kafka",
+  "description": "Mirror of Apache Kafka",
+  "language": null,
+  "stars": 31842,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.087170+00:00"
+  },
+  "cncf": {
+    "name": "Kafka",
+    "category": "CNAI",
+    "subcategory": "Data Architecture",
+    "imported_at": "2026-02-11T23:30:15.087463+00:00"
+  }
+}

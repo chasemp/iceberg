@@ -1,0 +1,19 @@
+{
+  "owner": "catalyst-cloud",
+  "name": "magnum",
+  "full_name": "catalyst-cloud/magnum",
+  "url": "https://github.com/catalyst-cloud/magnum",
+  "description": "Container Infrastructure Management Service for OpenStack",
+  "language": null,
+  "stars": 5,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.977755+00:00"
+  },
+  "cncf": {
+    "name": "Catalyst Kubernetes Service",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Hosted",
+    "imported_at": "2026-02-11T23:30:14.977757+00:00"
+  }
+}

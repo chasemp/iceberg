@@ -1,0 +1,19 @@
+{
+  "owner": "razee-io",
+  "name": "Razee",
+  "full_name": "razee-io/Razee",
+  "url": "https://github.com/razee-io/Razee",
+  "description": "Overview and docs",
+  "language": null,
+  "stars": 424,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.168392+00:00"
+  },
+  "cncf": {
+    "name": "Razee",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.168393+00:00"
+  }
+}

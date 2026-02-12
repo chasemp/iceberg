@@ -1,0 +1,19 @@
+{
+  "owner": "tinygo-org",
+  "name": "tinygo",
+  "full_name": "tinygo-org/tinygo",
+  "url": "https://github.com/tinygo-org/tinygo",
+  "description": "Go compiler for small places. Microcontrollers, WebAssembly (WASM/WASI), and command-line tools. Based on LLVM.",
+  "language": null,
+  "stars": 17140,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.200924+00:00"
+  },
+  "cncf": {
+    "name": "TinyGo",
+    "category": "Wasm",
+    "subcategory": "Languages",
+    "imported_at": "2026-02-11T23:30:15.200925+00:00"
+  }
+}

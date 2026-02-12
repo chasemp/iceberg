@@ -1,0 +1,19 @@
+{
+  "owner": "second-state",
+  "name": "witc",
+  "full_name": "second-state/witc",
+  "url": "https://github.com/second-state/witc",
+  "description": "wasm-interface-types supplement & compiler of wasmedge",
+  "language": null,
+  "stars": 17,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.215487+00:00"
+  },
+  "cncf": {
+    "name": "Witc",
+    "category": "Wasm",
+    "subcategory": "Tooling",
+    "imported_at": "2026-02-11T23:30:15.215488+00:00"
+  }
+}

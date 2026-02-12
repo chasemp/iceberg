@@ -1,0 +1,19 @@
+{
+  "owner": "cloudmatos",
+  "name": "matos",
+  "full_name": "cloudmatos/matos",
+  "url": "https://github.com/cloudmatos/matos",
+  "description": "Matos is an open-source cloud security tool for analyzing multi-cloud infrastructure security.",
+  "language": null,
+  "stars": 16,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.988302+00:00"
+  },
+  "cncf": {
+    "name": "CloudMatos",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:14.988303+00:00"
+  }
+}

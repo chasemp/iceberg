@@ -1,0 +1,19 @@
+{
+  "owner": "antrea-io",
+  "name": "antrea",
+  "full_name": "antrea-io/antrea",
+  "url": "https://github.com/antrea-io/antrea",
+  "description": "Kubernetes networking based on Open vSwitch",
+  "language": null,
+  "stars": 1772,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.902262+00:00"
+  },
+  "cncf": {
+    "name": "Antrea",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Network",
+    "imported_at": "2026-02-11T23:30:14.902263+00:00"
+  }
+}

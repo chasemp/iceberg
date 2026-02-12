@@ -1,0 +1,19 @@
+{
+  "owner": "mia-platform",
+  "name": "distribution",
+  "full_name": "mia-platform/distribution",
+  "url": "https://github.com/mia-platform/distribution",
+  "description": "Mia-Platform distribution for Kubernetes day two operation",
+  "language": null,
+  "stars": 11,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.129551+00:00"
+  },
+  "cncf": {
+    "name": "Magellano",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Distribution",
+    "imported_at": "2026-02-11T23:30:15.129552+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "pixie-io",
+  "name": "pixie",
+  "full_name": "pixie-io/pixie",
+  "url": "https://github.com/pixie-io/pixie",
+  "description": "Instant Kubernetes-Native Application Observability",
+  "language": null,
+  "stars": 6352,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.158250+00:00"
+  },
+  "cncf": {
+    "name": "Pixie",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.158251+00:00"
+  }
+}

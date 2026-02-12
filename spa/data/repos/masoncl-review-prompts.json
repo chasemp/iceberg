@@ -1,0 +1,29 @@
+{
+  "owner": "masoncl",
+  "repo": "review-prompts",
+  "full_name": "masoncl/review-prompts",
+  "url": "https://github.com/masoncl/review-prompts",
+  "analysis": {
+    "owner": "masoncl",
+    "repo": "review-prompts",
+    "version": "HEAD",
+    "loc": 2247,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:59:04.636174+00:00",
+    "repo_url": "https://github.com/masoncl/review-prompts.git",
+    "ref": "HEAD",
+    "commit_hash": "bcc8778995108d9b4e919e117d92c486670ce5d2",
+    "clone_duration_seconds": 0.9406380653381348,
+    "count_duration_seconds": 0.005418062210083008,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

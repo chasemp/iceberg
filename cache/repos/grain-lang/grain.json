@@ -1,0 +1,19 @@
+{
+  "owner": "grain-lang",
+  "name": "grain",
+  "full_name": "grain-lang/grain",
+  "url": "https://github.com/grain-lang/grain",
+  "description": "The Grain compiler toolchain and CLI. Home of the modern web staple. \ud83c\udf3e",
+  "language": null,
+  "stars": 3418,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.063198+00:00"
+  },
+  "cncf": {
+    "name": "Grain",
+    "category": "Wasm",
+    "subcategory": "Languages",
+    "imported_at": "2026-02-11T23:30:15.063199+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "ccfos",
+  "name": "nightingale",
+  "full_name": "ccfos/nightingale",
+  "url": "https://github.com/ccfos/nightingale",
+  "description": "Nightingale is to monitoring and alerting what Grafana is to visualization.",
+  "language": null,
+  "stars": 12832,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.140737+00:00"
+  },
+  "cncf": {
+    "name": "Nightingale",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.140738+00:00"
+  }
+}

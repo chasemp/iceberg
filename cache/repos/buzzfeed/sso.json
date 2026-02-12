@@ -1,0 +1,19 @@
+{
+  "owner": "buzzfeed",
+  "name": "sso",
+  "full_name": "buzzfeed/sso",
+  "url": "https://github.com/buzzfeed/sso",
+  "description": "sso, aka S.S.Octopus, aka octoboi, is a single sign-on solution for securing internal services",
+  "language": null,
+  "stars": 3119,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.187933+00:00"
+  },
+  "cncf": {
+    "name": "sso",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.187934+00:00"
+  }
+}

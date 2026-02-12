@@ -1,0 +1,19 @@
+{
+  "owner": "jenkinsci",
+  "name": "jenkins",
+  "full_name": "jenkinsci/jenkins",
+  "url": "https://github.com/jenkinsci/jenkins",
+  "description": "Jenkins automation server",
+  "language": null,
+  "stars": 24994,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.083919+00:00"
+  },
+  "cncf": {
+    "name": "Jenkins",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.083921+00:00"
+  }
+}

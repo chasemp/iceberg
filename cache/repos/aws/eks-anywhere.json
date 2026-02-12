@@ -1,0 +1,19 @@
+{
+  "owner": "aws",
+  "name": "eks-anywhere",
+  "full_name": "aws/eks-anywhere",
+  "url": "https://github.com/aws/eks-anywhere",
+  "description": "Run Amazon EKS on your own infrastructure \ud83d\ude80",
+  "language": null,
+  "stars": 2085,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.899606+00:00"
+  },
+  "cncf": {
+    "name": "Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere)",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Installer",
+    "imported_at": "2026-02-11T23:30:14.899607+00:00"
+  }
+}

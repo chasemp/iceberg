@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 19230,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:48:09.443800+00:00",
+    "cached_at": "2026-02-10T23:17:48.647784+00:00",
     "repo_url": "https://github.com/xmake-io/xmake.git",
     "ref": "HEAD",
-    "commit_hash": "ee98b61be7054e1b8b8e2668b67c662ba12e264b",
-    "clone_duration_seconds": 1.6384222507476807,
-    "count_duration_seconds": 0.12131667137145996
+    "commit_hash": "de97caa61ab95c3a422dc9c494370f513e4ef535",
+    "clone_duration_seconds": 2.2752251625061035,
+    "count_duration_seconds": 0.2417299747467041,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

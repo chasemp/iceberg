@@ -1,0 +1,19 @@
+{
+  "owner": "serverless",
+  "name": "serverless",
+  "full_name": "serverless/serverless",
+  "url": "https://github.com/serverless/serverless",
+  "description": "\u26a1 Serverless Framework \u2013 Effortlessly build apps that auto-scale, incur zero costs when idle, and require minimal maintenance using AWS Lambda and other managed cloud services.",
+  "language": null,
+  "stars": 46951,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.176930+00:00"
+  },
+  "cncf": {
+    "name": "Serverless",
+    "category": "Serverless",
+    "subcategory": "Framework",
+    "imported_at": "2026-02-11T23:30:15.176931+00:00"
+  }
+}

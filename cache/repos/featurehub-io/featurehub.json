@@ -1,0 +1,19 @@
+{
+  "owner": "featurehub-io",
+  "name": "featurehub",
+  "full_name": "featurehub-io/featurehub",
+  "url": "https://github.com/featurehub-io/featurehub",
+  "description": "FeatureHub - cloud native feature flags, A/B testing and remote configuration service. Real-time streaming feature updates. Provided with Java, JavaScript, React, Python, Go, .Net, Ruby, Android, Swift and Flutter SDKs. ",
+  "language": null,
+  "stars": 354,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.050801+00:00"
+  },
+  "cncf": {
+    "name": "FeatureHub",
+    "category": "Observability and Analysis",
+    "subcategory": "Feature Flagging",
+    "imported_at": "2026-02-11T23:30:15.050802+00:00"
+  }
+}

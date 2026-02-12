@@ -1,0 +1,19 @@
+{
+  "owner": "huggingface",
+  "name": "text-generation-inference",
+  "full_name": "huggingface/text-generation-inference",
+  "url": "https://github.com/huggingface/text-generation-inference",
+  "description": "Large Language Model Text Generation Inference",
+  "language": null,
+  "stars": 10751,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.198306+00:00"
+  },
+  "cncf": {
+    "name": "text-generation-inference (TGI)",
+    "category": "CNAI",
+    "subcategory": "ML Serving",
+    "imported_at": "2026-02-11T23:30:15.198307+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "truera",
+  "name": "trulens",
+  "full_name": "truera/trulens",
+  "url": "https://github.com/truera/trulens",
+  "description": "Evaluation and Tracking for LLM Experiments and AI Agents",
+  "language": null,
+  "stars": 3080,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.203909+00:00"
+  },
+  "cncf": {
+    "name": "Trulens",
+    "category": "CNAI",
+    "subcategory": "Model/LLM Observability",
+    "imported_at": "2026-02-11T23:30:15.203910+00:00"
+  }
+}

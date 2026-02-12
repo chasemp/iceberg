@@ -1,0 +1,19 @@
+{
+  "owner": "valkey-io",
+  "name": "valkey",
+  "full_name": "valkey-io/valkey",
+  "url": "https://github.com/valkey-io/valkey",
+  "description": "A flexible distributed key-value database that is optimized for caching and other realtime workloads.",
+  "language": null,
+  "stars": 24732,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.206267+00:00"
+  },
+  "cncf": {
+    "name": "Valkey",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.206268+00:00"
+  }
+}

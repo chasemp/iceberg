@@ -1,0 +1,19 @@
+{
+  "owner": "canonical",
+  "name": "maas",
+  "full_name": "canonical/maas",
+  "url": "https://github.com/canonical/maas",
+  "description": "Official MAAS repository mirror (may be out of date). Development happens in Launchpad (https://git.launchpad.net/maas/).",
+  "language": null,
+  "stars": 457,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.129341+00:00"
+  },
+  "cncf": {
+    "name": "MAAS",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.129342+00:00"
+  }
+}

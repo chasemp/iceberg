@@ -1,0 +1,19 @@
+{
+  "owner": "kubeslice",
+  "name": "kubeslice",
+  "full_name": "kubeslice/kubeslice",
+  "url": "https://github.com/kubeslice/kubeslice",
+  "description": "Multi-Cloud, Multi-Cluster Service Connectivity with Application Slices.",
+  "language": null,
+  "stars": 183,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.118774+00:00"
+  },
+  "cncf": {
+    "name": "KubeSlice",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.118775+00:00"
+  }
+}

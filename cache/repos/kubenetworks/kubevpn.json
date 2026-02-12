@@ -1,0 +1,19 @@
+{
+  "owner": "kubenetworks",
+  "name": "kubevpn",
+  "full_name": "kubenetworks/kubevpn",
+  "url": "https://github.com/kubenetworks/kubevpn",
+  "description": "KubeVPN offers a Cloud Native Dev Environment that connects to kubernetes cluster network. ",
+  "language": null,
+  "stars": 1289,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.120675+00:00"
+  },
+  "cncf": {
+    "name": "KubeVPN",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.120677+00:00"
+  }
+}

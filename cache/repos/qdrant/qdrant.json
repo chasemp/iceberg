@@ -1,0 +1,19 @@
+{
+  "owner": "qdrant",
+  "name": "qdrant",
+  "full_name": "qdrant/qdrant",
+  "url": "https://github.com/qdrant/qdrant",
+  "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/",
+  "language": null,
+  "stars": 28610,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.166374+00:00"
+  },
+  "cncf": {
+    "name": "Qdrant",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.166375+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "hbase",
+  "full_name": "apache/hbase",
+  "url": "https://github.com/apache/hbase",
+  "description": "Apache HBase",
+  "language": null,
+  "stars": 5581,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.904129+00:00"
+  },
+  "cncf": {
+    "name": "Apache HBase",
+    "category": "CNAI",
+    "subcategory": "Data Architecture",
+    "imported_at": "2026-02-11T23:30:14.904130+00:00"
+  }
+}

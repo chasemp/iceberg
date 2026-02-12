@@ -1,0 +1,19 @@
+{
+  "owner": "centreon",
+  "name": "centreon",
+  "full_name": "centreon/centreon",
+  "url": "https://github.com/centreon/centreon",
+  "description": "Centreon is a network, system and application monitoring tool. Centreon is the only AIOps Platform Providing Holistic Visibility to Complex IT Workflows from Cloud to Edge.",
+  "language": null,
+  "stars": 142,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.979638+00:00"
+  },
+  "cncf": {
+    "name": "Centreon",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:14.979640+00:00"
+  }
+}

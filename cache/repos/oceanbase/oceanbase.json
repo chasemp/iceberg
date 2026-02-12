@@ -1,0 +1,19 @@
+{
+  "owner": "oceanbase",
+  "name": "oceanbase",
+  "full_name": "oceanbase/oceanbase",
+  "url": "https://github.com/oceanbase/oceanbase",
+  "description": "The Fastest Distributed Database for Transactional, Analytical, and  AI Workloads.",
+  "language": null,
+  "stars": 9971,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.143304+00:00"
+  },
+  "cncf": {
+    "name": "OceanBase",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.143305+00:00"
+  }
+}

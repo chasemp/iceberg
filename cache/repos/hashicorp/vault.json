@@ -1,0 +1,19 @@
+{
+  "owner": "hashicorp",
+  "name": "vault",
+  "full_name": "hashicorp/vault",
+  "url": "https://github.com/hashicorp/vault",
+  "description": "A tool for secrets management, encryption as a service, and privileged access management",
+  "language": null,
+  "stars": 34971,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.206591+00:00"
+  },
+  "cncf": {
+    "name": "Vault",
+    "category": "Provisioning",
+    "subcategory": "Key Management",
+    "imported_at": "2026-02-11T23:30:15.206593+00:00"
+  }
+}

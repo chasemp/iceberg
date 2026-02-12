@@ -1,0 +1,19 @@
+{
+  "owner": "composefs",
+  "name": "composefs",
+  "full_name": "composefs/composefs",
+  "url": "https://github.com/composefs/composefs",
+  "description": "The reliability of disk images, the flexibility of files",
+  "language": null,
+  "stars": 614,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.991641+00:00"
+  },
+  "cncf": {
+    "name": "composefs",
+    "category": "Runtime",
+    "subcategory": "Container Runtime",
+    "imported_at": "2026-02-11T23:30:14.991643+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "openstack",
+  "name": "openstack",
+  "full_name": "openstack/openstack",
+  "url": "https://github.com/openstack/openstack",
+  "description": "Repository tracking all OpenStack repositories as submodules. Mirror of code maintained at opendev.org.",
+  "language": null,
+  "stars": 5825,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.151188+00:00"
+  },
+  "cncf": {
+    "name": "OpenStack",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.151189+00:00"
+  }
+}

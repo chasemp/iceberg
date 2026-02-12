@@ -1,0 +1,19 @@
+{
+  "owner": "pyodide",
+  "name": "pyodide",
+  "full_name": "pyodide/pyodide",
+  "url": "https://github.com/pyodide/pyodide",
+  "description": "Pyodide is a Python distribution for the browser and Node.js based on WebAssembly",
+  "language": null,
+  "stars": 14194,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.164926+00:00"
+  },
+  "cncf": {
+    "name": "Pyodide",
+    "category": "Wasm",
+    "subcategory": "Languages",
+    "imported_at": "2026-02-11T23:30:15.164927+00:00"
+  }
+}

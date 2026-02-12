@@ -1,0 +1,19 @@
+{
+  "owner": "k0rdent",
+  "name": "k0rdent",
+  "full_name": "k0rdent/k0rdent",
+  "url": "https://github.com/k0rdent/k0rdent",
+  "description": "Mirantis delivers the fastest path to enterprise AI at scale, with full-stack AI infrastructure technology that streamlines operations.",
+  "language": null,
+  "stars": 570,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.085558+00:00"
+  },
+  "cncf": {
+    "name": "k0rdent",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.085559+00:00"
+  }
+}

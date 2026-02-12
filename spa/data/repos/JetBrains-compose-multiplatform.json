@@ -9,11 +9,23 @@
     "version": "HEAD",
     "loc": 60705,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:44:41.622604+00:00",
+    "cached_at": "2026-02-11T15:39:25.050231+00:00",
+    "total_loc": 515947,
+    "ratio": 0.8947285364483258,
     "repo_url": "https://github.com/JetBrains/compose-multiplatform.git",
     "ref": "HEAD",
-    "commit_hash": "e86dee51956b5aa20525cfb365fc765264c43bf0",
-    "clone_duration_seconds": 2.238441228866577,
-    "count_duration_seconds": 0.16052007675170898
+    "commit_hash": "359a7fafd82145790457702b2a85373a9030804f",
+    "clone_duration_seconds": 5.06563138961792,
+    "count_duration_seconds": 0.2668769359588623,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

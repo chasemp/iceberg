@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 3541,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:42:15.131589+00:00",
+    "cached_at": "2026-02-11T15:36:07.745097+00:00",
     "repo_url": "https://github.com/android/architecture-samples.git",
     "ref": "HEAD",
     "commit_hash": "ee66e1526b84c026615df032c705842b7d2a521f",
-    "clone_duration_seconds": 0.8401749134063721,
-    "count_duration_seconds": 0.00847625732421875
+    "clone_duration_seconds": 1.235649824142456,
+    "count_duration_seconds": 0.014618158340454102,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

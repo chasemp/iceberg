@@ -1,0 +1,19 @@
+{
+  "owner": "NetEase-Media",
+  "name": "easy-ngo",
+  "full_name": "NetEase-Media/easy-ngo",
+  "url": "https://github.com/NetEase-Media/easy-ngo",
+  "description": "easy-ngo\u662f\u7531\u7f51\u6613\u4f20\u5a92\u5f00\u53d1\u7684\u57fa\u4e8eGo\u8bed\u8a00\u7684\u5f00\u53d1\u5de5\u5177\u5305\uff0c\u57fa\u4e8eeasy-ngo\u5de5\u5177\u5305\uff0c\u5f00\u53d1\u8005\u53ef\u4ee5\u5feb\u901f\u6784\u5efa\u9ad8\u53ef\u7528\u3001\u5927\u5e76\u53d1\u7684\u5e94\u7528\u3002",
+  "language": null,
+  "stars": 301,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.043652+00:00"
+  },
+  "cncf": {
+    "name": "Easy-Ngo",
+    "category": "Orchestration & Management",
+    "subcategory": "Remote Procedure Call",
+    "imported_at": "2026-02-11T23:30:15.043653+00:00"
+  }
+}

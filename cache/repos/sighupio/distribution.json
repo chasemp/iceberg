@@ -1,0 +1,19 @@
+{
+  "owner": "sighupio",
+  "name": "distribution",
+  "full_name": "sighupio/distribution",
+  "url": "https://github.com/sighupio/distribution",
+  "description": "SIGHUP Distribution (SD) - A battle-tested open-source Kubernetes distribution",
+  "language": null,
+  "stars": 199,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.179619+00:00"
+  },
+  "cncf": {
+    "name": "SIGHUP Distribution",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Distribution",
+    "imported_at": "2026-02-11T23:30:15.179620+00:00"
+  }
+}

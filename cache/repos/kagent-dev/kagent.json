@@ -1,0 +1,19 @@
+{
+  "owner": "kagent-dev",
+  "name": "kagent",
+  "full_name": "kagent-dev/kagent",
+  "url": "https://github.com/kagent-dev/kagent",
+  "description": "Cloud Native Agentic AI | Discord: https://bit.ly/kagentdiscord",
+  "language": null,
+  "stars": 2156,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.087854+00:00"
+  },
+  "cncf": {
+    "name": "kagent",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.087856+00:00"
+  }
+}

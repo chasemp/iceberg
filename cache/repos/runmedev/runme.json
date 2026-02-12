@@ -1,0 +1,19 @@
+{
+  "owner": "runmedev",
+  "name": "runme",
+  "full_name": "runmedev/runme",
+  "url": "https://github.com/runmedev/runme",
+  "description": "DevOps Notebooks Built with Markdown",
+  "language": null,
+  "stars": 1969,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.172029+00:00"
+  },
+  "cncf": {
+    "name": "Runme Notebooks",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.172030+00:00"
+  }
+}

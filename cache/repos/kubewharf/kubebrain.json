@@ -1,0 +1,19 @@
+{
+  "owner": "kubewharf",
+  "name": "kubebrain",
+  "full_name": "kubewharf/kubebrain",
+  "url": "https://github.com/kubewharf/kubebrain",
+  "description": "A High Performance Metadata System for Kubernetes",
+  "language": null,
+  "stars": 879,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.109447+00:00"
+  },
+  "cncf": {
+    "name": "KubeBrain",
+    "category": "Orchestration & Management",
+    "subcategory": "Coordination & Service Discovery",
+    "imported_at": "2026-02-11T23:30:15.109448+00:00"
+  }
+}

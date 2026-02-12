@@ -1,0 +1,19 @@
+{
+  "owner": "elastiflow",
+  "name": "mermin",
+  "full_name": "elastiflow/mermin",
+  "url": "https://github.com/elastiflow/mermin",
+  "description": "A Kubernetes-native network observability tool that uses eBPF to auto-instrument network traffic and export it as Flow Traces via OpenTelemetry, providing deep visibility into cluster communications.",
+  "language": null,
+  "stars": 26,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.131892+00:00"
+  },
+  "cncf": {
+    "name": "Mermin",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.131893+00:00"
+  }
+}

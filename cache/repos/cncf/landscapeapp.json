@@ -1,0 +1,19 @@
+{
+  "owner": "cncf",
+  "name": "landscapeapp",
+  "full_name": "cncf/landscapeapp",
+  "url": "https://github.com/cncf/landscapeapp",
+  "description": "\ud83c\udf04Upstream landscape generation application",
+  "language": null,
+  "stars": 257,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.986982+00:00"
+  },
+  "cncf": {
+    "name": "Cloud Native Landscape",
+    "category": "Serverless",
+    "subcategory": "Tools",
+    "imported_at": "2026-02-11T23:30:14.986983+00:00"
+  }
+}

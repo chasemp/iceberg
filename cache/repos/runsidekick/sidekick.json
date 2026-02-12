@@ -1,0 +1,19 @@
+{
+  "owner": "runsidekick",
+  "name": "sidekick",
+  "full_name": "runsidekick/sidekick",
+  "url": "https://github.com/runsidekick/sidekick",
+  "description": "Sidekick is no longer in service",
+  "language": null,
+  "stars": 1613,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.179262+00:00"
+  },
+  "cncf": {
+    "name": "Sidekick",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.179263+00:00"
+  }
+}

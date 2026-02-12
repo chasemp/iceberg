@@ -1,0 +1,19 @@
+{
+  "owner": "uselagoon",
+  "name": "lagoon",
+  "full_name": "uselagoon/lagoon",
+  "url": "https://github.com/uselagoon/lagoon",
+  "description": "Lagoon, the developer-focused application delivery platform",
+  "language": null,
+  "stars": 594,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.124271+00:00"
+  },
+  "cncf": {
+    "name": "Lagoon",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.124272+00:00"
+  }
+}

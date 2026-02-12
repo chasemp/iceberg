@@ -7,13 +7,23 @@
     "owner": "openssl",
     "repo": "openssl",
     "version": "HEAD",
-    "loc": 474389,
+    "loc": 474391,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:38:27.658029+00:00",
+    "cached_at": "2026-02-11T15:01:52.797716+00:00",
     "repo_url": "https://github.com/openssl/openssl.git",
     "ref": "HEAD",
-    "commit_hash": "69b0330a4574609a0b9f3adbef1d68b552b37a01",
-    "clone_duration_seconds": 3.036153793334961,
-    "count_duration_seconds": 0.28429102897644043
+    "commit_hash": "a7b0d678ab4272d8bd48910c8a28c727bb6d2510",
+    "clone_duration_seconds": 5.55888819694519,
+    "count_duration_seconds": 0.2887248992919922,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

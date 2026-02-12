@@ -1,0 +1,19 @@
+{
+  "owner": "devspace-sh",
+  "name": "devspace",
+  "full_name": "devspace-sh/devspace",
+  "url": "https://github.com/devspace-sh/devspace",
+  "description": "DevSpace - The Fastest Developer Tool for Kubernetes \u26a1 Automate your deployment workflow with DevSpace and develop software directly inside Kubernetes.",
+  "language": null,
+  "stars": 4899,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.039080+00:00"
+  },
+  "cncf": {
+    "name": "DevSpace",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.039081+00:00"
+  }
+}

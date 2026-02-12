@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 184131,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:26:10.009208+00:00",
+    "cached_at": "2026-02-11T00:29:12.054583+00:00",
     "repo_url": "https://github.com/scala/scala.git",
     "ref": "HEAD",
     "commit_hash": "aeda558645cec0d212fa569e1f356e8534699c32",
-    "clone_duration_seconds": 2.4273910522460938,
-    "count_duration_seconds": 0.3280482292175293
+    "clone_duration_seconds": 4.737622022628784,
+    "count_duration_seconds": 0.949397087097168,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

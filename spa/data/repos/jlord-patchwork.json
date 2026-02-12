@@ -9,15 +9,21 @@
     "version": "HEAD",
     "loc": 5,
     "source": "github_clone",
-    "cached_at": "2026-02-09T20:18:01.705201+00:00",
+    "cached_at": "2026-02-11T15:52:56.906494+00:00",
     "repo_url": "https://github.com/jlord/patchwork.git",
     "ref": "HEAD",
     "commit_hash": "7421236abab70728b92d1990cb0e15f6c175045f",
-    "clone_duration_seconds": 2.7442941665649414,
-    "count_duration_seconds": 0.06986379623413086,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-top-100-forks",
-    "tracked": false,
-    "maintenance_priority": "low"
+    "clone_duration_seconds": 10.082345962524414,
+    "count_duration_seconds": 0.17271137237548828,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

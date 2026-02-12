@@ -1,0 +1,19 @@
+{
+  "owner": "spinnaker",
+  "name": "spinnaker",
+  "full_name": "spinnaker/spinnaker",
+  "url": "https://github.com/spinnaker/spinnaker",
+  "description": "Spinnaker is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence.",
+  "language": null,
+  "stars": 9684,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.186858+00:00"
+  },
+  "cncf": {
+    "name": "Spinnaker",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.186859+00:00"
+  }
+}

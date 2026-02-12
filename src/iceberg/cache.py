@@ -233,7 +233,12 @@ def save_discovered_repos(
     repos: list[DiscoveredRepo],
     cache_dir: Path | None = None,
 ) -> None:
-    """Save discovered repos with source tracking.
+    """DEPRECATED: Save discovered repos with source tracking.
+
+    This function saves to the old cache/discovered/ structure.
+    Use save_repo_metadata() instead, which saves to cache/repos/.
+
+    Kept for backwards compatibility and manual inspection only.
 
     Args:
         repos: List of discovered repositories
@@ -279,7 +284,12 @@ def load_discovered_repos(
     identifier: str,
     cache_dir: Path | None = None,
 ) -> list[DiscoveredRepo] | None:
-    """Load discovered repos by source and identifier.
+    """DEPRECATED: Load discovered repos by source and identifier.
+
+    This function loads from the old cache/discovered/ structure.
+    Use list_all_repos() or get_repos_by_category() instead.
+
+    Kept for backwards compatibility and manual inspection only.
 
     Args:
         source: Source type (trending-monthly, search, github-ranking-python)

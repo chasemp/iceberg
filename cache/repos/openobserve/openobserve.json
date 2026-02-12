@@ -1,0 +1,19 @@
+{
+  "owner": "openobserve",
+  "name": "openobserve",
+  "full_name": "openobserve/openobserve",
+  "url": "https://github.com/openobserve/openobserve",
+  "description": "OpenObserve is an open-source observability platform for logs, metrics, traces, and frontend monitoring. A cost-effective alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment.",
+  "language": null,
+  "stars": 17849,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.150187+00:00"
+  },
+  "cncf": {
+    "name": "OpenObserve",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.150188+00:00"
+  }
+}

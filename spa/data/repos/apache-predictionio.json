@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 23941,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:26:36.252183+00:00",
+    "cached_at": "2026-02-11T00:29:59.887175+00:00",
     "repo_url": "https://github.com/apache/predictionio.git",
     "ref": "HEAD",
     "commit_hash": "d9628ca2f148b45a51bf4cea68699a72f25cb383",
-    "clone_duration_seconds": 1.3569872379302979,
-    "count_duration_seconds": 0.04830741882324219
+    "clone_duration_seconds": 2.342087984085083,
+    "count_duration_seconds": 0.07680225372314453,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "owner": "kubeshop",
+  "name": "testkube",
+  "full_name": "kubeshop/testkube",
+  "url": "https://github.com/kubeshop/testkube",
+  "description": "\u2638\ufe0f Kubernetes-native Continuous Testing Platform for Cloud-Native Applications",
+  "language": null,
+  "stars": 1555,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.197987+00:00"
+  },
+  "cncf": {
+    "name": "Testkube",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.197988+00:00"
+  }
+}

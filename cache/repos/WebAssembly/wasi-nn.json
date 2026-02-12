@@ -1,0 +1,19 @@
+{
+  "owner": "WebAssembly",
+  "name": "wasi-nn",
+  "full_name": "WebAssembly/wasi-nn",
+  "url": "https://github.com/WebAssembly/wasi-nn",
+  "description": "Neural Network proposal for WASI",
+  "language": null,
+  "stars": 532,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.210349+00:00"
+  },
+  "cncf": {
+    "name": "WASI NN for TensorFlow Lite",
+    "category": "Wasm",
+    "subcategory": "AI/Machine Learning",
+    "imported_at": "2026-02-11T23:30:15.210802+00:00"
+  }
+}

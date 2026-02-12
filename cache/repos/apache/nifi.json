@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "nifi",
+  "full_name": "apache/nifi",
+  "url": "https://github.com/apache/nifi",
+  "description": "Apache NiFi",
+  "language": null,
+  "stars": 5945,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.904731+00:00"
+  },
+  "cncf": {
+    "name": "Apache NiFi",
+    "category": "App Definition and Development",
+    "subcategory": "Streaming & Messaging",
+    "imported_at": "2026-02-11T23:30:14.904733+00:00"
+  }
+}

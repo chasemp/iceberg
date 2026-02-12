@@ -9,15 +9,21 @@
     "version": "HEAD",
     "loc": 6184,
     "source": "github_clone",
-    "cached_at": "2026-02-05T22:26:26.434920+00:00",
+    "cached_at": "2026-02-10T23:31:54.188576+00:00",
     "repo_url": "https://github.com/ohmyzsh/ohmyzsh.git",
     "ref": "HEAD",
-    "commit_hash": "9df4ea095fe27ccd0ee95f2d34bab884c4a75585",
-    "clone_duration_seconds": 1.410402774810791,
-    "count_duration_seconds": 0.02645707130432129,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-top-100-stars",
-    "tracked": false,
-    "maintenance_priority": "medium"
+    "commit_hash": "41c5b9677afaf239268197546cfc8e003a073c97",
+    "clone_duration_seconds": 1.548900842666626,
+    "count_duration_seconds": 0.05236315727233887,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "owner": "FairwindsOps",
+  "name": "goldilocks",
+  "full_name": "FairwindsOps/goldilocks",
+  "url": "https://github.com/FairwindsOps/goldilocks",
+  "description": "Get your resource requests \"Just Right\"",
+  "language": null,
+  "stars": 3127,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.061154+00:00"
+  },
+  "cncf": {
+    "name": "Goldilocks",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.061156+00:00"
+  }
+}

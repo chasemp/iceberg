@@ -9,7 +9,7 @@
     "version": "HEAD",
     "loc": 14756,
     "source": "github_clone",
-    "cached_at": "2026-02-09T20:20:48.146951+00:00",
+    "cached_at": "2026-02-11T15:57:08.763690+00:00",
     "package": {
       "system": "npm",
       "name": "moontv",
@@ -20,11 +20,17 @@
     "repo_url": "https://github.com/samqin123/MoonTV.git",
     "ref": "HEAD",
     "commit_hash": "c0bba763d16fb5cd830a808d58329025337491cf",
-    "clone_duration_seconds": 2.447758197784424,
-    "count_duration_seconds": 0.01306915283203125,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-top-100-forks",
-    "tracked": false,
-    "maintenance_priority": "low"
+    "clone_duration_seconds": 2.602181911468506,
+    "count_duration_seconds": 0.05120086669921875,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

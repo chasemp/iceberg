@@ -1,0 +1,19 @@
+{
+  "owner": "kyma-project",
+  "name": "kyma",
+  "full_name": "kyma-project/kyma",
+  "url": "https://github.com/kyma-project/kyma",
+  "description": "Kyma is an opinionated set of Kubernetes-based modular building blocks, including all necessary capabilities to develop and run enterprise-grade cloud-native applications.",
+  "language": null,
+  "stars": 1537,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.123568+00:00"
+  },
+  "cncf": {
+    "name": "Kyma",
+    "category": "Platform",
+    "subcategory": "PaaS/Container Service",
+    "imported_at": "2026-02-11T23:30:15.123569+00:00"
+  }
+}

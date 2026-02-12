@@ -1,0 +1,19 @@
+{
+  "owner": "bytecodealliance",
+  "name": "registry",
+  "full_name": "bytecodealliance/registry",
+  "url": "https://github.com/bytecodealliance/registry",
+  "description": "WebAssembly Registry (Warg)",
+  "language": null,
+  "stars": 213,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.210191+00:00"
+  },
+  "cncf": {
+    "name": "warg",
+    "category": "Wasm",
+    "subcategory": "Packaging, Registries & Application Delivery",
+    "imported_at": "2026-02-11T23:30:15.210192+00:00"
+  }
+}

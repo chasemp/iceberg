@@ -1,0 +1,19 @@
+{
+  "owner": "kubernetes-sigs",
+  "name": "scheduler-plugins",
+  "full_name": "kubernetes-sigs/scheduler-plugins",
+  "url": "https://github.com/kubernetes-sigs/scheduler-plugins",
+  "description": "Repository for out-of-tree scheduler plugins based on scheduler framework.",
+  "language": null,
+  "stars": 1269,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.107797+00:00"
+  },
+  "cncf": {
+    "name": "Kube-scheduler",
+    "category": "Wasm",
+    "subcategory": "Embedded Functions",
+    "imported_at": "2026-02-11T23:30:15.107798+00:00"
+  }
+}

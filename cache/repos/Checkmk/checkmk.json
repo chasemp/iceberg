@@ -1,0 +1,19 @@
+{
+  "owner": "Checkmk",
+  "name": "checkmk",
+  "full_name": "Checkmk/checkmk",
+  "url": "https://github.com/Checkmk/checkmk",
+  "description": "Checkmk - Best-in-class infrastructure & application monitoring",
+  "language": null,
+  "stars": 2171,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.983111+00:00"
+  },
+  "cncf": {
+    "name": "Checkmk",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:14.983112+00:00"
+  }
+}

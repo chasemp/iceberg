@@ -1,0 +1,19 @@
+{
+  "owner": "crossplane",
+  "name": "crossplane",
+  "full_name": "crossplane/crossplane",
+  "url": "https://github.com/crossplane/crossplane",
+  "description": "The Cloud Native Control Plane",
+  "language": null,
+  "stars": 11372,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.034194+00:00"
+  },
+  "cncf": {
+    "name": "Crossplane",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.034195+00:00"
+  }
+}

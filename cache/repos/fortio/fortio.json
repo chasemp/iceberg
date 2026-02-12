@@ -1,0 +1,19 @@
+{
+  "owner": "fortio",
+  "name": "fortio",
+  "full_name": "fortio/fortio",
+  "url": "https://github.com/fortio/fortio",
+  "description": "Fortio load testing library, command line tool, advanced echo server and web UI in go (golang). Allows to specify a set query-per-second load and record latency histograms and other useful stats.",
+  "language": null,
+  "stars": 3673,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.055221+00:00"
+  },
+  "cncf": {
+    "name": "Fortio",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.055222+00:00"
+  }
+}

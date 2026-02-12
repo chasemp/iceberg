@@ -1,0 +1,19 @@
+{
+  "owner": "clusterpedia-io",
+  "name": "clusterpedia",
+  "full_name": "clusterpedia-io/clusterpedia",
+  "url": "https://github.com/clusterpedia-io/clusterpedia",
+  "description": "The Encyclopedia of Kubernetes clusters",
+  "language": null,
+  "stars": 857,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.989823+00:00"
+  },
+  "cncf": {
+    "name": "Clusterpedia",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:14.989825+00:00"
+  }
+}

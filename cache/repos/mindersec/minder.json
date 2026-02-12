@@ -1,0 +1,19 @@
+{
+  "owner": "mindersec",
+  "name": "minder",
+  "full_name": "mindersec/minder",
+  "url": "https://github.com/mindersec/minder",
+  "description": "Software Supply Chain Security Platform",
+  "language": null,
+  "stars": 373,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.188654+00:00"
+  },
+  "cncf": {
+    "name": "Stacklock Minder",
+    "category": "CNAI",
+    "subcategory": "Governance, Policy & Security",
+    "imported_at": "2026-02-11T23:30:15.188655+00:00"
+  }
+}

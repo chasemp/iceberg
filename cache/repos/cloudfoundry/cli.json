@@ -1,0 +1,19 @@
+{
+  "owner": "cloudfoundry",
+  "name": "cli",
+  "full_name": "cloudfoundry/cli",
+  "url": "https://github.com/cloudfoundry/cli",
+  "description": "The official command line client for Cloud Foundry",
+  "language": null,
+  "stars": 1897,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.986767+00:00"
+  },
+  "cncf": {
+    "name": "Cloud Foundry Application Runtime",
+    "category": "Platform",
+    "subcategory": "PaaS/Container Service",
+    "imported_at": "2026-02-11T23:30:14.986768+00:00"
+  }
+}

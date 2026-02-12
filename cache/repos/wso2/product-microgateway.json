@@ -1,0 +1,19 @@
+{
+  "owner": "wso2",
+  "name": "product-microgateway",
+  "full_name": "wso2/product-microgateway",
+  "url": "https://github.com/wso2/product-microgateway",
+  "description": "Choreo Connect is a cloud-native, open-source, and developer-centric API gateway.",
+  "language": null,
+  "stars": 307,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.215856+00:00"
+  },
+  "cncf": {
+    "name": "WSO2 API Microgateway",
+    "category": "Orchestration & Management",
+    "subcategory": "API Gateway",
+    "imported_at": "2026-02-11T23:30:15.215857+00:00"
+  }
+}

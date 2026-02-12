@@ -1,0 +1,19 @@
+{
+  "owner": "dominant-strategies",
+  "name": "go-quai",
+  "full_name": "dominant-strategies/go-quai",
+  "url": "https://github.com/dominant-strategies/go-quai",
+  "description": "Official Go Implementation of the Quai Network",
+  "language": null,
+  "stars": 2401,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.166687+00:00"
+  },
+  "cncf": {
+    "name": "Quai Network",
+    "category": "Wasm",
+    "subcategory": "Decentralized Platforms",
+    "imported_at": "2026-02-11T23:30:15.166689+00:00"
+  }
+}

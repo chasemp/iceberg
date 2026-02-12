@@ -1,0 +1,19 @@
+{
+  "owner": "elastic",
+  "name": "beats",
+  "full_name": "elastic/beats",
+  "url": "https://github.com/elastic/beats",
+  "description": ":tropical_fish: Beats - Lightweight shippers for Elasticsearch & Logstash",
+  "language": null,
+  "stars": 12581,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.930232+00:00"
+  },
+  "cncf": {
+    "name": "Beats",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:14.930234+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "extism",
+  "name": "extism",
+  "full_name": "extism/extism",
+  "url": "https://github.com/extism/extism",
+  "description": "The framework for building with WebAssembly (wasm). Easily & securely load wasm modules, move data, call functions, and build extensible apps.",
+  "language": null,
+  "stars": 5411,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.049345+00:00"
+  },
+  "cncf": {
+    "name": "Extism",
+    "category": "Wasm",
+    "subcategory": "Application Frameworks",
+    "imported_at": "2026-02-11T23:30:15.049346+00:00"
+  }
+}

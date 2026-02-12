@@ -1,0 +1,19 @@
+{
+  "owner": "kubeflow",
+  "name": "katib",
+  "full_name": "kubeflow/katib",
+  "url": "https://github.com/kubeflow/katib",
+  "description": "Automated Machine Learning on Kubernetes",
+  "language": null,
+  "stars": 1657,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.112364+00:00"
+  },
+  "cncf": {
+    "name": "Kubeflow Katib",
+    "category": "CNAI",
+    "subcategory": "AutoML",
+    "imported_at": "2026-02-11T23:30:15.112365+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "vmware-tanzu",
+  "name": "velero",
+  "full_name": "vmware-tanzu/velero",
+  "url": "https://github.com/vmware-tanzu/velero",
+  "description": "Backup and migrate Kubernetes applications and their persistent volumes",
+  "language": null,
+  "stars": 9787,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.207302+00:00"
+  },
+  "cncf": {
+    "name": "Velero",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "imported_at": "2026-02-11T23:30:15.207303+00:00"
+  }
+}

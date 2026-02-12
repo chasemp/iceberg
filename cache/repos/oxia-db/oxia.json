@@ -1,0 +1,19 @@
+{
+  "owner": "oxia-db",
+  "name": "oxia",
+  "full_name": "oxia-db/oxia",
+  "url": "https://github.com/oxia-db/oxia",
+  "description": "Oxia - Metadata store and coordination system",
+  "language": null,
+  "stars": 298,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.153789+00:00"
+  },
+  "cncf": {
+    "name": "Oxia",
+    "category": "Orchestration & Management",
+    "subcategory": "Coordination & Service Discovery",
+    "imported_at": "2026-02-11T23:30:15.153790+00:00"
+  }
+}

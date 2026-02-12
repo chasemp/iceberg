@@ -1,0 +1,34 @@
+{
+  "owner": "wavetermdev",
+  "repo": "waveterm",
+  "full_name": "wavetermdev/waveterm",
+  "url": "https://github.com/wavetermdev/waveterm",
+  "analysis": {
+    "owner": "wavetermdev",
+    "repo": "waveterm",
+    "version": "HEAD",
+    "loc": 114265,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:02:12.379120+00:00",
+    "package": {
+      "system": "npm",
+      "name": "waveterm",
+      "version": "0.13.2-alpha.1"
+    },
+    "repo_url": "https://github.com/wavetermdev/waveterm.git",
+    "ref": "HEAD",
+    "commit_hash": "8abe3f009b044a0d1760526163e1303609a1ebfc",
+    "clone_duration_seconds": 2.387892007827759,
+    "count_duration_seconds": 0.08463597297668457,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

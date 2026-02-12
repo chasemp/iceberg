@@ -1,0 +1,19 @@
+{
+  "owner": "rundeck",
+  "name": "rundeck",
+  "full_name": "rundeck/rundeck",
+  "url": "https://github.com/rundeck/rundeck",
+  "description": "Enable Self-Service Operations: Give specific users access to your existing tools, services, and scripts",
+  "language": null,
+  "stars": 6014,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.171843+00:00"
+  },
+  "cncf": {
+    "name": "Rundeck",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.171844+00:00"
+  }
+}

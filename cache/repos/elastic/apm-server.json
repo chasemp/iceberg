@@ -1,0 +1,19 @@
+{
+  "owner": "elastic",
+  "name": "apm-server",
+  "full_name": "elastic/apm-server",
+  "url": "https://github.com/elastic/apm-server",
+  "description": "Elastic builds software to make data usable in real time and at scale for search, logging, security, and analytics use cases.",
+  "language": null,
+  "stars": 1271,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.045544+00:00"
+  },
+  "cncf": {
+    "name": "Elastic APM",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.045545+00:00"
+  }
+}

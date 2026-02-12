@@ -1,0 +1,19 @@
+{
+  "owner": "Permify",
+  "name": "permify",
+  "full_name": "Permify/permify",
+  "url": "https://github.com/Permify/permify",
+  "description": "An open-source authorization as a service inspired by Google Zanzibar, designed to build and manage fine-grained and scalable authorization systems for any application. \u2014 Permify is now part of FusionAuth \ud83c\udf89",
+  "language": null,
+  "stars": 5791,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.155422+00:00"
+  },
+  "cncf": {
+    "name": "Permify",
+    "category": "CNAI",
+    "subcategory": "Governance, Policy & Security",
+    "imported_at": "2026-02-11T23:30:15.155938+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "luraproject",
+  "name": "lura",
+  "full_name": "luraproject/lura",
+  "url": "https://github.com/luraproject/lura",
+  "description": "Ultra performant API Gateway with middlewares. A project hosted at The Linux Foundation",
+  "language": null,
+  "stars": 6730,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.099682+00:00"
+  },
+  "cncf": {
+    "name": "KrakenD",
+    "category": "Orchestration & Management",
+    "subcategory": "API Gateway",
+    "imported_at": "2026-02-11T23:30:15.099684+00:00"
+  }
+}

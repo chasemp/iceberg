@@ -1,0 +1,19 @@
+{
+  "owner": "alibaba",
+  "name": "kubeskoop",
+  "full_name": "alibaba/kubeskoop",
+  "url": "https://github.com/alibaba/kubeskoop",
+  "description": "Network monitoring & diagnosis suite for Kubernetes",
+  "language": null,
+  "stars": 674,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.118459+00:00"
+  },
+  "cncf": {
+    "name": "KubeSkoop",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.118460+00:00"
+  }
+}

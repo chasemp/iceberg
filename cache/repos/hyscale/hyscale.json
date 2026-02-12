@@ -1,0 +1,19 @@
+{
+  "owner": "hyscale",
+  "name": "hyscale",
+  "full_name": "hyscale/hyscale",
+  "url": "https://github.com/hyscale/hyscale",
+  "description": "HyScale is an Application Centric Abstraction Framework over K8s.",
+  "language": null,
+  "stars": 447,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.078152+00:00"
+  },
+  "cncf": {
+    "name": "HyScale",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.078153+00:00"
+  }
+}

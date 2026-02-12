@@ -1,0 +1,19 @@
+{
+  "owner": "bfenetworks",
+  "name": "bfe",
+  "full_name": "bfenetworks/bfe",
+  "url": "https://github.com/bfenetworks/bfe",
+  "description": "A modern layer 7 load balancer from baidu",
+  "language": null,
+  "stars": 6233,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.947973+00:00"
+  },
+  "cncf": {
+    "name": "BFE",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Proxy",
+    "imported_at": "2026-02-11T23:30:14.947974+00:00"
+  }
+}

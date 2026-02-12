@@ -1,0 +1,19 @@
+{
+  "owner": "EnterpriseDB",
+  "name": "cloudnative-pg",
+  "full_name": "EnterpriseDB/cloudnative-pg",
+  "url": "https://github.com/EnterpriseDB/cloudnative-pg",
+  "description": "CloudNativePG is a Kubernetes operator that covers the full lifecycle of a PostgreSQL database cluster with a primary/standby architecture, using native streaming replication",
+  "language": null,
+  "stars": 23,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.044388+00:00"
+  },
+  "cncf": {
+    "name": "EDB",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.044389+00:00"
+  }
+}

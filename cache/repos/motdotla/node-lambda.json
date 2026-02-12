@@ -1,0 +1,19 @@
+{
+  "owner": "motdotla",
+  "name": "node-lambda",
+  "full_name": "motdotla/node-lambda",
+  "url": "https://github.com/motdotla/node-lambda",
+  "description": "Command line tool to locally run and deploy your node.js application to Amazon Lambda",
+  "language": null,
+  "stars": 1357,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.141766+00:00"
+  },
+  "cncf": {
+    "name": "Node Lambda",
+    "category": "Serverless",
+    "subcategory": "Tools",
+    "imported_at": "2026-02-11T23:30:15.141767+00:00"
+  }
+}

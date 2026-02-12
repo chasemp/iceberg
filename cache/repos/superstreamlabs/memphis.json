@@ -1,0 +1,19 @@
+{
+  "owner": "superstreamlabs",
+  "name": "memphis",
+  "full_name": "superstreamlabs/memphis",
+  "url": "https://github.com/superstreamlabs/memphis",
+  "description": "Memphis.dev is a highly scalable and effortless data streaming platform",
+  "language": null,
+  "stars": 3428,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.131462+00:00"
+  },
+  "cncf": {
+    "name": "Memphis",
+    "category": "App Definition and Development",
+    "subcategory": "Streaming & Messaging",
+    "imported_at": "2026-02-11T23:30:15.131463+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "kubermatic",
+  "name": "kubermatic",
+  "full_name": "kubermatic/kubermatic",
+  "url": "https://github.com/kubermatic/kubermatic",
+  "description": "Kubermatic Kubernetes Platform - the Central Kubernetes Management Platform For Any Infrastructure ",
+  "language": null,
+  "stars": 1253,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.116421+00:00"
+  },
+  "cncf": {
+    "name": "Kubermatic Kubernetes Platform",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Distribution",
+    "imported_at": "2026-02-11T23:30:15.116423+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "opentofu",
+  "name": "opentofu",
+  "full_name": "opentofu/opentofu",
+  "url": "https://github.com/opentofu/opentofu",
+  "description": "OpenTofu lets you declaratively manage your cloud infrastructure.",
+  "language": null,
+  "stars": 27748,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.151508+00:00"
+  },
+  "cncf": {
+    "name": "OpenTofu",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.151508+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "containerd",
+  "name": "containerd",
+  "full_name": "containerd/containerd",
+  "url": "https://github.com/containerd/containerd",
+  "description": "An open and reliable container runtime",
+  "language": null,
+  "stars": 20205,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.994703+00:00"
+  },
+  "cncf": {
+    "name": "containerd (Wasm)",
+    "category": "Wasm",
+    "subcategory": "Orchestration & Management",
+    "imported_at": "2026-02-11T23:30:14.995034+00:00"
+  }
+}

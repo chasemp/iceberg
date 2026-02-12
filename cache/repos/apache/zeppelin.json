@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "zeppelin",
+  "full_name": "apache/zeppelin",
+  "url": "https://github.com/apache/zeppelin",
+  "description": "Web-based notebook that enables data-driven, interactive data analytics and collaborative documents with SQL, Scala and more.",
+  "language": null,
+  "stars": 6606,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.909018+00:00"
+  },
+  "cncf": {
+    "name": "Apache Zeppelin",
+    "category": "CNAI",
+    "subcategory": "Data Science",
+    "imported_at": "2026-02-11T23:30:14.909019+00:00"
+  }
+}

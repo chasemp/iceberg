@@ -1,0 +1,19 @@
+{
+  "owner": "vllm-project",
+  "name": "aibrix",
+  "full_name": "vllm-project/aibrix",
+  "url": "https://github.com/vllm-project/aibrix",
+  "description": "Cost-efficient and pluggable Infrastructure components for GenAI inference",
+  "language": null,
+  "stars": 4611,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.897612+00:00"
+  },
+  "cncf": {
+    "name": "AIBrix",
+    "category": "CNAI",
+    "subcategory": "ML Serving",
+    "imported_at": "2026-02-11T23:30:14.897614+00:00"
+  }
+}

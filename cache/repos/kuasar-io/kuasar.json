@@ -1,0 +1,19 @@
+{
+  "owner": "kuasar-io",
+  "name": "kuasar",
+  "full_name": "kuasar-io/kuasar",
+  "url": "https://github.com/kuasar-io/kuasar",
+  "description": "A multi-sandbox container runtime that provides cloud-native, all-scenario multiple sandbox container solutions.",
+  "language": null,
+  "stars": 1386,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.105660+00:00"
+  },
+  "cncf": {
+    "name": "Kuasar (Wasm)",
+    "category": "Wasm",
+    "subcategory": "Orchestration & Management",
+    "imported_at": "2026-02-11T23:30:15.105923+00:00"
+  }
+}

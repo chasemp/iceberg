@@ -7,13 +7,23 @@
     "owner": "dotnet",
     "repo": "roslyn",
     "version": "HEAD",
-    "loc": 4582998,
+    "loc": 4583280,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:17:49.624485+00:00",
+    "cached_at": "2026-02-11T00:27:02.421165+00:00",
     "repo_url": "https://github.com/dotnet/roslyn.git",
     "ref": "HEAD",
-    "commit_hash": "0437444d32e2b799d5755b54890f870c820d7c61",
-    "clone_duration_seconds": 21.511117696762085,
-    "count_duration_seconds": 2.4988369941711426
+    "commit_hash": "8b5b9d2182e135a999e353d7a6d80f56a9054929",
+    "clone_duration_seconds": 23.87344789505005,
+    "count_duration_seconds": 6.339073896408081,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

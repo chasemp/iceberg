@@ -1,0 +1,19 @@
+{
+  "owner": "stashed",
+  "name": "stash",
+  "full_name": "stashed/stash",
+  "url": "https://github.com/stashed/stash",
+  "description": "\ud83d\udec5 Backup your Kubernetes Stateful Applications",
+  "language": null,
+  "stars": 1404,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.189796+00:00"
+  },
+  "cncf": {
+    "name": "Stash by AppsCode",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "imported_at": "2026-02-11T23:30:15.189798+00:00"
+  }
+}

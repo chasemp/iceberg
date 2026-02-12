@@ -1,0 +1,19 @@
+{
+  "owner": "chaitin",
+  "name": "veinmind-tools",
+  "full_name": "chaitin/veinmind-tools",
+  "url": "https://github.com/chaitin/veinmind-tools",
+  "description": "veinmind-tools \u662f\u7531\u957f\u4ead\u79d1\u6280\u81ea\u7814\uff0c\u57fa\u4e8e veinmind-sdk \u6253\u9020\u7684\u5bb9\u5668\u5b89\u5168\u5de5\u5177\u96c6",
+  "language": null,
+  "stars": 1645,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.207131+00:00"
+  },
+  "cncf": {
+    "name": "Veinmind Tools",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.207132+00:00"
+  }
+}

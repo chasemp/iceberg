@@ -1,0 +1,19 @@
+{
+  "owner": "lxc",
+  "name": "incus",
+  "full_name": "lxc/incus",
+  "url": "https://github.com/lxc/incus",
+  "description": "Powerful system container and virtual machine manager ",
+  "language": null,
+  "stars": 4786,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.128972+00:00"
+  },
+  "cncf": {
+    "name": "lxd",
+    "category": "Runtime",
+    "subcategory": "Container Runtime",
+    "imported_at": "2026-02-11T23:30:15.128973+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "kubedl-io",
+  "name": "kubedl",
+  "full_name": "kubedl-io/kubedl",
+  "url": "https://github.com/kubedl-io/kubedl",
+  "description": "Run your deep learning workloads on Kubernetes more easily and efficiently.",
+  "language": null,
+  "stars": 532,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.110533+00:00"
+  },
+  "cncf": {
+    "name": "KubeDL",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.110534+00:00"
+  }
+}

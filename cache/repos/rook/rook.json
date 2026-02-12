@@ -1,0 +1,19 @@
+{
+  "owner": "rook",
+  "name": "rook",
+  "full_name": "rook/rook",
+  "url": "https://github.com/rook/rook",
+  "description": "Storage Orchestration for Kubernetes",
+  "language": null,
+  "stars": 13365,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.171225+00:00"
+  },
+  "cncf": {
+    "name": "Rook",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "imported_at": "2026-02-11T23:30:15.171226+00:00"
+  }
+}

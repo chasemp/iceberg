@@ -1,0 +1,19 @@
+{
+  "owner": "krkn-chaos",
+  "name": "krkn",
+  "full_name": "krkn-chaos/krkn",
+  "url": "https://github.com/krkn-chaos/krkn",
+  "description": "Chaos and resiliency testing tool for Kubernetes with a focus on improving performance under failure conditions. A CNCF sandbox project.",
+  "language": null,
+  "stars": 411,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.103968+00:00"
+  },
+  "cncf": {
+    "name": "Krkn",
+    "category": "Observability and Analysis",
+    "subcategory": "Chaos Engineering",
+    "imported_at": "2026-02-11T23:30:15.103969+00:00"
+  }
+}

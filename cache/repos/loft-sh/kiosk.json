@@ -1,0 +1,19 @@
+{
+  "owner": "loft-sh",
+  "name": "kiosk",
+  "full_name": "loft-sh/kiosk",
+  "url": "https://github.com/loft-sh/kiosk",
+  "description": "kiosk \ud83c\udfe2 Multi-Tenancy Extension For Kubernetes - Secure Cluster Sharing & Self-Service Namespace Provisioning",
+  "language": null,
+  "stars": 1073,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.094852+00:00"
+  },
+  "cncf": {
+    "name": "kiosk",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.094853+00:00"
+  }
+}

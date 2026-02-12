@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "tvm",
+  "full_name": "apache/tvm",
+  "url": "https://github.com/apache/tvm",
+  "description": "Open Machine Learning Compiler Framework",
+  "language": null,
+  "stars": 13101,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.908721+00:00"
+  },
+  "cncf": {
+    "name": "Apache TVM",
+    "category": "Wasm",
+    "subcategory": "AI/Machine Learning",
+    "imported_at": "2026-02-11T23:30:14.908722+00:00"
+  }
+}

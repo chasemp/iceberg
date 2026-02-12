@@ -1,0 +1,19 @@
+{
+  "owner": "hwameistor",
+  "name": "hwameistor",
+  "full_name": "hwameistor/hwameistor",
+  "url": "https://github.com/hwameistor/hwameistor",
+  "description": "Hwameistor is an HA local storage system for cloud-native stateful workloads. ",
+  "language": null,
+  "stars": 640,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.075900+00:00"
+  },
+  "cncf": {
+    "name": "HwameiStor",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "imported_at": "2026-02-11T23:30:15.075901+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "alibaba",
+  "name": "nacos",
+  "full_name": "alibaba/nacos",
+  "url": "https://github.com/alibaba/nacos",
+  "description": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.",
+  "language": null,
+  "stars": 32611,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.137862+00:00"
+  },
+  "cncf": {
+    "name": "Nacos",
+    "category": "Orchestration & Management",
+    "subcategory": "Coordination & Service Discovery",
+    "imported_at": "2026-02-11T23:30:15.137863+00:00"
+  }
+}

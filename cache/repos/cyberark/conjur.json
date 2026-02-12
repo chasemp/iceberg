@@ -1,0 +1,19 @@
+{
+  "owner": "cyberark",
+  "name": "conjur",
+  "full_name": "cyberark/conjur",
+  "url": "https://github.com/cyberark/conjur",
+  "description": "CyberArk Conjur automatically secures secrets used by privileged users and machine identities",
+  "language": null,
+  "stars": 909,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.035323+00:00"
+  },
+  "cncf": {
+    "name": "CyberArk Conjur",
+    "category": "Provisioning",
+    "subcategory": "Key Management",
+    "imported_at": "2026-02-11T23:30:15.035324+00:00"
+  }
+}

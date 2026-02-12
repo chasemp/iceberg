@@ -1,0 +1,19 @@
+{
+  "owner": "gardener",
+  "name": "gardener",
+  "full_name": "gardener/gardener",
+  "url": "https://github.com/gardener/gardener",
+  "description": "Homogeneous Kubernetes clusters at scale on any infrastructure using hosted control planes.",
+  "language": null,
+  "stars": 3324,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.056154+00:00"
+  },
+  "cncf": {
+    "name": "Gardener",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Installer",
+    "imported_at": "2026-02-11T23:30:15.056156+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "cilium",
+  "name": "tetragon",
+  "full_name": "cilium/tetragon",
+  "url": "https://github.com/cilium/tetragon",
+  "description": "eBPF-based Security Observability and Runtime Enforcement",
+  "language": null,
+  "stars": 4398,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.198145+00:00"
+  },
+  "cncf": {
+    "name": "Tetragon",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.198146+00:00"
+  }
+}

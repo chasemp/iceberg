@@ -1,0 +1,19 @@
+{
+  "owner": "hyperopt",
+  "name": "hyperopt",
+  "full_name": "hyperopt/hyperopt",
+  "url": "https://github.com/hyperopt/hyperopt",
+  "description": "Distributed Asynchronous Hyperparameter Optimization in Python",
+  "language": null,
+  "stars": 7616,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.076403+00:00"
+  },
+  "cncf": {
+    "name": "Hyperopt",
+    "category": "CNAI",
+    "subcategory": "AutoML",
+    "imported_at": "2026-02-11T23:30:15.076404+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "kapetacom",
+  "name": "kapeta",
+  "full_name": "kapetacom/kapeta",
+  "url": "https://github.com/kapetacom/kapeta",
+  "description": "Main entry repository - the gateway to everything else",
+  "language": null,
+  "stars": 2,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.090047+00:00"
+  },
+  "cncf": {
+    "name": "Kapeta",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.090048+00:00"
+  }
+}

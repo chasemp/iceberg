@@ -7,13 +7,23 @@
     "owner": "scala",
     "repo": "scala3",
     "version": "HEAD",
-    "loc": 245507,
+    "loc": 245544,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:28:13.086216+00:00",
+    "cached_at": "2026-02-11T00:31:56.257361+00:00",
     "repo_url": "https://github.com/scala/scala3.git",
     "ref": "HEAD",
-    "commit_hash": "f9a3b901eef39bd1e13eb3c19dd121b9614c2826",
-    "clone_duration_seconds": 3.317354917526245,
-    "count_duration_seconds": 0.5591428279876709
+    "commit_hash": "dd4d59d5c73173be4e1e3afeab0825cd0379bcff",
+    "clone_duration_seconds": 6.647632837295532,
+    "count_duration_seconds": 1.2950098514556885,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

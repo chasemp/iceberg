@@ -1,0 +1,19 @@
+{
+  "owner": "konstructio",
+  "name": "kubefirst",
+  "full_name": "konstructio/kubefirst",
+  "url": "https://github.com/konstructio/kubefirst",
+  "description": "The Kubefirst Open Source Platform",
+  "language": null,
+  "stars": 2028,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.111713+00:00"
+  },
+  "cncf": {
+    "name": "Kubefirst",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.111714+00:00"
+  }
+}

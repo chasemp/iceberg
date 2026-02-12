@@ -1,0 +1,19 @@
+{
+  "owner": "concourse",
+  "name": "concourse",
+  "full_name": "concourse/concourse",
+  "url": "https://github.com/concourse/concourse",
+  "description": "Concourse is a container-based automation system written in Go. It's mostly used for CI/CD.",
+  "language": null,
+  "stars": 7731,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.991948+00:00"
+  },
+  "cncf": {
+    "name": "Concourse",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:14.991949+00:00"
+  }
+}

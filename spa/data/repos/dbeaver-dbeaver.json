@@ -7,9 +7,9 @@
     "owner": "dbeaver",
     "repo": "dbeaver",
     "version": "HEAD",
-    "loc": 603650,
+    "loc": 604122,
     "source": "github_clone",
-    "cached_at": "2026-02-09T21:39:12.056649+00:00",
+    "cached_at": "2026-02-11T15:42:20.297402+00:00",
     "package": {
       "system": "maven",
       "name": "com.dbeaver.common.main",
@@ -17,12 +17,18 @@
     },
     "repo_url": "https://github.com/dbeaver/dbeaver.git",
     "ref": "HEAD",
-    "commit_hash": "9a9d258cb25dc8b630ad12bb52d64967f0d0080b",
-    "clone_duration_seconds": 5.768152952194214,
-    "count_duration_seconds": 0.8030803203582764,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-java",
-    "tracked": false,
-    "maintenance_priority": "medium"
+    "commit_hash": "bfa4bc7598393eec522aabb504f66ed4847c9b6f",
+    "clone_duration_seconds": 5.119395971298218,
+    "count_duration_seconds": 0.8732030391693115,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

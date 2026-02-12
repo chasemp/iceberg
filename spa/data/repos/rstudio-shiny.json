@@ -9,16 +9,28 @@
     "version": "HEAD",
     "loc": 54697,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:32:42.340029+00:00",
+    "cached_at": "2026-02-10T23:09:34.686490+00:00",
     "package": {
       "system": "npm",
       "name": "@posit/shiny",
       "version": "1.12.1-alpha.9000"
     },
+    "total_loc": 20340,
+    "ratio": 0.2710662739715074,
     "repo_url": "https://github.com/rstudio/shiny.git",
     "ref": "HEAD",
     "commit_hash": "27ddc696dc91efa8659488280958c861d416d114",
-    "clone_duration_seconds": 1.083082675933838,
-    "count_duration_seconds": 0.05557441711425781
+    "clone_duration_seconds": 1.4986169338226318,
+    "count_duration_seconds": 0.051982879638671875,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "owner": "project-stacker",
+  "name": "stacker",
+  "full_name": "project-stacker/stacker",
+  "url": "https://github.com/project-stacker/stacker",
+  "description": "A vendor-neutral OCI-native container image (tgz, squashfs, erofs) builder (purely based on OCI Image Specification)",
+  "language": null,
+  "stars": 312,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.188371+00:00"
+  },
+  "cncf": {
+    "name": "Stacker",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.188372+00:00"
+  }
+}

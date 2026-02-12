@@ -1,0 +1,19 @@
+{
+  "owner": "superedge",
+  "name": "superedge",
+  "full_name": "superedge/superedge",
+  "url": "https://github.com/superedge/superedge",
+  "description": "An edge-native container management system for edge computing",
+  "language": null,
+  "stars": 1069,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.191537+00:00"
+  },
+  "cncf": {
+    "name": "SuperEdge (Wasm)",
+    "category": "Wasm",
+    "subcategory": "Orchestration & Management",
+    "imported_at": "2026-02-11T23:30:15.191716+00:00"
+  }
+}

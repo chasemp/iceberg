@@ -4,9 +4,16 @@
   "url": "https://github.com/netdata/netdata",
   "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
   "language": "C",
-  "stars": 77682,
+  "stars": 77657,
   "categories": {
-    "github-ranking-c": "2026-02-09"
+    "github-ranking-c": "2026-02-09",
+    "tracked": "2026-02-11T23:30:15.138938+00:00"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-09",
+  "cncf": {
+    "name": "Netdata",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.138940+00:00"
+  }
 }

@@ -1,0 +1,19 @@
+{
+  "owner": "K-PaaS",
+  "name": "container-platform",
+  "full_name": "K-PaaS/container-platform",
+  "url": "https://github.com/K-PaaS/container-platform",
+  "description": "The K-PaaS Container Platform provides an independent Kubernetes environment, and developers can easily deploy Kubernetes clusters to build and manage the modern applications anywhere.",
+  "language": null,
+  "stars": 20,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.085342+00:00"
+  },
+  "cncf": {
+    "name": "K-PaaS Container Platform",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Distribution",
+    "imported_at": "2026-02-11T23:30:15.085344+00:00"
+  }
+}

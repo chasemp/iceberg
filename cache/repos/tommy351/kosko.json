@@ -1,0 +1,19 @@
+{
+  "owner": "tommy351",
+  "name": "kosko",
+  "full_name": "tommy351/kosko",
+  "url": "https://github.com/tommy351/kosko",
+  "description": "Organize Kubernetes manifests in TypeScript.",
+  "language": null,
+  "stars": 358,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.097619+00:00"
+  },
+  "cncf": {
+    "name": "Kosko",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.097621+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "wa-lang",
+  "name": "wa",
+  "full_name": "wa-lang/wa",
+  "url": "https://github.com/wa-lang/wa",
+  "description": "\u51f9\u8bed\u8a00, The Wa Programming Language",
+  "language": null,
+  "stars": 1750,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.209635+00:00"
+  },
+  "cncf": {
+    "name": "Wa-lang",
+    "category": "Wasm",
+    "subcategory": "Languages",
+    "imported_at": "2026-02-11T23:30:15.209636+00:00"
+  }
+}

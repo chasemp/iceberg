@@ -1,0 +1,19 @@
+{
+  "owner": "kubewharf",
+  "name": "katalyst-core",
+  "full_name": "kubewharf/katalyst-core",
+  "url": "https://github.com/kubewharf/katalyst-core",
+  "description": "Katalyst aims to provide a universal solution to help improve resource utilization and optimize the overall costs in the cloud. This is the core components in Katalyst system, including multiple agents and centralized components",
+  "language": null,
+  "stars": 540,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.091166+00:00"
+  },
+  "cncf": {
+    "name": "Katalyst",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.091167+00:00"
+  }
+}

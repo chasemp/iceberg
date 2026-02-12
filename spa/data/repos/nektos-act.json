@@ -9,7 +9,7 @@
     "version": "HEAD",
     "loc": 28145,
     "source": "github_clone",
-    "cached_at": "2026-02-09T21:44:08.110585+00:00",
+    "cached_at": "2026-02-11T15:23:55.838803+00:00",
     "package": {
       "system": "go",
       "name": "github.com/nektos/act",
@@ -19,12 +19,18 @@
     "ratio": 0.0,
     "repo_url": "https://github.com/nektos/act.git",
     "ref": "HEAD",
-    "commit_hash": "d93106d194bba273d70d2ba604ea633c3f396b59",
-    "clone_duration_seconds": 1.730950117111206,
-    "count_duration_seconds": 0.07718777656555176,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-go",
-    "tracked": false,
-    "maintenance_priority": "medium"
+    "commit_hash": "1030ad20bf3da1856f8603b758114d5f1d1cbf3f",
+    "clone_duration_seconds": 1.6743152141571045,
+    "count_duration_seconds": 0.08686971664428711,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

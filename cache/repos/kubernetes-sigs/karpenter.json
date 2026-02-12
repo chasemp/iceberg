@@ -1,0 +1,19 @@
+{
+  "owner": "kubernetes-sigs",
+  "name": "karpenter",
+  "full_name": "kubernetes-sigs/karpenter",
+  "url": "https://github.com/kubernetes-sigs/karpenter",
+  "description": "Karpenter is a Kubernetes Node Autoscaler built for flexibility, performance, and simplicity.",
+  "language": null,
+  "stars": 1680,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.090768+00:00"
+  },
+  "cncf": {
+    "name": "Karpenter",
+    "category": "Observability and Analysis",
+    "subcategory": "Continuous Optimization",
+    "imported_at": "2026-02-11T23:30:15.090769+00:00"
+  }
+}

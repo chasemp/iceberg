@@ -1,0 +1,19 @@
+{
+  "owner": "kubewharf",
+  "name": "kubegateway",
+  "full_name": "kubewharf/kubegateway",
+  "url": "https://github.com/kubewharf/kubegateway",
+  "description": "Specific Layer7 Gateway for kube-apiserver",
+  "language": null,
+  "stars": 500,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.113309+00:00"
+  },
+  "cncf": {
+    "name": "KubeGateway",
+    "category": "Orchestration & Management",
+    "subcategory": "API Gateway",
+    "imported_at": "2026-02-11T23:30:15.113311+00:00"
+  }
+}

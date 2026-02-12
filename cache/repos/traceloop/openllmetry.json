@@ -1,0 +1,19 @@
+{
+  "owner": "traceloop",
+  "name": "openllmetry",
+  "full_name": "traceloop/openllmetry",
+  "url": "https://github.com/traceloop/openllmetry",
+  "description": "Open-source observability for your GenAI or LLM application, based on OpenTelemetry",
+  "language": null,
+  "stars": 6815,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.149260+00:00"
+  },
+  "cncf": {
+    "name": "OpenLLMetry",
+    "category": "CNAI",
+    "subcategory": "Model/LLM Observability",
+    "imported_at": "2026-02-11T23:30:15.149442+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "siglens",
+  "name": "siglens",
+  "full_name": "siglens/siglens",
+  "url": "https://github.com/siglens/siglens",
+  "description": "100x Efficient Log Management than Splunk :rocket: Reduce your observability cost by 90%",
+  "language": null,
+  "stars": 1658,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.179837+00:00"
+  },
+  "cncf": {
+    "name": "SigLens",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.179838+00:00"
+  }
+}

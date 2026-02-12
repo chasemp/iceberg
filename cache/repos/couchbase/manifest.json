@@ -1,0 +1,19 @@
+{
+  "owner": "couchbase",
+  "name": "manifest",
+  "full_name": "couchbase/manifest",
+  "url": "https://github.com/couchbase/manifest",
+  "description": "Top-level source repository for Couchbase Server source code and build projects",
+  "language": null,
+  "stars": 231,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.032579+00:00"
+  },
+  "cncf": {
+    "name": "Couchbase",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.032581+00:00"
+  }
+}

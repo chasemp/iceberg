@@ -1,0 +1,19 @@
+{
+  "owner": "bank-vaults",
+  "name": "bank-vaults",
+  "full_name": "bank-vaults/bank-vaults",
+  "url": "https://github.com/bank-vaults/bank-vaults",
+  "description": "A Vault swiss-army knife: A CLI tool to init, unseal and configure Vault (auth methods, secret engines).",
+  "language": null,
+  "stars": 2218,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.924930+00:00"
+  },
+  "cncf": {
+    "name": "Bank-Vaults",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:14.924931+00:00"
+  }
+}

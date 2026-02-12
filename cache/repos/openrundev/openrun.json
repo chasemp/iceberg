@@ -1,0 +1,19 @@
+{
+  "owner": "openrundev",
+  "name": "openrun",
+  "full_name": "openrundev/openrun",
+  "url": "https://github.com/openrundev/openrun",
+  "description": "Internal tools deployment made easy.  Deploy web apps declaratively, on a single-node or on Kubernetes.",
+  "language": null,
+  "stars": 737,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.150526+00:00"
+  },
+  "cncf": {
+    "name": "OpenRun",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.150526+00:00"
+  }
+}

@@ -7,19 +7,28 @@
     "owner": "netdata",
     "repo": "netdata",
     "version": "HEAD",
-    "loc": 762954,
+    "loc": 774448,
     "source": "github_clone",
-    "cached_at": "2026-02-09T21:50:36.514120+00:00",
+    "cached_at": "2026-02-11T14:58:05.730294+00:00",
     "total_loc": 0,
     "ratio": 0.0,
+    "ai_markers": {
+      "claude": true,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    },
+    "ai_tools": [
+      "Claude"
+    ],
     "repo_url": "https://github.com/netdata/netdata.git",
     "ref": "HEAD",
-    "commit_hash": "ff6ad5772cc864e20034d86902172827fda5c257",
-    "clone_duration_seconds": 5.396196126937866,
-    "count_duration_seconds": 0.5767629146575928,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-c",
-    "tracked": false,
-    "maintenance_priority": "medium"
+    "commit_hash": "18fe4929984de4070f23d0b356315fad9a472409",
+    "clone_duration_seconds": 7.882450103759766,
+    "count_duration_seconds": 0.4819447994232178
   }
 }

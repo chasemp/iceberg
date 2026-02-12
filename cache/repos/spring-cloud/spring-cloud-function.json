@@ -1,0 +1,19 @@
+{
+  "owner": "spring-cloud",
+  "name": "spring-cloud-function",
+  "full_name": "spring-cloud/spring-cloud-function",
+  "url": "https://github.com/spring-cloud/spring-cloud-function",
+  "description": "VMware is a cloud services company that provides cloud infrastructure, cloud management, security, and networking.",
+  "language": null,
+  "stars": 1065,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.187246+00:00"
+  },
+  "cncf": {
+    "name": "Spring Cloud Function",
+    "category": "Serverless",
+    "subcategory": "Framework",
+    "imported_at": "2026-02-11T23:30:15.187247+00:00"
+  }
+}

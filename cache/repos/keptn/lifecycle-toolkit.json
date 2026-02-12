@@ -1,0 +1,19 @@
+{
+  "owner": "keptn",
+  "name": "lifecycle-toolkit",
+  "full_name": "keptn/lifecycle-toolkit",
+  "url": "https://github.com/keptn/lifecycle-toolkit",
+  "description": "Toolkit for cloud-native application lifecycle management",
+  "language": null,
+  "stars": 405,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.092813+00:00"
+  },
+  "cncf": {
+    "name": "Keptn",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.092814+00:00"
+  }
+}

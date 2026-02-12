@@ -1,0 +1,19 @@
+{
+  "owner": "StarRocks",
+  "name": "starrocks",
+  "full_name": "StarRocks/starrocks",
+  "url": "https://github.com/StarRocks/starrocks",
+  "description": "The world's fastest open query engine for sub-second analytics both on and off the data lakehouse. With the flexibility to support nearly any scenario, StarRocks provides best-in-class performance for multi-dimensional analytics, real-time analytics, and ad-hoc queries. A Linux Foundation project.",
+  "language": null,
+  "stars": 11352,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.189557+00:00"
+  },
+  "cncf": {
+    "name": "StarRocks",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.189558+00:00"
+  }
+}

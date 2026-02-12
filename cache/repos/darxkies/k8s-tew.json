@@ -1,0 +1,19 @@
+{
+  "owner": "darxkies",
+  "name": "k8s-tew",
+  "full_name": "darxkies/k8s-tew",
+  "url": "https://github.com/darxkies/k8s-tew",
+  "description": "Kubernetes - The Easier Way",
+  "language": null,
+  "stars": 311,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.117090+00:00"
+  },
+  "cncf": {
+    "name": "Kubernetes - The Easier Way",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Installer",
+    "imported_at": "2026-02-11T23:30:15.117091+00:00"
+  }
+}

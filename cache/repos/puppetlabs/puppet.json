@@ -1,0 +1,19 @@
+{
+  "owner": "puppetlabs",
+  "name": "puppet",
+  "full_name": "puppetlabs/puppet",
+  "url": "https://github.com/puppetlabs/puppet",
+  "description": "Server automation framework and application",
+  "language": null,
+  "stars": 7792,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.164739+00:00"
+  },
+  "cncf": {
+    "name": "Puppet",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.164740+00:00"
+  }
+}

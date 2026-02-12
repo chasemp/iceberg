@@ -1,0 +1,19 @@
+{
+  "owner": "metalbear-co",
+  "name": "mirrord",
+  "full_name": "metalbear-co/mirrord",
+  "url": "https://github.com/metalbear-co/mirrord",
+  "description": "Connect your local process and your cloud environment, and run local code in cloud conditions.",
+  "language": null,
+  "stars": 4912,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.135291+00:00"
+  },
+  "cncf": {
+    "name": "mirrord",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.135292+00:00"
+  }
+}

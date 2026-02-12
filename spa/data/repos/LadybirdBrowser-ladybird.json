@@ -7,13 +7,23 @@
     "owner": "LadybirdBrowser",
     "repo": "ladybird",
     "version": "HEAD",
-    "loc": 659510,
+    "loc": 666009,
     "source": "github_clone",
-    "cached_at": "2026-02-05T06:49:53.218427+00:00",
+    "cached_at": "2026-02-11T00:07:06.008946+00:00",
     "repo_url": "https://github.com/LadybirdBrowser/ladybird.git",
     "ref": "HEAD",
-    "commit_hash": "3e319a51b4f1587a6a04365b6a34b5925dcb2c48",
-    "clone_duration_seconds": 3.766273021697998,
-    "count_duration_seconds": 0.695227861404419
+    "commit_hash": "07614a2e55803c445bf866af0f87057a5c5e8c8f",
+    "clone_duration_seconds": 8.408174276351929,
+    "count_duration_seconds": 0.8458197116851807,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "maven",
+  "full_name": "apache/maven",
+  "url": "https://github.com/apache/maven",
+  "description": "Apache Maven core",
+  "language": null,
+  "stars": 4949,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.130484+00:00"
+  },
+  "cncf": {
+    "name": "Maven",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.130485+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "gluster",
+  "name": "glusterfs",
+  "full_name": "gluster/glusterfs",
+  "url": "https://github.com/gluster/glusterfs",
+  "description": "Gluster Filesystem : Build your distributed storage in minutes",
+  "language": null,
+  "stars": 5137,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.058945+00:00"
+  },
+  "cncf": {
+    "name": "Gluster",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "imported_at": "2026-02-11T23:30:15.058946+00:00"
+  }
+}

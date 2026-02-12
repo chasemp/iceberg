@@ -1,0 +1,19 @@
+{
+  "owner": "filecoin-project",
+  "name": "ref-fvm",
+  "full_name": "filecoin-project/ref-fvm",
+  "url": "https://github.com/filecoin-project/ref-fvm",
+  "description": "Reference implementation of the Filecoin Virtual Machine",
+  "language": null,
+  "stars": 416,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.051384+00:00"
+  },
+  "cncf": {
+    "name": "Filecoin",
+    "category": "Wasm",
+    "subcategory": "Decentralized Platforms",
+    "imported_at": "2026-02-11T23:30:15.051385+00:00"
+  }
+}

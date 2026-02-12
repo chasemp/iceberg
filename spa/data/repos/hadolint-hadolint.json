@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 108,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:18:28.581630+00:00",
+    "cached_at": "2026-02-11T00:07:43.032088+00:00",
     "repo_url": "https://github.com/hadolint/hadolint.git",
     "ref": "HEAD",
     "commit_hash": "0d4f787e3f8211457c4423febc24680a313c43d0",
-    "clone_duration_seconds": 0.6252627372741699,
-    "count_duration_seconds": 0.0031728744506835938
+    "clone_duration_seconds": 1.007838249206543,
+    "count_duration_seconds": 0.004926919937133789,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

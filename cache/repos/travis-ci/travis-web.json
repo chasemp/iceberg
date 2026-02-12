@@ -1,0 +1,19 @@
+{
+  "owner": "travis-ci",
+  "name": "travis-web",
+  "full_name": "travis-ci/travis-web",
+  "url": "https://github.com/travis-ci/travis-web",
+  "description": "The Ember web client for Travis CI",
+  "language": null,
+  "stars": 611,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.202626+00:00"
+  },
+  "cncf": {
+    "name": "Travis CI",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.202627+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "cloudnative-pg",
+  "name": "cloudnative-pg",
+  "full_name": "cloudnative-pg/cloudnative-pg",
+  "url": "https://github.com/cloudnative-pg/cloudnative-pg",
+  "description": "CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance",
+  "language": null,
+  "stars": 7962,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.988629+00:00"
+  },
+  "cncf": {
+    "name": "CloudNativePG",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:14.988631+00:00"
+  }
+}

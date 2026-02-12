@@ -1,0 +1,19 @@
+{
+  "owner": "ContainerSSH",
+  "name": "ContainerSSH",
+  "full_name": "ContainerSSH/ContainerSSH",
+  "url": "https://github.com/ContainerSSH/ContainerSSH",
+  "description": "ContainerSSH: Launch containers on demand",
+  "language": null,
+  "stars": 2964,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.995341+00:00"
+  },
+  "cncf": {
+    "name": "ContainerSSH",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:14.995342+00:00"
+  }
+}

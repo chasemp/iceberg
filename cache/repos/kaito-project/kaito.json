@@ -1,0 +1,19 @@
+{
+  "owner": "kaito-project",
+  "name": "kaito",
+  "full_name": "kaito-project/kaito",
+  "url": "https://github.com/kaito-project/kaito",
+  "description": "Kubernetes AI Toolchain Operator",
+  "language": null,
+  "stars": 873,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.088540+00:00"
+  },
+  "cncf": {
+    "name": "KAITO",
+    "category": "CNAI",
+    "subcategory": "ML Serving",
+    "imported_at": "2026-02-11T23:30:15.088542+00:00"
+  }
+}

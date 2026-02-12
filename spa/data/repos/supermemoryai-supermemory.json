@@ -1,0 +1,31 @@
+{
+  "owner": "supermemoryai",
+  "repo": "supermemory",
+  "full_name": "supermemoryai/supermemory",
+  "url": "https://github.com/supermemoryai/supermemory",
+  "analysis": {
+    "owner": "supermemoryai",
+    "repo": "supermemory",
+    "version": "HEAD",
+    "loc": 57956,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:34:57.944994+00:00",
+    "total_loc": 2924,
+    "ratio": 0.04802890932982917,
+    "repo_url": "https://github.com/supermemoryai/supermemory.git",
+    "ref": "HEAD",
+    "commit_hash": "b439e7ea0182927aa14ad565374baef316f9b765",
+    "clone_duration_seconds": 9.883425951004028,
+    "count_duration_seconds": 0.04393911361694336,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

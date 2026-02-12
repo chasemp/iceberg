@@ -1,0 +1,19 @@
+{
+  "owner": "eclipse-che",
+  "name": "che",
+  "full_name": "eclipse-che/che",
+  "url": "https://github.com/eclipse-che/che",
+  "description": "Kubernetes based Cloud Development Environments for Enterprise Teams",
+  "language": null,
+  "stars": 7124,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.044021+00:00"
+  },
+  "cncf": {
+    "name": "Eclipse Che",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.044024+00:00"
+  }
+}

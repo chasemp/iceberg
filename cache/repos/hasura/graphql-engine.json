@@ -1,0 +1,19 @@
+{
+  "owner": "hasura",
+  "name": "graphql-engine",
+  "full_name": "hasura/graphql-engine",
+  "url": "https://github.com/hasura/graphql-engine",
+  "description": "Blazing fast, instant realtime GraphQL APIs on all your data with fine grained access control, also trigger webhooks on database events.",
+  "language": null,
+  "stars": 31890,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.069665+00:00"
+  },
+  "cncf": {
+    "name": "Hasura GraphQL Engine",
+    "category": "Serverless",
+    "subcategory": "Tools",
+    "imported_at": "2026-02-11T23:30:15.069666+00:00"
+  }
+}

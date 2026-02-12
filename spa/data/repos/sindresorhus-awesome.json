@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 14,
     "source": "github_clone",
-    "cached_at": "2026-02-05T22:28:40.409292+00:00",
+    "cached_at": "2026-02-10T23:27:55.884737+00:00",
     "repo_url": "https://github.com/sindresorhus/awesome.git",
     "ref": "HEAD",
     "commit_hash": "da0892f292cc83968630ff81ea573c0d28358b87",
-    "clone_duration_seconds": 0.9113969802856445,
-    "count_duration_seconds": 0.001971006393432617
+    "clone_duration_seconds": 0.8824701309204102,
+    "count_duration_seconds": 0.002343893051147461,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

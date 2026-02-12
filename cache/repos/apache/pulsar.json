@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "pulsar",
+  "full_name": "apache/pulsar",
+  "url": "https://github.com/apache/pulsar",
+  "description": "Apache Pulsar - distributed pub-sub messaging system",
+  "language": null,
+  "stars": 15076,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.164175+00:00"
+  },
+  "cncf": {
+    "name": "Pulsar",
+    "category": "CNAI",
+    "subcategory": "Data Architecture",
+    "imported_at": "2026-02-11T23:30:15.164365+00:00"
+  }
+}

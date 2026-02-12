@@ -9,20 +9,26 @@
     "version": "HEAD",
     "loc": 157362,
     "source": "github_clone",
-    "cached_at": "2026-02-09T20:11:04.466224+00:00",
+    "cached_at": "2026-02-10T23:47:00.867753+00:00",
     "package": {
       "system": "npm",
       "name": "antd",
-      "version": "6.2.3"
+      "version": "6.3.0"
     },
     "repo_url": "https://github.com/ant-design/ant-design.git",
     "ref": "HEAD",
-    "commit_hash": "8f723775a7f35f1a79ddcd5af41fb30130690acc",
-    "clone_duration_seconds": 4.1358747482299805,
-    "count_duration_seconds": 0.25312089920043945,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-top-100-stars",
-    "tracked": false,
-    "maintenance_priority": "medium"
+    "commit_hash": "2ab7472d9705037cf51ed9b810977610c0ce786d",
+    "clone_duration_seconds": 4.075021743774414,
+    "count_duration_seconds": 0.24659299850463867,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

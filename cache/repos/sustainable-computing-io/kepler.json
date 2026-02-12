@@ -1,0 +1,19 @@
+{
+  "owner": "sustainable-computing-io",
+  "name": "kepler",
+  "full_name": "sustainable-computing-io/kepler",
+  "url": "https://github.com/sustainable-computing-io/kepler",
+  "description": "Kepler (Kubernetes-based Efficient Power Level Exporter) is a Prometheus exporter that measures energy consumption metrics at the container, pod, and node levels in Kubernetes clusters.",
+  "language": null,
+  "stars": 1453,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.092381+00:00"
+  },
+  "cncf": {
+    "name": "Kepler",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.092382+00:00"
+  }
+}

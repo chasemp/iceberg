@@ -1,0 +1,19 @@
+{
+  "owner": "kube-green",
+  "name": "kube-green",
+  "full_name": "kube-green/kube-green",
+  "url": "https://github.com/kube-green/kube-green",
+  "description": "A K8s operator to reduce CO2 footprint of your clusters",
+  "language": null,
+  "stars": 1314,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.106749+00:00"
+  },
+  "cncf": {
+    "name": "kube-green",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.106750+00:00"
+  }
+}

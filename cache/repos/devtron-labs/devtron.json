@@ -1,0 +1,19 @@
+{
+  "owner": "devtron-labs",
+  "name": "devtron",
+  "full_name": "devtron-labs/devtron",
+  "url": "https://github.com/devtron-labs/devtron",
+  "description": "The only Kubernetes dashboard you need",
+  "language": null,
+  "stars": 5372,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.039484+00:00"
+  },
+  "cncf": {
+    "name": "Devtron",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.039485+00:00"
+  }
+}

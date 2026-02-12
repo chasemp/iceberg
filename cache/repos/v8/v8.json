@@ -1,0 +1,19 @@
+{
+  "owner": "v8",
+  "name": "v8",
+  "full_name": "v8/v8",
+  "url": "https://github.com/v8/v8",
+  "description": "The official mirror of the V8 Git repository",
+  "language": null,
+  "stars": 24829,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.205848+00:00"
+  },
+  "cncf": {
+    "name": "V8",
+    "category": "Wasm",
+    "subcategory": "Runtimes",
+    "imported_at": "2026-02-11T23:30:15.205849+00:00"
+  }
+}

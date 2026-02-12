@@ -1,0 +1,19 @@
+{
+  "owner": "membrane",
+  "name": "api-gateway",
+  "full_name": "membrane/api-gateway",
+  "url": "https://github.com/membrane/api-gateway",
+  "description": "Membrane is a truly open source API gateway with native OpenAPI support. Written in Java, it is easily extensible, supports legacy XML and SOAP, and is optimized for container deployments.",
+  "language": null,
+  "stars": 555,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.130835+00:00"
+  },
+  "cncf": {
+    "name": "Membrane",
+    "category": "Orchestration & Management",
+    "subcategory": "API Gateway",
+    "imported_at": "2026-02-11T23:30:15.130836+00:00"
+  }
+}

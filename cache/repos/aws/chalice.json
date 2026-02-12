@@ -1,0 +1,19 @@
+{
+  "owner": "aws",
+  "name": "chalice",
+  "full_name": "aws/chalice",
+  "url": "https://github.com/aws/chalice",
+  "description": "Python Serverless Microframework for AWS",
+  "language": null,
+  "stars": 11065,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.981218+00:00"
+  },
+  "cncf": {
+    "name": "Chalice",
+    "category": "Serverless",
+    "subcategory": "Framework",
+    "imported_at": "2026-02-11T23:30:14.981219+00:00"
+  }
+}

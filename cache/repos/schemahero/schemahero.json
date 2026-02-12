@@ -1,0 +1,19 @@
+{
+  "owner": "schemahero",
+  "name": "schemahero",
+  "full_name": "schemahero/schemahero",
+  "url": "https://github.com/schemahero/schemahero",
+  "description": "A Kubernetes operator for declarative database schema management (gitops for database schemas)",
+  "language": null,
+  "stars": 1103,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.173761+00:00"
+  },
+  "cncf": {
+    "name": "SchemaHero",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.173762+00:00"
+  }
+}

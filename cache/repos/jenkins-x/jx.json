@@ -1,0 +1,19 @@
+{
+  "owner": "jenkins-x",
+  "name": "jx",
+  "full_name": "jenkins-x/jx",
+  "url": "https://github.com/jenkins-x/jx",
+  "description": "Jenkins X provides automated CI+CD for Kubernetes with Preview Environments on Pull Requests using Cloud Native pipelines from Tekton",
+  "language": null,
+  "stars": 4685,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.084129+00:00"
+  },
+  "cncf": {
+    "name": "JenkinsX",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.084130+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "vmware-tanzu",
+  "name": "sonobuoy",
+  "full_name": "vmware-tanzu/sonobuoy",
+  "url": "https://github.com/vmware-tanzu/sonobuoy",
+  "description": "Sonobuoy is a diagnostic tool that makes it easier to understand the state of a Kubernetes cluster by running a set of Kubernetes conformance tests and other plugins in an accessible and non-destructive manner.",
+  "language": null,
+  "stars": 3034,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.184163+00:00"
+  },
+  "cncf": {
+    "name": "Sonobuoy",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.184165+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "sealerio",
+  "name": "sealer",
+  "full_name": "sealerio/sealer",
+  "url": "https://github.com/sealerio/sealer",
+  "description": "Build, Share and Run Both Your Kubernetes Cluster and Distributed Applications  (Project under CNCF)",
+  "language": null,
+  "stars": 2096,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.174826+00:00"
+  },
+  "cncf": {
+    "name": "sealer",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.174827+00:00"
+  }
+}

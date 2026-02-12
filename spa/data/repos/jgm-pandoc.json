@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 1947,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:18:06.789612+00:00",
+    "cached_at": "2026-02-11T00:07:17.872387+00:00",
     "repo_url": "https://github.com/jgm/pandoc.git",
     "ref": "HEAD",
-    "commit_hash": "f9fb410cd962d0ca17d8de849e3839ca4dcece2f",
-    "clone_duration_seconds": 1.6857631206512451,
-    "count_duration_seconds": 0.04133200645446777
+    "commit_hash": "4c4bad6973e85bafc99bf7a3ed68513be214034a",
+    "clone_duration_seconds": 2.565688133239746,
+    "count_duration_seconds": 0.04034018516540527,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

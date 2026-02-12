@@ -1,0 +1,19 @@
+{
+  "owner": "xregistry",
+  "name": "server",
+  "full_name": "xregistry/server",
+  "url": "https://github.com/xregistry/server",
+  "description": "xRegistry server & client implementations",
+  "language": null,
+  "stars": 11,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.216441+00:00"
+  },
+  "cncf": {
+    "name": "xRegistry",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.216441+00:00"
+  }
+}

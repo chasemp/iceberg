@@ -1,0 +1,19 @@
+{
+  "owner": "kubewarden",
+  "name": "kubewarden-controller",
+  "full_name": "kubewarden/kubewarden-controller",
+  "url": "https://github.com/kubewarden/kubewarden-controller",
+  "description": "Manage admission policies in your Kubernetes cluster with ease",
+  "language": null,
+  "stars": 222,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.120862+00:00"
+  },
+  "cncf": {
+    "name": "Kubewarden",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.120863+00:00"
+  }
+}

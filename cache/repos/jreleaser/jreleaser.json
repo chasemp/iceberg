@@ -1,0 +1,19 @@
+{
+  "owner": "jreleaser",
+  "name": "jreleaser",
+  "full_name": "jreleaser/jreleaser",
+  "url": "https://github.com/jreleaser/jreleaser",
+  "description": ":rocket: Release projects quickly and easily with JReleaser",
+  "language": null,
+  "stars": 1202,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.084573+00:00"
+  },
+  "cncf": {
+    "name": "JReleaser",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.084574+00:00"
+  }
+}

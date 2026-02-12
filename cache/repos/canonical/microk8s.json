@@ -1,0 +1,19 @@
+{
+  "owner": "canonical",
+  "name": "microk8s",
+  "full_name": "canonical/microk8s",
+  "url": "https://github.com/canonical/microk8s",
+  "description": "MicroK8s is a small, fast, single-package Kubernetes for datacenters and the edge.",
+  "language": null,
+  "stars": 9198,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.133730+00:00"
+  },
+  "cncf": {
+    "name": "MicroK8s",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Distribution",
+    "imported_at": "2026-02-11T23:30:15.133731+00:00"
+  }
+}

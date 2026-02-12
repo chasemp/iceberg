@@ -1,0 +1,19 @@
+{
+  "owner": "mongodb",
+  "name": "mongo",
+  "full_name": "mongodb/mongo",
+  "url": "https://github.com/mongodb/mongo",
+  "description": "The MongoDB Database",
+  "language": null,
+  "stars": 28038,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.136389+00:00"
+  },
+  "cncf": {
+    "name": "MongoDB",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.136389+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "Authing",
+  "name": "Authing",
+  "full_name": "Authing/Authing",
+  "url": "https://github.com/Authing/Authing",
+  "description": "\ud83d\udd25Authing - IDaaS/IAM solution that can Auth to web, mobile and agent applications.",
+  "language": null,
+  "stars": 1053,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.917923+00:00"
+  },
+  "cncf": {
+    "name": "Authing",
+    "category": "Provisioning",
+    "subcategory": "Key Management",
+    "imported_at": "2026-02-11T23:30:14.917924+00:00"
+  }
+}

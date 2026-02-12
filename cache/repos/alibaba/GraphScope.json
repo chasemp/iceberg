@@ -1,0 +1,19 @@
+{
+  "owner": "alibaba",
+  "name": "GraphScope",
+  "full_name": "alibaba/GraphScope",
+  "url": "https://github.com/alibaba/GraphScope",
+  "description": "\ud83d\udd28 \ud83c\udf47 \ud83d\udcbb \ud83d\ude80 GraphScope: A One-Stop Large-Scale Graph Computing System from Alibaba | \u4e00\u7ad9\u5f0f\u56fe\u8ba1\u7b97\u7cfb\u7edf",
+  "language": null,
+  "stars": 3530,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.063724+00:00"
+  },
+  "cncf": {
+    "name": "GraphScope",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.063725+00:00"
+  }
+}

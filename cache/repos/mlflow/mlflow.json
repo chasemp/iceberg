@@ -1,0 +1,19 @@
+{
+  "owner": "mlflow",
+  "name": "mlflow",
+  "full_name": "mlflow/mlflow",
+  "url": "https://github.com/mlflow/mlflow",
+  "description": "The open source developer platform to build AI agents and models with confidence. Enhance your AI applications with end-to-end tracking, observability, and evaluations, all in one integrated platform.",
+  "language": null,
+  "stars": 24007,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.135658+00:00"
+  },
+  "cncf": {
+    "name": "Mlflow",
+    "category": "CNAI",
+    "subcategory": "CI/CD - Delivery",
+    "imported_at": "2026-02-11T23:30:15.135659+00:00"
+  }
+}

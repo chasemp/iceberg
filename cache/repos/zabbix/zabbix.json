@@ -1,0 +1,19 @@
+{
+  "owner": "zabbix",
+  "name": "zabbix",
+  "full_name": "zabbix/zabbix",
+  "url": "https://github.com/zabbix/zabbix",
+  "description": "Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud.",
+  "language": null,
+  "stars": 5628,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.218037+00:00"
+  },
+  "cncf": {
+    "name": "Zabbix",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.218038+00:00"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "owner": "j178",
+  "repo": "prek",
+  "full_name": "j178/prek",
+  "url": "https://github.com/j178/prek",
+  "analysis": {
+    "owner": "j178",
+    "repo": "prek",
+    "version": "HEAD",
+    "loc": 24730,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:52:15.352384+00:00",
+    "package": {
+      "system": "pypi",
+      "name": "prek",
+      "version": "0.3.2"
+    },
+    "repo_url": "https://github.com/j178/prek.git",
+    "ref": "v0.3.2",
+    "commit_hash": "71790f3b08c221607d9813146e5f315695eaa017",
+    "clone_duration_seconds": 1.1233716011047363,
+    "count_duration_seconds": 0.016090869903564453,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

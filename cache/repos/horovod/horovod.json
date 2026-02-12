@@ -1,0 +1,19 @@
+{
+  "owner": "horovod",
+  "name": "horovod",
+  "full_name": "horovod/horovod",
+  "url": "https://github.com/horovod/horovod",
+  "description": "Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet.",
+  "language": null,
+  "stars": 14664,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.075352+00:00"
+  },
+  "cncf": {
+    "name": "Horovod",
+    "category": "CNAI",
+    "subcategory": "Distributed Training",
+    "imported_at": "2026-02-11T23:30:15.075354+00:00"
+  }
+}

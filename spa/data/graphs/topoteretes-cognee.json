@@ -1,0 +1,16 @@
+{
+  "owner": "topoteretes",
+  "repo": "cognee",
+  "full_name": "topoteretes/cognee",
+  "root_package": "pypi:cognee:0.5.2",
+  "nodes": [
+    {
+      "id": "pypi:cognee:0.5.2",
+      "system": "pypi",
+      "name": "cognee",
+      "version": "0.5.2"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-12T15:02:43.092916+00:00"
+}

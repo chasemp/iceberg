@@ -1,0 +1,19 @@
+{
+  "owner": "gocd",
+  "name": "gocd",
+  "full_name": "gocd/gocd",
+  "url": "https://github.com/gocd/gocd",
+  "description": "GoCD - Continuous Delivery server main repository",
+  "language": null,
+  "stars": 7369,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.059557+00:00"
+  },
+  "cncf": {
+    "name": "GoCD",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.059558+00:00"
+  }
+}

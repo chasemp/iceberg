@@ -1,0 +1,19 @@
+{
+  "owner": "lf-edge",
+  "name": "ekuiper",
+  "full_name": "lf-edge/ekuiper",
+  "url": "https://github.com/lf-edge/ekuiper",
+  "description": "Lightweight data stream processing engine for IoT edge",
+  "language": null,
+  "stars": 1678,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.044914+00:00"
+  },
+  "cncf": {
+    "name": "eKuiper",
+    "category": "Wasm",
+    "subcategory": "Embedded Functions",
+    "imported_at": "2026-02-11T23:30:15.044916+00:00"
+  }
+}

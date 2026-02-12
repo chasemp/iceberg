@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "doris",
+  "full_name": "apache/doris",
+  "url": "https://github.com/apache/doris",
+  "description": "Apache Doris is an easy-to-use, high performance and unified analytics database.",
+  "language": null,
+  "stars": 14991,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.041735+00:00"
+  },
+  "cncf": {
+    "name": "Doris",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.041736+00:00"
+  }
+}

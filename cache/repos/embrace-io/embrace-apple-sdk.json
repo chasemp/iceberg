@@ -1,0 +1,19 @@
+{
+  "owner": "embrace-io",
+  "name": "embrace-apple-sdk",
+  "full_name": "embrace-io/embrace-apple-sdk",
+  "url": "https://github.com/embrace-io/embrace-apple-sdk",
+  "description": "Embrace's Swift SDK built on OpenTelemetry",
+  "language": null,
+  "stars": 132,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.046073+00:00"
+  },
+  "cncf": {
+    "name": "Embrace",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.046074+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "seL4",
+  "name": "seL4",
+  "full_name": "seL4/seL4",
+  "url": "https://github.com/seL4/seL4",
+  "description": "The seL4 microkernel",
+  "language": null,
+  "stars": 5293,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.175524+00:00"
+  },
+  "cncf": {
+    "name": "seL4",
+    "category": "Wasm",
+    "subcategory": "Edge/Bare metal",
+    "imported_at": "2026-02-11T23:30:15.175525+00:00"
+  }
+}

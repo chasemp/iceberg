@@ -1,0 +1,19 @@
+{
+  "owner": "tinkerbell",
+  "name": "tinkerbell",
+  "full_name": "tinkerbell/tinkerbell",
+  "url": "https://github.com/tinkerbell/tinkerbell",
+  "description": "Bare metal provisioning engine, supporting network and ISO booting, BMC interactions, metadata service, and workflow engine.",
+  "language": null,
+  "stars": 208,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.200625+00:00"
+  },
+  "cncf": {
+    "name": "Tinkerbell",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.200627+00:00"
+  }
+}

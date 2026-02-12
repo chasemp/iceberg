@@ -1,0 +1,19 @@
+{
+  "owner": "bytecodealliance",
+  "name": "ComponentizeJS",
+  "full_name": "bytecodealliance/ComponentizeJS",
+  "url": "https://github.com/bytecodealliance/ComponentizeJS",
+  "description": "JS -> WebAssembly Component",
+  "language": null,
+  "stars": 342,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.991364+00:00"
+  },
+  "cncf": {
+    "name": "componentize-js",
+    "category": "Wasm",
+    "subcategory": "Languages",
+    "imported_at": "2026-02-11T23:30:14.991365+00:00"
+  }
+}

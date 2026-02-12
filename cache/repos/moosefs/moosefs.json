@@ -1,0 +1,19 @@
+{
+  "owner": "moosefs",
+  "name": "moosefs",
+  "full_name": "moosefs/moosefs",
+  "url": "https://github.com/moosefs/moosefs",
+  "description": "MooseFS Distributed Storage \u2013 Open\u00a0Source, Petabyte, Fault-Tolerant, Highly Performing, Scalable Network Distributed File System / Software-Defined Storage",
+  "language": null,
+  "stars": 1942,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.136970+00:00"
+  },
+  "cncf": {
+    "name": "MooseFS",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "imported_at": "2026-02-11T23:30:15.136972+00:00"
+  }
+}

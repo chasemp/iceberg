@@ -1,0 +1,19 @@
+{
+  "owner": "aquasecurity",
+  "name": "trivy",
+  "full_name": "aquasecurity/trivy",
+  "url": "https://github.com/aquasecurity/trivy",
+  "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+  "language": null,
+  "stars": 31418,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.203718+00:00"
+  },
+  "cncf": {
+    "name": "Trivy",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.203719+00:00"
+  }
+}

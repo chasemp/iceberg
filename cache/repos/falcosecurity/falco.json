@@ -1,0 +1,19 @@
+{
+  "owner": "falcosecurity",
+  "name": "falco",
+  "full_name": "falcosecurity/falco",
+  "url": "https://github.com/falcosecurity/falco",
+  "description": "Cloud Native Runtime Security",
+  "language": null,
+  "stars": 8633,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.049989+00:00"
+  },
+  "cncf": {
+    "name": "Falco",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.049990+00:00"
+  }
+}

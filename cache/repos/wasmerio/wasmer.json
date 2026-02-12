@@ -1,0 +1,19 @@
+{
+  "owner": "wasmerio",
+  "name": "wasmer",
+  "full_name": "wasmerio/wasmer",
+  "url": "https://github.com/wasmerio/wasmer",
+  "description": "\ud83d\ude80 Fast, secure, lightweight containers based on WebAssembly",
+  "language": null,
+  "stars": 20386,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.213092+00:00"
+  },
+  "cncf": {
+    "name": "Wasmer",
+    "category": "Wasm",
+    "subcategory": "Runtimes",
+    "imported_at": "2026-02-11T23:30:15.213093+00:00"
+  }
+}

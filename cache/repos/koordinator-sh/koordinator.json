@@ -1,0 +1,19 @@
+{
+  "owner": "koordinator-sh",
+  "name": "koordinator",
+  "full_name": "koordinator-sh/koordinator",
+  "url": "https://github.com/koordinator-sh/koordinator",
+  "description": "A QoS-based scheduling system brings optimal layout and status to workloads such as microservices, web services, big data jobs, AI jobs, etc.",
+  "language": null,
+  "stars": 1651,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.097302+00:00"
+  },
+  "cncf": {
+    "name": "Koordinator",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.097304+00:00"
+  }
+}

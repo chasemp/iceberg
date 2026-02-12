@@ -1,0 +1,19 @@
+{
+  "owner": "karmada-io",
+  "name": "karmada",
+  "full_name": "karmada-io/karmada",
+  "url": "https://github.com/karmada-io/karmada",
+  "description": "Open, Multi-Cloud, Multi-Cluster Kubernetes Orchestration",
+  "language": null,
+  "stars": 5284,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.090609+00:00"
+  },
+  "cncf": {
+    "name": "Karmada",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.090610+00:00"
+  }
+}

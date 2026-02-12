@@ -1,0 +1,19 @@
+{
+  "owner": "FDio",
+  "name": "vpp",
+  "full_name": "FDio/vpp",
+  "url": "https://github.com/FDio/vpp",
+  "description": "Mirror of VPP code base hosted at git.fd.io",
+  "language": null,
+  "stars": 1487,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.050391+00:00"
+  },
+  "cncf": {
+    "name": "FD.io",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Network",
+    "imported_at": "2026-02-11T23:30:15.050392+00:00"
+  }
+}

@@ -7,9 +7,9 @@
     "owner": "ethereum",
     "repo": "go-ethereum",
     "version": "HEAD",
-    "loc": 321410,
+    "loc": 322092,
     "source": "github_clone",
-    "cached_at": "2026-02-09T21:49:29.479731+00:00",
+    "cached_at": "2026-02-11T15:28:38.613170+00:00",
     "package": {
       "system": "go",
       "name": "github.com/ethereum/go-ethereum",
@@ -17,12 +17,18 @@
     },
     "repo_url": "https://github.com/ethereum/go-ethereum.git",
     "ref": "HEAD",
-    "commit_hash": "c9b7ae422c1d2d4a4de859007553a4ad2118afdb",
-    "clone_duration_seconds": 3.3034720420837402,
-    "count_duration_seconds": 0.19373393058776855,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-go",
-    "tracked": false,
-    "maintenance_priority": "medium"
+    "commit_hash": "995fa79bf505542f3bdf0dbf8528b3dc8ad05bbc",
+    "clone_duration_seconds": 3.50839900970459,
+    "count_duration_seconds": 0.2117159366607666,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

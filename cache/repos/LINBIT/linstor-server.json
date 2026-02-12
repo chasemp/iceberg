@@ -1,0 +1,19 @@
+{
+  "owner": "LINBIT",
+  "name": "linstor-server",
+  "full_name": "LINBIT/linstor-server",
+  "url": "https://github.com/LINBIT/linstor-server",
+  "description": "High Performance Software-Defined Block Storage for container, cloud and virtualisation. Fully integrated with Docker, Kubernetes, Openstack, Proxmox etc.",
+  "language": null,
+  "stars": 1195,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.126127+00:00"
+  },
+  "cncf": {
+    "name": "LINSTOR",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "imported_at": "2026-02-11T23:30:15.126128+00:00"
+  }
+}

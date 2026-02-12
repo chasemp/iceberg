@@ -1,0 +1,19 @@
+{
+  "owner": "sodafoundation",
+  "name": "api",
+  "full_name": "sodafoundation/api",
+  "url": "https://github.com/sodafoundation/api",
+  "description": "SODA Terra Project API module : is an open source implementation of SODA API connecting storage to platforms like Kubernetes, OpenStack, and VMware",
+  "language": null,
+  "stars": 830,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.182909+00:00"
+  },
+  "cncf": {
+    "name": "Soda Foundation",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "imported_at": "2026-02-11T23:30:15.182910+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "quay",
+  "name": "quay",
+  "full_name": "quay/quay",
+  "url": "https://github.com/quay/quay",
+  "description": "Build, Store, and Distribute your Applications and Containers",
+  "language": null,
+  "stars": 2739,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.167109+00:00"
+  },
+  "cncf": {
+    "name": "Quay",
+    "category": "Provisioning",
+    "subcategory": "Container Registry",
+    "imported_at": "2026-02-11T23:30:15.167110+00:00"
+  }
+}

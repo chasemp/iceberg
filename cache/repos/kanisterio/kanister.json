@@ -1,0 +1,19 @@
+{
+  "owner": "kanisterio",
+  "name": "kanister",
+  "full_name": "kanisterio/kanister",
+  "url": "https://github.com/kanisterio/kanister",
+  "description": "An extensible framework for application-level data management on Kubernetes, Kanister is a Cloud Native Computing Foundation sandbox project and was originally created by the Veeam Kasten team.",
+  "language": null,
+  "stars": 857,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.089737+00:00"
+  },
+  "cncf": {
+    "name": "Kanister",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "imported_at": "2026-02-11T23:30:15.089739+00:00"
+  }
+}

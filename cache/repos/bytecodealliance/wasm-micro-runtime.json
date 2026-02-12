@@ -1,0 +1,19 @@
+{
+  "owner": "bytecodealliance",
+  "name": "wasm-micro-runtime",
+  "full_name": "bytecodealliance/wasm-micro-runtime",
+  "url": "https://github.com/bytecodealliance/wasm-micro-runtime",
+  "description": "WebAssembly Micro Runtime (WAMR)",
+  "language": null,
+  "stars": 5767,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.210032+00:00"
+  },
+  "cncf": {
+    "name": "WAMR",
+    "category": "Wasm",
+    "subcategory": "Runtimes",
+    "imported_at": "2026-02-11T23:30:15.210033+00:00"
+  }
+}

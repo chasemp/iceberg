@@ -1,0 +1,19 @@
+{
+  "owner": "langfuse",
+  "name": "langfuse",
+  "full_name": "langfuse/langfuse",
+  "url": "https://github.com/langfuse/langfuse",
+  "description": "\ud83e\udea2 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. \ud83c\udf4aYC W23 ",
+  "language": null,
+  "stars": 21579,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.124484+00:00"
+  },
+  "cncf": {
+    "name": "Langfuse",
+    "category": "CNAI",
+    "subcategory": "Model/LLM Observability",
+    "imported_at": "2026-02-11T23:30:15.124485+00:00"
+  }
+}

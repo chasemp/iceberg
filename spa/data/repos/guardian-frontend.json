@@ -7,18 +7,30 @@
     "owner": "guardian",
     "repo": "frontend",
     "version": "HEAD",
-    "loc": 107391,
+    "loc": 107396,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:28:26.435930+00:00",
+    "cached_at": "2026-02-11T00:32:24.519310+00:00",
     "package": {
       "system": "npm",
       "name": "@guardian/frontend",
       "version": "0.1.0"
     },
+    "total_loc": 130014,
+    "ratio": 0.5476348932226949,
     "repo_url": "https://github.com/guardian/frontend.git",
     "ref": "HEAD",
-    "commit_hash": "f71eae44b158e597bda5346c4fffed1d256ee9df",
-    "clone_duration_seconds": 6.549156427383423,
-    "count_duration_seconds": 0.14761877059936523
+    "commit_hash": "6b60661a97ce0a74213801dee627864374559e8c",
+    "clone_duration_seconds": 9.634655952453613,
+    "count_duration_seconds": 0.6965851783752441,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

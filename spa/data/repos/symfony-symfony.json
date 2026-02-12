@@ -7,13 +7,23 @@
     "owner": "symfony",
     "repo": "symfony",
     "version": "HEAD",
-    "loc": 1616295,
+    "loc": 1618270,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:05:15.837561+00:00",
+    "cached_at": "2026-02-10T23:20:38.959802+00:00",
     "repo_url": "https://github.com/symfony/symfony.git",
     "ref": "HEAD",
-    "commit_hash": "b4ef904ac04c056b53b057db0dff68779cff23ee",
-    "clone_duration_seconds": 5.7761008739471436,
-    "count_duration_seconds": 1.2250194549560547
+    "commit_hash": "04fb7a1734879d6699f879ebaa4836d8138a1e19",
+    "clone_duration_seconds": 7.501575946807861,
+    "count_duration_seconds": 1.3870830535888672,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "owner": "Icinga",
+  "name": "icinga2",
+  "full_name": "Icinga/icinga2",
+  "url": "https://github.com/Icinga/icinga2",
+  "description": "The core of our monitoring platform with a powerful configuration language and REST API.",
+  "language": null,
+  "stars": 2171,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.078710+00:00"
+  },
+  "cncf": {
+    "name": "Icinga",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.078711+00:00"
+  }
+}

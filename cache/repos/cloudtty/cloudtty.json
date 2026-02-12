@@ -1,0 +1,19 @@
+{
+  "owner": "cloudtty",
+  "name": "cloudtty",
+  "full_name": "cloudtty/cloudtty",
+  "url": "https://github.com/cloudtty/cloudtty",
+  "description": "A Friendly Kubernetes CloudShell (Web Terminal) ! ",
+  "language": null,
+  "stars": 640,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.988953+00:00"
+  },
+  "cncf": {
+    "name": "CloudTTY",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:14.988954+00:00"
+  }
+}

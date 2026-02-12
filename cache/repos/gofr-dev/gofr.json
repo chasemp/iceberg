@@ -1,0 +1,19 @@
+{
+  "owner": "gofr-dev",
+  "name": "gofr",
+  "full_name": "gofr-dev/gofr",
+  "url": "https://github.com/gofr-dev/gofr",
+  "description": "An opinionated GoLang framework for accelerated microservice development. Built in support for databases and observability.",
+  "language": null,
+  "stars": 15935,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.060289+00:00"
+  },
+  "cncf": {
+    "name": "GoFr",
+    "category": "Orchestration & Management",
+    "subcategory": "Remote Procedure Call",
+    "imported_at": "2026-02-11T23:30:15.060290+00:00"
+  }
+}

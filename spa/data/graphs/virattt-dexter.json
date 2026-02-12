@@ -2,15 +2,15 @@
   "owner": "virattt",
   "repo": "dexter",
   "full_name": "virattt/dexter",
-  "root_package": "npm:dexter-ts:3.2.0",
+  "root_package": "npm:dexter-ts:2026.2.10",
   "nodes": [
     {
-      "id": "npm:dexter-ts:3.2.0",
+      "id": "npm:dexter-ts:2026.2.10",
       "system": "npm",
       "name": "dexter-ts",
-      "version": "3.2.0"
+      "version": "2026.2.10"
     }
   ],
   "edges": [],
-  "generated_at": "2026-02-10T07:49:02.445824+00:00"
+  "generated_at": "2026-02-12T15:02:43.026646+00:00"
 }

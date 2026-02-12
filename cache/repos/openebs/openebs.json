@@ -1,0 +1,19 @@
+{
+  "owner": "openebs",
+  "name": "openebs",
+  "full_name": "openebs/openebs",
+  "url": "https://github.com/openebs/openebs",
+  "description": "A popular & widely deployed Open Source Container Native Storage platform for Stateful Persistent Applications on Kubernetes.",
+  "language": null,
+  "stars": 9610,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.146699+00:00"
+  },
+  "cncf": {
+    "name": "OpenEBS",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "imported_at": "2026-02-11T23:30:15.146699+00:00"
+  }
+}

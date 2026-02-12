@@ -1,0 +1,19 @@
+{
+  "owner": "liquibase",
+  "name": "liquibase",
+  "full_name": "liquibase/liquibase",
+  "url": "https://github.com/liquibase/liquibase",
+  "description": "Main Liquibase Source",
+  "language": null,
+  "stars": 5410,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.126510+00:00"
+  },
+  "cncf": {
+    "name": "Liquibase",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.126512+00:00"
+  }
+}

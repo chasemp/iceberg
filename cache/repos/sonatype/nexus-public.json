@@ -1,0 +1,19 @@
+{
+  "owner": "sonatype",
+  "name": "nexus-public",
+  "full_name": "sonatype/nexus-public",
+  "url": "https://github.com/sonatype/nexus-public",
+  "description": "Sonatype Nexus Repository Open-source codebase mirror",
+  "language": null,
+  "stars": 2433,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.183947+00:00"
+  },
+  "cncf": {
+    "name": "Sonatype",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.183948+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "hadoop",
+  "full_name": "apache/hadoop",
+  "url": "https://github.com/apache/hadoop",
+  "description": "Apache Hadoop",
+  "language": null,
+  "stars": 15467,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.903959+00:00"
+  },
+  "cncf": {
+    "name": "Hadoop HDFS",
+    "category": "CNAI",
+    "subcategory": "Data Architecture",
+    "imported_at": "2026-02-11T23:30:15.066019+00:00"
+  }
+}

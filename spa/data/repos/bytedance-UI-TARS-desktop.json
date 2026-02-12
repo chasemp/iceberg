@@ -1,0 +1,36 @@
+{
+  "owner": "bytedance",
+  "repo": "UI-TARS-desktop",
+  "full_name": "bytedance/UI-TARS-desktop",
+  "url": "https://github.com/bytedance/UI-TARS-desktop",
+  "analysis": {
+    "owner": "bytedance",
+    "repo": "UI-TARS-desktop",
+    "version": "HEAD",
+    "loc": 9069,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:51:49.749352+00:00",
+    "package": {
+      "system": "npm",
+      "name": "monorepo",
+      "version": "0.0.1"
+    },
+    "total_loc": 335219,
+    "ratio": 0.9736586811041918,
+    "repo_url": "https://github.com/bytedance/UI-TARS-desktop.git",
+    "ref": "v0.0.1",
+    "commit_hash": "5bb30726049eb72caf1bd0be866a88d17604945d",
+    "clone_duration_seconds": 1.1768858432769775,
+    "count_duration_seconds": 0.012706756591796875,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

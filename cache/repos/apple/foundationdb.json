@@ -1,0 +1,19 @@
+{
+  "owner": "apple",
+  "name": "foundationdb",
+  "full_name": "apple/foundationdb",
+  "url": "https://github.com/apple/foundationdb",
+  "description": "FoundationDB - the open source, distributed, transactional key-value store",
+  "language": null,
+  "stars": 16120,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.055592+00:00"
+  },
+  "cncf": {
+    "name": "FoundationDB",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.055593+00:00"
+  }
+}

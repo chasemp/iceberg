@@ -1,0 +1,16 @@
+{
+  "owner": "jaywcjlove",
+  "repo": "awesome-mac",
+  "full_name": "jaywcjlove/awesome-mac",
+  "root_package": "npm:awesome-mac:1.11.0",
+  "nodes": [
+    {
+      "id": "npm:awesome-mac:1.11.0",
+      "system": "npm",
+      "name": "awesome-mac",
+      "version": "1.11.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-12T15:02:43.163658+00:00"
+}

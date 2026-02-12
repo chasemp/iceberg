@@ -1,0 +1,19 @@
+{
+  "owner": "jhipster",
+  "name": "generator-jhipster",
+  "full_name": "jhipster/generator-jhipster",
+  "url": "https://github.com/jhipster/generator-jhipster",
+  "description": "JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures.",
+  "language": null,
+  "stars": 22342,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.084361+00:00"
+  },
+  "cncf": {
+    "name": "JHipster",
+    "category": "Platform",
+    "subcategory": "PaaS/Container Service",
+    "imported_at": "2026-02-11T23:30:15.084362+00:00"
+  }
+}

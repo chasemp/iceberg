@@ -9,15 +9,21 @@
     "version": "HEAD",
     "loc": 67,
     "source": "github_clone",
-    "cached_at": "2026-02-09T20:13:52.478703+00:00",
+    "cached_at": "2026-02-11T15:45:09.883559+00:00",
     "repo_url": "https://github.com/Pierian-Data/Complete-Python-3-Bootcamp.git",
     "ref": "HEAD",
     "commit_hash": "ed69ec6b229de6b96a325f17be839a7eadeec60a",
-    "clone_duration_seconds": 3.280155897140503,
-    "count_duration_seconds": 0.009093761444091797,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-top-100-forks",
-    "tracked": false,
-    "maintenance_priority": "medium"
+    "clone_duration_seconds": 2.7555432319641113,
+    "count_duration_seconds": 0.009901046752929688,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

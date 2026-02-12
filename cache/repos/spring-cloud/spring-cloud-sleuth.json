@@ -1,0 +1,19 @@
+{
+  "owner": "spring-cloud",
+  "name": "spring-cloud-sleuth",
+  "full_name": "spring-cloud/spring-cloud-sleuth",
+  "url": "https://github.com/spring-cloud/spring-cloud-sleuth",
+  "description": "Distributed tracing for spring cloud",
+  "language": null,
+  "stars": 1795,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.187399+00:00"
+  },
+  "cncf": {
+    "name": "Spring Cloud Sleuth",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.187400+00:00"
+  }
+}

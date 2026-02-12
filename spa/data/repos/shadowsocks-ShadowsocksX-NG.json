@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 30883,
     "source": "github_clone",
-    "cached_at": "2026-02-10T06:57:29.076296+00:00",
+    "cached_at": "2026-02-11T00:12:04.197535+00:00",
     "repo_url": "https://github.com/shadowsocks/ShadowsocksX-NG.git",
     "ref": "HEAD",
     "commit_hash": "719203afc60e1dbab00e459ebcfecc468e7700bd",
-    "clone_duration_seconds": 0.9088742733001709,
-    "count_duration_seconds": 0.036357879638671875
+    "clone_duration_seconds": 1.2427499294281006,
+    "count_duration_seconds": 0.046356201171875,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

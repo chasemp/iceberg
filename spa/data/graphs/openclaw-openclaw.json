@@ -2,15 +2,15 @@
   "owner": "openclaw",
   "repo": "openclaw",
   "full_name": "openclaw/openclaw",
-  "root_package": "npm:openclaw:2026.2.1",
+  "root_package": "npm:openclaw:2026.2.9",
   "nodes": [
     {
-      "id": "npm:openclaw:2026.2.1",
+      "id": "npm:openclaw:2026.2.9",
       "system": "npm",
       "name": "openclaw",
-      "version": "2026.2.1"
+      "version": "2026.2.9"
     }
   ],
   "edges": [],
-  "generated_at": "2026-02-10T07:49:02.477682+00:00"
+  "generated_at": "2026-02-12T15:02:43.066615+00:00"
 }

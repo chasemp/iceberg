@@ -1,0 +1,19 @@
+{
+  "owner": "openshift",
+  "name": "kubernetes",
+  "full_name": "openshift/kubernetes",
+  "url": "https://github.com/openshift/kubernetes",
+  "description": "This is the repo that tracks all patches to the OpenShift distribution of Kubernetes on branches corresponding to OpenShift releases.  See https://github.com/openshift/kubernetes/blob/master/README.openshift.md for more",
+  "language": null,
+  "stars": 95,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.169343+00:00"
+  },
+  "cncf": {
+    "name": "Red Hat OpenShift",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Distribution",
+    "imported_at": "2026-02-11T23:30:15.169344+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "emissary-ingress",
+  "name": "emissary",
+  "full_name": "emissary-ingress/emissary",
+  "url": "https://github.com/emissary-ingress/emissary",
+  "description": "open source Kubernetes-native API gateway for microservices built on the Envoy Proxy",
+  "language": null,
+  "stars": 4489,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.046290+00:00"
+  },
+  "cncf": {
+    "name": "Emissary-Ingress",
+    "category": "Orchestration & Management",
+    "subcategory": "API Gateway",
+    "imported_at": "2026-02-11T23:30:15.046291+00:00"
+  }
+}

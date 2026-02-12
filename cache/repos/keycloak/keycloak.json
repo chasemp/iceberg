@@ -1,0 +1,19 @@
+{
+  "owner": "keycloak",
+  "name": "keycloak",
+  "full_name": "keycloak/keycloak",
+  "url": "https://github.com/keycloak/keycloak",
+  "description": "Open Source Identity and Access Management For Modern Applications and Services",
+  "language": null,
+  "stars": 32673,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.093303+00:00"
+  },
+  "cncf": {
+    "name": "Keycloak",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.093304+00:00"
+  }
+}

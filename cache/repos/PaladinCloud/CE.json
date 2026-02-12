@@ -1,0 +1,19 @@
+{
+  "owner": "PaladinCloud",
+  "name": "CE",
+  "full_name": "PaladinCloud/CE",
+  "url": "https://github.com/PaladinCloud/CE",
+  "description": "Paladin Cloud is an extensible, cloud security platform for developers.  Join the community at https://discord.gg/xvCFD29Jj4",
+  "language": null,
+  "stars": 566,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.154392+00:00"
+  },
+  "cncf": {
+    "name": "Paladin Cloud",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.154393+00:00"
+  }
+}

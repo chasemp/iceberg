@@ -1,0 +1,19 @@
+{
+  "owner": "spinframework",
+  "name": "spin-operator",
+  "full_name": "spinframework/spin-operator",
+  "url": "https://github.com/spinframework/spin-operator",
+  "description": "Spin Operator is a Kubernetes operator that empowers platform engineers to deploy Spin applications as custom resources to their Kubernetes clusters",
+  "language": null,
+  "stars": 278,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.186641+00:00"
+  },
+  "cncf": {
+    "name": "SpinKube",
+    "category": "Wasm",
+    "subcategory": "Orchestration & Management",
+    "imported_at": "2026-02-11T23:30:15.186642+00:00"
+  }
+}

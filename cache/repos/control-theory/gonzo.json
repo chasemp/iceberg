@@ -1,0 +1,19 @@
+{
+  "owner": "control-theory",
+  "name": "gonzo",
+  "full_name": "control-theory/gonzo",
+  "url": "https://github.com/control-theory/gonzo",
+  "description": "Gonzo! The Go based TUI log analysis tool",
+  "language": null,
+  "stars": 2419,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.061365+00:00"
+  },
+  "cncf": {
+    "name": "Gonzo",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.061366+00:00"
+  }
+}

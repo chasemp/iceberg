@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "yunikorn-core",
+  "full_name": "apache/yunikorn-core",
+  "url": "https://github.com/apache/yunikorn-core",
+  "description": "Apache YuniKorn Core",
+  "language": null,
+  "stars": 1000,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.217843+00:00"
+  },
+  "cncf": {
+    "name": "Yunikorn",
+    "category": "CNAI",
+    "subcategory": "General Orchestration",
+    "imported_at": "2026-02-11T23:30:15.217844+00:00"
+  }
+}

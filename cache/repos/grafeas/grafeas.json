@@ -1,0 +1,19 @@
+{
+  "owner": "grafeas",
+  "name": "grafeas",
+  "full_name": "grafeas/grafeas",
+  "url": "https://github.com/grafeas/grafeas",
+  "description": "Artifact Metadata API",
+  "language": null,
+  "stars": 1563,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.063002+00:00"
+  },
+  "cncf": {
+    "name": "Grafeas",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.063003+00:00"
+  }
+}

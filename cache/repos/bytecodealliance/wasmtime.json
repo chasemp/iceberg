@@ -1,0 +1,19 @@
+{
+  "owner": "bytecodealliance",
+  "name": "wasmtime",
+  "full_name": "bytecodealliance/wasmtime",
+  "url": "https://github.com/bytecodealliance/wasmtime",
+  "description": "A lightweight WebAssembly runtime that is fast, secure, and standards-compliant",
+  "language": null,
+  "stars": 17538,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.213450+00:00"
+  },
+  "cncf": {
+    "name": "Wasmtime",
+    "category": "Wasm",
+    "subcategory": "Runtimes",
+    "imported_at": "2026-02-11T23:30:15.213451+00:00"
+  }
+}

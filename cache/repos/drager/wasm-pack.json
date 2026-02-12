@@ -1,0 +1,19 @@
+{
+  "owner": "drager",
+  "name": "wasm-pack",
+  "full_name": "drager/wasm-pack",
+  "url": "https://github.com/drager/wasm-pack",
+  "description": "\ud83d\udce6\u2728 your favorite rust -> wasm workflow tool!",
+  "language": null,
+  "stars": 7067,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.211694+00:00"
+  },
+  "cncf": {
+    "name": "wasm-pack",
+    "category": "Wasm",
+    "subcategory": "Tooling",
+    "imported_at": "2026-02-11T23:30:15.211694+00:00"
+  }
+}

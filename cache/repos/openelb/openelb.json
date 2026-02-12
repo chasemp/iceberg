@@ -1,0 +1,19 @@
+{
+  "owner": "openelb",
+  "name": "openelb",
+  "full_name": "openelb/openelb",
+  "url": "https://github.com/openelb/openelb",
+  "description": "Load Balancer Implementation for Kubernetes in Bare-Metal, Edge, and Virtualization",
+  "language": null,
+  "stars": 1780,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.146860+00:00"
+  },
+  "cncf": {
+    "name": "OpenELB",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Proxy",
+    "imported_at": "2026-02-11T23:30:15.146861+00:00"
+  }
+}

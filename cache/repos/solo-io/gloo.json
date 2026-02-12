@@ -1,0 +1,19 @@
+{
+  "owner": "solo-io",
+  "name": "gloo",
+  "full_name": "solo-io/gloo",
+  "url": "https://github.com/solo-io/gloo",
+  "description": "The Cloud-Native API Gateway and AI Gateway",
+  "language": null,
+  "stars": 148,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.058730+00:00"
+  },
+  "cncf": {
+    "name": "Gloo",
+    "category": "Orchestration & Management",
+    "subcategory": "API Gateway",
+    "imported_at": "2026-02-11T23:30:15.058731+00:00"
+  }
+}

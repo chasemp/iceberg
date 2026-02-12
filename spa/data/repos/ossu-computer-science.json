@@ -1,0 +1,29 @@
+{
+  "owner": "ossu",
+  "repo": "computer-science",
+  "full_name": "ossu/computer-science",
+  "url": "https://github.com/ossu/computer-science",
+  "analysis": {
+    "owner": "ossu",
+    "repo": "computer-science",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:30:44.878862+00:00",
+    "repo_url": "https://github.com/ossu/computer-science.git",
+    "ref": "HEAD",
+    "commit_hash": "bf6af682c68f6fee6584fed991d7faa20afbdb0b",
+    "clone_duration_seconds": 0.9779939651489258,
+    "count_duration_seconds": 0.0036509037017822266,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

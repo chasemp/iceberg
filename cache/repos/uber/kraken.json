@@ -1,0 +1,19 @@
+{
+  "owner": "uber",
+  "name": "kraken",
+  "full_name": "uber/kraken",
+  "url": "https://github.com/uber/kraken",
+  "description": "P2P Docker registry capable of distributing TBs of data in seconds",
+  "language": null,
+  "stars": 6634,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.099452+00:00"
+  },
+  "cncf": {
+    "name": "Kraken",
+    "category": "Provisioning",
+    "subcategory": "Container Registry",
+    "imported_at": "2026-02-11T23:30:15.099453+00:00"
+  }
+}

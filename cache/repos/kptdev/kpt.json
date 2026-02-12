@@ -1,0 +1,19 @@
+{
+  "owner": "kptdev",
+  "name": "kpt",
+  "full_name": "kptdev/kpt",
+  "url": "https://github.com/kptdev/kpt",
+  "description": "Automate Kubernetes Configuration Editing",
+  "language": null,
+  "stars": 1847,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.099187+00:00"
+  },
+  "cncf": {
+    "name": "kpt",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.099188+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "brpc",
+  "full_name": "apache/brpc",
+  "url": "https://github.com/apache/brpc",
+  "description": "brpc is an Industrial-grade RPC framework using C++ Language, which is often used in high performance system such as Search, Storage, Machine learning, Advertisement, Recommendation etc. \"brpc\" means \"better RPC\".",
+  "language": null,
+  "stars": 17460,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.902479+00:00"
+  },
+  "cncf": {
+    "name": "Apache bRPC",
+    "category": "Orchestration & Management",
+    "subcategory": "Remote Procedure Call",
+    "imported_at": "2026-02-11T23:30:14.902480+00:00"
+  }
+}

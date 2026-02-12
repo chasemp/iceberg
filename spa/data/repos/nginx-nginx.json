@@ -7,13 +7,23 @@
     "owner": "nginx",
     "repo": "nginx",
     "version": "HEAD",
-    "loc": 164157,
+    "loc": 164158,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:38:35.756136+00:00",
+    "cached_at": "2026-02-11T15:01:59.767166+00:00",
     "repo_url": "https://github.com/nginx/nginx.git",
     "ref": "HEAD",
-    "commit_hash": "1f57d8dc9d386b46ba7e156e25345b70843e7f55",
-    "clone_duration_seconds": 1.200939655303955,
-    "count_duration_seconds": 0.07063555717468262
+    "commit_hash": "f8e1bc5b9821eba7995905fe46c8ca383b5ea782",
+    "clone_duration_seconds": 1.4503278732299805,
+    "count_duration_seconds": 0.06635117530822754,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

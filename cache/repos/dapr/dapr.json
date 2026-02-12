@@ -1,0 +1,19 @@
+{
+  "owner": "dapr",
+  "name": "dapr",
+  "full_name": "dapr/dapr",
+  "url": "https://github.com/dapr/dapr",
+  "description": "Dapr is a portable runtime for building distributed applications across cloud and edge, combining event-driven architecture with workflow orchestration.",
+  "language": null,
+  "stars": 25479,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.036268+00:00"
+  },
+  "cncf": {
+    "name": "Dapr",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.036269+00:00"
+  }
+}

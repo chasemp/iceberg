@@ -16,5 +16,15 @@
   "ref": "HEAD",
   "commit_hash": "e7cc489a9f0f183fbaa6718babddedb314d8b302",
   "clone_duration_seconds": 1.8623321056365967,
-  "count_duration_seconds": 0.0881950855255127
+  "count_duration_seconds": 0.0881950855255127,
+  "ai_markers": {
+    "claude": false,
+    "cursor": false,
+    "copilot": false,
+    "aider": false,
+    "windsurf": false,
+    "cline": false,
+    "codex": false,
+    "generic_ai": false
+  }
 }

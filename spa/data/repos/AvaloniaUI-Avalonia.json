@@ -7,13 +7,23 @@
     "owner": "AvaloniaUI",
     "repo": "Avalonia",
     "version": "HEAD",
-    "loc": 264730,
+    "loc": 264733,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:15:20.365316+00:00",
+    "cached_at": "2026-02-11T00:22:43.191274+00:00",
     "repo_url": "https://github.com/AvaloniaUI/Avalonia.git",
     "ref": "HEAD",
-    "commit_hash": "abe839e1c133b12524d8ba24fbc831e29e354a29",
-    "clone_duration_seconds": 2.683697462081909,
-    "count_duration_seconds": 0.2715284824371338
+    "commit_hash": "ddba811d8612dca8f5d13ac53bb443b6d7d8c803",
+    "clone_duration_seconds": 4.659560918807983,
+    "count_duration_seconds": 0.6186001300811768,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

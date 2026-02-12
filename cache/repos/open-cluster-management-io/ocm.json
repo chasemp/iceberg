@@ -1,0 +1,19 @@
+{
+  "owner": "open-cluster-management-io",
+  "name": "ocm",
+  "full_name": "open-cluster-management-io/ocm",
+  "url": "https://github.com/open-cluster-management-io/ocm",
+  "description": "Core components in the OCM project. Report here if you found any issues in OCM.",
+  "language": null,
+  "stars": 1015,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.144577+00:00"
+  },
+  "cncf": {
+    "name": "Open Cluster Management",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.144579+00:00"
+  }
+}

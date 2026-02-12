@@ -1,0 +1,19 @@
+{
+  "owner": "xline-kv",
+  "name": "Xline",
+  "full_name": "xline-kv/Xline",
+  "url": "https://github.com/xline-kv/Xline",
+  "description": "A geo-distributed KV store for metadata management",
+  "language": null,
+  "stars": 694,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.216247+00:00"
+  },
+  "cncf": {
+    "name": "Xline",
+    "category": "Orchestration & Management",
+    "subcategory": "Coordination & Service Discovery",
+    "imported_at": "2026-02-11T23:30:15.216248+00:00"
+  }
+}

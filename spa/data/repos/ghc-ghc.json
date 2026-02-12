@@ -7,13 +7,25 @@
     "owner": "ghc",
     "repo": "ghc",
     "version": "HEAD",
-    "loc": 92177,
+    "loc": 92166,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:21:11.027752+00:00",
+    "cached_at": "2026-02-11T00:11:11.928340+00:00",
+    "total_loc": 54498,
+    "ratio": 0.37158402880052366,
     "repo_url": "https://github.com/ghc/ghc.git",
     "ref": "HEAD",
-    "commit_hash": "89898ce6706e5a5e92081cea60f3eeabeda08242",
-    "clone_duration_seconds": 5.050771474838257,
-    "count_duration_seconds": 0.3311021327972412
+    "commit_hash": "cf60850a4bea5523ef26be20757ef0042da9649e",
+    "clone_duration_seconds": 8.296533823013306,
+    "count_duration_seconds": 0.36664295196533203,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

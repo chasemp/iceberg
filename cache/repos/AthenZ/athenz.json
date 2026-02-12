@@ -1,0 +1,19 @@
+{
+  "owner": "AthenZ",
+  "name": "athenz",
+  "full_name": "AthenZ/athenz",
+  "url": "https://github.com/AthenZ/athenz",
+  "description": "Open source platform for X.509 certificate based service authentication and fine grained access control in dynamic infrastructures. Athenz supports provisioning and configuration (centralized authorization) use cases as well as serving/runtime (decentralized authorization) use cases.",
+  "language": null,
+  "stars": 978,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.916448+00:00"
+  },
+  "cncf": {
+    "name": "Athenz",
+    "category": "Provisioning",
+    "subcategory": "Key Management",
+    "imported_at": "2026-02-11T23:30:14.916449+00:00"
+  }
+}

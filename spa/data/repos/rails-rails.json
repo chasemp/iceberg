@@ -7,13 +7,25 @@
     "owner": "rails",
     "repo": "rails",
     "version": "HEAD",
-    "loc": 125193,
+    "loc": 125207,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:21:28.281927+00:00",
+    "cached_at": "2026-02-11T00:35:24.771775+00:00",
+    "total_loc": 30571,
+    "ratio": 0.1962472236130904,
     "repo_url": "https://github.com/rails/rails.git",
     "ref": "HEAD",
-    "commit_hash": "e0e483e08821c9aae353d56e3c1da8980bd95e10",
-    "clone_duration_seconds": 2.1794471740722656,
-    "count_duration_seconds": 0.19916391372680664
+    "commit_hash": "661442a0f7acc51ef64e91c74c7a1a7df41a1dcf",
+    "clone_duration_seconds": 3.4666128158569336,
+    "count_duration_seconds": 0.2803781032562256,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

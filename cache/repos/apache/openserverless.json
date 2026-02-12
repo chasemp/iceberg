@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "openserverless",
+  "full_name": "apache/openserverless",
+  "url": "https://github.com/apache/openserverless",
+  "description": "Apache OpenServerless (incubating)",
+  "language": null,
+  "stars": 565,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.905625+00:00"
+  },
+  "cncf": {
+    "name": "Apache OpenServerless",
+    "category": "Serverless",
+    "subcategory": "Installable Platform",
+    "imported_at": "2026-02-11T23:30:14.905627+00:00"
+  }
+}

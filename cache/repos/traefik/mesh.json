@@ -1,0 +1,19 @@
+{
+  "owner": "traefik",
+  "name": "mesh",
+  "full_name": "traefik/mesh",
+  "url": "https://github.com/traefik/mesh",
+  "description": "Traefik Mesh - Simpler Service Mesh",
+  "language": null,
+  "stars": 2082,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.202388+00:00"
+  },
+  "cncf": {
+    "name": "Traefik Mesh",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Mesh",
+    "imported_at": "2026-02-11T23:30:15.202389+00:00"
+  }
+}

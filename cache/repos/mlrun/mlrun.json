@@ -1,0 +1,19 @@
+{
+  "owner": "mlrun",
+  "name": "mlrun",
+  "full_name": "mlrun/mlrun",
+  "url": "https://github.com/mlrun/mlrun",
+  "description": "MLRun is an open source MLOps platform for quickly building and managing continuous ML applications across their lifecycle. MLRun integrates into your development and CI/CD environment and automates the delivery of production data, ML pipelines, and online applications.",
+  "language": null,
+  "stars": 1648,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.135841+00:00"
+  },
+  "cncf": {
+    "name": "MLRun",
+    "category": "CNAI",
+    "subcategory": "CI/CD - Delivery",
+    "imported_at": "2026-02-11T23:30:15.135842+00:00"
+  }
+}

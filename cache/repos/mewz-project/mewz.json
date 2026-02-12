@@ -1,0 +1,19 @@
+{
+  "owner": "mewz-project",
+  "name": "mewz",
+  "full_name": "mewz-project/mewz",
+  "url": "https://github.com/mewz-project/mewz",
+  "description": "A unikernel designed specifically for running Wasm applications and compatible with WASI",
+  "language": null,
+  "stars": 654,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.133349+00:00"
+  },
+  "cncf": {
+    "name": "Mewz",
+    "category": "Wasm",
+    "subcategory": "Runtimes",
+    "imported_at": "2026-02-11T23:30:15.133350+00:00"
+  }
+}

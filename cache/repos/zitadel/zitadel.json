@@ -1,0 +1,19 @@
+{
+  "owner": "zitadel",
+  "name": "zitadel",
+  "full_name": "zitadel/zitadel",
+  "url": "https://github.com/zitadel/zitadel",
+  "description": "ZITADEL - Identity infrastructure, simplified for\u00a0you.",
+  "language": null,
+  "stars": 12916,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.219009+00:00"
+  },
+  "cncf": {
+    "name": "Zitadel",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.219010+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "cloudfoundry",
+  "name": "bosh",
+  "full_name": "cloudfoundry/bosh",
+  "url": "https://github.com/cloudfoundry/bosh",
+  "description": "Cloud Foundry BOSH is an open source tool chain for release engineering, deployment and lifecycle management of large scale distributed services.",
+  "language": null,
+  "stars": 2070,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.949700+00:00"
+  },
+  "cncf": {
+    "name": "BOSH",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:14.949701+00:00"
+  }
+}

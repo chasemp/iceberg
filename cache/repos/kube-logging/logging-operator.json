@@ -1,0 +1,19 @@
+{
+  "owner": "kube-logging",
+  "name": "logging-operator",
+  "full_name": "kube-logging/logging-operator",
+  "url": "https://github.com/kube-logging/logging-operator",
+  "description": "Logging operator for Kubernetes",
+  "language": null,
+  "stars": 1678,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.127667+00:00"
+  },
+  "cncf": {
+    "name": "Logging Operator (Kube Logging)",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.127668+00:00"
+  }
+}

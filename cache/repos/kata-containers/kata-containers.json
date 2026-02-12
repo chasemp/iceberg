@@ -1,0 +1,19 @@
+{
+  "owner": "kata-containers",
+  "name": "kata-containers",
+  "full_name": "kata-containers/kata-containers",
+  "url": "https://github.com/kata-containers/kata-containers",
+  "description": "Kata Containers is an open source project and community working to build a standard implementation of lightweight Virtual Machines (VMs) that feel and perform like containers, but provide the workload isolation and security advantages of VMs. https://katacontainers.io/",
+  "language": null,
+  "stars": 7384,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.090995+00:00"
+  },
+  "cncf": {
+    "name": "Kata Containers",
+    "category": "Runtime",
+    "subcategory": "Container Runtime",
+    "imported_at": "2026-02-11T23:30:15.090996+00:00"
+  }
+}

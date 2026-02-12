@@ -1,0 +1,19 @@
+{
+  "owner": "alibaba",
+  "name": "Sentinel",
+  "full_name": "alibaba/Sentinel",
+  "url": "https://github.com/alibaba/Sentinel",
+  "description": "A powerful flow control component enabling reliability, resilience and monitoring for microservices. (\u9762\u5411\u4e91\u539f\u751f\u5fae\u670d\u52a1\u7684\u9ad8\u53ef\u7528\u6d41\u63a7\u9632\u62a4\u7ec4\u4ef6)",
+  "language": null,
+  "stars": 23057,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.176312+00:00"
+  },
+  "cncf": {
+    "name": "Sentinel",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Proxy",
+    "imported_at": "2026-02-11T23:30:15.176313+00:00"
+  }
+}

@@ -3,7 +3,6 @@ from typing import Any, Callable
 
 from iceberg.cache import (
     get_default_cache_dir,
-    save_discovered_repos,
     save_repo_metadata,
 )
 from iceberg.github import fetch_trending_repos
@@ -97,9 +96,7 @@ def save_discovery_results(
             sources[source] = []
         sources[source].append(repo)
 
-    for source, repos in sources.items():
-        save_discovered_repos(repos, cache_dir=cache_dir)
-
+    # Save all repos to cache/repos/ with category tracking
     for repo in all_repos:
         save_repo_metadata(repo, repo.source, cache_dir=cache_dir)
 

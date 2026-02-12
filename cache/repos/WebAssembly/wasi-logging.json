@@ -1,0 +1,19 @@
+{
+  "owner": "WebAssembly",
+  "name": "wasi-logging",
+  "full_name": "WebAssembly/wasi-logging",
+  "url": "https://github.com/WebAssembly/wasi-logging",
+  "description": "WASI logging API",
+  "language": null,
+  "stars": 24,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.210949+00:00"
+  },
+  "cncf": {
+    "name": "wasi-logging",
+    "category": "Wasm",
+    "subcategory": "Debugging & Observability",
+    "imported_at": "2026-02-11T23:30:15.210950+00:00"
+  }
+}

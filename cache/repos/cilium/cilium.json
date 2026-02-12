@@ -1,0 +1,19 @@
+{
+  "owner": "cilium",
+  "name": "cilium",
+  "full_name": "cilium/cilium",
+  "url": "https://github.com/cilium/cilium",
+  "description": "eBPF-based Networking, Security, and Observability",
+  "language": null,
+  "stars": 23620,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.985167+00:00"
+  },
+  "cncf": {
+    "name": "Cilium",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Network",
+    "imported_at": "2026-02-11T23:30:14.985169+00:00"
+  }
+}

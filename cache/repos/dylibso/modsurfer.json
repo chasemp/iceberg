@@ -1,0 +1,19 @@
+{
+  "owner": "dylibso",
+  "name": "modsurfer",
+  "full_name": "dylibso/modsurfer",
+  "url": "https://github.com/dylibso/modsurfer",
+  "description": "Devtools to validate, audit and investigate WebAssembly binaries.",
+  "language": null,
+  "stars": 132,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.136189+00:00"
+  },
+  "cncf": {
+    "name": "Modsurfer",
+    "category": "Wasm",
+    "subcategory": "Debugging & Observability",
+    "imported_at": "2026-02-11T23:30:15.136190+00:00"
+  }
+}

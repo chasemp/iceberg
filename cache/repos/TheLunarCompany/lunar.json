@@ -1,0 +1,19 @@
+{
+  "owner": "TheLunarCompany",
+  "name": "lunar",
+  "full_name": "TheLunarCompany/lunar",
+  "url": "https://github.com/TheLunarCompany/lunar",
+  "description": "lunar.dev: Agent native MCP Gateway for governance and security",
+  "language": null,
+  "stars": 395,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.128575+00:00"
+  },
+  "cncf": {
+    "name": "Lunar.dev",
+    "category": "Orchestration & Management",
+    "subcategory": "API Gateway",
+    "imported_at": "2026-02-11T23:30:15.128576+00:00"
+  }
+}

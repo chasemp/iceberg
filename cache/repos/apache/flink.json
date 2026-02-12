@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "flink",
+  "full_name": "apache/flink",
+  "url": "https://github.com/apache/flink",
+  "description": "Apache Flink",
+  "language": null,
+  "stars": 25764,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.903787+00:00"
+  },
+  "cncf": {
+    "name": "Flink",
+    "category": "App Definition and Development",
+    "subcategory": "Streaming & Messaging",
+    "imported_at": "2026-02-11T23:30:15.053089+00:00"
+  }
+}

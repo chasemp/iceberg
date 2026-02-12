@@ -1,0 +1,19 @@
+{
+  "owner": "bootc-dev",
+  "name": "bootc",
+  "full_name": "bootc-dev/bootc",
+  "url": "https://github.com/bootc-dev/bootc",
+  "description": "Boot and upgrade via container images",
+  "language": null,
+  "stars": 1861,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.949386+00:00"
+  },
+  "cncf": {
+    "name": "bootc",
+    "category": "Runtime",
+    "subcategory": "Container Runtime",
+    "imported_at": "2026-02-11T23:30:14.949387+00:00"
+  }
+}

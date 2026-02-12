@@ -1,0 +1,19 @@
+{
+  "owner": "Apicurio",
+  "name": "apicurio-registry",
+  "full_name": "Apicurio/apicurio-registry",
+  "url": "https://github.com/Apicurio/apicurio-registry",
+  "description": "An API/Schema registry - stores APIs and Schemas.",
+  "language": null,
+  "stars": 764,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.909771+00:00"
+  },
+  "cncf": {
+    "name": "Apicurio Registry",
+    "category": "App Definition and Development",
+    "subcategory": "Streaming & Messaging",
+    "imported_at": "2026-02-11T23:30:14.909772+00:00"
+  }
+}

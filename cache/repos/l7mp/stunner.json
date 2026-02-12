@@ -1,0 +1,19 @@
+{
+  "owner": "l7mp",
+  "name": "stunner",
+  "full_name": "l7mp/stunner",
+  "url": "https://github.com/l7mp/stunner",
+  "description": "A Kubernetes media gateway for WebRTC. Contact: info@l7mp.io",
+  "language": null,
+  "stars": 947,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.190870+00:00"
+  },
+  "cncf": {
+    "name": "STUNner",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Proxy",
+    "imported_at": "2026-02-11T23:30:15.190871+00:00"
+  }
+}

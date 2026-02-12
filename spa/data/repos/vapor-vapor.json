@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 28785,
     "source": "github_clone",
-    "cached_at": "2026-02-10T06:58:27.358575+00:00",
+    "cached_at": "2026-02-11T00:13:08.137067+00:00",
     "repo_url": "https://github.com/vapor/vapor.git",
     "ref": "HEAD",
-    "commit_hash": "6f3db7122ccffb28e11e121c3797a176fcb88796",
-    "clone_duration_seconds": 0.8617024421691895,
-    "count_duration_seconds": 0.025152921676635742
+    "commit_hash": "6d06e13021c299aa3300986f4eb5bb143d17ac9b",
+    "clone_duration_seconds": 1.1392788887023926,
+    "count_duration_seconds": 0.03416299819946289,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

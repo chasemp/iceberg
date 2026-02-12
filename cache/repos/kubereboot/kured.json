@@ -1,0 +1,19 @@
+{
+  "owner": "kubereboot",
+  "name": "kured",
+  "full_name": "kubereboot/kured",
+  "url": "https://github.com/kubereboot/kured",
+  "description": "Kubernetes Reboot Daemon",
+  "language": null,
+  "stars": 2445,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.122343+00:00"
+  },
+  "cncf": {
+    "name": "Kured",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.122345+00:00"
+  }
+}

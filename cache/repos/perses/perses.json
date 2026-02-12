@@ -1,0 +1,19 @@
+{
+  "owner": "perses",
+  "name": "perses",
+  "full_name": "perses/perses",
+  "url": "https://github.com/perses/perses",
+  "description": "The CNCF sandbox for observability visualisation. Already supports Prometheus, Tempo, Loki and Pyroscope - more data sources to come!",
+  "language": null,
+  "stars": 1960,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.156417+00:00"
+  },
+  "cncf": {
+    "name": "Perses",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.156419+00:00"
+  }
+}

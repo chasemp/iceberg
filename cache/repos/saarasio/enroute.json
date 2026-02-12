@@ -1,0 +1,19 @@
+{
+  "owner": "saarasio",
+  "name": "enroute",
+  "full_name": "saarasio/enroute",
+  "url": "https://github.com/saarasio/enroute",
+  "description": "EnRoute Ingress API Gateway - Kubernetes-native, Ingress API Gateway Powered using Envoy",
+  "language": null,
+  "stars": 194,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.047111+00:00"
+  },
+  "cncf": {
+    "name": "EnRoute OneStep Ingress",
+    "category": "Orchestration & Management",
+    "subcategory": "API Gateway",
+    "imported_at": "2026-02-11T23:30:15.047112+00:00"
+  }
+}

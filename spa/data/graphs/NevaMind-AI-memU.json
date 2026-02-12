@@ -2,15 +2,15 @@
   "owner": "NevaMind-AI",
   "repo": "memU",
   "full_name": "NevaMind-AI/memU",
-  "root_package": "pypi:memu-py:1.3.0",
+  "root_package": "pypi:memu-py:1.4.0",
   "nodes": [
     {
-      "id": "pypi:memu-py:1.3.0",
+      "id": "pypi:memu-py:1.4.0",
       "system": "pypi",
       "name": "memu-py",
-      "version": "1.3.0"
+      "version": "1.4.0"
     }
   ],
   "edges": [],
-  "generated_at": "2026-02-10T07:49:02.418572+00:00"
+  "generated_at": "2026-02-12T15:02:43.135905+00:00"
 }

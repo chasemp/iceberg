@@ -1,0 +1,19 @@
+{
+  "owner": "kubestellar",
+  "name": "kubestellar",
+  "full_name": "kubestellar/kubestellar",
+  "url": "https://github.com/kubestellar/kubestellar",
+  "description": "KubeStellar - a flexible solution for multi-cluster configuration management for edge, multi-cloud, and hybrid cloud",
+  "language": null,
+  "stars": 621,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.119473+00:00"
+  },
+  "cncf": {
+    "name": "KubeStellar",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.119474+00:00"
+  }
+}

@@ -7,18 +7,30 @@
     "owner": "forem",
     "repo": "forem",
     "version": "HEAD",
-    "loc": 105777,
+    "loc": 105817,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:24:31.568434+00:00",
+    "cached_at": "2026-02-11T00:41:46.292139+00:00",
     "package": {
       "system": "npm",
       "name": "dev.to",
       "version": "1.0.0"
     },
+    "total_loc": 40499,
+    "ratio": 0.2767913283578009,
     "repo_url": "https://github.com/forem/forem.git",
     "ref": "HEAD",
-    "commit_hash": "5f668a1bfd7ffa6a04d2a4080c5b81542d5452e3",
-    "clone_duration_seconds": 5.0344767570495605,
-    "count_duration_seconds": 0.2116718292236328
+    "commit_hash": "1882334c972cfc0ec9c56d9fd56ca87888bf3271",
+    "clone_duration_seconds": 13.127454042434692,
+    "count_duration_seconds": 0.6715712547302246,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

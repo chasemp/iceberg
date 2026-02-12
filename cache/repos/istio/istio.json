@@ -1,0 +1,19 @@
+{
+  "owner": "istio",
+  "name": "istio",
+  "full_name": "istio/istio",
+  "url": "https://github.com/istio/istio",
+  "description": "Connect, secure, control, and observe services.",
+  "language": null,
+  "stars": 37904,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.082873+00:00"
+  },
+  "cncf": {
+    "name": "Istio (Wasm)",
+    "category": "Wasm",
+    "subcategory": "Embedded Functions",
+    "imported_at": "2026-02-11T23:30:15.083084+00:00"
+  }
+}

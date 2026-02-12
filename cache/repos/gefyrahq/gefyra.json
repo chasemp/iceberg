@@ -1,0 +1,19 @@
+{
+  "owner": "gefyrahq",
+  "name": "gefyra",
+  "full_name": "gefyrahq/gefyra",
+  "url": "https://github.com/gefyrahq/gefyra",
+  "description": "Blazingly-fast :rocket:, rock-solid, local application development :arrow_right: with Kubernetes.",
+  "language": null,
+  "stars": 758,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.057156+00:00"
+  },
+  "cncf": {
+    "name": "Gefyra",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.057157+00:00"
+  }
+}

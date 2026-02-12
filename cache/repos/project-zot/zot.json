@@ -1,0 +1,19 @@
+{
+  "owner": "project-zot",
+  "name": "zot",
+  "full_name": "project-zot/zot",
+  "url": "https://github.com/project-zot/zot",
+  "description": "zot - A scale-out production-ready vendor-neutral OCI-native container image/artifact registry (purely based on OCI Distribution Specification)",
+  "language": null,
+  "stars": 1798,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.219427+00:00"
+  },
+  "cncf": {
+    "name": "zot",
+    "category": "Provisioning",
+    "subcategory": "Container Registry",
+    "imported_at": "2026-02-11T23:30:15.219428+00:00"
+  }
+}

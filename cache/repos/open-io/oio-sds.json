@@ -1,0 +1,19 @@
+{
+  "owner": "open-io",
+  "name": "oio-sds",
+  "full_name": "open-io/oio-sds",
+  "url": "https://github.com/open-io/oio-sds",
+  "description": "High Performance Software-Defined Object Storage for Big Data and AI, that supports Amazon S3 and Openstack Swift",
+  "language": null,
+  "stars": 740,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.148564+00:00"
+  },
+  "cncf": {
+    "name": "OpenIO",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "imported_at": "2026-02-11T23:30:15.148565+00:00"
+  }
+}

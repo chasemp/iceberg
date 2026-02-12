@@ -1,0 +1,19 @@
+{
+  "owner": "juicedata",
+  "name": "juicefs",
+  "full_name": "juicedata/juicefs",
+  "url": "https://github.com/juicedata/juicefs",
+  "description": "JuiceFS is a distributed POSIX file system built on top of Redis and S3.",
+  "language": null,
+  "stars": 13173,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.084775+00:00"
+  },
+  "cncf": {
+    "name": "JuiceFS",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "imported_at": "2026-02-11T23:30:15.084777+00:00"
+  }
+}

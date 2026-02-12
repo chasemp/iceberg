@@ -1,0 +1,19 @@
+{
+  "owner": "kubewharf",
+  "name": "kubeadmiral",
+  "full_name": "kubewharf/kubeadmiral",
+  "url": "https://github.com/kubewharf/kubeadmiral",
+  "description": "Multi-Cluster Kubernetes Orchestration",
+  "language": null,
+  "stars": 921,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.108263+00:00"
+  },
+  "cncf": {
+    "name": "KubeAdmiral",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.108264+00:00"
+  }
+}

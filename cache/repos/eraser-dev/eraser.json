@@ -1,0 +1,19 @@
+{
+  "owner": "eraser-dev",
+  "name": "eraser",
+  "full_name": "eraser-dev/eraser",
+  "url": "https://github.com/eraser-dev/eraser",
+  "description": "\ud83e\uddf9 Cleaning up images from Kubernetes nodes",
+  "language": null,
+  "stars": 582,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.048133+00:00"
+  },
+  "cncf": {
+    "name": "Eraser",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.048134+00:00"
+  }
+}

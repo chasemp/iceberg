@@ -1,0 +1,19 @@
+{
+  "owner": "chaostoolkit",
+  "name": "chaostoolkit",
+  "full_name": "chaostoolkit/chaostoolkit",
+  "url": "https://github.com/chaostoolkit/chaostoolkit",
+  "description": "Chaos Engineering Toolkit & Orchestration for Developers",
+  "language": null,
+  "stars": 1994,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.981864+00:00"
+  },
+  "cncf": {
+    "name": "Chaos Toolkit",
+    "category": "Observability and Analysis",
+    "subcategory": "Chaos Engineering",
+    "imported_at": "2026-02-11T23:30:14.981865+00:00"
+  }
+}

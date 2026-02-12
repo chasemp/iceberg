@@ -1,0 +1,19 @@
+{
+  "owner": "cortexproject",
+  "name": "cortex",
+  "full_name": "cortexproject/cortex",
+  "url": "https://github.com/cortexproject/cortex",
+  "description": "A horizontally scalable, highly available, multi-tenant, long term Prometheus.",
+  "language": null,
+  "stars": 5742,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.028267+00:00"
+  },
+  "cncf": {
+    "name": "Cortex",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.028269+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "vmware",
+  "name": "pinniped",
+  "full_name": "vmware/pinniped",
+  "url": "https://github.com/vmware/pinniped",
+  "description": "Pinniped is the easy, secure way to log in to your Kubernetes clusters.",
+  "language": null,
+  "stars": 695,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.156833+00:00"
+  },
+  "cncf": {
+    "name": "Pinniped",
+    "category": "Provisioning",
+    "subcategory": "Key Management",
+    "imported_at": "2026-02-11T23:30:15.156834+00:00"
+  }
+}

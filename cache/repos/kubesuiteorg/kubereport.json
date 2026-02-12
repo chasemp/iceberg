@@ -1,0 +1,19 @@
+{
+  "owner": "kubesuiteorg",
+  "name": "kubereport",
+  "full_name": "kubesuiteorg/kubereport",
+  "url": "https://github.com/kubesuiteorg/kubereport",
+  "description": "CLI tool for generating reports on Kubernetes workloads.",
+  "language": null,
+  "stars": 22,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.115697+00:00"
+  },
+  "cncf": {
+    "name": "KubeReport",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.115699+00:00"
+  }
+}

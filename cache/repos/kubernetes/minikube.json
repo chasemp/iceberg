@@ -1,0 +1,19 @@
+{
+  "owner": "kubernetes",
+  "name": "minikube",
+  "full_name": "kubernetes/minikube",
+  "url": "https://github.com/kubernetes/minikube",
+  "description": "Run Kubernetes locally",
+  "language": null,
+  "stars": 31461,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.134493+00:00"
+  },
+  "cncf": {
+    "name": "minikube",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Installer",
+    "imported_at": "2026-02-11T23:30:15.134494+00:00"
+  }
+}

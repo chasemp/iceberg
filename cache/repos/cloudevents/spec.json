@@ -1,0 +1,19 @@
+{
+  "owner": "cloudevents",
+  "name": "spec",
+  "full_name": "cloudevents/spec",
+  "url": "https://github.com/cloudevents/spec",
+  "description": "CloudEvents Specification",
+  "language": null,
+  "stars": 5674,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.987586+00:00"
+  },
+  "cncf": {
+    "name": "CloudEvents",
+    "category": "App Definition and Development",
+    "subcategory": "Streaming & Messaging",
+    "imported_at": "2026-02-11T23:30:14.987588+00:00"
+  }
+}

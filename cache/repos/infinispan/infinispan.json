@@ -1,0 +1,19 @@
+{
+  "owner": "infinispan",
+  "name": "infinispan",
+  "full_name": "infinispan/infinispan",
+  "url": "https://github.com/infinispan/infinispan",
+  "description": "Infinispan is an open source data grid platform and highly scalable NoSQL cloud data store.",
+  "language": null,
+  "stars": 1311,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.080419+00:00"
+  },
+  "cncf": {
+    "name": "Infinispan",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.080421+00:00"
+  }
+}

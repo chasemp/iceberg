@@ -9,11 +9,23 @@
     "version": "HEAD",
     "loc": 2776,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:20:21.964344+00:00",
+    "cached_at": "2026-02-11T00:10:05.801774+00:00",
+    "total_loc": 198910,
+    "ratio": 0.9862360302648672,
     "repo_url": "https://github.com/input-output-hk/cardano-sl.git",
     "ref": "HEAD",
     "commit_hash": "1499214d93767b703b9599369a431e67d83f10a2",
-    "clone_duration_seconds": 1.6196269989013672,
-    "count_duration_seconds": 0.04021763801574707
+    "clone_duration_seconds": 2.358337879180908,
+    "count_duration_seconds": 0.07577991485595703,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

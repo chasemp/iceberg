@@ -1,0 +1,19 @@
+{
+  "owner": "openservicemesh",
+  "name": "osm",
+  "full_name": "openservicemesh/osm",
+  "url": "https://github.com/openservicemesh/osm",
+  "description": "Open Service Mesh (OSM) is a lightweight, extensible, cloud native service mesh that allows users to uniformly manage, secure, and get out-of-the-box observability features for highly dynamic microservice environments.",
+  "language": null,
+  "stars": 2562,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.145502+00:00"
+  },
+  "cncf": {
+    "name": "Open Service Mesh",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Mesh",
+    "imported_at": "2026-02-11T23:30:15.145503+00:00"
+  }
+}

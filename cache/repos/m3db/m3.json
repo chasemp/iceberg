@@ -1,0 +1,19 @@
+{
+  "owner": "m3db",
+  "name": "m3",
+  "full_name": "m3db/m3",
+  "url": "https://github.com/m3db/m3",
+  "description": "M3 monorepo - Distributed TSDB, Aggregator and Query Engine, Prometheus Sidecar, Graphite Compatible, Metrics Platform",
+  "language": null,
+  "stars": 4886,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.129162+00:00"
+  },
+  "cncf": {
+    "name": "M3",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.129163+00:00"
+  }
+}

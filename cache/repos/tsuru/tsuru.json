@@ -1,0 +1,19 @@
+{
+  "owner": "tsuru",
+  "name": "tsuru",
+  "full_name": "tsuru/tsuru",
+  "url": "https://github.com/tsuru/tsuru",
+  "description": "Open source and extensible Platform as a Service (PaaS).",
+  "language": null,
+  "stars": 5248,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.204077+00:00"
+  },
+  "cncf": {
+    "name": "Tsuru",
+    "category": "Platform",
+    "subcategory": "PaaS/Container Service",
+    "imported_at": "2026-02-11T23:30:15.204078+00:00"
+  }
+}

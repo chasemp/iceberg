@@ -9,15 +9,21 @@
     "version": "HEAD",
     "loc": 11580,
     "source": "github_clone",
-    "cached_at": "2026-02-09T20:24:54.987824+00:00",
+    "cached_at": "2026-02-11T16:03:26.343097+00:00",
     "repo_url": "https://github.com/mdn/learning-area.git",
     "ref": "HEAD",
     "commit_hash": "09c9fca689381ad4ed801a428ef795740cb06214",
-    "clone_duration_seconds": 8.172005891799927,
-    "count_duration_seconds": 0.03662681579589844,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-top-100-forks",
-    "tracked": false,
-    "maintenance_priority": "low"
+    "clone_duration_seconds": 10.634252071380615,
+    "count_duration_seconds": 0.039079904556274414,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

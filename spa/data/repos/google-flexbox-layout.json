@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 6930,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:45:04.943623+00:00",
+    "cached_at": "2026-02-11T15:40:19.399530+00:00",
     "repo_url": "https://github.com/google/flexbox-layout.git",
     "ref": "HEAD",
     "commit_hash": "366b461fd0425bfaa9872b1d9af9da3055d3bc74",
-    "clone_duration_seconds": 2.181739091873169,
-    "count_duration_seconds": 0.010100126266479492
+    "clone_duration_seconds": 4.451396942138672,
+    "count_duration_seconds": 0.013514995574951172,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

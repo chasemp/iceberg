@@ -1,0 +1,19 @@
+{
+  "owner": "volcano-sh",
+  "name": "volcano",
+  "full_name": "volcano-sh/volcano",
+  "url": "https://github.com/volcano-sh/volcano",
+  "description": "A Cloud Native Batch System (Project under CNCF)",
+  "language": null,
+  "stars": 5295,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.209082+00:00"
+  },
+  "cncf": {
+    "name": "Volcano",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.209083+00:00"
+  }
+}

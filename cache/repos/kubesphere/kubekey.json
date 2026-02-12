@@ -1,0 +1,19 @@
+{
+  "owner": "kubesphere",
+  "name": "kubekey",
+  "full_name": "kubesphere/kubekey",
+  "url": "https://github.com/kubesphere/kubekey",
+  "description": "Install Kubernetes/K3s, and related cloud-native add-ons, it supports all-in-one, multi-node, and HA \ud83d\udd25 \u2388 \ud83d\udc33",
+  "language": null,
+  "stars": 2778,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.113883+00:00"
+  },
+  "cncf": {
+    "name": "Kubekey",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Installer",
+    "imported_at": "2026-02-11T23:30:15.113885+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "flink-statefun",
+  "full_name": "apache/flink-statefun",
+  "url": "https://github.com/apache/flink-statefun",
+  "description": "Apache Flink Stateful Functions",
+  "language": null,
+  "stars": 534,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.189958+00:00"
+  },
+  "cncf": {
+    "name": "Stateful Functions",
+    "category": "Serverless",
+    "subcategory": "Framework",
+    "imported_at": "2026-02-11T23:30:15.189959+00:00"
+  }
+}

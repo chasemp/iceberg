@@ -1,0 +1,19 @@
+{
+  "owner": "Accenture",
+  "name": "reactive-interaction-gateway",
+  "full_name": "Accenture/reactive-interaction-gateway",
+  "url": "https://github.com/Accenture/reactive-interaction-gateway",
+  "description": "Create low-latency, interactive user experiences for stateless microservices.",
+  "language": null,
+  "stars": 603,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.168902+00:00"
+  },
+  "cncf": {
+    "name": "Reactive Interaction Gateway",
+    "category": "Orchestration & Management",
+    "subcategory": "API Gateway",
+    "imported_at": "2026-02-11T23:30:15.168903+00:00"
+  }
+}

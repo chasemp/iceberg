@@ -1,0 +1,19 @@
+{
+  "owner": "nitrictech",
+  "name": "nitric",
+  "full_name": "nitrictech/nitric",
+  "url": "https://github.com/nitrictech/nitric",
+  "description": "Nitric is a multi-language framework for cloud applications with infrastructure from code.",
+  "language": null,
+  "stars": 1964,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.140933+00:00"
+  },
+  "cncf": {
+    "name": "Nitric",
+    "category": "Serverless",
+    "subcategory": "Framework",
+    "imported_at": "2026-02-11T23:30:15.140934+00:00"
+  }
+}

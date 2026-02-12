@@ -1,0 +1,19 @@
+{
+  "owner": "vitessio",
+  "name": "vitess",
+  "full_name": "vitessio/vitess",
+  "url": "https://github.com/vitessio/vitess",
+  "description": "Vitess is a database clustering system for horizontal scaling of MySQL.",
+  "language": null,
+  "stars": 20677,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.208414+00:00"
+  },
+  "cncf": {
+    "name": "Vitess",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.208415+00:00"
+  }
+}

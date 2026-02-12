@@ -1,0 +1,19 @@
+{
+  "owner": "sensu",
+  "name": "sensu-go",
+  "full_name": "sensu/sensu-go",
+  "url": "https://github.com/sensu/sensu-go",
+  "description": "Simple. Scalable. Multi-cloud monitoring.",
+  "language": null,
+  "stars": 1092,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.176163+00:00"
+  },
+  "cncf": {
+    "name": "Sensu",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.176164+00:00"
+  }
+}

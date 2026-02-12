@@ -1,0 +1,19 @@
+{
+  "owner": "moby",
+  "name": "swarmkit",
+  "full_name": "moby/swarmkit",
+  "url": "https://github.com/moby/swarmkit",
+  "description": "A toolkit for orchestrating distributed systems at any scale. It includes primitives for node discovery, raft-based consensus, task scheduling and more.",
+  "language": null,
+  "stars": 3585,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.041396+00:00"
+  },
+  "cncf": {
+    "name": "Docker Swarm",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.041397+00:00"
+  }
+}

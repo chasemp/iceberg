@@ -1,0 +1,19 @@
+{
+  "owner": "thanos-io",
+  "name": "thanos",
+  "full_name": "thanos-io/thanos",
+  "url": "https://github.com/thanos-io/thanos",
+  "description": "Highly available Prometheus setup with long term storage capabilities. A CNCF Incubating project.",
+  "language": null,
+  "stars": 13953,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.198573+00:00"
+  },
+  "cncf": {
+    "name": "Thanos",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.198574+00:00"
+  }
+}

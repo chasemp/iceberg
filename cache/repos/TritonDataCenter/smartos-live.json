@@ -1,0 +1,19 @@
+{
+  "owner": "TritonDataCenter",
+  "name": "smartos-live",
+  "full_name": "TritonDataCenter/smartos-live",
+  "url": "https://github.com/TritonDataCenter/smartos-live",
+  "description": "For more information, please see http://smartos.org/  For any questions that aren't answered there, please join the SmartOS discussion list: https://smartos.topicbox.com/groups/smartos-discuss",
+  "language": null,
+  "stars": 1650,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.182639+00:00"
+  },
+  "cncf": {
+    "name": "SmartOS",
+    "category": "Runtime",
+    "subcategory": "Container Runtime",
+    "imported_at": "2026-02-11T23:30:15.182640+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "gocrane",
+  "name": "crane",
+  "full_name": "gocrane/crane",
+  "url": "https://github.com/gocrane/crane",
+  "description": "Crane is a FinOps Platform for Cloud Resource Analytics and Economics in Kubernetes clusters. The goal is not only to help users to manage cloud cost easier but also ensure the quality of applications.  ",
+  "language": null,
+  "stars": 2026,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.059858+00:00"
+  },
+  "cncf": {
+    "name": "gocrane",
+    "category": "Observability and Analysis",
+    "subcategory": "Continuous Optimization",
+    "imported_at": "2026-02-11T23:30:15.059859+00:00"
+  }
+}

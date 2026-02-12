@@ -1,0 +1,19 @@
+{
+  "owner": "kubemq-io",
+  "name": "kubemq-community",
+  "full_name": "kubemq-io/kubemq-community",
+  "url": "https://github.com/kubemq-io/kubemq-community",
+  "description": "KubeMQ is a Kubernetes native message queue broker",
+  "language": null,
+  "stars": 668,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.114905+00:00"
+  },
+  "cncf": {
+    "name": "KubeMQ",
+    "category": "App Definition and Development",
+    "subcategory": "Streaming & Messaging",
+    "imported_at": "2026-02-11T23:30:15.114907+00:00"
+  }
+}

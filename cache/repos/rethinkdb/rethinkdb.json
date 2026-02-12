@@ -1,0 +1,19 @@
+{
+  "owner": "rethinkdb",
+  "name": "rethinkdb",
+  "full_name": "rethinkdb/rethinkdb",
+  "url": "https://github.com/rethinkdb/rethinkdb",
+  "description": "The open-source database for the realtime web.",
+  "language": null,
+  "stars": 26991,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.170571+00:00"
+  },
+  "cncf": {
+    "name": "RethinkDB",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.170572+00:00"
+  }
+}

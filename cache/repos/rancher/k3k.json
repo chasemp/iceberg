@@ -1,0 +1,19 @@
+{
+  "owner": "rancher",
+  "name": "k3k",
+  "full_name": "rancher/k3k",
+  "url": "https://github.com/rancher/k3k",
+  "description": "Kubernetes in Kubernetes",
+  "language": null,
+  "stars": 556,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.085969+00:00"
+  },
+  "cncf": {
+    "name": "K3k",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Distribution",
+    "imported_at": "2026-02-11T23:30:15.085971+00:00"
+  }
+}

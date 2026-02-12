@@ -1,0 +1,19 @@
+{
+  "owner": "kubevirt",
+  "name": "kubevirt",
+  "full_name": "kubevirt/kubevirt",
+  "url": "https://github.com/kubevirt/kubevirt",
+  "description": "Kubernetes Virtualization API and runtime in order to define and manage virtual machines.",
+  "language": null,
+  "stars": 6640,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.120480+00:00"
+  },
+  "cncf": {
+    "name": "KubeVirt",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.120481+00:00"
+  }
+}

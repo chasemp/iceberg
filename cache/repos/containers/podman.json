@@ -1,0 +1,19 @@
+{
+  "owner": "containers",
+  "name": "podman",
+  "full_name": "containers/podman",
+  "url": "https://github.com/containers/podman",
+  "description": "Podman: A tool for managing OCI containers and pods.",
+  "language": null,
+  "stars": 30596,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.158871+00:00"
+  },
+  "cncf": {
+    "name": "Podman Container Tools",
+    "category": "Runtime",
+    "subcategory": "Container Runtime",
+    "imported_at": "2026-02-11T23:30:15.159435+00:00"
+  }
+}

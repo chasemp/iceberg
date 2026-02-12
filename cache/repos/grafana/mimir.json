@@ -1,0 +1,19 @@
+{
+  "owner": "grafana",
+  "name": "mimir",
+  "full_name": "grafana/mimir",
+  "url": "https://github.com/grafana/mimir",
+  "description": "Grafana Mimir provides horizontally scalable, highly available, multi-tenant, long-term storage for Prometheus.",
+  "language": null,
+  "stars": 4918,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.062503+00:00"
+  },
+  "cncf": {
+    "name": "Grafana Mimir",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.062504+00:00"
+  }
+}

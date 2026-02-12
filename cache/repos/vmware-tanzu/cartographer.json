@@ -1,0 +1,19 @@
+{
+  "owner": "vmware-tanzu",
+  "name": "cartographer",
+  "full_name": "vmware-tanzu/cartographer",
+  "url": "https://github.com/vmware-tanzu/cartographer",
+  "description": "Cartographer is a Supply Chain Choreographer.",
+  "language": null,
+  "stars": 450,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.957174+00:00"
+  },
+  "cncf": {
+    "name": "Cartographer",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:14.957175+00:00"
+  }
+}

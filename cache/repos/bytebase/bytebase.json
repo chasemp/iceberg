@@ -1,0 +1,19 @@
+{
+  "owner": "bytebase",
+  "name": "bytebase",
+  "full_name": "bytebase/bytebase",
+  "url": "https://github.com/bytebase/bytebase",
+  "description": "World's most advanced database DevSecOps solution for Developer, Security, DBA and Platform Engineering teams. The GitHub/GitLab for database DevSecOps.",
+  "language": null,
+  "stars": 13691,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.953744+00:00"
+  },
+  "cncf": {
+    "name": "Bytebase",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:14.953745+00:00"
+  }
+}

@@ -9,11 +9,23 @@
     "version": "HEAD",
     "loc": 487990,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:07:26.001494+00:00",
+    "cached_at": "2026-02-10T23:23:46.830251+00:00",
+    "total_loc": 197640,
+    "ratio": 0.28826043201143475,
     "repo_url": "https://github.com/WordPress/WordPress.git",
     "ref": "HEAD",
     "commit_hash": "9d235f6c2d41e5d0f5a6b1a80d5ebd5673d09f0c",
-    "clone_duration_seconds": 3.741124391555786,
-    "count_duration_seconds": 0.35352134704589844
+    "clone_duration_seconds": 6.490490913391113,
+    "count_duration_seconds": 0.3519880771636963,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

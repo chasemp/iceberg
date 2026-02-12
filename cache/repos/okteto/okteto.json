@@ -1,0 +1,19 @@
+{
+  "owner": "okteto",
+  "name": "okteto",
+  "full_name": "okteto/okteto",
+  "url": "https://github.com/okteto/okteto",
+  "description": "Develop your applications directly in your Kubernetes Cluster",
+  "language": null,
+  "stars": 3487,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.143760+00:00"
+  },
+  "cncf": {
+    "name": "Okteto",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.143761+00:00"
+  }
+}

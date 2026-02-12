@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 97,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:30:21.943277+00:00",
+    "cached_at": "2026-02-11T15:13:33.755626+00:00",
     "repo_url": "https://github.com/mitesh77/Best-Flutter-UI-Templates.git",
     "ref": "HEAD",
     "commit_hash": "c85450cb4367742e879ebfae6cda2b7b4da1c3cd",
-    "clone_duration_seconds": 2.570868968963623,
-    "count_duration_seconds": 0.005250692367553711
+    "clone_duration_seconds": 5.413541793823242,
+    "count_duration_seconds": 0.007730960845947266,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "owner": "deepchecks",
+  "name": "deepchecks",
+  "full_name": "deepchecks/deepchecks",
+  "url": "https://github.com/deepchecks/deepchecks",
+  "description": "Deepchecks: Tests for Continuous Validation of ML Models & Data. Deepchecks is a holistic open-source solution for all of your AI & ML validation needs, enabling to thoroughly test your data and models from research to production.",
+  "language": null,
+  "stars": 3973,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.037579+00:00"
+  },
+  "cncf": {
+    "name": "Deepchecks",
+    "category": "CNAI",
+    "subcategory": "Model/LLM Observability",
+    "imported_at": "2026-02-11T23:30:15.037580+00:00"
+  }
+}

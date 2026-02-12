@@ -1,0 +1,19 @@
+{
+  "owner": "tessi",
+  "name": "wasmex",
+  "full_name": "tessi/wasmex",
+  "url": "https://github.com/tessi/wasmex",
+  "description": "Execute WebAssembly from Elixir",
+  "language": null,
+  "stars": 669,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.213295+00:00"
+  },
+  "cncf": {
+    "name": "Wasmex",
+    "category": "Wasm",
+    "subcategory": "Application Frameworks",
+    "imported_at": "2026-02-11T23:30:15.213296+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "txn2",
+  "name": "kubefwd",
+  "full_name": "txn2/kubefwd",
+  "url": "https://github.com/txn2/kubefwd",
+  "description": "Bulk port forwarding Kubernetes services for local development.",
+  "language": null,
+  "stars": 4036,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.113078+00:00"
+  },
+  "cncf": {
+    "name": "kubefwd",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.113080+00:00"
+  }
+}

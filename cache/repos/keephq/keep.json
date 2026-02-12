@@ -1,0 +1,19 @@
+{
+  "owner": "keephq",
+  "name": "keep",
+  "full_name": "keephq/keep",
+  "url": "https://github.com/keephq/keep",
+  "description": "The open-source AIOps and alert management platform",
+  "language": null,
+  "stars": 11390,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.092105+00:00"
+  },
+  "cncf": {
+    "name": "Keep",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.092106+00:00"
+  }
+}

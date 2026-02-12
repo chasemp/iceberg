@@ -1,0 +1,19 @@
+{
+  "owner": "GreptimeTeam",
+  "name": "greptimedb",
+  "full_name": "GreptimeTeam/greptimedb",
+  "url": "https://github.com/GreptimeTeam/greptimedb",
+  "description": "Open-source, cloud-native, unified observability database for metrics, logs and traces, supporting SQL/PromQL/Streaming.",
+  "language": null,
+  "stars": 5942,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.064430+00:00"
+  },
+  "cncf": {
+    "name": "GreptimeDB",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.064432+00:00"
+  }
+}

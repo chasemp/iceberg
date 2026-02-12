@@ -1,0 +1,19 @@
+{
+  "owner": "kubevela",
+  "name": "kubevela",
+  "full_name": "kubevela/kubevela",
+  "url": "https://github.com/kubevela/kubevela",
+  "description": "The Modern Application Platform.",
+  "language": null,
+  "stars": 7678,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.120255+00:00"
+  },
+  "cncf": {
+    "name": "KubeVela",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.120256+00:00"
+  }
+}

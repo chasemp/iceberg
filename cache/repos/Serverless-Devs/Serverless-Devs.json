@@ -1,0 +1,19 @@
+{
+  "owner": "Serverless-Devs",
+  "name": "Serverless-Devs",
+  "full_name": "Serverless-Devs/Serverless-Devs",
+  "url": "https://github.com/Serverless-Devs/Serverless-Devs",
+  "description": ":fire: Serverless Devs: Serverless developer tool ( Serverless Devs: Serverless \u5f00\u53d1\u8005\u5de5\u5177 )",
+  "language": null,
+  "stars": 1813,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.177132+00:00"
+  },
+  "cncf": {
+    "name": "Serverless Devs",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.177133+00:00"
+  }
+}

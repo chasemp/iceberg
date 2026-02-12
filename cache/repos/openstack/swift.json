@@ -1,0 +1,19 @@
+{
+  "owner": "openstack",
+  "name": "swift",
+  "full_name": "openstack/swift",
+  "url": "https://github.com/openstack/swift",
+  "description": "OpenStack Storage (Swift). Mirror of code maintained at opendev.org.",
+  "language": null,
+  "stars": 2755,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.191891+00:00"
+  },
+  "cncf": {
+    "name": "Swift",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "imported_at": "2026-02-11T23:30:15.191892+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "rkt",
+  "name": "rkt",
+  "full_name": "rkt/rkt",
+  "url": "https://github.com/rkt/rkt",
+  "description": "[Project ended] rkt is a pod-native container engine for Linux. It is composable, secure, and built on standards.",
+  "language": null,
+  "stars": 8797,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.170949+00:00"
+  },
+  "cncf": {
+    "name": "rkt",
+    "category": "Runtime",
+    "subcategory": "Container Runtime",
+    "imported_at": "2026-02-11T23:30:15.170950+00:00"
+  }
+}

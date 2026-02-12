@@ -4,9 +4,16 @@
   "url": "https://github.com/akka/akka-core",
   "description": "A platform to build and run apps that are elastic, agile, and resilient. SDK, libraries, and hosted environments.",
   "language": "Scala",
-  "stars": 13260,
+  "stars": 13261,
   "categories": {
-    "github-ranking-scala": "2026-02-09"
+    "github-ranking-scala": "2026-02-09",
+    "tracked": "2026-02-11T23:30:14.898284+00:00"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-09",
+  "cncf": {
+    "name": "Akka",
+    "category": "Platform",
+    "subcategory": "PaaS/Container Service",
+    "imported_at": "2026-02-11T23:30:14.898287+00:00"
+  }
 }

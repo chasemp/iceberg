@@ -1,0 +1,19 @@
+{
+  "owner": "appvia",
+  "name": "terranetes-controller",
+  "full_name": "appvia/terranetes-controller",
+  "url": "https://github.com/appvia/terranetes-controller",
+  "description": "The terranetes controller manages the lifecycle of an OpenTofu or Terraform resource, allowing developers to self-serve dependencies in a controlled manner.",
+  "language": null,
+  "stars": 244,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.197300+00:00"
+  },
+  "cncf": {
+    "name": "Terranetes",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.197301+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "parseablehq",
+  "name": "parseable",
+  "full_name": "parseablehq/parseable",
+  "url": "https://github.com/parseablehq/parseable",
+  "description": "Parseable is an observability datalake built from first principles.",
+  "language": null,
+  "stars": 2310,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.154742+00:00"
+  },
+  "cncf": {
+    "name": "Parseable",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.154743+00:00"
+  }
+}

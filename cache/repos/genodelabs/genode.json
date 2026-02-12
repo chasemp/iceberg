@@ -1,0 +1,19 @@
+{
+  "owner": "genodelabs",
+  "name": "genode",
+  "full_name": "genodelabs/genode",
+  "url": "https://github.com/genodelabs/genode",
+  "description": "Genode OS Framework",
+  "language": null,
+  "stars": 1205,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.057564+00:00"
+  },
+  "cncf": {
+    "name": "Genode",
+    "category": "Wasm",
+    "subcategory": "Edge/Bare metal",
+    "imported_at": "2026-02-11T23:30:15.057568+00:00"
+  }
+}

@@ -9,15 +9,21 @@
     "version": "HEAD",
     "loc": 46,
     "source": "github_clone",
-    "cached_at": "2026-02-09T20:13:39.606666+00:00",
+    "cached_at": "2026-02-11T15:44:55.456160+00:00",
     "repo_url": "https://github.com/TheOdinProject/css-exercises.git",
     "ref": "HEAD",
     "commit_hash": "6de89c74cd20ce06c0333a0ecb5e9dd17862398c",
-    "clone_duration_seconds": 1.315587043762207,
-    "count_duration_seconds": 0.0064411163330078125,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-top-100-forks",
-    "tracked": false,
-    "maintenance_priority": "low"
+    "clone_duration_seconds": 1.1996150016784668,
+    "count_duration_seconds": 0.0075609683990478516,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

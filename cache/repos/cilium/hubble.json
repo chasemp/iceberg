@@ -1,0 +1,19 @@
+{
+  "owner": "cilium",
+  "name": "hubble",
+  "full_name": "cilium/hubble",
+  "url": "https://github.com/cilium/hubble",
+  "description": "Hubble - Network, Service & Security Observability for Kubernetes using eBPF",
+  "language": null,
+  "stars": 4071,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.075602+00:00"
+  },
+  "cncf": {
+    "name": "Hubble",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.075603+00:00"
+  }
+}

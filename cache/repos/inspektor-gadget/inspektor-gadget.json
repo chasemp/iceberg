@@ -1,0 +1,19 @@
+{
+  "owner": "inspektor-gadget",
+  "name": "inspektor-gadget",
+  "full_name": "inspektor-gadget/inspektor-gadget",
+  "url": "https://github.com/inspektor-gadget/inspektor-gadget",
+  "description": "Inspektor Gadget is a set of tools and framework for data collection and system inspection on Kubernetes clusters and Linux hosts using eBPF",
+  "language": null,
+  "stars": 2707,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.082269+00:00"
+  },
+  "cncf": {
+    "name": "Inspektor Gadget",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.082271+00:00"
+  }
+}

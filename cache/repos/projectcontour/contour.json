@@ -1,0 +1,19 @@
+{
+  "owner": "projectcontour",
+  "name": "contour",
+  "full_name": "projectcontour/contour",
+  "url": "https://github.com/projectcontour/contour",
+  "description": "Contour is a Kubernetes ingress controller using Envoy proxy.",
+  "language": null,
+  "stars": 3906,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.995613+00:00"
+  },
+  "cncf": {
+    "name": "Contour",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Proxy",
+    "imported_at": "2026-02-11T23:30:14.995614+00:00"
+  }
+}

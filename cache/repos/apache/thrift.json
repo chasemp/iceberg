@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "thrift",
+  "full_name": "apache/thrift",
+  "url": "https://github.com/apache/thrift",
+  "description": "Apache Thrift",
+  "language": null,
+  "stars": 10896,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.908509+00:00"
+  },
+  "cncf": {
+    "name": "Apache Thrift",
+    "category": "Orchestration & Management",
+    "subcategory": "Remote Procedure Call",
+    "imported_at": "2026-02-11T23:30:14.908510+00:00"
+  }
+}

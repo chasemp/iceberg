@@ -1,0 +1,19 @@
+{
+  "owner": "clusternet",
+  "name": "clusternet",
+  "full_name": "clusternet/clusternet",
+  "url": "https://github.com/clusternet/clusternet",
+  "description": "[CNCF Sandbox Project] Managing your Kubernetes clusters (including public, private, edge, etc.) as easily as visiting the Internet",
+  "language": null,
+  "stars": 1421,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.989525+00:00"
+  },
+  "cncf": {
+    "name": "Clusternet",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:14.989527+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "merbridge",
+  "name": "merbridge",
+  "full_name": "merbridge/merbridge",
+  "url": "https://github.com/merbridge/merbridge",
+  "description": "Use eBPF to speed up your Service Mesh like crossing an Einstein-Rosen Bridge.",
+  "language": null,
+  "stars": 802,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.131660+00:00"
+  },
+  "cncf": {
+    "name": "Merbridge",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Mesh",
+    "imported_at": "2026-02-11T23:30:15.131661+00:00"
+  }
+}

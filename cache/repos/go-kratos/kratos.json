@@ -1,0 +1,19 @@
+{
+  "owner": "go-kratos",
+  "name": "kratos",
+  "full_name": "go-kratos/kratos",
+  "url": "https://github.com/go-kratos/kratos",
+  "description": "Your ultimate Go microservices framework for the cloud-native era.",
+  "language": null,
+  "stars": 25421,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.103446+00:00"
+  },
+  "cncf": {
+    "name": "kratos",
+    "category": "Orchestration & Management",
+    "subcategory": "Remote Procedure Call",
+    "imported_at": "2026-02-11T23:30:15.103447+00:00"
+  }
+}

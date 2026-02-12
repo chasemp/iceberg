@@ -1,0 +1,19 @@
+{
+  "owner": "metallb",
+  "name": "metallb",
+  "full_name": "metallb/metallb",
+  "url": "https://github.com/metallb/metallb",
+  "description": "A network load-balancer implementation for Kubernetes using standard routing protocols",
+  "language": null,
+  "stars": 8040,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.132537+00:00"
+  },
+  "cncf": {
+    "name": "MetalLB",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Proxy",
+    "imported_at": "2026-02-11T23:30:15.132538+00:00"
+  }
+}

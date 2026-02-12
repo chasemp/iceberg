@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "avro",
+  "full_name": "apache/avro",
+  "url": "https://github.com/apache/avro",
+  "description": "Apache Avro is a data serialization system.",
+  "language": null,
+  "stars": 3216,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.918398+00:00"
+  },
+  "cncf": {
+    "name": "Avro",
+    "category": "Orchestration & Management",
+    "subcategory": "Remote Procedure Call",
+    "imported_at": "2026-02-11T23:30:14.918399+00:00"
+  }
+}

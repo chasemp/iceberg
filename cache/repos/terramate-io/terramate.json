@@ -1,0 +1,19 @@
+{
+  "owner": "terramate-io",
+  "name": "terramate",
+  "full_name": "terramate-io/terramate",
+  "url": "https://github.com/terramate-io/terramate",
+  "description": "Open-source Infrastructure as Code (IaC) orchestration platform: GitOps workflows, orchestration, code generation, observability, drift detection, asset management, policies, Slack notifications, and more. Integrates with Terraform, OpenTofu, Terragrunt, Kubernetes, GitHub Actions, GitLab CI/CD, BitBucket Pipelines, and any other CI/CD platform.",
+  "language": null,
+  "stars": 3514,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.197104+00:00"
+  },
+  "cncf": {
+    "name": "Terramate",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.197105+00:00"
+  }
+}

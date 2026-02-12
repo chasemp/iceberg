@@ -1,0 +1,19 @@
+{
+  "owner": "ceph",
+  "name": "ceph",
+  "full_name": "ceph/ceph",
+  "url": "https://github.com/ceph/ceph",
+  "description": "Ceph is a distributed object, block, and file storage platform ",
+  "language": null,
+  "stars": 16176,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.980026+00:00"
+  },
+  "cncf": {
+    "name": "Ceph",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "imported_at": "2026-02-11T23:30:14.980027+00:00"
+  }
+}

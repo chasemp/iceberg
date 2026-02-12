@@ -1,0 +1,19 @@
+{
+  "owner": "opcr-io",
+  "name": "policy",
+  "full_name": "opcr-io/policy",
+  "url": "https://github.com/opcr-io/policy",
+  "description": "CLI for building OPA policies into OCI images",
+  "language": null,
+  "stars": 250,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.145142+00:00"
+  },
+  "cncf": {
+    "name": "Open Policy Containers",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.145143+00:00"
+  }
+}

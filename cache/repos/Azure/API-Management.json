@@ -1,0 +1,19 @@
+{
+  "owner": "Azure",
+  "name": "API-Management",
+  "full_name": "Azure/API-Management",
+  "url": "https://github.com/Azure/API-Management",
+  "description": "Repository with Azure API Management release notes.",
+  "language": null,
+  "stars": 164,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.920479+00:00"
+  },
+  "cncf": {
+    "name": "Azure API Management",
+    "category": "Orchestration & Management",
+    "subcategory": "API Gateway",
+    "imported_at": "2026-02-11T23:30:14.920480+00:00"
+  }
+}

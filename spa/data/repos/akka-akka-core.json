@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 333136,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:26:19.837648+00:00",
+    "cached_at": "2026-02-11T00:29:29.516324+00:00",
     "repo_url": "https://github.com/akka/akka-core.git",
     "ref": "HEAD",
     "commit_hash": "e1b50a23547c6946d8f4c860333b3c6b575f277d",
-    "clone_duration_seconds": 2.460334539413452,
-    "count_duration_seconds": 0.29798173904418945
+    "clone_duration_seconds": 5.5329790115356445,
+    "count_duration_seconds": 1.0729799270629883,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

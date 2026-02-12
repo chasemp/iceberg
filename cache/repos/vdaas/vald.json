@@ -1,0 +1,19 @@
+{
+  "owner": "vdaas",
+  "name": "vald",
+  "full_name": "vdaas/vald",
+  "url": "https://github.com/vdaas/vald",
+  "description": "Vald.  A Highly Scalable Distributed Vector Search Engine",
+  "language": null,
+  "stars": 1683,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.206065+00:00"
+  },
+  "cncf": {
+    "name": "Vald",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.206066+00:00"
+  }
+}

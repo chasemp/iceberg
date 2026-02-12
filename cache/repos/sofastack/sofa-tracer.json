@@ -1,0 +1,19 @@
+{
+  "owner": "sofastack",
+  "name": "sofa-tracer",
+  "full_name": "sofastack/sofa-tracer",
+  "url": "https://github.com/sofastack/sofa-tracer",
+  "description": "SOFATracer is a component for the distributed system call trace. And through a unified traceId logging the logs of various network calls in the invoking link. These logs can be used for quick discovery of faults, service governance, etc.",
+  "language": null,
+  "stars": 1126,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.183447+00:00"
+  },
+  "cncf": {
+    "name": "SOFATracer",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.183448+00:00"
+  }
+}

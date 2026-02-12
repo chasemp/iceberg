@@ -1,0 +1,19 @@
+{
+  "owner": "k8gb-io",
+  "name": "k8gb",
+  "full_name": "k8gb-io/k8gb",
+  "url": "https://github.com/k8gb-io/k8gb",
+  "description": "A cloud native Kubernetes Global Balancer",
+  "language": null,
+  "stars": 1143,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.086536+00:00"
+  },
+  "cncf": {
+    "name": "k8gb",
+    "category": "Orchestration & Management",
+    "subcategory": "Coordination & Service Discovery",
+    "imported_at": "2026-02-11T23:30:15.086537+00:00"
+  }
+}

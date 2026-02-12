@@ -1,0 +1,19 @@
+{
+  "owner": "loopholelabs",
+  "name": "scale",
+  "full_name": "loopholelabs/scale",
+  "url": "https://github.com/loopholelabs/scale",
+  "description": "A framework for building high-performance plugin systems into any application, powered by WebAssembly.",
+  "language": null,
+  "stars": 632,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.173334+00:00"
+  },
+  "cncf": {
+    "name": "Scale",
+    "category": "Wasm",
+    "subcategory": "Application Frameworks",
+    "imported_at": "2026-02-11T23:30:15.173335+00:00"
+  }
+}

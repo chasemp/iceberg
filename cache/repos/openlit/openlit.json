@@ -1,0 +1,19 @@
+{
+  "owner": "openlit",
+  "name": "openlit",
+  "full_name": "openlit/openlit",
+  "url": "https://github.com/openlit/openlit",
+  "description": "Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. \ud83d\ude80\ud83d\udcbb Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs.",
+  "language": null,
+  "stars": 2185,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.148918+00:00"
+  },
+  "cncf": {
+    "name": "OpenLIT",
+    "category": "CNAI",
+    "subcategory": "Model/LLM Observability",
+    "imported_at": "2026-02-11T23:30:15.149087+00:00"
+  }
+}

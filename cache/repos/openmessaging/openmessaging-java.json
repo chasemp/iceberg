@@ -1,0 +1,19 @@
+{
+  "owner": "openmessaging",
+  "name": "openmessaging-java",
+  "full_name": "openmessaging/openmessaging-java",
+  "url": "https://github.com/openmessaging/openmessaging-java",
+  "description": "OpenMessaging Runtime Interface for Java",
+  "language": null,
+  "stars": 726,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.149629+00:00"
+  },
+  "cncf": {
+    "name": "OpenMessaging",
+    "category": "App Definition and Development",
+    "subcategory": "Streaming & Messaging",
+    "imported_at": "2026-02-11T23:30:15.149630+00:00"
+  }
+}

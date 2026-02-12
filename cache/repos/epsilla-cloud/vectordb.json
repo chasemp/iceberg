@@ -1,0 +1,19 @@
+{
+  "owner": "epsilla-cloud",
+  "name": "vectordb",
+  "full_name": "epsilla-cloud/vectordb",
+  "url": "https://github.com/epsilla-cloud/vectordb",
+  "description": "Epsilla is a high performance Vector Database Management System",
+  "language": null,
+  "stars": 870,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.047927+00:00"
+  },
+  "cncf": {
+    "name": "Epsilla",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.047928+00:00"
+  }
+}

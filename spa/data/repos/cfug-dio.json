@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 915,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:31:49.229051+00:00",
+    "cached_at": "2026-02-11T15:15:35.732377+00:00",
     "repo_url": "https://github.com/cfug/dio.git",
     "ref": "HEAD",
     "commit_hash": "0e2185bdb1839c4f6cb78178abfe6924cc8867fe",
-    "clone_duration_seconds": 0.9301662445068359,
-    "count_duration_seconds": 0.013341188430786133
+    "clone_duration_seconds": 1.285905122756958,
+    "count_duration_seconds": 0.025405168533325195,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

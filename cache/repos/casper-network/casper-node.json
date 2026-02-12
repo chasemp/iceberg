@@ -1,0 +1,19 @@
+{
+  "owner": "casper-network",
+  "name": "casper-node",
+  "full_name": "casper-network/casper-node",
+  "url": "https://github.com/casper-network/casper-node",
+  "description": "Reference node for CASPER protocol",
+  "language": null,
+  "stars": 406,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.975355+00:00"
+  },
+  "cncf": {
+    "name": "Casper",
+    "category": "Wasm",
+    "subcategory": "Decentralized Platforms",
+    "imported_at": "2026-02-11T23:30:14.975356+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "wasix-org",
+  "name": "wasix-witx",
+  "full_name": "wasix-org/wasix-witx",
+  "url": "https://github.com/wasix-org/wasix-witx",
+  "description": "WebAssembly System Interface",
+  "language": null,
+  "stars": 80,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.211155+00:00"
+  },
+  "cncf": {
+    "name": "WASIX",
+    "category": "Wasm",
+    "subcategory": "Application Frameworks",
+    "imported_at": "2026-02-11T23:30:15.211156+00:00"
+  }
+}

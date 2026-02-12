@@ -1,0 +1,19 @@
+{
+  "owner": "optuna",
+  "name": "optuna",
+  "full_name": "optuna/optuna",
+  "url": "https://github.com/optuna/optuna",
+  "description": "A hyperparameter optimization framework",
+  "language": null,
+  "stars": 13470,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.152389+00:00"
+  },
+  "cncf": {
+    "name": "Optuna",
+    "category": "CNAI",
+    "subcategory": "AutoML",
+    "imported_at": "2026-02-11T23:30:15.152390+00:00"
+  }
+}

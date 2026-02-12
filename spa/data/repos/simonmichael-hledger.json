@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 18576,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:20:13.769138+00:00",
+    "cached_at": "2026-02-11T00:09:38.521069+00:00",
     "repo_url": "https://github.com/simonmichael/hledger.git",
     "ref": "HEAD",
     "commit_hash": "ff93dcab5ad2cfc725e5db7081c5587257e7d10e",
-    "clone_duration_seconds": 1.3246378898620605,
-    "count_duration_seconds": 0.027505159378051758
+    "clone_duration_seconds": 1.7133769989013672,
+    "count_duration_seconds": 0.025569915771484375,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

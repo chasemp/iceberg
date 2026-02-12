@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 5609,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:43:31.863339+00:00",
+    "cached_at": "2026-02-11T15:37:50.790252+00:00",
     "repo_url": "https://github.com/CymChad/BaseRecyclerViewAdapterHelper.git",
     "ref": "HEAD",
     "commit_hash": "f8e3bf662a6efab665436f275be48e148e54a38d",
-    "clone_duration_seconds": 0.8363385200500488,
-    "count_duration_seconds": 0.01243281364440918
+    "clone_duration_seconds": 1.3447551727294922,
+    "count_duration_seconds": 0.016313791275024414,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

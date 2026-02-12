@@ -9,11 +9,23 @@
     "version": "HEAD",
     "loc": 511668,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:43:16.981861+00:00",
+    "cached_at": "2026-02-11T15:37:29.463404+00:00",
+    "total_loc": 0,
+    "ratio": 0.0,
     "repo_url": "https://github.com/signalapp/Signal-Android.git",
     "ref": "HEAD",
     "commit_hash": "472d86acc01c1cd80e640a8494cf22eecc6f1d9f",
-    "clone_duration_seconds": 8.04250168800354,
-    "count_duration_seconds": 0.46095848083496094
+    "clone_duration_seconds": 5.755147933959961,
+    "count_duration_seconds": 0.6974918842315674,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

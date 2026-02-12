@@ -1,0 +1,19 @@
+{
+  "owner": "Yelp",
+  "name": "paasta",
+  "full_name": "Yelp/paasta",
+  "url": "https://github.com/Yelp/paasta",
+  "description": "An open, distributed platform as a service",
+  "language": null,
+  "stars": 1722,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.153949+00:00"
+  },
+  "cncf": {
+    "name": "PaaSTA",
+    "category": "Platform",
+    "subcategory": "PaaS/Container Service",
+    "imported_at": "2026-02-11T23:30:15.153949+00:00"
+  }
+}

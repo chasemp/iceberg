@@ -1,0 +1,19 @@
+{
+  "owner": "OpenFunction",
+  "name": "OpenFunction",
+  "full_name": "OpenFunction/OpenFunction",
+  "url": "https://github.com/OpenFunction/OpenFunction",
+  "description": "Cloud Native Function-as-a-Service Platform (CNCF Sandbox Project)",
+  "language": null,
+  "stars": 1642,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.147668+00:00"
+  },
+  "cncf": {
+    "name": "OpenFunction",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.147669+00:00"
+  }
+}

@@ -2,15 +2,15 @@
   "owner": "google-gemini",
   "repo": "gemini-cli",
   "full_name": "google-gemini/gemini-cli",
-  "root_package": "npm:@google/gemini-cli:0.29.0-nightly.20260203.71f46f116",
+  "root_package": "npm:@google/gemini-cli:0.30.0-nightly.20260210.a2174751d",
   "nodes": [
     {
-      "id": "npm:@google/gemini-cli:0.29.0-nightly.20260203.71f46f116",
+      "id": "npm:@google/gemini-cli:0.30.0-nightly.20260210.a2174751d",
       "system": "npm",
       "name": "@google/gemini-cli",
-      "version": "0.29.0-nightly.20260203.71f46f116"
+      "version": "0.30.0-nightly.20260210.a2174751d"
     }
   ],
   "edges": [],
-  "generated_at": "2026-02-10T07:49:02.493161+00:00"
+  "generated_at": "2026-02-12T15:02:43.125708+00:00"
 }

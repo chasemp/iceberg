@@ -1,0 +1,19 @@
+{
+  "owner": "carvel-dev",
+  "name": "ytt",
+  "full_name": "carvel-dev/ytt",
+  "url": "https://github.com/carvel-dev/ytt",
+  "description": "YAML templating tool that works on YAML structure instead of text",
+  "language": null,
+  "stars": 1831,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.971949+00:00"
+  },
+  "cncf": {
+    "name": "Carvel",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:14.971952+00:00"
+  }
+}

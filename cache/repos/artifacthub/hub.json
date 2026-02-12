@@ -1,0 +1,19 @@
+{
+  "owner": "artifacthub",
+  "name": "hub",
+  "full_name": "artifacthub/hub",
+  "url": "https://github.com/artifacthub/hub",
+  "description": "Find, install and publish Cloud Native packages",
+  "language": null,
+  "stars": 1988,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.915137+00:00"
+  },
+  "cncf": {
+    "name": "Artifact Hub",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:14.915138+00:00"
+  }
+}

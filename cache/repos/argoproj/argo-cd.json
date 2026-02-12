@@ -1,0 +1,19 @@
+{
+  "owner": "argoproj",
+  "name": "argo-cd",
+  "full_name": "argoproj/argo-cd",
+  "url": "https://github.com/argoproj/argo-cd",
+  "description": "Declarative Continuous Deployment for Kubernetes",
+  "language": null,
+  "stars": 21899,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.913423+00:00"
+  },
+  "cncf": {
+    "name": "Argo",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:14.913424+00:00"
+  }
+}

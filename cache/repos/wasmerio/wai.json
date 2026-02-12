@@ -1,0 +1,19 @@
+{
+  "owner": "wasmerio",
+  "name": "wai",
+  "full_name": "wasmerio/wai",
+  "url": "https://github.com/wasmerio/wai",
+  "description": "A language binding generator for `wai` (a precursor to WebAssembly interface types)",
+  "language": null,
+  "stars": 119,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.209880+00:00"
+  },
+  "cncf": {
+    "name": "WAI",
+    "category": "Wasm",
+    "subcategory": "Tooling",
+    "imported_at": "2026-02-11T23:30:15.209881+00:00"
+  }
+}

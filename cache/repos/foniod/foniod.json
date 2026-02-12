@@ -1,0 +1,19 @@
+{
+  "owner": "foniod",
+  "name": "foniod",
+  "full_name": "foniod/foniod",
+  "url": "https://github.com/foniod/foniod",
+  "description": "Data first monitoring agent using (e)BPF, built on RedBPF",
+  "language": null,
+  "stars": 408,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.054801+00:00"
+  },
+  "cncf": {
+    "name": "Fonio",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.054803+00:00"
+  }
+}

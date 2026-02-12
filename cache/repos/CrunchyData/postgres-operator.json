@@ -1,0 +1,19 @@
+{
+  "owner": "CrunchyData",
+  "name": "postgres-operator",
+  "full_name": "CrunchyData/postgres-operator",
+  "url": "https://github.com/CrunchyData/postgres-operator",
+  "description": "Production PostgreSQL for Kubernetes, from high availability Postgres clusters to full-scale database-as-a-service.",
+  "language": null,
+  "stars": 4364,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.034598+00:00"
+  },
+  "cncf": {
+    "name": "Crunchy Postgres Operator",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.034599+00:00"
+  }
+}

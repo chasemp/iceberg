@@ -1,0 +1,19 @@
+{
+  "owner": "squat",
+  "name": "kilo",
+  "full_name": "squat/kilo",
+  "url": "https://github.com/squat/kilo",
+  "description": "Kilo is a multi-cloud network overlay built on WireGuard and designed for Kubernetes (k8s + wg = kg)",
+  "language": null,
+  "stars": 2212,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.094417+00:00"
+  },
+  "cncf": {
+    "name": "Kilo",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Network",
+    "imported_at": "2026-02-11T23:30:15.094418+00:00"
+  }
+}

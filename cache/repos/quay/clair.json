@@ -1,0 +1,19 @@
+{
+  "owner": "quay",
+  "name": "clair",
+  "full_name": "quay/clair",
+  "url": "https://github.com/quay/clair",
+  "description": "Vulnerability Static Analysis for Containers",
+  "language": null,
+  "stars": 10923,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.985479+00:00"
+  },
+  "cncf": {
+    "name": "Clair",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:14.985481+00:00"
+  }
+}

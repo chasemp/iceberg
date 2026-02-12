@@ -9,11 +9,23 @@
     "version": "HEAD",
     "loc": 9188,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:29:05.584186+00:00",
+    "cached_at": "2026-02-11T15:11:17.178526+00:00",
+    "total_loc": 0,
+    "ratio": 0.0,
     "repo_url": "https://github.com/localsend/localsend.git",
     "ref": "HEAD",
     "commit_hash": "1a9b8280ff0a768caa1fab78647cc6b2aa849ef3",
-    "clone_duration_seconds": 1.2824864387512207,
-    "count_duration_seconds": 0.022639989852905273
+    "clone_duration_seconds": 1.8020350933074951,
+    "count_duration_seconds": 0.03224515914916992,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

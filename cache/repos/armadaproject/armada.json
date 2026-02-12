@@ -1,0 +1,19 @@
+{
+  "owner": "armadaproject",
+  "name": "armada",
+  "full_name": "armadaproject/armada",
+  "url": "https://github.com/armadaproject/armada",
+  "description": "A multi-cluster batch queuing system for high-throughput workloads on Kubernetes.",
+  "language": null,
+  "stars": 567,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.914854+00:00"
+  },
+  "cncf": {
+    "name": "Armada",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:14.914855+00:00"
+  }
+}

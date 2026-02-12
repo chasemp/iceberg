@@ -1,0 +1,19 @@
+{
+  "owner": "VictoriaMetrics",
+  "name": "VictoriaMetrics",
+  "full_name": "VictoriaMetrics/VictoriaMetrics",
+  "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
+  "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
+  "language": null,
+  "stars": 16247,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.207547+00:00"
+  },
+  "cncf": {
+    "name": "VictoriaMetrics",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.207548+00:00"
+  }
+}

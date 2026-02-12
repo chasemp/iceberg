@@ -1,0 +1,19 @@
+{
+  "owner": "deepflowio",
+  "name": "deepflow",
+  "full_name": "deepflowio/deepflow",
+  "url": "https://github.com/deepflowio/deepflow",
+  "description": "eBPF Observability - Distributed Tracing and Profiling",
+  "language": null,
+  "stars": 3696,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.037786+00:00"
+  },
+  "cncf": {
+    "name": "DeepFlow",
+    "category": "CNAI",
+    "subcategory": "Model/LLM Observability",
+    "imported_at": "2026-02-11T23:30:15.037998+00:00"
+  }
+}

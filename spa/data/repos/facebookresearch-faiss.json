@@ -7,13 +7,23 @@
     "owner": "facebookresearch",
     "repo": "faiss",
     "version": "HEAD",
-    "loc": 97324,
+    "loc": 97818,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:41:08.150908+00:00",
+    "cached_at": "2026-02-11T15:21:36.537544+00:00",
     "repo_url": "https://github.com/facebookresearch/faiss.git",
     "ref": "HEAD",
-    "commit_hash": "53cb3a8b231bdd2d82637a6126c8d3e27c18a217",
-    "clone_duration_seconds": 1.111968994140625,
-    "count_duration_seconds": 0.06281352043151855
+    "commit_hash": "edc235cb0881f796b7a8cf52ca3acae4dea75e88",
+    "clone_duration_seconds": 1.6949281692504883,
+    "count_duration_seconds": 0.06949496269226074,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

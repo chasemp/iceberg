@@ -1,0 +1,19 @@
+{
+  "owner": "siddhi-io",
+  "name": "siddhi",
+  "full_name": "siddhi-io/siddhi",
+  "url": "https://github.com/siddhi-io/siddhi",
+  "description": "Stream Processing and Complex Event Processing Engine",
+  "language": null,
+  "stars": 1578,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.179051+00:00"
+  },
+  "cncf": {
+    "name": "Siddhi",
+    "category": "App Definition and Development",
+    "subcategory": "Streaming & Messaging",
+    "imported_at": "2026-02-11T23:30:15.179052+00:00"
+  }
+}

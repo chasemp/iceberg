@@ -1,0 +1,19 @@
+{
+  "owner": "replicatedhq",
+  "name": "kURL",
+  "full_name": "replicatedhq/kURL",
+  "url": "https://github.com/replicatedhq/kURL",
+  "description": "Production-grade, airgapped Kubernetes installer combining upstream k8s with overlays and popular components",
+  "language": null,
+  "stars": 801,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.122495+00:00"
+  },
+  "cncf": {
+    "name": "kURL",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Distribution",
+    "imported_at": "2026-02-11T23:30:15.122496+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "mosn",
+  "name": "layotto",
+  "full_name": "mosn/layotto",
+  "url": "https://github.com/mosn/layotto",
+  "description": "A fast and efficient cloud native application runtime",
+  "language": null,
+  "stars": 853,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.124763+00:00"
+  },
+  "cncf": {
+    "name": "Layotto",
+    "category": "Serverless",
+    "subcategory": "Framework",
+    "imported_at": "2026-02-11T23:30:15.124765+00:00"
+  }
+}

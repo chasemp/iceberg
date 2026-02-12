@@ -1,0 +1,19 @@
+{
+  "owner": "siderolabs",
+  "name": "talos",
+  "full_name": "siderolabs/talos",
+  "url": "https://github.com/siderolabs/talos",
+  "description": "Talos Linux is a modern Linux distribution built for Kubernetes.",
+  "language": null,
+  "stars": 9824,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.179426+00:00"
+  },
+  "cncf": {
+    "name": "Sidero Talos Linux",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Installer",
+    "imported_at": "2026-02-11T23:30:15.179427+00:00"
+  }
+}

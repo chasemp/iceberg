@@ -1,0 +1,19 @@
+{
+  "owner": "k0sproject",
+  "name": "k0s",
+  "full_name": "k0sproject/k0s",
+  "url": "https://github.com/k0sproject/k0s",
+  "description": "k0s - The Zero Friction Kubernetes",
+  "language": null,
+  "stars": 5729,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.085767+00:00"
+  },
+  "cncf": {
+    "name": "k0s",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.085768+00:00"
+  }
+}

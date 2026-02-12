@@ -1,0 +1,19 @@
+{
+  "owner": "Netflix",
+  "name": "eureka",
+  "full_name": "Netflix/eureka",
+  "url": "https://github.com/Netflix/eureka",
+  "description": "AWS Service registry for resilient mid-tier load balancing and failover.",
+  "language": null,
+  "stars": 12696,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.139110+00:00"
+  },
+  "cncf": {
+    "name": "Netflix Eureka",
+    "category": "Orchestration & Management",
+    "subcategory": "Coordination & Service Discovery",
+    "imported_at": "2026-02-11T23:30:15.139111+00:00"
+  }
+}

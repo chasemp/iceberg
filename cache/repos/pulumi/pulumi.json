@@ -1,0 +1,19 @@
+{
+  "owner": "pulumi",
+  "name": "pulumi",
+  "full_name": "pulumi/pulumi",
+  "url": "https://github.com/pulumi/pulumi",
+  "description": "Pulumi - Infrastructure as Code in any programming language \ud83d\ude80",
+  "language": null,
+  "stars": 24654,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.164547+00:00"
+  },
+  "cncf": {
+    "name": "Pulumi",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.164548+00:00"
+  }
+}

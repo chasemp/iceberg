@@ -1,0 +1,19 @@
+{
+  "owner": "chef",
+  "name": "chef",
+  "full_name": "chef/chef",
+  "url": "https://github.com/chef/chef",
+  "description": "Chef Infra, a powerful automation platform that transforms infrastructure into code automating how infrastructure is configured, deployed and managed across any environment, at any scale",
+  "language": null,
+  "stars": 8349,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.984029+00:00"
+  },
+  "cncf": {
+    "name": "Chef Infra",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:14.984031+00:00"
+  }
+}

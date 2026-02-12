@@ -1,0 +1,19 @@
+{
+  "owner": "tektoncd",
+  "name": "pipeline",
+  "full_name": "tektoncd/pipeline",
+  "url": "https://github.com/tektoncd/pipeline",
+  "description": "A cloud-native Pipeline resource.",
+  "language": null,
+  "stars": 8873,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.193599+00:00"
+  },
+  "cncf": {
+    "name": "Tekton Pipelines",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.193601+00:00"
+  }
+}

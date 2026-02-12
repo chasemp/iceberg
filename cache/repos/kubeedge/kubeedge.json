@@ -1,0 +1,19 @@
+{
+  "owner": "kubeedge",
+  "name": "kubeedge",
+  "full_name": "kubeedge/kubeedge",
+  "url": "https://github.com/kubeedge/kubeedge",
+  "description": "Kubernetes Native Edge Computing Framework (project under CNCF)",
+  "language": null,
+  "stars": 7357,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.110748+00:00"
+  },
+  "cncf": {
+    "name": "KubeEdge (Wasm)",
+    "category": "Wasm",
+    "subcategory": "Orchestration & Management",
+    "imported_at": "2026-02-11T23:30:15.111146+00:00"
+  }
+}

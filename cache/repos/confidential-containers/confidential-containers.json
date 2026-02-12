@@ -1,0 +1,19 @@
+{
+  "owner": "confidential-containers",
+  "name": "confidential-containers",
+  "full_name": "confidential-containers/confidential-containers",
+  "url": "https://github.com/confidential-containers/confidential-containers",
+  "description": "Confidential Containers Community",
+  "language": null,
+  "stars": 326,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.992229+00:00"
+  },
+  "cncf": {
+    "name": "Confidential Containers",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:14.992230+00:00"
+  }
+}

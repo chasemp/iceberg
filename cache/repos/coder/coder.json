@@ -1,0 +1,19 @@
+{
+  "owner": "coder",
+  "name": "coder",
+  "full_name": "coder/coder",
+  "url": "https://github.com/coder/coder",
+  "description": "Secure environments for developers and their agents",
+  "language": null,
+  "stars": 12162,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.990961+00:00"
+  },
+  "cncf": {
+    "name": "Coder",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:14.990963+00:00"
+  }
+}

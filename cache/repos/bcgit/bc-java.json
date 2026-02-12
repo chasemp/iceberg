@@ -1,0 +1,19 @@
+{
+  "owner": "bcgit",
+  "name": "bc-java",
+  "full_name": "bcgit/bc-java",
+  "url": "https://github.com/bcgit/bc-java",
+  "description": "Bouncy Castle Java Distribution (Mirror)",
+  "language": null,
+  "stars": 2605,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.950642+00:00"
+  },
+  "cncf": {
+    "name": "Bouncy Castle",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:14.950643+00:00"
+  }
+}

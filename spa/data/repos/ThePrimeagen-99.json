@@ -7,17 +7,23 @@
     "owner": "ThePrimeagen",
     "repo": "99",
     "version": "HEAD",
-    "loc": 25,
+    "loc": 23,
     "source": "github_clone",
-    "cached_at": "2026-02-02T23:15:13.018094+00:00",
+    "cached_at": "2026-02-10T23:56:32.555132+00:00",
     "repo_url": "https://github.com/ThePrimeagen/99.git",
     "ref": "HEAD",
-    "commit_hash": "2c771814e1d95280ee99545de61b28dfa773c5fa",
-    "clone_duration_seconds": 0.9595909118652344,
-    "count_duration_seconds": 0.004212141036987305,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "trending-weekly",
-    "tracked": false,
-    "maintenance_priority": "low"
+    "commit_hash": "96f3682ea890a3f2037aafa253c92d0dd3b82161",
+    "clone_duration_seconds": 1.011941909790039,
+    "count_duration_seconds": 0.006531953811645508,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

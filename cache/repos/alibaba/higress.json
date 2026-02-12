@@ -1,0 +1,19 @@
+{
+  "owner": "alibaba",
+  "name": "higress",
+  "full_name": "alibaba/higress",
+  "url": "https://github.com/alibaba/higress",
+  "description": "\ud83e\udd16 AI Gateway | AI Native API Gateway",
+  "language": null,
+  "stars": 7466,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.074153+00:00"
+  },
+  "cncf": {
+    "name": "Higress",
+    "category": "Orchestration & Management",
+    "subcategory": "API Gateway",
+    "imported_at": "2026-02-11T23:30:15.074154+00:00"
+  }
+}

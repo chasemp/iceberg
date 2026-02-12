@@ -1,0 +1,19 @@
+{
+  "owner": "gravitational",
+  "name": "teleport",
+  "full_name": "gravitational/teleport",
+  "url": "https://github.com/gravitational/teleport",
+  "description": "The easiest, and most secure way to access and protect all of your infrastructure.",
+  "language": null,
+  "stars": 19794,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.193816+00:00"
+  },
+  "cncf": {
+    "name": "Teleport",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.193818+00:00"
+  }
+}

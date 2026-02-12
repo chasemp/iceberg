@@ -1,0 +1,19 @@
+{
+  "owner": "hashicorp",
+  "name": "terraform",
+  "full_name": "hashicorp/terraform",
+  "url": "https://github.com/hashicorp/terraform",
+  "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+  "language": null,
+  "stars": 47611,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.196894+00:00"
+  },
+  "cncf": {
+    "name": "Terraform",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.196895+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "werf",
+  "name": "werf",
+  "full_name": "werf/werf",
+  "url": "https://github.com/werf/werf",
+  "description": "A solution for implementing efficient and consistent software delivery to Kubernetes facilitating best practices.",
+  "language": null,
+  "stars": 4636,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.214849+00:00"
+  },
+  "cncf": {
+    "name": "werf",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.214850+00:00"
+  }
+}

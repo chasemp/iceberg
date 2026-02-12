@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "servicecomb-java-chassis",
+  "full_name": "apache/servicecomb-java-chassis",
+  "url": "https://github.com/apache/servicecomb-java-chassis",
+  "description": "ServiceComb Java Chassis is a Software Development Kit (SDK) for rapid development of microservices in Java, providing service registration, service discovery, dynamic routing, and service management features",
+  "language": null,
+  "stars": 1937,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.177907+00:00"
+  },
+  "cncf": {
+    "name": "ServiceComb",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.177908+00:00"
+  }
+}

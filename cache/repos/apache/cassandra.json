@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "cassandra",
+  "full_name": "apache/cassandra",
+  "url": "https://github.com/apache/cassandra",
+  "description": "Apache Cassandra\u00ae",
+  "language": null,
+  "stars": 9612,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.975948+00:00"
+  },
+  "cncf": {
+    "name": "Cassandra",
+    "category": "CNAI",
+    "subcategory": "Data Architecture",
+    "imported_at": "2026-02-11T23:30:14.977182+00:00"
+  }
+}

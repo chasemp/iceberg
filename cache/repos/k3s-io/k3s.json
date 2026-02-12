@@ -1,0 +1,19 @@
+{
+  "owner": "k3s-io",
+  "name": "k3s",
+  "full_name": "k3s-io/k3s",
+  "url": "https://github.com/k3s-io/k3s",
+  "description": "Lightweight Kubernetes",
+  "language": null,
+  "stars": 32096,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.086179+00:00"
+  },
+  "cncf": {
+    "name": "k3s",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Distribution",
+    "imported_at": "2026-02-11T23:30:15.086180+00:00"
+  }
+}

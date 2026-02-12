@@ -1,0 +1,19 @@
+{
+  "owner": "metatypedev",
+  "name": "metatype",
+  "full_name": "metatypedev/metatype",
+  "url": "https://github.com/metatypedev/metatype",
+  "description": "Declarative API development platform. Build backend components with WASM, Typescript and Python, no matter where and how your (legacy) systems are.",
+  "language": null,
+  "stars": 404,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.133149+00:00"
+  },
+  "cncf": {
+    "name": "Metatype",
+    "category": "Wasm",
+    "subcategory": "Application Frameworks",
+    "imported_at": "2026-02-11T23:30:15.133150+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "meshery",
+  "name": "meshery",
+  "full_name": "meshery/meshery",
+  "url": "https://github.com/meshery/meshery",
+  "description": "Meshery, the cloud native manager",
+  "language": null,
+  "stars": 9831,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.132112+00:00"
+  },
+  "cncf": {
+    "name": "Meshery (Wasm)",
+    "category": "Wasm",
+    "subcategory": "Orchestration & Management",
+    "imported_at": "2026-02-11T23:30:15.132326+00:00"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "owner": "microsoft",
+  "repo": "litebox",
+  "full_name": "microsoft/litebox",
+  "url": "https://github.com/microsoft/litebox",
+  "analysis": {
+    "owner": "microsoft",
+    "repo": "litebox",
+    "version": "HEAD",
+    "loc": 52454,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:59:57.528540+00:00",
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/microsoft/litebox.git",
+    "ref": "HEAD",
+    "commit_hash": "dc38d174163e9f61d638defbb3dfb63e980d3423",
+    "clone_duration_seconds": 1.7171680927276611,
+    "count_duration_seconds": 0.03220987319946289,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

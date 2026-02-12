@@ -1,0 +1,29 @@
+{
+  "owner": "langchain-ai",
+  "repo": "rag-from-scratch",
+  "full_name": "langchain-ai/rag-from-scratch",
+  "url": "https://github.com/langchain-ai/rag-from-scratch",
+  "analysis": {
+    "owner": "langchain-ai",
+    "repo": "rag-from-scratch",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:58:58.161427+00:00",
+    "repo_url": "https://github.com/langchain-ai/rag-from-scratch.git",
+    "ref": "HEAD",
+    "commit_hash": "1fdb7d0e4f1d3e731c8397332452715512f18667",
+    "clone_duration_seconds": 1.3293161392211914,
+    "count_duration_seconds": 0.0018172264099121094,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

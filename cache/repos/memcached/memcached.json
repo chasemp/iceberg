@@ -1,0 +1,19 @@
+{
+  "owner": "memcached",
+  "name": "memcached",
+  "full_name": "memcached/memcached",
+  "url": "https://github.com/memcached/memcached",
+  "description": "memcached development tree",
+  "language": null,
+  "stars": 14122,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.131251+00:00"
+  },
+  "cncf": {
+    "name": "Memcached",
+    "category": "CNAI",
+    "subcategory": "Data Architecture",
+    "imported_at": "2026-02-11T23:30:15.131252+00:00"
+  }
+}

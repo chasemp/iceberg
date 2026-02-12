@@ -1,0 +1,19 @@
+{
+  "owner": "kudobuilder",
+  "name": "kudo",
+  "full_name": "kudobuilder/kudo",
+  "url": "https://github.com/kudobuilder/kudo",
+  "description": "Kubernetes Universal Declarative Operator (KUDO)",
+  "language": null,
+  "stars": 1213,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.121567+00:00"
+  },
+  "cncf": {
+    "name": "KUDO",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.121569+00:00"
+  }
+}

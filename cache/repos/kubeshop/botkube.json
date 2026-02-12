@@ -1,0 +1,19 @@
+{
+  "owner": "kubeshop",
+  "name": "botkube",
+  "full_name": "kubeshop/botkube",
+  "url": "https://github.com/kubeshop/botkube",
+  "description": "An app that helps you monitor your Kubernetes cluster, debug critical deployments & gives recommendations for standard practices",
+  "language": null,
+  "stars": 2273,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.950015+00:00"
+  },
+  "cncf": {
+    "name": "Botkube",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:14.950017+00:00"
+  }
+}

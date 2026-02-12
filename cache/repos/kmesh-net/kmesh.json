@@ -1,0 +1,19 @@
+{
+  "owner": "kmesh-net",
+  "name": "kmesh",
+  "full_name": "kmesh-net/kmesh",
+  "url": "https://github.com/kmesh-net/kmesh",
+  "description": "High Performance ServiceMesh Data Plane Based on eBPF and Programmable Kernel",
+  "language": null,
+  "stars": 701,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.095521+00:00"
+  },
+  "cncf": {
+    "name": "Kmesh",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Mesh",
+    "imported_at": "2026-02-11T23:30:15.095523+00:00"
+  }
+}

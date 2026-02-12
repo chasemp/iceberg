@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "mesos",
+  "full_name": "apache/mesos",
+  "url": "https://github.com/apache/mesos",
+  "description": "Apache Mesos",
+  "language": null,
+  "stars": 5364,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.904472+00:00"
+  },
+  "cncf": {
+    "name": "Apache Mesos",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:14.904473+00:00"
+  }
+}

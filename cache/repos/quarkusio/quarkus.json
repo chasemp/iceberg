@@ -1,0 +1,19 @@
+{
+  "owner": "quarkusio",
+  "name": "quarkus",
+  "full_name": "quarkusio/quarkus",
+  "url": "https://github.com/quarkusio/quarkus",
+  "description": "Quarkus: Supersonic Subatomic Java. ",
+  "language": null,
+  "stars": 15452,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.166955+00:00"
+  },
+  "cncf": {
+    "name": "Quarkus",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.166957+00:00"
+  }
+}

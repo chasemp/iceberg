@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 224,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:24:47.813657+00:00",
+    "cached_at": "2026-02-11T00:42:36.678684+00:00",
     "repo_url": "https://github.com/lewagon/setup.git",
     "ref": "HEAD",
     "commit_hash": "674ae5a5d7589936c8c8c98ef57b73326c5d0fb5",
-    "clone_duration_seconds": 1.1136448383331299,
-    "count_duration_seconds": 0.003608226776123047
+    "clone_duration_seconds": 1.5652320384979248,
+    "count_duration_seconds": 0.005808830261230469,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

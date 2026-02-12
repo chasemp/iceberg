@@ -4,9 +4,16 @@
   "url": "https://github.com/apache/openwhisk",
   "description": "Apache OpenWhisk is an open source serverless cloud platform",
   "language": "Scala",
-  "stars": 6753,
+  "stars": 6752,
   "categories": {
-    "github-ranking-scala": "2026-02-09"
+    "github-ranking-scala": "2026-02-09",
+    "tracked": "2026-02-11T23:30:14.906271+00:00"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-09",
+  "cncf": {
+    "name": "Apache OpenWhisk",
+    "category": "Serverless",
+    "subcategory": "Installable Platform",
+    "imported_at": "2026-02-11T23:30:14.906274+00:00"
+  }
 }

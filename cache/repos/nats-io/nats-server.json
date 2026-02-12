@@ -1,0 +1,19 @@
+{
+  "owner": "nats-io",
+  "name": "nats-server",
+  "full_name": "nats-io/nats-server",
+  "url": "https://github.com/nats-io/nats-server",
+  "description": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
+  "language": null,
+  "stars": 19098,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.138240+00:00"
+  },
+  "cncf": {
+    "name": "NATS",
+    "category": "App Definition and Development",
+    "subcategory": "Streaming & Messaging",
+    "imported_at": "2026-02-11T23:30:15.138241+00:00"
+  }
+}

@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 2891,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:46:22.917168+00:00",
+    "cached_at": "2026-02-10T23:14:32.363789+00:00",
     "repo_url": "https://github.com/koreader/koreader.git",
     "ref": "HEAD",
     "commit_hash": "2237dce2e36608d74e28dbb8fd0fcdba15886c21",
-    "clone_duration_seconds": 1.5165340900421143,
-    "count_duration_seconds": 0.01581573486328125
+    "clone_duration_seconds": 1.903446912765503,
+    "count_duration_seconds": 0.025964975357055664,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

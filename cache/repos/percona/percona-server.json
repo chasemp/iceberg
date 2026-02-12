@@ -1,0 +1,19 @@
+{
+  "owner": "percona",
+  "name": "percona-server",
+  "full_name": "percona/percona-server",
+  "url": "https://github.com/percona/percona-server",
+  "description": "Percona Server",
+  "language": null,
+  "stars": 1255,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.155147+00:00"
+  },
+  "cncf": {
+    "name": "Percona Server for MySQL",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.155148+00:00"
+  }
+}

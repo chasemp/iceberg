@@ -1,0 +1,19 @@
+{
+  "owner": "cozystack",
+  "name": "cozystack",
+  "full_name": "cozystack/cozystack",
+  "url": "https://github.com/cozystack/cozystack",
+  "description": "Free and Open Source PaaS framework for seamless management of virtual machines, managed Kubernetes, and Databases-as-a-Service",
+  "language": null,
+  "stars": 1906,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.033097+00:00"
+  },
+  "cncf": {
+    "name": "Cozystack",
+    "category": "Platform",
+    "subcategory": "PaaS/Container Service",
+    "imported_at": "2026-02-11T23:30:15.033098+00:00"
+  }
+}

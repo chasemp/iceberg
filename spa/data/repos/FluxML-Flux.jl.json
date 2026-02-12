@@ -1,0 +1,29 @@
+{
+  "owner": "FluxML",
+  "repo": "Flux.jl",
+  "full_name": "FluxML/Flux.jl",
+  "url": "https://github.com/FluxML/Flux.jl",
+  "analysis": {
+    "owner": "FluxML",
+    "repo": "Flux.jl",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:24:54.790837+00:00",
+    "repo_url": "https://github.com/FluxML/Flux.jl.git",
+    "ref": "HEAD",
+    "commit_hash": "ce4b8a081aec37d5f8144044a5a7940f47210551",
+    "clone_duration_seconds": 1.128692865371704,
+    "count_duration_seconds": 0.006283998489379883,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

@@ -9,22 +9,26 @@
     "version": "HEAD",
     "loc": 355455,
     "source": "github_clone",
-    "cached_at": "2026-02-09T20:10:37.940536+00:00",
+    "cached_at": "2026-02-10T23:46:32.646261+00:00",
     "package": {
       "system": "npm",
       "name": "angular-srcs",
       "version": "21.2.0-next.2"
     },
-    "total_loc": 809866,
-    "ratio": 0.6949724582325385,
     "repo_url": "https://github.com/angular/angular.git",
     "ref": "v21.2.0-next.2",
     "commit_hash": "c3229b31363ce524fcd58d8d73d7368f64678f6f",
-    "clone_duration_seconds": 8.376908779144287,
-    "count_duration_seconds": 0.5814521312713623,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-top-100-stars",
-    "tracked": false,
-    "maintenance_priority": "medium"
+    "clone_duration_seconds": 7.845104217529297,
+    "count_duration_seconds": 0.5592741966247559,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

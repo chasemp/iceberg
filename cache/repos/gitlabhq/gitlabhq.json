@@ -4,9 +4,16 @@
   "url": "https://github.com/gitlabhq/gitlabhq",
   "description": "GitLab CE Mirror \\",
   "language": "Ruby",
-  "stars": 24246,
+  "stars": 24241,
   "categories": {
-    "github-ranking-ruby": "2026-02-09"
+    "github-ranking-ruby": "2026-02-09",
+    "tracked": "2026-02-11T23:30:15.058238+00:00"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-09",
+  "cncf": {
+    "name": "GitLab",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.058241+00:00"
+  }
 }

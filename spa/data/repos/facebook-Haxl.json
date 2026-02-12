@@ -1,0 +1,29 @@
+{
+  "owner": "facebook",
+  "repo": "Haxl",
+  "full_name": "facebook/Haxl",
+  "url": "https://github.com/facebook/Haxl",
+  "analysis": {
+    "owner": "facebook",
+    "repo": "Haxl",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:09:04.034313+00:00",
+    "repo_url": "https://github.com/facebook/Haxl.git",
+    "ref": "HEAD",
+    "commit_hash": "7652bae93379dee568573d0e92139a443eff3916",
+    "clone_duration_seconds": 0.9556901454925537,
+    "count_duration_seconds": 0.0036270618438720703,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

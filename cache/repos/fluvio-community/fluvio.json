@@ -1,0 +1,19 @@
+{
+  "owner": "fluvio-community",
+  "name": "fluvio",
+  "full_name": "fluvio-community/fluvio",
+  "url": "https://github.com/fluvio-community/fluvio",
+  "description": "\ud83e\udd80 event stream processing for developers to collect and transform data in motion to power responsive data intensive applications.",
+  "language": null,
+  "stars": 5159,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.054436+00:00"
+  },
+  "cncf": {
+    "name": "Infinyon",
+    "category": "Wasm",
+    "subcategory": "Embedded Functions",
+    "imported_at": "2026-02-11T23:30:15.080684+00:00"
+  }
+}

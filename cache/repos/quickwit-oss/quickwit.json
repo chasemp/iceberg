@@ -1,0 +1,19 @@
+{
+  "owner": "quickwit-oss",
+  "name": "quickwit",
+  "full_name": "quickwit-oss/quickwit",
+  "url": "https://github.com/quickwit-oss/quickwit",
+  "description": "Cloud-native search engine for observability. An open-source alternative to Datadog, Elasticsearch, Loki, and Tempo.",
+  "language": null,
+  "stars": 10855,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.167313+00:00"
+  },
+  "cncf": {
+    "name": "Quickwit",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.167314+00:00"
+  }
+}

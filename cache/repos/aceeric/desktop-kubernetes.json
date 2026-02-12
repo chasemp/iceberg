@@ -1,0 +1,19 @@
+{
+  "owner": "aceeric",
+  "name": "desktop-kubernetes",
+  "full_name": "aceeric/desktop-kubernetes",
+  "url": "https://github.com/aceeric/desktop-kubernetes",
+  "description": "Stands up a certified multi-VM Kubernetes development cluster on your Linux desktop using KVM or VirtualBox, by running a single Bash script. A config yaml supports different cluster configs.",
+  "language": null,
+  "stars": 16,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.038628+00:00"
+  },
+  "cncf": {
+    "name": "Desktop Kubernetes",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Distribution",
+    "imported_at": "2026-02-11T23:30:15.038629+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "getsentry",
+  "name": "sentry",
+  "full_name": "getsentry/sentry",
+  "url": "https://github.com/getsentry/sentry",
+  "description": "Developer-first error tracking and performance monitoring",
+  "language": null,
+  "stars": 43099,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.176511+00:00"
+  },
+  "cncf": {
+    "name": "Sentry",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.176512+00:00"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "owner": "jaywcjlove",
+  "repo": "awesome-mac",
+  "full_name": "jaywcjlove/awesome-mac",
+  "url": "https://github.com/jaywcjlove/awesome-mac",
+  "analysis": {
+    "owner": "jaywcjlove",
+    "repo": "awesome-mac",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:41:41.430541+00:00",
+    "package": {
+      "system": "npm",
+      "name": "awesome-mac",
+      "version": "1.11.0"
+    },
+    "repo_url": "https://github.com/jaywcjlove/awesome-mac.git",
+    "ref": "v1.11.0",
+    "commit_hash": "63287cb9751d9015329ac4aeb2950e904210e293",
+    "clone_duration_seconds": 0.9526147842407227,
+    "count_duration_seconds": 0.0015931129455566406,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

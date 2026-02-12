@@ -1,0 +1,19 @@
+{
+  "owner": "deislabs",
+  "name": "spiderlightning",
+  "full_name": "deislabs/spiderlightning",
+  "url": "https://github.com/deislabs/spiderlightning",
+  "description": "A set of WIT definitions and associated implementations to enable app developers to work at a faster pace and require less knowledge of the environment in which they are executing.",
+  "language": null,
+  "stars": 320,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.185820+00:00"
+  },
+  "cncf": {
+    "name": "SpiderLightning",
+    "category": "Wasm",
+    "subcategory": "Application Frameworks",
+    "imported_at": "2026-02-11T23:30:15.185821+00:00"
+  }
+}

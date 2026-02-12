@@ -1,0 +1,19 @@
+{
+  "owner": "kelseyhightower",
+  "name": "nocode",
+  "full_name": "kelseyhightower/nocode",
+  "url": "https://github.com/kelseyhightower/nocode",
+  "description": "The best way to write secure and reliable applications. Write nothing; deploy nowhere.",
+  "language": null,
+  "stars": 64664,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.141403+00:00"
+  },
+  "cncf": {
+    "name": "No Code",
+    "category": "Platform",
+    "subcategory": "PaaS/Container Service",
+    "imported_at": "2026-02-11T23:30:15.141404+00:00"
+  }
+}

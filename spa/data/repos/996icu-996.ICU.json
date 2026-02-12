@@ -9,13 +9,23 @@
     "version": "HEAD",
     "loc": 658,
     "source": "github_clone",
-    "cached_at": "2026-02-05T22:17:35.551950+00:00",
+    "cached_at": "2026-02-10T23:28:55.402078+00:00",
     "total_loc": 0,
     "ratio": 0.0,
     "repo_url": "https://github.com/996icu/996.ICU.git",
     "ref": "HEAD",
     "commit_hash": "f5e35f48d769bf92ed885888bfe911d3e5b5a63d",
-    "clone_duration_seconds": 13.551172971725464,
-    "count_duration_seconds": 0.0052869319915771484
+    "clone_duration_seconds": 12.108938932418823,
+    "count_duration_seconds": 0.006698131561279297,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "owner": "odigos-io",
+  "name": "odigos",
+  "full_name": "odigos-io/odigos",
+  "url": "https://github.com/odigos-io/odigos",
+  "description": "Distributed tracing without code changes. \ud83d\ude80 Instantly monitor any application using OpenTelemetry and eBPF",
+  "language": null,
+  "stars": 3615,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.143500+00:00"
+  },
+  "cncf": {
+    "name": "Odigos",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.143501+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "openyurtio",
+  "name": "openyurt",
+  "full_name": "openyurtio/openyurt",
+  "url": "https://github.com/openyurtio/openyurt",
+  "description": "OpenYurt - Extending your native Kubernetes to edge(project under CNCF)",
+  "language": null,
+  "stars": 1937,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.151979+00:00"
+  },
+  "cncf": {
+    "name": "OpenYurt",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.151980+00:00"
+  }
+}

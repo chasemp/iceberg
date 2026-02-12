@@ -4,9 +4,16 @@
   "url": "https://github.com/vllm-project/vllm",
   "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
   "language": "Python",
-  "stars": 69902,
+  "stars": 69622,
   "categories": {
-    "search": "2026-02-09"
+    "search": "2026-02-09",
+    "tracked": "2026-02-11T23:30:15.208817+00:00"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-09",
+  "cncf": {
+    "name": "vLLM",
+    "category": "CNAI",
+    "subcategory": "ML Serving",
+    "imported_at": "2026-02-11T23:30:15.208820+00:00"
+  }
 }

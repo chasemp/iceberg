@@ -1,0 +1,19 @@
+{
+  "owner": "openGemini",
+  "name": "openGemini",
+  "full_name": "openGemini/openGemini",
+  "url": "https://github.com/openGemini/openGemini",
+  "description": "CNCF sandbox project, an open source distributed time-series database with high concurrency, high performance, and high scalability",
+  "language": null,
+  "stars": 1139,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.148217+00:00"
+  },
+  "cncf": {
+    "name": "openGemini",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.148218+00:00"
+  }
+}

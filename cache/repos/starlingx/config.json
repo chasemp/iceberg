@@ -1,0 +1,19 @@
+{
+  "owner": "starlingx",
+  "name": "config",
+  "full_name": "starlingx/config",
+  "url": "https://github.com/starlingx/config",
+  "description": "StarlingX System Configuration Management",
+  "language": null,
+  "stars": 25,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.189305+00:00"
+  },
+  "cncf": {
+    "name": "StarlingX",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Hosted",
+    "imported_at": "2026-02-11T23:30:15.189306+00:00"
+  }
+}

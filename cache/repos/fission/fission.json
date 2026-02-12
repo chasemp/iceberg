@@ -1,0 +1,19 @@
+{
+  "owner": "fission",
+  "name": "fission",
+  "full_name": "fission/fission",
+  "url": "https://github.com/fission/fission",
+  "description": "Fast and Simple Serverless Functions for Kubernetes",
+  "language": null,
+  "stars": 8824,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.052027+00:00"
+  },
+  "cncf": {
+    "name": "Fission",
+    "category": "Serverless",
+    "subcategory": "Installable Platform",
+    "imported_at": "2026-02-11T23:30:15.052028+00:00"
+  }
+}

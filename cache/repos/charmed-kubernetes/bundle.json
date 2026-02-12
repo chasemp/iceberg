@@ -1,0 +1,19 @@
+{
+  "owner": "charmed-kubernetes",
+  "name": "bundle",
+  "full_name": "charmed-kubernetes/bundle",
+  "url": "https://github.com/charmed-kubernetes/bundle",
+  "description": "Charmed Kubernetes bundles. Report bugs at https://bugs.launchpad.net/charmed-kubernetes",
+  "language": null,
+  "stars": 149,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.955046+00:00"
+  },
+  "cncf": {
+    "name": "Canonical Charmed Kubernetes",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Distribution",
+    "imported_at": "2026-02-11T23:30:14.955047+00:00"
+  }
+}

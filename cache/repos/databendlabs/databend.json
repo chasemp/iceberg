@@ -1,0 +1,19 @@
+{
+  "owner": "databendlabs",
+  "name": "databend",
+  "full_name": "databendlabs/databend",
+  "url": "https://github.com/databendlabs/databend",
+  "description": "Data Agent Ready Warehouse : One for  Analytics, Search, AI, Python Sandbox.  \u2014 rebuilt from scratch. Unified architecture on your S3.",
+  "language": null,
+  "stars": 9134,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.036923+00:00"
+  },
+  "cncf": {
+    "name": "Databend",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.036924+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "opencontainers",
+  "name": "runc",
+  "full_name": "opencontainers/runc",
+  "url": "https://github.com/opencontainers/runc",
+  "description": "CLI tool for spawning and running containers according to the OCI specification",
+  "language": null,
+  "stars": 13030,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.171637+00:00"
+  },
+  "cncf": {
+    "name": "runc",
+    "category": "Runtime",
+    "subcategory": "Container Runtime",
+    "imported_at": "2026-02-11T23:30:15.171638+00:00"
+  }
+}

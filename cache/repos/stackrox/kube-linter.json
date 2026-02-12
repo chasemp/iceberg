@@ -1,0 +1,19 @@
+{
+  "owner": "stackrox",
+  "name": "kube-linter",
+  "full_name": "stackrox/kube-linter",
+  "url": "https://github.com/stackrox/kube-linter",
+  "description": "KubeLinter is a static analysis tool that checks Kubernetes YAML files and Helm charts to ensure the applications represented in them adhere to best practices.",
+  "language": null,
+  "stars": 3391,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.114539+00:00"
+  },
+  "cncf": {
+    "name": "KubeLinter",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.114541+00:00"
+  }
+}

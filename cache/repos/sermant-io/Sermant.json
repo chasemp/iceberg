@@ -1,0 +1,19 @@
+{
+  "owner": "sermant-io",
+  "name": "Sermant",
+  "full_name": "sermant-io/Sermant",
+  "url": "https://github.com/sermant-io/Sermant",
+  "description": "CNCF Sandbox project: A Cloud-Native Proxyless Service Mesh based on Java Bytecode Enhancement Technology",
+  "language": null,
+  "stars": 1358,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.176722+00:00"
+  },
+  "cncf": {
+    "name": "Sermant",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Mesh",
+    "imported_at": "2026-02-11T23:30:15.176723+00:00"
+  }
+}

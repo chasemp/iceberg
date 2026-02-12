@@ -1,0 +1,19 @@
+{
+  "owner": "AppScale",
+  "name": "gts",
+  "full_name": "AppScale/gts",
+  "url": "https://github.com/AppScale/gts",
+  "description": "AppScale is an easy-to-manage serverless platform for building and running scalable web and mobile applications on any infrastructure.",
+  "language": null,
+  "stars": 2428,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.911954+00:00"
+  },
+  "cncf": {
+    "name": "AppScale",
+    "category": "Serverless",
+    "subcategory": "Installable Platform",
+    "imported_at": "2026-02-11T23:30:14.911955+00:00"
+  }
+}

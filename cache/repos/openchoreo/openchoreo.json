@@ -1,0 +1,19 @@
+{
+  "owner": "openchoreo",
+  "name": "openchoreo",
+  "full_name": "openchoreo/openchoreo",
+  "url": "https://github.com/openchoreo/openchoreo",
+  "description": "OpenChoreo is an open-source internal developer platform (IDP)",
+  "language": null,
+  "stars": 655,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.146054+00:00"
+  },
+  "cncf": {
+    "name": "OpenChoreo",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.146055+00:00"
+  }
+}

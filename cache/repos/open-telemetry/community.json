@@ -1,0 +1,19 @@
+{
+  "owner": "open-telemetry",
+  "name": "community",
+  "full_name": "open-telemetry/community",
+  "url": "https://github.com/open-telemetry/community",
+  "description": "OpenTelemetry community content",
+  "language": null,
+  "stars": 1001,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.151345+00:00"
+  },
+  "cncf": {
+    "name": "OpenTelemetry",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.151346+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "zeromicro",
+  "name": "go-zero",
+  "full_name": "zeromicro/go-zero",
+  "url": "https://github.com/zeromicro/go-zero",
+  "description": "A cloud-native Go microservices framework with cli tool for productivity.",
+  "language": null,
+  "stars": 32591,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.059364+00:00"
+  },
+  "cncf": {
+    "name": "go-zero",
+    "category": "Orchestration & Management",
+    "subcategory": "Remote Procedure Call",
+    "imported_at": "2026-02-11T23:30:15.059365+00:00"
+  }
+}

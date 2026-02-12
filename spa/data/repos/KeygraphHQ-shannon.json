@@ -7,28 +7,30 @@
     "owner": "KeygraphHQ",
     "repo": "shannon",
     "version": "HEAD",
-    "loc": 5733,
+    "loc": 5825,
     "source": "github_clone",
-    "cached_at": "2026-02-08T06:40:53.875904+00:00",
+    "cached_at": "2026-02-10T23:59:49.472721+00:00",
     "package": {
       "system": "npm",
       "name": "shannon",
       "version": "1.0.0"
     },
+    "total_loc": 2924,
+    "ratio": 0.33420962395702364,
+    "repo_url": "https://github.com/KeygraphHQ/shannon.git",
+    "ref": "HEAD",
+    "commit_hash": "d1dbaa96037151ca4ec2d416bd1dbf4bbfc0122b",
+    "clone_duration_seconds": 6.796971082687378,
+    "count_duration_seconds": 0.07715010643005371,
     "ai_markers": {
-      "claude": true,
+      "claude": false,
       "cursor": false,
       "copilot": false,
       "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
       "generic_ai": false
-    },
-    "ai_tools": [
-      "Claude"
-    ],
-    "repo_url": "https://github.com/KeygraphHQ/shannon.git",
-    "ref": "HEAD",
-    "commit_hash": "9bfbf1c3ec81af28ef0b40fa537686a92b1324d1",
-    "clone_duration_seconds": 2.685865879058838,
-    "count_duration_seconds": 0.05846905708312988
+    }
   }
 }

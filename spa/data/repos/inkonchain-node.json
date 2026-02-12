@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 194,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:12:25.171325+00:00",
+    "cached_at": "2026-02-11T15:03:14.686381+00:00",
     "repo_url": "https://github.com/inkonchain/node.git",
     "ref": "HEAD",
     "commit_hash": "8b7947a74b77da6cfdf589991db02205c0125f82",
-    "clone_duration_seconds": 0.49428224563598633,
-    "count_duration_seconds": 0.001967906951904297
+    "clone_duration_seconds": 1.0030300617218018,
+    "count_duration_seconds": 0.003803253173828125,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

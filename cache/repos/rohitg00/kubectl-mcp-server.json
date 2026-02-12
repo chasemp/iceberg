@@ -1,0 +1,19 @@
+{
+  "owner": "rohitg00",
+  "name": "kubectl-mcp-server",
+  "full_name": "rohitg00/kubectl-mcp-server",
+  "url": "https://github.com/rohitg00/kubectl-mcp-server",
+  "description": "A Model Context Protocol (MCP) server for Kubernetes. Install: npx kubectl-mcp-server or pip install kubectl-mcp-server",
+  "language": null,
+  "stars": 783,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.110002+00:00"
+  },
+  "cncf": {
+    "name": "kubectl-mcp-server",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.110004+00:00"
+  }
+}

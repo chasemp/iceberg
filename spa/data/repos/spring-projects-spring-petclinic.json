@@ -9,7 +9,7 @@
     "version": "HEAD",
     "loc": 850,
     "source": "github_clone",
-    "cached_at": "2026-02-09T20:24:43.664517+00:00",
+    "cached_at": "2026-02-11T16:02:42.779914+00:00",
     "package": {
       "system": "maven",
       "name": "spring-boot-starter-parent",
@@ -20,11 +20,17 @@
     "repo_url": "https://github.com/spring-projects/spring-petclinic.git",
     "ref": "HEAD",
     "commit_hash": "a4fcf04c932031463dc7eb1ed9f1e05b402c13c0",
-    "clone_duration_seconds": 1.0001940727233887,
-    "count_duration_seconds": 0.011343240737915039,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-top-100-forks",
-    "tracked": false,
-    "maintenance_priority": "low"
+    "clone_duration_seconds": 1.693673849105835,
+    "count_duration_seconds": 0.036366939544677734,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

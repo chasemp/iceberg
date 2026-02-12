@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "streampipes",
+  "full_name": "apache/streampipes",
+  "url": "https://github.com/apache/streampipes",
+  "description": "Apache StreamPipes - A self-service (Industrial) IoT toolbox to enable non-technical users to connect, analyze and explore IoT data streams.",
+  "language": null,
+  "stars": 704,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.908256+00:00"
+  },
+  "cncf": {
+    "name": "Apache StreamPipes",
+    "category": "App Definition and Development",
+    "subcategory": "Streaming & Messaging",
+    "imported_at": "2026-02-11T23:30:14.908257+00:00"
+  }
+}

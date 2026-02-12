@@ -1,0 +1,19 @@
+{
+  "owner": "dfinity",
+  "name": "ic",
+  "full_name": "dfinity/ic",
+  "url": "https://github.com/dfinity/ic",
+  "description": "Internet Computer blockchain source: the client/replica software run by nodes",
+  "language": null,
+  "stars": 1729,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.039887+00:00"
+  },
+  "cncf": {
+    "name": "Dfinity",
+    "category": "Wasm",
+    "subcategory": "Decentralized Platforms",
+    "imported_at": "2026-02-11T23:30:15.039888+00:00"
+  }
+}

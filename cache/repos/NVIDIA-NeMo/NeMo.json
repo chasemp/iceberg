@@ -1,0 +1,19 @@
+{
+  "owner": "NVIDIA-NeMo",
+  "name": "NeMo",
+  "full_name": "NVIDIA-NeMo/NeMo",
+  "url": "https://github.com/NVIDIA-NeMo/NeMo",
+  "description": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
+  "language": null,
+  "stars": 16693,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.141101+00:00"
+  },
+  "cncf": {
+    "name": "Nivida NeMo",
+    "category": "CNAI",
+    "subcategory": "General Orchestration",
+    "imported_at": "2026-02-11T23:30:15.141102+00:00"
+  }
+}

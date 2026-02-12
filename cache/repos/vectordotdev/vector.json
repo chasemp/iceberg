@@ -1,0 +1,19 @@
+{
+  "owner": "vectordotdev",
+  "name": "vector",
+  "full_name": "vectordotdev/vector",
+  "url": "https://github.com/vectordotdev/vector",
+  "description": "A high-performance observability data pipeline.",
+  "language": null,
+  "stars": 21282,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.206937+00:00"
+  },
+  "cncf": {
+    "name": "Vector",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.206938+00:00"
+  }
+}

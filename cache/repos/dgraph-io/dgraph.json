@@ -1,0 +1,19 @@
+{
+  "owner": "dgraph-io",
+  "name": "dgraph",
+  "full_name": "dgraph-io/dgraph",
+  "url": "https://github.com/dgraph-io/dgraph",
+  "description": "high-performance graph database for real-time use cases",
+  "language": null,
+  "stars": 21508,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.040112+00:00"
+  },
+  "cncf": {
+    "name": "Dgraph",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.040113+00:00"
+  }
+}

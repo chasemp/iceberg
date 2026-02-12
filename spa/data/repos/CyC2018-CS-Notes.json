@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 11619,
     "source": "github_clone",
-    "cached_at": "2026-02-05T22:17:49.642679+00:00",
+    "cached_at": "2026-02-10T23:32:09.887303+00:00",
     "repo_url": "https://github.com/CyC2018/CS-Notes.git",
     "ref": "HEAD",
     "commit_hash": "b70121d377cb6005eb65f12b098cd5decd905669",
-    "clone_duration_seconds": 3.5944831371307373,
-    "count_duration_seconds": 0.042500972747802734
+    "clone_duration_seconds": 3.849260091781616,
+    "count_duration_seconds": 0.06919002532958984,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

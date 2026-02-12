@@ -1,0 +1,19 @@
+{
+  "owner": "fluxcd",
+  "name": "flux2",
+  "full_name": "fluxcd/flux2",
+  "url": "https://github.com/fluxcd/flux2",
+  "description": "Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit.",
+  "language": null,
+  "stars": 7847,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.054593+00:00"
+  },
+  "cncf": {
+    "name": "Flux",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.054594+00:00"
+  }
+}

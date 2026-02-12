@@ -1,0 +1,19 @@
+{
+  "owner": "weaviate",
+  "name": "weaviate",
+  "full_name": "weaviate/weaviate",
+  "url": "https://github.com/weaviate/weaviate",
+  "description": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database\u200b.",
+  "language": null,
+  "stars": 15540,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.213985+00:00"
+  },
+  "cncf": {
+    "name": "Weaviate",
+    "category": "CNAI",
+    "subcategory": "Vector Databases",
+    "imported_at": "2026-02-11T23:30:15.214164+00:00"
+  }
+}

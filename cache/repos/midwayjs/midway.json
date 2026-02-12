@@ -1,0 +1,19 @@
+{
+  "owner": "midwayjs",
+  "name": "midway",
+  "full_name": "midwayjs/midway",
+  "url": "https://github.com/midwayjs/midway",
+  "description": "\ud83c\udf54 A Node.js Serverless Framework for front-end/full-stack developers. Build the application for next decade. Works on AWS, Alibaba Cloud, Tencent Cloud and traditional VM/Container. Super easy integrate with React and Vue. \ud83c\udf08",
+  "language": null,
+  "stars": 7701,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.134158+00:00"
+  },
+  "cncf": {
+    "name": "Midway Serverless",
+    "category": "Serverless",
+    "subcategory": "Framework",
+    "imported_at": "2026-02-11T23:30:15.134159+00:00"
+  }
+}

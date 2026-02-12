@@ -1,0 +1,19 @@
+{
+  "owner": "Edgenesis",
+  "name": "shifu",
+  "full_name": "Edgenesis/shifu",
+  "url": "https://github.com/Edgenesis/shifu",
+  "description": "Kubernetes-native IoT gateway",
+  "language": null,
+  "stars": 1400,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.178490+00:00"
+  },
+  "cncf": {
+    "name": "Shifu",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.178491+00:00"
+  }
+}

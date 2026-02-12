@@ -1,0 +1,16 @@
+{
+  "owner": "autobrr",
+  "repo": "qui",
+  "full_name": "autobrr/qui",
+  "root_package": "go:github.com/autobrr/qui:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/autobrr/qui:v0.0.0",
+      "system": "go",
+      "name": "github.com/autobrr/qui",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-12T15:02:43.117151+00:00"
+}

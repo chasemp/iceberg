@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 9091,
     "source": "github_clone",
-    "cached_at": "2026-02-10T06:58:00.825113+00:00",
+    "cached_at": "2026-02-11T00:12:34.203788+00:00",
     "repo_url": "https://github.com/rxhanson/Rectangle.git",
     "ref": "HEAD",
     "commit_hash": "1eaa6dccdb0b8a31404164d68b6c90b23d8e43e4",
-    "clone_duration_seconds": 0.9336364269256592,
-    "count_duration_seconds": 0.014305591583251953
+    "clone_duration_seconds": 1.2774808406829834,
+    "count_duration_seconds": 0.022043228149414062,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

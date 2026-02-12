@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 126,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:47:53.871227+00:00",
+    "cached_at": "2026-02-10T23:17:34.665077+00:00",
     "repo_url": "https://github.com/junyanz/CycleGAN.git",
     "ref": "HEAD",
     "commit_hash": "40b4498526de6b566f94a000d98fe18b9b8921db",
-    "clone_duration_seconds": 1.247753620147705,
-    "count_duration_seconds": 0.0018990039825439453
+    "clone_duration_seconds": 1.9188916683197021,
+    "count_duration_seconds": 0.002851724624633789,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

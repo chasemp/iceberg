@@ -4,9 +4,16 @@
   "url": "https://github.com/nginx/nginx",
   "description": "The official NGINX Open Source repository.",
   "language": "C",
-  "stars": 29297,
+  "stars": 29272,
   "categories": {
-    "github-ranking-c": "2026-02-09"
+    "github-ranking-c": "2026-02-09",
+    "tracked": "2026-02-11T23:30:15.140172+00:00"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-09",
+  "cncf": {
+    "name": "NGINX (Wasm)",
+    "category": "Wasm",
+    "subcategory": "Embedded Functions",
+    "imported_at": "2026-02-11T23:30:15.140365+00:00"
+  }
 }

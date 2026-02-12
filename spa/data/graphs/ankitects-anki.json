@@ -1,0 +1,16 @@
+{
+  "owner": "ankitects",
+  "repo": "anki",
+  "full_name": "ankitects/anki",
+  "root_package": "npm:anki:0.1.0",
+  "nodes": [
+    {
+      "id": "npm:anki:0.1.0",
+      "system": "npm",
+      "name": "anki",
+      "version": "0.1.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-12T15:02:43.104042+00:00"
+}

@@ -9,15 +9,21 @@
     "version": "HEAD",
     "loc": 237731,
     "source": "github_clone",
-    "cached_at": "2026-02-09T21:50:56.354287+00:00",
+    "cached_at": "2026-02-11T14:58:21.208193+00:00",
     "repo_url": "https://github.com/ventoy/Ventoy.git",
     "ref": "HEAD",
     "commit_hash": "e7cf29fd9d0afb0562ce467dc3a7f95c6cf42e5b",
-    "clone_duration_seconds": 14.731982946395874,
-    "count_duration_seconds": 0.1786801815032959,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-c",
-    "tracked": false,
-    "maintenance_priority": "medium"
+    "clone_duration_seconds": 7.956643104553223,
+    "count_duration_seconds": 0.21013212203979492,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

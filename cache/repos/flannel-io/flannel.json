@@ -1,0 +1,19 @@
+{
+  "owner": "flannel-io",
+  "name": "flannel",
+  "full_name": "flannel-io/flannel",
+  "url": "https://github.com/flannel-io/flannel",
+  "description": "flannel is a network fabric for containers, designed for Kubernetes",
+  "language": null,
+  "stars": 9394,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.052683+00:00"
+  },
+  "cncf": {
+    "name": "Flannel",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Network",
+    "imported_at": "2026-02-11T23:30:15.052684+00:00"
+  }
+}

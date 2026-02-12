@@ -1,0 +1,19 @@
+{
+  "owner": "podman-desktop",
+  "name": "podman-desktop",
+  "full_name": "podman-desktop/podman-desktop",
+  "url": "https://github.com/podman-desktop/podman-desktop",
+  "description": "Podman Desktop is the best free and open source tool to work with Containers and Kubernetes for developers. Get an intuitive and user-friendly interface to effortlessly build, manage, and deploy containers and Kubernetes \u2014 all from your desktop.",
+  "language": null,
+  "stars": 7296,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.159668+00:00"
+  },
+  "cncf": {
+    "name": "Podman Desktop",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.159669+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "open-falcon",
+  "name": "falcon-plus",
+  "full_name": "open-falcon/falcon-plus",
+  "url": "https://github.com/open-falcon/falcon-plus",
+  "description": " An open-source and enterprise-level monitoring system.",
+  "language": null,
+  "stars": 7274,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.050179+00:00"
+  },
+  "cncf": {
+    "name": "Falcon",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.050180+00:00"
+  }
+}

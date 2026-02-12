@@ -1,0 +1,19 @@
+{
+  "owner": "openeverest",
+  "name": "openeverest",
+  "full_name": "openeverest/openeverest",
+  "url": "https://github.com/openeverest/openeverest",
+  "description": "OpenEverest is an open-source platform for automated database provisioning and management. It supports multiple database technologies and can be hosted on any Kubernetes infrastructure, in the cloud or on-premises.",
+  "language": null,
+  "stars": 652,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.147031+00:00"
+  },
+  "cncf": {
+    "name": "OpenEverest",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.147032+00:00"
+  }
+}

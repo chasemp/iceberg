@@ -1,0 +1,19 @@
+{
+  "owner": "trickstercache",
+  "name": "trickster",
+  "full_name": "trickstercache/trickster",
+  "url": "https://github.com/trickstercache/trickster",
+  "description": "Open Source HTTP Reverse Proxy Cache and Time Series Dashboard Accelerator",
+  "language": null,
+  "stars": 2069,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.203177+00:00"
+  },
+  "cncf": {
+    "name": "Trickster",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.203178+00:00"
+  }
+}

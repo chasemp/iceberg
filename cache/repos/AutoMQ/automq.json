@@ -1,0 +1,19 @@
+{
+  "owner": "AutoMQ",
+  "name": "automq",
+  "full_name": "AutoMQ/automq",
+  "url": "https://github.com/AutoMQ/automq",
+  "description": "AutoMQ is a diskless Kafka\u00ae on S3. 10x Cost-Effective. No Cross-AZ Traffic Cost. Autoscale in seconds. Single-digit ms latency. Multi-AZ Availability.",
+  "language": null,
+  "stars": 9462,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.918187+00:00"
+  },
+  "cncf": {
+    "name": "AutoMQ",
+    "category": "App Definition and Development",
+    "subcategory": "Streaming & Messaging",
+    "imported_at": "2026-02-11T23:30:14.918188+00:00"
+  }
+}

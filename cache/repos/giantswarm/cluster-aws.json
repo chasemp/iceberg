@@ -1,0 +1,19 @@
+{
+  "owner": "giantswarm",
+  "name": "cluster-aws",
+  "full_name": "giantswarm/cluster-aws",
+  "url": "https://github.com/giantswarm/cluster-aws",
+  "description": "Cluster AWS chart for creating Cluster API clusters on AWS",
+  "language": null,
+  "stars": 1,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.057852+00:00"
+  },
+  "cncf": {
+    "name": "Giant Swarm Managed Kubernetes",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Distribution",
+    "imported_at": "2026-02-11T23:30:15.057854+00:00"
+  }
+}

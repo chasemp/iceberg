@@ -1,0 +1,19 @@
+{
+  "owner": "spiffe",
+  "name": "spire",
+  "full_name": "spiffe/spire",
+  "url": "https://github.com/spiffe/spire",
+  "description": "The SPIFFE Runtime Environment",
+  "language": null,
+  "stars": 2201,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.187012+00:00"
+  },
+  "cncf": {
+    "name": "SPIRE",
+    "category": "Provisioning",
+    "subcategory": "Key Management",
+    "imported_at": "2026-02-11T23:30:15.187014+00:00"
+  }
+}

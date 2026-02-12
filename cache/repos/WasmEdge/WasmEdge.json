@@ -1,0 +1,19 @@
+{
+  "owner": "WasmEdge",
+  "name": "WasmEdge",
+  "full_name": "WasmEdge/WasmEdge",
+  "url": "https://github.com/WasmEdge/WasmEdge",
+  "description": "WasmEdge is a lightweight, high-performance, and extensible WebAssembly runtime for cloud native, edge, and decentralized applications. It powers serverless apps, embedded functions, microservices, smart contracts, and IoT devices.",
+  "language": null,
+  "stars": 10414,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.212705+00:00"
+  },
+  "cncf": {
+    "name": "WasmEdge Runtime",
+    "category": "Runtime",
+    "subcategory": "Container Runtime",
+    "imported_at": "2026-02-11T23:30:15.212706+00:00"
+  }
+}

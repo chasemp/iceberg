@@ -1,0 +1,19 @@
+{
+  "owner": "lindb",
+  "name": "lindb",
+  "full_name": "lindb/lindb",
+  "url": "https://github.com/lindb/lindb",
+  "description": "LinDB is a scalable, high performance, high availability distributed time series database.",
+  "language": null,
+  "stars": 3058,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.125813+00:00"
+  },
+  "cncf": {
+    "name": "LinDB",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.125814+00:00"
+  }
+}

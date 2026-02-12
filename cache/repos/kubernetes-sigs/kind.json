@@ -1,0 +1,19 @@
+{
+  "owner": "kubernetes-sigs",
+  "name": "kind",
+  "full_name": "kubernetes-sigs/kind",
+  "url": "https://github.com/kubernetes-sigs/kind",
+  "description": "Kubernetes IN Docker - local clusters for testing Kubernetes",
+  "language": null,
+  "stars": 14994,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.094579+00:00"
+  },
+  "cncf": {
+    "name": "kind",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Installer",
+    "imported_at": "2026-02-11T23:30:15.094580+00:00"
+  }
+}

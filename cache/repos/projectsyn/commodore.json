@@ -1,0 +1,19 @@
+{
+  "owner": "projectsyn",
+  "name": "commodore",
+  "full_name": "projectsyn/commodore",
+  "url": "https://github.com/projectsyn/commodore",
+  "description": "Commodore provides opinionated tenant-aware management of Kapitan inventories and templates. Commodore uses Kapitan for the heavy lifting of rendering templates and resolving a hierachical configuration structure.",
+  "language": null,
+  "stars": 49,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.162626+00:00"
+  },
+  "cncf": {
+    "name": "Project Syn",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.162627+00:00"
+  }
+}

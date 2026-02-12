@@ -7,17 +7,13 @@
     "owner": "NationalSecurityAgency",
     "repo": "ghidra",
     "version": "HEAD",
-    "loc": 1817472,
+    "loc": 1818299,
     "source": "github_clone",
-    "cached_at": "2026-02-09T21:38:45.874393+00:00",
+    "cached_at": "2026-02-11T15:41:55.078579+00:00",
     "repo_url": "https://github.com/NationalSecurityAgency/ghidra.git",
     "ref": "HEAD",
-    "commit_hash": "4472c6863d7846b8f29c5be738caab366b99db18",
-    "clone_duration_seconds": 15.643255233764648,
-    "count_duration_seconds": 1.8798739910125732,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-java",
-    "tracked": false,
-    "maintenance_priority": "medium"
+    "commit_hash": "f84477a461109fe33cff6091ce6e2fdcb80dc154",
+    "clone_duration_seconds": 15.253475904464722,
+    "count_duration_seconds": 1.853935956954956
   }
 }

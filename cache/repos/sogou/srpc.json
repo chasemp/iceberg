@@ -1,0 +1,19 @@
+{
+  "owner": "sogou",
+  "name": "srpc",
+  "full_name": "sogou/srpc",
+  "url": "https://github.com/sogou/srpc",
+  "description": "RPC framework based on C++ Workflow. Supports SRPC, Baidu bRPC, Tencent tRPC, thrift protocols.",
+  "language": null,
+  "stars": 2127,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.187728+00:00"
+  },
+  "cncf": {
+    "name": "SRPC",
+    "category": "Orchestration & Management",
+    "subcategory": "Remote Procedure Call",
+    "imported_at": "2026-02-11T23:30:15.187729+00:00"
+  }
+}

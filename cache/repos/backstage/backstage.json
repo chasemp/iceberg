@@ -1,0 +1,19 @@
+{
+  "owner": "backstage",
+  "name": "backstage",
+  "full_name": "backstage/backstage",
+  "url": "https://github.com/backstage/backstage",
+  "description": "Backstage is an open framework for building developer portals",
+  "language": null,
+  "stars": 32500,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.923408+00:00"
+  },
+  "cncf": {
+    "name": "Backstage",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:14.923409+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "wasmerio",
+  "name": "vscode-wasm",
+  "full_name": "wasmerio/vscode-wasm",
+  "url": "https://github.com/wasmerio/vscode-wasm",
+  "description": "WebAssembly extension for VSCode",
+  "language": null,
+  "stars": 138,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.209307+00:00"
+  },
+  "cncf": {
+    "name": "VSCode Wasm Extension",
+    "category": "Wasm",
+    "subcategory": "Tooling",
+    "imported_at": "2026-02-11T23:30:15.209308+00:00"
+  }
+}

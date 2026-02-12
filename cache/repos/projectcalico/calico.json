@@ -1,0 +1,19 @@
+{
+  "owner": "projectcalico",
+  "name": "calico",
+  "full_name": "projectcalico/calico",
+  "url": "https://github.com/projectcalico/calico",
+  "description": "Cloud native networking and network security",
+  "language": null,
+  "stars": 7048,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.162220+00:00"
+  },
+  "cncf": {
+    "name": "Project Calico",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Network",
+    "imported_at": "2026-02-11T23:30:15.162221+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "zalando",
+  "name": "skipper",
+  "full_name": "zalando/skipper",
+  "url": "https://github.com/zalando/skipper",
+  "description": "An HTTP router and reverse proxy for service composition, including use cases like Kubernetes Ingress",
+  "language": null,
+  "stars": 3250,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.180984+00:00"
+  },
+  "cncf": {
+    "name": "Skipper",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Proxy",
+    "imported_at": "2026-02-11T23:30:15.180985+00:00"
+  }
+}

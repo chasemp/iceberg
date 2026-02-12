@@ -1,0 +1,19 @@
+{
+  "owner": "ligato",
+  "name": "vpp-agent",
+  "full_name": "ligato/vpp-agent",
+  "url": "https://github.com/ligato/vpp-agent",
+  "description": "\u26a1\ufe0f Control plane management agent for FD.io's VPP",
+  "language": null,
+  "stars": 274,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.125341+00:00"
+  },
+  "cncf": {
+    "name": "Ligato",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Network",
+    "imported_at": "2026-02-11T23:30:15.125343+00:00"
+  }
+}

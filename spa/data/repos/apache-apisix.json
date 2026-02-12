@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 11394,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:47:14.904149+00:00",
+    "cached_at": "2026-02-10T23:16:21.240841+00:00",
     "repo_url": "https://github.com/apache/apisix.git",
     "ref": "HEAD",
-    "commit_hash": "d6e288b0f3941f559415cf600ec00a03f826626c",
-    "clone_duration_seconds": 1.8743252754211426,
-    "count_duration_seconds": 0.03188967704772949
+    "commit_hash": "5396af96863ae11dea4abbc2f933a3bc56772830",
+    "clone_duration_seconds": 2.6970558166503906,
+    "count_duration_seconds": 0.05071830749511719,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

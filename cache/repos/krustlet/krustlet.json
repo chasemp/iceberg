@@ -1,0 +1,19 @@
+{
+  "owner": "krustlet",
+  "name": "krustlet",
+  "full_name": "krustlet/krustlet",
+  "url": "https://github.com/krustlet/krustlet",
+  "description": "Kubernetes Rust Kubelet",
+  "language": null,
+  "stars": 3599,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.104712+00:00"
+  },
+  "cncf": {
+    "name": "Krustlet",
+    "category": "Runtime",
+    "subcategory": "Container Runtime",
+    "imported_at": "2026-02-11T23:30:15.104714+00:00"
+  }
+}

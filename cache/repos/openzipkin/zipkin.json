@@ -1,0 +1,19 @@
+{
+  "owner": "openzipkin",
+  "name": "zipkin",
+  "full_name": "openzipkin/zipkin",
+  "url": "https://github.com/openzipkin/zipkin",
+  "description": "Zipkin is a distributed tracing system",
+  "language": null,
+  "stars": 17403,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.218761+00:00"
+  },
+  "cncf": {
+    "name": "Zipkin",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.218763+00:00"
+  }
+}

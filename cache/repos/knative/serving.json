@@ -1,0 +1,19 @@
+{
+  "owner": "knative",
+  "name": "serving",
+  "full_name": "knative/serving",
+  "url": "https://github.com/knative/serving",
+  "description": "Kubernetes-based, scale-to-zero, request-driven compute",
+  "language": null,
+  "stars": 5982,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.095809+00:00"
+  },
+  "cncf": {
+    "name": "Knative",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.095810+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "dragonflyoss",
+  "name": "dragonfly",
+  "full_name": "dragonflyoss/dragonfly",
+  "url": "https://github.com/dragonflyoss/dragonfly",
+  "description": "Delivers efficient, stable, and secure data distribution and acceleration powered by P2P technology, with an optional content\u2011addressable filesystem that accelerates OCI container launch.",
+  "language": null,
+  "stars": 3020,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.041957+00:00"
+  },
+  "cncf": {
+    "name": "Dragonfly",
+    "category": "Provisioning",
+    "subcategory": "Container Registry",
+    "imported_at": "2026-02-11T23:30:15.041958+00:00"
+  }
+}

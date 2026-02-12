@@ -1,0 +1,19 @@
+{
+  "owner": "megaease",
+  "name": "easemesh",
+  "full_name": "megaease/easemesh",
+  "url": "https://github.com/megaease/easemesh",
+  "description": "A service mesh implementation for connecting,  control, and observe services in spring-cloud.",
+  "language": null,
+  "stars": 519,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.043307+00:00"
+  },
+  "cncf": {
+    "name": "EaseMesh",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Mesh",
+    "imported_at": "2026-02-11T23:30:15.043309+00:00"
+  }
+}

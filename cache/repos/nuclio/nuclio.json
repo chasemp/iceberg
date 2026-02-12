@@ -1,0 +1,19 @@
+{
+  "owner": "nuclio",
+  "name": "nuclio",
+  "full_name": "nuclio/nuclio",
+  "url": "https://github.com/nuclio/nuclio",
+  "description": "High-Performance Serverless event and data processing platform",
+  "language": null,
+  "stars": 5678,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.142398+00:00"
+  },
+  "cncf": {
+    "name": "Nuclio",
+    "category": "Serverless",
+    "subcategory": "Installable Platform",
+    "imported_at": "2026-02-11T23:30:15.142399+00:00"
+  }
+}

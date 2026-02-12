@@ -4,9 +4,16 @@
   "url": "https://github.com/prometheus/prometheus",
   "description": "The Prometheus monitoring system and time series database.",
   "language": "Go",
-  "stars": 62614,
+  "stars": 62568,
   "categories": {
-    "github-ranking-go": "2026-02-09"
+    "github-ranking-go": "2026-02-09",
+    "tracked": "2026-02-11T23:30:15.163947+00:00"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-09",
+  "cncf": {
+    "name": "Prometheus",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.163949+00:00"
+  }
 }

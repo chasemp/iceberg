@@ -7,24 +7,30 @@
     "owner": "freeCodeCamp",
     "repo": "freeCodeCamp",
     "version": "HEAD",
-    "loc": 114452,
+    "loc": 114660,
     "source": "github_clone",
-    "cached_at": "2026-02-05T22:21:41.485298+00:00",
+    "cached_at": "2026-02-10T23:27:48.415248+00:00",
     "package": {
       "system": "npm",
       "name": "@freecodecamp/freecodecamp",
       "version": "0.0.1"
     },
-    "total_loc": 364084,
-    "ratio": 0.7608288613604828,
+    "total_loc": 350981,
+    "ratio": 0.7537587970131496,
     "repo_url": "https://github.com/freeCodeCamp/freeCodeCamp.git",
     "ref": "HEAD",
-    "commit_hash": "ff162dce2e3ecc8dd77810c9b6bb2cf53086610e",
-    "clone_duration_seconds": 7.228986024856567,
-    "count_duration_seconds": 0.21907877922058105,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-top-100-stars",
-    "tracked": false,
-    "maintenance_priority": "medium"
+    "commit_hash": "d8dbe19a64706f2e3f82b5ba0f132245125a29d6",
+    "clone_duration_seconds": 7.052960157394409,
+    "count_duration_seconds": 0.30632495880126953,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

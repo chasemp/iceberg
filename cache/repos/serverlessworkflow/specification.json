@@ -1,0 +1,19 @@
+{
+  "owner": "serverlessworkflow",
+  "name": "specification",
+  "full_name": "serverlessworkflow/specification",
+  "url": "https://github.com/serverlessworkflow/specification",
+  "description": "Contains the official specification for the Serverless Workflow Domain Specific Language. It provides detailed guidelines and standards for defining, executing, and managing workflows in serverless environments, ensuring consistency and interoperability across implementations.",
+  "language": null,
+  "stars": 875,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.177335+00:00"
+  },
+  "cncf": {
+    "name": "Serverless Workflow",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.177336+00:00"
+  }
+}

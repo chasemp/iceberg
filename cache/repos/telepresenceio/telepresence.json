@@ -1,0 +1,19 @@
+{
+  "owner": "telepresenceio",
+  "name": "telepresence",
+  "full_name": "telepresenceio/telepresence",
+  "url": "https://github.com/telepresenceio/telepresence",
+  "description": "Local development against a remote Kubernetes or OpenShift cluster",
+  "language": null,
+  "stars": 7119,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.194044+00:00"
+  },
+  "cncf": {
+    "name": "Telepresence",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.194045+00:00"
+  }
+}

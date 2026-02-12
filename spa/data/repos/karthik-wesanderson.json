@@ -1,0 +1,29 @@
+{
+  "owner": "karthik",
+  "repo": "wesanderson",
+  "full_name": "karthik/wesanderson",
+  "url": "https://github.com/karthik/wesanderson",
+  "analysis": {
+    "owner": "karthik",
+    "repo": "wesanderson",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:12:41.033317+00:00",
+    "repo_url": "https://github.com/karthik/wesanderson.git",
+    "ref": "HEAD",
+    "commit_hash": "02e4129c185e9d3c49b05b580717f35be2eef5c3",
+    "clone_duration_seconds": 0.9414629936218262,
+    "count_duration_seconds": 0.002330780029296875,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

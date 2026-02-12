@@ -1,0 +1,19 @@
+{
+  "owner": "Netflix",
+  "name": "zuul",
+  "full_name": "Netflix/zuul",
+  "url": "https://github.com/Netflix/zuul",
+  "description": "Zuul is a gateway service that provides dynamic routing, monitoring, resiliency, security, and more.",
+  "language": null,
+  "stars": 13980,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.139243+00:00"
+  },
+  "cncf": {
+    "name": "Netflix Zuul",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Proxy",
+    "imported_at": "2026-02-11T23:30:15.139244+00:00"
+  }
+}

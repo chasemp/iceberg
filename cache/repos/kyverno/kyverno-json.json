@@ -1,0 +1,19 @@
+{
+  "owner": "kyverno",
+  "name": "kyverno-json",
+  "full_name": "kyverno/kyverno-json",
+  "url": "https://github.com/kyverno/kyverno-json",
+  "description": "Kyverno for any JSON!",
+  "language": null,
+  "stars": 89,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.123919+00:00"
+  },
+  "cncf": {
+    "name": "Kyverno-JSON",
+    "category": "CNAI",
+    "subcategory": "Governance, Policy & Security",
+    "imported_at": "2026-02-11T23:30:15.123920+00:00"
+  }
+}

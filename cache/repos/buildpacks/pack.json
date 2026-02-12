@@ -1,0 +1,19 @@
+{
+  "owner": "buildpacks",
+  "name": "pack",
+  "full_name": "buildpacks/pack",
+  "url": "https://github.com/buildpacks/pack",
+  "description": "CLI for building apps using Cloud Native Buildpacks",
+  "language": null,
+  "stars": 2879,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.953390+00:00"
+  },
+  "cncf": {
+    "name": "Buildpacks",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:14.953391+00:00"
+  }
+}

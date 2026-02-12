@@ -1,0 +1,19 @@
+{
+  "owner": "linkerd",
+  "name": "linkerd2",
+  "full_name": "linkerd/linkerd2",
+  "url": "https://github.com/linkerd/linkerd2",
+  "description": "Ultralight, security-first service mesh for Kubernetes. Main repo for Linkerd 2.x.",
+  "language": null,
+  "stars": 11279,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.125954+00:00"
+  },
+  "cncf": {
+    "name": "Linkerd",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Mesh",
+    "imported_at": "2026-02-11T23:30:15.125955+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "konveyor",
+  "name": "operator",
+  "full_name": "konveyor/operator",
+  "url": "https://github.com/konveyor/operator",
+  "description": "Konveyor is an open-source project that gives developers and platform teams visibility, analysis, and transformation tools to predictably re-platform and refactor legacy applications at scale for Kubernetes and cloud-native technologies.",
+  "language": null,
+  "stars": 35,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.097063+00:00"
+  },
+  "cncf": {
+    "name": "Konveyor",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.097064+00:00"
+  }
+}

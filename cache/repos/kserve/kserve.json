@@ -1,0 +1,19 @@
+{
+  "owner": "kserve",
+  "name": "kserve",
+  "full_name": "kserve/kserve",
+  "url": "https://github.com/kserve/kserve",
+  "description": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes",
+  "language": null,
+  "stars": 5089,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.105105+00:00"
+  },
+  "cncf": {
+    "name": "KServe",
+    "category": "CNAI",
+    "subcategory": "ML Serving",
+    "imported_at": "2026-02-11T23:30:15.105106+00:00"
+  }
+}

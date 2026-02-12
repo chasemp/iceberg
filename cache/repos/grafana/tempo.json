@@ -1,0 +1,19 @@
+{
+  "owner": "grafana",
+  "name": "tempo",
+  "full_name": "grafana/tempo",
+  "url": "https://github.com/grafana/tempo",
+  "description": "Grafana Tempo is a high volume, minimal dependency distributed tracing backend.",
+  "language": null,
+  "stars": 5045,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.062805+00:00"
+  },
+  "cncf": {
+    "name": "Grafana Tempo",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.062806+00:00"
+  }
+}

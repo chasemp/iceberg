@@ -1,0 +1,19 @@
+{
+  "owner": "ngrok",
+  "name": "ngrok-go",
+  "full_name": "ngrok/ngrok-go",
+  "url": "https://github.com/ngrok/ngrok-go",
+  "description": "Embed ngrok secure ingress into your Go apps as a net.Listener with a single line of code.",
+  "language": null,
+  "stars": 831,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.140538+00:00"
+  },
+  "cncf": {
+    "name": "ngrok",
+    "category": "Orchestration & Management",
+    "subcategory": "API Gateway",
+    "imported_at": "2026-02-11T23:30:15.140539+00:00"
+  }
+}

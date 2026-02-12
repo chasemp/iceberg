@@ -1,0 +1,19 @@
+{
+  "owner": "aquasecurity",
+  "name": "kube-bench",
+  "full_name": "aquasecurity/kube-bench",
+  "url": "https://github.com/aquasecurity/kube-bench",
+  "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
+  "language": null,
+  "stars": 7920,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.106277+00:00"
+  },
+  "cncf": {
+    "name": "kube-bench",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.106278+00:00"
+  }
+}

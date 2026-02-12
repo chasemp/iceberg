@@ -1,0 +1,19 @@
+{
+  "owner": "OpenSCAP",
+  "name": "openscap",
+  "full_name": "OpenSCAP/openscap",
+  "url": "https://github.com/OpenSCAP/openscap",
+  "description": "NIST Certified SCAP 1.2 toolkit",
+  "language": null,
+  "stars": 1660,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.150689+00:00"
+  },
+  "cncf": {
+    "name": "OpenSCAP",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.150690+00:00"
+  }
+}

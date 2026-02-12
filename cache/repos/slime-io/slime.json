@@ -1,0 +1,19 @@
+{
+  "owner": "slime-io",
+  "name": "slime",
+  "full_name": "slime-io/slime",
+  "url": "https://github.com/slime-io/slime",
+  "description": "An intelligent ServiceMesh manager based on Istio",
+  "language": null,
+  "stars": 426,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.181653+00:00"
+  },
+  "cncf": {
+    "name": "Slime",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Mesh",
+    "imported_at": "2026-02-11T23:30:15.181654+00:00"
+  }
+}

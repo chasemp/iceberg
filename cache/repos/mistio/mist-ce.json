@@ -1,0 +1,19 @@
+{
+  "owner": "mistio",
+  "name": "mist-ce",
+  "full_name": "mistio/mist-ce",
+  "url": "https://github.com/mistio/mist-ce",
+  "description": "Mist is an open source, multicloud management platform",
+  "language": null,
+  "stars": 1911,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.135474+00:00"
+  },
+  "cncf": {
+    "name": "Mist.io",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.135475+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "FairwindsOps",
+  "name": "pluto",
+  "full_name": "FairwindsOps/pluto",
+  "url": "https://github.com/FairwindsOps/pluto",
+  "description": "A cli tool to help discover deprecated apiVersions in Kubernetes",
+  "language": null,
+  "stars": 2436,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.158715+00:00"
+  },
+  "cncf": {
+    "name": "Pluto",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.158716+00:00"
+  }
+}

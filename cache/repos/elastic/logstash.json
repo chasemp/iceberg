@@ -1,0 +1,19 @@
+{
+  "owner": "elastic",
+  "name": "logstash",
+  "full_name": "elastic/logstash",
+  "url": "https://github.com/elastic/logstash",
+  "description": "Logstash - transport and process your logs, events, or other data",
+  "language": null,
+  "stars": 14779,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.127827+00:00"
+  },
+  "cncf": {
+    "name": "Logstash",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.127828+00:00"
+  }
+}

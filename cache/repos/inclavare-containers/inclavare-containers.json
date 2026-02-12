@@ -1,0 +1,19 @@
+{
+  "owner": "inclavare-containers",
+  "name": "inclavare-containers",
+  "full_name": "inclavare-containers/inclavare-containers",
+  "url": "https://github.com/inclavare-containers/inclavare-containers",
+  "description": "A novel container runtime, aka confidential container, for cloud-native confidential computing and enclave runtime ecosystem.",
+  "language": null,
+  "stars": 630,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.080083+00:00"
+  },
+  "cncf": {
+    "name": "Inclavare Containers",
+    "category": "Runtime",
+    "subcategory": "Container Runtime",
+    "imported_at": "2026-02-11T23:30:15.080084+00:00"
+  }
+}

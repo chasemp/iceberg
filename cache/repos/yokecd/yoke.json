@@ -1,0 +1,19 @@
+{
+  "owner": "yokecd",
+  "name": "yoke",
+  "full_name": "yokecd/yoke",
+  "url": "https://github.com/yokecd/yoke",
+  "description": "Kubernetes Package Management as Code; infrastructure as code, but actually.",
+  "language": null,
+  "stars": 705,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.217013+00:00"
+  },
+  "cncf": {
+    "name": "yoke",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.217014+00:00"
+  }
+}

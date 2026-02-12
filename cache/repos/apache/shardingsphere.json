@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "shardingsphere",
+  "full_name": "apache/shardingsphere",
+  "url": "https://github.com/apache/shardingsphere",
+  "description": "Empowering Data Intelligence with Distributed SQL for Sharding, Scalability, and Security Across All Databases.",
+  "language": null,
+  "stars": 20670,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.178287+00:00"
+  },
+  "cncf": {
+    "name": "ShardingSphere",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.178288+00:00"
+  }
+}

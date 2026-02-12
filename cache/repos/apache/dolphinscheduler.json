@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "dolphinscheduler",
+  "full_name": "apache/dolphinscheduler",
+  "url": "https://github.com/apache/dolphinscheduler",
+  "description": "Apache DolphinScheduler is the modern data orchestration platform. Agile to create high performance workflow with low-code",
+  "language": null,
+  "stars": 14146,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.041589+00:00"
+  },
+  "cncf": {
+    "name": "DolphinScheduler",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.041590+00:00"
+  }
+}

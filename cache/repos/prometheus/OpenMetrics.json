@@ -1,0 +1,19 @@
+{
+  "owner": "prometheus",
+  "name": "OpenMetrics",
+  "full_name": "prometheus/OpenMetrics",
+  "url": "https://github.com/prometheus/OpenMetrics",
+  "description": "Evolving the Prometheus exposition format into a standard.",
+  "language": null,
+  "stars": 2505,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.149778+00:00"
+  },
+  "cncf": {
+    "name": "OpenMetrics",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.149779+00:00"
+  }
+}

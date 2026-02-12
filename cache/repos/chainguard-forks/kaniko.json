@@ -1,0 +1,19 @@
+{
+  "owner": "chainguard-forks",
+  "name": "kaniko",
+  "full_name": "chainguard-forks/kaniko",
+  "url": "https://github.com/chainguard-forks/kaniko",
+  "description": "Build Container Images In Kubernetes",
+  "language": null,
+  "stars": 803,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.088816+00:00"
+  },
+  "cncf": {
+    "name": "kaniko",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.088817+00:00"
+  }
+}

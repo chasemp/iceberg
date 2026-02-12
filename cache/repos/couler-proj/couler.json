@@ -1,0 +1,19 @@
+{
+  "owner": "couler-proj",
+  "name": "couler",
+  "full_name": "couler-proj/couler",
+  "url": "https://github.com/couler-proj/couler",
+  "description": "Unified Interface for Constructing and Managing Workflows on different workflow engines, such as Argo Workflows, Tekton Pipelines, and Apache Airflow.",
+  "language": null,
+  "stars": 945,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.032837+00:00"
+  },
+  "cncf": {
+    "name": "Couler",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.032839+00:00"
+  }
+}

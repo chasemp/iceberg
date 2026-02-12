@@ -1,0 +1,19 @@
+{
+  "owner": "v6d-io",
+  "name": "v6d",
+  "full_name": "v6d-io/v6d",
+  "url": "https://github.com/v6d-io/v6d",
+  "description": "vineyard (v6d): an in-memory immutable data manager. (Project under CNCF, TAG-Storage)",
+  "language": null,
+  "stars": 946,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.207750+00:00"
+  },
+  "cncf": {
+    "name": "Vineyard",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "imported_at": "2026-02-11T23:30:15.207751+00:00"
+  }
+}

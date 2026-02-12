@@ -1,0 +1,19 @@
+{
+  "owner": "goharbor",
+  "name": "harbor",
+  "full_name": "goharbor/harbor",
+  "url": "https://github.com/goharbor/harbor",
+  "description": "An open source trusted cloud native registry project that stores, signs, and scans content.",
+  "language": null,
+  "stars": 27525,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.067159+00:00"
+  },
+  "cncf": {
+    "name": "Harbor (Wasm)",
+    "category": "Wasm",
+    "subcategory": "Packaging, Registries & Application Delivery",
+    "imported_at": "2026-02-11T23:30:15.067370+00:00"
+  }
+}

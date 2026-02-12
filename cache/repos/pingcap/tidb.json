@@ -1,0 +1,19 @@
+{
+  "owner": "pingcap",
+  "name": "tidb",
+  "full_name": "pingcap/tidb",
+  "url": "https://github.com/pingcap/tidb",
+  "description": "TiDB - the open-source, cloud-native, distributed SQL database designed for modern applications.",
+  "language": null,
+  "stars": 39697,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.199484+00:00"
+  },
+  "cncf": {
+    "name": "TiDB",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.199485+00:00"
+  }
+}

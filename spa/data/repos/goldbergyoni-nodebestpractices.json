@@ -9,7 +9,7 @@
     "version": "HEAD",
     "loc": 47,
     "source": "github_clone",
-    "cached_at": "2026-02-09T20:09:14.639403+00:00",
+    "cached_at": "2026-02-10T23:44:50.951851+00:00",
     "package": {
       "system": "npm",
       "name": "nodebestpractices",
@@ -18,11 +18,17 @@
     "repo_url": "https://github.com/goldbergyoni/nodebestpractices.git",
     "ref": "HEAD",
     "commit_hash": "c0b71ccf3a134443635da6886423b44e31e65a73",
-    "clone_duration_seconds": 1.8049888610839844,
-    "count_duration_seconds": 0.007732868194580078,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-top-100-stars",
-    "tracked": false,
-    "maintenance_priority": "medium"
+    "clone_duration_seconds": 1.766998052597046,
+    "count_duration_seconds": 0.009708881378173828,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

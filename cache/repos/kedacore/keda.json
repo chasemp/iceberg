@@ -1,0 +1,19 @@
+{
+  "owner": "kedacore",
+  "name": "keda",
+  "full_name": "kedacore/keda",
+  "url": "https://github.com/kedacore/keda",
+  "description": " KEDA is a Kubernetes-based Event Driven Autoscaling component. It provides event driven scale for any container running in Kubernetes ",
+  "language": null,
+  "stars": 9875,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.091813+00:00"
+  },
+  "cncf": {
+    "name": "KEDA",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.091814+00:00"
+  }
+}

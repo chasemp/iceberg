@@ -1,0 +1,19 @@
+{
+  "owner": "flomesh-io",
+  "name": "pipy",
+  "full_name": "flomesh-io/pipy",
+  "url": "https://github.com/flomesh-io/pipy",
+  "description": "Pipy is a programmable proxy for the cloud, edge and IoT.",
+  "language": null,
+  "stars": 819,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.157754+00:00"
+  },
+  "cncf": {
+    "name": "Pipy",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Proxy",
+    "imported_at": "2026-02-11T23:30:15.157756+00:00"
+  }
+}

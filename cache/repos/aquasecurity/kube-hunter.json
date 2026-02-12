@@ -1,0 +1,19 @@
+{
+  "owner": "aquasecurity",
+  "name": "kube-hunter",
+  "full_name": "aquasecurity/kube-hunter",
+  "url": "https://github.com/aquasecurity/kube-hunter",
+  "description": "Hunt for security weaknesses in Kubernetes clusters",
+  "language": null,
+  "stars": 4998,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.106885+00:00"
+  },
+  "cncf": {
+    "name": "kube-hunter",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.106886+00:00"
+  }
+}

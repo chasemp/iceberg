@@ -1,0 +1,19 @@
+{
+  "owner": "distribution",
+  "name": "distribution",
+  "full_name": "distribution/distribution",
+  "url": "https://github.com/distribution/distribution",
+  "description": "The toolkit to pack, ship, store, and deliver container content",
+  "language": null,
+  "stars": 10249,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.040826+00:00"
+  },
+  "cncf": {
+    "name": "Distribution",
+    "category": "Provisioning",
+    "subcategory": "Container Registry",
+    "imported_at": "2026-02-11T23:30:15.040827+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "direktiv",
+  "name": "direktiv",
+  "full_name": "direktiv/direktiv",
+  "url": "https://github.com/direktiv/direktiv",
+  "description": "Serverless Container Orchestration",
+  "language": null,
+  "stars": 489,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.040392+00:00"
+  },
+  "cncf": {
+    "name": "Direktiv",
+    "category": "Serverless",
+    "subcategory": "Installable Platform",
+    "imported_at": "2026-02-11T23:30:15.040393+00:00"
+  }
+}

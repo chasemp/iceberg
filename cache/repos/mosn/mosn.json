@@ -1,0 +1,19 @@
+{
+  "owner": "mosn",
+  "name": "mosn",
+  "full_name": "mosn/mosn",
+  "url": "https://github.com/mosn/mosn",
+  "description": "The Cloud-Native Network Proxy Platform",
+  "language": null,
+  "stars": 4535,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.137147+00:00"
+  },
+  "cncf": {
+    "name": "MOSN",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Proxy",
+    "imported_at": "2026-02-11T23:30:15.137148+00:00"
+  }
+}

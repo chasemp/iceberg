@@ -1,0 +1,19 @@
+{
+  "owner": "openeuler-mirror",
+  "name": "iSulad",
+  "full_name": "openeuler-mirror/iSulad",
+  "url": "https://github.com/openeuler-mirror/iSulad",
+  "description": "[mirror]A light weight container runtime daemon for IOT and Cloud infrastructure.",
+  "language": null,
+  "stars": 391,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.083287+00:00"
+  },
+  "cncf": {
+    "name": "iSulad",
+    "category": "Runtime",
+    "subcategory": "Container Runtime",
+    "imported_at": "2026-02-11T23:30:15.083288+00:00"
+  }
+}

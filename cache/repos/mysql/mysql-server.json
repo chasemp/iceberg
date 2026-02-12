@@ -1,0 +1,19 @@
+{
+  "owner": "mysql",
+  "name": "mysql-server",
+  "full_name": "mysql/mysql-server",
+  "url": "https://github.com/mysql/mysql-server",
+  "description": "MySQL Server, the world's most popular open source database, and MySQL Cluster, a real-time, open source transactional database.",
+  "language": null,
+  "stars": 12053,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.137728+00:00"
+  },
+  "cncf": {
+    "name": "MySQL",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.137729+00:00"
+  }
+}

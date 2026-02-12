@@ -1,0 +1,19 @@
+{
+  "owner": "envoyproxy",
+  "name": "envoy",
+  "full_name": "envoyproxy/envoy",
+  "url": "https://github.com/envoyproxy/envoy",
+  "description": "Cloud-native high-performance edge/middle/service proxy",
+  "language": null,
+  "stars": 27463,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.047333+00:00"
+  },
+  "cncf": {
+    "name": "Envoy (Wasm)",
+    "category": "Wasm",
+    "subcategory": "Embedded Functions",
+    "imported_at": "2026-02-11T23:30:15.047540+00:00"
+  }
+}

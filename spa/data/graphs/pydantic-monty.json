@@ -1,0 +1,16 @@
+{
+  "owner": "pydantic",
+  "repo": "monty",
+  "full_name": "pydantic/monty",
+  "root_package": "pypi:monty-workspace:0",
+  "nodes": [
+    {
+      "id": "pypi:monty-workspace:0",
+      "system": "pypi",
+      "name": "monty-workspace",
+      "version": "0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-12T15:02:43.151212+00:00"
+}

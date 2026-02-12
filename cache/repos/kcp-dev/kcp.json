@@ -1,0 +1,19 @@
+{
+  "owner": "kcp-dev",
+  "name": "kcp",
+  "full_name": "kcp-dev/kcp",
+  "url": "https://github.com/kcp-dev/kcp",
+  "description": "Kubernetes-like control planes for form-factors and use-cases beyond Kubernetes and container workloads.",
+  "language": null,
+  "stars": 2718,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.091597+00:00"
+  },
+  "cncf": {
+    "name": "kcp",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.091598+00:00"
+  }
+}

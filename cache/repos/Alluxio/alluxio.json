@@ -1,0 +1,19 @@
+{
+  "owner": "Alluxio",
+  "name": "alluxio",
+  "full_name": "Alluxio/alluxio",
+  "url": "https://github.com/Alluxio/alluxio",
+  "description": "Alluxio, data orchestration for analytics and machine learning in the cloud",
+  "language": null,
+  "stars": 7153,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.899086+00:00"
+  },
+  "cncf": {
+    "name": "Alluxio",
+    "category": "CNAI",
+    "subcategory": "Data Architecture",
+    "imported_at": "2026-02-11T23:30:14.899309+00:00"
+  }
+}

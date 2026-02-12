@@ -16,6 +16,8 @@ function deduplicateRepos(dimensions) {
                     source = 'search';
                 } else if (dimension.type === 'github-ranking') {
                     source = `github-ranking-${dimension.category}`;
+                } else if (dimension.type === 'tracked') {
+                    source = 'tracked';
                 }
 
                 if (reposMap.has(key)) {

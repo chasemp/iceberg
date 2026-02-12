@@ -1,0 +1,19 @@
+{
+  "owner": "ory",
+  "name": "hydra",
+  "full_name": "ory/hydra",
+  "url": "https://github.com/ory/hydra",
+  "description": "Internet-scale OpenID Certified\u2122 OpenID Connect and OAuth2.1 provider that integrates with your user management through headless APIs. Solve OIDC/OAuth2 user cases over night. Consume as a service on Ory Network or self-host. Trusted by OpenAI and many others for scale and security. Written in Go.",
+  "language": null,
+  "stars": 16910,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.153248+00:00"
+  },
+  "cncf": {
+    "name": "ORY Hydra",
+    "category": "Provisioning",
+    "subcategory": "Key Management",
+    "imported_at": "2026-02-11T23:30:15.153248+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "linki",
+  "name": "chaoskube",
+  "full_name": "linki/chaoskube",
+  "url": "https://github.com/linki/chaoskube",
+  "description": "chaoskube periodically kills random pods in your Kubernetes cluster.",
+  "language": null,
+  "stars": 1914,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.982515+00:00"
+  },
+  "cncf": {
+    "name": "chaoskube",
+    "category": "Observability and Analysis",
+    "subcategory": "Chaos Engineering",
+    "imported_at": "2026-02-11T23:30:14.982518+00:00"
+  }
+}

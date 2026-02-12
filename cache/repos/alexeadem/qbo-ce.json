@@ -1,0 +1,19 @@
+{
+  "owner": "alexeadem",
+  "name": "qbo-ce",
+  "full_name": "alexeadem/qbo-ce",
+  "url": "https://github.com/alexeadem/qbo-ce",
+  "description": "QBO Kubernetes Engine (QKE) redefines the concept of a Kubernetes node as a container using Kubernetes-in-Docker technology. Streamline the deployment and management of Kubernetes clusters in seconds with QKE and unlock bare-metal performance without virtualization overhead.",
+  "language": null,
+  "stars": 4,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.166193+00:00"
+  },
+  "cncf": {
+    "name": "QBO",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Distribution",
+    "imported_at": "2026-02-11T23:30:15.166194+00:00"
+  }
+}

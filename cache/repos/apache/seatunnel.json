@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "seatunnel",
+  "full_name": "apache/seatunnel",
+  "url": "https://github.com/apache/seatunnel",
+  "description": "SeaTunnel is a multimodal, high-performance, distributed, massive data integration tool.",
+  "language": null,
+  "stars": 9103,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.175131+00:00"
+  },
+  "cncf": {
+    "name": "SeaTunnel",
+    "category": "App Definition and Development",
+    "subcategory": "Streaming & Messaging",
+    "imported_at": "2026-02-11T23:30:15.175132+00:00"
+  }
+}

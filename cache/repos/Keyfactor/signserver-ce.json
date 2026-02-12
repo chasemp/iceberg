@@ -1,0 +1,19 @@
+{
+  "owner": "Keyfactor",
+  "name": "signserver-ce",
+  "full_name": "Keyfactor/signserver-ce",
+  "url": "https://github.com/Keyfactor/signserver-ce",
+  "description": "SignServer \u2013 Open source, PKI-based signing software to sign code, documents, timestamps and more.",
+  "language": null,
+  "stars": 407,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.179995+00:00"
+  },
+  "cncf": {
+    "name": "SignServer Community",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.179996+00:00"
+  }
+}

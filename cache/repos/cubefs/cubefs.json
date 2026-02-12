@@ -1,0 +1,19 @@
+{
+  "owner": "cubefs",
+  "name": "cubefs",
+  "full_name": "cubefs/cubefs",
+  "url": "https://github.com/cubefs/cubefs",
+  "description": "cloud-native distributed storage",
+  "language": null,
+  "stars": 5460,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.034842+00:00"
+  },
+  "cncf": {
+    "name": "CubeFS",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "imported_at": "2026-02-11T23:30:15.034843+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "taosdata",
+  "name": "TDengine",
+  "full_name": "taosdata/TDengine",
+  "url": "https://github.com/taosdata/TDengine",
+  "description": "High-performance, scalable time-series database designed for Industrial IoT (IIoT) scenarios",
+  "language": null,
+  "stars": 24712,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.193402+00:00"
+  },
+  "cncf": {
+    "name": "TDengine",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.193403+00:00"
+  }
+}

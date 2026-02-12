@@ -1,0 +1,19 @@
+{
+  "owner": "apioak",
+  "name": "apioak",
+  "full_name": "apioak/apioak",
+  "url": "https://github.com/apioak/apioak",
+  "description": "Full Lifecycle Management API Gateway.",
+  "language": null,
+  "stars": 415,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.910641+00:00"
+  },
+  "cncf": {
+    "name": "APIOAK",
+    "category": "Orchestration & Management",
+    "subcategory": "API Gateway",
+    "imported_at": "2026-02-11T23:30:14.910642+00:00"
+  }
+}

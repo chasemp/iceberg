@@ -1,0 +1,19 @@
+{
+  "owner": "hashicorp",
+  "name": "nomad",
+  "full_name": "hashicorp/nomad",
+  "url": "https://github.com/hashicorp/nomad",
+  "description": "Nomad is an easy-to-use, flexible, and performant workload orchestrator that can deploy a mix of microservice, batch, containerized, and non-containerized applications. Nomad is easy to operate and scale and has native Consul and Vault integrations.",
+  "language": null,
+  "stars": 16164,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.141909+00:00"
+  },
+  "cncf": {
+    "name": "Nomad",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.141910+00:00"
+  }
+}

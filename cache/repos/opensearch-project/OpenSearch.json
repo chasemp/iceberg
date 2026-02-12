@@ -1,0 +1,19 @@
+{
+  "owner": "opensearch-project",
+  "name": "OpenSearch",
+  "full_name": "opensearch-project/OpenSearch",
+  "url": "https://github.com/opensearch-project/OpenSearch",
+  "description": "\ud83d\udd0e Open source distributed and RESTful search engine.",
+  "language": null,
+  "stars": 12336,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.150865+00:00"
+  },
+  "cncf": {
+    "name": "OpenSearch",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.150866+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "SlimPlanet",
+  "name": "SlimFaas",
+  "full_name": "SlimPlanet/SlimFaas",
+  "url": "https://github.com/SlimPlanet/SlimFaas",
+  "description": "SlimFaas : The slimmest and simplest Function As A Service",
+  "language": null,
+  "stars": 406,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.181972+00:00"
+  },
+  "cncf": {
+    "name": "SlimFaaS",
+    "category": "Serverless",
+    "subcategory": "Installable Platform",
+    "imported_at": "2026-02-11T23:30:15.181973+00:00"
+  }
+}

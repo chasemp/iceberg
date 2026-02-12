@@ -4,11 +4,18 @@
   "url": "https://github.com/kubernetes/kubernetes",
   "description": "Production-Grade Container Scheduling and Management",
   "language": "Go",
-  "stars": 120365,
+  "stars": 120301,
   "categories": {
     "github-ranking-top-100-stars": "2026-02-09",
     "github-ranking-top-100-forks": "2026-02-09",
-    "github-ranking-go": "2026-02-09"
+    "github-ranking-go": "2026-02-09",
+    "tracked": "2026-02-11T23:30:15.116821+00:00"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-09",
+  "cncf": {
+    "name": "Kubernetes",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.116823+00:00"
+  }
 }

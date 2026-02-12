@@ -1,0 +1,19 @@
+{
+  "owner": "daytonaio",
+  "name": "daytona",
+  "full_name": "daytonaio/daytona",
+  "url": "https://github.com/daytonaio/daytona",
+  "description": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code",
+  "language": null,
+  "stars": 53367,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.037373+00:00"
+  },
+  "cncf": {
+    "name": "Daytona",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.037375+00:00"
+  }
+}

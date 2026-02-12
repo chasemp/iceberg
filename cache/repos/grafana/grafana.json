@@ -1,0 +1,19 @@
+{
+  "owner": "grafana",
+  "name": "grafana",
+  "full_name": "grafana/grafana",
+  "url": "https://github.com/grafana/grafana",
+  "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
+  "language": null,
+  "stars": 72023,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.062022+00:00"
+  },
+  "cncf": {
+    "name": "Grafana",
+    "category": "CNAI",
+    "subcategory": "Workload Observability",
+    "imported_at": "2026-02-11T23:30:15.062210+00:00"
+  }
+}

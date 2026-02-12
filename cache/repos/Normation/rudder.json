@@ -1,0 +1,19 @@
+{
+  "owner": "Normation",
+  "name": "rudder",
+  "full_name": "Normation/rudder",
+  "url": "https://github.com/Normation/rudder",
+  "description": "Rudder is a configuration and security automation platform. Manage your Cloud, hybrid or on-premises infrastructure in a simple, scalable and dynamic way.",
+  "language": null,
+  "stars": 621,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.171440+00:00"
+  },
+  "cncf": {
+    "name": "Rudder",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.171441+00:00"
+  }
+}

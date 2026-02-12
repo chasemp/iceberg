@@ -1,0 +1,19 @@
+{
+  "owner": "encoredev",
+  "name": "encore",
+  "full_name": "encoredev/encore",
+  "url": "https://github.com/encoredev/encore",
+  "description": "Open source framework for building robust type-safe distributed systems with declarative infrastructure",
+  "language": null,
+  "stars": 11399,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.046928+00:00"
+  },
+  "cncf": {
+    "name": "Encore",
+    "category": "Serverless",
+    "subcategory": "Framework",
+    "imported_at": "2026-02-11T23:30:15.046929+00:00"
+  }
+}

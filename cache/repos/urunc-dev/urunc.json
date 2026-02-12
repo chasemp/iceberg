@@ -1,0 +1,19 @@
+{
+  "owner": "urunc-dev",
+  "name": "urunc",
+  "full_name": "urunc-dev/urunc",
+  "url": "https://github.com/urunc-dev/urunc",
+  "description": "a simple container runtime that aspires to become `runc` for unikernels",
+  "language": null,
+  "stars": 170,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.205282+00:00"
+  },
+  "cncf": {
+    "name": "urunc",
+    "category": "Runtime",
+    "subcategory": "Container Runtime",
+    "imported_at": "2026-02-11T23:30:15.205283+00:00"
+  }
+}

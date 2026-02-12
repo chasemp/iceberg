@@ -1,0 +1,19 @@
+{
+  "owner": "ko-build",
+  "name": "ko",
+  "full_name": "ko-build/ko",
+  "url": "https://github.com/ko-build/ko",
+  "description": "Build and deploy Go applications",
+  "language": null,
+  "stars": 8334,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.096382+00:00"
+  },
+  "cncf": {
+    "name": "ko",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.096383+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "druid",
+  "full_name": "apache/druid",
+  "url": "https://github.com/apache/druid",
+  "description": "Apache Druid: a high performance real-time analytics database.",
+  "language": null,
+  "stars": 13931,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.903598+00:00"
+  },
+  "cncf": {
+    "name": "Druid",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.042377+00:00"
+  }
+}

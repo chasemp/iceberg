@@ -1,0 +1,19 @@
+{
+  "owner": "wasm-bindgen",
+  "name": "wasm-bindgen",
+  "full_name": "wasm-bindgen/wasm-bindgen",
+  "url": "https://github.com/wasm-bindgen/wasm-bindgen",
+  "description": "Facilitating high-level interactions between Wasm modules and JavaScript",
+  "language": null,
+  "stars": 8840,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.211518+00:00"
+  },
+  "cncf": {
+    "name": "wasm-bindgen",
+    "category": "Wasm",
+    "subcategory": "Tooling",
+    "imported_at": "2026-02-11T23:30:15.211519+00:00"
+  }
+}

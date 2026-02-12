@@ -1,0 +1,19 @@
+{
+  "owner": "strimzi",
+  "name": "strimzi-kafka-operator",
+  "full_name": "strimzi/strimzi-kafka-operator",
+  "url": "https://github.com/strimzi/strimzi-kafka-operator",
+  "description": "Apache Kafka\u00ae running on Kubernetes",
+  "language": null,
+  "stars": 5688,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.190661+00:00"
+  },
+  "cncf": {
+    "name": "Strimzi",
+    "category": "App Definition and Development",
+    "subcategory": "Streaming & Messaging",
+    "imported_at": "2026-02-11T23:30:15.190662+00:00"
+  }
+}

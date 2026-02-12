@@ -1,0 +1,19 @@
+{
+  "owner": "loxilb-io",
+  "name": "loxilb",
+  "full_name": "loxilb-io/loxilb",
+  "url": "https://github.com/loxilb-io/loxilb",
+  "description": "eBPF based cloud-native load-balancer for Kubernetes|Edge|Telco|IoT|XaaS.",
+  "language": null,
+  "stars": 1824,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.128282+00:00"
+  },
+  "cncf": {
+    "name": "LoxiLB",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Proxy",
+    "imported_at": "2026-02-11T23:30:15.128283+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "knix-microfunctions",
+  "name": "knix",
+  "full_name": "knix-microfunctions/knix",
+  "url": "https://github.com/knix-microfunctions/knix",
+  "description": "Serverless computing platform with process-based lightweight function execution and container-based application isolation. Works in Knative and bare metal/VM environments.",
+  "language": null,
+  "stars": 209,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.096105+00:00"
+  },
+  "cncf": {
+    "name": "Knix",
+    "category": "Serverless",
+    "subcategory": "Installable Platform",
+    "imported_at": "2026-02-11T23:30:15.096106+00:00"
+  }
+}

@@ -9,7 +9,7 @@
     "version": "HEAD",
     "loc": 76735,
     "source": "github_clone",
-    "cached_at": "2026-02-09T21:41:16.979047+00:00",
+    "cached_at": "2026-02-11T15:44:24.790830+00:00",
     "package": {
       "system": "maven",
       "name": "arthas-all",
@@ -18,11 +18,17 @@
     "repo_url": "https://github.com/alibaba/arthas.git",
     "ref": "HEAD",
     "commit_hash": "a4dcbb5c189fe91b7ed7b12144169d53c22126c5",
-    "clone_duration_seconds": 2.4556872844696045,
-    "count_duration_seconds": 0.1500380039215088,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-java",
-    "tracked": false,
-    "maintenance_priority": "medium"
+    "clone_duration_seconds": 1.9525201320648193,
+    "count_duration_seconds": 0.148298978805542,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

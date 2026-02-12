@@ -636,13 +636,6 @@ function selectDefaultDimension() {
         return;
     }
 
-    // Fallback to trending-monthly
-    const monthly = state.index.dimensions.find(d => d.id === 'trending-monthly');
-    if (monthly && monthly.repos && monthly.repos.length > 0) {
-        selectDimension(monthly);
-        return;
-    }
-
     // Fallback to first available dimension
     if (state.index.dimensions.length > 0) {
         selectDimension(state.index.dimensions[0]);

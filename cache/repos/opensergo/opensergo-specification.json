@@ -1,0 +1,19 @@
+{
+  "owner": "opensergo",
+  "name": "opensergo-specification",
+  "full_name": "opensergo/opensergo-specification",
+  "url": "https://github.com/opensergo/opensergo-specification",
+  "description": "Universal cloud-native microservice governance specification (\u5fae\u670d\u52a1\u6cbb\u7406\u6807\u51c6)",
+  "language": null,
+  "stars": 796,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.151025+00:00"
+  },
+  "cncf": {
+    "name": "OpenSergo",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Mesh",
+    "imported_at": "2026-02-11T23:30:15.151026+00:00"
+  }
+}

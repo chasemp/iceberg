@@ -1,0 +1,19 @@
+{
+  "owner": "project-akri",
+  "name": "akri",
+  "full_name": "project-akri/akri",
+  "url": "https://github.com/project-akri/akri",
+  "description": "A Kubernetes Resource Interface for the Edge",
+  "language": null,
+  "stars": 1222,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.898732+00:00"
+  },
+  "cncf": {
+    "name": "Akri",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:14.898734+00:00"
+  }
+}

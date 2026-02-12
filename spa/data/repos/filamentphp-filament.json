@@ -7,13 +7,25 @@
     "owner": "filamentphp",
     "repo": "filament",
     "version": "HEAD",
-    "loc": 248316,
+    "loc": 248424,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:05:40.971581+00:00",
+    "cached_at": "2026-02-10T23:21:10.592281+00:00",
+    "total_loc": 16128,
+    "ratio": 0.06096344007983308,
     "repo_url": "https://github.com/filamentphp/filament.git",
     "ref": "HEAD",
-    "commit_hash": "9b53d6b3f1a734720960718c52ada793418267ee",
-    "clone_duration_seconds": 3.8593945503234863,
-    "count_duration_seconds": 0.4035067558288574
+    "commit_hash": "85f3e2ee984bdb55803bbe1b1a478cc77c5da22d",
+    "clone_duration_seconds": 5.918692111968994,
+    "count_duration_seconds": 0.5898737907409668,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

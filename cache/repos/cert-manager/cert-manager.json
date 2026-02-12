@@ -1,0 +1,19 @@
+{
+  "owner": "cert-manager",
+  "name": "cert-manager",
+  "full_name": "cert-manager/cert-manager",
+  "url": "https://github.com/cert-manager/cert-manager",
+  "description": "Automatically provision and manage TLS certificates in Kubernetes",
+  "language": null,
+  "stars": 13546,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.980609+00:00"
+  },
+  "cncf": {
+    "name": "cert-manager",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:14.980610+00:00"
+  }
+}

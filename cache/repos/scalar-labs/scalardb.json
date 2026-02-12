@@ -1,0 +1,19 @@
+{
+  "owner": "scalar-labs",
+  "name": "scalardb",
+  "full_name": "scalar-labs/scalardb",
+  "url": "https://github.com/scalar-labs/scalardb",
+  "description": "Universal HTAP Engine",
+  "language": null,
+  "stars": 634,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.172998+00:00"
+  },
+  "cncf": {
+    "name": "ScalarDB",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.172999+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "kubeshop",
+  "name": "kusk-gateway",
+  "full_name": "kubeshop/kusk-gateway",
+  "url": "https://github.com/kubeshop/kusk-gateway",
+  "description": "Kusk-gateway is an OpenAPI-driven API Gateway for Kubernetes",
+  "language": null,
+  "stars": 281,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.122964+00:00"
+  },
+  "cncf": {
+    "name": "Kusk Gateway",
+    "category": "Orchestration & Management",
+    "subcategory": "API Gateway",
+    "imported_at": "2026-02-11T23:30:15.122965+00:00"
+  }
+}

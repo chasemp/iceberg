@@ -1,0 +1,19 @@
+{
+  "owner": "micrometer-metrics",
+  "name": "micrometer",
+  "full_name": "micrometer-metrics/micrometer",
+  "url": "https://github.com/micrometer-metrics/micrometer",
+  "description": "An application observability facade for the most popular observability tools. Think SLF4J, but for observability.",
+  "language": null,
+  "stars": 4800,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.133928+00:00"
+  },
+  "cncf": {
+    "name": "Micrometer",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.133929+00:00"
+  }
+}

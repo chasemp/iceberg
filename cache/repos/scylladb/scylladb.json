@@ -1,0 +1,19 @@
+{
+  "owner": "scylladb",
+  "name": "scylladb",
+  "full_name": "scylladb/scylladb",
+  "url": "https://github.com/scylladb/scylladb",
+  "description": "NoSQL data store using the Seastar framework, compatible with Apache Cassandra and Amazon DynamoDB",
+  "language": null,
+  "stars": 15313,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.174308+00:00"
+  },
+  "cncf": {
+    "name": "ScyllaDB",
+    "category": "CNAI",
+    "subcategory": "Data Architecture",
+    "imported_at": "2026-02-11T23:30:15.174487+00:00"
+  }
+}

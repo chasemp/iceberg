@@ -4,9 +4,16 @@
   "url": "https://github.com/FFmpeg/FFmpeg",
   "description": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
   "language": "C",
-  "stars": 57036,
+  "stars": 56946,
   "categories": {
-    "github-ranking-c": "2026-02-09"
+    "github-ranking-c": "2026-02-09",
+    "tracked": "2026-02-11T23:30:15.051117+00:00"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-09",
+  "cncf": {
+    "name": "FFmpeg",
+    "category": "Wasm",
+    "subcategory": "AI/Machine Learning",
+    "imported_at": "2026-02-11T23:30:15.051119+00:00"
+  }
 }

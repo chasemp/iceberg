@@ -1,0 +1,19 @@
+{
+  "owner": "cloud-ark",
+  "name": "kubeplus",
+  "full_name": "cloud-ark/kubeplus",
+  "url": "https://github.com/cloud-ark/kubeplus",
+  "description": "Kubernetes Operator for multi-instance multi-tenancy",
+  "language": null,
+  "stars": 721,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.987300+00:00"
+  },
+  "cncf": {
+    "name": "CloudARK KubePlus",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:14.987301+00:00"
+  }
+}

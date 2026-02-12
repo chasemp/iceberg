@@ -1,0 +1,19 @@
+{
+  "owner": "harness",
+  "name": "harness",
+  "full_name": "harness/harness",
+  "url": "https://github.com/harness/harness",
+  "description": "Harness Open Source is an end-to-end developer platform with Source Control Management, CI/CD Pipelines, Hosted Developer Environments, and Artifact Registries.",
+  "language": null,
+  "stars": 33856,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.058493+00:00"
+  },
+  "cncf": {
+    "name": "Gitness",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.058494+00:00"
+  }
+}

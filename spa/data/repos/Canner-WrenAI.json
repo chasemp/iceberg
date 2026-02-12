@@ -9,21 +9,23 @@
     "version": "HEAD",
     "loc": 72743,
     "source": "github_clone",
-    "cached_at": "2026-02-05T06:49:41.311697+00:00",
-    "ai_markers": {
-      "claude": true,
-      "cursor": false,
-      "copilot": false,
-      "aider": false,
-      "generic_ai": false
-    },
-    "ai_tools": [
-      "Claude"
-    ],
+    "cached_at": "2026-02-11T00:06:11.891752+00:00",
+    "total_loc": 44093,
+    "ratio": 0.37739224211715566,
     "repo_url": "https://github.com/Canner/WrenAI.git",
     "ref": "HEAD",
     "commit_hash": "759aa71ca64f1fd16ce70ca1559157405b52dcd7",
-    "clone_duration_seconds": 0.740941047668457,
-    "count_duration_seconds": 0.06140637397766113
+    "clone_duration_seconds": 1.970724105834961,
+    "count_duration_seconds": 0.07428193092346191,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

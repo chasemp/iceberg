@@ -1,0 +1,19 @@
+{
+  "owner": "devfile",
+  "name": "api",
+  "full_name": "devfile/api",
+  "url": "https://github.com/devfile/api",
+  "description": "Kube-native API for cloud development workspaces specification",
+  "language": null,
+  "stars": 329,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.038853+00:00"
+  },
+  "cncf": {
+    "name": "Devfile",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.038854+00:00"
+  }
+}

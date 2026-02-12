@@ -1,0 +1,29 @@
+{
+  "owner": "SmartThingsCommunity",
+  "repo": "SmartThingsPublic",
+  "full_name": "SmartThingsCommunity/SmartThingsPublic",
+  "url": "https://github.com/SmartThingsCommunity/SmartThingsPublic",
+  "analysis": {
+    "owner": "SmartThingsCommunity",
+    "repo": "SmartThingsPublic",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:45:01.965916+00:00",
+    "repo_url": "https://github.com/SmartThingsCommunity/SmartThingsPublic.git",
+    "ref": "HEAD",
+    "commit_hash": "eb3cee1775bc55148813909aa9e891631de1e2e8",
+    "clone_duration_seconds": 1.4684128761291504,
+    "count_duration_seconds": 0.08736681938171387,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

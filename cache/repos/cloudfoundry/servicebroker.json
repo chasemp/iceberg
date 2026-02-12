@@ -1,0 +1,19 @@
+{
+  "owner": "cloudfoundry",
+  "name": "servicebroker",
+  "full_name": "cloudfoundry/servicebroker",
+  "url": "https://github.com/cloudfoundry/servicebroker",
+  "description": "Open Service Broker API Specification",
+  "language": null,
+  "stars": 1214,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.145293+00:00"
+  },
+  "cncf": {
+    "name": "Open Service Broker API",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.145295+00:00"
+  }
+}

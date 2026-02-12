@@ -1,0 +1,19 @@
+{
+  "owner": "scitix",
+  "name": "arks",
+  "full_name": "scitix/arks",
+  "url": "https://github.com/scitix/arks",
+  "description": "Arks is a cloud-native inference framework running on Kubernetes",
+  "language": null,
+  "stars": 45,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.914519+00:00"
+  },
+  "cncf": {
+    "name": "Arks",
+    "category": "CNAI",
+    "subcategory": "ML Serving",
+    "imported_at": "2026-02-11T23:30:14.914520+00:00"
+  }
+}

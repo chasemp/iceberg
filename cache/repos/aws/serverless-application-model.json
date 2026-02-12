@@ -1,0 +1,19 @@
+{
+  "owner": "aws",
+  "name": "serverless-application-model",
+  "full_name": "aws/serverless-application-model",
+  "url": "https://github.com/aws/serverless-application-model",
+  "description": "The AWS Serverless Application Model (AWS SAM) transform is a AWS CloudFormation macro that transforms SAM templates into CloudFormation templates.",
+  "language": null,
+  "stars": 9549,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.918626+00:00"
+  },
+  "cncf": {
+    "name": "AWS Server Application Model (SAM)",
+    "category": "Serverless",
+    "subcategory": "Framework",
+    "imported_at": "2026-02-11T23:30:14.918627+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "bridgecrewio",
+  "name": "checkov",
+  "full_name": "bridgecrewio/checkov",
+  "url": "https://github.com/bridgecrewio/checkov",
+  "description": "Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages with Checkov by Bridgecrew.",
+  "language": null,
+  "stars": 8449,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.983474+00:00"
+  },
+  "cncf": {
+    "name": "Checkov",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:14.983475+00:00"
+  }
+}

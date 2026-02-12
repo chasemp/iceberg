@@ -1,0 +1,19 @@
+{
+  "owner": "piraeusdatastore",
+  "name": "piraeus-operator",
+  "full_name": "piraeusdatastore/piraeus-operator",
+  "url": "https://github.com/piraeusdatastore/piraeus-operator",
+  "description": "The Piraeus Operator manages LINSTOR clusters in Kubernetes.",
+  "language": null,
+  "stars": 519,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.158019+00:00"
+  },
+  "cncf": {
+    "name": "Piraeus Datastore",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "imported_at": "2026-02-11T23:30:15.158020+00:00"
+  }
+}

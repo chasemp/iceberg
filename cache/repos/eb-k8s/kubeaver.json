@@ -1,0 +1,19 @@
+{
+  "owner": "eb-k8s",
+  "name": "kubeaver",
+  "full_name": "eb-k8s/kubeaver",
+  "url": "https://github.com/eb-k8s/kubeaver",
+  "description": "Deploy a highly available Kubernetes cluster in online and offline environments ",
+  "language": null,
+  "stars": 75,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.109064+00:00"
+  },
+  "cncf": {
+    "name": "Kubeaver",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Installer",
+    "imported_at": "2026-02-11T23:30:15.109065+00:00"
+  }
+}

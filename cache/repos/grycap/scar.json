@@ -1,0 +1,19 @@
+{
+  "owner": "grycap",
+  "name": "scar",
+  "full_name": "grycap/scar",
+  "url": "https://github.com/grycap/scar",
+  "description": "Serverless Container-aware ARchitectures (e.g. Docker in AWS Lambda)",
+  "language": null,
+  "stars": 600,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.173575+00:00"
+  },
+  "cncf": {
+    "name": "SCAR",
+    "category": "Serverless",
+    "subcategory": "Tools",
+    "imported_at": "2026-02-11T23:30:15.173577+00:00"
+  }
+}

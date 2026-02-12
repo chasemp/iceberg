@@ -1,0 +1,19 @@
+{
+  "owner": "influxdata",
+  "name": "influxdb",
+  "full_name": "influxdata/influxdb",
+  "url": "https://github.com/influxdata/influxdb",
+  "description": "Scalable datastore for metrics, events, and real-time analytics",
+  "language": null,
+  "stars": 31190,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.080971+00:00"
+  },
+  "cncf": {
+    "name": "Influxdb",
+    "category": "CNAI",
+    "subcategory": "Workload Observability",
+    "imported_at": "2026-02-11T23:30:15.081301+00:00"
+  }
+}

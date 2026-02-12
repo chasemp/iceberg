@@ -9,17 +9,23 @@
     "version": "HEAD",
     "loc": 43771,
     "source": "github_clone",
-    "cached_at": "2026-02-09T20:28:48.876134+00:00",
+    "cached_at": "2026-02-10T23:49:36.853644+00:00",
     "total_loc": 5686,
     "ratio": 0.11496855854580747,
     "repo_url": "https://github.com/puppeteer/puppeteer.git",
     "ref": "HEAD",
-    "commit_hash": "8390af68cf75e75474c80e60cde77e0dbe083720",
-    "clone_duration_seconds": 1.6340768337249756,
-    "count_duration_seconds": 0.06776928901672363,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-typescript",
-    "tracked": false,
-    "maintenance_priority": "medium"
+    "commit_hash": "1c21c1e5f7db33b6c2f8fff7c3860b02ee225e46",
+    "clone_duration_seconds": 1.898205041885376,
+    "count_duration_seconds": 0.057775259017944336,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

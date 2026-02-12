@@ -1,0 +1,19 @@
+{
+  "owner": "rancher",
+  "name": "rke2",
+  "full_name": "rancher/rke2",
+  "url": "https://github.com/rancher/rke2",
+  "description": "A Kubernetes distribution focused on enabling Federal government compliance-based use cases.",
+  "language": null,
+  "stars": 2103,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.170750+00:00"
+  },
+  "cncf": {
+    "name": "RKE Government",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Distribution",
+    "imported_at": "2026-02-11T23:30:15.170751+00:00"
+  }
+}

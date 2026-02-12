@@ -1,0 +1,19 @@
+{
+  "owner": "webiny",
+  "name": "webiny-js",
+  "full_name": "webiny/webiny-js",
+  "url": "https://github.com/webiny/webiny-js",
+  "description": "Open-source serverless enterprise CMS. Includes a headless CMS, page builder, form builder, and file manager. Easy to customize and expand. Deploys to AWS.",
+  "language": null,
+  "stars": 7937,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.214487+00:00"
+  },
+  "cncf": {
+    "name": "Webiny",
+    "category": "Serverless",
+    "subcategory": "Framework",
+    "imported_at": "2026-02-11T23:30:15.214488+00:00"
+  }
+}

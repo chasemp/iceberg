@@ -1,0 +1,19 @@
+{
+  "owner": "tursodatabase",
+  "name": "libsql",
+  "full_name": "tursodatabase/libsql",
+  "url": "https://github.com/tursodatabase/libsql",
+  "description": "libSQL is a fork of SQLite that is both Open Source, and Open Contributions.",
+  "language": null,
+  "stars": 16323,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.125016+00:00"
+  },
+  "cncf": {
+    "name": "libSQL",
+    "category": "Wasm",
+    "subcategory": "Embedded Functions",
+    "imported_at": "2026-02-11T23:30:15.125018+00:00"
+  }
+}

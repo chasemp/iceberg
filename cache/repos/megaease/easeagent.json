@@ -1,0 +1,19 @@
+{
+  "owner": "megaease",
+  "name": "easeagent",
+  "full_name": "megaease/easeagent",
+  "url": "https://github.com/megaease/easeagent",
+  "description": "An agent component for the Java system",
+  "language": null,
+  "stars": 585,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.042886+00:00"
+  },
+  "cncf": {
+    "name": "EaseAgent",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.042887+00:00"
+  }
+}

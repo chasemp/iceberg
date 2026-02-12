@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "carbondata",
+  "full_name": "apache/carbondata",
+  "url": "https://github.com/apache/carbondata",
+  "description": "High performance data store solution",
+  "language": null,
+  "stars": 1446,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.903420+00:00"
+  },
+  "cncf": {
+    "name": "Apache CarbonData",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:14.903421+00:00"
+  }
+}

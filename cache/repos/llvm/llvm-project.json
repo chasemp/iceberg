@@ -1,0 +1,19 @@
+{
+  "owner": "llvm",
+  "name": "llvm-project",
+  "full_name": "llvm/llvm-project",
+  "url": "https://github.com/llvm/llvm-project",
+  "description": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.",
+  "language": null,
+  "stars": 36804,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.127278+00:00"
+  },
+  "cncf": {
+    "name": "llvm",
+    "category": "Wasm",
+    "subcategory": "Tooling",
+    "imported_at": "2026-02-11T23:30:15.127280+00:00"
+  }
+}

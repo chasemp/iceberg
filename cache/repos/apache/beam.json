@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "beam",
+  "full_name": "apache/beam",
+  "url": "https://github.com/apache/beam",
+  "description": "Apache Beam is a unified programming model for Batch and Streaming data processing.",
+  "language": null,
+  "stars": 8471,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.925309+00:00"
+  },
+  "cncf": {
+    "name": "Beam",
+    "category": "App Definition and Development",
+    "subcategory": "Streaming & Messaging",
+    "imported_at": "2026-02-11T23:30:14.925310+00:00"
+  }
+}

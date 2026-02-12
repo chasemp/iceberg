@@ -1,0 +1,19 @@
+{
+  "owner": "flatcar",
+  "name": "Flatcar",
+  "full_name": "flatcar/Flatcar",
+  "url": "https://github.com/flatcar/Flatcar",
+  "description": "Flatcar project repository for issue tracking, project documentation, etc.",
+  "language": null,
+  "stars": 1095,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.052879+00:00"
+  },
+  "cncf": {
+    "name": "Flatcar Container Linux",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Distribution",
+    "imported_at": "2026-02-11T23:30:15.052880+00:00"
+  }
+}

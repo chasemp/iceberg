@@ -1,0 +1,19 @@
+{
+  "owner": "tensorflow",
+  "name": "tfx",
+  "full_name": "tensorflow/tfx",
+  "url": "https://github.com/tensorflow/tfx",
+  "description": " TFX is an end-to-end platform for deploying production ML pipelines",
+  "language": null,
+  "stars": 2172,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.196677+00:00"
+  },
+  "cncf": {
+    "name": "TensorFlow Extended (TFX)",
+    "category": "CNAI",
+    "subcategory": "CI/CD - Delivery",
+    "imported_at": "2026-02-11T23:30:15.196678+00:00"
+  }
+}

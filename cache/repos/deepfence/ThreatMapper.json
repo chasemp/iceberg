@@ -1,0 +1,19 @@
+{
+  "owner": "deepfence",
+  "name": "ThreatMapper",
+  "full_name": "deepfence/ThreatMapper",
+  "url": "https://github.com/deepfence/ThreatMapper",
+  "description": "Open Source Cloud Native Application Protection Platform (CNAPP)",
+  "language": null,
+  "stars": 5230,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.199196+00:00"
+  },
+  "cncf": {
+    "name": "ThreatMapper",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.199197+00:00"
+  }
+}

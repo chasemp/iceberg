@@ -1,0 +1,19 @@
+{
+  "owner": "Graylog2",
+  "name": "graylog2-server",
+  "full_name": "Graylog2/graylog2-server",
+  "url": "https://github.com/Graylog2/graylog2-server",
+  "description": "Free and open log management",
+  "language": null,
+  "stars": 7953,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.064201+00:00"
+  },
+  "cncf": {
+    "name": "Graylog",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.064202+00:00"
+  }
+}

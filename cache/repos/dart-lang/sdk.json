@@ -1,0 +1,19 @@
+{
+  "owner": "dart-lang",
+  "name": "sdk",
+  "full_name": "dart-lang/sdk",
+  "url": "https://github.com/dart-lang/sdk",
+  "description": "The Dart SDK, including the VM, JS and Wasm compilers, analysis, core libraries, and more.",
+  "language": null,
+  "stars": 11026,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.036678+00:00"
+  },
+  "cncf": {
+    "name": "Dart",
+    "category": "Wasm",
+    "subcategory": "Languages",
+    "imported_at": "2026-02-11T23:30:15.036679+00:00"
+  }
+}

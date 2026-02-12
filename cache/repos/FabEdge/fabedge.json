@@ -1,0 +1,19 @@
+{
+  "owner": "FabEdge",
+  "name": "fabedge",
+  "full_name": "FabEdge/fabedge",
+  "url": "https://github.com/FabEdge/fabedge",
+  "description": "Secure Edge Networking Solution Based On Kubernetes",
+  "language": null,
+  "stars": 525,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.049559+00:00"
+  },
+  "cncf": {
+    "name": "FabEdge",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Network",
+    "imported_at": "2026-02-11T23:30:15.049560+00:00"
+  }
+}

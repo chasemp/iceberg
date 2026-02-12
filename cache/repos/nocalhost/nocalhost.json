@@ -1,0 +1,19 @@
+{
+  "owner": "nocalhost",
+  "name": "nocalhost",
+  "full_name": "nocalhost/nocalhost",
+  "url": "https://github.com/nocalhost/nocalhost",
+  "description": "Nocalhost is Cloud Native Dev Environment.",
+  "language": null,
+  "stars": 1898,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.141587+00:00"
+  },
+  "cncf": {
+    "name": "Nocalhost",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.141588+00:00"
+  }
+}

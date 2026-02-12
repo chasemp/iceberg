@@ -1,0 +1,19 @@
+{
+  "owner": "OpenNebula",
+  "name": "one",
+  "full_name": "OpenNebula/one",
+  "url": "https://github.com/OpenNebula/one",
+  "description": "The open source Cloud & Edge Computing Platform bringing real freedom to your Enterprise Cloud \ud83d\ude80",
+  "language": null,
+  "stars": 1632,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.149969+00:00"
+  },
+  "cncf": {
+    "name": "OpenNebula",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.149970+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "ziglang",
+  "name": "zig",
+  "full_name": "ziglang/zig",
+  "url": "https://github.com/ziglang/zig",
+  "description": "Moved to Codeberg",
+  "language": null,
+  "stars": 42660,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.218550+00:00"
+  },
+  "cncf": {
+    "name": "Zig",
+    "category": "Wasm",
+    "subcategory": "Languages",
+    "imported_at": "2026-02-11T23:30:15.218551+00:00"
+  }
+}

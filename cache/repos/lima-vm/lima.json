@@ -1,0 +1,19 @@
+{
+  "owner": "lima-vm",
+  "name": "lima",
+  "full_name": "lima-vm/lima",
+  "url": "https://github.com/lima-vm/lima",
+  "description": "Linux virtual machines, with a focus on running containers",
+  "language": null,
+  "stars": 20154,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.125612+00:00"
+  },
+  "cncf": {
+    "name": "Lima",
+    "category": "Runtime",
+    "subcategory": "Container Runtime",
+    "imported_at": "2026-02-11T23:30:15.125613+00:00"
+  }
+}

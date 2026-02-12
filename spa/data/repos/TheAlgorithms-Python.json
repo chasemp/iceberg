@@ -9,7 +9,7 @@
     "version": "HEAD",
     "loc": 91677,
     "source": "github_clone",
-    "cached_at": "2026-02-03T00:57:37.296384+00:00",
+    "cached_at": "2026-02-11T15:11:06.973855+00:00",
     "package": {
       "system": "pypi",
       "name": "thealgorithms-python",
@@ -20,11 +20,17 @@
     "repo_url": "https://github.com/TheAlgorithms/Python.git",
     "ref": "HEAD",
     "commit_hash": "678dedbbf94be54b3c9c258368e28bb8e7736d62",
-    "clone_duration_seconds": 2.2225050926208496,
-    "count_duration_seconds": 0.14581704139709473,
-    "last_discovered": "2026-02-03",
-    "discovery_source": "search",
-    "tracked": false,
-    "maintenance_priority": "medium"
+    "clone_duration_seconds": 1.8702771663665771,
+    "count_duration_seconds": 0.12083292007446289,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

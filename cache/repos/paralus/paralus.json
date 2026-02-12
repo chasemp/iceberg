@@ -1,0 +1,19 @@
+{
+  "owner": "paralus",
+  "name": "paralus",
+  "full_name": "paralus/paralus",
+  "url": "https://github.com/paralus/paralus",
+  "description": "All-in-one Kubernetes access manager. User-level credentials, RBAC, SSO, audit logs.",
+  "language": null,
+  "stars": 1171,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.154578+00:00"
+  },
+  "cncf": {
+    "name": "Paralus",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.154579+00:00"
+  }
+}

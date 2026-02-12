@@ -1,0 +1,19 @@
+{
+  "owner": "matanolabs",
+  "name": "matano",
+  "full_name": "matanolabs/matano",
+  "url": "https://github.com/matanolabs/matano",
+  "description": "Open source security data lake for threat hunting, detection & response, and cybersecurity analytics at petabyte scale on AWS",
+  "language": null,
+  "stars": 1655,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.130352+00:00"
+  },
+  "cncf": {
+    "name": "Matano",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.130352+00:00"
+  }
+}

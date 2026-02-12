@@ -1,0 +1,19 @@
+{
+  "owner": "notaryproject",
+  "name": "ratify",
+  "full_name": "notaryproject/ratify",
+  "url": "https://github.com/notaryproject/ratify",
+  "description": "Artifact Ratification Framework (CNCF Sandbox)",
+  "language": null,
+  "stars": 283,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.168202+00:00"
+  },
+  "cncf": {
+    "name": "Ratify",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.168203+00:00"
+  }
+}

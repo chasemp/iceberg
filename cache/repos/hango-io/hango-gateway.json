@@ -1,0 +1,19 @@
+{
+  "owner": "hango-io",
+  "name": "hango-gateway",
+  "full_name": "hango-io/hango-gateway",
+  "url": "https://github.com/hango-io/hango-gateway",
+  "description": "Hango API Gateway, build on Envoy & Istio.",
+  "language": null,
+  "stars": 463,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.066540+00:00"
+  },
+  "cncf": {
+    "name": "Hango",
+    "category": "Orchestration & Management",
+    "subcategory": "API Gateway",
+    "imported_at": "2026-02-11T23:30:15.066541+00:00"
+  }
+}

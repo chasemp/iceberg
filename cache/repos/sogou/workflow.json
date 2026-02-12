@@ -1,0 +1,19 @@
+{
+  "owner": "sogou",
+  "name": "workflow",
+  "full_name": "sogou/workflow",
+  "url": "https://github.com/sogou/workflow",
+  "description": "C++ Parallel Computing and Asynchronous Networking Framework",
+  "language": null,
+  "stars": 14296,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.183711+00:00"
+  },
+  "cncf": {
+    "name": "Sogou C++ Workflow",
+    "category": "Platform",
+    "subcategory": "PaaS/Container Service",
+    "imported_at": "2026-02-11T23:30:15.183712+00:00"
+  }
+}

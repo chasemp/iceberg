@@ -1,0 +1,19 @@
+{
+  "owner": "grafana",
+  "name": "tanka",
+  "full_name": "grafana/tanka",
+  "url": "https://github.com/grafana/tanka",
+  "description": "Flexible, reusable and concise configuration for Kubernetes",
+  "language": null,
+  "stars": 2647,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.192532+00:00"
+  },
+  "cncf": {
+    "name": "Tanka",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.192533+00:00"
+  }
+}

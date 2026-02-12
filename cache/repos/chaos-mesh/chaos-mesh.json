@@ -1,0 +1,19 @@
+{
+  "owner": "chaos-mesh",
+  "name": "chaos-mesh",
+  "full_name": "chaos-mesh/chaos-mesh",
+  "url": "https://github.com/chaos-mesh/chaos-mesh",
+  "description": "A Chaos Engineering Platform for Kubernetes.",
+  "language": null,
+  "stars": 7519,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.981476+00:00"
+  },
+  "cncf": {
+    "name": "Chaos Mesh",
+    "category": "Observability and Analysis",
+    "subcategory": "Chaos Engineering",
+    "imported_at": "2026-02-11T23:30:14.981477+00:00"
+  }
+}

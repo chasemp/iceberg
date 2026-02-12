@@ -4,9 +4,16 @@
   "url": "https://github.com/etcd-io/etcd",
   "description": "Distributed reliable key-value store for the most critical data of a distributed system",
   "language": "Go",
-  "stars": 51477,
+  "stars": 51461,
   "categories": {
-    "github-ranking-go": "2026-02-09"
+    "github-ranking-go": "2026-02-09",
+    "tracked": "2026-02-11T23:30:15.048501+00:00"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-09",
+  "cncf": {
+    "name": "etcd",
+    "category": "Orchestration & Management",
+    "subcategory": "Coordination & Service Discovery",
+    "imported_at": "2026-02-11T23:30:15.048503+00:00"
+  }
 }

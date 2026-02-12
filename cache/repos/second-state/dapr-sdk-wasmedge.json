@@ -1,0 +1,19 @@
+{
+  "owner": "second-state",
+  "name": "dapr-sdk-wasmedge",
+  "full_name": "second-state/dapr-sdk-wasmedge",
+  "url": "https://github.com/second-state/dapr-sdk-wasmedge",
+  "description": "An experimental Dapr SDK in Rust. It is designed to run in WasmEdge applications.",
+  "language": null,
+  "stars": 43,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.036486+00:00"
+  },
+  "cncf": {
+    "name": "Dapr SDK",
+    "category": "Wasm",
+    "subcategory": "Application Frameworks",
+    "imported_at": "2026-02-11T23:30:15.036487+00:00"
+  }
+}

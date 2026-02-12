@@ -20,6 +20,16 @@
     "last_discovered": "2026-02-09",
     "discovery_source": "search",
     "tracked": false,
-    "maintenance_priority": "medium"
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "owner": "openclarity",
+  "name": "apiclarity",
+  "full_name": "openclarity/apiclarity",
+  "url": "https://github.com/openclarity/apiclarity",
+  "description": "An API security tool to capture and analyze API traffic, test API endpoints, reconstruct Open API specification, and identify API security risks.\u00a0",
+  "language": null,
+  "stars": 563,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.909492+00:00"
+  },
+  "cncf": {
+    "name": "APIClarity",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:14.909493+00:00"
+  }
+}

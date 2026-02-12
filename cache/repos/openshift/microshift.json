@@ -1,0 +1,19 @@
+{
+  "owner": "openshift",
+  "name": "microshift",
+  "full_name": "openshift/microshift",
+  "url": "https://github.com/openshift/microshift",
+  "description": "A small form factor OpenShift/Kubernetes optimized for edge computing",
+  "language": null,
+  "stars": 811,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.169134+00:00"
+  },
+  "cncf": {
+    "name": "Red Hat Build of Microshift",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Distribution",
+    "imported_at": "2026-02-11T23:30:15.169135+00:00"
+  }
+}

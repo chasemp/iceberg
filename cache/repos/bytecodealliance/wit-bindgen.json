@@ -1,0 +1,19 @@
+{
+  "owner": "bytecodealliance",
+  "name": "wit-bindgen",
+  "full_name": "bytecodealliance/wit-bindgen",
+  "url": "https://github.com/bytecodealliance/wit-bindgen",
+  "description": "A language binding generator for WebAssembly interface types",
+  "language": null,
+  "stars": 1328,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.215347+00:00"
+  },
+  "cncf": {
+    "name": "Wit-binddgen",
+    "category": "Wasm",
+    "subcategory": "Tooling",
+    "imported_at": "2026-02-11T23:30:15.215348+00:00"
+  }
+}

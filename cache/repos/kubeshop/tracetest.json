@@ -1,0 +1,19 @@
+{
+  "owner": "kubeshop",
+  "name": "tracetest",
+  "full_name": "kubeshop/tracetest",
+  "url": "https://github.com/kubeshop/tracetest",
+  "description": "\ud83d\udd2d Tracetest - Build integration and end-to-end tests in minutes, instead of days, using OpenTelemetry and trace-based testing.",
+  "language": null,
+  "stars": 1299,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.201775+00:00"
+  },
+  "cncf": {
+    "name": "Tracetest",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.201776+00:00"
+  }
+}

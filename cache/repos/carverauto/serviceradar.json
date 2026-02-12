@@ -1,0 +1,19 @@
+{
+  "owner": "carverauto",
+  "name": "serviceradar",
+  "full_name": "carverauto/serviceradar",
+  "url": "https://github.com/carverauto/serviceradar",
+  "description": "Zero-trust Opensource Network Management and Observability Platform",
+  "language": null,
+  "stars": 723,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.178123+00:00"
+  },
+  "cncf": {
+    "name": "ServiceRadar",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.178125+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "aserto-dev",
+  "name": "topaz",
+  "full_name": "aserto-dev/topaz",
+  "url": "https://github.com/aserto-dev/topaz",
+  "description": "Cloud-native authorization for modern applications and APIs",
+  "language": null,
+  "stars": 1302,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.201360+00:00"
+  },
+  "cncf": {
+    "name": "Topaz",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.201361+00:00"
+  }
+}

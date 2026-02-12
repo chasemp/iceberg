@@ -1,0 +1,19 @@
+{
+  "owner": "Netis",
+  "name": "cloud-probe",
+  "full_name": "Netis/cloud-probe",
+  "url": "https://github.com/Netis/cloud-probe",
+  "description": "A Software Probe for network packet capturing and forwarding in Cloud/Kubernetes and Virtualized environment.",
+  "language": null,
+  "stars": 961,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.139437+00:00"
+  },
+  "cncf": {
+    "name": "Netis",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.139438+00:00"
+  }
+}

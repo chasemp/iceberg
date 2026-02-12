@@ -1,0 +1,19 @@
+{
+  "owner": "OpenTSDB",
+  "name": "opentsdb",
+  "full_name": "OpenTSDB/opentsdb",
+  "url": "https://github.com/OpenTSDB/opentsdb",
+  "description": "A scalable, distributed Time Series Database.",
+  "language": null,
+  "stars": 5064,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.151819+00:00"
+  },
+  "cncf": {
+    "name": "OpenTSDB",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.151820+00:00"
+  }
+}

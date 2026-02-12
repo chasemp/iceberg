@@ -1,0 +1,19 @@
+{
+  "owner": "kestra-io",
+  "name": "kestra",
+  "full_name": "kestra-io/kestra",
+  "url": "https://github.com/kestra-io/kestra",
+  "description": "Event Driven Orchestration & Scheduling Platform for Mission Critical Applications",
+  "language": null,
+  "stars": 26316,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.093018+00:00"
+  },
+  "cncf": {
+    "name": "Kestra",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.093019+00:00"
+  }
+}

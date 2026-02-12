@@ -9,15 +9,21 @@
     "version": "HEAD",
     "loc": 166819,
     "source": "github_clone",
-    "cached_at": "2026-02-09T20:03:08.224874+00:00",
+    "cached_at": "2026-02-10T23:38:05.060083+00:00",
     "repo_url": "https://github.com/krahets/hello-algo.git",
     "ref": "HEAD",
     "commit_hash": "2213a59ff6c9ed2d82c6e3e16e9024ca116fbcf6",
-    "clone_duration_seconds": 6.10122537612915,
-    "count_duration_seconds": 0.42934608459472656,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-top-100-stars",
-    "tracked": false,
-    "maintenance_priority": "medium"
+    "clone_duration_seconds": 6.530398845672607,
+    "count_duration_seconds": 0.40689611434936523,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

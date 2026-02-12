@@ -1,0 +1,19 @@
+{
+  "owner": "hazelcast",
+  "name": "hazelcast",
+  "full_name": "hazelcast/hazelcast",
+  "url": "https://github.com/hazelcast/hazelcast",
+  "description": "Hazelcast is a unified real-time data platform combining stream processing with a fast data store, allowing customers to act instantly on data-in-motion for real-time insights.",
+  "language": null,
+  "stars": 6587,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.070559+00:00"
+  },
+  "cncf": {
+    "name": "Hazelcast IMDG",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.070560+00:00"
+  }
+}

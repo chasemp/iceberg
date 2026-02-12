@@ -7,24 +7,30 @@
     "owner": "facebook",
     "repo": "react-native",
     "version": "HEAD",
-    "loc": 471426,
+    "loc": 470677,
     "source": "github_clone",
-    "cached_at": "2026-02-09T20:02:54.239529+00:00",
+    "cached_at": "2026-02-10T23:37:49.191024+00:00",
     "package": {
       "system": "npm",
       "name": "@react-native/monorepo",
       "version": "1000.0.0"
     },
     "total_loc": 43807,
-    "ratio": 0.08502366890319525,
+    "ratio": 0.08514744870588783,
     "repo_url": "https://github.com/facebook/react-native.git",
     "ref": "HEAD",
-    "commit_hash": "1ff071544e043b3b348555947b3db6a81b4e1490",
-    "clone_duration_seconds": 4.542400121688843,
-    "count_duration_seconds": 0.6575307846069336,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-top-100-stars",
-    "tracked": false,
-    "maintenance_priority": "medium"
+    "commit_hash": "fdc1f3c06b61d553f149bbab735b319afa3fbb29",
+    "clone_duration_seconds": 5.064197063446045,
+    "count_duration_seconds": 0.6202609539031982,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

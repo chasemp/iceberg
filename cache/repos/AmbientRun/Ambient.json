@@ -1,0 +1,19 @@
+{
+  "owner": "AmbientRun",
+  "name": "Ambient",
+  "full_name": "AmbientRun/Ambient",
+  "url": "https://github.com/AmbientRun/Ambient",
+  "description": "The multiplayer game engine",
+  "language": null,
+  "stars": 3895,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.901029+00:00"
+  },
+  "cncf": {
+    "name": "Ambient",
+    "category": "Wasm",
+    "subcategory": "Application Frameworks",
+    "imported_at": "2026-02-11T23:30:14.901032+00:00"
+  }
+}

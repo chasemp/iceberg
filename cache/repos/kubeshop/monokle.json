@@ -1,0 +1,19 @@
+{
+  "owner": "kubeshop",
+  "name": "monokle",
+  "full_name": "kubeshop/monokle",
+  "url": "https://github.com/kubeshop/monokle",
+  "description": "Monokle is a set of OSS tools designed to help create and maintain high-quality Kubernetes configurations throughout the application lifecycle",
+  "language": null,
+  "stars": 2114,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.136755+00:00"
+  },
+  "cncf": {
+    "name": "Monokle",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.136756+00:00"
+  }
+}

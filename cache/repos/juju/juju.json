@@ -1,0 +1,19 @@
+{
+  "owner": "juju",
+  "name": "juju",
+  "full_name": "juju/juju",
+  "url": "https://github.com/juju/juju",
+  "description": "Orchestration engine that enables the deployment, integration and lifecycle management of applications at any scale, on any infrastructure (Kubernetes or otherwise).",
+  "language": null,
+  "stars": 2592,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.085104+00:00"
+  },
+  "cncf": {
+    "name": "Juju",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.085105+00:00"
+  }
+}

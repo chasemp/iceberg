@@ -1,0 +1,19 @@
+{
+  "owner": "bytecodealliance",
+  "name": "javy",
+  "full_name": "bytecodealliance/javy",
+  "url": "https://github.com/bytecodealliance/javy",
+  "description": "JS to WebAssembly toolchain",
+  "language": null,
+  "stars": 2641,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.083669+00:00"
+  },
+  "cncf": {
+    "name": "Javy",
+    "category": "Wasm",
+    "subcategory": "Languages",
+    "imported_at": "2026-02-11T23:30:15.083670+00:00"
+  }
+}

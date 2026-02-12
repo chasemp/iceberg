@@ -1,0 +1,19 @@
+{
+  "owner": "project-dalec",
+  "name": "dalec",
+  "full_name": "project-dalec/dalec",
+  "url": "https://github.com/project-dalec/dalec",
+  "description": "\ud83d\udce6 Produce secure packages and containers with declarative configurations",
+  "language": null,
+  "stars": 272,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.036040+00:00"
+  },
+  "cncf": {
+    "name": "Dalec",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.036041+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "microsoft",
+  "name": "vscode-wasm",
+  "full_name": "microsoft/vscode-wasm",
+  "url": "https://github.com/microsoft/vscode-wasm",
+  "description": "A WASI implementation that uses VS Code's extension host as the implementing API",
+  "language": null,
+  "stars": 443,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.209444+00:00"
+  },
+  "cncf": {
+    "name": "vscode-wasm",
+    "category": "Wasm",
+    "subcategory": "Application Frameworks",
+    "imported_at": "2026-02-11T23:30:15.209445+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "arangodb",
+  "name": "arangodb",
+  "full_name": "arangodb/arangodb",
+  "url": "https://github.com/arangodb/arangodb",
+  "description": "\ud83e\udd51 ArangoDB is a native multi-model database with flexible data models for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript extensions.",
+  "language": null,
+  "stars": 14077,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.912746+00:00"
+  },
+  "cncf": {
+    "name": "ArangoDB",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:14.912747+00:00"
+  }
+}

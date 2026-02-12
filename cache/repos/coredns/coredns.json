@@ -1,0 +1,19 @@
+{
+  "owner": "coredns",
+  "name": "coredns",
+  "full_name": "coredns/coredns",
+  "url": "https://github.com/coredns/coredns",
+  "description": "CoreDNS is a DNS server that chains plugins",
+  "language": null,
+  "stars": 13793,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.996446+00:00"
+  },
+  "cncf": {
+    "name": "CoreDNS",
+    "category": "Orchestration & Management",
+    "subcategory": "Coordination & Service Discovery",
+    "imported_at": "2026-02-11T23:30:14.996455+00:00"
+  }
+}

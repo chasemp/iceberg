@@ -1,0 +1,19 @@
+{
+  "owner": "deepstreamIO",
+  "name": "deepstream.io",
+  "full_name": "deepstreamIO/deepstream.io",
+  "url": "https://github.com/deepstreamIO/deepstream.io",
+  "description": "deepstream.io server",
+  "language": null,
+  "stars": 7185,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.038396+00:00"
+  },
+  "cncf": {
+    "name": "deepstream",
+    "category": "App Definition and Development",
+    "subcategory": "Streaming & Messaging",
+    "imported_at": "2026-02-11T23:30:15.038397+00:00"
+  }
+}

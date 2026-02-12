@@ -1,0 +1,19 @@
+{
+  "owner": "trinodb",
+  "name": "trino",
+  "full_name": "trinodb/trino",
+  "url": "https://github.com/trinodb/trino",
+  "description": "Official repository of Trino, the distributed SQL query engine for big data, formerly known as PrestoSQL (https://trino.io)",
+  "language": null,
+  "stars": 12521,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.203389+00:00"
+  },
+  "cncf": {
+    "name": "Trino",
+    "category": "CNAI",
+    "subcategory": "Data Architecture",
+    "imported_at": "2026-02-11T23:30:15.203390+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "siderolabs",
+  "name": "omni",
+  "full_name": "siderolabs/omni",
+  "url": "https://github.com/siderolabs/omni",
+  "description": "SaaS-simple deployment of Kubernetes - on your own hardware.",
+  "language": null,
+  "stars": 1003,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.143944+00:00"
+  },
+  "cncf": {
+    "name": "Omni",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.143945+00:00"
+  }
+}

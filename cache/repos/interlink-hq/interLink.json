@@ -1,0 +1,19 @@
+{
+  "owner": "interlink-hq",
+  "name": "interLink",
+  "full_name": "interlink-hq/interLink",
+  "url": "https://github.com/interlink-hq/interLink",
+  "description": "InterLink aims to provide an abstraction for the execution of a Kubernetes pod on any remote resource capable of managing a Container execution lifecycle",
+  "language": null,
+  "stars": 102,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.082595+00:00"
+  },
+  "cncf": {
+    "name": "Interlink",
+    "category": "Runtime",
+    "subcategory": "Container Runtime",
+    "imported_at": "2026-02-11T23:30:15.082597+00:00"
+  }
+}

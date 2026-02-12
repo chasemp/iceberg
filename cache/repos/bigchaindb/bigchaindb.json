@@ -1,0 +1,19 @@
+{
+  "owner": "bigchaindb",
+  "name": "bigchaindb",
+  "full_name": "bigchaindb/bigchaindb",
+  "url": "https://github.com/bigchaindb/bigchaindb",
+  "description": "Meet BigchainDB. The blockchain database.",
+  "language": null,
+  "stars": 4047,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.948245+00:00"
+  },
+  "cncf": {
+    "name": "BigchainDB",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:14.948247+00:00"
+  }
+}

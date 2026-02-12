@@ -1,0 +1,19 @@
+{
+  "owner": "powerfulseal",
+  "name": "powerfulseal",
+  "full_name": "powerfulseal/powerfulseal",
+  "url": "https://github.com/powerfulseal/powerfulseal",
+  "description": "A powerful testing tool for Kubernetes clusters.",
+  "language": null,
+  "stars": 1973,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.161070+00:00"
+  },
+  "cncf": {
+    "name": "PowerfulSeal",
+    "category": "Observability and Analysis",
+    "subcategory": "Chaos Engineering",
+    "imported_at": "2026-02-11T23:30:15.161071+00:00"
+  }
+}

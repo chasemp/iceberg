@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 90,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:02:54.531106+00:00",
+    "cached_at": "2026-02-11T15:10:12.739035+00:00",
     "repo_url": "https://github.com/sergiotapia/magnetissimo.git",
     "ref": "HEAD",
     "commit_hash": "dd7b4a7f304c1f8dab33462be8935d5f1fe158bb",
-    "clone_duration_seconds": 0.9101428985595703,
-    "count_duration_seconds": 0.010376214981079102
+    "clone_duration_seconds": 1.2555370330810547,
+    "count_duration_seconds": 0.013434171676635742,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

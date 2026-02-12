@@ -1,0 +1,19 @@
+{
+  "owner": "Flagsmith",
+  "name": "flagsmith",
+  "full_name": "Flagsmith/flagsmith",
+  "url": "https://github.com/Flagsmith/flagsmith",
+  "description": "Flagsmith is an open source feature flagging and remote config service. Self-host or use our hosted version at https://app.flagsmith.com.",
+  "language": null,
+  "stars": 6206,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.052476+00:00"
+  },
+  "cncf": {
+    "name": "Flagsmith",
+    "category": "Observability and Analysis",
+    "subcategory": "Feature Flagging",
+    "imported_at": "2026-02-11T23:30:15.052477+00:00"
+  }
+}

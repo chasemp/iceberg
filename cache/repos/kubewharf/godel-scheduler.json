@@ -1,0 +1,19 @@
+{
+  "owner": "kubewharf",
+  "name": "godel-scheduler",
+  "full_name": "kubewharf/godel-scheduler",
+  "url": "https://github.com/kubewharf/godel-scheduler",
+  "description": "a unified scheduler for online and offline tasks",
+  "language": null,
+  "stars": 641,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.060072+00:00"
+  },
+  "cncf": {
+    "name": "Godel-Scheduler",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.060074+00:00"
+  }
+}

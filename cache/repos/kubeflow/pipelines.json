@@ -1,0 +1,19 @@
+{
+  "owner": "kubeflow",
+  "name": "pipelines",
+  "full_name": "kubeflow/pipelines",
+  "url": "https://github.com/kubeflow/pipelines",
+  "description": "Machine Learning Pipelines for Kubeflow",
+  "language": null,
+  "stars": 4073,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.112688+00:00"
+  },
+  "cncf": {
+    "name": "Kubeflow Pipelines",
+    "category": "CNAI",
+    "subcategory": "CI/CD - Delivery",
+    "imported_at": "2026-02-11T23:30:15.112689+00:00"
+  }
+}

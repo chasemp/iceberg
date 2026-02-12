@@ -1,0 +1,29 @@
+{
+  "owner": "rrrene",
+  "repo": "credo",
+  "full_name": "rrrene/credo",
+  "url": "https://github.com/rrrene/credo",
+  "analysis": {
+    "owner": "rrrene",
+    "repo": "credo",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:09:16.474687+00:00",
+    "repo_url": "https://github.com/rrrene/credo.git",
+    "ref": "HEAD",
+    "commit_hash": "0cfeba513f76b074a9be9913003115b9df9ada60",
+    "clone_duration_seconds": 1.1400489807128906,
+    "count_duration_seconds": 0.014517068862915039,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

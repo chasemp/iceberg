@@ -1,0 +1,19 @@
+{
+  "owner": "bpfman",
+  "name": "bpfman",
+  "full_name": "bpfman/bpfman",
+  "url": "https://github.com/bpfman/bpfman",
+  "description": "An eBPF Manager for Linux and Kubernetes",
+  "language": null,
+  "stars": 710,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.951187+00:00"
+  },
+  "cncf": {
+    "name": "bpfman",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:14.951188+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "jaegertracing",
+  "name": "jaeger",
+  "full_name": "jaegertracing/jaeger",
+  "url": "https://github.com/jaegertracing/jaeger",
+  "description": "CNCF Jaeger, a Distributed Tracing Platform",
+  "language": null,
+  "stars": 22426,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.083531+00:00"
+  },
+  "cncf": {
+    "name": "Jaeger",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.083532+00:00"
+  }
+}

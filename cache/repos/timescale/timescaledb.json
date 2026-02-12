@@ -1,0 +1,19 @@
+{
+  "owner": "timescale",
+  "name": "timescaledb",
+  "full_name": "timescale/timescaledb",
+  "url": "https://github.com/timescale/timescaledb",
+  "description": "A time-series database for high-performance real-time analytics packaged as a Postgres extension",
+  "language": null,
+  "stars": 21651,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.200321+00:00"
+  },
+  "cncf": {
+    "name": "Timescale",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.200322+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "alasca-association",
+  "name": "tarook",
+  "full_name": "alasca-association/tarook",
+  "url": "https://github.com/alasca-association/tarook",
+  "description": "\ud83e\ude9e MIRROR of the official TAROOK repository. \u26a0\ufe0f This repository is not actively monitored for pull requests. Please contribute at GitLab. \u26a0\ufe0f",
+  "language": null,
+  "stars": 1,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.192937+00:00"
+  },
+  "cncf": {
+    "name": "Tarook",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Distribution",
+    "imported_at": "2026-02-11T23:30:15.192938+00:00"
+  }
+}

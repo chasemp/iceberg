@@ -1,0 +1,19 @@
+{
+  "owner": "distr-sh",
+  "name": "distr",
+  "full_name": "distr-sh/distr",
+  "url": "https://github.com/distr-sh/distr",
+  "description": "The Open Source control plane for self-managed, BYOC, and on-prem deployments. Everything you need to distribute applications to self-managed customers out of the box.",
+  "language": null,
+  "stars": 708,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.040637+00:00"
+  },
+  "cncf": {
+    "name": "Distr",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.040639+00:00"
+  }
+}

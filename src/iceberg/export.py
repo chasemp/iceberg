@@ -19,7 +19,6 @@ from iceberg.cache import (
     get_repos_by_category,
     list_all_repos,
     load_dependencies,
-    load_discovered_repos,
     load_project_loc,
 )
 from iceberg.models import DiscoveredRepo, PackageIdentifier
@@ -119,6 +118,8 @@ def export_discovery_index(
             dimension["category"] = category.replace("github-ranking-", "")
         elif category == "search":
             dimension["type"] = "search"
+        elif category == "tracked":
+            dimension["type"] = "tracked"
         else:
             dimension["type"] = "other"
 
@@ -232,7 +233,6 @@ def _repo_summary_from_metadata(repo_metadata: dict[str, Any], cache_dir: Path) 
         "language": repo_metadata["language"],
         "stars": repo_metadata["stars"],
         "discovered_at": repo_metadata["last_discovered"],
-        "categories": list(repo_metadata.get("categories", {}).keys()),
     }
 
     # Try to add analysis data for sorting

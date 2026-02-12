@@ -1,0 +1,19 @@
+{
+  "owner": "aquasecurity",
+  "name": "tracee",
+  "full_name": "aquasecurity/tracee",
+  "url": "https://github.com/aquasecurity/tracee",
+  "description": "Linux Runtime Security and Forensics using eBPF",
+  "language": null,
+  "stars": 4361,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.201573+00:00"
+  },
+  "cncf": {
+    "name": "Tracee",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.201575+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "container-storage-interface",
+  "name": "spec",
+  "full_name": "container-storage-interface/spec",
+  "url": "https://github.com/container-storage-interface/spec",
+  "description": "Container Storage Interface (CSI) Specification.",
+  "language": null,
+  "stars": 1452,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.993925+00:00"
+  },
+  "cncf": {
+    "name": "Container Storage Interface (CSI)",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "imported_at": "2026-02-11T23:30:14.993926+00:00"
+  }
+}

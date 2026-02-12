@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 40275,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:28:02.646847+00:00",
+    "cached_at": "2026-02-11T00:31:40.546350+00:00",
     "repo_url": "https://github.com/apache/openwhisk.git",
     "ref": "HEAD",
     "commit_hash": "3d28212ee547ca7b0e9b33d64270b8b8bb4040e9",
-    "clone_duration_seconds": 1.3625261783599854,
-    "count_duration_seconds": 0.06782746315002441
+    "clone_duration_seconds": 1.9342923164367676,
+    "count_duration_seconds": 0.07861495018005371,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

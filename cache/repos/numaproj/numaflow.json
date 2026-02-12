@@ -1,0 +1,19 @@
+{
+  "owner": "numaproj",
+  "name": "numaflow",
+  "full_name": "numaproj/numaflow",
+  "url": "https://github.com/numaproj/numaflow",
+  "description": "Kubernetes-native platform to run massively parallel data/streaming jobs",
+  "language": null,
+  "stars": 2433,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.142575+00:00"
+  },
+  "cncf": {
+    "name": "Numaflow",
+    "category": "CNAI",
+    "subcategory": "Data Architecture",
+    "imported_at": "2026-02-11T23:30:15.142749+00:00"
+  }
+}

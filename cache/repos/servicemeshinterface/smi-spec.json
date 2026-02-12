@@ -1,0 +1,19 @@
+{
+  "owner": "servicemeshinterface",
+  "name": "smi-spec",
+  "full_name": "servicemeshinterface/smi-spec",
+  "url": "https://github.com/servicemeshinterface/smi-spec",
+  "description": "Service Mesh Interface",
+  "language": null,
+  "stars": 1058,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.177541+00:00"
+  },
+  "cncf": {
+    "name": "Service Mesh Interface (SMI)",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Mesh",
+    "imported_at": "2026-02-11T23:30:15.177543+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "syntasso",
+  "name": "kratix",
+  "full_name": "syntasso/kratix",
+  "url": "https://github.com/syntasso/kratix",
+  "description": "Kratix is an open-source framework for building platforms",
+  "language": null,
+  "stars": 717,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.102145+00:00"
+  },
+  "cncf": {
+    "name": "Kratix",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.102147+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "tikv",
+  "name": "tikv",
+  "full_name": "tikv/tikv",
+  "url": "https://github.com/tikv/tikv",
+  "description": "Distributed transactional key-value database, originally created to complement TiDB",
+  "language": null,
+  "stars": 16510,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.199823+00:00"
+  },
+  "cncf": {
+    "name": "TiKV",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.199824+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "WebAssembly",
+  "name": "binaryen",
+  "full_name": "WebAssembly/binaryen",
+  "url": "https://github.com/WebAssembly/binaryen",
+  "description": "Optimizer and compiler/toolchain library for WebAssembly",
+  "language": null,
+  "stars": 8324,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.948572+00:00"
+  },
+  "cncf": {
+    "name": "Binaryen",
+    "category": "Wasm",
+    "subcategory": "Tooling",
+    "imported_at": "2026-02-11T23:30:14.948573+00:00"
+  }
+}

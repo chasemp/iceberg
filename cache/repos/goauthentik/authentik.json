@@ -1,0 +1,19 @@
+{
+  "owner": "goauthentik",
+  "name": "authentik",
+  "full_name": "goauthentik/authentik",
+  "url": "https://github.com/goauthentik/authentik",
+  "description": "The authentication glue you need.",
+  "language": null,
+  "stars": 20016,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.917604+00:00"
+  },
+  "cncf": {
+    "name": "authentik",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:14.917605+00:00"
+  }
+}

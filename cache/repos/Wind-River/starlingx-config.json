@@ -1,0 +1,19 @@
+{
+  "owner": "Wind-River",
+  "name": "starlingx-config",
+  "full_name": "Wind-River/starlingx-config",
+  "url": "https://github.com/Wind-River/starlingx-config",
+  "description": "A github mirror of https://github.com/starlingx/config",
+  "language": null,
+  "stars": 3,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.215085+00:00"
+  },
+  "cncf": {
+    "name": "Wind River Studio Cloud Platform",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Distribution",
+    "imported_at": "2026-02-11T23:30:15.215086+00:00"
+  }
+}

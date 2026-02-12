@@ -1,0 +1,19 @@
+{
+  "owner": "poseidon",
+  "name": "typhoon",
+  "full_name": "poseidon/typhoon",
+  "url": "https://github.com/poseidon/typhoon",
+  "description": "Minimal and free Kubernetes distribution with Terraform",
+  "language": null,
+  "stars": 2035,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.204454+00:00"
+  },
+  "cncf": {
+    "name": "Typhoon",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Distribution",
+    "imported_at": "2026-02-11T23:30:15.204455+00:00"
+  }
+}

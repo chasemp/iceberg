@@ -1,0 +1,19 @@
+{
+  "owner": "flipt-io",
+  "name": "flipt",
+  "full_name": "flipt-io/flipt",
+  "url": "https://github.com/flipt-io/flipt",
+  "description": "Enterprise-ready, Git native feature management solution",
+  "language": null,
+  "stars": 4704,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.053281+00:00"
+  },
+  "cncf": {
+    "name": "Flipt",
+    "category": "Observability and Analysis",
+    "subcategory": "Feature Flagging",
+    "imported_at": "2026-02-11T23:30:15.053282+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "Unleash",
+  "name": "unleash",
+  "full_name": "Unleash/unleash",
+  "url": "https://github.com/Unleash/unleash",
+  "description": "Open-source feature management platform",
+  "language": null,
+  "stars": 13170,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.204871+00:00"
+  },
+  "cncf": {
+    "name": "Unleash",
+    "category": "Observability and Analysis",
+    "subcategory": "Feature Flagging",
+    "imported_at": "2026-02-11T23:30:15.204872+00:00"
+  }
+}

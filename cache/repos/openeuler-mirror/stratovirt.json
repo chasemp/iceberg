@@ -1,0 +1,19 @@
+{
+  "owner": "openeuler-mirror",
+  "name": "stratovirt",
+  "full_name": "openeuler-mirror/stratovirt",
+  "url": "https://github.com/openeuler-mirror/stratovirt",
+  "description": "The OpenAtom Foundation is a non-profit organization dedicated to promoting the development of the global open-source cause.",
+  "language": null,
+  "stars": 406,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.190396+00:00"
+  },
+  "cncf": {
+    "name": "StratoVirt",
+    "category": "Runtime",
+    "subcategory": "Container Runtime",
+    "imported_at": "2026-02-11T23:30:15.190397+00:00"
+  }
+}

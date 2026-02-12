@@ -1,0 +1,19 @@
+{
+  "owner": "open-policy-agent",
+  "name": "opa",
+  "full_name": "open-policy-agent/opa",
+  "url": "https://github.com/open-policy-agent/opa",
+  "description": "Open Policy Agent (OPA) is an open source, general-purpose policy engine.",
+  "language": null,
+  "stars": 11192,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.144950+00:00"
+  },
+  "cncf": {
+    "name": "Open Policy Agent (OPA)",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.144951+00:00"
+  }
+}

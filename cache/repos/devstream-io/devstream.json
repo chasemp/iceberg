@@ -1,0 +1,19 @@
+{
+  "owner": "devstream-io",
+  "name": "devstream",
+  "full_name": "devstream-io/devstream",
+  "url": "https://github.com/devstream-io/devstream",
+  "description": "DevStream: the open-source DevOps toolchain manager (DTM).",
+  "language": null,
+  "stars": 878,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.039281+00:00"
+  },
+  "cncf": {
+    "name": "DevStream",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.039282+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "eventmesh",
+  "full_name": "apache/eventmesh",
+  "url": "https://github.com/apache/eventmesh",
+  "description": "EventMesh is a new generation serverless event middleware for building distributed event-driven applications.",
+  "language": null,
+  "stars": 1717,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.048863+00:00"
+  },
+  "cncf": {
+    "name": "EventMesh",
+    "category": "Serverless",
+    "subcategory": "Framework",
+    "imported_at": "2026-02-11T23:30:15.048864+00:00"
+  }
+}

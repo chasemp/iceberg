@@ -9,7 +9,7 @@
     "version": "HEAD",
     "loc": 4191,
     "source": "github_clone",
-    "cached_at": "2026-02-09T20:21:39.829099+00:00",
+    "cached_at": "2026-02-11T15:58:28.632459+00:00",
     "package": {
       "system": "npm",
       "name": "vue-element-admin",
@@ -18,11 +18,17 @@
     "repo_url": "https://github.com/PanJiaChen/vue-element-admin.git",
     "ref": "HEAD",
     "commit_hash": "6858a9ad67483025f6a9432a926beb9327037be3",
-    "clone_duration_seconds": 1.0599300861358643,
-    "count_duration_seconds": 0.015674114227294922,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-top-100-forks",
-    "tracked": false,
-    "maintenance_priority": "medium"
+    "clone_duration_seconds": 1.6887397766113281,
+    "count_duration_seconds": 0.15572094917297363,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

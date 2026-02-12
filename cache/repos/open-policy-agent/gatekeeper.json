@@ -1,0 +1,19 @@
+{
+  "owner": "open-policy-agent",
+  "name": "gatekeeper",
+  "full_name": "open-policy-agent/gatekeeper",
+  "url": "https://github.com/open-policy-agent/gatekeeper",
+  "description": "\ud83d\udc0a Policy Controller for Kubernetes",
+  "language": null,
+  "stars": 4137,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.144157+00:00"
+  },
+  "cncf": {
+    "name": "OPA/Gatekeeper",
+    "category": "CNAI",
+    "subcategory": "Governance, Policy & Security",
+    "imported_at": "2026-02-11T23:30:15.144157+00:00"
+  }
+}

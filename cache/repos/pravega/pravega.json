@@ -1,0 +1,19 @@
+{
+  "owner": "pravega",
+  "name": "pravega",
+  "full_name": "pravega/pravega",
+  "url": "https://github.com/pravega/pravega",
+  "description": "Pravega - Streaming as a new software defined storage primitive",
+  "language": null,
+  "stars": 2006,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.161266+00:00"
+  },
+  "cncf": {
+    "name": "Pravega",
+    "category": "App Definition and Development",
+    "subcategory": "Streaming & Messaging",
+    "imported_at": "2026-02-11T23:30:15.161267+00:00"
+  }
+}

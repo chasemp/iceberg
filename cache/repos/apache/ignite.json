@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "ignite",
+  "full_name": "apache/ignite",
+  "url": "https://github.com/apache/ignite",
+  "description": "Apache Ignite",
+  "language": null,
+  "stars": 5040,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.904292+00:00"
+  },
+  "cncf": {
+    "name": "Apache Ignite",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:14.904293+00:00"
+  }
+}

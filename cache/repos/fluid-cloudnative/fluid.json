@@ -1,0 +1,19 @@
+{
+  "owner": "fluid-cloudnative",
+  "name": "fluid",
+  "full_name": "fluid-cloudnative/fluid",
+  "url": "https://github.com/fluid-cloudnative/fluid",
+  "description": "Fluid, elastic data abstraction and acceleration for BigData/AI applications in cloud. (Project under CNCF) ",
+  "language": null,
+  "stars": 1885,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.054218+00:00"
+  },
+  "cncf": {
+    "name": "Fluid",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.054219+00:00"
+  }
+}

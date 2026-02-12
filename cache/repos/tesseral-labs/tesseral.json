@@ -1,0 +1,19 @@
+{
+  "owner": "tesseral-labs",
+  "name": "tesseral",
+  "full_name": "tesseral-labs/tesseral",
+  "url": "https://github.com/tesseral-labs/tesseral",
+  "description": "Open source auth infrastructure for B2B SaaS",
+  "language": null,
+  "stars": 1109,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.197826+00:00"
+  },
+  "cncf": {
+    "name": "Tesseral",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.197828+00:00"
+  }
+}

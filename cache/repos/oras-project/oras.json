@@ -1,0 +1,19 @@
+{
+  "owner": "oras-project",
+  "name": "oras",
+  "full_name": "oras-project/oras",
+  "url": "https://github.com/oras-project/oras",
+  "description": "OCI registry client - managing content like artifacts, images, packages",
+  "language": null,
+  "stars": 2109,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.152740+00:00"
+  },
+  "cncf": {
+    "name": "ORAS",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "imported_at": "2026-02-11T23:30:15.152741+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "tilt-dev",
+  "name": "tilt",
+  "full_name": "tilt-dev/tilt",
+  "url": "https://github.com/tilt-dev/tilt",
+  "description": "Define your dev environment as code. For microservice apps on Kubernetes.",
+  "language": null,
+  "stars": 9404,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.200081+00:00"
+  },
+  "cncf": {
+    "name": "Tilt",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.200083+00:00"
+  }
+}

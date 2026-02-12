@@ -1,0 +1,19 @@
+{
+  "owner": "rust-lang",
+  "name": "crates.io",
+  "full_name": "rust-lang/crates.io",
+  "url": "https://github.com/rust-lang/crates.io",
+  "description": "The Rust package registry",
+  "language": null,
+  "stars": 3480,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.033527+00:00"
+  },
+  "cncf": {
+    "name": "crates.io",
+    "category": "Wasm",
+    "subcategory": "Packaging, Registries & Application Delivery",
+    "imported_at": "2026-02-11T23:30:15.033528+00:00"
+  }
+}

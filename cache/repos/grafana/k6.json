@@ -1,0 +1,19 @@
+{
+  "owner": "grafana",
+  "name": "k6",
+  "full_name": "grafana/k6",
+  "url": "https://github.com/grafana/k6",
+  "description": "A modern load testing tool, using Go and JavaScript",
+  "language": null,
+  "stars": 29860,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.086331+00:00"
+  },
+  "cncf": {
+    "name": "k6",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.086332+00:00"
+  }
+}

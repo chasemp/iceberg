@@ -1,0 +1,19 @@
+{
+  "owner": "cni-genie",
+  "name": "CNI-Genie",
+  "full_name": "cni-genie/CNI-Genie",
+  "url": "https://github.com/cni-genie/CNI-Genie",
+  "description": "CNI-Genie for choosing pod network of your choice during deployment time. Supported pod networks - Calico, Flannel, Romana, Weave ",
+  "language": null,
+  "stars": 537,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.990166+00:00"
+  },
+  "cncf": {
+    "name": "CNI-Genie",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Network",
+    "imported_at": "2026-02-11T23:30:14.990167+00:00"
+  }
+}

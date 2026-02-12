@@ -1,0 +1,19 @@
+{
+  "owner": "rancher",
+  "name": "rke",
+  "full_name": "rancher/rke",
+  "url": "https://github.com/rancher/rke",
+  "description": "Rancher Kubernetes Engine (RKE), an extremely simple, lightning fast Kubernetes distribution that runs entirely within containers.",
+  "language": null,
+  "stars": 3297,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.168049+00:00"
+  },
+  "cncf": {
+    "name": "Rancher Kubernetes Engine (RKE)",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Installer",
+    "imported_at": "2026-02-11T23:30:15.168050+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "kubesphere",
+  "name": "kubesphere",
+  "full_name": "kubesphere/kubesphere",
+  "url": "https://github.com/kubesphere/kubesphere",
+  "description": "The container platform tailored for Kubernetes multi-cloud, datacenter, and edge management \u2388 \ud83d\udda5 \u2601\ufe0f",
+  "language": null,
+  "stars": 16836,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.118971+00:00"
+  },
+  "cncf": {
+    "name": "Kubesphere",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Distribution",
+    "imported_at": "2026-02-11T23:30:15.118973+00:00"
+  }
+}

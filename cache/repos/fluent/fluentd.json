@@ -1,0 +1,19 @@
+{
+  "owner": "fluent",
+  "name": "fluentd",
+  "full_name": "fluent/fluentd",
+  "url": "https://github.com/fluent/fluentd",
+  "description": "Fluentd: Unified Logging Layer (project under CNCF)",
+  "language": null,
+  "stars": 13488,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.054016+00:00"
+  },
+  "cncf": {
+    "name": "Fluentd",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.054017+00:00"
+  }
+}

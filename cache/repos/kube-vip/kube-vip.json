@@ -1,0 +1,19 @@
+{
+  "owner": "kube-vip",
+  "name": "kube-vip",
+  "full_name": "kube-vip/kube-vip",
+  "url": "https://github.com/kube-vip/kube-vip",
+  "description": "Kubernetes Control Plane Virtual IP and Load-Balancer",
+  "language": null,
+  "stars": 2730,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.108029+00:00"
+  },
+  "cncf": {
+    "name": "kube-vip",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Network",
+    "imported_at": "2026-02-11T23:30:15.108030+00:00"
+  }
+}

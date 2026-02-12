@@ -1,0 +1,19 @@
+{
+  "owner": "coroot",
+  "name": "coroot",
+  "full_name": "coroot/coroot",
+  "url": "https://github.com/coroot/coroot",
+  "description": "Coroot is an open-source observability and APM tool with AI-powered Root Cause Analysis. It combines metrics, logs, traces, continuous profiling, and SLO-based alerting with predefined dashboards and inspections.",
+  "language": null,
+  "stars": 7372,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.010171+00:00"
+  },
+  "cncf": {
+    "name": "Coroot",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.010173+00:00"
+  }
+}

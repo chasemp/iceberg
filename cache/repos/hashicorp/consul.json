@@ -1,0 +1,19 @@
+{
+  "owner": "hashicorp",
+  "name": "consul",
+  "full_name": "hashicorp/consul",
+  "url": "https://github.com/hashicorp/consul",
+  "description": "Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure.",
+  "language": null,
+  "stars": 29721,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.993090+00:00"
+  },
+  "cncf": {
+    "name": "Consul",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Mesh",
+    "imported_at": "2026-02-11T23:30:14.993092+00:00"
+  }
+}

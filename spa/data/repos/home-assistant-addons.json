@@ -1,0 +1,29 @@
+{
+  "owner": "home-assistant",
+  "repo": "addons",
+  "full_name": "home-assistant/addons",
+  "url": "https://github.com/home-assistant/addons",
+  "analysis": {
+    "owner": "home-assistant",
+    "repo": "addons",
+    "version": "HEAD",
+    "loc": 1435,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:04:10.905039+00:00",
+    "repo_url": "https://github.com/home-assistant/addons.git",
+    "ref": "HEAD",
+    "commit_hash": "f1bcb608182875c861b72771cd93deb9bfbbc73f",
+    "clone_duration_seconds": 1.241023063659668,
+    "count_duration_seconds": 0.02764105796813965,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "oracle-cne",
+  "name": "ocne",
+  "full_name": "oracle-cne/ocne",
+  "url": "https://github.com/oracle-cne/ocne",
+  "description": "The Oracle Cloud Native Environment CLI",
+  "language": null,
+  "stars": 10,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.152558+00:00"
+  },
+  "cncf": {
+    "name": "Oracle Cloud Native Environment",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Distribution",
+    "imported_at": "2026-02-11T23:30:15.152559+00:00"
+  }
+}

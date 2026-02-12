@@ -1,0 +1,19 @@
+{
+  "owner": "yugabyte",
+  "name": "yugabyte-db",
+  "full_name": "yugabyte/yugabyte-db",
+  "url": "https://github.com/yugabyte/yugabyte-db",
+  "description": "YugabyteDB - the cloud native distributed SQL database for mission-critical applications.",
+  "language": null,
+  "stars": 10089,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.217707+00:00"
+  },
+  "cncf": {
+    "name": "YugabyteDB",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.217708+00:00"
+  }
+}

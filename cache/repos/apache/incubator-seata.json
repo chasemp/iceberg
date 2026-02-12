@@ -1,0 +1,19 @@
+{
+  "owner": "apache",
+  "name": "incubator-seata",
+  "full_name": "apache/incubator-seata",
+  "url": "https://github.com/apache/incubator-seata",
+  "description": ":fire: Seata is an easy-to-use, high-performance, open source distributed transaction solution.",
+  "language": null,
+  "stars": 25944,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.174992+00:00"
+  },
+  "cncf": {
+    "name": "Seata",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.174993+00:00"
+  }
+}

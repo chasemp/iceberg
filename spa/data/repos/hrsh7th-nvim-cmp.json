@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 4,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:48:31.413496+00:00",
+    "cached_at": "2026-02-10T23:18:08.407206+00:00",
     "repo_url": "https://github.com/hrsh7th/nvim-cmp.git",
     "ref": "HEAD",
     "commit_hash": "da88697d7f45d16852c6b2769dc52387d1ddc45f",
-    "clone_duration_seconds": 0.5583281517028809,
-    "count_duration_seconds": 0.0019910335540771484
+    "clone_duration_seconds": 0.9373319149017334,
+    "count_duration_seconds": 0.0038878917694091797,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

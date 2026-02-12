@@ -1,0 +1,19 @@
+{
+  "owner": "projectcapsule",
+  "name": "capsule",
+  "full_name": "projectcapsule/capsule",
+  "url": "https://github.com/projectcapsule/capsule",
+  "description": "Multi-tenancy and policy-based framework for Kubernetes.",
+  "language": null,
+  "stars": 2020,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.956422+00:00"
+  },
+  "cncf": {
+    "name": "Capsule",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:14.956423+00:00"
+  }
+}

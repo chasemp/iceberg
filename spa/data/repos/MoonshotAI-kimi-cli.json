@@ -1,0 +1,39 @@
+{
+  "owner": "MoonshotAI",
+  "repo": "kimi-cli",
+  "full_name": "MoonshotAI/kimi-cli",
+  "url": "https://github.com/MoonshotAI/kimi-cli",
+  "analysis": {
+    "owner": "MoonshotAI",
+    "repo": "kimi-cli",
+    "version": "HEAD",
+    "loc": 50414,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:34:00.931538+00:00",
+    "package": {
+      "system": "pypi",
+      "name": "kimi-cli",
+      "version": "1.11.0"
+    },
+    "total_loc": 61679,
+    "ratio": 0.550248454408393,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": true
+    },
+    "ai_tools": [
+      "AI Tools"
+    ],
+    "repo_url": "https://github.com/MoonshotAI/kimi-cli.git",
+    "ref": "HEAD",
+    "commit_hash": "ba757245e33b2e525aff819b4626d11e06e72f0d",
+    "clone_duration_seconds": 2.1226210594177246,
+    "count_duration_seconds": 0.04699373245239258
+  }
+}

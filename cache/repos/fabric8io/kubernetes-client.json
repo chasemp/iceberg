@@ -1,0 +1,19 @@
+{
+  "owner": "fabric8io",
+  "name": "kubernetes-client",
+  "full_name": "fabric8io/kubernetes-client",
+  "url": "https://github.com/fabric8io/kubernetes-client",
+  "description": "Java client for Kubernetes & OpenShift ",
+  "language": null,
+  "stars": 3616,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.049771+00:00"
+  },
+  "cncf": {
+    "name": "Fabric8 Kubernetes Client",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.049772+00:00"
+  }
+}

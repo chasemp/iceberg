@@ -1,0 +1,19 @@
+{
+  "owner": "metal3-io",
+  "name": "baremetal-operator",
+  "full_name": "metal3-io/baremetal-operator",
+  "url": "https://github.com/metal3-io/baremetal-operator",
+  "description": "Bare metal host provisioning integration for Kubernetes",
+  "language": null,
+  "stars": 723,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.132734+00:00"
+  },
+  "cncf": {
+    "name": "Metal\u00b3",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.132735+00:00"
+  }
+}

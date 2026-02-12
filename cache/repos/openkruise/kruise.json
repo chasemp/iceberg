@@ -1,0 +1,19 @@
+{
+  "owner": "openkruise",
+  "name": "kruise",
+  "full_name": "openkruise/kruise",
+  "url": "https://github.com/openkruise/kruise",
+  "description": "Automated management of large-scale applications on Kubernetes (incubating project under CNCF)",
+  "language": null,
+  "stars": 5177,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.148745+00:00"
+  },
+  "cncf": {
+    "name": "OpenKruise",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.148746+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "hashicorp",
+  "name": "packer",
+  "full_name": "hashicorp/packer",
+  "url": "https://github.com/hashicorp/packer",
+  "description": "Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.",
+  "language": null,
+  "stars": 15589,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.154221+00:00"
+  },
+  "cncf": {
+    "name": "Packer",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.154222+00:00"
+  }
+}

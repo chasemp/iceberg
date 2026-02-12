@@ -4,9 +4,16 @@
   "url": "https://github.com/JetBrains/kotlin",
   "description": "The Kotlin Programming Language.",
   "language": "Kotlin",
-  "stars": 52271,
+  "stars": 52260,
   "categories": {
-    "github-ranking-kotlin": "2026-02-09"
+    "github-ranking-kotlin": "2026-02-09",
+    "tracked": "2026-02-11T23:30:15.098152+00:00"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-09",
+  "cncf": {
+    "name": "Kotlin",
+    "category": "Wasm",
+    "subcategory": "Languages",
+    "imported_at": "2026-02-11T23:30:15.098169+00:00"
+  }
 }

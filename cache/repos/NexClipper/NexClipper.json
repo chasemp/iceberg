@@ -1,0 +1,19 @@
+{
+  "owner": "NexClipper",
+  "name": "NexClipper",
+  "full_name": "NexClipper/NexClipper",
+  "url": "https://github.com/NexClipper/NexClipper",
+  "description": "Metrics Pipeline for interoperability and Enterprise Prometheus",
+  "language": null,
+  "stars": 566,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.139977+00:00"
+  },
+  "cncf": {
+    "name": "NexClipper",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.139978+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "linode",
+  "name": "apl-core",
+  "full_name": "linode/apl-core",
+  "url": "https://github.com/linode/apl-core",
+  "description": "App Platform for Linode Kubernetes Engine",
+  "language": null,
+  "stars": 2254,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.911558+00:00"
+  },
+  "cncf": {
+    "name": "Application Platform for LKE",
+    "category": "Platform",
+    "subcategory": "PaaS/Container Service",
+    "imported_at": "2026-02-11T23:30:14.911559+00:00"
+  }
+}

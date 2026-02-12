@@ -1,0 +1,19 @@
+{
+  "owner": "authzed",
+  "name": "spicedb",
+  "full_name": "authzed/spicedb",
+  "url": "https://github.com/authzed/spicedb",
+  "description": "Open Source, Google Zanzibar-inspired database for scalably storing and querying fine-grained authorization data",
+  "language": null,
+  "stars": 6412,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.185235+00:00"
+  },
+  "cncf": {
+    "name": "SpiceDB",
+    "category": "CNAI",
+    "subcategory": "Governance, Policy & Security",
+    "imported_at": "2026-02-11T23:30:15.185519+00:00"
+  }
+}

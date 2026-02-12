@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 578,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:32:13.382457+00:00",
+    "cached_at": "2026-02-11T15:15:59.484574+00:00",
     "repo_url": "https://github.com/jonataslaw/getx.git",
     "ref": "HEAD",
     "commit_hash": "e2ad2704f3de6f8668cb89fa1d8c2fec04d170ab",
-    "clone_duration_seconds": 1.0054357051849365,
-    "count_duration_seconds": 0.013173818588256836
+    "clone_duration_seconds": 1.2216298580169678,
+    "count_duration_seconds": 0.024702072143554688,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "owner": "habitat-sh",
+  "name": "habitat",
+  "full_name": "habitat-sh/habitat",
+  "url": "https://github.com/habitat-sh/habitat",
+  "description": "Modern applications with built-in automation",
+  "language": null,
+  "stars": 2784,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.983736+00:00"
+  },
+  "cncf": {
+    "name": "Chef Habitat",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:14.983737+00:00"
+  }
+}

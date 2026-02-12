@@ -9,11 +9,21 @@
     "version": "HEAD",
     "loc": 82,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:31:03.355643+00:00",
+    "cached_at": "2026-02-11T15:14:17.576067+00:00",
     "repo_url": "https://github.com/CarGuo/gsy_github_app_flutter.git",
     "ref": "HEAD",
     "commit_hash": "2351bd59a6e09ceada35570955053d6716c1abb4",
-    "clone_duration_seconds": 1.3282389640808105,
-    "count_duration_seconds": 0.008002758026123047
+    "clone_duration_seconds": 2.0188727378845215,
+    "count_duration_seconds": 0.014915227890014648,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

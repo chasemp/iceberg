@@ -1,0 +1,19 @@
+{
+  "owner": "lucky-sideburn",
+  "name": "kubeinvaders",
+  "full_name": "lucky-sideburn/kubeinvaders",
+  "url": "https://github.com/lucky-sideburn/kubeinvaders",
+  "description": "Gamified Chaos Engineering Tool for Kubernetes",
+  "language": null,
+  "stars": 1080,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.113607+00:00"
+  },
+  "cncf": {
+    "name": "Kubeinvaders",
+    "category": "Observability and Analysis",
+    "subcategory": "Chaos Engineering",
+    "imported_at": "2026-02-11T23:30:15.113609+00:00"
+  }
+}

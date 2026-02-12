@@ -1,0 +1,19 @@
+{
+  "owner": "3scale",
+  "name": "APIcast",
+  "full_name": "3scale/APIcast",
+  "url": "https://github.com/3scale/APIcast",
+  "description": "3scale API Gateway",
+  "language": null,
+  "stars": 322,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.896435+00:00"
+  },
+  "cncf": {
+    "name": "3Scale",
+    "category": "Orchestration & Management",
+    "subcategory": "API Gateway",
+    "imported_at": "2026-02-11T23:30:14.896437+00:00"
+  }
+}

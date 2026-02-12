@@ -1,0 +1,19 @@
+{
+  "owner": "xtdb",
+  "name": "xtdb",
+  "full_name": "xtdb/xtdb",
+  "url": "https://github.com/xtdb/xtdb",
+  "description": "An immutable SQL database for application development, time-travel reporting and data compliance. Developed by @juxt",
+  "language": null,
+  "stars": 2916,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.216626+00:00"
+  },
+  "cncf": {
+    "name": "XTDB",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.216627+00:00"
+  }
+}

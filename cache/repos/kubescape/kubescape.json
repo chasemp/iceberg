@@ -1,0 +1,19 @@
+{
+  "owner": "kubescape",
+  "name": "kubescape",
+  "full_name": "kubescape/kubescape",
+  "url": "https://github.com/kubescape/kubescape",
+  "description": "Kubescape is an open-source Kubernetes security platform for your IDE, CI/CD pipelines, and clusters. It includes risk analysis, security, compliance, and misconfiguration scanning, saving Kubernetes users and administrators precious time, effort, and resources.",
+  "language": null,
+  "stars": 11174,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.118231+00:00"
+  },
+  "cncf": {
+    "name": "Kubescape",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.118233+00:00"
+  }
+}

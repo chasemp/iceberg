@@ -1,0 +1,19 @@
+{
+  "owner": "easzlab",
+  "name": "kubeasz",
+  "full_name": "easzlab/kubeasz",
+  "url": "https://github.com/easzlab/kubeasz",
+  "description": "\u4f7f\u7528Ansible\u811a\u672c\u5b89\u88c5K8S\u96c6\u7fa4\uff0c\u4ecb\u7ecd\u7ec4\u4ef6\u4ea4\u4e92\u539f\u7406\uff0c\u65b9\u4fbf\u76f4\u63a5\uff0c\u4e0d\u53d7\u56fd\u5185\u7f51\u7edc\u73af\u5883\u5f71\u54cd",
+  "language": null,
+  "stars": 11312,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.108880+00:00"
+  },
+  "cncf": {
+    "name": "Kubeasz",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Installer",
+    "imported_at": "2026-02-11T23:30:15.108881+00:00"
+  }
+}

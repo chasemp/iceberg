@@ -1,0 +1,19 @@
+{
+  "owner": "tarantool",
+  "name": "tarantool",
+  "full_name": "tarantool/tarantool",
+  "url": "https://github.com/tarantool/tarantool",
+  "description": "Get your data in RAM. Get compute close to data. Enjoy the performance.",
+  "language": null,
+  "stars": 3614,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.192731+00:00"
+  },
+  "cncf": {
+    "name": "Tarantool",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.192732+00:00"
+  }
+}

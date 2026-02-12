@@ -1,0 +1,19 @@
+{
+  "owner": "openresty",
+  "name": "openresty",
+  "full_name": "openresty/openresty",
+  "url": "https://github.com/openresty/openresty",
+  "description": "High Performance Web Platform Based on Nginx and LuaJIT",
+  "language": null,
+  "stars": 13616,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.150369+00:00"
+  },
+  "cncf": {
+    "name": "OpenResty",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Proxy",
+    "imported_at": "2026-02-11T23:30:15.150370+00:00"
+  }
+}

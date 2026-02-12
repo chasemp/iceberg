@@ -1,0 +1,19 @@
+{
+  "owner": "OAI",
+  "name": "OpenAPI-Specification",
+  "full_name": "OAI/OpenAPI-Specification",
+  "url": "https://github.com/OAI/OpenAPI-Specification",
+  "description": "The OpenAPI Specification Repository",
+  "language": null,
+  "stars": 30893,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.145874+00:00"
+  },
+  "cncf": {
+    "name": "OpenAPI",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.145875+00:00"
+  }
+}

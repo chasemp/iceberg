@@ -1,0 +1,19 @@
+{
+  "owner": "loggie-io",
+  "name": "loggie",
+  "full_name": "loggie-io/loggie",
+  "url": "https://github.com/loggie-io/loggie",
+  "description": "A lightweight, cloud-native data transfer agent and aggregator",
+  "language": null,
+  "stars": 1325,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.127486+00:00"
+  },
+  "cncf": {
+    "name": "Loggie",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.127487+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "pipe-cd",
+  "name": "pipecd",
+  "full_name": "pipe-cd/pipecd",
+  "url": "https://github.com/pipe-cd/pipecd",
+  "description": "The One CD for All {applications, platforms, operations}",
+  "language": null,
+  "stars": 1249,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.157472+00:00"
+  },
+  "cncf": {
+    "name": "PipeCD",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.157474+00:00"
+  }
+}

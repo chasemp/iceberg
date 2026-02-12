@@ -1,0 +1,19 @@
+{
+  "owner": "vmware-labs",
+  "name": "wasm-workers-server",
+  "full_name": "vmware-labs/wasm-workers-server",
+  "url": "https://github.com/vmware-labs/wasm-workers-server",
+  "description": "\ud83d\ude80 Develop and run serverless applications on WebAssembly",
+  "language": null,
+  "stars": 538,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.211346+00:00"
+  },
+  "cncf": {
+    "name": "Wasm Workers Server",
+    "category": "Wasm",
+    "subcategory": "Application Frameworks",
+    "imported_at": "2026-02-11T23:30:15.211347+00:00"
+  }
+}

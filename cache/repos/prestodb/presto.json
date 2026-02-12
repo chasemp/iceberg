@@ -1,0 +1,19 @@
+{
+  "owner": "prestodb",
+  "name": "presto",
+  "full_name": "prestodb/presto",
+  "url": "https://github.com/prestodb/presto",
+  "description": "The official home of the Presto distributed SQL query engine for big data",
+  "language": null,
+  "stars": 16649,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.161640+00:00"
+  },
+  "cncf": {
+    "name": "Presto",
+    "category": "CNAI",
+    "subcategory": "Data Architecture",
+    "imported_at": "2026-02-11T23:30:15.161836+00:00"
+  }
+}

@@ -9,22 +9,26 @@
     "version": "HEAD",
     "loc": 1711,
     "source": "github_clone",
-    "cached_at": "2026-02-09T20:09:02.206095+00:00",
+    "cached_at": "2026-02-10T23:44:19.455550+00:00",
     "package": {
       "system": "npm",
       "name": "generative-ai-for-beginners",
       "version": "1.0.0"
     },
-    "total_loc": 35401,
-    "ratio": 0.9538963138607458,
     "repo_url": "https://github.com/microsoft/generative-ai-for-beginners.git",
     "ref": "HEAD",
     "commit_hash": "ca334a0cb6bd4d8bd45dc3784c9031b04ce8ca38",
-    "clone_duration_seconds": 54.92087912559509,
-    "count_duration_seconds": 0.25731801986694336,
-    "last_discovered": "2026-02-09",
-    "discovery_source": "github-ranking-top-100-stars",
-    "tracked": false,
-    "maintenance_priority": "medium"
+    "clone_duration_seconds": 50.17128396034241,
+    "count_duration_seconds": 0.23099970817565918,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

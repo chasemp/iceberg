@@ -1,0 +1,19 @@
+{
+  "owner": "kairos-io",
+  "name": "kairos",
+  "full_name": "kairos-io/kairos",
+  "url": "https://github.com/kairos-io/kairos",
+  "description": "The immutable Linux meta-distribution for edge Kubernetes.",
+  "language": null,
+  "stars": 1637,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.088247+00:00"
+  },
+  "cncf": {
+    "name": "Kairos",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.088249+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "kubernetes-sigs",
+  "name": "kubespray",
+  "full_name": "kubernetes-sigs/kubespray",
+  "url": "https://github.com/kubernetes-sigs/kubespray",
+  "description": "Deploy a Production Ready Kubernetes Cluster",
+  "language": null,
+  "stars": 18229,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.119240+00:00"
+  },
+  "cncf": {
+    "name": "Kubespray",
+    "category": "Platform",
+    "subcategory": "Certified Kubernetes - Installer",
+    "imported_at": "2026-02-11T23:30:15.119241+00:00"
+  }
+}

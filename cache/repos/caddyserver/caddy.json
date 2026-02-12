@@ -4,9 +4,16 @@
   "url": "https://github.com/caddyserver/caddy",
   "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
   "language": "Go",
-  "stars": 69719,
+  "stars": 69653,
   "categories": {
-    "github-ranking-go": "2026-02-09"
+    "github-ranking-go": "2026-02-09",
+    "tracked": "2026-02-11T23:30:14.954301+00:00"
   },
-  "last_discovered": "2026-02-09"
+  "last_discovered": "2026-02-09",
+  "cncf": {
+    "name": "Caddy",
+    "category": "Orchestration & Management",
+    "subcategory": "Service Proxy",
+    "imported_at": "2026-02-11T23:30:14.954303+00:00"
+  }
 }

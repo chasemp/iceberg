@@ -1,0 +1,19 @@
+{
+  "owner": "FairwindsOps",
+  "name": "rbac-manager",
+  "full_name": "FairwindsOps/rbac-manager",
+  "url": "https://github.com/FairwindsOps/rbac-manager",
+  "description": "A Kubernetes operator that simplifies the management of Role Bindings and Service Accounts.",
+  "language": null,
+  "stars": 1619,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.168697+00:00"
+  },
+  "cncf": {
+    "name": "RBAC Manager",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.168699+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "linuxkit",
+  "name": "linuxkit",
+  "full_name": "linuxkit/linuxkit",
+  "url": "https://github.com/linuxkit/linuxkit",
+  "description": "A toolkit for building secure, portable and lean operating systems for containers",
+  "language": null,
+  "stars": 8576,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.126318+00:00"
+  },
+  "cncf": {
+    "name": "LinuxKit",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.126319+00:00"
+  }
+}

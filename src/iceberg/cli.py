@@ -11,7 +11,6 @@ import typer
 from iceberg.calculator import calculate_transitive_loc
 from iceberg.cache import (
     get_default_cache_dir,
-    save_discovered_repos,
     save_repo_metadata,
     save_trending_repos,
 )
@@ -86,9 +85,7 @@ def fetch(
             token = os.environ.get("GITHUB_TOKEN")
             repos = search_repositories(query_str, limit=limit, token=token)
 
-        save_discovered_repos(repos, cache_dir=cache_dir)
-
-        # Also save to new repo metadata structure
+        # Save to repo metadata structure
         for repo in repos:
             save_repo_metadata(repo, repo.source, cache_dir=cache_dir)
 

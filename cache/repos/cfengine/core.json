@@ -1,0 +1,19 @@
+{
+  "owner": "cfengine",
+  "name": "core",
+  "full_name": "cfengine/core",
+  "url": "https://github.com/cfengine/core",
+  "description": "CFEngine Community",
+  "language": null,
+  "stars": 520,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.981005+00:00"
+  },
+  "cncf": {
+    "name": "CFEngine",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:14.981007+00:00"
+  }
+}

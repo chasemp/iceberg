@@ -1,0 +1,36 @@
+{
+  "owner": "fish-shell",
+  "repo": "fish-shell",
+  "full_name": "fish-shell/fish-shell",
+  "url": "https://github.com/fish-shell/fish-shell",
+  "analysis": {
+    "owner": "fish-shell",
+    "repo": "fish-shell",
+    "version": "HEAD",
+    "loc": 79623,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:54:50.901680+00:00",
+    "package": {
+      "system": "pypi",
+      "name": "fish-shell",
+      "version": "0.0.0"
+    },
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/fish-shell/fish-shell.git",
+    "ref": "HEAD",
+    "commit_hash": "96fabe4b29a957d90b9674ea72237ef742c69031",
+    "clone_duration_seconds": 1.9426608085632324,
+    "count_duration_seconds": 0.05386710166931152,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

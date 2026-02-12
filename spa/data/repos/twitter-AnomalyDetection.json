@@ -1,0 +1,29 @@
+{
+  "owner": "twitter",
+  "repo": "AnomalyDetection",
+  "full_name": "twitter/AnomalyDetection",
+  "url": "https://github.com/twitter/AnomalyDetection",
+  "analysis": {
+    "owner": "twitter",
+    "repo": "AnomalyDetection",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:10:46.991747+00:00",
+    "repo_url": "https://github.com/twitter/AnomalyDetection.git",
+    "ref": "HEAD",
+    "commit_hash": "1f5deaa1609f8f1964c1e905c7a8ad2d1d0dc718",
+    "clone_duration_seconds": 1.1321706771850586,
+    "count_duration_seconds": 0.0031800270080566406,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

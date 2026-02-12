@@ -1,0 +1,19 @@
+{
+  "owner": "Project-HAMi",
+  "name": "HAMi",
+  "full_name": "Project-HAMi/HAMi",
+  "url": "https://github.com/Project-HAMi/HAMi",
+  "description": "Heterogeneous AI Computing Virtualization Middleware(Project under CNCF)",
+  "language": null,
+  "stars": 2988,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.066318+00:00"
+  },
+  "cncf": {
+    "name": "hami",
+    "category": "Orchestration & Management",
+    "subcategory": "Scheduling & Orchestration",
+    "imported_at": "2026-02-11T23:30:15.066319+00:00"
+  }
+}

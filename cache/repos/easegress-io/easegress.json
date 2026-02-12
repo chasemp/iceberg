@@ -1,0 +1,19 @@
+{
+  "owner": "easegress-io",
+  "name": "easegress",
+  "full_name": "easegress-io/easegress",
+  "url": "https://github.com/easegress-io/easegress",
+  "description": "A Cloud Native traffic orchestration system",
+  "language": null,
+  "stars": 5869,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.043083+00:00"
+  },
+  "cncf": {
+    "name": "Easegress",
+    "category": "Orchestration & Management",
+    "subcategory": "API Gateway",
+    "imported_at": "2026-02-11T23:30:15.043084+00:00"
+  }
+}

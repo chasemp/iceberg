@@ -9,11 +9,23 @@
     "version": "HEAD",
     "loc": 2046,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:29:30.081953+00:00",
+    "cached_at": "2026-02-11T15:11:52.537580+00:00",
+    "total_loc": 11862,
+    "ratio": 0.8528904227782571,
     "repo_url": "https://github.com/KRTirtho/spotube.git",
     "ref": "HEAD",
     "commit_hash": "826c8e4dd6996781f1e737cafb5538e220618568",
-    "clone_duration_seconds": 1.674445390701294,
-    "count_duration_seconds": 0.04112505912780762
+    "clone_duration_seconds": 2.7780649662017822,
+    "count_duration_seconds": 0.04762601852416992,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

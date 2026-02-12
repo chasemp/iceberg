@@ -7,13 +7,28 @@
     "owner": "microsoft",
     "repo": "playwright-cli",
     "version": "HEAD",
-    "loc": 44,
+    "loc": 58,
     "source": "github_clone",
-    "cached_at": "2026-02-06T06:43:52.265942+00:00",
+    "cached_at": "2026-02-11T00:33:48.596858+00:00",
+    "package": {
+      "system": "npm",
+      "name": "@playwright/cli",
+      "version": "0.1.0"
+    },
     "repo_url": "https://github.com/microsoft/playwright-cli.git",
-    "ref": "HEAD",
-    "commit_hash": "47a4df14c79b00ea8c4548bb7e11e7633fa535b4",
-    "clone_duration_seconds": 0.13715839385986328,
-    "count_duration_seconds": 0.0014986991882324219
+    "ref": "v0.1.0",
+    "commit_hash": "7ff4d6258fe9d1123a560c676bd0dad70a022aa9",
+    "clone_duration_seconds": 0.8853707313537598,
+    "count_duration_seconds": 0.0035810470581054688,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

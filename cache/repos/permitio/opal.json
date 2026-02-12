@@ -1,0 +1,19 @@
+{
+  "owner": "permitio",
+  "name": "opal",
+  "full_name": "permitio/opal",
+  "url": "https://github.com/permitio/opal",
+  "description": "Policy and data administration, distribution, and real-time updates on top of Policy Agents (OPA, Cedar, ...)",
+  "language": null,
+  "stars": 5418,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.144783+00:00"
+  },
+  "cncf": {
+    "name": "Open Policy Administration Layer (OPAL)",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.144785+00:00"
+  }
+}

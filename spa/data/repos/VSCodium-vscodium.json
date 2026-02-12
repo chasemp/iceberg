@@ -7,13 +7,23 @@
     "owner": "VSCodium",
     "repo": "vscodium",
     "version": "HEAD",
-    "loc": 2247,
+    "loc": 2242,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:13:11.952322+00:00",
+    "cached_at": "2026-02-11T15:04:43.030045+00:00",
     "repo_url": "https://github.com/VSCodium/vscodium.git",
     "ref": "HEAD",
-    "commit_hash": "91d172cd420a65a2c3d25f7865b180024d21c00b",
-    "clone_duration_seconds": 1.9715449810028076,
-    "count_duration_seconds": 0.008513212203979492
+    "commit_hash": "273901d3c27dc7fdb777e463b29814a5e415600c",
+    "clone_duration_seconds": 2.848902940750122,
+    "count_duration_seconds": 0.014213800430297852,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

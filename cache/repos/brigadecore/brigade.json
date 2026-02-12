@@ -1,0 +1,19 @@
+{
+  "owner": "brigadecore",
+  "name": "brigade",
+  "full_name": "brigadecore/brigade",
+  "url": "https://github.com/brigadecore/brigade",
+  "description": "Event-driven scripting for Kubernetes",
+  "language": null,
+  "stars": 2412,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.951959+00:00"
+  },
+  "cncf": {
+    "name": "Brigade",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:14.951961+00:00"
+  }
+}

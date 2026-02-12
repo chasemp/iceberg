@@ -1,0 +1,19 @@
+{
+  "owner": "getporter",
+  "name": "porter",
+  "full_name": "getporter/porter",
+  "url": "https://github.com/getporter/porter",
+  "description": "Porter enables you to package your application artifact, client tools, configuration and deployment logic together as an installer that you can distribute, and install with a single command.",
+  "language": null,
+  "stars": 1378,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.160659+00:00"
+  },
+  "cncf": {
+    "name": "Porter",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.160660+00:00"
+  }
+}

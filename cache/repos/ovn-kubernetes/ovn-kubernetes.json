@@ -1,0 +1,19 @@
+{
+  "owner": "ovn-kubernetes",
+  "name": "ovn-kubernetes",
+  "full_name": "ovn-kubernetes/ovn-kubernetes",
+  "url": "https://github.com/ovn-kubernetes/ovn-kubernetes",
+  "description": "A robust Kubernetes networking platform",
+  "language": null,
+  "stars": 1008,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.153623+00:00"
+  },
+  "cncf": {
+    "name": "OVN-Kubernetes",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Network",
+    "imported_at": "2026-02-11T23:30:15.153624+00:00"
+  }
+}

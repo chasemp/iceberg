@@ -1,0 +1,19 @@
+{
+  "owner": "firecracker-microvm",
+  "name": "firecracker",
+  "full_name": "firecracker-microvm/firecracker",
+  "url": "https://github.com/firecracker-microvm/firecracker",
+  "description": "Secure and fast microVMs for serverless computing.",
+  "language": null,
+  "stars": 32282,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.051779+00:00"
+  },
+  "cncf": {
+    "name": "Firecracker",
+    "category": "Runtime",
+    "subcategory": "Container Runtime",
+    "imported_at": "2026-02-11T23:30:15.051781+00:00"
+  }
+}

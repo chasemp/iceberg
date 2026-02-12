@@ -4,11 +4,18 @@
   "url": "https://github.com/rust-lang/rust",
   "description": "Empowering everyone to build reliable and efficient software.",
   "language": "Rust",
-  "stars": 110165,
+  "stars": 110074,
   "categories": {
     "github-ranking-top-100-stars": "2026-02-09",
     "github-ranking-rust": "2026-02-09",
-    "search": "2026-02-10"
+    "search": "2026-02-10",
+    "tracked": "2026-02-11T23:30:15.172507+00:00"
   },
-  "last_discovered": "2026-02-10"
+  "last_discovered": "2026-02-10",
+  "cncf": {
+    "name": "Rust",
+    "category": "Wasm",
+    "subcategory": "Languages",
+    "imported_at": "2026-02-11T23:30:15.172509+00:00"
+  }
 }

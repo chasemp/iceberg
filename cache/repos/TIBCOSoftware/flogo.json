@@ -1,0 +1,19 @@
+{
+  "owner": "TIBCOSoftware",
+  "name": "flogo",
+  "full_name": "TIBCOSoftware/flogo",
+  "url": "https://github.com/TIBCOSoftware/flogo",
+  "description": "Project Flogo is an open source ecosystem of opinionated  event-driven capabilities to simplify building efficient & modern serverless functions, microservices & edge apps.",
+  "language": null,
+  "stars": 2496,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.053553+00:00"
+  },
+  "cncf": {
+    "name": "Flogo",
+    "category": "Serverless",
+    "subcategory": "Framework",
+    "imported_at": "2026-02-11T23:30:15.053554+00:00"
+  }
+}

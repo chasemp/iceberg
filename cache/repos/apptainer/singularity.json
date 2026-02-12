@@ -1,0 +1,19 @@
+{
+  "owner": "apptainer",
+  "name": "singularity",
+  "full_name": "apptainer/singularity",
+  "url": "https://github.com/apptainer/singularity",
+  "description": "Singularity has been renamed to Apptainer as part of us moving the project to the Linux Foundation. This repo has been persisted as a snapshot right before the changes.",
+  "language": null,
+  "stars": 2601,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.180385+00:00"
+  },
+  "cncf": {
+    "name": "Singularity",
+    "category": "Runtime",
+    "subcategory": "Container Runtime",
+    "imported_at": "2026-02-11T23:30:15.180387+00:00"
+  }
+}

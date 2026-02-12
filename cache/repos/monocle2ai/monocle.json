@@ -1,0 +1,19 @@
+{
+  "owner": "monocle2ai",
+  "name": "monocle",
+  "full_name": "monocle2ai/monocle",
+  "url": "https://github.com/monocle2ai/monocle",
+  "description": "Monocle is a framework for tracing GenAI app code. This repo contains implementation of Monocle for GenAI apps written in Python.   ",
+  "language": null,
+  "stars": 64,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.136589+00:00"
+  },
+  "cncf": {
+    "name": "Monocle",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "imported_at": "2026-02-11T23:30:15.136590+00:00"
+  }
+}

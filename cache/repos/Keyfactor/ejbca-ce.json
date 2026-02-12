@@ -1,0 +1,19 @@
+{
+  "owner": "Keyfactor",
+  "name": "ejbca-ce",
+  "full_name": "Keyfactor/ejbca-ce",
+  "url": "https://github.com/Keyfactor/ejbca-ce",
+  "description": "EJBCA\u00ae \u2013 Open-source public key infrastructure (PKI) and certificate authority (CA) software. ",
+  "language": null,
+  "stars": 869,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.044697+00:00"
+  },
+  "cncf": {
+    "name": "EJBCA Community",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.044698+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "kubernetes-retired",
+  "name": "kui",
+  "full_name": "kubernetes-retired/kui",
+  "url": "https://github.com/kubernetes-retired/kui",
+  "description": "A hybrid command-line/UI development experience for cloud-native development",
+  "language": null,
+  "stars": 2907,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.121952+00:00"
+  },
+  "cncf": {
+    "name": "Kui",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.121954+00:00"
+  }
+}

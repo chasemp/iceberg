@@ -1,0 +1,19 @@
+{
+  "owner": "oam-dev",
+  "name": "spec",
+  "full_name": "oam-dev/spec",
+  "url": "https://github.com/oam-dev/spec",
+  "description": "Open Application Model (OAM).",
+  "language": null,
+  "stars": 3153,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.144359+00:00"
+  },
+  "cncf": {
+    "name": "Open Application Model",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "imported_at": "2026-02-11T23:30:15.144360+00:00"
+  }
+}

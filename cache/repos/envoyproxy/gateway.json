@@ -1,0 +1,19 @@
+{
+  "owner": "envoyproxy",
+  "name": "gateway",
+  "full_name": "envoyproxy/gateway",
+  "url": "https://github.com/envoyproxy/gateway",
+  "description": "Manages Envoy Proxy as a Standalone or Kubernetes-based Application Gateway",
+  "language": null,
+  "stars": 2485,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.047699+00:00"
+  },
+  "cncf": {
+    "name": "Envoy Gateway",
+    "category": "Orchestration & Management",
+    "subcategory": "API Gateway",
+    "imported_at": "2026-02-11T23:30:15.047700+00:00"
+  }
+}

@@ -9,11 +9,23 @@
     "version": "HEAD",
     "loc": 12229,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:01:54.497107+00:00",
+    "cached_at": "2026-02-11T15:09:09.521644+00:00",
+    "total_loc": 31317,
+    "ratio": 0.71917053231066,
     "repo_url": "https://github.com/livebook-dev/livebook.git",
     "ref": "HEAD",
-    "commit_hash": "c70c4d9ff5ba63aa6136eebe22df578d8704398f",
-    "clone_duration_seconds": 1.5851399898529053,
-    "count_duration_seconds": 0.033246755599975586
+    "commit_hash": "56ecd4775f34f876fec940f07570ad19d6520404",
+    "clone_duration_seconds": 2.19765305519104,
+    "count_duration_seconds": 0.045326948165893555,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

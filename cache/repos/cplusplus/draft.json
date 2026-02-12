@@ -1,0 +1,19 @@
+{
+  "owner": "cplusplus",
+  "name": "draft",
+  "full_name": "cplusplus/draft",
+  "url": "https://github.com/cplusplus/draft",
+  "description": "C++ standards drafts",
+  "language": null,
+  "stars": 95,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.954002+00:00"
+  },
+  "cncf": {
+    "name": "C++",
+    "category": "Wasm",
+    "subcategory": "Languages",
+    "imported_at": "2026-02-11T23:30:14.954003+00:00"
+  }
+}

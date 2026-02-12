@@ -1,0 +1,19 @@
+{
+  "owner": "helmwave",
+  "name": "helmwave",
+  "full_name": "helmwave/helmwave",
+  "url": "https://github.com/helmwave/helmwave",
+  "description": "New \ud83c\udf0a wave for @helm",
+  "language": null,
+  "stars": 878,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.072443+00:00"
+  },
+  "cncf": {
+    "name": "Helmwave",
+    "category": "App Definition and Development",
+    "subcategory": "Continuous Integration & Delivery",
+    "imported_at": "2026-02-11T23:30:15.072445+00:00"
+  }
+}

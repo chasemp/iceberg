@@ -1,0 +1,19 @@
+{
+  "owner": "kgateway-dev",
+  "name": "kgateway",
+  "full_name": "kgateway-dev/kgateway",
+  "url": "https://github.com/kgateway-dev/kgateway",
+  "description": "The Cloud-Native API Gateway and AI Gateway",
+  "language": null,
+  "stars": 5309,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.093769+00:00"
+  },
+  "cncf": {
+    "name": "Kgateway",
+    "category": "Orchestration & Management",
+    "subcategory": "API Gateway",
+    "imported_at": "2026-02-11T23:30:15.093770+00:00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": "google",
+  "name": "gvisor",
+  "full_name": "google/gvisor",
+  "url": "https://github.com/google/gvisor",
+  "description": "Application Kernel for Containers",
+  "language": null,
+  "stars": 17665,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.065601+00:00"
+  },
+  "cncf": {
+    "name": "gVisor",
+    "category": "Runtime",
+    "subcategory": "Container Runtime",
+    "imported_at": "2026-02-11T23:30:15.065603+00:00"
+  }
+}

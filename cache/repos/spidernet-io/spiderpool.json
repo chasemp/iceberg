@@ -1,0 +1,19 @@
+{
+  "owner": "spidernet-io",
+  "name": "spiderpool",
+  "full_name": "spidernet-io/spiderpool",
+  "url": "https://github.com/spidernet-io/spiderpool",
+  "description": "Underlay and RDMA network solution of the Kubernetes, for bare metal, VM and any public cloud",
+  "language": null,
+  "stars": 633,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.186046+00:00"
+  },
+  "cncf": {
+    "name": "Spiderpool",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Network",
+    "imported_at": "2026-02-11T23:30:15.186047+00:00"
+  }
+}

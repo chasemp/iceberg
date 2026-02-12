@@ -1,0 +1,19 @@
+{
+  "owner": "sdcio",
+  "name": "docs",
+  "full_name": "sdcio/docs",
+  "url": "https://github.com/sdcio/docs",
+  "description": "Documentation for Schema Driven Configuration (SDC)",
+  "language": null,
+  "stars": 25,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.174654+00:00"
+  },
+  "cncf": {
+    "name": "SDC",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "imported_at": "2026-02-11T23:30:15.174655+00:00"
+  }
+}

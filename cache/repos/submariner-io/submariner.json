@@ -1,0 +1,19 @@
+{
+  "owner": "submariner-io",
+  "name": "submariner",
+  "full_name": "submariner-io/submariner",
+  "url": "https://github.com/submariner-io/submariner",
+  "description": "Networking component for interconnecting Pods and Services across Kubernetes clusters.",
+  "language": null,
+  "stars": 2608,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.191075+00:00"
+  },
+  "cncf": {
+    "name": "Submariner",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Network",
+    "imported_at": "2026-02-11T23:30:15.191076+00:00"
+  }
+}

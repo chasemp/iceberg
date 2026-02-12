@@ -1,0 +1,19 @@
+{
+  "owner": "vesoft-inc",
+  "name": "nebula",
+  "full_name": "vesoft-inc/nebula",
+  "url": "https://github.com/vesoft-inc/nebula",
+  "description": "  A distributed, fast open-source graph database featuring horizontal scalability and high availability",
+  "language": null,
+  "stars": 12000,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.138582+00:00"
+  },
+  "cncf": {
+    "name": "NebulaGraph",
+    "category": "App Definition and Development",
+    "subcategory": "Database",
+    "imported_at": "2026-02-11T23:30:15.138583+00:00"
+  }
+}

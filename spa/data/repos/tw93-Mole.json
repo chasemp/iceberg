@@ -7,9 +7,9 @@
     "owner": "tw93",
     "repo": "Mole",
     "version": "HEAD",
-    "loc": 23036,
+    "loc": 23128,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:12:47.453342+00:00",
+    "cached_at": "2026-02-11T15:03:47.616227+00:00",
     "package": {
       "system": "go",
       "name": "github.com/tw93/mole",
@@ -17,8 +17,18 @@
     },
     "repo_url": "https://github.com/tw93/Mole.git",
     "ref": "HEAD",
-    "commit_hash": "9aa5a0a69d6c00afc0c3cc5528689e8d84b1b077",
-    "clone_duration_seconds": 0.7513458728790283,
-    "count_duration_seconds": 0.013762235641479492
+    "commit_hash": "85cd0253d592d3ba899389205c71fd2f0588f0b7",
+    "clone_duration_seconds": 1.2701642513275146,
+    "count_duration_seconds": 0.015118122100830078,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }

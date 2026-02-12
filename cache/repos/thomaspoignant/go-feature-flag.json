@@ -1,0 +1,19 @@
+{
+  "owner": "thomaspoignant",
+  "name": "go-feature-flag",
+  "full_name": "thomaspoignant/go-feature-flag",
+  "url": "https://github.com/thomaspoignant/go-feature-flag",
+  "description": "GO Feature Flag is a simple, complete and lightweight self-hosted feature flag solution 100% Open Source. \ud83c\udf9b\ufe0f",
+  "language": null,
+  "stars": 1922,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.059152+00:00"
+  },
+  "cncf": {
+    "name": "GO Feature Flag",
+    "category": "Observability and Analysis",
+    "subcategory": "Feature Flagging",
+    "imported_at": "2026-02-11T23:30:15.059154+00:00"
+  }
+}

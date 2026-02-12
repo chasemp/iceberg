@@ -1,0 +1,19 @@
+{
+  "owner": "deepspeedai",
+  "name": "DeepSpeed",
+  "full_name": "deepspeedai/DeepSpeed",
+  "url": "https://github.com/deepspeedai/DeepSpeed",
+  "description": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.",
+  "language": null,
+  "stars": 41551,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.038202+00:00"
+  },
+  "cncf": {
+    "name": "DeepSpeed",
+    "category": "CNAI",
+    "subcategory": "Distributed Training",
+    "imported_at": "2026-02-11T23:30:15.038203+00:00"
+  }
+}

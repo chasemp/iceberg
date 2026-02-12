@@ -1,0 +1,19 @@
+{
+  "owner": "opengauss-mirror",
+  "name": "openGauss-server",
+  "full_name": "opengauss-mirror/openGauss-server",
+  "url": "https://github.com/opengauss-mirror/openGauss-server",
+  "description": "openGauss kernel",
+  "language": null,
+  "stars": 763,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.147827+00:00"
+  },
+  "cncf": {
+    "name": "OpenGauss",
+    "category": "Wasm",
+    "subcategory": "Embedded Functions",
+    "imported_at": "2026-02-11T23:30:15.148003+00:00"
+  }
+}

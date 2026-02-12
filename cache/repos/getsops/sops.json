@@ -1,0 +1,19 @@
+{
+  "owner": "getsops",
+  "name": "sops",
+  "full_name": "getsops/sops",
+  "url": "https://github.com/getsops/sops",
+  "description": "Simple and flexible tool for managing secrets",
+  "language": null,
+  "stars": 20697,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.184454+00:00"
+  },
+  "cncf": {
+    "name": "SOPS",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.184455+00:00"
+  }
+}

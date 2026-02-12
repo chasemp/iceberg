@@ -1,0 +1,19 @@
+{
+  "owner": "carina-io",
+  "name": "carina",
+  "full_name": "carina-io/carina",
+  "url": "https://github.com/carina-io/carina",
+  "description": "Carina: an high performance and ops-free local storage for kubernetes",
+  "language": null,
+  "stars": 717,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:14.956915+00:00"
+  },
+  "cncf": {
+    "name": "Carina",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "imported_at": "2026-02-11T23:30:14.956916+00:00"
+  }
+}

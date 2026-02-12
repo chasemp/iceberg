@@ -1,0 +1,19 @@
+{
+  "owner": "kubeflow",
+  "name": "kubeflow",
+  "full_name": "kubeflow/kubeflow",
+  "url": "https://github.com/kubeflow/kubeflow",
+  "description": "Machine Learning Toolkit for Kubernetes",
+  "language": null,
+  "stars": 15437,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.112225+00:00"
+  },
+  "cncf": {
+    "name": "Kubeflow Notebooks",
+    "category": "CNAI",
+    "subcategory": "Data Science",
+    "imported_at": "2026-02-11T23:30:15.112553+00:00"
+  }
+}

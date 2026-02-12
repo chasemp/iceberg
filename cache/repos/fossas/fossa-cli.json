@@ -1,0 +1,19 @@
+{
+  "owner": "fossas",
+  "name": "fossa-cli",
+  "full_name": "fossas/fossa-cli",
+  "url": "https://github.com/fossas/fossa-cli",
+  "description": "Fast, portable and reliable dependency analysis for any codebase.  Supports license & vulnerability scanning for large monoliths.  Language-agnostic; integrates with 20+ build systems.",
+  "language": null,
+  "stars": 1465,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.055406+00:00"
+  },
+  "cncf": {
+    "name": "FOSSA",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.055407+00:00"
+  }
+}

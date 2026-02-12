@@ -1,0 +1,19 @@
+{
+  "owner": "kyverno",
+  "name": "kyverno",
+  "full_name": "kyverno/kyverno",
+  "url": "https://github.com/kyverno/kyverno",
+  "description": "Cloud Native Policy Management",
+  "language": null,
+  "stars": 7365,
+  "last_discovered": "2026-02-11",
+  "categories": {
+    "tracked": "2026-02-11T23:30:15.123776+00:00"
+  },
+  "cncf": {
+    "name": "Kyverno",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "imported_at": "2026-02-11T23:30:15.123777+00:00"
+  }
+}

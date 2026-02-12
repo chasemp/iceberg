@@ -9,11 +9,23 @@
     "version": "HEAD",
     "loc": 47056,
     "source": "github_clone",
-    "cached_at": "2026-02-10T07:28:57.618179+00:00",
+    "cached_at": "2026-02-11T00:33:06.053156+00:00",
+    "total_loc": 207864,
+    "ratio": 0.815408755688059,
     "repo_url": "https://github.com/microsoft/SynapseML.git",
     "ref": "HEAD",
     "commit_hash": "a381dd235fbeaa68c5cda55aec32b6154b3d0c7c",
-    "clone_duration_seconds": 1.5182485580444336,
-    "count_duration_seconds": 0.10063004493713379
+    "clone_duration_seconds": 2.8982651233673096,
+    "count_duration_seconds": 0.5703368186950684,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
   }
 }
