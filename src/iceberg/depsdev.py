@@ -1,3 +1,4 @@
+import logging
 from typing import Any, cast
 from urllib.parse import quote
 
@@ -6,6 +7,8 @@ import httpx
 from iceberg.exceptions import DepsDevError
 from iceberg.models import PackageIdentifier
 
+logger = logging.getLogger(__name__)
+
 
 def get_project_loc(owner: str, repo: str) -> int | None:
     try:
@@ -13,15 +16,19 @@ def get_project_loc(owner: str, repo: str) -> int | None:
         encoded_id = quote(project_id, safe="")
         url = f"https://api.deps.dev/v3/projects/{encoded_id}"
 
+        logger.debug(f"Fetching project LoC from deps.dev for {owner}/{repo}")
         response = httpx.get(url)
         response.raise_for_status()
         data: Any = response.json()
 
         line_count = data.get("lineCount")
         if line_count is not None and isinstance(line_count, int):
+            logger.debug(f"Got LoC for {owner}/{repo}: {line_count}")
             return cast(int, line_count)
+        logger.debug(f"No LoC data available for {owner}/{repo}")
         return None
     except Exception as e:
+        logger.error(f"Failed to fetch project LoC for {owner}/{repo}: {e}")
         raise DepsDevError(f"Failed to fetch project LoC for {owner}/{repo}: {e}") from e
 
 

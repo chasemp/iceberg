@@ -1,3 +1,4 @@
+import logging
 import re
 from datetime import datetime, timezone
 from typing import Any
@@ -8,6 +9,8 @@ from pydantic import HttpUrl
 
 from iceberg.exceptions import GitHubError
 from iceberg.models import DiscoveredRepo, TrendingRepo
+
+logger = logging.getLogger(__name__)
 
 
 def parse_trending_html(html: str) -> list[dict[str, Any]]:
@@ -81,6 +84,7 @@ def fetch_trending_repos(
         url = "https://github.com/trending?since=monthly"
         source = "trending-monthly"
 
+        logger.info(f"Fetching trending repos from {url}")
         response = httpx.get(url, timeout=30.0, follow_redirects=True)
         response.raise_for_status()
         repos = parse_trending_html(response.text)
@@ -97,6 +101,8 @@ def fetch_trending_repos(
             for repo in repos[:limit]
         ]
 
+        logger.info(f"Successfully fetched {len(discovered_repos)} trending repos")
         return discovered_repos
     except Exception as e:
+        logger.error(f"Failed to fetch trending repos: {e}")
         raise GitHubError(f"Failed to fetch trending repos: {e}") from e

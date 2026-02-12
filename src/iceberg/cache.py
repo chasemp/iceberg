@@ -1,10 +1,13 @@
 import hashlib
 import json
+import logging
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
 from iceberg.models import DiscoveredRepo, RepositoryMetadata, LocMetrics, PackageIdentifier, TrendingRepo
+
+logger = logging.getLogger(__name__)
 
 
 def get_default_cache_dir() -> Path:
@@ -421,7 +424,8 @@ def load_repo_metadata(
 
     try:
         return json.loads(repo_file.read_text())
-    except (json.JSONDecodeError, IOError):
+    except (json.JSONDecodeError, IOError) as e:
+        logger.debug(f"Failed to load repo metadata for {owner}/{name}: {e}")
         return None
 
 
@@ -488,7 +492,8 @@ def load_repo_metadata_typed(
 
     try:
         return _metadata_to_model(metadata)
-    except (KeyError, ValueError, TypeError):
+    except (KeyError, ValueError, TypeError) as e:
+        logger.warning(f"Invalid metadata format for {owner}/{name}: {e}")
         return None
 
 
@@ -560,8 +565,9 @@ def list_all_repos_typed(
     for repo in repos_dict:
         try:
             typed_repos.append(_metadata_to_model(repo))
-        except (KeyError, ValueError, TypeError):
-            continue  # Skip invalid entries
+        except (KeyError, ValueError, TypeError) as e:
+            logger.debug(f"Skipping invalid repo entry: {e}")
+            continue
 
     return typed_repos
 
