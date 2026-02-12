@@ -1,0 +1,31 @@
+{
+  "categories": {
+    "trending-monthly": {
+      "limit": 25,
+      "description": "Monthly trending repositories from GitHub"
+    },
+    "github-ranking": {
+      "limit": 100,
+      "description": "Top repositories from GitHub-Ranking",
+      "default_category": "Top-100-stars"
+    },
+    "search": {
+      "limit": 50,
+      "description": "Search results from GitHub"
+    }
+  },
+  "limits": {
+    "default": 25,
+    "max": 200
+  },
+  "languages": [
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "Go",
+    "Rust",
+    "Java",
+    "C++",
+    "Ruby"
+  ]
+}
