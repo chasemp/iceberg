@@ -9,26 +9,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from iceberg.cache import get_default_cache_dir, load_project_loc
+from iceberg.cache import get_default_cache_dir, load_project_loc, load_repo_metadata
 from iceberg.github_loc import get_current_head_hash
 
 
-def _get_repo_metadata_path(owner: str, repo: str, cache_dir: Path) -> Path:
-    return cache_dir / "repos" / owner / f"{repo}.json"
-
-
-def _load_repo_metadata(owner: str, repo: str, cache_dir: Path) -> dict[str, Any] | None:
-    path = _get_repo_metadata_path(owner, repo, cache_dir)
-    if not path.exists():
-        return None
-    try:
-        return json.loads(path.read_text())
-    except (json.JSONDecodeError, IOError):
-        return None
-
-
 def _save_repo_metadata(owner: str, repo: str, cache_dir: Path, data: dict[str, Any]) -> None:
-    path = _get_repo_metadata_path(owner, repo, cache_dir)
+    path = cache_dir / "repos" / owner / f"{repo}.json"
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, indent=2))
 
@@ -76,7 +62,7 @@ def save_tracked_repo(owner: str, repo: str, cache_dir: Path | None = None) -> N
         cache_dir = get_default_cache_dir()
 
     today = datetime.now(timezone.utc).date().isoformat()
-    data = _load_repo_metadata(owner, repo, cache_dir)
+    data = load_repo_metadata(owner, repo, cache_dir)
 
     if data is None:
         data = {
@@ -99,7 +85,7 @@ def remove_tracked_repo(owner: str, repo: str, cache_dir: Path | None = None) ->
     if cache_dir is None:
         cache_dir = get_default_cache_dir()
 
-    data = _load_repo_metadata(owner, repo, cache_dir)
+    data = load_repo_metadata(owner, repo, cache_dir)
     if data is None:
         return
 
@@ -117,7 +103,7 @@ def is_repo_tracked(owner: str, repo: str, cache_dir: Path | None = None) -> boo
     if cache_dir is None:
         cache_dir = get_default_cache_dir()
 
-    data = _load_repo_metadata(owner, repo, cache_dir)
+    data = load_repo_metadata(owner, repo, cache_dir)
     if data is None:
         return False
 
