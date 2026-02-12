@@ -31,7 +31,8 @@ def test_get_project_loc_returns_none_when_missing(httpx_mock: HTTPXMock) -> Non
 
 
 def test_get_project_loc_handles_network_error(httpx_mock: HTTPXMock) -> None:
-    from iceberg.depsdev import DepsDevError, get_project_loc
+    from iceberg.depsdev import get_project_loc
+    from iceberg.exceptions import DepsDevError
 
     httpx_mock.add_exception(Exception("Network error"))
 
@@ -86,7 +87,8 @@ def test_get_dependencies_returns_empty_when_none(httpx_mock: HTTPXMock) -> None
 
 
 def test_get_dependencies_handles_network_error(httpx_mock: HTTPXMock) -> None:
-    from iceberg.depsdev import DepsDevError, get_dependencies
+    from iceberg.depsdev import get_dependencies
+    from iceberg.exceptions import DepsDevError
 
     pkg = create_package_identifier(system="npm", name="react", version="18.2.0")
 
@@ -129,7 +131,8 @@ def test_get_package_loc_returns_none_when_missing(httpx_mock: HTTPXMock) -> Non
 
 
 def test_get_package_loc_handles_network_error(httpx_mock: HTTPXMock) -> None:
-    from iceberg.depsdev import DepsDevError, get_package_loc
+    from iceberg.depsdev import get_package_loc
+    from iceberg.exceptions import DepsDevError
 
     pkg = create_package_identifier(system="npm", name="react", version="18.2.0")
 

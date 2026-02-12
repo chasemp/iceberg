@@ -14,7 +14,8 @@ from iceberg.cache import (
     save_repo_metadata,
     save_trending_repos,
 )
-from iceberg.depsdev import DepsDevError, get_dependencies, get_project_loc
+from iceberg.depsdev import get_dependencies, get_project_loc
+from iceberg.exceptions import DepsDevError
 from iceberg.detector import detect_package
 from iceberg.export import export_all
 from iceberg.github import fetch_trending_repos

@@ -3,11 +3,8 @@ from urllib.parse import quote
 
 import httpx
 
+from iceberg.exceptions import DepsDevError
 from iceberg.models import PackageIdentifier
-
-
-class DepsDevError(Exception):
-    pass
 
 
 def get_project_loc(owner: str, repo: str) -> int | None:
