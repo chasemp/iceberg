@@ -179,7 +179,8 @@ def test_fetch_trending_repos_respects_limit(httpx_mock: HTTPXMock) -> None:
 
 
 def test_fetch_trending_repos_handles_network_error(httpx_mock: HTTPXMock) -> None:
-    from iceberg.github import GitHubError, fetch_trending_repos
+    from iceberg.exceptions import GitHubError
+    from iceberg.github import fetch_trending_repos
 
     httpx_mock.add_exception(Exception("Network error"))
 

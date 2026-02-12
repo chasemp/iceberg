@@ -6,11 +6,8 @@ import httpx
 from bs4 import BeautifulSoup
 from pydantic import HttpUrl
 
+from iceberg.exceptions import GitHubError
 from iceberg.models import DiscoveredRepo, TrendingRepo
-
-
-class GitHubError(Exception):
-    pass
 
 
 def parse_trending_html(html: str) -> list[dict[str, Any]]:
