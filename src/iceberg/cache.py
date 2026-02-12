@@ -4,7 +4,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
-from iceberg.models import DiscoveredRepo, LocMetrics, PackageIdentifier, TrendingRepo
+from iceberg.models import DiscoveredRepo, RepositoryMetadata, LocMetrics, PackageIdentifier, TrendingRepo
 
 
 def get_default_cache_dir() -> Path:
@@ -324,7 +324,7 @@ def load_discovered_repos(
 # ============================================================================
 
 def save_repo_metadata(
-    repo: DiscoveredRepo,
+    repo: DiscoveredRepo | RepositoryMetadata,
     category: str,
     cache_dir: Path | None = None,
 ) -> None:
@@ -334,7 +334,7 @@ def save_repo_metadata(
     categories (e.g., Top-100-stars AND Python AND monthly trending).
 
     Args:
-        repo: Discovered repository
+        repo: Discovered repository or existing repository metadata
         category: Category it was found in (e.g., "github-ranking-python", "trending-monthly")
         cache_dir: Optional cache directory
 
@@ -371,6 +371,13 @@ def save_repo_metadata(
     else:
         categories = {}
 
+    # If input is RepositoryMetadata, merge its categories and preserve last_discovered
+    if isinstance(repo, RepositoryMetadata):
+        categories.update(repo.categories)
+        last_discovered = repo.last_discovered
+    else:
+        last_discovered = today
+
     # Update category with discovery date
     categories[category] = today
 
@@ -383,7 +390,7 @@ def save_repo_metadata(
         "language": repo.language,
         "stars": repo.stars,
         "categories": categories,
-        "last_discovered": today,
+        "last_discovered": last_discovered,
     }
 
     repo_file.write_text(json.dumps(metadata, indent=2))
@@ -415,6 +422,73 @@ def load_repo_metadata(
     try:
         return json.loads(repo_file.read_text())
     except (json.JSONDecodeError, IOError):
+        return None
+
+
+def _metadata_to_model(metadata: dict[str, Any]) -> RepositoryMetadata:
+    """Convert metadata dict to RepositoryMetadata model.
+
+    Args:
+        metadata: Repository metadata dictionary
+
+    Returns:
+        RepositoryMetadata instance
+    """
+    return RepositoryMetadata(
+        name=metadata["name"],
+        owner=metadata["owner"],
+        url=metadata["url"],
+        description=metadata.get("description"),
+        language=metadata.get("language"),
+        stars=metadata["stars"],
+        categories=metadata.get("categories", {}),
+        last_discovered=metadata["last_discovered"],
+    )
+
+
+def _model_to_metadata(model: RepositoryMetadata) -> dict[str, Any]:
+    """Convert RepositoryMetadata model to metadata dict.
+
+    Args:
+        model: RepositoryMetadata instance
+
+    Returns:
+        Metadata dictionary
+    """
+    return {
+        "name": model.name,
+        "owner": model.owner,
+        "url": str(model.url),
+        "description": model.description,
+        "language": model.language,
+        "stars": model.stars,
+        "categories": model.categories,
+        "last_discovered": model.last_discovered,
+    }
+
+
+def load_repo_metadata_typed(
+    owner: str,
+    name: str,
+    cache_dir: Path | None = None,
+) -> RepositoryMetadata | None:
+    """Load repository discovery metadata as typed model.
+
+    Args:
+        owner: Repository owner
+        name: Repository name
+        cache_dir: Optional cache directory
+
+    Returns:
+        RepositoryMetadata instance or None if not found or corrupted
+    """
+    metadata = load_repo_metadata(owner, name, cache_dir)
+    if metadata is None:
+        return None
+
+    try:
+        return _metadata_to_model(metadata)
+    except (KeyError, ValueError, TypeError):
         return None
 
 
