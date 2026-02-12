@@ -20,12 +20,13 @@ def determine_tier(
     cache_dir: Path,
     config: dict[str, Any],
 ) -> str:
+    from iceberg.cache import load_repo_metadata
     from iceberg.tracking import is_repo_tracked
 
     if is_repo_tracked(owner, repo, cache_dir=cache_dir):
         return "tracked"
 
-    repo_meta = _load_repo_metadata(owner, repo, cache_dir)
+    repo_meta = load_repo_metadata(owner, repo, cache_dir)
     stars = repo_meta.get("stars", 0) if repo_meta else 0
     threshold = config["tiers"]["popular"].get("stars_threshold", 10000)
 
@@ -92,13 +93,3 @@ def _calculate_age(cached_at: str) -> timedelta:
         return datetime.now(timezone.utc) - cached_time
     except Exception:
         return timedelta(days=999)
-
-
-def _load_repo_metadata(owner: str, repo: str, cache_dir: Path) -> dict[str, Any] | None:
-    meta_path = cache_dir / "repos" / owner / f"{repo}.json"
-    if not meta_path.exists():
-        return None
-    try:
-        return json.loads(meta_path.read_text())
-    except (json.JSONDecodeError, IOError):
-        return None
