@@ -1,8 +1,10 @@
 import json
+import logging
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
+logger = logging.getLogger(__name__)
 
 _DEFAULT_CONFIG_PATH = Path(__file__).parent.parent.parent / "config" / "staleness.json"
 
@@ -48,6 +50,7 @@ def is_stale(
     cached = load_project_loc(owner, repo, "HEAD", cache_dir=cache_dir)
 
     if not cached:
+        logger.debug(f"{owner}/{repo}: no analysis data (stale)")
         return (True, "no analysis data")
 
     if force:
@@ -91,5 +94,6 @@ def _calculate_age(cached_at: str) -> timedelta:
     try:
         cached_time = datetime.fromisoformat(cached_at.replace("Z", "+00:00"))
         return datetime.now(timezone.utc) - cached_time
-    except Exception:
+    except Exception as e:
+        logger.debug(f"Failed to parse cached_at timestamp '{cached_at}': {e}")
         return timedelta(days=999)

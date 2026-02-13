@@ -5,12 +5,15 @@ Tracking is stored as a 'tracked' category in repo metadata
 """
 
 import json
+import logging
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
 from iceberg.cache import get_default_cache_dir, load_project_loc, load_repo_metadata
 from iceberg.github_loc import get_current_head_hash
+
+logger = logging.getLogger(__name__)
 
 
 def _save_repo_metadata(owner: str, repo: str, cache_dir: Path, data: dict[str, Any]) -> None:
@@ -50,7 +53,8 @@ def load_tracked_repos(cache_dir: Path | None = None) -> list[dict[str, str]]:
                         "repo": data.get("name", repo_file.stem),
                         "added_at": categories["tracked"],
                     })
-            except (json.JSONDecodeError, IOError):
+            except (json.JSONDecodeError, IOError) as e:
+                logger.debug(f"Failed to load tracked repo from {repo_file}: {e}")
                 continue
 
     return tracked
@@ -73,11 +77,13 @@ def save_tracked_repo(owner: str, repo: str, cache_dir: Path | None = None) -> N
 
     categories = data.get("categories", {})
     if "tracked" in categories:
+        logger.debug(f"{owner}/{repo} is already tracked")
         return
 
     categories["tracked"] = today
     data["categories"] = categories
     _save_repo_metadata(owner, repo, cache_dir, data)
+    logger.info(f"Added {owner}/{repo} to tracking")
 
 
 def remove_tracked_repo(owner: str, repo: str, cache_dir: Path | None = None) -> None:
@@ -87,15 +93,18 @@ def remove_tracked_repo(owner: str, repo: str, cache_dir: Path | None = None) ->
 
     data = load_repo_metadata(owner, repo, cache_dir)
     if data is None:
+        logger.debug(f"{owner}/{repo} not found in metadata")
         return
 
     categories = data.get("categories", {})
     if "tracked" not in categories:
+        logger.debug(f"{owner}/{repo} is not tracked")
         return
 
     del categories["tracked"]
     data["categories"] = categories
     _save_repo_metadata(owner, repo, cache_dir, data)
+    logger.info(f"Removed {owner}/{repo} from tracking")
 
 
 def is_repo_tracked(owner: str, repo: str, cache_dir: Path | None = None) -> bool:

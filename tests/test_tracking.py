@@ -9,7 +9,16 @@ def _write_repo_metadata(
 ) -> None:
     repos_dir = cache_dir / "repos" / owner
     repos_dir.mkdir(parents=True, exist_ok=True)
-    data = {"owner": owner, "name": repo, "stars": stars, "categories": categories or {}}
+    data = {
+        "owner": owner,
+        "name": repo,
+        "url": f"https://github.com/{owner}/{repo}",
+        "description": "Test repository",
+        "language": "Python",
+        "stars": stars,
+        "categories": categories or {},
+        "last_discovered": "2026-02-09",
+    }
     (repos_dir / f"{repo}.json").write_text(json.dumps(data))
 
 

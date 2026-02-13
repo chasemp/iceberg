@@ -1,10 +1,13 @@
 import json
+import logging
 import re
 from typing import Any
 
 import httpx
 
 from iceberg.models import PackageIdentifier
+
+logger = logging.getLogger(__name__)
 
 
 def fetch_file(owner: str, repo: str, filename: str) -> str | None:
@@ -14,8 +17,10 @@ def fetch_file(owner: str, repo: str, filename: str) -> str | None:
         try:
             response = httpx.get(url, timeout=10.0)
             if response.status_code == 200:
+                logger.debug(f"Fetched {filename} from {owner}/{repo} on {branch}")
                 return response.text
-        except Exception:
+        except Exception as e:
+            logger.debug(f"Failed to fetch {filename} from {owner}/{repo} on {branch}: {e}")
             continue
     return None
 
@@ -28,13 +33,14 @@ def parse_npm_package_json(content: str) -> PackageIdentifier | None:
         version = data.get("version")
 
         if name and version:
+            logger.debug(f"Detected npm package: {name}@{version}")
             return PackageIdentifier(
                 system="npm",
                 name=name,
                 version=version,
             )
-    except Exception:
-        pass
+    except Exception as e:
+        logger.debug(f"Failed to parse npm package.json: {e}")
     return None
 
 
@@ -45,13 +51,16 @@ def parse_pypi_pyproject_toml(content: str) -> PackageIdentifier | None:
         version_match = re.search(r'version\s*=\s*["\']([^"\']+)["\']', content)
 
         if name_match and version_match:
+            name = name_match.group(1)
+            version = version_match.group(1)
+            logger.debug(f"Detected pypi package: {name}@{version}")
             return PackageIdentifier(
                 system="pypi",
-                name=name_match.group(1),
-                version=version_match.group(1),
+                name=name,
+                version=version,
             )
-    except Exception:
-        pass
+    except Exception as e:
+        logger.debug(f"Failed to parse pyproject.toml: {e}")
     return None
 
 
@@ -83,13 +92,14 @@ def parse_cargo_toml(content: str) -> PackageIdentifier | None:
                     version = version_match.group(1)
 
         if name and version:
+            logger.debug(f"Detected cargo package: {name}@{version}")
             return PackageIdentifier(
                 system="cargo",
                 name=name,
                 version=version,
             )
-    except Exception:
-        pass
+    except Exception as e:
+        logger.debug(f"Failed to parse Cargo.toml: {e}")
     return None
 
 
@@ -100,13 +110,16 @@ def parse_maven_pom_xml(content: str) -> PackageIdentifier | None:
         version_match = re.search(r'<version>([^<]+)</version>', content)
 
         if artifact_match and version_match:
+            name = artifact_match.group(1)
+            version = version_match.group(1)
+            logger.debug(f"Detected maven package: {name}@{version}")
             return PackageIdentifier(
                 system="maven",
-                name=artifact_match.group(1),
-                version=version_match.group(1),
+                name=name,
+                version=version,
             )
-    except Exception:
-        pass
+    except Exception as e:
+        logger.debug(f"Failed to parse pom.xml: {e}")
     return None
 
 
@@ -121,19 +134,20 @@ def parse_go_mod(content: str, owner: str, repo: str) -> PackageIdentifier | Non
 
         if module_match:
             module_path = module_match.group(1)
-
+            logger.debug(f"Detected go module: {module_path}@v0.0.0")
             return PackageIdentifier(
                 system="go",
                 name=module_path,
                 version="v0.0.0",  # Default version
             )
-    except Exception:
-        pass
+    except Exception as e:
+        logger.debug(f"Failed to parse go.mod: {e}")
     return None
 
 
 def detect_package(owner: str, repo: str) -> PackageIdentifier | None:
     """Detect package ecosystem and extract package identifier."""
+    logger.info(f"Detecting package for {owner}/{repo}")
 
     # Try npm
     content = fetch_file(owner, repo, "package.json")
@@ -170,4 +184,5 @@ def detect_package(owner: str, repo: str) -> PackageIdentifier | None:
         if pkg:
             return pkg
 
+    logger.debug(f"No package detected for {owner}/{repo}")
     return None
