@@ -1,0 +1,16 @@
+{
+  "owner": "microsoft",
+  "repo": "vscode",
+  "full_name": "microsoft/vscode",
+  "root_package": "npm:code-oss-dev:1.110.0",
+  "nodes": [
+    {
+      "id": "npm:code-oss-dev:1.110.0",
+      "system": "npm",
+      "name": "code-oss-dev",
+      "version": "1.110.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.043729+00:00"
+}

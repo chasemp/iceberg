@@ -1,0 +1,29 @@
+{
+  "owner": "LunarVim",
+  "repo": "LunarVim",
+  "full_name": "LunarVim/LunarVim",
+  "url": "https://github.com/LunarVim/LunarVim",
+  "analysis": {
+    "owner": "LunarVim",
+    "repo": "LunarVim",
+    "version": "HEAD",
+    "loc": 618,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:14:50.336232+00:00",
+    "repo_url": "https://github.com/LunarVim/LunarVim.git",
+    "ref": "HEAD",
+    "commit_hash": "aa51c20f3404cb482e9c6fd6e5e4a4bf5b1612aa",
+    "clone_duration_seconds": 0.8947639465332031,
+    "count_duration_seconds": 0.00706791877746582,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

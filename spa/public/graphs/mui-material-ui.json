@@ -1,0 +1,16 @@
+{
+  "owner": "mui",
+  "repo": "material-ui",
+  "full_name": "mui/material-ui",
+  "root_package": "npm:@mui/monorepo:7.3.7",
+  "nodes": [
+    {
+      "id": "npm:@mui/monorepo:7.3.7",
+      "system": "npm",
+      "name": "@mui/monorepo",
+      "version": "7.3.7"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.094090+00:00"
+}

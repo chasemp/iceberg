@@ -1,0 +1,29 @@
+{
+  "owner": "jonataslaw",
+  "repo": "getx",
+  "full_name": "jonataslaw/getx",
+  "url": "https://github.com/jonataslaw/getx",
+  "analysis": {
+    "owner": "jonataslaw",
+    "repo": "getx",
+    "version": "HEAD",
+    "loc": 578,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:15:59.484574+00:00",
+    "repo_url": "https://github.com/jonataslaw/getx.git",
+    "ref": "HEAD",
+    "commit_hash": "e2ad2704f3de6f8668cb89fa1d8c2fec04d170ab",
+    "clone_duration_seconds": 1.2216298580169678,
+    "count_duration_seconds": 0.024702072143554688,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "owner": "mrdoob",
+  "repo": "three.js",
+  "full_name": "mrdoob/three.js",
+  "url": "https://github.com/mrdoob/three.js",
+  "analysis": {
+    "owner": "mrdoob",
+    "repo": "three.js",
+    "version": "HEAD",
+    "loc": 233811,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:40:30.477803+00:00",
+    "package": {
+      "system": "npm",
+      "name": "three",
+      "version": "0.182.0"
+    },
+    "repo_url": "https://github.com/mrdoob/three.js.git",
+    "ref": "HEAD",
+    "commit_hash": "f9e33fa65eabb78b3866ea5275b9d8bd668e7887",
+    "clone_duration_seconds": 34.60568904876709,
+    "count_duration_seconds": 0.1812601089477539,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

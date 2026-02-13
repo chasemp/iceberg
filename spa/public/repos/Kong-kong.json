@@ -1,0 +1,31 @@
+{
+  "owner": "Kong",
+  "repo": "kong",
+  "full_name": "Kong/kong",
+  "url": "https://github.com/Kong/kong",
+  "analysis": {
+    "owner": "Kong",
+    "repo": "kong",
+    "version": "HEAD",
+    "loc": 2017,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:13:17.859086+00:00",
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/Kong/kong.git",
+    "ref": "HEAD",
+    "commit_hash": "2eb75111a611af87e91c6aa4240eddd85fb6d121",
+    "clone_duration_seconds": 2.146044969558716,
+    "count_duration_seconds": 0.08151602745056152,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

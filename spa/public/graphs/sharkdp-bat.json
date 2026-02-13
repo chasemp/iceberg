@@ -1,0 +1,16 @@
+{
+  "owner": "sharkdp",
+  "repo": "bat",
+  "full_name": "sharkdp/bat",
+  "root_package": "cargo:bat:0.26.1",
+  "nodes": [
+    {
+      "id": "cargo:bat:0.26.1",
+      "system": "cargo",
+      "name": "bat",
+      "version": "0.26.1"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.026875+00:00"
+}

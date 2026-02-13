@@ -1,0 +1,16 @@
+{
+  "owner": "moby",
+  "repo": "moby",
+  "full_name": "moby/moby",
+  "root_package": "go:github.com/moby/moby/v2:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/moby/moby/v2:v0.0.0",
+      "system": "go",
+      "name": "github.com/moby/moby/v2",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.096665+00:00"
+}

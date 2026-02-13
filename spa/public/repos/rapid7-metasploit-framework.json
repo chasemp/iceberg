@@ -1,0 +1,29 @@
+{
+  "owner": "rapid7",
+  "repo": "metasploit-framework",
+  "full_name": "rapid7/metasploit-framework",
+  "url": "https://github.com/rapid7/metasploit-framework",
+  "analysis": {
+    "owner": "rapid7",
+    "repo": "metasploit-framework",
+    "version": "HEAD",
+    "loc": 1215025,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:37:44.692526+00:00",
+    "repo_url": "https://github.com/rapid7/metasploit-framework.git",
+    "ref": "HEAD",
+    "commit_hash": "336a7710fb877a6854890fac76b0bd0246e34811",
+    "clone_duration_seconds": 15.261711835861206,
+    "count_duration_seconds": 3.0853848457336426,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

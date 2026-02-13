@@ -1,0 +1,31 @@
+{
+  "owner": "pyenv",
+  "repo": "pyenv",
+  "full_name": "pyenv/pyenv",
+  "url": "https://github.com/pyenv/pyenv",
+  "analysis": {
+    "owner": "pyenv",
+    "repo": "pyenv",
+    "version": "HEAD",
+    "loc": 1136,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:02:58.249271+00:00",
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/pyenv/pyenv.git",
+    "ref": "HEAD",
+    "commit_hash": "b2a43bbcdb59c8b3ffb1f2b66eb89475cef75b78",
+    "clone_duration_seconds": 1.450362205505371,
+    "count_duration_seconds": 0.04347872734069824,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

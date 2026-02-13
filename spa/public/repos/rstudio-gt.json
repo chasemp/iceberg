@@ -1,0 +1,29 @@
+{
+  "owner": "rstudio",
+  "repo": "gt",
+  "full_name": "rstudio/gt",
+  "url": "https://github.com/rstudio/gt",
+  "analysis": {
+    "owner": "rstudio",
+    "repo": "gt",
+    "version": "HEAD",
+    "loc": 109,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:12:28.739027+00:00",
+    "repo_url": "https://github.com/rstudio/gt.git",
+    "ref": "HEAD",
+    "commit_hash": "cff38e6a0709cad47ca311ef3e7c8267dbc0a383",
+    "clone_duration_seconds": 12.64131212234497,
+    "count_duration_seconds": 0.010153770446777344,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

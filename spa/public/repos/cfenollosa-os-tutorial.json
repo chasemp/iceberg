@@ -1,0 +1,29 @@
+{
+  "owner": "cfenollosa",
+  "repo": "os-tutorial",
+  "full_name": "cfenollosa/os-tutorial",
+  "url": "https://github.com/cfenollosa/os-tutorial",
+  "analysis": {
+    "owner": "cfenollosa",
+    "repo": "os-tutorial",
+    "version": "HEAD",
+    "loc": 2829,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:01:34.920136+00:00",
+    "repo_url": "https://github.com/cfenollosa/os-tutorial.git",
+    "ref": "HEAD",
+    "commit_hash": "8002382ee56f876119f77217220b8a5034e9bac1",
+    "clone_duration_seconds": 0.9241580963134766,
+    "count_duration_seconds": 0.01697397232055664,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

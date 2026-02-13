@@ -1,0 +1,36 @@
+{
+  "owner": "f",
+  "repo": "prompts.chat",
+  "full_name": "f/prompts.chat",
+  "url": "https://github.com/f/prompts.chat",
+  "analysis": {
+    "owner": "f",
+    "repo": "prompts.chat",
+    "version": "HEAD",
+    "loc": 87624,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:36:05.777691+00:00",
+    "package": {
+      "system": "npm",
+      "name": "prompts.chat-v2",
+      "version": "0.1.0"
+    },
+    "total_loc": 7394,
+    "ratio": 0.07781683470500327,
+    "repo_url": "https://github.com/f/prompts.chat.git",
+    "ref": "HEAD",
+    "commit_hash": "5f493e3abfccef71e859e687524dc99404f22f0d",
+    "clone_duration_seconds": 7.810772895812988,
+    "count_duration_seconds": 0.07560992240905762,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

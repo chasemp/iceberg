@@ -1,0 +1,16 @@
+{
+  "owner": "guardian",
+  "repo": "frontend",
+  "full_name": "guardian/frontend",
+  "root_package": "npm:@guardian/frontend:0.1.0",
+  "nodes": [
+    {
+      "id": "npm:@guardian/frontend:0.1.0",
+      "system": "npm",
+      "name": "@guardian/frontend",
+      "version": "0.1.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.111090+00:00"
+}

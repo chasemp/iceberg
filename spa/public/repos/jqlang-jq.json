@@ -1,0 +1,29 @@
+{
+  "owner": "jqlang",
+  "repo": "jq",
+  "full_name": "jqlang/jq",
+  "url": "https://github.com/jqlang/jq",
+  "analysis": {
+    "owner": "jqlang",
+    "repo": "jq",
+    "version": "HEAD",
+    "loc": 18237,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:00:26.923282+00:00",
+    "repo_url": "https://github.com/jqlang/jq.git",
+    "ref": "HEAD",
+    "commit_hash": "b33a7634ba34ffa7ce7368cc0ebf5ca40b54c7e6",
+    "clone_duration_seconds": 1.2099528312683105,
+    "count_duration_seconds": 0.015645980834960938,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

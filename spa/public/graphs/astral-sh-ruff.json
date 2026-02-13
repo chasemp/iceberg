@@ -1,0 +1,16 @@
+{
+  "owner": "astral-sh",
+  "repo": "ruff",
+  "full_name": "astral-sh/ruff",
+  "root_package": "pypi:ruff:0.15.0",
+  "nodes": [
+    {
+      "id": "pypi:ruff:0.15.0",
+      "system": "pypi",
+      "name": "ruff",
+      "version": "0.15.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.018899+00:00"
+}

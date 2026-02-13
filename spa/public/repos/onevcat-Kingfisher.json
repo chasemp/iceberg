@@ -1,0 +1,29 @@
+{
+  "owner": "onevcat",
+  "repo": "Kingfisher",
+  "full_name": "onevcat/Kingfisher",
+  "url": "https://github.com/onevcat/Kingfisher",
+  "analysis": {
+    "owner": "onevcat",
+    "repo": "Kingfisher",
+    "version": "HEAD",
+    "loc": 18853,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:13:40.553473+00:00",
+    "repo_url": "https://github.com/onevcat/Kingfisher.git",
+    "ref": "HEAD",
+    "commit_hash": "f694011b8820a39ded7a48c817c5d824f5167335",
+    "clone_duration_seconds": 1.27347993850708,
+    "count_duration_seconds": 0.02829718589782715,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

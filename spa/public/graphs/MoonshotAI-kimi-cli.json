@@ -1,0 +1,16 @@
+{
+  "owner": "MoonshotAI",
+  "repo": "kimi-cli",
+  "full_name": "MoonshotAI/kimi-cli",
+  "root_package": "pypi:kimi-cli:1.11.0",
+  "nodes": [
+    {
+      "id": "pypi:kimi-cli:1.11.0",
+      "system": "pypi",
+      "name": "kimi-cli",
+      "version": "1.11.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.016160+00:00"
+}

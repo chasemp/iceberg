@@ -1,0 +1,16 @@
+{
+  "owner": "f",
+  "repo": "prompts.chat",
+  "full_name": "f/prompts.chat",
+  "root_package": "npm:prompts.chat-v2:0.1.0",
+  "nodes": [
+    {
+      "id": "npm:prompts.chat-v2:0.1.0",
+      "system": "npm",
+      "name": "prompts.chat-v2",
+      "version": "0.1.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.069368+00:00"
+}

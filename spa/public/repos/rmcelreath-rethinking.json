@@ -1,0 +1,29 @@
+{
+  "owner": "rmcelreath",
+  "repo": "rethinking",
+  "full_name": "rmcelreath/rethinking",
+  "url": "https://github.com/rmcelreath/rethinking",
+  "analysis": {
+    "owner": "rmcelreath",
+    "repo": "rethinking",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:11:51.324334+00:00",
+    "repo_url": "https://github.com/rmcelreath/rethinking.git",
+    "ref": "HEAD",
+    "commit_hash": "ac1b3b2cda83f3e14096e2d997a6e30ad109eeee",
+    "clone_duration_seconds": 1.1381630897521973,
+    "count_duration_seconds": 0.0032358169555664062,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

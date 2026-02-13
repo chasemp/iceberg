@@ -1,0 +1,29 @@
+{
+  "owner": "OpenXiangShan",
+  "repo": "XiangShan",
+  "full_name": "OpenXiangShan/XiangShan",
+  "url": "https://github.com/OpenXiangShan/XiangShan",
+  "analysis": {
+    "owner": "OpenXiangShan",
+    "repo": "XiangShan",
+    "version": "HEAD",
+    "loc": 107170,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:31:18.868681+00:00",
+    "repo_url": "https://github.com/OpenXiangShan/XiangShan.git",
+    "ref": "HEAD",
+    "commit_hash": "177871b120a2d148b8e52fb6c0092259be3b2aef",
+    "clone_duration_seconds": 1.4116499423980713,
+    "count_duration_seconds": 0.06765317916870117,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

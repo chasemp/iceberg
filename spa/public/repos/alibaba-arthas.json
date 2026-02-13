@@ -1,0 +1,34 @@
+{
+  "owner": "alibaba",
+  "repo": "arthas",
+  "full_name": "alibaba/arthas",
+  "url": "https://github.com/alibaba/arthas",
+  "analysis": {
+    "owner": "alibaba",
+    "repo": "arthas",
+    "version": "HEAD",
+    "loc": 76735,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:44:24.790830+00:00",
+    "package": {
+      "system": "maven",
+      "name": "arthas-all",
+      "version": "${revision}"
+    },
+    "repo_url": "https://github.com/alibaba/arthas.git",
+    "ref": "HEAD",
+    "commit_hash": "a4dcbb5c189fe91b7ed7b12144169d53c22126c5",
+    "clone_duration_seconds": 1.9525201320648193,
+    "count_duration_seconds": 0.148298978805542,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "owner": "home-assistant",
+  "repo": "core",
+  "full_name": "home-assistant/core",
+  "root_package": "pypi:homeassistant:2026.1.3",
+  "nodes": [
+    {
+      "id": "pypi:homeassistant:2026.1.3",
+      "system": "pypi",
+      "name": "homeassistant",
+      "version": "2026.1.3"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.099856+00:00"
+}

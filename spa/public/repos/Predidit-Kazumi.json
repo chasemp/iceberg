@@ -1,0 +1,29 @@
+{
+  "owner": "Predidit",
+  "repo": "Kazumi",
+  "full_name": "Predidit/Kazumi",
+  "url": "https://github.com/Predidit/Kazumi",
+  "analysis": {
+    "owner": "Predidit",
+    "repo": "Kazumi",
+    "version": "HEAD",
+    "loc": 1030,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:13:50.645005+00:00",
+    "repo_url": "https://github.com/Predidit/Kazumi.git",
+    "ref": "HEAD",
+    "commit_hash": "63fe734c54704f77f3687ae2392d368fd45bbbfb",
+    "clone_duration_seconds": 2.181226968765259,
+    "count_duration_seconds": 0.016273975372314453,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "owner": "golang",
+  "repo": "go",
+  "full_name": "golang/go",
+  "url": "https://github.com/golang/go",
+  "analysis": {
+    "owner": "golang",
+    "repo": "go",
+    "version": "HEAD",
+    "loc": 1715974,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:36:53.706743+00:00",
+    "total_loc": 9136,
+    "ratio": 0.005295894174864211,
+    "repo_url": "https://github.com/golang/go.git",
+    "ref": "HEAD",
+    "commit_hash": "d3ddc4854429185e6e06ca1f7628bb790404abb5",
+    "clone_duration_seconds": 7.594835996627808,
+    "count_duration_seconds": 0.9735312461853027,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

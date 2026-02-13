@@ -1,0 +1,34 @@
+{
+  "owner": "fruitcake",
+  "repo": "laravel-debugbar",
+  "full_name": "fruitcake/laravel-debugbar",
+  "url": "https://github.com/fruitcake/laravel-debugbar",
+  "analysis": {
+    "owner": "fruitcake",
+    "repo": "laravel-debugbar",
+    "version": "HEAD",
+    "loc": 4488,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:24:06.858730+00:00",
+    "package": {
+      "system": "npm",
+      "name": "php-debugbar",
+      "version": "1.0.0"
+    },
+    "repo_url": "https://github.com/fruitcake/laravel-debugbar.git",
+    "ref": "HEAD",
+    "commit_hash": "210443da7590ce3c185ab3d580ff1466b5d94cfa",
+    "clone_duration_seconds": 1.6789062023162842,
+    "count_duration_seconds": 0.013446331024169922,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

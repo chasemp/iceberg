@@ -1,0 +1,31 @@
+{
+  "owner": "papercups-io",
+  "repo": "papercups",
+  "full_name": "papercups-io/papercups",
+  "url": "https://github.com/papercups-io/papercups",
+  "analysis": {
+    "owner": "papercups-io",
+    "repo": "papercups",
+    "version": "HEAD",
+    "loc": 31946,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:08:54.709017+00:00",
+    "total_loc": 267018,
+    "ratio": 0.8931443250692391,
+    "repo_url": "https://github.com/papercups-io/papercups.git",
+    "ref": "HEAD",
+    "commit_hash": "6a6f5adc7f0cef5813b2c2f1c0659922defaf976",
+    "clone_duration_seconds": 1.3099620342254639,
+    "count_duration_seconds": 0.03673720359802246,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

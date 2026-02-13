@@ -1,0 +1,21 @@
+{
+  "owner": "filecoin-project",
+  "repo": "ref-fvm",
+  "full_name": "filecoin-project/ref-fvm",
+  "url": "https://github.com/filecoin-project/ref-fvm",
+  "analysis": {
+    "owner": "filecoin-project",
+    "repo": "ref-fvm",
+    "version": "HEAD",
+    "loc": 27349,
+    "source": "github_clone",
+    "cached_at": "2026-02-13T07:52:22.335399+00:00",
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/filecoin-project/ref-fvm.git",
+    "ref": "HEAD",
+    "commit_hash": "f3629afcc9e339a89c4f2440edb77b09b11588c7",
+    "clone_duration_seconds": 0.36109328269958496,
+    "count_duration_seconds": 0.03134965896606445
+  }
+}

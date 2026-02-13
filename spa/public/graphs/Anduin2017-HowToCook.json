@@ -1,0 +1,16 @@
+{
+  "owner": "Anduin2017",
+  "repo": "HowToCook",
+  "full_name": "Anduin2017/HowToCook",
+  "root_package": "npm:how-to-cook:1.5.0",
+  "nodes": [
+    {
+      "id": "npm:how-to-cook:1.5.0",
+      "system": "npm",
+      "name": "how-to-cook",
+      "version": "1.5.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.070131+00:00"
+}

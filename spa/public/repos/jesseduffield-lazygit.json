@@ -1,0 +1,34 @@
+{
+  "owner": "jesseduffield",
+  "repo": "lazygit",
+  "full_name": "jesseduffield/lazygit",
+  "url": "https://github.com/jesseduffield/lazygit",
+  "analysis": {
+    "owner": "jesseduffield",
+    "repo": "lazygit",
+    "version": "HEAD",
+    "loc": 66637,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:22:59.898864+00:00",
+    "package": {
+      "system": "go",
+      "name": "github.com/jesseduffield/lazygit",
+      "version": "v0.0.0"
+    },
+    "repo_url": "https://github.com/jesseduffield/lazygit.git",
+    "ref": "HEAD",
+    "commit_hash": "1d0db51caf3d280a53f027ef049355fc9e0c57e8",
+    "clone_duration_seconds": 2.2116379737854004,
+    "count_duration_seconds": 0.10687088966369629,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "owner": "h5bp",
+  "repo": "html5-boilerplate",
+  "full_name": "h5bp/html5-boilerplate",
+  "root_package": "npm:html5-boilerplate:9.0.1",
+  "nodes": [
+    {
+      "id": "npm:html5-boilerplate:9.0.1",
+      "system": "npm",
+      "name": "html5-boilerplate",
+      "version": "9.0.1"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.101820+00:00"
+}

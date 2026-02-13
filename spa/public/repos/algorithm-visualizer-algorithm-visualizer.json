@@ -1,0 +1,40 @@
+{
+  "owner": "algorithm-visualizer",
+  "repo": "algorithm-visualizer",
+  "full_name": "algorithm-visualizer/algorithm-visualizer",
+  "url": "https://github.com/algorithm-visualizer/algorithm-visualizer",
+  "analysis": {
+    "owner": "algorithm-visualizer",
+    "repo": "algorithm-visualizer",
+    "version": "HEAD",
+    "loc": 2736,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:56:28.537334+00:00",
+    "package": {
+      "system": "npm",
+      "name": "@algorithm-visualizer/algorithm-visualizer",
+      "version": "2.0.0"
+    },
+    "total_loc": 238208,
+    "ratio": 0.98864466432034,
+    "repo_url": "https://github.com/algorithm-visualizer/algorithm-visualizer.git",
+    "ref": "HEAD",
+    "commit_hash": "18de2edf6b629e843ee4bcedfa2208d22b253f0f",
+    "clone_duration_seconds": 1.081500768661499,
+    "count_duration_seconds": 0.009884119033813477,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

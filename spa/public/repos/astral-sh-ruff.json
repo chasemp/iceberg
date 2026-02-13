@@ -1,0 +1,36 @@
+{
+  "owner": "astral-sh",
+  "repo": "ruff",
+  "full_name": "astral-sh/ruff",
+  "url": "https://github.com/astral-sh/ruff",
+  "analysis": {
+    "owner": "astral-sh",
+    "repo": "ruff",
+    "version": "HEAD",
+    "loc": 418203,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:33:45.560815+00:00",
+    "package": {
+      "system": "pypi",
+      "name": "ruff",
+      "version": "0.15.0"
+    },
+    "total_loc": 8413,
+    "ratio": 0.019720310536876253,
+    "repo_url": "https://github.com/astral-sh/ruff.git",
+    "ref": "HEAD",
+    "commit_hash": "c685810a06e2b4d1be7ca1aff47487bc8b83a1c2",
+    "clone_duration_seconds": 5.431117057800293,
+    "count_duration_seconds": 0.4012141227722168,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

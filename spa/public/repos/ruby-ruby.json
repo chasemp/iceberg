@@ -1,0 +1,36 @@
+{
+  "owner": "ruby",
+  "repo": "ruby",
+  "full_name": "ruby/ruby",
+  "url": "https://github.com/ruby/ruby",
+  "analysis": {
+    "owner": "ruby",
+    "repo": "ruby",
+    "version": "HEAD",
+    "loc": 1094184,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:41:16.675138+00:00",
+    "package": {
+      "system": "cargo",
+      "name": "ruby",
+      "version": "0.0.0"
+    },
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/ruby/ruby.git",
+    "ref": "HEAD",
+    "commit_hash": "c272297e8a9f2b8034739b915707910b4e568479",
+    "clone_duration_seconds": 7.818066835403442,
+    "count_duration_seconds": 1.5223870277404785,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

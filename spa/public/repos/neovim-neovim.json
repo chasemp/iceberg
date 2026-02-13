@@ -1,0 +1,29 @@
+{
+  "owner": "neovim",
+  "repo": "neovim",
+  "full_name": "neovim/neovim",
+  "url": "https://github.com/neovim/neovim",
+  "analysis": {
+    "owner": "neovim",
+    "repo": "neovim",
+    "version": "HEAD",
+    "loc": 255880,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:49:07.313171+00:00",
+    "repo_url": "https://github.com/neovim/neovim.git",
+    "ref": "HEAD",
+    "commit_hash": "1e9143879d6b05bf7e4ed2a59d64d18418d2594f",
+    "clone_duration_seconds": 4.552698135375977,
+    "count_duration_seconds": 0.12797999382019043,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "owner": "matomo-org",
+  "repo": "matomo",
+  "full_name": "matomo-org/matomo",
+  "root_package": "npm:matomo:1.0.0",
+  "nodes": [
+    {
+      "id": "npm:matomo:1.0.0",
+      "system": "npm",
+      "name": "matomo",
+      "version": "1.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.004548+00:00"
+}

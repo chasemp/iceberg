@@ -1,0 +1,16 @@
+{
+  "owner": "TheOdinProject",
+  "repo": "javascript-exercises",
+  "full_name": "TheOdinProject/javascript-exercises",
+  "root_package": "npm:javascript-exercises:1.0.0",
+  "nodes": [
+    {
+      "id": "npm:javascript-exercises:1.0.0",
+      "system": "npm",
+      "name": "javascript-exercises",
+      "version": "1.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.053422+00:00"
+}

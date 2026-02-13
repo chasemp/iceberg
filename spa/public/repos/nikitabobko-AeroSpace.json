@@ -1,0 +1,29 @@
+{
+  "owner": "nikitabobko",
+  "repo": "AeroSpace",
+  "full_name": "nikitabobko/AeroSpace",
+  "url": "https://github.com/nikitabobko/AeroSpace",
+  "analysis": {
+    "owner": "nikitabobko",
+    "repo": "AeroSpace",
+    "version": "HEAD",
+    "loc": 15756,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:14:47.124909+00:00",
+    "repo_url": "https://github.com/nikitabobko/AeroSpace.git",
+    "ref": "HEAD",
+    "commit_hash": "18545c29f93d7a9b8a2af6b98dee29f8558dad18",
+    "clone_duration_seconds": 1.4649858474731445,
+    "count_duration_seconds": 0.02810192108154297,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

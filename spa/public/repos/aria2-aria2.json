@@ -1,0 +1,29 @@
+{
+  "owner": "aria2",
+  "repo": "aria2",
+  "full_name": "aria2/aria2",
+  "url": "https://github.com/aria2/aria2",
+  "analysis": {
+    "owner": "aria2",
+    "repo": "aria2",
+    "version": "HEAD",
+    "loc": 21528,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:21:29.320087+00:00",
+    "repo_url": "https://github.com/aria2/aria2.git",
+    "ref": "HEAD",
+    "commit_hash": "b4fd7cb1ca03e38ad9d7ab9308b8200cb1d41c25",
+    "clone_duration_seconds": 1.811340093612671,
+    "count_duration_seconds": 0.062277793884277344,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

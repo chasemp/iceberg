@@ -1,0 +1,31 @@
+{
+  "owner": "permissionlesstech",
+  "repo": "bitchat",
+  "full_name": "permissionlesstech/bitchat",
+  "url": "https://github.com/permissionlesstech/bitchat",
+  "analysis": {
+    "owner": "permissionlesstech",
+    "repo": "bitchat",
+    "version": "HEAD",
+    "loc": 33072,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:13:25.606100+00:00",
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/permissionlesstech/bitchat.git",
+    "ref": "HEAD",
+    "commit_hash": "0515f4c6e89471a4fd0a0e9c27c704565e4fbd61",
+    "clone_duration_seconds": 1.7791850566864014,
+    "count_duration_seconds": 0.02316117286682129,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "owner": "wasmerio",
+  "repo": "vscode-wasm",
+  "full_name": "wasmerio/vscode-wasm",
+  "url": "https://github.com/wasmerio/vscode-wasm",
+  "analysis": {
+    "owner": "wasmerio",
+    "repo": "vscode-wasm",
+    "version": "HEAD",
+    "loc": 716,
+    "source": "github_clone",
+    "cached_at": "2026-02-13T07:57:30.949983+00:00",
+    "package": {
+      "system": "npm",
+      "name": "vscode-wasm",
+      "version": "1.4.1"
+    },
+    "total_loc": 2435,
+    "ratio": 0.7727705490320533,
+    "repo_url": "https://github.com/wasmerio/vscode-wasm.git",
+    "ref": "v1.4.1",
+    "commit_hash": "ef4096a607b2bf8d3a3bcfc80257e670ef3f8d3d",
+    "clone_duration_seconds": 0.21151971817016602,
+    "count_duration_seconds": 0.0016415119171142578
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "owner": "Chalarangelo",
+  "repo": "30-seconds-of-code",
+  "full_name": "Chalarangelo/30-seconds-of-code",
+  "root_package": "npm:30-seconds-of-code:13.0.0",
+  "nodes": [
+    {
+      "id": "npm:30-seconds-of-code:13.0.0",
+      "system": "npm",
+      "name": "30-seconds-of-code",
+      "version": "13.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.124691+00:00"
+}

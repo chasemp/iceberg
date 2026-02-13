@@ -1,0 +1,16 @@
+{
+  "owner": "TheAlgorithms",
+  "repo": "Python",
+  "full_name": "TheAlgorithms/Python",
+  "root_package": "pypi:thealgorithms-python:0.0.1",
+  "nodes": [
+    {
+      "id": "pypi:thealgorithms-python:0.0.1",
+      "system": "pypi",
+      "name": "thealgorithms-python",
+      "version": "0.0.1"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.108706+00:00"
+}

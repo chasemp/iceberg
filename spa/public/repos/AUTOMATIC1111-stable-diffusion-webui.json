@@ -1,0 +1,38 @@
+{
+  "owner": "AUTOMATIC1111",
+  "repo": "stable-diffusion-webui",
+  "full_name": "AUTOMATIC1111/stable-diffusion-webui",
+  "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+  "analysis": {
+    "owner": "AUTOMATIC1111",
+    "repo": "stable-diffusion-webui",
+    "version": "HEAD",
+    "loc": 36880,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:58:56.311082+00:00",
+    "package": {
+      "system": "npm",
+      "name": "stable-diffusion-webui",
+      "version": "0.0.0"
+    },
+    "repo_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui.git",
+    "ref": "HEAD",
+    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "clone_duration_seconds": 1.3032050132751465,
+    "count_duration_seconds": 0.032846927642822266,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

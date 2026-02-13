@@ -1,0 +1,16 @@
+{
+  "owner": "couler-proj",
+  "repo": "couler",
+  "full_name": "couler-proj/couler",
+  "root_package": "go:github.com/couler-proj/couler:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/couler-proj/couler:v0.0.0",
+      "system": "go",
+      "name": "github.com/couler-proj/couler",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.123225+00:00"
+}

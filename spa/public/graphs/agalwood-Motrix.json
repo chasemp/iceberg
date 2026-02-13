@@ -1,0 +1,16 @@
+{
+  "owner": "agalwood",
+  "repo": "Motrix",
+  "full_name": "agalwood/Motrix",
+  "root_package": "npm:Motrix:1.8.19",
+  "nodes": [
+    {
+      "id": "npm:Motrix:1.8.19",
+      "system": "npm",
+      "name": "Motrix",
+      "version": "1.8.19"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.114267+00:00"
+}

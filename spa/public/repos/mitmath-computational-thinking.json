@@ -1,0 +1,29 @@
+{
+  "owner": "mitmath",
+  "repo": "computational-thinking",
+  "full_name": "mitmath/computational-thinking",
+  "url": "https://github.com/mitmath/computational-thinking",
+  "analysis": {
+    "owner": "mitmath",
+    "repo": "computational-thinking",
+    "version": "HEAD",
+    "loc": 128,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:25:16.304913+00:00",
+    "repo_url": "https://github.com/mitmath/computational-thinking.git",
+    "ref": "HEAD",
+    "commit_hash": "bbcbde01e2d31ef9207c9bc99a021fbc234ab63b",
+    "clone_duration_seconds": 1.866744041442871,
+    "count_duration_seconds": 0.00408482551574707,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

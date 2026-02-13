@@ -241,6 +241,10 @@ def analyze_repository(
                     if verbose:
                         print(f"    [osv] ✓ Discovered {len(deps)} dependencies")
 
+                    # Save dependencies to cache if we have a package identifier
+                    if pkg:
+                        save_dependencies(pkg, deps, cache_dir=cache_dir)
+
                     # Calculate LoC for each dependency
                     dep_loc_sum = 0
                     for dep in deps:

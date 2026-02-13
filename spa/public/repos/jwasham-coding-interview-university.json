@@ -1,0 +1,29 @@
+{
+  "owner": "jwasham",
+  "repo": "coding-interview-university",
+  "full_name": "jwasham/coding-interview-university",
+  "url": "https://github.com/jwasham/coding-interview-university",
+  "analysis": {
+    "owner": "jwasham",
+    "repo": "coding-interview-university",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:28:37.194185+00:00",
+    "repo_url": "https://github.com/jwasham/coding-interview-university.git",
+    "ref": "HEAD",
+    "commit_hash": "717298bf219a30d7fb0671285c5f057b1bb74b27",
+    "clone_duration_seconds": 1.4296550750732422,
+    "count_duration_seconds": 0.0024340152740478516,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

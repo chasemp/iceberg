@@ -1,0 +1,16 @@
+{
+  "owner": "jesseduffield",
+  "repo": "lazygit",
+  "full_name": "jesseduffield/lazygit",
+  "root_package": "go:github.com/jesseduffield/lazygit:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/jesseduffield/lazygit:v0.0.0",
+      "system": "go",
+      "name": "github.com/jesseduffield/lazygit",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.105907+00:00"
+}

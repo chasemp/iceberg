@@ -1,0 +1,29 @@
+{
+  "owner": "LadybirdBrowser",
+  "repo": "ladybird",
+  "full_name": "LadybirdBrowser/ladybird",
+  "url": "https://github.com/LadybirdBrowser/ladybird",
+  "analysis": {
+    "owner": "LadybirdBrowser",
+    "repo": "ladybird",
+    "version": "HEAD",
+    "loc": 666009,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:07:06.008946+00:00",
+    "repo_url": "https://github.com/LadybirdBrowser/ladybird.git",
+    "ref": "HEAD",
+    "commit_hash": "07614a2e55803c445bf866af0f87057a5c5e8c8f",
+    "clone_duration_seconds": 8.408174276351929,
+    "count_duration_seconds": 0.8458197116851807,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

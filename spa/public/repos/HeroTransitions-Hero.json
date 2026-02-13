@@ -1,0 +1,29 @@
+{
+  "owner": "HeroTransitions",
+  "repo": "Hero",
+  "full_name": "HeroTransitions/Hero",
+  "url": "https://github.com/HeroTransitions/Hero",
+  "analysis": {
+    "owner": "HeroTransitions",
+    "repo": "Hero",
+    "version": "HEAD",
+    "loc": 9427,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:14:12.665431+00:00",
+    "repo_url": "https://github.com/HeroTransitions/Hero.git",
+    "ref": "HEAD",
+    "commit_hash": "d7a72e13b034599ff694e6907f770e6bcb83f59d",
+    "clone_duration_seconds": 3.3398239612579346,
+    "count_duration_seconds": 0.02540111541748047,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

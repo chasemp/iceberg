@@ -1,0 +1,16 @@
+{
+  "owner": "modelcontextprotocol",
+  "repo": "ext-apps",
+  "full_name": "modelcontextprotocol/ext-apps",
+  "root_package": "npm:@modelcontextprotocol/ext-apps:1.0.1",
+  "nodes": [
+    {
+      "id": "npm:@modelcontextprotocol/ext-apps:1.0.1",
+      "system": "npm",
+      "name": "@modelcontextprotocol/ext-apps",
+      "version": "1.0.1"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.117576+00:00"
+}

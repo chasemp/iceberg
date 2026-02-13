@@ -1,0 +1,36 @@
+{
+  "owner": "Anduin2017",
+  "repo": "HowToCook",
+  "full_name": "Anduin2017/HowToCook",
+  "url": "https://github.com/Anduin2017/HowToCook",
+  "analysis": {
+    "owner": "Anduin2017",
+    "repo": "HowToCook",
+    "version": "HEAD",
+    "loc": 365,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:46:45.741384+00:00",
+    "package": {
+      "system": "npm",
+      "name": "how-to-cook",
+      "version": "1.5.0"
+    },
+    "total_loc": 26024,
+    "ratio": 0.9861684792906135,
+    "repo_url": "https://github.com/Anduin2017/HowToCook.git",
+    "ref": "HEAD",
+    "commit_hash": "891146e6e8f6d98c6307ec5e2f68a1f842c2a6c9",
+    "clone_duration_seconds": 1.2345130443572998,
+    "count_duration_seconds": 0.027842044830322266,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

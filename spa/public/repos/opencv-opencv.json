@@ -1,0 +1,29 @@
+{
+  "owner": "opencv",
+  "repo": "opencv",
+  "full_name": "opencv/opencv",
+  "url": "https://github.com/opencv/opencv",
+  "analysis": {
+    "owner": "opencv",
+    "repo": "opencv",
+    "version": "HEAD",
+    "loc": 1306421,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:48:32.607966+00:00",
+    "repo_url": "https://github.com/opencv/opencv.git",
+    "ref": "HEAD",
+    "commit_hash": "dc0a276edce12d9d813d9efd5b106fa848059520",
+    "clone_duration_seconds": 19.78332281112671,
+    "count_duration_seconds": 3.132633924484253,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

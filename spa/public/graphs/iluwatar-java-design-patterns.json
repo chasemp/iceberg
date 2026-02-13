@@ -1,0 +1,16 @@
+{
+  "owner": "iluwatar",
+  "repo": "java-design-patterns",
+  "full_name": "iluwatar/java-design-patterns",
+  "root_package": "maven:java-design-patterns:1.26.0-SNAPSHOT",
+  "nodes": [
+    {
+      "id": "maven:java-design-patterns:1.26.0-SNAPSHOT",
+      "system": "maven",
+      "name": "java-design-patterns",
+      "version": "1.26.0-SNAPSHOT"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.031422+00:00"
+}

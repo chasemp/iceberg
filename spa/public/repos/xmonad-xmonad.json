@@ -1,0 +1,29 @@
+{
+  "owner": "xmonad",
+  "repo": "xmonad",
+  "full_name": "xmonad/xmonad",
+  "url": "https://github.com/xmonad/xmonad",
+  "analysis": {
+    "owner": "xmonad",
+    "repo": "xmonad",
+    "version": "HEAD",
+    "loc": 21,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:10:18.654731+00:00",
+    "repo_url": "https://github.com/xmonad/xmonad.git",
+    "ref": "HEAD",
+    "commit_hash": "bb33042d408c15d8727011b1ed4aa22b2716d73d",
+    "clone_duration_seconds": 0.9512979984283447,
+    "count_duration_seconds": 0.0036039352416992188,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

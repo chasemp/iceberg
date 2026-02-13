@@ -1,0 +1,38 @@
+{
+  "owner": "Comfy-Org",
+  "repo": "ComfyUI",
+  "full_name": "Comfy-Org/ComfyUI",
+  "url": "https://github.com/Comfy-Org/ComfyUI",
+  "analysis": {
+    "owner": "Comfy-Org",
+    "repo": "ComfyUI",
+    "version": "HEAD",
+    "loc": 119711,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T01:02:13.858724+00:00",
+    "package": {
+      "system": "pypi",
+      "name": "ComfyUI",
+      "version": "0.11.1"
+    },
+    "repo_url": "https://github.com/Comfy-Org/ComfyUI.git",
+    "ref": "v0.11.1",
+    "commit_hash": "b0d9708974f50fce7d2448ac84e9260c87f7ade3",
+    "clone_duration_seconds": 1.9977443218231201,
+    "count_duration_seconds": 0.05668997764587402,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

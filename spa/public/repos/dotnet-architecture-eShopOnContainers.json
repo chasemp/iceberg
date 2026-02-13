@@ -1,0 +1,29 @@
+{
+  "owner": "dotnet-architecture",
+  "repo": "eShopOnContainers",
+  "full_name": "dotnet-architecture/eShopOnContainers",
+  "url": "https://github.com/dotnet-architecture/eShopOnContainers",
+  "analysis": {
+    "owner": "dotnet-architecture",
+    "repo": "eShopOnContainers",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:24:20.307175+00:00",
+    "repo_url": "https://github.com/dotnet-architecture/eShopOnContainers.git",
+    "ref": "HEAD",
+    "commit_hash": "0d329b713e95674f7471255908759362568166ea",
+    "clone_duration_seconds": 0.9058301448822021,
+    "count_duration_seconds": 0.0021848678588867188,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

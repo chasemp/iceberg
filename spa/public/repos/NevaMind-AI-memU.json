@@ -1,0 +1,36 @@
+{
+  "owner": "NevaMind-AI",
+  "repo": "memU",
+  "full_name": "NevaMind-AI/memU",
+  "url": "https://github.com/NevaMind-AI/memU",
+  "analysis": {
+    "owner": "NevaMind-AI",
+    "repo": "memU",
+    "version": "HEAD",
+    "loc": 14002,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:17:30.906407+00:00",
+    "package": {
+      "system": "pypi",
+      "name": "memu-py",
+      "version": "1.4.0"
+    },
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/NevaMind-AI/memU.git",
+    "ref": "v1.4.0",
+    "commit_hash": "777f1eda1c5a4a3252ffe94f0b98c9c75c6d4539",
+    "clone_duration_seconds": 1.983963966369629,
+    "count_duration_seconds": 0.01386880874633789,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

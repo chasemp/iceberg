@@ -1,0 +1,16 @@
+{
+  "owner": "frankbria",
+  "repo": "ralph-claude-code",
+  "full_name": "frankbria/ralph-claude-code",
+  "root_package": "npm:ralph-claude-code:1.0.0",
+  "nodes": [
+    {
+      "id": "npm:ralph-claude-code:1.0.0",
+      "system": "npm",
+      "name": "ralph-claude-code",
+      "version": "1.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.106198+00:00"
+}

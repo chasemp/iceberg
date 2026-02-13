@@ -1,0 +1,16 @@
+{
+  "owner": "chartjs",
+  "repo": "Chart.js",
+  "full_name": "chartjs/Chart.js",
+  "root_package": "npm:chart.js:4.5.1",
+  "nodes": [
+    {
+      "id": "npm:chart.js:4.5.1",
+      "system": "npm",
+      "name": "chart.js",
+      "version": "4.5.1"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.022217+00:00"
+}

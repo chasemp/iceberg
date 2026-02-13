@@ -1,0 +1,29 @@
+{
+  "owner": "shadowsocks",
+  "repo": "shadowsocks-android",
+  "full_name": "shadowsocks/shadowsocks-android",
+  "url": "https://github.com/shadowsocks/shadowsocks-android",
+  "analysis": {
+    "owner": "shadowsocks",
+    "repo": "shadowsocks-android",
+    "version": "HEAD",
+    "loc": 8594,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:36:35.426231+00:00",
+    "repo_url": "https://github.com/shadowsocks/shadowsocks-android.git",
+    "ref": "HEAD",
+    "commit_hash": "ae28fd91931fe4d2d5aab044de9ceaf9ed07ad56",
+    "clone_duration_seconds": 1.1809532642364502,
+    "count_duration_seconds": 0.02137589454650879,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

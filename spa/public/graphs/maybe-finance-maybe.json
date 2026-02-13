@@ -1,0 +1,16 @@
+{
+  "owner": "maybe-finance",
+  "repo": "maybe",
+  "full_name": "maybe-finance/maybe",
+  "root_package": "npm:maybe:1.0.0",
+  "nodes": [
+    {
+      "id": "npm:maybe:1.0.0",
+      "system": "npm",
+      "name": "maybe",
+      "version": "1.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.104225+00:00"
+}

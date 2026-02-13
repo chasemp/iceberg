@@ -1,0 +1,16 @@
+{
+  "owner": "phoenixframework",
+  "repo": "phoenix",
+  "full_name": "phoenixframework/phoenix",
+  "root_package": "npm:phoenix:1.8.3",
+  "nodes": [
+    {
+      "id": "npm:phoenix:1.8.3",
+      "system": "npm",
+      "name": "phoenix",
+      "version": "1.8.3"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.078756+00:00"
+}

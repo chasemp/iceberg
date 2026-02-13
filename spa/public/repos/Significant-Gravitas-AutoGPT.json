@@ -1,0 +1,35 @@
+{
+  "owner": "Significant-Gravitas",
+  "repo": "AutoGPT",
+  "full_name": "Significant-Gravitas/AutoGPT",
+  "url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "analysis": {
+    "owner": "Significant-Gravitas",
+    "repo": "AutoGPT",
+    "version": "HEAD",
+    "loc": 235058,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:58:19.763689+00:00",
+    "total_loc": 81851,
+    "ratio": 0.25827919055627957,
+    "repo_url": "https://github.com/Significant-Gravitas/AutoGPT.git",
+    "ref": "HEAD",
+    "commit_hash": "f7350c797a537703eaa8303770296b1a9c7f54b0",
+    "clone_duration_seconds": 17.23115587234497,
+    "count_duration_seconds": 0.2983269691467285,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

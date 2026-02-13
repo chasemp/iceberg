@@ -1,0 +1,16 @@
+{
+  "owner": "typicode",
+  "repo": "json-server",
+  "full_name": "typicode/json-server",
+  "root_package": "npm:json-server:1.0.0-beta.5",
+  "nodes": [
+    {
+      "id": "npm:json-server:1.0.0-beta.5",
+      "system": "npm",
+      "name": "json-server",
+      "version": "1.0.0-beta.5"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.121075+00:00"
+}

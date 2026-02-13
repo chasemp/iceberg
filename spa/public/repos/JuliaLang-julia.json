@@ -1,0 +1,29 @@
+{
+  "owner": "JuliaLang",
+  "repo": "julia",
+  "full_name": "JuliaLang/julia",
+  "url": "https://github.com/JuliaLang/julia",
+  "analysis": {
+    "owner": "JuliaLang",
+    "repo": "julia",
+    "version": "HEAD",
+    "loc": 114693,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:24:39.426970+00:00",
+    "repo_url": "https://github.com/JuliaLang/julia.git",
+    "ref": "HEAD",
+    "commit_hash": "696e245780a18aa1add5fe8392172ef6d1cd04c3",
+    "clone_duration_seconds": 2.859363079071045,
+    "count_duration_seconds": 0.09299421310424805,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

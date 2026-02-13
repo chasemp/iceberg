@@ -1,0 +1,34 @@
+{
+  "owner": "base",
+  "repo": "node",
+  "full_name": "base/node",
+  "url": "https://github.com/base/node",
+  "analysis": {
+    "owner": "base",
+    "repo": "node",
+    "version": "HEAD",
+    "loc": 659,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:23:42.703702+00:00",
+    "package": {
+      "system": "go",
+      "name": "dependency_updater",
+      "version": "v0.0.0"
+    },
+    "repo_url": "https://github.com/base/node.git",
+    "ref": "HEAD",
+    "commit_hash": "68a894f460479f536098db2569f3cde03093e98b",
+    "clone_duration_seconds": 0.9205741882324219,
+    "count_duration_seconds": 0.004434108734130859,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

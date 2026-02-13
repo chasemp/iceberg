@@ -1,0 +1,34 @@
+{
+  "owner": "airbnb",
+  "repo": "lottie-ios",
+  "full_name": "airbnb/lottie-ios",
+  "url": "https://github.com/airbnb/lottie-ios",
+  "analysis": {
+    "owner": "airbnb",
+    "repo": "lottie-ios",
+    "version": "HEAD",
+    "loc": 26487,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:13:01.199918+00:00",
+    "package": {
+      "system": "npm",
+      "name": "lottie-ios",
+      "version": "4.6.0"
+    },
+    "repo_url": "https://github.com/airbnb/lottie-ios.git",
+    "ref": "HEAD",
+    "commit_hash": "c4e8dd239e3ea332a46c3bfdc6d06e3dff0812b7",
+    "clone_duration_seconds": 12.431060075759888,
+    "count_duration_seconds": 0.0461423397064209,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

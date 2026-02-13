@@ -1,0 +1,29 @@
+{
+  "owner": "LazyVim",
+  "repo": "LazyVim",
+  "full_name": "LazyVim/LazyVim",
+  "url": "https://github.com/LazyVim/LazyVim",
+  "analysis": {
+    "owner": "LazyVim",
+    "repo": "LazyVim",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:14:38.434703+00:00",
+    "repo_url": "https://github.com/LazyVim/LazyVim.git",
+    "ref": "HEAD",
+    "commit_hash": "c64a61734fc9d45470a72603395c02137802bc6f",
+    "clone_duration_seconds": 0.9577291011810303,
+    "count_duration_seconds": 0.0053730010986328125,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

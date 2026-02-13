@@ -1,0 +1,29 @@
+{
+  "owner": "digitalinnovationone",
+  "repo": "dio-lab-open-source",
+  "full_name": "digitalinnovationone/dio-lab-open-source",
+  "url": "https://github.com/digitalinnovationone/dio-lab-open-source",
+  "analysis": {
+    "owner": "digitalinnovationone",
+    "repo": "dio-lab-open-source",
+    "version": "HEAD",
+    "loc": 16,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:47:06.077774+00:00",
+    "repo_url": "https://github.com/digitalinnovationone/dio-lab-open-source.git",
+    "ref": "HEAD",
+    "commit_hash": "3198f51c96d9e0ae7334565e388068640fc62219",
+    "clone_duration_seconds": 54.90784788131714,
+    "count_duration_seconds": 1.204876184463501,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

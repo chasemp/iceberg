@@ -1,0 +1,16 @@
+{
+  "owner": "hakimel",
+  "repo": "reveal.js",
+  "full_name": "hakimel/reveal.js",
+  "root_package": "npm:reveal.js:5.2.1",
+  "nodes": [
+    {
+      "id": "npm:reveal.js:5.2.1",
+      "system": "npm",
+      "name": "reveal.js",
+      "version": "5.2.1"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.112344+00:00"
+}

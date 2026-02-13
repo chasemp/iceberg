@@ -1,0 +1,29 @@
+{
+  "owner": "rust-lang",
+  "repo": "rustlings",
+  "full_name": "rust-lang/rustlings",
+  "url": "https://github.com/rust-lang/rustlings",
+  "analysis": {
+    "owner": "rust-lang",
+    "repo": "rustlings",
+    "version": "HEAD",
+    "loc": 7891,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:31:11.260021+00:00",
+    "repo_url": "https://github.com/rust-lang/rustlings.git",
+    "ref": "HEAD",
+    "commit_hash": "87ac600b7c050538b1622084ea7c356b8a1d02bc",
+    "clone_duration_seconds": 1.102269172668457,
+    "count_duration_seconds": 0.027972936630249023,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

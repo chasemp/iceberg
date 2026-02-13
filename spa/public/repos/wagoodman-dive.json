@@ -1,0 +1,34 @@
+{
+  "owner": "wagoodman",
+  "repo": "dive",
+  "full_name": "wagoodman/dive",
+  "url": "https://github.com/wagoodman/dive",
+  "analysis": {
+    "owner": "wagoodman",
+    "repo": "dive",
+    "version": "HEAD",
+    "loc": 9197,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:27:54.303249+00:00",
+    "package": {
+      "system": "go",
+      "name": "github.com/wagoodman/dive",
+      "version": "v0.0.0"
+    },
+    "repo_url": "https://github.com/wagoodman/dive.git",
+    "ref": "HEAD",
+    "commit_hash": "d6c691947f8fda635c952a17ee3b7555379d58f0",
+    "clone_duration_seconds": 1.7594549655914307,
+    "count_duration_seconds": 0.014539003372192383,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

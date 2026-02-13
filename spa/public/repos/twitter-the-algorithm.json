@@ -1,0 +1,29 @@
+{
+  "owner": "twitter",
+  "repo": "the-algorithm",
+  "full_name": "twitter/the-algorithm",
+  "url": "https://github.com/twitter/the-algorithm",
+  "analysis": {
+    "owner": "twitter",
+    "repo": "the-algorithm",
+    "version": "HEAD",
+    "loc": 478711,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:27:31.826777+00:00",
+    "repo_url": "https://github.com/twitter/the-algorithm.git",
+    "ref": "HEAD",
+    "commit_hash": "c54bec0d4e029fe34926ef3258a86ccacc0d0182",
+    "clone_duration_seconds": 5.777251720428467,
+    "count_duration_seconds": 1.7940962314605713,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

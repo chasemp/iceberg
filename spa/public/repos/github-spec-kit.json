@@ -1,0 +1,38 @@
+{
+  "owner": "github",
+  "repo": "spec-kit",
+  "full_name": "github/spec-kit",
+  "url": "https://github.com/github/spec-kit",
+  "analysis": {
+    "owner": "github",
+    "repo": "spec-kit",
+    "version": "HEAD",
+    "loc": 1163,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T01:14:11.140685+00:00",
+    "package": {
+      "system": "pypi",
+      "name": "specify-cli",
+      "version": "0.0.22"
+    },
+    "repo_url": "https://github.com/github/spec-kit.git",
+    "ref": "v0.0.22",
+    "commit_hash": "445902f2f0f496e3bccc87603151471fa9c22cc6",
+    "clone_duration_seconds": 1.4788789749145508,
+    "count_duration_seconds": 0.005114078521728516,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

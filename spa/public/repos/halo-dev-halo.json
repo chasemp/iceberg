@@ -1,0 +1,31 @@
+{
+  "owner": "halo-dev",
+  "repo": "halo",
+  "full_name": "halo-dev/halo",
+  "url": "https://github.com/halo-dev/halo",
+  "analysis": {
+    "owner": "halo-dev",
+    "repo": "halo",
+    "version": "HEAD",
+    "loc": 98376,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:43:37.752953+00:00",
+    "total_loc": 163815,
+    "ratio": 0.6247926130187536,
+    "repo_url": "https://github.com/halo-dev/halo.git",
+    "ref": "HEAD",
+    "commit_hash": "f4fbe13657c2a316fb7371d8b571026148ee4fed",
+    "clone_duration_seconds": 1.9732322692871094,
+    "count_duration_seconds": 0.2152540683746338,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

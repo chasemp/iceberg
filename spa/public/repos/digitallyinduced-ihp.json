@@ -1,0 +1,31 @@
+{
+  "owner": "digitallyinduced",
+  "repo": "ihp",
+  "full_name": "digitallyinduced/ihp",
+  "url": "https://github.com/digitallyinduced/ihp",
+  "analysis": {
+    "owner": "digitallyinduced",
+    "repo": "ihp",
+    "version": "HEAD",
+    "loc": 3002,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:08:51.532481+00:00",
+    "total_loc": 10728,
+    "ratio": 0.7813546977421705,
+    "repo_url": "https://github.com/digitallyinduced/ihp.git",
+    "ref": "HEAD",
+    "commit_hash": "29853090c2d96aa8025d2cbe982e7e90cb89f6a0",
+    "clone_duration_seconds": 3.4413630962371826,
+    "count_duration_seconds": 0.0240781307220459,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

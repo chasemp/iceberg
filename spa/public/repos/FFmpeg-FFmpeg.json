@@ -1,0 +1,29 @@
+{
+  "owner": "FFmpeg",
+  "repo": "FFmpeg",
+  "full_name": "FFmpeg/FFmpeg",
+  "url": "https://github.com/FFmpeg/FFmpeg",
+  "analysis": {
+    "owner": "FFmpeg",
+    "repo": "FFmpeg",
+    "version": "HEAD",
+    "loc": 1279038,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T14:59:06.671901+00:00",
+    "repo_url": "https://github.com/FFmpeg/FFmpeg.git",
+    "ref": "HEAD",
+    "commit_hash": "7e3781e3ca8a9f5cc6ba14e05cc5fd12498bbaa9",
+    "clone_duration_seconds": 6.620869874954224,
+    "count_duration_seconds": 0.5850670337677002,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

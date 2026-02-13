@@ -1,0 +1,29 @@
+{
+  "owner": "flutter",
+  "repo": "plugins",
+  "full_name": "flutter/plugins",
+  "url": "https://github.com/flutter/plugins",
+  "analysis": {
+    "owner": "flutter",
+    "repo": "plugins",
+    "version": "HEAD",
+    "loc": 32251,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:14:09.286786+00:00",
+    "repo_url": "https://github.com/flutter/plugins.git",
+    "ref": "HEAD",
+    "commit_hash": "557d3284ac9dda32a1106bb75be8a23bdccd2f96",
+    "clone_duration_seconds": 3.5911080837249756,
+    "count_duration_seconds": 0.32208800315856934,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

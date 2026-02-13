@@ -1,0 +1,31 @@
+{
+  "owner": "langgenius",
+  "repo": "dify",
+  "full_name": "langgenius/dify",
+  "url": "https://github.com/langgenius/dify",
+  "analysis": {
+    "owner": "langgenius",
+    "repo": "dify",
+    "version": "HEAD",
+    "loc": 738664,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:37:30.883374+00:00",
+    "total_loc": 9306,
+    "ratio": 0.012441675468267443,
+    "repo_url": "https://github.com/langgenius/dify.git",
+    "ref": "HEAD",
+    "commit_hash": "16b873388693bc7210c732d889c7970029d87a01",
+    "clone_duration_seconds": 5.631804943084717,
+    "count_duration_seconds": 0.7850241661071777,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

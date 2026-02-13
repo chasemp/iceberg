@@ -1,0 +1,16 @@
+{
+  "owner": "j178",
+  "repo": "prek",
+  "full_name": "j178/prek",
+  "root_package": "pypi:prek:0.3.2",
+  "nodes": [
+    {
+      "id": "pypi:prek:0.3.2",
+      "system": "pypi",
+      "name": "prek",
+      "version": "0.3.2"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.097875+00:00"
+}

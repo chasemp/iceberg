@@ -1,0 +1,29 @@
+{
+  "owner": "elixir-lang",
+  "repo": "elixir",
+  "full_name": "elixir-lang/elixir",
+  "url": "https://github.com/elixir-lang/elixir",
+  "analysis": {
+    "owner": "elixir-lang",
+    "repo": "elixir",
+    "version": "HEAD",
+    "loc": 65,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:06:11.274403+00:00",
+    "repo_url": "https://github.com/elixir-lang/elixir.git",
+    "ref": "HEAD",
+    "commit_hash": "f2e6d6a2fb4b34a6230febdd5483cff4e0c5dac0",
+    "clone_duration_seconds": 1.7108700275421143,
+    "count_duration_seconds": 0.029710054397583008,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

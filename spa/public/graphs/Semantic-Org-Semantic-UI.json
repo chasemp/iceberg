@@ -1,0 +1,16 @@
+{
+  "owner": "Semantic-Org",
+  "repo": "Semantic-UI",
+  "full_name": "Semantic-Org/Semantic-UI",
+  "root_package": "npm:semantic-ui:2.5.0",
+  "nodes": [
+    {
+      "id": "npm:semantic-ui:2.5.0",
+      "system": "npm",
+      "name": "semantic-ui",
+      "version": "2.5.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.111380+00:00"
+}

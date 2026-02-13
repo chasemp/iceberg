@@ -1,0 +1,16 @@
+{
+  "owner": "prettier",
+  "repo": "prettier",
+  "full_name": "prettier/prettier",
+  "root_package": "npm:prettier:3.9.0-dev",
+  "nodes": [
+    {
+      "id": "npm:prettier:3.9.0-dev",
+      "system": "npm",
+      "name": "prettier",
+      "version": "3.9.0-dev"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.035929+00:00"
+}

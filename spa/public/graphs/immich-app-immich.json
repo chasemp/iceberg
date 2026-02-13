@@ -1,0 +1,16 @@
+{
+  "owner": "immich-app",
+  "repo": "immich",
+  "full_name": "immich-app/immich",
+  "root_package": "npm:immich-monorepo:2.5.6",
+  "nodes": [
+    {
+      "id": "npm:immich-monorepo:2.5.6",
+      "system": "npm",
+      "name": "immich-monorepo",
+      "version": "2.5.6"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:11.997274+00:00"
+}

@@ -1,0 +1,29 @@
+{
+  "owner": "thangchung",
+  "repo": "awesome-dotnet-core",
+  "full_name": "thangchung/awesome-dotnet-core",
+  "url": "https://github.com/thangchung/awesome-dotnet-core",
+  "analysis": {
+    "owner": "thangchung",
+    "repo": "awesome-dotnet-core",
+    "version": "HEAD",
+    "loc": 11,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:26:05.586279+00:00",
+    "repo_url": "https://github.com/thangchung/awesome-dotnet-core.git",
+    "ref": "HEAD",
+    "commit_hash": "d25db57585a4fd1f9fd1f8613f4202599286b60b",
+    "clone_duration_seconds": 0.8618459701538086,
+    "count_duration_seconds": 0.0025091171264648438,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

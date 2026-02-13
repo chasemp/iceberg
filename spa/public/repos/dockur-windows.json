@@ -1,0 +1,29 @@
+{
+  "owner": "dockur",
+  "repo": "windows",
+  "full_name": "dockur/windows",
+  "url": "https://github.com/dockur/windows",
+  "analysis": {
+    "owner": "dockur",
+    "repo": "windows",
+    "version": "HEAD",
+    "loc": 3650,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:02:36.171146+00:00",
+    "repo_url": "https://github.com/dockur/windows.git",
+    "ref": "HEAD",
+    "commit_hash": "588969ae5f7ca7d9c9cade09e47adbe057775e0e",
+    "clone_duration_seconds": 1.0865540504455566,
+    "count_duration_seconds": 0.007604122161865234,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

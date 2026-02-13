@@ -1,0 +1,29 @@
+{
+  "owner": "practical-tutorials",
+  "repo": "project-based-learning",
+  "full_name": "practical-tutorials/project-based-learning",
+  "url": "https://github.com/practical-tutorials/project-based-learning",
+  "analysis": {
+    "owner": "practical-tutorials",
+    "repo": "project-based-learning",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:29:09.024009+00:00",
+    "repo_url": "https://github.com/practical-tutorials/project-based-learning.git",
+    "ref": "HEAD",
+    "commit_hash": "243d33995fc5a616010fced6c9e131090e8e1a39",
+    "clone_duration_seconds": 0.8561320304870605,
+    "count_duration_seconds": 0.0021789073944091797,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

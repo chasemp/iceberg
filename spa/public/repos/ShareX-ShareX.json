@@ -1,0 +1,29 @@
+{
+  "owner": "ShareX",
+  "repo": "ShareX",
+  "full_name": "ShareX/ShareX",
+  "url": "https://github.com/ShareX/ShareX",
+  "analysis": {
+    "owner": "ShareX",
+    "repo": "ShareX",
+    "version": "HEAD",
+    "loc": 128054,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:22:10.018604+00:00",
+    "repo_url": "https://github.com/ShareX/ShareX.git",
+    "ref": "HEAD",
+    "commit_hash": "15b88a42b589e4980df826a519cbc9833de492e0",
+    "clone_duration_seconds": 2.480823040008545,
+    "count_duration_seconds": 0.11098694801330566,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

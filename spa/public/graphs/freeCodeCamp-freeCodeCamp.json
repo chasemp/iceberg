@@ -1,0 +1,16 @@
+{
+  "owner": "freeCodeCamp",
+  "repo": "freeCodeCamp",
+  "full_name": "freeCodeCamp/freeCodeCamp",
+  "root_package": "npm:@freecodecamp/freecodecamp:0.0.1",
+  "nodes": [
+    {
+      "id": "npm:@freecodecamp/freecodecamp:0.0.1",
+      "system": "npm",
+      "name": "@freecodecamp/freecodecamp",
+      "version": "0.0.1"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.089733+00:00"
+}

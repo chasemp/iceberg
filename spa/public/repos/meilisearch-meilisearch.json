@@ -1,0 +1,31 @@
+{
+  "owner": "meilisearch",
+  "repo": "meilisearch",
+  "full_name": "meilisearch/meilisearch",
+  "url": "https://github.com/meilisearch/meilisearch",
+  "analysis": {
+    "owner": "meilisearch",
+    "repo": "meilisearch",
+    "version": "HEAD",
+    "loc": 127393,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:32:38.656788+00:00",
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/meilisearch/meilisearch.git",
+    "ref": "HEAD",
+    "commit_hash": "80115973183e95f8cbbf4e6f775f78784457e17e",
+    "clone_duration_seconds": 3.084709882736206,
+    "count_duration_seconds": 0.11112594604492188,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

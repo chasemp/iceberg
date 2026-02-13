@@ -1,0 +1,16 @@
+{
+  "owner": "open-telemetry",
+  "repo": "opentelemetry-collector-contrib",
+  "full_name": "open-telemetry/opentelemetry-collector-contrib",
+  "root_package": "go:github.com/open-telemetry/opentelemetry-collector-contrib:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/open-telemetry/opentelemetry-collector-contrib:v0.0.0",
+      "system": "go",
+      "name": "github.com/open-telemetry/opentelemetry-collector-contrib",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.064341+00:00"
+}

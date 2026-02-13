@@ -1,0 +1,16 @@
+{
+  "owner": "AUTOMATIC1111",
+  "repo": "stable-diffusion-webui",
+  "full_name": "AUTOMATIC1111/stable-diffusion-webui",
+  "root_package": "npm:stable-diffusion-webui:0.0.0",
+  "nodes": [
+    {
+      "id": "npm:stable-diffusion-webui:0.0.0",
+      "system": "npm",
+      "name": "stable-diffusion-webui",
+      "version": "0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.029979+00:00"
+}

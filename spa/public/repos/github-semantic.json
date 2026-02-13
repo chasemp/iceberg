@@ -1,0 +1,29 @@
+{
+  "owner": "github",
+  "repo": "semantic",
+  "full_name": "github/semantic",
+  "url": "https://github.com/github/semantic",
+  "analysis": {
+    "owner": "github",
+    "repo": "semantic",
+    "version": "HEAD",
+    "loc": 60,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:08:08.772515+00:00",
+    "repo_url": "https://github.com/github/semantic.git",
+    "ref": "HEAD",
+    "commit_hash": "d1d07eb6228bca1f4e886d649996f27906f61d42",
+    "clone_duration_seconds": 1.634833812713623,
+    "count_duration_seconds": 0.04071497917175293,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

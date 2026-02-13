@@ -1,0 +1,29 @@
+{
+  "owner": "SwiftyJSON",
+  "repo": "SwiftyJSON",
+  "full_name": "SwiftyJSON/SwiftyJSON",
+  "url": "https://github.com/SwiftyJSON/SwiftyJSON",
+  "analysis": {
+    "owner": "SwiftyJSON",
+    "repo": "SwiftyJSON",
+    "version": "HEAD",
+    "loc": 3477,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:13:55.068026+00:00",
+    "repo_url": "https://github.com/SwiftyJSON/SwiftyJSON.git",
+    "ref": "HEAD",
+    "commit_hash": "815b78ea730128ba36175d82a547b3d782f17e77",
+    "clone_duration_seconds": 0.9550888538360596,
+    "count_duration_seconds": 0.007253885269165039,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

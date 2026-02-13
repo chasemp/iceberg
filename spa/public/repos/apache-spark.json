@@ -1,0 +1,34 @@
+{
+  "owner": "apache",
+  "repo": "spark",
+  "full_name": "apache/spark",
+  "url": "https://github.com/apache/spark",
+  "analysis": {
+    "owner": "apache",
+    "repo": "spark",
+    "version": "HEAD",
+    "loc": 816700,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T16:01:49.974317+00:00",
+    "package": {
+      "system": "maven",
+      "name": "apache",
+      "version": "34"
+    },
+    "repo_url": "https://github.com/apache/spark.git",
+    "ref": "HEAD",
+    "commit_hash": "52c43ca8c8d01ac99f2276675aac1aa14927cecd",
+    "clone_duration_seconds": 35.09356737136841,
+    "count_duration_seconds": 3.981743097305298,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

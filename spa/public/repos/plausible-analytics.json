@@ -1,0 +1,31 @@
+{
+  "owner": "plausible",
+  "repo": "analytics",
+  "full_name": "plausible/analytics",
+  "url": "https://github.com/plausible/analytics",
+  "analysis": {
+    "owner": "plausible",
+    "repo": "analytics",
+    "version": "HEAD",
+    "loc": 21539,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:06:26.288957+00:00",
+    "total_loc": 21109,
+    "ratio": 0.49495873194522605,
+    "repo_url": "https://github.com/plausible/analytics.git",
+    "ref": "HEAD",
+    "commit_hash": "176234f9f7f687e148099bd52b818c4f27765f8d",
+    "clone_duration_seconds": 2.8345391750335693,
+    "count_duration_seconds": 0.0644989013671875,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

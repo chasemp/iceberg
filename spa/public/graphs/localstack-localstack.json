@@ -1,0 +1,16 @@
+{
+  "owner": "localstack",
+  "repo": "localstack",
+  "full_name": "localstack/localstack",
+  "root_package": "pypi:localstack-core:py311",
+  "nodes": [
+    {
+      "id": "pypi:localstack-core:py311",
+      "system": "pypi",
+      "name": "localstack-core",
+      "version": "py311"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.109585+00:00"
+}

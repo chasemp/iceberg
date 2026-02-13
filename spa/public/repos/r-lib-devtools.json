@@ -1,0 +1,29 @@
+{
+  "owner": "r-lib",
+  "repo": "devtools",
+  "full_name": "r-lib/devtools",
+  "url": "https://github.com/r-lib/devtools",
+  "analysis": {
+    "owner": "r-lib",
+    "repo": "devtools",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:11:20.782026+00:00",
+    "repo_url": "https://github.com/r-lib/devtools.git",
+    "ref": "HEAD",
+    "commit_hash": "c01724755fdd70fba8bd693b7ce2ec18e4f301d5",
+    "clone_duration_seconds": 1.0505459308624268,
+    "count_duration_seconds": 0.008635997772216797,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

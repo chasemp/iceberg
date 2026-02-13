@@ -1,0 +1,29 @@
+{
+  "owner": "gatling",
+  "repo": "gatling",
+  "full_name": "gatling/gatling",
+  "url": "https://github.com/gatling/gatling",
+  "analysis": {
+    "owner": "gatling",
+    "repo": "gatling",
+    "version": "HEAD",
+    "loc": 44799,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:31:26.459887+00:00",
+    "repo_url": "https://github.com/gatling/gatling.git",
+    "ref": "HEAD",
+    "commit_hash": "563981687c53d8cfede44d3702e70b907c697d31",
+    "clone_duration_seconds": 1.3498849868774414,
+    "count_duration_seconds": 0.12016510963439941,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

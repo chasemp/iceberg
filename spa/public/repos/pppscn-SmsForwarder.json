@@ -1,0 +1,29 @@
+{
+  "owner": "pppscn",
+  "repo": "SmsForwarder",
+  "full_name": "pppscn/SmsForwarder",
+  "url": "https://github.com/pppscn/SmsForwarder",
+  "analysis": {
+    "owner": "pppscn",
+    "repo": "SmsForwarder",
+    "version": "HEAD",
+    "loc": 37350,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:37:59.683612+00:00",
+    "repo_url": "https://github.com/pppscn/SmsForwarder.git",
+    "ref": "HEAD",
+    "commit_hash": "dae7b52ef4c229ad693f4cf7f35dbad528f714b1",
+    "clone_duration_seconds": 3.2188737392425537,
+    "count_duration_seconds": 0.04599499702453613,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

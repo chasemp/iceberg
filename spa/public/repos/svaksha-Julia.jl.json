@@ -1,0 +1,29 @@
+{
+  "owner": "svaksha",
+  "repo": "Julia.jl",
+  "full_name": "svaksha/Julia.jl",
+  "url": "https://github.com/svaksha/Julia.jl",
+  "analysis": {
+    "owner": "svaksha",
+    "repo": "Julia.jl",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:26:51.252708+00:00",
+    "repo_url": "https://github.com/svaksha/Julia.jl.git",
+    "ref": "HEAD",
+    "commit_hash": "c3985aeb1eb78fcde4648887dc5f6c7960503aa1",
+    "clone_duration_seconds": 0.9889199733734131,
+    "count_duration_seconds": 0.002579927444458008,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

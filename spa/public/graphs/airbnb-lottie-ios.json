@@ -1,0 +1,16 @@
+{
+  "owner": "airbnb",
+  "repo": "lottie-ios",
+  "full_name": "airbnb/lottie-ios",
+  "root_package": "npm:lottie-ios:4.6.0",
+  "nodes": [
+    {
+      "id": "npm:lottie-ios:4.6.0",
+      "system": "npm",
+      "name": "lottie-ios",
+      "version": "4.6.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.015663+00:00"
+}

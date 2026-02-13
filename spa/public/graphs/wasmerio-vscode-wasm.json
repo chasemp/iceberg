@@ -1,0 +1,16 @@
+{
+  "owner": "wasmerio",
+  "repo": "vscode-wasm",
+  "full_name": "wasmerio/vscode-wasm",
+  "root_package": "npm:vscode-wasm:1.4.1",
+  "nodes": [
+    {
+      "id": "npm:vscode-wasm:1.4.1",
+      "system": "npm",
+      "name": "vscode-wasm",
+      "version": "1.4.1"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.011429+00:00"
+}

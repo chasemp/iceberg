@@ -1,0 +1,16 @@
+{
+  "owner": "pedramamini",
+  "repo": "Maestro",
+  "full_name": "pedramamini/Maestro",
+  "root_package": "npm:maestro:0.15.0",
+  "nodes": [
+    {
+      "id": "npm:maestro:0.15.0",
+      "system": "npm",
+      "name": "maestro",
+      "version": "0.15.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.133470+00:00"
+}

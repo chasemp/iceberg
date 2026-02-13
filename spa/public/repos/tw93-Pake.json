@@ -1,0 +1,36 @@
+{
+  "owner": "tw93",
+  "repo": "Pake",
+  "full_name": "tw93/Pake",
+  "url": "https://github.com/tw93/Pake",
+  "analysis": {
+    "owner": "tw93",
+    "repo": "Pake",
+    "version": "HEAD",
+    "loc": 5062,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:33:56.709898+00:00",
+    "package": {
+      "system": "npm",
+      "name": "pake-cli",
+      "version": "3.8.4"
+    },
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/tw93/Pake.git",
+    "ref": "HEAD",
+    "commit_hash": "766103cae828a4d05d72ee2a1a7bc031816761be",
+    "clone_duration_seconds": 1.917557954788208,
+    "count_duration_seconds": 0.009458065032958984,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

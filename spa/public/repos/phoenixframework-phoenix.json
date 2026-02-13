@@ -1,0 +1,36 @@
+{
+  "owner": "phoenixframework",
+  "repo": "phoenix",
+  "full_name": "phoenixframework/phoenix",
+  "url": "https://github.com/phoenixframework/phoenix",
+  "analysis": {
+    "owner": "phoenixframework",
+    "repo": "phoenix",
+    "version": "HEAD",
+    "loc": 6263,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:06:37.572501+00:00",
+    "package": {
+      "system": "npm",
+      "name": "phoenix",
+      "version": "1.8.3"
+    },
+    "total_loc": 33960,
+    "ratio": 0.8442930661561793,
+    "repo_url": "https://github.com/phoenixframework/phoenix.git",
+    "ref": "v1.8.3",
+    "commit_hash": "07fc5ac215b61849ba54c4cc506dbb1b5248d6d3",
+    "clone_duration_seconds": 2.131960868835449,
+    "count_duration_seconds": 0.019116878509521484,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

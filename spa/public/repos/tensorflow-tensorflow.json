@@ -1,0 +1,29 @@
+{
+  "owner": "tensorflow",
+  "repo": "tensorflow",
+  "full_name": "tensorflow/tensorflow",
+  "url": "https://github.com/tensorflow/tensorflow",
+  "analysis": {
+    "owner": "tensorflow",
+    "repo": "tensorflow",
+    "version": "HEAD",
+    "loc": 1462617,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:31:44.388377+00:00",
+    "repo_url": "https://github.com/tensorflow/tensorflow.git",
+    "ref": "HEAD",
+    "commit_hash": "5a85b6b47a9580b261fc9afa34c4abf8753e0759",
+    "clone_duration_seconds": 22.34296679496765,
+    "count_duration_seconds": 1.3654067516326904,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

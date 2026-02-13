@@ -1,0 +1,29 @@
+{
+  "owner": "romkatv",
+  "repo": "powerlevel10k",
+  "full_name": "romkatv/powerlevel10k",
+  "url": "https://github.com/romkatv/powerlevel10k",
+  "analysis": {
+    "owner": "romkatv",
+    "repo": "powerlevel10k",
+    "version": "HEAD",
+    "loc": 1152,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:02:20.058387+00:00",
+    "repo_url": "https://github.com/romkatv/powerlevel10k.git",
+    "ref": "HEAD",
+    "commit_hash": "8ed1f58e082e1cce85e1d69235d1a906cf3c643e",
+    "clone_duration_seconds": 0.9831268787384033,
+    "count_duration_seconds": 0.005440950393676758,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

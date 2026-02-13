@@ -1,0 +1,29 @@
+{
+  "owner": "kavishdevar",
+  "repo": "librepods",
+  "full_name": "kavishdevar/librepods",
+  "url": "https://github.com/kavishdevar/librepods",
+  "analysis": {
+    "owner": "kavishdevar",
+    "repo": "librepods",
+    "version": "HEAD",
+    "loc": 29800,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:37:43.865073+00:00",
+    "repo_url": "https://github.com/kavishdevar/librepods.git",
+    "ref": "HEAD",
+    "commit_hash": "fd33528218b7e1378429c4d773d757e4be36416f",
+    "clone_duration_seconds": 2.0255799293518066,
+    "count_duration_seconds": 0.02348613739013672,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

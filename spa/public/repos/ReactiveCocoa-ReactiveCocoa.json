@@ -1,0 +1,29 @@
+{
+  "owner": "ReactiveCocoa",
+  "repo": "ReactiveCocoa",
+  "full_name": "ReactiveCocoa/ReactiveCocoa",
+  "url": "https://github.com/ReactiveCocoa/ReactiveCocoa",
+  "analysis": {
+    "owner": "ReactiveCocoa",
+    "repo": "ReactiveCocoa",
+    "version": "HEAD",
+    "loc": 8635,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:14:32.638371+00:00",
+    "repo_url": "https://github.com/ReactiveCocoa/ReactiveCocoa.git",
+    "ref": "HEAD",
+    "commit_hash": "f2d9bd56ae9f345821d9cd53fe3479db77e29094",
+    "clone_duration_seconds": 1.0500726699829102,
+    "count_duration_seconds": 0.016948223114013672,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

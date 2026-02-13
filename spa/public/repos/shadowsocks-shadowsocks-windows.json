@@ -1,0 +1,29 @@
+{
+  "owner": "shadowsocks",
+  "repo": "shadowsocks-windows",
+  "full_name": "shadowsocks/shadowsocks-windows",
+  "url": "https://github.com/shadowsocks/shadowsocks-windows",
+  "analysis": {
+    "owner": "shadowsocks",
+    "repo": "shadowsocks-windows",
+    "version": "HEAD",
+    "loc": 13781,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:20:49.694008+00:00",
+    "repo_url": "https://github.com/shadowsocks/shadowsocks-windows.git",
+    "ref": "HEAD",
+    "commit_hash": "891d971682eefcaa2e640258d3b352a3ad3b2233",
+    "clone_duration_seconds": 1.1890439987182617,
+    "count_duration_seconds": 0.020767927169799805,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

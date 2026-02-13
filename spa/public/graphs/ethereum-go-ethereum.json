@@ -1,0 +1,16 @@
+{
+  "owner": "ethereum",
+  "repo": "go-ethereum",
+  "full_name": "ethereum/go-ethereum",
+  "root_package": "go:github.com/ethereum/go-ethereum:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/ethereum/go-ethereum:v0.0.0",
+      "system": "go",
+      "name": "github.com/ethereum/go-ethereum",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.130111+00:00"
+}

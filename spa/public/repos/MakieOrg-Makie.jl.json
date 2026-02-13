@@ -1,0 +1,29 @@
+{
+  "owner": "MakieOrg",
+  "repo": "Makie.jl",
+  "full_name": "MakieOrg/Makie.jl",
+  "url": "https://github.com/MakieOrg/Makie.jl",
+  "analysis": {
+    "owner": "MakieOrg",
+    "repo": "Makie.jl",
+    "version": "HEAD",
+    "loc": 27870,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:25:26.310722+00:00",
+    "repo_url": "https://github.com/MakieOrg/Makie.jl.git",
+    "ref": "HEAD",
+    "commit_hash": "750c4fa4944f3847defe807fb6ae8305b285cc6d",
+    "clone_duration_seconds": 4.1191020011901855,
+    "count_duration_seconds": 0.017805814743041992,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

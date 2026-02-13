@@ -1,0 +1,29 @@
+{
+  "owner": "doocs",
+  "repo": "advanced-java",
+  "full_name": "doocs/advanced-java",
+  "url": "https://github.com/doocs/advanced-java",
+  "analysis": {
+    "owner": "doocs",
+    "repo": "advanced-java",
+    "version": "HEAD",
+    "loc": 39,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:40:28.128788+00:00",
+    "repo_url": "https://github.com/doocs/advanced-java.git",
+    "ref": "HEAD",
+    "commit_hash": "1d028e859429c360dd3bd8641ceded29070a33c6",
+    "clone_duration_seconds": 1.7334272861480713,
+    "count_duration_seconds": 0.004937887191772461,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

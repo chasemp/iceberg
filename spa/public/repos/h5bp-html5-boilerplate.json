@@ -1,0 +1,40 @@
+{
+  "owner": "h5bp",
+  "repo": "html5-boilerplate",
+  "full_name": "h5bp/html5-boilerplate",
+  "url": "https://github.com/h5bp/html5-boilerplate",
+  "analysis": {
+    "owner": "h5bp",
+    "repo": "html5-boilerplate",
+    "version": "HEAD",
+    "loc": 177,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:48:52.510074+00:00",
+    "package": {
+      "system": "npm",
+      "name": "html5-boilerplate",
+      "version": "9.0.1"
+    },
+    "total_loc": 118423,
+    "ratio": 0.9985075885328837,
+    "repo_url": "https://github.com/h5bp/html5-boilerplate.git",
+    "ref": "v9.0.1",
+    "commit_hash": "90066899f33e83c0866f8e078e97f9b82999db58",
+    "clone_duration_seconds": 0.942497968673706,
+    "count_duration_seconds": 0.00463104248046875,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

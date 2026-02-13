@@ -1,0 +1,38 @@
+{
+  "owner": "sherlock-project",
+  "repo": "sherlock",
+  "full_name": "sherlock-project/sherlock",
+  "url": "https://github.com/sherlock-project/sherlock",
+  "analysis": {
+    "owner": "sherlock-project",
+    "repo": "sherlock",
+    "version": "HEAD",
+    "loc": 1287,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T01:10:40.819984+00:00",
+    "package": {
+      "system": "pypi",
+      "name": "sherlock-project",
+      "version": "0.16.0"
+    },
+    "repo_url": "https://github.com/sherlock-project/sherlock.git",
+    "ref": "v0.16.0",
+    "commit_hash": "524415b5d535409a1988233ec5c0b4f6bdda18df",
+    "clone_duration_seconds": 1.1190998554229736,
+    "count_duration_seconds": 0.0044748783111572266,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

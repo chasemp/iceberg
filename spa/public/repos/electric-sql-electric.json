@@ -1,0 +1,31 @@
+{
+  "owner": "electric-sql",
+  "repo": "electric",
+  "full_name": "electric-sql/electric",
+  "url": "https://github.com/electric-sql/electric",
+  "analysis": {
+    "owner": "electric-sql",
+    "repo": "electric",
+    "version": "HEAD",
+    "loc": 23969,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:07:31.268737+00:00",
+    "total_loc": 537016,
+    "ratio": 0.9572733673805895,
+    "repo_url": "https://github.com/electric-sql/electric.git",
+    "ref": "HEAD",
+    "commit_hash": "49a26dc251dcb31e2921eb8aa5aae32a80737d38",
+    "clone_duration_seconds": 15.53012990951538,
+    "count_duration_seconds": 0.07160496711730957,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

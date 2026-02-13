@@ -1,0 +1,16 @@
+{
+  "owner": "caddyserver",
+  "repo": "caddy",
+  "full_name": "caddyserver/caddy",
+  "root_package": "go:github.com/caddyserver/caddy/v2:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/caddyserver/caddy/v2:v0.0.0",
+      "system": "go",
+      "name": "github.com/caddyserver/caddy/v2",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.038766+00:00"
+}

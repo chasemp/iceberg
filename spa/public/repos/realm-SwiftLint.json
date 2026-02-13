@@ -1,0 +1,29 @@
+{
+  "owner": "realm",
+  "repo": "SwiftLint",
+  "full_name": "realm/SwiftLint",
+  "url": "https://github.com/realm/SwiftLint",
+  "analysis": {
+    "owner": "realm",
+    "repo": "SwiftLint",
+    "version": "HEAD",
+    "loc": 72725,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:14:40.023162+00:00",
+    "repo_url": "https://github.com/realm/SwiftLint.git",
+    "ref": "HEAD",
+    "commit_hash": "26bd3b71d2b5bed43eb4685032e8461e82992486",
+    "clone_duration_seconds": 1.391554832458496,
+    "count_duration_seconds": 0.08479905128479004,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "owner": "distribution",
+  "repo": "distribution",
+  "full_name": "distribution/distribution",
+  "url": "https://github.com/distribution/distribution",
+  "analysis": {
+    "owner": "distribution",
+    "repo": "distribution",
+    "version": "HEAD",
+    "loc": 40802,
+    "source": "github_clone",
+    "cached_at": "2026-02-13T07:52:00.450903+00:00",
+    "package": {
+      "system": "go",
+      "name": "github.com/distribution/distribution/v3",
+      "version": "v0.0.0"
+    },
+    "repo_url": "https://github.com/distribution/distribution.git",
+    "ref": "HEAD",
+    "commit_hash": "ab67ffa0bda3712991194841d0fde727464feeb9",
+    "clone_duration_seconds": 1.5802373886108398,
+    "count_duration_seconds": 0.11000466346740723
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "owner": "dbeaver",
+  "repo": "dbeaver",
+  "full_name": "dbeaver/dbeaver",
+  "url": "https://github.com/dbeaver/dbeaver",
+  "analysis": {
+    "owner": "dbeaver",
+    "repo": "dbeaver",
+    "version": "HEAD",
+    "loc": 604122,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:42:20.297402+00:00",
+    "package": {
+      "system": "maven",
+      "name": "com.dbeaver.common.main",
+      "version": "2.6.0-SNAPSHOT"
+    },
+    "repo_url": "https://github.com/dbeaver/dbeaver.git",
+    "ref": "HEAD",
+    "commit_hash": "bfa4bc7598393eec522aabb504f66ed4847c9b6f",
+    "clone_duration_seconds": 5.119395971298218,
+    "count_duration_seconds": 0.8732030391693115,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

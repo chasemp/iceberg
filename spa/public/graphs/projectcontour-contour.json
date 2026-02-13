@@ -1,0 +1,16 @@
+{
+  "owner": "projectcontour",
+  "repo": "contour",
+  "full_name": "projectcontour/contour",
+  "root_package": "go:github.com/projectcontour/contour:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/projectcontour/contour:v0.0.0",
+      "system": "go",
+      "name": "github.com/projectcontour/contour",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.104535+00:00"
+}

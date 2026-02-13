@@ -1,0 +1,29 @@
+{
+  "owner": "jlevy",
+  "repo": "the-art-of-command-line",
+  "full_name": "jlevy/the-art-of-command-line",
+  "url": "https://github.com/jlevy/the-art-of-command-line",
+  "analysis": {
+    "owner": "jlevy",
+    "repo": "the-art-of-command-line",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:35:33.566809+00:00",
+    "repo_url": "https://github.com/jlevy/the-art-of-command-line.git",
+    "ref": "HEAD",
+    "commit_hash": "6b50745d2e788add2e8f1ed29010e72659a9a074",
+    "clone_duration_seconds": 1.0972490310668945,
+    "count_duration_seconds": 0.0022089481353759766,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

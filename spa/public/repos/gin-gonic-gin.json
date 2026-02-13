@@ -1,0 +1,34 @@
+{
+  "owner": "gin-gonic",
+  "repo": "gin",
+  "full_name": "gin-gonic/gin",
+  "url": "https://github.com/gin-gonic/gin",
+  "analysis": {
+    "owner": "gin-gonic",
+    "repo": "gin",
+    "version": "HEAD",
+    "loc": 17693,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:21:53.043655+00:00",
+    "package": {
+      "system": "go",
+      "name": "github.com/gin-gonic/gin",
+      "version": "v0.0.0"
+    },
+    "repo_url": "https://github.com/gin-gonic/gin.git",
+    "ref": "HEAD",
+    "commit_hash": "d7776de7d444935ea4385999711bd6331a98fecb",
+    "clone_duration_seconds": 1.0256149768829346,
+    "count_duration_seconds": 0.013473987579345703,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

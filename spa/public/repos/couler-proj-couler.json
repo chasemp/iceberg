@@ -1,0 +1,26 @@
+{
+  "owner": "couler-proj",
+  "repo": "couler",
+  "full_name": "couler-proj/couler",
+  "url": "https://github.com/couler-proj/couler",
+  "analysis": {
+    "owner": "couler-proj",
+    "repo": "couler",
+    "version": "HEAD",
+    "loc": 7115,
+    "source": "github_clone",
+    "cached_at": "2026-02-13T07:53:47.598216+00:00",
+    "package": {
+      "system": "go",
+      "name": "github.com/couler-proj/couler",
+      "version": "v0.0.0"
+    },
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/couler-proj/couler.git",
+    "ref": "HEAD",
+    "commit_hash": "5c437c2f1552656b68dec1e4b562b57b027efe25",
+    "clone_duration_seconds": 0.2530961036682129,
+    "count_duration_seconds": 0.014014959335327148
+  }
+}

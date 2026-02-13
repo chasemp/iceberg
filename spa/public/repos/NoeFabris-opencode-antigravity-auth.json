@@ -1,0 +1,36 @@
+{
+  "owner": "NoeFabris",
+  "repo": "opencode-antigravity-auth",
+  "full_name": "NoeFabris/opencode-antigravity-auth",
+  "url": "https://github.com/NoeFabris/opencode-antigravity-auth",
+  "analysis": {
+    "owner": "NoeFabris",
+    "repo": "opencode-antigravity-auth",
+    "version": "HEAD",
+    "loc": 25612,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:17:01.102638+00:00",
+    "package": {
+      "system": "npm",
+      "name": "opencode-antigravity-auth",
+      "version": "1.4.6"
+    },
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/NoeFabris/opencode-antigravity-auth.git",
+    "ref": "v1.4.6",
+    "commit_hash": "28f46c2e62e7d5e13d3e956d55bd9c306b93bc9e",
+    "clone_duration_seconds": 1.0093097686767578,
+    "count_duration_seconds": 0.015610218048095703,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

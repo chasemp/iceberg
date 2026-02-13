@@ -1,0 +1,31 @@
+{
+  "owner": "anomalyco",
+  "repo": "opencode",
+  "full_name": "anomalyco/opencode",
+  "url": "https://github.com/anomalyco/opencode",
+  "analysis": {
+    "owner": "anomalyco",
+    "repo": "opencode",
+    "version": "HEAD",
+    "loc": 160879,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:15:20.680298+00:00",
+    "total_loc": 766539,
+    "ratio": 0.8265302161484896,
+    "repo_url": "https://github.com/anomalyco/opencode.git",
+    "ref": "HEAD",
+    "commit_hash": "24556331c8a1a5899489cbdb60eb80d058a1d6f1",
+    "clone_duration_seconds": 9.54248332977295,
+    "count_duration_seconds": 0.12562203407287598,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

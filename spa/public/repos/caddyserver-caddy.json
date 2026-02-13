@@ -1,0 +1,34 @@
+{
+  "owner": "caddyserver",
+  "repo": "caddy",
+  "full_name": "caddyserver/caddy",
+  "url": "https://github.com/caddyserver/caddy",
+  "analysis": {
+    "owner": "caddyserver",
+    "repo": "caddy",
+    "version": "HEAD",
+    "loc": 62735,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:23:32.659229+00:00",
+    "package": {
+      "system": "go",
+      "name": "github.com/caddyserver/caddy/v2",
+      "version": "v0.0.0"
+    },
+    "repo_url": "https://github.com/caddyserver/caddy.git",
+    "ref": "HEAD",
+    "commit_hash": "03e6e439dd07d048323cc39516146e0f04032186",
+    "clone_duration_seconds": 1.2751410007476807,
+    "count_duration_seconds": 0.04237008094787598,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

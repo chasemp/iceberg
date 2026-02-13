@@ -1,0 +1,16 @@
+{
+  "owner": "jquery",
+  "repo": "jquery",
+  "full_name": "jquery/jquery",
+  "root_package": "npm:jquery:4.0.0",
+  "nodes": [
+    {
+      "id": "npm:jquery:4.0.0",
+      "system": "npm",
+      "name": "jquery",
+      "version": "4.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.050815+00:00"
+}

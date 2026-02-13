@@ -1,0 +1,29 @@
+{
+  "owner": "ReactiveX",
+  "repo": "RxSwift",
+  "full_name": "ReactiveX/RxSwift",
+  "url": "https://github.com/ReactiveX/RxSwift",
+  "analysis": {
+    "owner": "ReactiveX",
+    "repo": "RxSwift",
+    "version": "HEAD",
+    "loc": 125347,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:13:33.031268+00:00",
+    "repo_url": "https://github.com/ReactiveX/RxSwift.git",
+    "ref": "HEAD",
+    "commit_hash": "5734ad2b6d7d4c0656df3d09ca4ce54fa3c09913",
+    "clone_duration_seconds": 1.4201381206512451,
+    "count_duration_seconds": 0.1137380599975586,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

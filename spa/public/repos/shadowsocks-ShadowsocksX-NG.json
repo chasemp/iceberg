@@ -1,0 +1,29 @@
+{
+  "owner": "shadowsocks",
+  "repo": "ShadowsocksX-NG",
+  "full_name": "shadowsocks/ShadowsocksX-NG",
+  "url": "https://github.com/shadowsocks/ShadowsocksX-NG",
+  "analysis": {
+    "owner": "shadowsocks",
+    "repo": "ShadowsocksX-NG",
+    "version": "HEAD",
+    "loc": 30883,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:12:04.197535+00:00",
+    "repo_url": "https://github.com/shadowsocks/ShadowsocksX-NG.git",
+    "ref": "HEAD",
+    "commit_hash": "719203afc60e1dbab00e459ebcfecc468e7700bd",
+    "clone_duration_seconds": 1.2427499294281006,
+    "count_duration_seconds": 0.046356201171875,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "owner": "gitbutlerapp",
+  "repo": "gitbutler",
+  "full_name": "gitbutlerapp/gitbutler",
+  "url": "https://github.com/gitbutlerapp/gitbutler",
+  "analysis": {
+    "owner": "gitbutlerapp",
+    "repo": "gitbutler",
+    "version": "HEAD",
+    "loc": 139857,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:03:01.702986+00:00",
+    "total_loc": 120680,
+    "ratio": 0.4631971658536024,
+    "repo_url": "https://github.com/gitbutlerapp/gitbutler.git",
+    "ref": "HEAD",
+    "commit_hash": "c3b532208d49c93ccc94ebd975478ee78a80c9f1",
+    "clone_duration_seconds": 2.136892795562744,
+    "count_duration_seconds": 0.17641520500183105,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

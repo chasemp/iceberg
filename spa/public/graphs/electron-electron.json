@@ -1,0 +1,16 @@
+{
+  "owner": "electron",
+  "repo": "electron",
+  "full_name": "electron/electron",
+  "root_package": "npm:@electron-ci/dev-root:0.0.0-development",
+  "nodes": [
+    {
+      "id": "npm:@electron-ci/dev-root:0.0.0-development",
+      "system": "npm",
+      "name": "@electron-ci/dev-root",
+      "version": "0.0.0-development"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.116668+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "owner": "twbs",
+  "repo": "bootstrap",
+  "full_name": "twbs/bootstrap",
+  "root_package": "npm:bootstrap:5.3.8",
+  "nodes": [
+    {
+      "id": "npm:bootstrap:5.3.8",
+      "system": "npm",
+      "name": "bootstrap",
+      "version": "5.3.8"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.020615+00:00"
+}

@@ -1,0 +1,31 @@
+{
+  "owner": "openai",
+  "repo": "codex",
+  "full_name": "openai/codex",
+  "url": "https://github.com/openai/codex",
+  "analysis": {
+    "owner": "openai",
+    "repo": "codex",
+    "version": "HEAD",
+    "loc": 224966,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:31:30.198997+00:00",
+    "total_loc": 9907,
+    "ratio": 0.042180242088277496,
+    "repo_url": "https://github.com/openai/codex.git",
+    "ref": "HEAD",
+    "commit_hash": "bd3bf6eda1dcac30388bf4eaa5d342daf9411546",
+    "clone_duration_seconds": 2.526010751724243,
+    "count_duration_seconds": 0.1896660327911377,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

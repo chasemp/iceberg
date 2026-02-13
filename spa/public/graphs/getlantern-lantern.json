@@ -1,0 +1,16 @@
+{
+  "owner": "getlantern",
+  "repo": "lantern",
+  "full_name": "getlantern/lantern",
+  "root_package": "go:github.com/getlantern/lantern:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/getlantern/lantern:v0.0.0",
+      "system": "go",
+      "name": "github.com/getlantern/lantern",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.107420+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "owner": "chatwoot",
+  "repo": "chatwoot",
+  "full_name": "chatwoot/chatwoot",
+  "root_package": "npm:@chatwoot/chatwoot:4.10.1",
+  "nodes": [
+    {
+      "id": "npm:@chatwoot/chatwoot:4.10.1",
+      "system": "npm",
+      "name": "@chatwoot/chatwoot",
+      "version": "4.10.1"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.017276+00:00"
+}

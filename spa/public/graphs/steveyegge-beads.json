@@ -1,0 +1,16 @@
+{
+  "owner": "steveyegge",
+  "repo": "beads",
+  "full_name": "steveyegge/beads",
+  "root_package": "go:github.com/steveyegge/beads:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/steveyegge/beads:v0.0.0",
+      "system": "go",
+      "name": "github.com/steveyegge/beads",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.128113+00:00"
+}

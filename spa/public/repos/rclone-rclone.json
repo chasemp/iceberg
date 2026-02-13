@@ -1,0 +1,34 @@
+{
+  "owner": "rclone",
+  "repo": "rclone",
+  "full_name": "rclone/rclone",
+  "url": "https://github.com/rclone/rclone",
+  "analysis": {
+    "owner": "rclone",
+    "repo": "rclone",
+    "version": "HEAD",
+    "loc": 274586,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:27:02.682815+00:00",
+    "package": {
+      "system": "go",
+      "name": "github.com/rclone/rclone",
+      "version": "v0.0.0"
+    },
+    "repo_url": "https://github.com/rclone/rclone.git",
+    "ref": "HEAD",
+    "commit_hash": "2bd6630c2eacbe0aa647216455946f50a618c8d1",
+    "clone_duration_seconds": 2.873692274093628,
+    "count_duration_seconds": 0.17917919158935547,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

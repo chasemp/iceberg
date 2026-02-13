@@ -1,0 +1,29 @@
+{
+  "owner": "hwdsl2",
+  "repo": "setup-ipsec-vpn",
+  "full_name": "hwdsl2/setup-ipsec-vpn",
+  "url": "https://github.com/hwdsl2/setup-ipsec-vpn",
+  "analysis": {
+    "owner": "hwdsl2",
+    "repo": "setup-ipsec-vpn",
+    "version": "HEAD",
+    "loc": 6647,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:05:54.524098+00:00",
+    "repo_url": "https://github.com/hwdsl2/setup-ipsec-vpn.git",
+    "ref": "HEAD",
+    "commit_hash": "c1d96987fe575b15dc27a6f8b1615fd0dd3499f7",
+    "clone_duration_seconds": 2.1645169258117676,
+    "count_duration_seconds": 0.007216930389404297,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

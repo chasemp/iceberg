@@ -1,0 +1,16 @@
+{
+  "owner": "algorithm-visualizer",
+  "repo": "algorithm-visualizer",
+  "full_name": "algorithm-visualizer/algorithm-visualizer",
+  "root_package": "npm:@algorithm-visualizer/algorithm-visualizer:2.0.0",
+  "nodes": [
+    {
+      "id": "npm:@algorithm-visualizer/algorithm-visualizer:2.0.0",
+      "system": "npm",
+      "name": "@algorithm-visualizer/algorithm-visualizer",
+      "version": "2.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.081591+00:00"
+}

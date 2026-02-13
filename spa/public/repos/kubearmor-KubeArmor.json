@@ -1,0 +1,19 @@
+{
+  "owner": "kubearmor",
+  "repo": "KubeArmor",
+  "full_name": "kubearmor/KubeArmor",
+  "url": "https://github.com/kubearmor/KubeArmor",
+  "analysis": {
+    "owner": "kubearmor",
+    "repo": "KubeArmor",
+    "version": "HEAD",
+    "loc": 42804,
+    "source": "github_clone",
+    "cached_at": "2026-02-13T07:49:22.553494+00:00",
+    "repo_url": "https://github.com/kubearmor/KubeArmor.git",
+    "ref": "HEAD",
+    "commit_hash": "dbc21da1bea9faae60cdc76965000d99f96eaed4",
+    "clone_duration_seconds": 0.8653533458709717,
+    "count_duration_seconds": 0.04501986503601074
+  }
+}

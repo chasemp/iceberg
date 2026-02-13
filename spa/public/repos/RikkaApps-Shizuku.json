@@ -1,0 +1,29 @@
+{
+  "owner": "RikkaApps",
+  "repo": "Shizuku",
+  "full_name": "RikkaApps/Shizuku",
+  "url": "https://github.com/RikkaApps/Shizuku",
+  "analysis": {
+    "owner": "RikkaApps",
+    "repo": "Shizuku",
+    "version": "HEAD",
+    "loc": 6977,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:38:34.284588+00:00",
+    "repo_url": "https://github.com/RikkaApps/Shizuku.git",
+    "ref": "HEAD",
+    "commit_hash": "b844bc491f1790c72328e1a8e5b2349f8978f0ea",
+    "clone_duration_seconds": 1.1110150814056396,
+    "count_duration_seconds": 0.0304410457611084,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

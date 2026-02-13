@@ -1,0 +1,16 @@
+{
+  "owner": "shadcn-ui",
+  "repo": "ui",
+  "full_name": "shadcn-ui/ui",
+  "root_package": "npm:ui:0.0.1",
+  "nodes": [
+    {
+      "id": "npm:ui:0.0.1",
+      "system": "npm",
+      "name": "ui",
+      "version": "0.0.1"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.036927+00:00"
+}

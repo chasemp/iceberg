@@ -1,0 +1,19 @@
+{
+  "owner": "nvim-telescope",
+  "repo": "telescope.nvim",
+  "full_name": "nvim-telescope/telescope.nvim",
+  "url": "https://github.com/nvim-telescope/telescope.nvim",
+  "analysis": {
+    "owner": "nvim-telescope",
+    "repo": "telescope.nvim",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:14:57.298343+00:00",
+    "repo_url": "https://github.com/nvim-telescope/telescope.nvim.git",
+    "ref": "HEAD",
+    "commit_hash": "ad7d9580338354ccc136e5b8f0aa4f880434dcdc",
+    "clone_duration_seconds": 0.9470360279083252,
+    "count_duration_seconds": 0.005038022994995117
+  }
+}

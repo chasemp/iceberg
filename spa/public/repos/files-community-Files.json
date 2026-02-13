@@ -1,0 +1,29 @@
+{
+  "owner": "files-community",
+  "repo": "Files",
+  "full_name": "files-community/Files",
+  "url": "https://github.com/files-community/Files",
+  "analysis": {
+    "owner": "files-community",
+    "repo": "Files",
+    "version": "HEAD",
+    "loc": 91878,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:21:23.448232+00:00",
+    "repo_url": "https://github.com/files-community/Files.git",
+    "ref": "HEAD",
+    "commit_hash": "62aa6ab643a8f9204ab33e65ce4793e15fa1949a",
+    "clone_duration_seconds": 3.981924057006836,
+    "count_duration_seconds": 0.31964588165283203,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

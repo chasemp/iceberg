@@ -1,0 +1,16 @@
+{
+  "owner": "sherlock-project",
+  "repo": "sherlock",
+  "full_name": "sherlock-project/sherlock",
+  "root_package": "pypi:sherlock-project:0.16.0",
+  "nodes": [
+    {
+      "id": "pypi:sherlock-project:0.16.0",
+      "system": "pypi",
+      "name": "sherlock-project",
+      "version": "0.16.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.000708+00:00"
+}

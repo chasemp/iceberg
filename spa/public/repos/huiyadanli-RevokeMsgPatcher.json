@@ -1,0 +1,29 @@
+{
+  "owner": "huiyadanli",
+  "repo": "RevokeMsgPatcher",
+  "full_name": "huiyadanli/RevokeMsgPatcher",
+  "url": "https://github.com/huiyadanli/RevokeMsgPatcher",
+  "analysis": {
+    "owner": "huiyadanli",
+    "repo": "RevokeMsgPatcher",
+    "version": "HEAD",
+    "loc": 6593,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:22:01.158727+00:00",
+    "repo_url": "https://github.com/huiyadanli/RevokeMsgPatcher.git",
+    "ref": "HEAD",
+    "commit_hash": "06fec2942b77a986c2f1c7a4c6e19c69aa828fb6",
+    "clone_duration_seconds": 1.3265299797058105,
+    "count_duration_seconds": 0.013421773910522461,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

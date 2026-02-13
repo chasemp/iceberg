@@ -1,0 +1,34 @@
+{
+  "owner": "junegunn",
+  "repo": "fzf",
+  "full_name": "junegunn/fzf",
+  "url": "https://github.com/junegunn/fzf",
+  "analysis": {
+    "owner": "junegunn",
+    "repo": "fzf",
+    "version": "HEAD",
+    "loc": 24505,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:22:47.170620+00:00",
+    "package": {
+      "system": "go",
+      "name": "github.com/junegunn/fzf",
+      "version": "v0.0.0"
+    },
+    "repo_url": "https://github.com/junegunn/fzf.git",
+    "ref": "HEAD",
+    "commit_hash": "0e859a18ed399dc4d9d15be6e462f6c4b4e02358",
+    "clone_duration_seconds": 0.9816529750823975,
+    "count_duration_seconds": 0.016101837158203125,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

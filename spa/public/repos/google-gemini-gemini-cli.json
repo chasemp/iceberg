@@ -1,0 +1,36 @@
+{
+  "owner": "google-gemini",
+  "repo": "gemini-cli",
+  "full_name": "google-gemini/gemini-cli",
+  "url": "https://github.com/google-gemini/gemini-cli",
+  "analysis": {
+    "owner": "google-gemini",
+    "repo": "gemini-cli",
+    "version": "HEAD",
+    "loc": 342962,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:49:21.577386+00:00",
+    "package": {
+      "system": "npm",
+      "name": "@google/gemini-cli",
+      "version": "0.30.0-nightly.20260210.a2174751d"
+    },
+    "total_loc": 4645,
+    "ratio": 0.013362791888540795,
+    "repo_url": "https://github.com/google-gemini/gemini-cli.git",
+    "ref": "HEAD",
+    "commit_hash": "6d3fff2ea445c18348c76feb72f524f2b685be21",
+    "clone_duration_seconds": 3.2887749671936035,
+    "count_duration_seconds": 0.1863408088684082,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

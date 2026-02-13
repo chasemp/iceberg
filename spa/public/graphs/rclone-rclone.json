@@ -1,0 +1,16 @@
+{
+  "owner": "rclone",
+  "repo": "rclone",
+  "full_name": "rclone/rclone",
+  "root_package": "go:github.com/rclone/rclone:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/rclone/rclone:v0.0.0",
+      "system": "go",
+      "name": "github.com/rclone/rclone",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.028392+00:00"
+}

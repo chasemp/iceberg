@@ -1,0 +1,16 @@
+{
+  "owner": "open-webui",
+  "repo": "open-webui",
+  "full_name": "open-webui/open-webui",
+  "root_package": "npm:open-webui:0.7.2",
+  "nodes": [
+    {
+      "id": "npm:open-webui:0.7.2",
+      "system": "npm",
+      "name": "open-webui",
+      "version": "0.7.2"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.022734+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "owner": "mozilla",
+  "repo": "pdf.js",
+  "full_name": "mozilla/pdf.js",
+  "url": "https://github.com/mozilla/pdf.js",
+  "analysis": {
+    "owner": "mozilla",
+    "repo": "pdf.js",
+    "version": "HEAD",
+    "loc": 131375,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:52:39.548479+00:00",
+    "total_loc": 26501,
+    "ratio": 0.16785958600420584,
+    "repo_url": "https://github.com/mozilla/pdf.js.git",
+    "ref": "HEAD",
+    "commit_hash": "1c12b0772600da2e710d3b6a4406a67b6f4aedb8",
+    "clone_duration_seconds": 20.491732835769653,
+    "count_duration_seconds": 0.08340907096862793,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "owner": "mmistakes",
+  "repo": "minimal-mistakes",
+  "full_name": "mmistakes/minimal-mistakes",
+  "url": "https://github.com/mmistakes/minimal-mistakes",
+  "analysis": {
+    "owner": "mmistakes",
+    "repo": "minimal-mistakes",
+    "version": "HEAD",
+    "loc": 4615,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T16:04:20.382393+00:00",
+    "package": {
+      "system": "npm",
+      "name": "minimal-mistakes",
+      "version": "4.27.3"
+    },
+    "repo_url": "https://github.com/mmistakes/minimal-mistakes.git",
+    "ref": "HEAD",
+    "commit_hash": "33117d88a5c875783c8bfbc50ff07c96dcdafe2b",
+    "clone_duration_seconds": 2.259547233581543,
+    "count_duration_seconds": 0.015549898147583008,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

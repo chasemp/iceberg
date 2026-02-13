@@ -1,0 +1,34 @@
+{
+  "owner": "supabase",
+  "repo": "supabase",
+  "full_name": "supabase/supabase",
+  "url": "https://github.com/supabase/supabase",
+  "analysis": {
+    "owner": "supabase",
+    "repo": "supabase",
+    "version": "HEAD",
+    "loc": 657585,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:48:33.962911+00:00",
+    "package": {
+      "system": "npm",
+      "name": "supabase",
+      "version": "0.0.0"
+    },
+    "repo_url": "https://github.com/supabase/supabase.git",
+    "ref": "HEAD",
+    "commit_hash": "6b805289c7701d47f1dac0df3402cf481804220d",
+    "clone_duration_seconds": 55.396522998809814,
+    "count_duration_seconds": 0.7122418880462646,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

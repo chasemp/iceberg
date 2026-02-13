@@ -1,0 +1,36 @@
+{
+  "owner": "sharkdp",
+  "repo": "bat",
+  "full_name": "sharkdp/bat",
+  "url": "https://github.com/sharkdp/bat",
+  "analysis": {
+    "owner": "sharkdp",
+    "repo": "bat",
+    "version": "HEAD",
+    "loc": 8452,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:32:26.211127+00:00",
+    "package": {
+      "system": "cargo",
+      "name": "bat",
+      "version": "0.26.1"
+    },
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/sharkdp/bat.git",
+    "ref": "v0.26.1",
+    "commit_hash": "979ba22628bc9d8171f2cffca2bd5c90c9fc0a9e",
+    "clone_duration_seconds": 1.435945987701416,
+    "count_duration_seconds": 0.06125783920288086,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

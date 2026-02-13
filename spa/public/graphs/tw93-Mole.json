@@ -1,0 +1,16 @@
+{
+  "owner": "tw93",
+  "repo": "Mole",
+  "full_name": "tw93/Mole",
+  "root_package": "go:github.com/tw93/mole:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/tw93/mole:v0.0.0",
+      "system": "go",
+      "name": "github.com/tw93/mole",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.078445+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "owner": "fish-shell",
+  "repo": "fish-shell",
+  "full_name": "fish-shell/fish-shell",
+  "root_package": "pypi:fish-shell:0.0.0",
+  "nodes": [
+    {
+      "id": "pypi:fish-shell:0.0.0",
+      "system": "pypi",
+      "name": "fish-shell",
+      "version": "0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.118303+00:00"
+}

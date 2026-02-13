@@ -1,0 +1,29 @@
+{
+  "owner": "ComposioHQ",
+  "repo": "awesome-claude-skills",
+  "full_name": "ComposioHQ/awesome-claude-skills",
+  "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+  "analysis": {
+    "owner": "ComposioHQ",
+    "repo": "awesome-claude-skills",
+    "version": "HEAD",
+    "loc": 12732,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:02:40.722043+00:00",
+    "repo_url": "https://github.com/ComposioHQ/awesome-claude-skills.git",
+    "ref": "HEAD",
+    "commit_hash": "e762a98bd93f34c22926c7cf6ae7c9bb59ea9d5b",
+    "clone_duration_seconds": 1.6243619918823242,
+    "count_duration_seconds": 0.08676981925964355,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

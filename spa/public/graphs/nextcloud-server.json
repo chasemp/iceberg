@@ -1,0 +1,16 @@
+{
+  "owner": "nextcloud",
+  "repo": "server",
+  "full_name": "nextcloud/server",
+  "root_package": "npm:nextcloud:1.0.0",
+  "nodes": [
+    {
+      "id": "npm:nextcloud:1.0.0",
+      "system": "npm",
+      "name": "nextcloud",
+      "version": "1.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:11.996865+00:00"
+}

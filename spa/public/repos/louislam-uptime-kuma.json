@@ -1,0 +1,40 @@
+{
+  "owner": "louislam",
+  "repo": "uptime-kuma",
+  "full_name": "louislam/uptime-kuma",
+  "url": "https://github.com/louislam/uptime-kuma",
+  "analysis": {
+    "owner": "louislam",
+    "repo": "uptime-kuma",
+    "version": "HEAD",
+    "loc": 24926,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:44:02.176691+00:00",
+    "package": {
+      "system": "npm",
+      "name": "uptime-kuma",
+      "version": "2.1.0-beta.3"
+    },
+    "total_loc": 103649,
+    "ratio": 0.8061364962084386,
+    "repo_url": "https://github.com/louislam/uptime-kuma.git",
+    "ref": "HEAD",
+    "commit_hash": "574d42ca51cd5ed7ad6893aa92ae180dcdae6ca3",
+    "clone_duration_seconds": 1.9254028797149658,
+    "count_duration_seconds": 0.03455376625061035,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

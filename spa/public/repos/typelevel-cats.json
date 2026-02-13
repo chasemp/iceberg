@@ -1,0 +1,29 @@
+{
+  "owner": "typelevel",
+  "repo": "cats",
+  "full_name": "typelevel/cats",
+  "url": "https://github.com/typelevel/cats",
+  "analysis": {
+    "owner": "typelevel",
+    "repo": "cats",
+    "version": "HEAD",
+    "loc": 35327,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:32:39.215482+00:00",
+    "repo_url": "https://github.com/typelevel/cats.git",
+    "ref": "HEAD",
+    "commit_hash": "2e090df09c67aa6f69ed71a373c1aa33a4824f91",
+    "clone_duration_seconds": 1.5160818099975586,
+    "count_duration_seconds": 0.09952998161315918,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

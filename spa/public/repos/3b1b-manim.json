@@ -1,0 +1,33 @@
+{
+  "owner": "3b1b",
+  "repo": "manim",
+  "full_name": "3b1b/manim",
+  "url": "https://github.com/3b1b/manim",
+  "analysis": {
+    "owner": "3b1b",
+    "repo": "manim",
+    "version": "HEAD",
+    "loc": 19014,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T01:07:15.220890+00:00",
+    "repo_url": "https://github.com/3b1b/manim.git",
+    "ref": "HEAD",
+    "commit_hash": "e5298385edabb34a09cf63743c1a4ec983f1ab11",
+    "clone_duration_seconds": 1.3666589260101318,
+    "count_duration_seconds": 0.017993927001953125,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

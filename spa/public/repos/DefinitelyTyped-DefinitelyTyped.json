@@ -1,0 +1,38 @@
+{
+  "owner": "DefinitelyTyped",
+  "repo": "DefinitelyTyped",
+  "full_name": "DefinitelyTyped/DefinitelyTyped",
+  "url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+  "analysis": {
+    "owner": "DefinitelyTyped",
+    "repo": "DefinitelyTyped",
+    "version": "HEAD",
+    "loc": 2766961,
+    "source": "github_clone",
+    "cached_at": "2026-02-09T20:22:04.560044+00:00",
+    "package": {
+      "system": "npm",
+      "name": "definitely-typed",
+      "version": "0.0.3"
+    },
+    "repo_url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "ref": "HEAD",
+    "commit_hash": "95c727ac6ff4dfa56699b456e6411e1eac718f05",
+    "clone_duration_seconds": 15.827778100967407,
+    "count_duration_seconds": 4.376791954040527,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "github-ranking-top-100-forks",
+    "tracked": false,
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

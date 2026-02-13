@@ -1,0 +1,16 @@
+{
+  "owner": "apache",
+  "repo": "spark",
+  "full_name": "apache/spark",
+  "root_package": "maven:apache:34",
+  "nodes": [
+    {
+      "id": "maven:apache:34",
+      "system": "maven",
+      "name": "apache",
+      "version": "34"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.125982+00:00"
+}

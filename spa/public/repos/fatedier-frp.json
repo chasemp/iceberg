@@ -1,0 +1,34 @@
+{
+  "owner": "fatedier",
+  "repo": "frp",
+  "full_name": "fatedier/frp",
+  "url": "https://github.com/fatedier/frp",
+  "analysis": {
+    "owner": "fatedier",
+    "repo": "frp",
+    "version": "HEAD",
+    "loc": 20869,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:45:05.906648+00:00",
+    "package": {
+      "system": "go",
+      "name": "github.com/fatedier/frp",
+      "version": "v0.0.0"
+    },
+    "repo_url": "https://github.com/fatedier/frp.git",
+    "ref": "HEAD",
+    "commit_hash": "519368b1fd22bd180baba3da6f4c3f46816f600b",
+    "clone_duration_seconds": 1.7533330917358398,
+    "count_duration_seconds": 0.03342795372009277,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

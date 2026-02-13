@@ -1,0 +1,16 @@
+{
+  "owner": "NexClipper",
+  "repo": "NexClipper",
+  "full_name": "NexClipper/NexClipper",
+  "root_package": "go:github.com/NexClipper/NexClipper:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/NexClipper/NexClipper:v0.0.0",
+      "system": "go",
+      "name": "github.com/NexClipper/NexClipper",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:11.997985+00:00"
+}

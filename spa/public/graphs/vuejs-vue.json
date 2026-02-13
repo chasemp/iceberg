@@ -1,0 +1,16 @@
+{
+  "owner": "vuejs",
+  "repo": "vue",
+  "full_name": "vuejs/vue",
+  "root_package": "npm:vue:2.7.16",
+  "nodes": [
+    {
+      "id": "npm:vue:2.7.16",
+      "system": "npm",
+      "name": "vue",
+      "version": "2.7.16"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.039609+00:00"
+}

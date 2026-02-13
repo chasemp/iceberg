@@ -1,0 +1,16 @@
+{
+  "owner": "etcd-io",
+  "repo": "etcd",
+  "full_name": "etcd-io/etcd",
+  "root_package": "go:go.etcd.io/etcd/v3:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:go.etcd.io/etcd/v3:v0.0.0",
+      "system": "go",
+      "name": "go.etcd.io/etcd/v3",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.072868+00:00"
+}

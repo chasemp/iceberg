@@ -1,0 +1,34 @@
+{
+  "owner": "ollama",
+  "repo": "ollama",
+  "full_name": "ollama/ollama",
+  "url": "https://github.com/ollama/ollama",
+  "analysis": {
+    "owner": "ollama",
+    "repo": "ollama",
+    "version": "HEAD",
+    "loc": 338524,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:35:27.219203+00:00",
+    "package": {
+      "system": "go",
+      "name": "github.com/ollama/ollama",
+      "version": "v0.0.0"
+    },
+    "repo_url": "https://github.com/ollama/ollama.git",
+    "ref": "HEAD",
+    "commit_hash": "44bdd9a2ef3b3890e26a9fe2024e57bde705663e",
+    "clone_duration_seconds": 2.925015926361084,
+    "count_duration_seconds": 0.1551809310913086,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

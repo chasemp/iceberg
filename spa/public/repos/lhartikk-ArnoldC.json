@@ -1,0 +1,29 @@
+{
+  "owner": "lhartikk",
+  "repo": "ArnoldC",
+  "full_name": "lhartikk/ArnoldC",
+  "url": "https://github.com/lhartikk/ArnoldC",
+  "analysis": {
+    "owner": "lhartikk",
+    "repo": "ArnoldC",
+    "version": "HEAD",
+    "loc": 871,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:31:32.897141+00:00",
+    "repo_url": "https://github.com/lhartikk/ArnoldC.git",
+    "ref": "HEAD",
+    "commit_hash": "3dd905be59525f0b9a04e0baa6fd6acab09db8ea",
+    "clone_duration_seconds": 0.880640983581543,
+    "count_duration_seconds": 0.005796909332275391,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

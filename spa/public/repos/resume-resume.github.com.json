@@ -1,0 +1,33 @@
+{
+  "owner": "resume",
+  "repo": "resume.github.com",
+  "full_name": "resume/resume.github.com",
+  "url": "https://github.com/resume/resume.github.com",
+  "analysis": {
+    "owner": "resume",
+    "repo": "resume.github.com",
+    "version": "HEAD",
+    "loc": 486,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:45:36.410321+00:00",
+    "repo_url": "https://github.com/resume/resume.github.com.git",
+    "ref": "HEAD",
+    "commit_hash": "f5990756495bfd6d86495733bfb238c96771cbbf",
+    "clone_duration_seconds": 0.8738491535186768,
+    "count_duration_seconds": 0.0022041797637939453,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

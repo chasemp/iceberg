@@ -1,0 +1,29 @@
+{
+  "owner": "nomic-ai",
+  "repo": "gpt4all",
+  "full_name": "nomic-ai/gpt4all",
+  "url": "https://github.com/nomic-ai/gpt4all",
+  "analysis": {
+    "owner": "nomic-ai",
+    "repo": "gpt4all",
+    "version": "HEAD",
+    "loc": 43753,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:17:18.704339+00:00",
+    "repo_url": "https://github.com/nomic-ai/gpt4all.git",
+    "ref": "HEAD",
+    "commit_hash": "b666d16db5aeab8b91aaf7963adcee9c643734d7",
+    "clone_duration_seconds": 3.832812786102295,
+    "count_duration_seconds": 0.021658897399902344,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

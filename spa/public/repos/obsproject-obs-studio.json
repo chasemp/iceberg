@@ -1,0 +1,29 @@
+{
+  "owner": "obsproject",
+  "repo": "obs-studio",
+  "full_name": "obsproject/obs-studio",
+  "url": "https://github.com/obsproject/obs-studio",
+  "analysis": {
+    "owner": "obsproject",
+    "repo": "obs-studio",
+    "version": "HEAD",
+    "loc": 266963,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T14:58:52.551805+00:00",
+    "repo_url": "https://github.com/obsproject/obs-studio.git",
+    "ref": "HEAD",
+    "commit_hash": "8752a20830895258bc4819ea501f28a1bfaa78cf",
+    "clone_duration_seconds": 3.5661251544952393,
+    "count_duration_seconds": 0.20273494720458984,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

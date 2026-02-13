@@ -1,0 +1,31 @@
+{
+  "owner": "discourse",
+  "repo": "discourse",
+  "full_name": "discourse/discourse",
+  "url": "https://github.com/discourse/discourse",
+  "analysis": {
+    "owner": "discourse",
+    "repo": "discourse",
+    "version": "HEAD",
+    "loc": 438816,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:36:48.351869+00:00",
+    "total_loc": 136577,
+    "ratio": 0.23736298495115513,
+    "repo_url": "https://github.com/discourse/discourse.git",
+    "ref": "HEAD",
+    "commit_hash": "71eb65a15ee8d3ed7cbf5222b23e007cf56337c5",
+    "clone_duration_seconds": 15.620787858963013,
+    "count_duration_seconds": 2.6798269748687744,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

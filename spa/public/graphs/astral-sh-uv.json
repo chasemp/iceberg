@@ -1,0 +1,16 @@
+{
+  "owner": "astral-sh",
+  "repo": "uv",
+  "full_name": "astral-sh/uv",
+  "root_package": "pypi:uv:0.10.2",
+  "nodes": [
+    {
+      "id": "pypi:uv:0.10.2",
+      "system": "pypi",
+      "name": "uv",
+      "version": "0.10.2"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.019195+00:00"
+}

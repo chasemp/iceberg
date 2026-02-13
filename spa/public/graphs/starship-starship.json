@@ -1,0 +1,16 @@
+{
+  "owner": "starship",
+  "repo": "starship",
+  "full_name": "starship/starship",
+  "root_package": "cargo:starship:1.24.2",
+  "nodes": [
+    {
+      "id": "cargo:starship:1.24.2",
+      "system": "cargo",
+      "name": "starship",
+      "version": "1.24.2"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.036594+00:00"
+}

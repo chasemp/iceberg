@@ -1,0 +1,16 @@
+{
+  "owner": "likec4",
+  "repo": "likec4",
+  "full_name": "likec4/likec4",
+  "root_package": "npm:root:1.48.0",
+  "nodes": [
+    {
+      "id": "npm:root:1.48.0",
+      "system": "npm",
+      "name": "root",
+      "version": "1.48.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.009599+00:00"
+}

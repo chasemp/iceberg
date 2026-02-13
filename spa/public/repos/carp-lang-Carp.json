@@ -1,0 +1,29 @@
+{
+  "owner": "carp-lang",
+  "repo": "Carp",
+  "full_name": "carp-lang/Carp",
+  "url": "https://github.com/carp-lang/Carp",
+  "analysis": {
+    "owner": "carp-lang",
+    "repo": "Carp",
+    "version": "HEAD",
+    "loc": 2571,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:08:38.108347+00:00",
+    "repo_url": "https://github.com/carp-lang/Carp.git",
+    "ref": "HEAD",
+    "commit_hash": "62adb3012bdbfec0ca00a22939d89fad0eccc863",
+    "clone_duration_seconds": 1.320812702178955,
+    "count_duration_seconds": 0.010030031204223633,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

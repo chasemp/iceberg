@@ -1,0 +1,16 @@
+{
+  "owner": "piraeusdatastore",
+  "repo": "piraeus-operator",
+  "full_name": "piraeusdatastore/piraeus-operator",
+  "root_package": "go:github.com/piraeusdatastore/piraeus-operator:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/piraeusdatastore/piraeus-operator:v0.0.0",
+      "system": "go",
+      "name": "github.com/piraeusdatastore/piraeus-operator",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.108471+00:00"
+}

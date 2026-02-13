@@ -1,0 +1,36 @@
+{
+  "owner": "vuejs",
+  "repo": "vue",
+  "full_name": "vuejs/vue",
+  "url": "https://github.com/vuejs/vue",
+  "analysis": {
+    "owner": "vuejs",
+    "repo": "vue",
+    "version": "HEAD",
+    "loc": 23956,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:30:32.847312+00:00",
+    "package": {
+      "system": "npm",
+      "name": "vue",
+      "version": "2.7.16"
+    },
+    "total_loc": 58233,
+    "ratio": 0.7085254717784618,
+    "repo_url": "https://github.com/vuejs/vue.git",
+    "ref": "v2.7.16",
+    "commit_hash": "13f4e7dc03e2caed900ac70ff8b8fe58dda45663",
+    "clone_duration_seconds": 1.1487889289855957,
+    "count_duration_seconds": 0.025772809982299805,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

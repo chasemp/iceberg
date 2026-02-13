@@ -1,0 +1,16 @@
+{
+  "owner": "Mintplex-Labs",
+  "repo": "anything-llm",
+  "full_name": "Mintplex-Labs/anything-llm",
+  "root_package": "npm:anything-llm:1.10.0",
+  "nodes": [
+    {
+      "id": "npm:anything-llm:1.10.0",
+      "system": "npm",
+      "name": "anything-llm",
+      "version": "1.10.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.079486+00:00"
+}

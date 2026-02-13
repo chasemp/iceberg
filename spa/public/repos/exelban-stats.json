@@ -1,0 +1,29 @@
+{
+  "owner": "exelban",
+  "repo": "stats",
+  "full_name": "exelban/stats",
+  "url": "https://github.com/exelban/stats",
+  "analysis": {
+    "owner": "exelban",
+    "repo": "stats",
+    "version": "HEAD",
+    "loc": 29546,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:11:56.587177+00:00",
+    "repo_url": "https://github.com/exelban/stats.git",
+    "ref": "HEAD",
+    "commit_hash": "5d035a73d3b24b984baf8443fc9a31577129b25c",
+    "clone_duration_seconds": 2.8316280841827393,
+    "count_duration_seconds": 0.030099153518676758,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

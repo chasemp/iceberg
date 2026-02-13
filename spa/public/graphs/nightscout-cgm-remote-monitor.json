@@ -1,0 +1,16 @@
+{
+  "owner": "nightscout",
+  "repo": "cgm-remote-monitor",
+  "full_name": "nightscout/cgm-remote-monitor",
+  "root_package": "npm:nightscout:15.0.3",
+  "nodes": [
+    {
+      "id": "npm:nightscout:15.0.3",
+      "system": "npm",
+      "name": "nightscout",
+      "version": "15.0.3"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.100698+00:00"
+}

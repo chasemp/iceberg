@@ -1,0 +1,16 @@
+{
+  "owner": "remotion-dev",
+  "repo": "remotion",
+  "full_name": "remotion-dev/remotion",
+  "root_package": "npm:remotion-monorepo:0.0.0",
+  "nodes": [
+    {
+      "id": "npm:remotion-monorepo:0.0.0",
+      "system": "npm",
+      "name": "remotion-monorepo",
+      "version": "0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.094823+00:00"
+}

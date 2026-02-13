@@ -1,0 +1,16 @@
+{
+  "owner": "bevyengine",
+  "repo": "bevy",
+  "full_name": "bevyengine/bevy",
+  "root_package": "cargo:bevy:0.19.0-dev",
+  "nodes": [
+    {
+      "id": "cargo:bevy:0.19.0-dev",
+      "system": "cargo",
+      "name": "bevy",
+      "version": "0.19.0-dev"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.059299+00:00"
+}

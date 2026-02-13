@@ -1,0 +1,34 @@
+{
+  "owner": "kubernetes",
+  "repo": "kubernetes",
+  "full_name": "kubernetes/kubernetes",
+  "url": "https://github.com/kubernetes/kubernetes",
+  "analysis": {
+    "owner": "kubernetes",
+    "repo": "kubernetes",
+    "version": "HEAD",
+    "loc": 2422255,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:38:56.954599+00:00",
+    "package": {
+      "system": "go",
+      "name": "k8s.io/kubernetes",
+      "version": "v0.0.0"
+    },
+    "repo_url": "https://github.com/kubernetes/kubernetes.git",
+    "ref": "HEAD",
+    "commit_hash": "870e2928bc1d9a48a8ef75289ea57ec6cdeb5cb3",
+    "clone_duration_seconds": 13.59729814529419,
+    "count_duration_seconds": 1.8710620403289795,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

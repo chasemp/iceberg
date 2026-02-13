@@ -1,0 +1,29 @@
+{
+  "owner": "PowerShell",
+  "repo": "PowerShell",
+  "full_name": "PowerShell/PowerShell",
+  "url": "https://github.com/PowerShell/PowerShell",
+  "analysis": {
+    "owner": "PowerShell",
+    "repo": "PowerShell",
+    "version": "HEAD",
+    "loc": 484969,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:21:01.294570+00:00",
+    "repo_url": "https://github.com/PowerShell/PowerShell.git",
+    "ref": "HEAD",
+    "commit_hash": "439c42f232fd3e6793425be65aabc942f044cdce",
+    "clone_duration_seconds": 3.8839869499206543,
+    "count_duration_seconds": 0.8244988918304443,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

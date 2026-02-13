@@ -1,0 +1,31 @@
+{
+  "owner": "firezone",
+  "repo": "firezone",
+  "full_name": "firezone/firezone",
+  "url": "https://github.com/firezone/firezone",
+  "analysis": {
+    "owner": "firezone",
+    "repo": "firezone",
+    "version": "HEAD",
+    "loc": 70266,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:07:51.009038+00:00",
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/firezone/firezone.git",
+    "ref": "HEAD",
+    "commit_hash": "aaecd5fc12e775fba5592511610014f9f7b2f9d7",
+    "clone_duration_seconds": 7.6844401359558105,
+    "count_duration_seconds": 0.14205503463745117,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

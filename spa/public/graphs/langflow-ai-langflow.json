@@ -1,0 +1,16 @@
+{
+  "owner": "langflow-ai",
+  "repo": "langflow",
+  "full_name": "langflow-ai/langflow",
+  "root_package": "pypi:langflow:1.8.0",
+  "nodes": [
+    {
+      "id": "pypi:langflow:1.8.0",
+      "system": "pypi",
+      "name": "langflow",
+      "version": "1.8.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.020999+00:00"
+}

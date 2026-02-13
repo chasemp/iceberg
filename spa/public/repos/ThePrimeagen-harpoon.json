@@ -1,0 +1,29 @@
+{
+  "owner": "ThePrimeagen",
+  "repo": "harpoon",
+  "full_name": "ThePrimeagen/harpoon",
+  "url": "https://github.com/ThePrimeagen/harpoon",
+  "analysis": {
+    "owner": "ThePrimeagen",
+    "repo": "harpoon",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:18:20.959364+00:00",
+    "repo_url": "https://github.com/ThePrimeagen/harpoon.git",
+    "ref": "HEAD",
+    "commit_hash": "1bc17e3e42ea3c46b33c0bbad6a880792692a1b3",
+    "clone_duration_seconds": 1.059999942779541,
+    "count_duration_seconds": 0.0030341148376464844,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

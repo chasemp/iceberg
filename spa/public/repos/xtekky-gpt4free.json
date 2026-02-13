@@ -1,0 +1,33 @@
+{
+  "owner": "xtekky",
+  "repo": "gpt4free",
+  "full_name": "xtekky/gpt4free",
+  "url": "https://github.com/xtekky/gpt4free",
+  "analysis": {
+    "owner": "xtekky",
+    "repo": "gpt4free",
+    "version": "HEAD",
+    "loc": 40059,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T01:14:52.575971+00:00",
+    "repo_url": "https://github.com/xtekky/gpt4free.git",
+    "ref": "HEAD",
+    "commit_hash": "20637d600400807e591d6939de287b5cb36daf3b",
+    "clone_duration_seconds": 1.3870480060577393,
+    "count_duration_seconds": 0.028980016708374023,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

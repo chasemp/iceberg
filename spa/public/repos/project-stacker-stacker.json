@@ -1,0 +1,24 @@
+{
+  "owner": "project-stacker",
+  "repo": "stacker",
+  "full_name": "project-stacker/stacker",
+  "url": "https://github.com/project-stacker/stacker",
+  "analysis": {
+    "owner": "project-stacker",
+    "repo": "stacker",
+    "version": "HEAD",
+    "loc": 9011,
+    "source": "github_clone",
+    "cached_at": "2026-02-13T07:54:20.862252+00:00",
+    "package": {
+      "system": "go",
+      "name": "stackerbuild.io/stacker",
+      "version": "v0.0.0"
+    },
+    "repo_url": "https://github.com/project-stacker/stacker.git",
+    "ref": "HEAD",
+    "commit_hash": "ebb485566da56bd51b08e4b4016922f5276f937e",
+    "clone_duration_seconds": 0.4170844554901123,
+    "count_duration_seconds": 0.008945465087890625
+  }
+}

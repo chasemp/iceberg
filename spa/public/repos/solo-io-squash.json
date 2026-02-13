@@ -1,0 +1,21 @@
+{
+  "owner": "solo-io",
+  "repo": "squash",
+  "full_name": "solo-io/squash",
+  "url": "https://github.com/solo-io/squash",
+  "analysis": {
+    "owner": "solo-io",
+    "repo": "squash",
+    "version": "HEAD",
+    "loc": 31927,
+    "source": "github_clone",
+    "cached_at": "2026-02-13T07:58:06.356344+00:00",
+    "total_loc": 20961,
+    "ratio": 0.39632808954772347,
+    "repo_url": "https://github.com/solo-io/squash.git",
+    "ref": "HEAD",
+    "commit_hash": "65d0dcc389a658da2f35bd7b782759d6f66c394d",
+    "clone_duration_seconds": 0.3745548725128174,
+    "count_duration_seconds": 0.0198667049407959
+  }
+}

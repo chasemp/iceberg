@@ -1,0 +1,31 @@
+{
+  "owner": "grpc",
+  "repo": "grpc",
+  "full_name": "grpc/grpc",
+  "url": "https://github.com/grpc/grpc",
+  "analysis": {
+    "owner": "grpc",
+    "repo": "grpc",
+    "version": "HEAD",
+    "loc": 453958,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:21:04.706490+00:00",
+    "total_loc": 49140,
+    "ratio": 0.09767480689646947,
+    "repo_url": "https://github.com/grpc/grpc.git",
+    "ref": "HEAD",
+    "commit_hash": "3151eefe26976c60f2ddd9bf74513dd0152136ea",
+    "clone_duration_seconds": 5.880772113800049,
+    "count_duration_seconds": 0.7884712219238281,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

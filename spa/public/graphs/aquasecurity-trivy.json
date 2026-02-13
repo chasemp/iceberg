@@ -1,0 +1,16 @@
+{
+  "owner": "aquasecurity",
+  "repo": "trivy",
+  "full_name": "aquasecurity/trivy",
+  "root_package": "go:github.com/aquasecurity/trivy:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/aquasecurity/trivy:v0.0.0",
+      "system": "go",
+      "name": "github.com/aquasecurity/trivy",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:11.996346+00:00"
+}

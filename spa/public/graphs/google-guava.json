@@ -1,0 +1,16 @@
+{
+  "owner": "google",
+  "repo": "guava",
+  "full_name": "google/guava",
+  "root_package": "maven:guava-parent:999.0.0-HEAD-jre-SNAPSHOT",
+  "nodes": [
+    {
+      "id": "maven:guava-parent:999.0.0-HEAD-jre-SNAPSHOT",
+      "system": "maven",
+      "name": "guava-parent",
+      "version": "999.0.0-HEAD-jre-SNAPSHOT"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.040326+00:00"
+}

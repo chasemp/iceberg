@@ -1,0 +1,29 @@
+{
+  "owner": "JuliaLang",
+  "repo": "PackageCompiler.jl",
+  "full_name": "JuliaLang/PackageCompiler.jl",
+  "url": "https://github.com/JuliaLang/PackageCompiler.jl",
+  "analysis": {
+    "owner": "JuliaLang",
+    "repo": "PackageCompiler.jl",
+    "version": "HEAD",
+    "loc": 203,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:26:38.766333+00:00",
+    "repo_url": "https://github.com/JuliaLang/PackageCompiler.jl.git",
+    "ref": "HEAD",
+    "commit_hash": "bfa5939ac7f0f2c8d57e82cf3a37d98d975d8137",
+    "clone_duration_seconds": 0.9233489036560059,
+    "count_duration_seconds": 0.004892826080322266,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

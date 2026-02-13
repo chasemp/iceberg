@@ -1,0 +1,34 @@
+{
+  "owner": "trustwallet",
+  "repo": "assets",
+  "full_name": "trustwallet/assets",
+  "url": "https://github.com/trustwallet/assets",
+  "analysis": {
+    "owner": "trustwallet",
+    "repo": "assets",
+    "version": "HEAD",
+    "loc": 1606,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T16:06:41.913676+00:00",
+    "package": {
+      "system": "go",
+      "name": "github.com/trustwallet/assets",
+      "version": "v0.0.0"
+    },
+    "repo_url": "https://github.com/trustwallet/assets.git",
+    "ref": "HEAD",
+    "commit_hash": "2b12f9e38db288175b93d15a53a7a597f65846a9",
+    "clone_duration_seconds": 59.905585289001465,
+    "count_duration_seconds": 5.661640167236328,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

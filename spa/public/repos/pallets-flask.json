@@ -1,0 +1,40 @@
+{
+  "owner": "pallets",
+  "repo": "flask",
+  "full_name": "pallets/flask",
+  "url": "https://github.com/pallets/flask",
+  "analysis": {
+    "owner": "pallets",
+    "repo": "flask",
+    "version": "HEAD",
+    "loc": 7304,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T01:11:25.672521+00:00",
+    "package": {
+      "system": "pypi",
+      "name": "Flask",
+      "version": "3.2.0.dev"
+    },
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/pallets/flask.git",
+    "ref": "HEAD",
+    "commit_hash": "798e006f435887adceb6aab9b57cde8e20276793",
+    "clone_duration_seconds": 1.1866648197174072,
+    "count_duration_seconds": 0.01094198226928711,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

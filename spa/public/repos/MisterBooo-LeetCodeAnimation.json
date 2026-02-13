@@ -1,0 +1,29 @@
+{
+  "owner": "MisterBooo",
+  "repo": "LeetCodeAnimation",
+  "full_name": "MisterBooo/LeetCodeAnimation",
+  "url": "https://github.com/MisterBooo/LeetCodeAnimation",
+  "analysis": {
+    "owner": "MisterBooo",
+    "repo": "LeetCodeAnimation",
+    "version": "HEAD",
+    "loc": 349,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:41:13.658203+00:00",
+    "repo_url": "https://github.com/MisterBooo/LeetCodeAnimation.git",
+    "ref": "HEAD",
+    "commit_hash": "fd42771f5e384625b4d4699becd09a09d0503211",
+    "clone_duration_seconds": 39.65114974975586,
+    "count_duration_seconds": 0.027811765670776367,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

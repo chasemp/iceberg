@@ -1,0 +1,16 @@
+{
+  "owner": "facebook",
+  "repo": "react-native",
+  "full_name": "facebook/react-native",
+  "root_package": "npm:@react-native/monorepo:1000.0.0",
+  "nodes": [
+    {
+      "id": "npm:@react-native/monorepo:1000.0.0",
+      "system": "npm",
+      "name": "@react-native/monorepo",
+      "version": "1000.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.087571+00:00"
+}

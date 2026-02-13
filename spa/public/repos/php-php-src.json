@@ -1,0 +1,29 @@
+{
+  "owner": "php",
+  "repo": "php-src",
+  "full_name": "php/php-src",
+  "url": "https://github.com/php/php-src",
+  "analysis": {
+    "owner": "php",
+    "repo": "php-src",
+    "version": "HEAD",
+    "loc": 1585519,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:00:01.621142+00:00",
+    "repo_url": "https://github.com/php/php-src.git",
+    "ref": "HEAD",
+    "commit_hash": "66d908f112f309c19392e00fbff9a2d0f473c1eb",
+    "clone_duration_seconds": 9.652050971984863,
+    "count_duration_seconds": 0.6697840690612793,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

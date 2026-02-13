@@ -1,0 +1,16 @@
+{
+  "owner": "dbeaver",
+  "repo": "dbeaver",
+  "full_name": "dbeaver/dbeaver",
+  "root_package": "maven:com.dbeaver.common.main:2.6.0-SNAPSHOT",
+  "nodes": [
+    {
+      "id": "maven:com.dbeaver.common.main:2.6.0-SNAPSHOT",
+      "system": "maven",
+      "name": "com.dbeaver.common.main",
+      "version": "2.6.0-SNAPSHOT"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.047039+00:00"
+}

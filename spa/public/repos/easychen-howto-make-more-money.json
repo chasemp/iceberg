@@ -1,0 +1,29 @@
+{
+  "owner": "easychen",
+  "repo": "howto-make-more-money",
+  "full_name": "easychen/howto-make-more-money",
+  "url": "https://github.com/easychen/howto-make-more-money",
+  "analysis": {
+    "owner": "easychen",
+    "repo": "howto-make-more-money",
+    "version": "HEAD",
+    "loc": 527,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:24:13.561235+00:00",
+    "repo_url": "https://github.com/easychen/howto-make-more-money.git",
+    "ref": "HEAD",
+    "commit_hash": "3d22c65c7b34c90ef351530023090205af3ad572",
+    "clone_duration_seconds": 1.6408381462097168,
+    "count_duration_seconds": 0.0040340423583984375,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

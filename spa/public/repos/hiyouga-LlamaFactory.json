@@ -1,0 +1,38 @@
+{
+  "owner": "hiyouga",
+  "repo": "LlamaFactory",
+  "full_name": "hiyouga/LlamaFactory",
+  "url": "https://github.com/hiyouga/LlamaFactory",
+  "analysis": {
+    "owner": "hiyouga",
+    "repo": "LlamaFactory",
+    "version": "HEAD",
+    "loc": 30798,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T01:14:17.181056+00:00",
+    "package": {
+      "system": "pypi",
+      "name": "llamafactory",
+      "version": "py311"
+    },
+    "repo_url": "https://github.com/hiyouga/LlamaFactory.git",
+    "ref": "HEAD",
+    "commit_hash": "b53d7037c2a477efb01d57b3a88b3dcfa2b46515",
+    "clone_duration_seconds": 1.5789430141448975,
+    "count_duration_seconds": 0.029683828353881836,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

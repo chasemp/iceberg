@@ -1,0 +1,29 @@
+{
+  "owner": "oban-bg",
+  "repo": "oban",
+  "full_name": "oban-bg/oban",
+  "url": "https://github.com/oban-bg/oban",
+  "analysis": {
+    "owner": "oban-bg",
+    "repo": "oban",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:09:58.135141+00:00",
+    "repo_url": "https://github.com/oban-bg/oban.git",
+    "ref": "HEAD",
+    "commit_hash": "eb96a30b028aae93722322083b645314906e95d0",
+    "clone_duration_seconds": 1.0672650337219238,
+    "count_duration_seconds": 0.005617856979370117,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

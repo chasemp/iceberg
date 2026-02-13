@@ -1,0 +1,16 @@
+{
+  "owner": "nektos",
+  "repo": "act",
+  "full_name": "nektos/act",
+  "root_package": "go:github.com/nektos/act:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/nektos/act:v0.0.0",
+      "system": "go",
+      "name": "github.com/nektos/act",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.037404+00:00"
+}

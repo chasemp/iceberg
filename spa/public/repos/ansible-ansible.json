@@ -1,0 +1,35 @@
+{
+  "owner": "ansible",
+  "repo": "ansible",
+  "full_name": "ansible/ansible",
+  "url": "https://github.com/ansible/ansible",
+  "analysis": {
+    "owner": "ansible",
+    "repo": "ansible",
+    "version": "HEAD",
+    "loc": 104407,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T01:13:51.423128+00:00",
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/ansible/ansible.git",
+    "ref": "HEAD",
+    "commit_hash": "1e31c7c81985bd3cae3f9c17a4822d931432eb46",
+    "clone_duration_seconds": 3.1824843883514404,
+    "count_duration_seconds": 0.36751294136047363,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

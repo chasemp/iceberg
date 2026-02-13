@@ -1,0 +1,16 @@
+{
+  "owner": "moment",
+  "repo": "moment",
+  "full_name": "moment/moment",
+  "root_package": "npm:moment:2.30.1",
+  "nodes": [
+    {
+      "id": "npm:moment:2.30.1",
+      "system": "npm",
+      "name": "moment",
+      "version": "2.30.1"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.023648+00:00"
+}

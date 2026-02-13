@@ -1,0 +1,31 @@
+{
+  "owner": "square",
+  "repo": "leakcanary",
+  "full_name": "square/leakcanary",
+  "url": "https://github.com/square/leakcanary",
+  "analysis": {
+    "owner": "square",
+    "repo": "leakcanary",
+    "version": "HEAD",
+    "loc": 30825,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:37:10.774316+00:00",
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/square/leakcanary.git",
+    "ref": "HEAD",
+    "commit_hash": "6de01db2235d952e1bb0a00f10a4a804a8ae04ff",
+    "clone_duration_seconds": 4.724598169326782,
+    "count_duration_seconds": 0.07432341575622559,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "owner": "Semantic-Org",
+  "repo": "Semantic-UI",
+  "full_name": "Semantic-Org/Semantic-UI",
+  "url": "https://github.com/Semantic-Org/Semantic-UI",
+  "analysis": {
+    "owner": "Semantic-Org",
+    "repo": "Semantic-UI",
+    "version": "HEAD",
+    "loc": 26066,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:53:42.193610+00:00",
+    "package": {
+      "system": "npm",
+      "name": "semantic-ui",
+      "version": "2.5.0"
+    },
+    "repo_url": "https://github.com/Semantic-Org/Semantic-UI.git",
+    "ref": "HEAD",
+    "commit_hash": "597843ab84d565cccfd8fd7719416350ae73e734",
+    "clone_duration_seconds": 1.5778419971466064,
+    "count_duration_seconds": 0.029289960861206055,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

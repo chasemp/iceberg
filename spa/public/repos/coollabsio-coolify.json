@@ -1,0 +1,31 @@
+{
+  "owner": "coollabsio",
+  "repo": "coolify",
+  "full_name": "coollabsio/coolify",
+  "url": "https://github.com/coollabsio/coolify",
+  "analysis": {
+    "owner": "coollabsio",
+    "repo": "coolify",
+    "version": "HEAD",
+    "loc": 153145,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:19:41.009350+00:00",
+    "total_loc": 8154,
+    "ratio": 0.05055208029807996,
+    "repo_url": "https://github.com/coollabsio/coolify.git",
+    "ref": "HEAD",
+    "commit_hash": "548dc515179b0beee3d0387c922c56ba364b9cb0",
+    "clone_duration_seconds": 3.5208797454833984,
+    "count_duration_seconds": 0.18781709671020508,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

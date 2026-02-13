@@ -1,0 +1,16 @@
+{
+  "owner": "supabase",
+  "repo": "supabase",
+  "full_name": "supabase/supabase",
+  "root_package": "npm:supabase:0.0.0",
+  "nodes": [
+    {
+      "id": "npm:supabase:0.0.0",
+      "system": "npm",
+      "name": "supabase",
+      "version": "0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.071996+00:00"
+}

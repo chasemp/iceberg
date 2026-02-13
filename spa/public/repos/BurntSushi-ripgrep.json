@@ -1,0 +1,34 @@
+{
+  "owner": "BurntSushi",
+  "repo": "ripgrep",
+  "full_name": "BurntSushi/ripgrep",
+  "url": "https://github.com/BurntSushi/ripgrep",
+  "analysis": {
+    "owner": "BurntSushi",
+    "repo": "ripgrep",
+    "version": "HEAD",
+    "loc": 32051,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:31:18.477979+00:00",
+    "package": {
+      "system": "cargo",
+      "name": "ripgrep",
+      "version": "15.1.0"
+    },
+    "repo_url": "https://github.com/BurntSushi/ripgrep.git",
+    "ref": "HEAD",
+    "commit_hash": "0a88cccd5188074de96f54a4b6b44a63971ac157",
+    "clone_duration_seconds": 1.1859478950500488,
+    "count_duration_seconds": 0.021598100662231445,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

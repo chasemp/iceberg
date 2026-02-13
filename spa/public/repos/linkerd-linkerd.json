@@ -1,0 +1,31 @@
+{
+  "owner": "linkerd",
+  "repo": "linkerd",
+  "full_name": "linkerd/linkerd",
+  "url": "https://github.com/linkerd/linkerd",
+  "analysis": {
+    "owner": "linkerd",
+    "repo": "linkerd",
+    "version": "HEAD",
+    "loc": 43745,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:32:49.577749+00:00",
+    "total_loc": 82544,
+    "ratio": 0.6536119535351456,
+    "repo_url": "https://github.com/linkerd/linkerd.git",
+    "ref": "HEAD",
+    "commit_hash": "ea82499d386e44e8958be58e0386f593e639645b",
+    "clone_duration_seconds": 1.4745738506317139,
+    "count_duration_seconds": 0.18944692611694336,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

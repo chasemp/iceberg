@@ -1,0 +1,36 @@
+{
+  "owner": "LibreSpark",
+  "repo": "LibreTV",
+  "full_name": "LibreSpark/LibreTV",
+  "url": "https://github.com/LibreSpark/LibreTV",
+  "analysis": {
+    "owner": "LibreSpark",
+    "repo": "LibreTV",
+    "version": "HEAD",
+    "loc": 6010,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T16:04:27.491787+00:00",
+    "package": {
+      "system": "npm",
+      "name": "libretv",
+      "version": "1.1.0"
+    },
+    "total_loc": 5677,
+    "ratio": 0.48575340121502525,
+    "repo_url": "https://github.com/LibreSpark/LibreTV.git",
+    "ref": "HEAD",
+    "commit_hash": "78ee8bbacc6494b58d0d03e4a1d3879f4cf5ccee",
+    "clone_duration_seconds": 1.1044178009033203,
+    "count_duration_seconds": 0.01004171371459961,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

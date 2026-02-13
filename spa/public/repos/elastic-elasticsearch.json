@@ -1,0 +1,31 @@
+{
+  "owner": "elastic",
+  "repo": "elasticsearch",
+  "full_name": "elastic/elasticsearch",
+  "url": "https://github.com/elastic/elasticsearch",
+  "analysis": {
+    "owner": "elastic",
+    "repo": "elasticsearch",
+    "version": "HEAD",
+    "loc": 2327308,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T16:08:21.285117+00:00",
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/elastic/elasticsearch.git",
+    "ref": "HEAD",
+    "commit_hash": "244282adb5f329f0a7f40acbf76d8950a1cfff0e",
+    "clone_duration_seconds": 52.54050421714783,
+    "count_duration_seconds": 11.542457103729248,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

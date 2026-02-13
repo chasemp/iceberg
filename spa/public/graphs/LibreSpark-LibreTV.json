@@ -1,0 +1,16 @@
+{
+  "owner": "LibreSpark",
+  "repo": "LibreTV",
+  "full_name": "LibreSpark/LibreTV",
+  "root_package": "npm:libretv:1.1.0",
+  "nodes": [
+    {
+      "id": "npm:libretv:1.1.0",
+      "system": "npm",
+      "name": "libretv",
+      "version": "1.1.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.098421+00:00"
+}

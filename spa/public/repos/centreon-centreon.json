@@ -1,0 +1,21 @@
+{
+  "owner": "centreon",
+  "repo": "centreon",
+  "full_name": "centreon/centreon",
+  "url": "https://github.com/centreon/centreon",
+  "analysis": {
+    "owner": "centreon",
+    "repo": "centreon",
+    "version": "HEAD",
+    "loc": 564106,
+    "source": "github_clone",
+    "cached_at": "2026-02-13T07:50:49.311230+00:00",
+    "total_loc": 580833,
+    "ratio": 0.507304755973899,
+    "repo_url": "https://github.com/centreon/centreon.git",
+    "ref": "HEAD",
+    "commit_hash": "69374dec0a7f7464fbe5971db8c2a20ba67a5f33",
+    "clone_duration_seconds": 4.549252271652222,
+    "count_duration_seconds": 0.7275853157043457
+  }
+}

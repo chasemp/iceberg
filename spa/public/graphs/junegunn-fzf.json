@@ -1,0 +1,16 @@
+{
+  "owner": "junegunn",
+  "repo": "fzf",
+  "full_name": "junegunn/fzf",
+  "root_package": "go:github.com/junegunn/fzf:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/junegunn/fzf:v0.0.0",
+      "system": "go",
+      "name": "github.com/junegunn/fzf",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.122951+00:00"
+}

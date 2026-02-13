@@ -1,0 +1,19 @@
+{
+  "owner": "guzzle",
+  "repo": "guzzle",
+  "full_name": "guzzle/guzzle",
+  "url": "https://github.com/guzzle/guzzle",
+  "analysis": {
+    "owner": "guzzle",
+    "repo": "guzzle",
+    "version": "HEAD",
+    "loc": 3735,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:21:50.569095+00:00",
+    "repo_url": "https://github.com/guzzle/guzzle.git",
+    "ref": "HEAD",
+    "commit_hash": "b51ac707cfa420b7bfd4e4d5e510ba8008e822b4",
+    "clone_duration_seconds": 1.0514607429504395,
+    "count_duration_seconds": 0.009685993194580078
+  }
+}

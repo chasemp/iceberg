@@ -1,0 +1,16 @@
+{
+  "owner": "TryGhost",
+  "repo": "Ghost",
+  "full_name": "TryGhost/Ghost",
+  "root_package": "npm:ghost-monorepo:0.0.0-private",
+  "nodes": [
+    {
+      "id": "npm:ghost-monorepo:0.0.0-private",
+      "system": "npm",
+      "name": "ghost-monorepo",
+      "version": "0.0.0-private"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.068480+00:00"
+}

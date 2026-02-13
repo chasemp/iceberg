@@ -1,0 +1,24 @@
+{
+  "owner": "kubenetworks",
+  "repo": "kubevpn",
+  "full_name": "kubenetworks/kubevpn",
+  "url": "https://github.com/kubenetworks/kubevpn",
+  "analysis": {
+    "owner": "kubenetworks",
+    "repo": "kubevpn",
+    "version": "HEAD",
+    "loc": 32589,
+    "source": "github_clone",
+    "cached_at": "2026-02-13T07:50:32.483723+00:00",
+    "package": {
+      "system": "go",
+      "name": "github.com/wencaiwulue/kubevpn/v2",
+      "version": "v0.0.0"
+    },
+    "repo_url": "https://github.com/kubenetworks/kubevpn.git",
+    "ref": "HEAD",
+    "commit_hash": "de87fca68b09be83c0f00e79f308c29cb5e2e807",
+    "clone_duration_seconds": 3.123581886291504,
+    "count_duration_seconds": 0.2614116668701172
+  }
+}

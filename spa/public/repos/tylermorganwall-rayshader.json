@@ -1,0 +1,29 @@
+{
+  "owner": "tylermorganwall",
+  "repo": "rayshader",
+  "full_name": "tylermorganwall/rayshader",
+  "url": "https://github.com/tylermorganwall/rayshader",
+  "analysis": {
+    "owner": "tylermorganwall",
+    "repo": "rayshader",
+    "version": "HEAD",
+    "loc": 1993,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:12:10.032121+00:00",
+    "repo_url": "https://github.com/tylermorganwall/rayshader.git",
+    "ref": "HEAD",
+    "commit_hash": "e02280f58bfdfdb0d51c01a59637df15d9e34927",
+    "clone_duration_seconds": 6.606020212173462,
+    "count_duration_seconds": 0.009032011032104492,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

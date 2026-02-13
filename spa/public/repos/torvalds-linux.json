@@ -1,0 +1,31 @@
+{
+  "owner": "torvalds",
+  "repo": "linux",
+  "full_name": "torvalds/linux",
+  "url": "https://github.com/torvalds/linux",
+  "analysis": {
+    "owner": "torvalds",
+    "repo": "linux",
+    "version": "HEAD",
+    "loc": 20876535,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:30:16.442180+00:00",
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/torvalds/linux.git",
+    "ref": "HEAD",
+    "commit_hash": "dc855b77719fe452d670cae2cf64da1eb51f16cc",
+    "clone_duration_seconds": 42.12539720535278,
+    "count_duration_seconds": 10.710354328155518,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

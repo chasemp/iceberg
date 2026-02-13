@@ -1,0 +1,29 @@
+{
+  "owner": "acmesh-official",
+  "repo": "acme.sh",
+  "full_name": "acmesh-official/acme.sh",
+  "url": "https://github.com/acmesh-official/acme.sh",
+  "analysis": {
+    "owner": "acmesh-official",
+    "repo": "acme.sh",
+    "version": "HEAD",
+    "loc": 39726,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:02:43.808034+00:00",
+    "repo_url": "https://github.com/acmesh-official/acme.sh.git",
+    "ref": "HEAD",
+    "commit_hash": "f39d066ced0271d87790dc426556c1e02a88c91b",
+    "clone_duration_seconds": 1.1234691143035889,
+    "count_duration_seconds": 0.024751901626586914,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

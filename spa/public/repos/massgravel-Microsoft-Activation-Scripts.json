@@ -1,0 +1,29 @@
+{
+  "owner": "massgravel",
+  "repo": "Microsoft-Activation-Scripts",
+  "full_name": "massgravel/Microsoft-Activation-Scripts",
+  "url": "https://github.com/massgravel/Microsoft-Activation-Scripts",
+  "analysis": {
+    "owner": "massgravel",
+    "repo": "Microsoft-Activation-Scripts",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:34:38.123596+00:00",
+    "repo_url": "https://github.com/massgravel/Microsoft-Activation-Scripts.git",
+    "ref": "HEAD",
+    "commit_hash": "97602941e5724316aa31b6ca1da5c70245d234d5",
+    "clone_duration_seconds": 1.0261189937591553,
+    "count_duration_seconds": 0.0022852420806884766,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

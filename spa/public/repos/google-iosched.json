@@ -1,0 +1,29 @@
+{
+  "owner": "google",
+  "repo": "iosched",
+  "full_name": "google/iosched",
+  "url": "https://github.com/google/iosched",
+  "analysis": {
+    "owner": "google",
+    "repo": "iosched",
+    "version": "HEAD",
+    "loc": 19370,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:38:27.459155+00:00",
+    "repo_url": "https://github.com/google/iosched.git",
+    "ref": "HEAD",
+    "commit_hash": "738e1e008096fad5f36612325275e80c33dbe436",
+    "clone_duration_seconds": 1.3193271160125732,
+    "count_duration_seconds": 0.07224607467651367,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

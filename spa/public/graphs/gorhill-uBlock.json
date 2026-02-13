@@ -1,0 +1,16 @@
+{
+  "owner": "gorhill",
+  "repo": "uBlock",
+  "full_name": "gorhill/uBlock",
+  "root_package": "npm:uBlock:1.0.0",
+  "nodes": [
+    {
+      "id": "npm:uBlock:1.0.0",
+      "system": "npm",
+      "name": "uBlock",
+      "version": "1.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.056495+00:00"
+}

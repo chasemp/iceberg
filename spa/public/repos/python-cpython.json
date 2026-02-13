@@ -1,0 +1,35 @@
+{
+  "owner": "python",
+  "repo": "cpython",
+  "full_name": "python/cpython",
+  "url": "https://github.com/python/cpython",
+  "analysis": {
+    "owner": "python",
+    "repo": "cpython",
+    "version": "HEAD",
+    "loc": 1084918,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T01:11:16.268126+00:00",
+    "total_loc": 19796,
+    "ratio": 0.01791957013308422,
+    "repo_url": "https://github.com/python/cpython.git",
+    "ref": "HEAD",
+    "commit_hash": "29acc08c8dad664cd5713cb392e5beba65724c10",
+    "clone_duration_seconds": 12.301279067993164,
+    "count_duration_seconds": 0.3752470016479492,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

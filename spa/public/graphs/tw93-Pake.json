@@ -1,0 +1,16 @@
+{
+  "owner": "tw93",
+  "repo": "Pake",
+  "full_name": "tw93/Pake",
+  "root_package": "npm:pake-cli:3.8.4",
+  "nodes": [
+    {
+      "id": "npm:pake-cli:3.8.4",
+      "system": "npm",
+      "name": "pake-cli",
+      "version": "3.8.4"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.078226+00:00"
+}

@@ -1,0 +1,38 @@
+{
+  "owner": "typicode",
+  "repo": "json-server",
+  "full_name": "typicode/json-server",
+  "url": "https://github.com/typicode/json-server",
+  "analysis": {
+    "owner": "typicode",
+    "repo": "json-server",
+    "version": "HEAD",
+    "loc": 1125,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:44:22.653905+00:00",
+    "package": {
+      "system": "npm",
+      "name": "json-server",
+      "version": "1.0.0-beta.5"
+    },
+    "repo_url": "https://github.com/typicode/json-server.git",
+    "ref": "v1.0.0-beta.5",
+    "commit_hash": "58e8b0109925e957ad403373a6459e9dab1edff3",
+    "clone_duration_seconds": 0.8803470134735107,
+    "count_duration_seconds": 0.0031099319458007812,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

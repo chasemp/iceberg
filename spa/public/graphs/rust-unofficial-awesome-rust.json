@@ -1,0 +1,16 @@
+{
+  "owner": "rust-unofficial",
+  "repo": "awesome-rust",
+  "full_name": "rust-unofficial/awesome-rust",
+  "root_package": "cargo:awesome-rust:0.1.0",
+  "nodes": [
+    {
+      "id": "cargo:awesome-rust:0.1.0",
+      "system": "cargo",
+      "name": "awesome-rust",
+      "version": "0.1.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.009961+00:00"
+}

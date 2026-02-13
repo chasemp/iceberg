@@ -1,0 +1,36 @@
+{
+  "owner": "dani-garcia",
+  "repo": "vaultwarden",
+  "full_name": "dani-garcia/vaultwarden",
+  "url": "https://github.com/dani-garcia/vaultwarden",
+  "analysis": {
+    "owner": "dani-garcia",
+    "repo": "vaultwarden",
+    "version": "HEAD",
+    "loc": 45099,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:32:55.734098+00:00",
+    "package": {
+      "system": "cargo",
+      "name": "vaultwarden",
+      "version": "1.0.0"
+    },
+    "total_loc": 11511,
+    "ratio": 0.20333863275039746,
+    "repo_url": "https://github.com/dani-garcia/vaultwarden.git",
+    "ref": "HEAD",
+    "commit_hash": "36f0620fd19af0816a7ee2ed882d368b1b298ddc",
+    "clone_duration_seconds": 1.2669708728790283,
+    "count_duration_seconds": 0.039131879806518555,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

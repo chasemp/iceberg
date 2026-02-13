@@ -1,0 +1,29 @@
+{
+  "owner": "laravel",
+  "repo": "framework",
+  "full_name": "laravel/framework",
+  "url": "https://github.com/laravel/framework",
+  "analysis": {
+    "owner": "laravel",
+    "repo": "framework",
+    "version": "HEAD",
+    "loc": 119472,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:19:52.782154+00:00",
+    "repo_url": "https://github.com/laravel/framework.git",
+    "ref": "HEAD",
+    "commit_hash": "391d5401826dfa1825f382c25149f89c09133bf0",
+    "clone_duration_seconds": 3.652132749557495,
+    "count_duration_seconds": 0.21255898475646973,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "owner": "astral-sh",
+  "repo": "uv",
+  "full_name": "astral-sh/uv",
+  "url": "https://github.com/astral-sh/uv",
+  "analysis": {
+    "owner": "astral-sh",
+    "repo": "uv",
+    "version": "HEAD",
+    "loc": 181273,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:28:56.854950+00:00",
+    "package": {
+      "system": "pypi",
+      "name": "uv",
+      "version": "0.10.2"
+    },
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/astral-sh/uv.git",
+    "ref": "HEAD",
+    "commit_hash": "84d6e5d7c1347f8cd64d2ae0400152874965a213",
+    "clone_duration_seconds": 2.4607908725738525,
+    "count_duration_seconds": 0.11617374420166016,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

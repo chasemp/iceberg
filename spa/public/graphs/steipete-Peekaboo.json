@@ -1,0 +1,16 @@
+{
+  "owner": "steipete",
+  "repo": "Peekaboo",
+  "full_name": "steipete/Peekaboo",
+  "root_package": "npm:@steipete/peekaboo:3.0.0-beta4",
+  "nodes": [
+    {
+      "id": "npm:@steipete/peekaboo:3.0.0-beta4",
+      "system": "npm",
+      "name": "@steipete/peekaboo",
+      "version": "3.0.0-beta4"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.013044+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "owner": "tensorflow",
+  "repo": "models",
+  "full_name": "tensorflow/models",
+  "url": "https://github.com/tensorflow/models",
+  "analysis": {
+    "owner": "tensorflow",
+    "repo": "models",
+    "version": "HEAD",
+    "loc": 477818,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T01:09:11.965337+00:00",
+    "repo_url": "https://github.com/tensorflow/models.git",
+    "ref": "HEAD",
+    "commit_hash": "d79eeff5cb41d97b1b4ad81c72a329b24f19f4f0",
+    "clone_duration_seconds": 11.262048959732056,
+    "count_duration_seconds": 0.3077569007873535,
+    "last_discovered": "2026-02-09",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

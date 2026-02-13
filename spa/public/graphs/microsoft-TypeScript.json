@@ -1,0 +1,16 @@
+{
+  "owner": "microsoft",
+  "repo": "TypeScript",
+  "full_name": "microsoft/TypeScript",
+  "root_package": "npm:typescript:6.0.0",
+  "nodes": [
+    {
+      "id": "npm:typescript:6.0.0",
+      "system": "npm",
+      "name": "typescript",
+      "version": "6.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.042629+00:00"
+}

@@ -1,0 +1,29 @@
+{
+  "owner": "sebastianbergmann",
+  "repo": "phpunit",
+  "full_name": "sebastianbergmann/phpunit",
+  "url": "https://github.com/sebastianbergmann/phpunit",
+  "analysis": {
+    "owner": "sebastianbergmann",
+    "repo": "phpunit",
+    "version": "HEAD",
+    "loc": 48431,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:23:58.062637+00:00",
+    "repo_url": "https://github.com/sebastianbergmann/phpunit.git",
+    "ref": "HEAD",
+    "commit_hash": "35167865626f385b406069bcbf4399de73c86592",
+    "clone_duration_seconds": 3.3101980686187744,
+    "count_duration_seconds": 0.17365407943725586,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

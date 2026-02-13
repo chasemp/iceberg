@@ -1,0 +1,29 @@
+{
+  "owner": "JohnCoates",
+  "repo": "Aerial",
+  "full_name": "JohnCoates/Aerial",
+  "url": "https://github.com/JohnCoates/Aerial",
+  "analysis": {
+    "owner": "JohnCoates",
+    "repo": "Aerial",
+    "version": "HEAD",
+    "loc": 17222,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:14:19.520311+00:00",
+    "repo_url": "https://github.com/JohnCoates/Aerial.git",
+    "ref": "HEAD",
+    "commit_hash": "43daa78e8f71726c5818e1410a6044d4c37639c5",
+    "clone_duration_seconds": 1.2859771251678467,
+    "count_duration_seconds": 0.020412206649780273,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

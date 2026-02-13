@@ -1,0 +1,29 @@
+{
+  "owner": "MatsuriDayo",
+  "repo": "NekoBoxForAndroid",
+  "full_name": "MatsuriDayo/NekoBoxForAndroid",
+  "url": "https://github.com/MatsuriDayo/NekoBoxForAndroid",
+  "analysis": {
+    "owner": "MatsuriDayo",
+    "repo": "NekoBoxForAndroid",
+    "version": "HEAD",
+    "loc": 25361,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:40:02.113106+00:00",
+    "repo_url": "https://github.com/MatsuriDayo/NekoBoxForAndroid.git",
+    "ref": "HEAD",
+    "commit_hash": "5768494d8ae3c74a057bb6d46c0f8dc071b0d821",
+    "clone_duration_seconds": 1.2941889762878418,
+    "count_duration_seconds": 0.036791086196899414,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

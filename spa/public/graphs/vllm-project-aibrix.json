@@ -1,0 +1,16 @@
+{
+  "owner": "vllm-project",
+  "repo": "aibrix",
+  "full_name": "vllm-project/aibrix",
+  "root_package": "go:github.com/vllm-project/aibrix:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/vllm-project/aibrix:v0.0.0",
+      "system": "go",
+      "name": "github.com/vllm-project/aibrix",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.134552+00:00"
+}

@@ -1,0 +1,29 @@
+{
+  "owner": "MichaelCade",
+  "repo": "90DaysOfDevOps",
+  "full_name": "MichaelCade/90DaysOfDevOps",
+  "url": "https://github.com/MichaelCade/90DaysOfDevOps",
+  "analysis": {
+    "owner": "MichaelCade",
+    "repo": "90DaysOfDevOps",
+    "version": "HEAD",
+    "loc": 4404,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:05:27.876435+00:00",
+    "repo_url": "https://github.com/MichaelCade/90DaysOfDevOps.git",
+    "ref": "HEAD",
+    "commit_hash": "ca99eaf415887c043fd0c4f01ddffcd4a9a02397",
+    "clone_duration_seconds": 31.5513117313385,
+    "count_duration_seconds": 0.16570115089416504,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

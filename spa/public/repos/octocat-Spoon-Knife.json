@@ -1,0 +1,29 @@
+{
+  "owner": "octocat",
+  "repo": "Spoon-Knife",
+  "full_name": "octocat/Spoon-Knife",
+  "url": "https://github.com/octocat/Spoon-Knife",
+  "analysis": {
+    "owner": "octocat",
+    "repo": "Spoon-Knife",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:44:37.347824+00:00",
+    "repo_url": "https://github.com/octocat/Spoon-Knife.git",
+    "ref": "HEAD",
+    "commit_hash": "d0dd1f61b33d64e29d8bc1372a94ef6a2fee76a9",
+    "clone_duration_seconds": 0.9006161689758301,
+    "count_duration_seconds": 0.0016868114471435547,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

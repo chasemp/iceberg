@@ -1,0 +1,31 @@
+{
+  "owner": "JuliaPluto",
+  "repo": "Pluto.jl",
+  "full_name": "JuliaPluto/Pluto.jl",
+  "url": "https://github.com/JuliaPluto/Pluto.jl",
+  "analysis": {
+    "owner": "JuliaPluto",
+    "repo": "Pluto.jl",
+    "version": "HEAD",
+    "loc": 20760,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:24:48.585667+00:00",
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/JuliaPluto/Pluto.jl.git",
+    "ref": "HEAD",
+    "commit_hash": "329b591db151aa8faf13cdbd5b9995c3284cc41d",
+    "clone_duration_seconds": 1.1984889507293701,
+    "count_duration_seconds": 0.02096104621887207,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

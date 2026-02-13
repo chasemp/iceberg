@@ -1,0 +1,34 @@
+{
+  "owner": "moby",
+  "repo": "moby",
+  "full_name": "moby/moby",
+  "url": "https://github.com/moby/moby",
+  "analysis": {
+    "owner": "moby",
+    "repo": "moby",
+    "version": "HEAD",
+    "loc": 279867,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:23:22.471416+00:00",
+    "package": {
+      "system": "go",
+      "name": "github.com/moby/moby/v2",
+      "version": "v0.0.0"
+    },
+    "repo_url": "https://github.com/moby/moby.git",
+    "ref": "HEAD",
+    "commit_hash": "e55847e3d1cab4dc36a58ba2e350f49cb5ee8052",
+    "clone_duration_seconds": 4.608719110488892,
+    "count_duration_seconds": 0.5276641845703125,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "owner": "Snailclimb",
+  "repo": "JavaGuide",
+  "full_name": "Snailclimb/JavaGuide",
+  "url": "https://github.com/Snailclimb/JavaGuide",
+  "analysis": {
+    "owner": "Snailclimb",
+    "repo": "JavaGuide",
+    "version": "HEAD",
+    "loc": 1590,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:35:42.924227+00:00",
+    "package": {
+      "system": "npm",
+      "name": "javaguide",
+      "version": "2.0.0-alpha.40"
+    },
+    "total_loc": 18638,
+    "ratio": 0.9213960846351592,
+    "repo_url": "https://github.com/Snailclimb/JavaGuide.git",
+    "ref": "HEAD",
+    "commit_hash": "52ad540f0b8d7e7a9ca646fcb36f719343bc32e3",
+    "clone_duration_seconds": 1.6635282039642334,
+    "count_duration_seconds": 0.014590024948120117,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

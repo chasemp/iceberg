@@ -1,0 +1,16 @@
+{
+  "owner": "github",
+  "repo": "spec-kit",
+  "full_name": "github/spec-kit",
+  "root_package": "pypi:specify-cli:0.0.22",
+  "nodes": [
+    {
+      "id": "pypi:specify-cli:0.0.22",
+      "system": "pypi",
+      "name": "specify-cli",
+      "version": "0.0.22"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.086313+00:00"
+}

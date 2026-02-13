@@ -1,0 +1,29 @@
+{
+  "owner": "elixir-nx",
+  "repo": "nx",
+  "full_name": "elixir-nx/nx",
+  "url": "https://github.com/elixir-nx/nx",
+  "analysis": {
+    "owner": "elixir-nx",
+    "repo": "nx",
+    "version": "HEAD",
+    "loc": 1790,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:10:45.325741+00:00",
+    "repo_url": "https://github.com/elixir-nx/nx.git",
+    "ref": "HEAD",
+    "commit_hash": "6f99e6e2b3be81241983f0e5eb8fe51674b56ac2",
+    "clone_duration_seconds": 1.1206200122833252,
+    "count_duration_seconds": 0.01106405258178711,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "owner": "zizifn",
+  "repo": "edgetunnel",
+  "full_name": "zizifn/edgetunnel",
+  "url": "https://github.com/zizifn/edgetunnel",
+  "analysis": {
+    "owner": "zizifn",
+    "repo": "edgetunnel",
+    "version": "HEAD",
+    "loc": 991,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:53:59.046735+00:00",
+    "package": {
+      "system": "npm",
+      "name": "edgetunnel",
+      "version": "1.0.0"
+    },
+    "repo_url": "https://github.com/zizifn/edgetunnel.git",
+    "ref": "HEAD",
+    "commit_hash": "44b9377986b6545517908cc3e2b52211aad10945",
+    "clone_duration_seconds": 1.0038902759552002,
+    "count_duration_seconds": 0.009250879287719727,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "owner": "expressjs",
+  "repo": "express",
+  "full_name": "expressjs/express",
+  "root_package": "npm:express:5.2.1",
+  "nodes": [
+    {
+      "id": "npm:express:5.2.1",
+      "system": "npm",
+      "name": "express",
+      "version": "5.2.1"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.026316+00:00"
+}

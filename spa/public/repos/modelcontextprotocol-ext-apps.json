@@ -1,0 +1,40 @@
+{
+  "owner": "modelcontextprotocol",
+  "repo": "ext-apps",
+  "full_name": "modelcontextprotocol/ext-apps",
+  "url": "https://github.com/modelcontextprotocol/ext-apps",
+  "analysis": {
+    "owner": "modelcontextprotocol",
+    "repo": "ext-apps",
+    "version": "HEAD",
+    "loc": 19302,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:34:27.189836+00:00",
+    "package": {
+      "system": "npm",
+      "name": "@modelcontextprotocol/ext-apps",
+      "version": "1.0.1"
+    },
+    "total_loc": 0,
+    "ratio": 0.0,
+    "ai_markers": {
+      "claude": true,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": true
+    },
+    "ai_tools": [
+      "Claude",
+      "AI Tools"
+    ],
+    "repo_url": "https://github.com/modelcontextprotocol/ext-apps.git",
+    "ref": "v1.0.1",
+    "commit_hash": "605e31b6c5b2665b95e83c49d23bd2bb2aa73aff",
+    "clone_duration_seconds": 1.4435279369354248,
+    "count_duration_seconds": 0.02583599090576172
+  }
+}

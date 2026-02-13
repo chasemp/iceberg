@@ -1,0 +1,29 @@
+{
+  "owner": "rdpeng",
+  "repo": "ExData_Plotting1",
+  "full_name": "rdpeng/ExData_Plotting1",
+  "url": "https://github.com/rdpeng/ExData_Plotting1",
+  "analysis": {
+    "owner": "rdpeng",
+    "repo": "ExData_Plotting1",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:47:33.504134+00:00",
+    "repo_url": "https://github.com/rdpeng/ExData_Plotting1.git",
+    "ref": "HEAD",
+    "commit_hash": "73fe5c675a2db951b302bfd68524bf7a56094d46",
+    "clone_duration_seconds": 1.284757137298584,
+    "count_duration_seconds": 0.016717195510864258,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "owner": "wasmerio",
+  "repo": "winterjs",
+  "full_name": "wasmerio/winterjs",
+  "root_package": "cargo:winterjs:1.1.5",
+  "nodes": [
+    {
+      "id": "cargo:winterjs:1.1.5",
+      "system": "cargo",
+      "name": "winterjs",
+      "version": "1.1.5"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.011905+00:00"
+}

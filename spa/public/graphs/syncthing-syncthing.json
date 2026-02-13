@@ -1,0 +1,16 @@
+{
+  "owner": "syncthing",
+  "repo": "syncthing",
+  "full_name": "syncthing/syncthing",
+  "root_package": "go:github.com/syncthing/syncthing:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/syncthing/syncthing:v0.0.0",
+      "system": "go",
+      "name": "github.com/syncthing/syncthing",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:11.994006+00:00"
+}

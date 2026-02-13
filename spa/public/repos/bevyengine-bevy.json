@@ -1,0 +1,36 @@
+{
+  "owner": "bevyengine",
+  "repo": "bevy",
+  "full_name": "bevyengine/bevy",
+  "url": "https://github.com/bevyengine/bevy",
+  "analysis": {
+    "owner": "bevyengine",
+    "repo": "bevy",
+    "version": "HEAD",
+    "loc": 349916,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:34:11.050134+00:00",
+    "package": {
+      "system": "cargo",
+      "name": "bevy",
+      "version": "0.19.0-dev"
+    },
+    "total_loc": 74644,
+    "ratio": 0.17581496137177313,
+    "repo_url": "https://github.com/bevyengine/bevy.git",
+    "ref": "HEAD",
+    "commit_hash": "48ec375a3a3cdc904476ef1d13f9d71c9f2820d3",
+    "clone_duration_seconds": 6.475720167160034,
+    "count_duration_seconds": 0.22953104972839355,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

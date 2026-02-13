@@ -1,0 +1,38 @@
+{
+  "owner": "open-webui",
+  "repo": "open-webui",
+  "full_name": "open-webui/open-webui",
+  "url": "https://github.com/open-webui/open-webui",
+  "analysis": {
+    "owner": "open-webui",
+    "repo": "open-webui",
+    "version": "HEAD",
+    "loc": 144555,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T01:01:37.977348+00:00",
+    "package": {
+      "system": "npm",
+      "name": "open-webui",
+      "version": "0.7.2"
+    },
+    "repo_url": "https://github.com/open-webui/open-webui.git",
+    "ref": "v0.7.2",
+    "commit_hash": "2b26355002064228e9b671339f8f3fb9d1fafa73",
+    "clone_duration_seconds": 9.725647926330566,
+    "count_duration_seconds": 0.10399794578552246,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

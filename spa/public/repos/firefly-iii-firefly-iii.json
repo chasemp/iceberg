@@ -1,0 +1,31 @@
+{
+  "owner": "firefly-iii",
+  "repo": "firefly-iii",
+  "full_name": "firefly-iii/firefly-iii",
+  "url": "https://github.com/firefly-iii/firefly-iii",
+  "analysis": {
+    "owner": "firefly-iii",
+    "repo": "firefly-iii",
+    "version": "HEAD",
+    "loc": 174715,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:22:12.377000+00:00",
+    "total_loc": 55449,
+    "ratio": 0.24091082880033368,
+    "repo_url": "https://github.com/firefly-iii/firefly-iii.git",
+    "ref": "HEAD",
+    "commit_hash": "8735be2f6b5c75d26ac96b1f93f24dfc8642e77b",
+    "clone_duration_seconds": 2.9049949645996094,
+    "count_duration_seconds": 0.2201390266418457,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

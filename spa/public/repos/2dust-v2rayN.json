@@ -1,0 +1,29 @@
+{
+  "owner": "2dust",
+  "repo": "v2rayN",
+  "full_name": "2dust/v2rayN",
+  "url": "https://github.com/2dust/v2rayN",
+  "analysis": {
+    "owner": "2dust",
+    "repo": "v2rayN",
+    "version": "HEAD",
+    "loc": 33410,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:48:55.356706+00:00",
+    "repo_url": "https://github.com/2dust/v2rayN.git",
+    "ref": "HEAD",
+    "commit_hash": "b5800f7dfc50af575e3bd3581fdab5f0d5937470",
+    "clone_duration_seconds": 1.4966552257537842,
+    "count_duration_seconds": 0.025655746459960938,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "owner": "mmistakes",
+  "repo": "minimal-mistakes",
+  "full_name": "mmistakes/minimal-mistakes",
+  "root_package": "npm:minimal-mistakes:4.27.3",
+  "nodes": [
+    {
+      "id": "npm:minimal-mistakes:4.27.3",
+      "system": "npm",
+      "name": "minimal-mistakes",
+      "version": "4.27.3"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.060259+00:00"
+}

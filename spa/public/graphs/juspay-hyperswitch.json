@@ -1,0 +1,16 @@
+{
+  "owner": "juspay",
+  "repo": "hyperswitch",
+  "full_name": "juspay/hyperswitch",
+  "root_package": "npm:hyperswitch:0.0.0",
+  "nodes": [
+    {
+      "id": "npm:hyperswitch:0.0.0",
+      "system": "npm",
+      "name": "hyperswitch",
+      "version": "0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.003498+00:00"
+}

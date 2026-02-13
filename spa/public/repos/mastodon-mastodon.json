@@ -1,0 +1,31 @@
+{
+  "owner": "mastodon",
+  "repo": "mastodon",
+  "full_name": "mastodon/mastodon",
+  "url": "https://github.com/mastodon/mastodon",
+  "analysis": {
+    "owner": "mastodon",
+    "repo": "mastodon",
+    "version": "HEAD",
+    "loc": 127848,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:35:57.106249+00:00",
+    "total_loc": 801,
+    "ratio": 0.006226243499755148,
+    "repo_url": "https://github.com/mastodon/mastodon.git",
+    "ref": "HEAD",
+    "commit_hash": "d13d7b4566d551d027830f7dfc987ba3a8e2dd4f",
+    "clone_duration_seconds": 7.262646913528442,
+    "count_duration_seconds": 0.30510401725769043,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

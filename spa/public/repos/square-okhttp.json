@@ -1,0 +1,31 @@
+{
+  "owner": "square",
+  "repo": "okhttp",
+  "full_name": "square/okhttp",
+  "url": "https://github.com/square/okhttp",
+  "analysis": {
+    "owner": "square",
+    "repo": "okhttp",
+    "version": "HEAD",
+    "loc": 89701,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:36:00.762648+00:00",
+    "total_loc": 131193,
+    "ratio": 0.5939183499778175,
+    "repo_url": "https://github.com/square/okhttp.git",
+    "ref": "HEAD",
+    "commit_hash": "e08bac1187cce67e324596d5f5022e6588b96840",
+    "clone_duration_seconds": 1.413520097732544,
+    "count_duration_seconds": 0.10574507713317871,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

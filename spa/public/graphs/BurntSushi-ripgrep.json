@@ -1,0 +1,16 @@
+{
+  "owner": "BurntSushi",
+  "repo": "ripgrep",
+  "full_name": "BurntSushi/ripgrep",
+  "root_package": "cargo:ripgrep:15.1.0",
+  "nodes": [
+    {
+      "id": "cargo:ripgrep:15.1.0",
+      "system": "cargo",
+      "name": "ripgrep",
+      "version": "15.1.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.092233+00:00"
+}

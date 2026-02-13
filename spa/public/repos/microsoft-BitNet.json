@@ -1,0 +1,29 @@
+{
+  "owner": "microsoft",
+  "repo": "BitNet",
+  "full_name": "microsoft/BitNet",
+  "url": "https://github.com/microsoft/BitNet",
+  "analysis": {
+    "owner": "microsoft",
+    "repo": "BitNet",
+    "version": "HEAD",
+    "loc": 14122,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:20:03.175384+00:00",
+    "repo_url": "https://github.com/microsoft/BitNet.git",
+    "ref": "HEAD",
+    "commit_hash": "8fd3412fbc9319f0764f82da6e9406c0323140f3",
+    "clone_duration_seconds": 1.7570719718933105,
+    "count_duration_seconds": 0.02829909324645996,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

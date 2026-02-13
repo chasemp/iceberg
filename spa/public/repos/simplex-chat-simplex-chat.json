@@ -1,0 +1,29 @@
+{
+  "owner": "simplex-chat",
+  "repo": "simplex-chat",
+  "full_name": "simplex-chat/simplex-chat",
+  "url": "https://github.com/simplex-chat/simplex-chat",
+  "analysis": {
+    "owner": "simplex-chat",
+    "repo": "simplex-chat",
+    "version": "HEAD",
+    "loc": 152160,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:08:01.200805+00:00",
+    "repo_url": "https://github.com/simplex-chat/simplex-chat.git",
+    "ref": "HEAD",
+    "commit_hash": "27874014345049f304241fe28acd7467343aa7ed",
+    "clone_duration_seconds": 12.514039993286133,
+    "count_duration_seconds": 0.13810300827026367,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

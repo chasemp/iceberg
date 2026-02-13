@@ -1,0 +1,31 @@
+{
+  "owner": "realworld-apps",
+  "repo": "realworld",
+  "full_name": "realworld-apps/realworld",
+  "url": "https://github.com/realworld-apps/realworld",
+  "analysis": {
+    "owner": "realworld-apps",
+    "repo": "realworld",
+    "version": "HEAD",
+    "loc": 1435,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:51:38.347431+00:00",
+    "total_loc": 17416,
+    "ratio": 0.9238767174155217,
+    "repo_url": "https://github.com/realworld-apps/realworld.git",
+    "ref": "HEAD",
+    "commit_hash": "5cd08ae2c0736473baf3584b63f22cd1cfb40257",
+    "clone_duration_seconds": 1.4377961158752441,
+    "count_duration_seconds": 0.010280847549438477,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

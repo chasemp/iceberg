@@ -1,0 +1,29 @@
+{
+  "owner": "firstcontributions",
+  "repo": "first-contributions",
+  "full_name": "firstcontributions/first-contributions",
+  "url": "https://github.com/firstcontributions/first-contributions",
+  "analysis": {
+    "owner": "firstcontributions",
+    "repo": "first-contributions",
+    "version": "HEAD",
+    "loc": 0,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:44:49.129211+00:00",
+    "repo_url": "https://github.com/firstcontributions/first-contributions.git",
+    "ref": "HEAD",
+    "commit_hash": "25ae7c843e974cc825e00a7115eea950ba9b8e42",
+    "clone_duration_seconds": 1.1598231792449951,
+    "count_duration_seconds": 0.010684967041015625,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

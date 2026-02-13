@@ -1,0 +1,40 @@
+{
+  "owner": "trekhleb",
+  "repo": "javascript-algorithms",
+  "full_name": "trekhleb/javascript-algorithms",
+  "url": "https://github.com/trekhleb/javascript-algorithms",
+  "analysis": {
+    "owner": "trekhleb",
+    "repo": "javascript-algorithms",
+    "version": "HEAD",
+    "loc": 14641,
+    "source": "github_clone",
+    "cached_at": "2026-02-03T00:34:41.646999+00:00",
+    "package": {
+      "system": "npm",
+      "name": "javascript-algorithms-and-data-structures",
+      "version": "0.0.4"
+    },
+    "total_loc": 57629,
+    "ratio": 0.7974124809741248,
+    "repo_url": "https://github.com/trekhleb/javascript-algorithms.git",
+    "ref": "HEAD",
+    "commit_hash": "1503325329d63f7fead7f455fda5a4338b4e93bb",
+    "clone_duration_seconds": 1.838014841079712,
+    "count_duration_seconds": 0.0479581356048584,
+    "last_discovered": "2026-02-03",
+    "discovery_source": "search",
+    "tracked": false,
+    "maintenance_priority": "medium",
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

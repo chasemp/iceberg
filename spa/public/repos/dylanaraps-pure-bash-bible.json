@@ -1,0 +1,29 @@
+{
+  "owner": "dylanaraps",
+  "repo": "pure-bash-bible",
+  "full_name": "dylanaraps/pure-bash-bible",
+  "url": "https://github.com/dylanaraps/pure-bash-bible",
+  "analysis": {
+    "owner": "dylanaraps",
+    "repo": "pure-bash-bible",
+    "version": "HEAD",
+    "loc": 203,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T15:03:06.501520+00:00",
+    "repo_url": "https://github.com/dylanaraps/pure-bash-bible.git",
+    "ref": "HEAD",
+    "commit_hash": "8c19d0b482b04d8d50fb72b4c5148b41ce605c6d",
+    "clone_duration_seconds": 1.0136821269989014,
+    "count_duration_seconds": 0.0029609203338623047,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

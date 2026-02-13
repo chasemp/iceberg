@@ -1,0 +1,31 @@
+{
+  "owner": "VectifyAI",
+  "repo": "PageIndex",
+  "full_name": "VectifyAI/PageIndex",
+  "url": "https://github.com/VectifyAI/PageIndex",
+  "analysis": {
+    "owner": "VectifyAI",
+    "repo": "PageIndex",
+    "version": "HEAD",
+    "loc": 1739,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:58:33.290637+00:00",
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/VectifyAI/PageIndex.git",
+    "ref": "HEAD",
+    "commit_hash": "a061d53fa54db2987920f39a31173be50d14dff3",
+    "clone_duration_seconds": 3.5858421325683594,
+    "count_duration_seconds": 0.0028891563415527344,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

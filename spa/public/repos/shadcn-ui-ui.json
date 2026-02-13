@@ -1,0 +1,36 @@
+{
+  "owner": "shadcn-ui",
+  "repo": "ui",
+  "full_name": "shadcn-ui/ui",
+  "url": "https://github.com/shadcn-ui/ui",
+  "analysis": {
+    "owner": "shadcn-ui",
+    "repo": "ui",
+    "version": "HEAD",
+    "loc": 460452,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:42:47.864040+00:00",
+    "package": {
+      "system": "npm",
+      "name": "ui",
+      "version": "0.0.1"
+    },
+    "total_loc": 89266,
+    "ratio": 0.16238507743970546,
+    "repo_url": "https://github.com/shadcn-ui/ui.git",
+    "ref": "HEAD",
+    "commit_hash": "f123057ae55ae22791ce251632eeb4f66ebbb31b",
+    "clone_duration_seconds": 4.342570066452026,
+    "count_duration_seconds": 0.4618208408355713,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

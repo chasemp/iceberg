@@ -1,0 +1,29 @@
+{
+  "owner": "twitter",
+  "repo": "finagle",
+  "full_name": "twitter/finagle",
+  "url": "https://github.com/twitter/finagle",
+  "analysis": {
+    "owner": "twitter",
+    "repo": "finagle",
+    "version": "HEAD",
+    "loc": 88280,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:30:29.387285+00:00",
+    "repo_url": "https://github.com/twitter/finagle.git",
+    "ref": "HEAD",
+    "commit_hash": "cd93f76359cdb7f2cd3d24df89c8041283e46927",
+    "clone_duration_seconds": 2.2109267711639404,
+    "count_duration_seconds": 0.22225689888000488,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

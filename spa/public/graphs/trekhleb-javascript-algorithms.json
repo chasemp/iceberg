@@ -1,0 +1,16 @@
+{
+  "owner": "trekhleb",
+  "repo": "javascript-algorithms",
+  "full_name": "trekhleb/javascript-algorithms",
+  "root_package": "npm:javascript-algorithms-and-data-structures:0.0.4",
+  "nodes": [
+    {
+      "id": "npm:javascript-algorithms-and-data-structures:0.0.4",
+      "system": "npm",
+      "name": "javascript-algorithms-and-data-structures",
+      "version": "0.0.4"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.100976+00:00"
+}

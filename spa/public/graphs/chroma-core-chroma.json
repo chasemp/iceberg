@@ -1,0 +1,16 @@
+{
+  "owner": "chroma-core",
+  "repo": "chroma",
+  "full_name": "chroma-core/chroma",
+  "root_package": "pypi:chromadb:23.3.0",
+  "nodes": [
+    {
+      "id": "pypi:chromadb:23.3.0",
+      "system": "pypi",
+      "name": "chromadb",
+      "version": "23.3.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T22:17:12.000309+00:00"
+}

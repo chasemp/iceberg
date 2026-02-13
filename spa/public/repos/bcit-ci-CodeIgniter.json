@@ -1,0 +1,29 @@
+{
+  "owner": "bcit-ci",
+  "repo": "CodeIgniter",
+  "full_name": "bcit-ci/CodeIgniter",
+  "url": "https://github.com/bcit-ci/CodeIgniter",
+  "analysis": {
+    "owner": "bcit-ci",
+    "repo": "CodeIgniter",
+    "version": "HEAD",
+    "loc": 30013,
+    "source": "github_clone",
+    "cached_at": "2026-02-10T23:24:30.510171+00:00",
+    "repo_url": "https://github.com/bcit-ci/CodeIgniter.git",
+    "ref": "HEAD",
+    "commit_hash": "3658d731eaabe6117298a105ffb5b9dd59e190ce",
+    "clone_duration_seconds": 1.2407481670379639,
+    "count_duration_seconds": 0.035927772521972656,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}

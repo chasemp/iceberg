@@ -1,0 +1,29 @@
+{
+  "owner": "fpinscala",
+  "repo": "fpinscala",
+  "full_name": "fpinscala/fpinscala",
+  "url": "https://github.com/fpinscala/fpinscala",
+  "analysis": {
+    "owner": "fpinscala",
+    "repo": "fpinscala",
+    "version": "HEAD",
+    "loc": 6824,
+    "source": "github_clone",
+    "cached_at": "2026-02-11T00:32:32.042031+00:00",
+    "repo_url": "https://github.com/fpinscala/fpinscala.git",
+    "ref": "HEAD",
+    "commit_hash": "7ed63bf0e1e61aefef430d12f0fc64190a2e3aef",
+    "clone_duration_seconds": 1.1084990501403809,
+    "count_duration_seconds": 0.034893035888671875,
+    "ai_markers": {
+      "claude": false,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": false
+    }
+  }
+}
