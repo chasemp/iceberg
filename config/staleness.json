@@ -1,7 +1,7 @@
 {
   "tiers": {
     "tracked": {
-      "max_age_hours": 24
+      "max_age_days": 30
     },
     "popular": {
       "stars_threshold": 10000,
