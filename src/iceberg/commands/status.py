@@ -50,7 +50,7 @@ def status_command(
                         analyzed_count += 1
                         try:
                             data = json.loads(head_file.read_text())
-                            if "dependencies" in data and isinstance(data["dependencies"], dict):
+                            if "total_loc" in data and data["total_loc"] is not None:
                                 with_deps += 1
                             if "ai_tools" in data and data["ai_tools"]:
                                 with_ai += 1
