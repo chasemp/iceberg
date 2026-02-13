@@ -1,0 +1,18 @@
+{
+  "owner": "projectcontour",
+  "repo": "contour",
+  "version": "HEAD",
+  "loc": 120826,
+  "source": "github_clone",
+  "cached_at": "2026-02-13T07:52:53.367072+00:00",
+  "package": {
+    "system": "go",
+    "name": "github.com/projectcontour/contour",
+    "version": "v0.0.0"
+  },
+  "repo_url": "https://github.com/projectcontour/contour.git",
+  "ref": "HEAD",
+  "commit_hash": "1595fc4233feffd2edc37a5f7976eeeaa26f3579",
+  "clone_duration_seconds": 0.9694137573242188,
+  "count_duration_seconds": 0.08661127090454102
+}

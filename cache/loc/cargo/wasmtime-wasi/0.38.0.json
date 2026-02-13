@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "wasmtime-wasi",
+    "version": "0.38.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-13T07:57:35.847009+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/wasmtime-wasi/versions/0.38.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.09086871147155762,
+  "count_duration_seconds": null
+}

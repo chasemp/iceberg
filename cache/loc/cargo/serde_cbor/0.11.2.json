@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "serde_cbor",
+    "version": "0.11.2"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-13T07:57:57.636177+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/serde_cbor/versions/0.11.2",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.08389735221862793,
+  "count_duration_seconds": null
+}

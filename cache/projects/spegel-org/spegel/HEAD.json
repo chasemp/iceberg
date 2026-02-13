@@ -1,0 +1,18 @@
+{
+  "owner": "spegel-org",
+  "repo": "spegel",
+  "version": "HEAD",
+  "loc": 7974,
+  "source": "github_clone",
+  "cached_at": "2026-02-13T07:56:46.504100+00:00",
+  "package": {
+    "system": "go",
+    "name": "github.com/spegel-org/spegel",
+    "version": "v0.0.0"
+  },
+  "repo_url": "https://github.com/spegel-org/spegel.git",
+  "ref": "HEAD",
+  "commit_hash": "1bd4722fc386f15a2bd3e9f8de72959e89c404da",
+  "clone_duration_seconds": 0.1942903995513916,
+  "count_duration_seconds": 0.007668733596801758
+}

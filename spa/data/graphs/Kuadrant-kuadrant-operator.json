@@ -1,0 +1,16 @@
+{
+  "owner": "Kuadrant",
+  "repo": "kuadrant-operator",
+  "full_name": "Kuadrant/kuadrant-operator",
+  "root_package": "go:github.com/kuadrant/kuadrant-operator:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/kuadrant/kuadrant-operator:v0.0.0",
+      "system": "go",
+      "name": "github.com/kuadrant/kuadrant-operator",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T07:58:07.672317+00:00"
+}

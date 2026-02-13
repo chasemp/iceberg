@@ -1,0 +1,15 @@
+{
+  "owner": "wasmerio",
+  "repo": "wai",
+  "version": "HEAD",
+  "loc": 28312,
+  "source": "github_clone",
+  "cached_at": "2026-02-13T07:57:37.752331+00:00",
+  "total_loc": 0,
+  "ratio": 0.0,
+  "repo_url": "https://github.com/wasmerio/wai.git",
+  "ref": "HEAD",
+  "commit_hash": "a5e26ce0055abf2db99ed109b63abf8d769ee9bb",
+  "clone_duration_seconds": 0.8254132270812988,
+  "count_duration_seconds": 0.021192073822021484
+}

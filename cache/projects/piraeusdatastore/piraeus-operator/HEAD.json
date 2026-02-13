@@ -1,0 +1,18 @@
+{
+  "owner": "piraeusdatastore",
+  "repo": "piraeus-operator",
+  "version": "HEAD",
+  "loc": 14023,
+  "source": "github_clone",
+  "cached_at": "2026-02-13T07:57:11.930498+00:00",
+  "package": {
+    "system": "go",
+    "name": "github.com/piraeusdatastore/piraeus-operator",
+    "version": "v0.0.0"
+  },
+  "repo_url": "https://github.com/piraeusdatastore/piraeus-operator.git",
+  "ref": "HEAD",
+  "commit_hash": "068320878f74f3a6eb20d7649ce864db6e016179",
+  "clone_duration_seconds": 0.2424604892730713,
+  "count_duration_seconds": 0.015103816986083984
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "werkzeug",
+    "version": "0.9"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-13T07:51:33.133628+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/werkzeug/versions/0.9",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.10008859634399414,
+  "count_duration_seconds": null
+}

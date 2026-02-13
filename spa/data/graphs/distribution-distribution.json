@@ -1,0 +1,16 @@
+{
+  "owner": "distribution",
+  "repo": "distribution",
+  "full_name": "distribution/distribution",
+  "root_package": "go:github.com/distribution/distribution/v3:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/distribution/distribution/v3:v0.0.0",
+      "system": "go",
+      "name": "github.com/distribution/distribution/v3",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T07:58:07.674055+00:00"
+}

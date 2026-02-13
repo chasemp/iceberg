@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "rkyv",
+    "version": "0.7.39"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-13T07:57:35.208613+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/rkyv/versions/0.7.39",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.08758425712585449,
+  "count_duration_seconds": null
+}

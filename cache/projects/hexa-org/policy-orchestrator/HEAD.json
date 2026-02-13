@@ -1,0 +1,13 @@
+{
+  "owner": "hexa-org",
+  "repo": "policy-orchestrator",
+  "version": "HEAD",
+  "loc": 4829,
+  "source": "github_clone",
+  "cached_at": "2026-02-13T07:52:18.103344+00:00",
+  "repo_url": "https://github.com/hexa-org/policy-orchestrator.git",
+  "ref": "HEAD",
+  "commit_hash": "b631a9588b718e111bee528660557f77208e7736",
+  "clone_duration_seconds": 0.2395777702331543,
+  "count_duration_seconds": 0.00850820541381836
+}

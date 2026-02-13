@@ -1,0 +1,16 @@
+{
+  "owner": "spegel-org",
+  "repo": "spegel",
+  "full_name": "spegel-org/spegel",
+  "root_package": "go:github.com/spegel-org/spegel:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/spegel-org/spegel:v0.0.0",
+      "system": "go",
+      "name": "github.com/spegel-org/spegel",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T07:58:07.678420+00:00"
+}

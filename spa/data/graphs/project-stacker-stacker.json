@@ -1,0 +1,16 @@
+{
+  "owner": "project-stacker",
+  "repo": "stacker",
+  "full_name": "project-stacker/stacker",
+  "root_package": "go:stackerbuild.io/stacker:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:stackerbuild.io/stacker:v0.0.0",
+      "system": "go",
+      "name": "stackerbuild.io/stacker",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T07:58:07.675884+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "validator",
+    "version": "13.15.20"
+  },
+  "total_lines": 14713,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-13T07:50:45.616416+00:00",
+  "source_url": "https://registry.npmjs.org/validator/-/validator-13.15.20.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.32181882858276367,
+  "count_duration_seconds": null
+}

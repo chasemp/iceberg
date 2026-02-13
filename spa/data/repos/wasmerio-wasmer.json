@@ -1,0 +1,21 @@
+{
+  "owner": "wasmerio",
+  "repo": "wasmer",
+  "full_name": "wasmerio/wasmer",
+  "url": "https://github.com/wasmerio/wasmer",
+  "analysis": {
+    "owner": "wasmerio",
+    "repo": "wasmer",
+    "version": "HEAD",
+    "loc": 229816,
+    "source": "github_clone",
+    "cached_at": "2026-02-13T07:57:59.056348+00:00",
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/wasmerio/wasmer.git",
+    "ref": "HEAD",
+    "commit_hash": "b6cb0c7d3274b5d33cf7111e936b6aa43189b0f6",
+    "clone_duration_seconds": 9.788411855697632,
+    "count_duration_seconds": 0.15201544761657715
+  }
+}

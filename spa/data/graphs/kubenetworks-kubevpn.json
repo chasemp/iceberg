@@ -1,0 +1,16 @@
+{
+  "owner": "kubenetworks",
+  "repo": "kubevpn",
+  "full_name": "kubenetworks/kubevpn",
+  "root_package": "go:github.com/wencaiwulue/kubevpn/v2:v0.0.0",
+  "nodes": [
+    {
+      "id": "go:github.com/wencaiwulue/kubevpn/v2:v0.0.0",
+      "system": "go",
+      "name": "github.com/wencaiwulue/kubevpn/v2",
+      "version": "v0.0.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T07:58:07.673075+00:00"
+}

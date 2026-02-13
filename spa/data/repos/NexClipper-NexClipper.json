@@ -1,0 +1,24 @@
+{
+  "owner": "NexClipper",
+  "repo": "NexClipper",
+  "full_name": "NexClipper/NexClipper",
+  "url": "https://github.com/NexClipper/NexClipper",
+  "analysis": {
+    "owner": "NexClipper",
+    "repo": "NexClipper",
+    "version": "HEAD",
+    "loc": 7486,
+    "source": "github_clone",
+    "cached_at": "2026-02-13T07:57:26.343744+00:00",
+    "package": {
+      "system": "go",
+      "name": "github.com/NexClipper/NexClipper",
+      "version": "v0.0.0"
+    },
+    "repo_url": "https://github.com/NexClipper/NexClipper.git",
+    "ref": "HEAD",
+    "commit_hash": "6d22befc40bdc4a49fb6cda16c1c52187f73c5c9",
+    "clone_duration_seconds": 0.20152974128723145,
+    "count_duration_seconds": 0.004643917083740234
+  }
+}

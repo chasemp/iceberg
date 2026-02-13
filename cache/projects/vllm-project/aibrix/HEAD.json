@@ -1,0 +1,18 @@
+{
+  "owner": "vllm-project",
+  "repo": "aibrix",
+  "version": "HEAD",
+  "loc": 103312,
+  "source": "github_clone",
+  "cached_at": "2026-02-13T07:55:24.936562+00:00",
+  "package": {
+    "system": "go",
+    "name": "github.com/vllm-project/aibrix",
+    "version": "v0.0.0"
+  },
+  "repo_url": "https://github.com/vllm-project/aibrix.git",
+  "ref": "HEAD",
+  "commit_hash": "a3e4eddb10fb60725d0a765736a9707985469f27",
+  "clone_duration_seconds": 1.1532044410705566,
+  "count_duration_seconds": 0.08384275436401367
+}

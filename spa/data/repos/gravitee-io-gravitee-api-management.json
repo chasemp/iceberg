@@ -1,0 +1,24 @@
+{
+  "owner": "gravitee-io",
+  "repo": "gravitee-api-management",
+  "full_name": "gravitee-io/gravitee-api-management",
+  "url": "https://github.com/gravitee-io/gravitee-api-management",
+  "analysis": {
+    "owner": "gravitee-io",
+    "repo": "gravitee-api-management",
+    "version": "HEAD",
+    "loc": 622897,
+    "source": "github_clone",
+    "cached_at": "2026-02-13T07:53:34.635162+00:00",
+    "package": {
+      "system": "maven",
+      "name": "gravitee-parent",
+      "version": "23.5.0"
+    },
+    "repo_url": "https://github.com/gravitee-io/gravitee-api-management.git",
+    "ref": "HEAD",
+    "commit_hash": "46c98fa456c9523d22d97da952717d05798b8fcb",
+    "clone_duration_seconds": 6.062418460845947,
+    "count_duration_seconds": 0.961864709854126
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "owner": "catalyst-cloud",
+  "repo": "magnum",
+  "full_name": "catalyst-cloud/magnum",
+  "url": "https://github.com/catalyst-cloud/magnum",
+  "analysis": {
+    "owner": "catalyst-cloud",
+    "repo": "magnum",
+    "version": "HEAD",
+    "loc": 27163,
+    "source": "github_clone",
+    "cached_at": "2026-02-13T07:51:34.757612+00:00",
+    "total_loc": 0,
+    "ratio": 0.0,
+    "repo_url": "https://github.com/catalyst-cloud/magnum.git",
+    "ref": "HEAD",
+    "commit_hash": "0c2e181131ffe2a1e4ea182be3b1ac0529bc1eb3",
+    "clone_duration_seconds": 0.4286372661590576,
+    "count_duration_seconds": 0.03980898857116699
+  }
+}

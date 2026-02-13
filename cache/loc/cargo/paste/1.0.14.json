@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "paste",
+    "version": "1.0.14"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-13T07:57:40.617623+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/paste/versions/1.0.14",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.0814666748046875,
+  "count_duration_seconds": null
+}

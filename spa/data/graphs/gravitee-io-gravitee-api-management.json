@@ -1,0 +1,16 @@
+{
+  "owner": "gravitee-io",
+  "repo": "gravitee-api-management",
+  "full_name": "gravitee-io/gravitee-api-management",
+  "root_package": "maven:gravitee-parent:23.5.0",
+  "nodes": [
+    {
+      "id": "maven:gravitee-parent:23.5.0",
+      "system": "maven",
+      "name": "gravitee-parent",
+      "version": "23.5.0"
+    }
+  ],
+  "edges": [],
+  "generated_at": "2026-02-13T07:58:07.675280+00:00"
+}

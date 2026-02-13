@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "wasmtime-jit-debug",
+    "version": "0.38.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-13T07:57:35.755728+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/wasmtime-jit-debug/versions/0.38.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.1858067512512207,
+  "count_duration_seconds": null
+}

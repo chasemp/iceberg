@@ -1,0 +1,18 @@
+{
+  "owner": "chroma-core",
+  "repo": "chroma",
+  "version": "HEAD",
+  "loc": 240983,
+  "source": "github_clone",
+  "cached_at": "2026-02-13T07:51:23.368272+00:00",
+  "package": {
+    "system": "pypi",
+    "name": "chromadb",
+    "version": "23.3.0"
+  },
+  "repo_url": "https://github.com/chroma-core/chroma.git",
+  "ref": "HEAD",
+  "commit_hash": "58b28112fc6164d59924f63aa888eaca61700e32",
+  "clone_duration_seconds": 1.41542649269104,
+  "count_duration_seconds": 0.14674115180969238
+}

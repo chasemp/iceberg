@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "pypi",
+    "name": "pyyaml",
+    "version": "3.12"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-13T07:51:32.767418+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/pypi/packages/pyyaml/versions/3.12",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.11550569534301758,
+  "count_duration_seconds": null
+}

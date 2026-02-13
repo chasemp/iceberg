@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "playwright",
+    "version": "1.50.1"
+  },
+  "total_lines": 18389,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-13T07:50:46.568930+00:00",
+  "source_url": "https://registry.npmjs.org/playwright/-/playwright-1.50.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.5855941772460938,
+  "count_duration_seconds": null
+}

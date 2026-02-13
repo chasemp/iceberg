@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "bumpalo",
+    "version": "3.10.0"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-13T07:57:34.328077+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/bumpalo/versions/3.10.0",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.10595870018005371,
+  "count_duration_seconds": null
+}

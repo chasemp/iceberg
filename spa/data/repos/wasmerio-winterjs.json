@@ -1,0 +1,26 @@
+{
+  "owner": "wasmerio",
+  "repo": "winterjs",
+  "full_name": "wasmerio/winterjs",
+  "url": "https://github.com/wasmerio/winterjs",
+  "analysis": {
+    "owner": "wasmerio",
+    "repo": "winterjs",
+    "version": "HEAD",
+    "loc": 28022,
+    "source": "github_clone",
+    "cached_at": "2026-02-13T07:57:43.447584+00:00",
+    "package": {
+      "system": "cargo",
+      "name": "winterjs",
+      "version": "1.1.5"
+    },
+    "total_loc": 343,
+    "ratio": 0.012092367354133616,
+    "repo_url": "https://github.com/wasmerio/winterjs.git",
+    "ref": "HEAD",
+    "commit_hash": "b74e8c70f8106c6be790cb33dea5409d89d42b37",
+    "clone_duration_seconds": 0.25390625,
+    "count_duration_seconds": 0.016027450561523438
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "owner": "Kuadrant",
+  "repo": "kuadrant-operator",
+  "full_name": "Kuadrant/kuadrant-operator",
+  "url": "https://github.com/Kuadrant/kuadrant-operator",
+  "analysis": {
+    "owner": "Kuadrant",
+    "repo": "kuadrant-operator",
+    "version": "HEAD",
+    "loc": 35511,
+    "source": "github_clone",
+    "cached_at": "2026-02-13T07:49:55.678718+00:00",
+    "package": {
+      "system": "go",
+      "name": "github.com/kuadrant/kuadrant-operator",
+      "version": "v0.0.0"
+    },
+    "ai_markers": {
+      "claude": true,
+      "cursor": false,
+      "copilot": false,
+      "aider": false,
+      "windsurf": false,
+      "cline": false,
+      "codex": false,
+      "generic_ai": true
+    },
+    "ai_tools": [
+      "Claude",
+      "AI Tools"
+    ],
+    "repo_url": "https://github.com/Kuadrant/kuadrant-operator.git",
+    "ref": "HEAD",
+    "commit_hash": "2413e6b6a5078bd27d8478db88d0f20cc6b0657b",
+    "clone_duration_seconds": 0.5308854579925537,
+    "count_duration_seconds": 0.05196237564086914
+  }
+}

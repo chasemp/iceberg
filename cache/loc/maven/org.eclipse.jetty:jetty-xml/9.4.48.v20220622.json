@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "maven",
+    "name": "org.eclipse.jetty:jetty-xml",
+    "version": "9.4.48.v20220622"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-13T07:58:04.180002+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/maven/packages/org.eclipse.jetty:jetty-xml/versions/9.4.48.v20220622",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.0897834300994873,
+  "count_duration_seconds": null
+}

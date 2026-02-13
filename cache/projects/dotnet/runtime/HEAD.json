@@ -1,0 +1,13 @@
+{
+  "owner": "dotnet",
+  "repo": "runtime",
+  "version": "HEAD",
+  "loc": 4145598,
+  "source": "github_clone",
+  "cached_at": "2026-02-13T07:56:23.337470+00:00",
+  "repo_url": "https://github.com/dotnet/runtime.git",
+  "ref": "HEAD",
+  "commit_hash": "0efcb7341351d6a3736557c7a7a1394b81be51a7",
+  "clone_duration_seconds": 25.685985565185547,
+  "count_duration_seconds": 3.0861849784851074
+}

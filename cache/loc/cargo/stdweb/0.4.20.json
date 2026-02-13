@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "stdweb",
+    "version": "0.4.20"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-13T07:57:35.298396+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/stdweb/versions/0.4.20",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.08941650390625,
+  "count_duration_seconds": null
+}

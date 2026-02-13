@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "npm",
+    "name": "estree-util-value-to-estree",
+    "version": "3.0.1"
+  },
+  "total_lines": 146,
+  "source": "npm_tarball",
+  "cached_at": "2026-02-13T07:54:48.985115+00:00",
+  "source_url": "https://registry.npmjs.org/estree-util-value-to-estree/-/estree-util-value-to-estree-3.0.1.tgz",
+  "fetch_method": "tarball_download_and_count",
+  "fetch_duration_seconds": 0.26435303688049316,
+  "count_duration_seconds": null
+}

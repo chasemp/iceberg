@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "generational-arena",
+    "version": "0.2.8"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-13T07:57:35.036089+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/generational-arena/versions/0.2.8",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.14038801193237305,
+  "count_duration_seconds": null
+}

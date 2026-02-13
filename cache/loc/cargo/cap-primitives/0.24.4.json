@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "cap-primitives",
+    "version": "0.24.4"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-13T07:57:34.528527+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/cap-primitives/versions/0.24.4",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.20000934600830078,
+  "count_duration_seconds": null
+}

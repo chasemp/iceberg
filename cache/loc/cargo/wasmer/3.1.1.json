@@ -1,0 +1,14 @@
+{
+  "package": {
+    "system": "cargo",
+    "name": "wasmer",
+    "version": "3.1.1"
+  },
+  "total_lines": 0,
+  "source": "depsdev",
+  "cached_at": "2026-02-13T07:57:35.384767+00:00",
+  "source_url": "https://api.deps.dev/v3/systems/cargo/packages/wasmer/versions/3.1.1",
+  "fetch_method": "api_call",
+  "fetch_duration_seconds": 0.08602142333984375,
+  "count_duration_seconds": null
+}
