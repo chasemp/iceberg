@@ -8,10 +8,18 @@ import json
 import logging
 from pathlib import Path
 
-from iceberg.cache import get_default_cache_dir
 from iceberg.models import RepositoryMetadata
 
 logger = logging.getLogger(__name__)
+
+
+def _get_default_cache_dir() -> Path:
+    """Get the default cache directory.
+
+    Returns:
+        Path to default cache directory
+    """
+    return Path(__file__).parent.parent.parent / "cache"
 
 
 class RepositoryStore:
@@ -27,7 +35,7 @@ class RepositoryStore:
         Args:
             cache_dir: Optional cache directory. Uses default if not provided.
         """
-        self.cache_dir = cache_dir or get_default_cache_dir()
+        self.cache_dir = cache_dir or _get_default_cache_dir()
         self._repos_dir = self.cache_dir / "repos"
 
     def save(self, metadata: RepositoryMetadata) -> None:
@@ -83,7 +91,7 @@ class RepositoryStore:
                 categories=data.get("categories", {}),
                 last_discovered=data["last_discovered"],
             )
-        except (json.JSONDecodeError, KeyError, ValueError, TypeError) as e:
+        except (json.JSONDecodeError, IOError, KeyError, ValueError, TypeError) as e:
             logger.warning(f"Failed to load repository {owner}/{name}: {e}")
             return None
 
@@ -129,7 +137,7 @@ class RepositoryStore:
                             last_discovered=data["last_discovered"],
                         )
                     )
-                except (json.JSONDecodeError, KeyError, ValueError, TypeError) as e:
+                except (json.JSONDecodeError, IOError, KeyError, ValueError, TypeError) as e:
                     logger.debug(f"Skipping invalid repository file {repo_file}: {e}")
                     continue
 

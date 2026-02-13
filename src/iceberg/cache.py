@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Any
 
 from iceberg.models import DiscoveredRepo, RepositoryMetadata, LocMetrics, PackageIdentifier, TrendingRepo
+from iceberg.repository_store import RepositoryStore
 
 logger = logging.getLogger(__name__)
 
@@ -357,20 +358,13 @@ def save_repo_metadata(
             "last_discovered": "2026-02-09"
         }
     """
-    if cache_dir is None:
-        cache_dir = get_default_cache_dir()
-
-    repo_dir = cache_dir / "repos" / repo.owner
-    repo_dir.mkdir(parents=True, exist_ok=True)
-
-    repo_file = repo_dir / f"{repo.name}.json"
-
+    store = RepositoryStore(cache_dir)
     today = datetime.now(timezone.utc).date().isoformat()
 
     # Load existing metadata if present
-    if repo_file.exists():
-        existing_data = json.loads(repo_file.read_text())
-        categories = existing_data.get("categories", {})
+    existing = store.load(repo.owner, repo.name)
+    if existing:
+        categories = dict(existing.categories)
     else:
         categories = {}
 
@@ -384,19 +378,19 @@ def save_repo_metadata(
     # Update category with discovery date
     categories[category] = today
 
-    # Build metadata
-    metadata = {
-        "owner": repo.owner,
-        "name": repo.name,
-        "url": str(repo.url),
-        "description": repo.description,
-        "language": repo.language,
-        "stars": repo.stars,
-        "categories": categories,
-        "last_discovered": last_discovered,
-    }
+    # Build and save metadata
+    metadata = RepositoryMetadata(
+        owner=repo.owner,
+        name=repo.name,
+        url=repo.url,
+        description=repo.description,
+        language=repo.language,
+        stars=repo.stars,
+        categories=categories,
+        last_discovered=last_discovered,
+    )
 
-    repo_file.write_text(json.dumps(metadata, indent=2))
+    store.save(metadata)
 
 
 def load_repo_metadata(
@@ -414,19 +408,13 @@ def load_repo_metadata(
     Returns:
         Repository metadata dict or None if not found or corrupted
     """
-    if cache_dir is None:
-        cache_dir = get_default_cache_dir()
+    store = RepositoryStore(cache_dir)
+    metadata = store.load(owner, name)
 
-    repo_file = cache_dir / "repos" / owner / f"{name}.json"
-
-    if not repo_file.exists():
+    if metadata is None:
         return None
 
-    try:
-        return json.loads(repo_file.read_text())
-    except (json.JSONDecodeError, IOError) as e:
-        logger.debug(f"Failed to load repo metadata for {owner}/{name}: {e}")
-        return None
+    return _model_to_metadata(metadata)
 
 
 def _metadata_to_model(metadata: dict[str, Any]) -> RepositoryMetadata:
@@ -508,24 +496,10 @@ def list_all_repos(
     Returns:
         List of repository metadata dicts
     """
-    if cache_dir is None:
-        cache_dir = get_default_cache_dir()
+    store = RepositoryStore(cache_dir)
+    typed_repos = store.list_all()
 
-    repos_dir = cache_dir / "repos"
-
-    if not repos_dir.exists():
-        return []
-
-    all_repos = []
-    for owner_dir in repos_dir.iterdir():
-        if not owner_dir.is_dir():
-            continue
-
-        for repo_file in owner_dir.glob("*.json"):
-            metadata = json.loads(repo_file.read_text())
-            all_repos.append(metadata)
-
-    return all_repos
+    return [_model_to_metadata(repo) for repo in typed_repos]
 
 
 def get_repos_by_category(
@@ -541,11 +515,10 @@ def get_repos_by_category(
     Returns:
         List of repository metadata dicts
     """
-    all_repos = list_all_repos(cache_dir=cache_dir)
-    return [
-        repo for repo in all_repos
-        if category in repo.get("categories", {})
-    ]
+    store = RepositoryStore(cache_dir)
+    typed_repos = store.get_by_category(category)
+
+    return [_model_to_metadata(repo) for repo in typed_repos]
 
 
 def list_all_repos_typed(
