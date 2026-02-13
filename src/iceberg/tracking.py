@@ -62,6 +62,8 @@ def load_tracked_repos(cache_dir: Path | None = None) -> list[dict[str, str]]:
 
 def save_tracked_repo(owner: str, repo: str, cache_dir: Path | None = None) -> None:
     """Add a repository to tracking by adding 'tracked' to its categories."""
+    from iceberg.github import fetch_repo_metadata
+
     if cache_dir is None:
         cache_dir = get_default_cache_dir()
 
@@ -69,11 +71,28 @@ def save_tracked_repo(owner: str, repo: str, cache_dir: Path | None = None) -> N
     data = load_repo_metadata(owner, repo, cache_dir)
 
     if data is None:
-        data = {
-            "owner": owner,
-            "name": repo,
-            "categories": {},
-        }
+        # Fetch metadata from GitHub API for new repos
+        try:
+            github_metadata = fetch_repo_metadata(owner, repo)
+            data = {
+                **github_metadata,
+                "categories": {},
+                "last_discovered": today,
+            }
+            logger.info(f"Fetched GitHub metadata for {owner}/{repo}")
+        except Exception as e:
+            logger.warning(f"Failed to fetch GitHub metadata for {owner}/{repo}: {e}")
+            # Fall back to minimal metadata
+            data = {
+                "owner": owner,
+                "name": repo,
+                "url": f"https://github.com/{owner}/{repo}",
+                "description": None,
+                "language": None,
+                "stars": 0,
+                "categories": {},
+                "last_discovered": today,
+            }
 
     categories = data.get("categories", {})
     if "tracked" in categories:

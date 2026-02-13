@@ -40,6 +40,17 @@ def analyze_command(
 
         owner, name = repo.split("/", 1)
 
+        # Ensure repo is tracked if not already discovered
+        from iceberg.cache import load_repo_metadata
+        from iceberg.tracking import save_tracked_repo
+
+        existing_metadata = load_repo_metadata(owner, name, cache_dir)
+        if existing_metadata is None:
+            # Repo not in discovery cache, track it automatically
+            if not json_output:
+                typer.echo(f"Repository not in discovery cache, tracking {owner}/{name}...")
+            save_tracked_repo(owner, name, cache_dir)
+
         # Parse package spec if provided
         package_spec = None
         if package:

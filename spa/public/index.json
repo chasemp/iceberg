@@ -9395,7 +9395,7 @@
     },
     {
       "id": "tracked",
-      "count": 53,
+      "count": 57,
       "repos": [
         {
           "owner": "aquasecurity",
@@ -9532,6 +9532,20 @@
           "ratio": 0.0
         },
         {
+          "owner": "steipete",
+          "name": "Peekaboo",
+          "full_name": "steipete/Peekaboo",
+          "url": "https://github.com/steipete/Peekaboo",
+          "description": null,
+          "language": null,
+          "stars": 0,
+          "discovered_at": "2026-02-13",
+          "ai_tools": [
+            "Claude"
+          ],
+          "project_loc": 125793
+        },
+        {
           "owner": "kubenetworks",
           "name": "kubevpn",
           "full_name": "kubenetworks/kubevpn",
@@ -9541,6 +9555,22 @@
           "stars": 1289,
           "discovered_at": "2026-02-11",
           "project_loc": 32589
+        },
+        {
+          "owner": "MoonshotAI",
+          "name": "kimi-cli",
+          "full_name": "MoonshotAI/kimi-cli",
+          "url": "https://github.com/MoonshotAI/kimi-cli",
+          "description": null,
+          "language": null,
+          "stars": 0,
+          "discovered_at": "2026-02-13",
+          "ai_tools": [
+            "AI Tools"
+          ],
+          "project_loc": 50414,
+          "dep_loc": 61679,
+          "ratio": 0.550248454408393
         },
         {
           "owner": "grpc",
@@ -9615,6 +9645,23 @@
           "stars": 69653,
           "discovered_at": "2026-02-09",
           "project_loc": 62735
+        },
+        {
+          "owner": "microsoft",
+          "name": "agent-lightning",
+          "full_name": "microsoft/agent-lightning",
+          "url": "https://github.com/microsoft/agent-lightning",
+          "description": null,
+          "language": null,
+          "stars": 0,
+          "discovered_at": "2026-02-13",
+          "ai_tools": [
+            "Claude",
+            "AI Tools"
+          ],
+          "project_loc": 51339,
+          "dep_loc": 3007,
+          "ratio": 0.0553306591101461
         },
         {
           "owner": "hexa-org",
@@ -9923,6 +9970,23 @@
           "stars": 120301,
           "discovered_at": "2026-02-09",
           "project_loc": 2422255
+        },
+        {
+          "owner": "modelcontextprotocol",
+          "name": "ext-apps",
+          "full_name": "modelcontextprotocol/ext-apps",
+          "url": "https://github.com/modelcontextprotocol/ext-apps",
+          "description": null,
+          "language": null,
+          "stars": 0,
+          "discovered_at": "2026-02-13",
+          "ai_tools": [
+            "Claude",
+            "AI Tools"
+          ],
+          "project_loc": 19302,
+          "dep_loc": 0,
+          "ratio": 0.0
         },
         {
           "owner": "couler-proj",
@@ -10494,5 +10558,5 @@
       "timeframe": "weekly"
     }
   ],
-  "generated_at": "2026-02-13T22:17:11.753103+00:00"
+  "generated_at": "2026-02-13T22:25:23.892888+00:00"
 }

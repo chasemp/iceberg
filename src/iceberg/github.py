@@ -106,3 +106,40 @@ def fetch_trending_repos(
     except Exception as e:
         logger.error(f"Failed to fetch trending repos: {e}")
         raise GitHubError(f"Failed to fetch trending repos: {e}") from e
+
+
+def fetch_repo_metadata(owner: str, repo: str) -> dict[str, Any]:
+    """Fetch repository metadata from GitHub API.
+
+    Args:
+        owner: Repository owner
+        repo: Repository name
+
+    Returns:
+        Dictionary with repo metadata (name, owner, url, description, language, stars)
+
+    Raises:
+        GitHubError: When API request fails
+    """
+    try:
+        url = f"https://api.github.com/repos/{owner}/{repo}"
+        logger.info(f"Fetching repo metadata from {url}")
+
+        response = httpx.get(url, timeout=30.0, follow_redirects=True)
+        response.raise_for_status()
+        data = response.json()
+
+        metadata = {
+            "owner": data["owner"]["login"],
+            "name": data["name"],
+            "url": data["html_url"],
+            "description": data.get("description"),
+            "language": data.get("language"),
+            "stars": data.get("stargazers_count", 0),
+        }
+
+        logger.info(f"Successfully fetched metadata for {owner}/{repo}")
+        return metadata
+    except Exception as e:
+        logger.error(f"Failed to fetch repo metadata for {owner}/{repo}: {e}")
+        raise GitHubError(f"Failed to fetch repo metadata for {owner}/{repo}: {e}") from e
