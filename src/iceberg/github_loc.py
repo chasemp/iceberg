@@ -31,15 +31,22 @@ def get_current_head_hash(owner: str, name: str) -> str | None:
         return None
 
 
-def get_latest_published_version(owner: str, name: str) -> str | None:
+def get_latest_published_version(owner: str, name: str, token: str | None = None) -> str | None:
     """Get the latest published version (git tag) for a repository.
+
+    Args:
+        owner: Repository owner
+        name: Repository name
+        token: Optional GitHub token for authentication
 
     Returns the latest semver-like tag, or None if no tags found.
     """
+    from iceberg.github_client import GitHubClient
+
     try:
         # Use GitHub API to get latest release
-        url = f"https://api.github.com/repos/{owner}/{name}/releases/latest"
-        response = httpx.get(url, timeout=10.0, follow_redirects=True)
+        with GitHubClient(token=token) as client:
+            response = client.get(f"/repos/{owner}/{name}/releases/latest")
 
         if response.status_code == 200:
             data: dict[str, Any] = response.json()

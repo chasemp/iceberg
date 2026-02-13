@@ -46,25 +46,30 @@ AI_MARKER_FILES = [
 ]
 
 
-def check_file_exists(owner: str, repo: str, filepath: str) -> bool:
+def check_file_exists(
+    owner: str, repo: str, filepath: str, token: str | None = None
+) -> bool:
     """Check if a file exists in a GitHub repository.
 
     Args:
         owner: Repository owner
         repo: Repository name
         filepath: Path to check (e.g., "CLAUDE.md" or ".claude/")
+        token: Optional GitHub token for authentication
 
     Returns:
         True if file/directory exists, False otherwise
     """
-    for branch in ["main", "master"]:
-        url = f"https://api.github.com/repos/{owner}/{repo}/contents/{filepath}?ref={branch}"
-        try:
-            response = httpx.get(url, timeout=5.0)
-            if response.status_code == 200:
-                return True
-        except Exception:
-            continue
+    from iceberg.github_client import GitHubClient
+
+    with GitHubClient(token=token, max_retries=2) as client:
+        for branch in ["main", "master"]:
+            try:
+                response = client.get(f"/repos/{owner}/{repo}/contents/{filepath}?ref={branch}")
+                if response.status_code == 200:
+                    return True
+            except Exception:
+                continue
     return False
 
 

@@ -111,49 +111,45 @@ def search_repositories(
         RateLimitError: When rate limit is exceeded
         GitHubSearchError: When search fails
     """
-    try:
-        headers: dict[str, str] = {}
-        if token:
-            headers["Authorization"] = f"Bearer {token}"
+    from iceberg.exceptions import GitHubError
+    from iceberg.github_client import GitHubClient
 
+    try:
         all_repos: list[DiscoveredRepo] = []
         remaining = limit
         page = 1
 
-        while remaining > 0:
-            # GitHub API limits to 100 per page
-            per_page = min(remaining, 100)
+        with GitHubClient(token=token) as client:
+            while remaining > 0:
+                # GitHub API limits to 100 per page
+                per_page = min(remaining, 100)
 
-            url = f"https://api.github.com/search/repositories?q={query}&per_page={per_page}&page={page}"
+                response = client.get(
+                    f"/search/repositories?q={query}&per_page={per_page}&page={page}"
+                )
 
-            response = httpx.get(url, headers=headers, timeout=10.0, follow_redirects=True)
+                data = response.json()
+                repos = parse_search_response(data, query)
 
-            # Check for rate limit
-            if response.status_code == 403:
-                reset_header = response.headers.get("X-RateLimit-Reset")
-                if reset_header:
-                    raise RateLimitError(int(reset_header))
+                if not repos:
+                    break
 
-            response.raise_for_status()
+                all_repos.extend(repos)
+                remaining -= len(repos)
 
-            data = response.json()
-            repos = parse_search_response(data, query)
+                # Stop if we got fewer results than requested (no more pages)
+                if len(repos) < per_page:
+                    break
 
-            if not repos:
-                break
-
-            all_repos.extend(repos)
-            remaining -= len(repos)
-
-            # Stop if we got fewer results than requested (no more pages)
-            if len(repos) < per_page:
-                break
-
-            page += 1
+                page += 1
 
         return all_repos
 
-    except RateLimitError:
-        raise
+    except GitHubError as e:
+        # Convert GitHubError to RateLimitError if it's rate limit related
+        if "rate limit" in str(e).lower():
+            # Try to extract reset time from error message
+            raise RateLimitError(0)  # Use 0 as placeholder, client already waited
+        raise GitHubSearchError(f"Failed to search repositories: {e}") from e
     except Exception as e:
         raise GitHubSearchError(f"Failed to search repositories: {e}") from e

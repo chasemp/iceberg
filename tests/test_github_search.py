@@ -130,31 +130,44 @@ def test_search_repositories_handles_null_description(httpx_mock: HTTPXMock) -> 
 
 
 def test_search_repositories_rate_limit_error(httpx_mock: HTTPXMock) -> None:
+    from unittest.mock import patch
+
     from iceberg.github_search import RateLimitError, search_repositories
 
-    httpx_mock.add_response(
-        url="https://api.github.com/search/repositories?q=stars%3A%3E1000&per_page=30&page=1",
-        status_code=403,
-        json={
-            "message": "API rate limit exceeded",
-            "documentation_url": "https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting",
-        },
-        headers={"X-RateLimit-Reset": "1609459200"},
-    )
+    # Mock multiple 403 responses for retries (1 initial + 3 retries = 4 total)
+    for _ in range(4):
+        httpx_mock.add_response(
+            url="https://api.github.com/search/repositories?q=stars:%3E1000&per_page=30&page=1",
+            status_code=403,
+            json={
+                "message": "API rate limit exceeded",
+                "documentation_url": "https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting",
+            },
+            headers={
+                "X-RateLimit-Reset": "1609459200",
+                "X-RateLimit-Remaining": "0",
+            },
+        )
 
-    with pytest.raises(RateLimitError) as exc_info:
-        search_repositories("stars:>1000", limit=30)
+    with patch("time.sleep"):  # Don't actually sleep during tests
+        with pytest.raises(RateLimitError) as exc_info:
+            search_repositories("stars:>1000", limit=30)
 
     assert "rate limit" in str(exc_info.value).lower()
 
 
 def test_search_repositories_handles_network_error(httpx_mock: HTTPXMock) -> None:
+    from unittest.mock import patch
+
     from iceberg.github_search import GitHubSearchError, search_repositories
 
-    httpx_mock.add_exception(Exception("Network error"))
+    # Add exception for initial request + retries (4 total)
+    for _ in range(4):
+        httpx_mock.add_exception(Exception("Network error"))
 
-    with pytest.raises(GitHubSearchError) as exc_info:
-        search_repositories("stars:>1000", limit=30)
+    with patch("time.sleep"):  # Don't actually sleep during tests
+        with pytest.raises(GitHubSearchError) as exc_info:
+            search_repositories("stars:>1000", limit=30)
 
     assert "Failed to search" in str(exc_info.value)
 

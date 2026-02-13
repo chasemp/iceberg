@@ -85,7 +85,9 @@ def fetch_trending_repos(
         source = "trending-monthly"
 
         logger.info(f"Fetching trending repos from {url}")
-        response = httpx.get(url, timeout=30.0, follow_redirects=True)
+        # trust_env=False to avoid proxy issues in tests
+        with httpx.Client(timeout=30.0, follow_redirects=True, trust_env=False) as client:
+            response = client.get(url)
         response.raise_for_status()
         repos = parse_trending_html(response.text)
 
@@ -108,12 +110,15 @@ def fetch_trending_repos(
         raise GitHubError(f"Failed to fetch trending repos: {e}") from e
 
 
-def fetch_repo_metadata(owner: str, repo: str) -> dict[str, Any]:
+def fetch_repo_metadata(
+    owner: str, repo: str, token: str | None = None
+) -> dict[str, Any]:
     """Fetch repository metadata from GitHub API.
 
     Args:
         owner: Repository owner
         repo: Repository name
+        token: Optional GitHub token for authentication
 
     Returns:
         Dictionary with repo metadata (name, owner, url, description, language, stars)
@@ -121,25 +126,22 @@ def fetch_repo_metadata(owner: str, repo: str) -> dict[str, Any]:
     Raises:
         GitHubError: When API request fails
     """
-    try:
-        url = f"https://api.github.com/repos/{owner}/{repo}"
-        logger.info(f"Fetching repo metadata from {url}")
+    from iceberg.github_client import GitHubClient
 
-        response = httpx.get(url, timeout=30.0, follow_redirects=True)
-        response.raise_for_status()
+    logger.info(f"Fetching repo metadata for {owner}/{repo}")
+
+    with GitHubClient(token=token) as client:
+        response = client.get(f"/repos/{owner}/{repo}")
         data = response.json()
 
-        metadata = {
-            "owner": data["owner"]["login"],
-            "name": data["name"],
-            "url": data["html_url"],
-            "description": data.get("description"),
-            "language": data.get("language"),
-            "stars": data.get("stargazers_count", 0),
-        }
+    metadata = {
+        "owner": data["owner"]["login"],
+        "name": data["name"],
+        "url": data["html_url"],
+        "description": data.get("description"),
+        "language": data.get("language"),
+        "stars": data.get("stargazers_count", 0),
+    }
 
-        logger.info(f"Successfully fetched metadata for {owner}/{repo}")
-        return metadata
-    except Exception as e:
-        logger.error(f"Failed to fetch repo metadata for {owner}/{repo}: {e}")
-        raise GitHubError(f"Failed to fetch repo metadata for {owner}/{repo}: {e}") from e
+    logger.info(f"Successfully fetched metadata for {owner}/{repo}")
+    return metadata
